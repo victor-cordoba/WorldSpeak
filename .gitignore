@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------
+# CONTENIDO CON DERECHOS DE AUTOR - NUNCA SE SUBE
+# ---------------------------------------------------------------
+# El audio fuente es material comercial de Pimsleur y las
+# transcripciones son obra derivada de ese audio. El repositorio
+# publica el MOTOR, no el contenido.
+audio
+audio/
+*.mp3
+*.m4a
+*.wav
+transcripts/
+_cache/
+
+# ---------------------------------------------------------------
+# Secretos
+# ---------------------------------------------------------------
+.env
+*.key
+openai_api_key
+secrets.json
+data/
+users.json
+
+# ---------------------------------------------------------------
+# Basura del sistema y de herramientas
+# ---------------------------------------------------------------
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.playwright-cli/
+*.log
+.idea/
+.vscode/

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="Media hora al día. Solo escuchar y repetir.">
+  <title>Aprende Tagalog</title>
+  <link rel="canonical" href="https://misioncebu.org/tagalog/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://misioncebu.org/tagalog/">
+  <meta property="og:title" content="Aprende Tagalog">
+  <meta property="og:description" content="Media hora al día. Solo escuchar y repetir.">
+  <meta property="og:image" content="https://misioncebu.org/tagalog/social-image-20260622-centered.png">
+  <meta property="og:image:secure_url" content="https://misioncebu.org/tagalog/social-image-20260622-centered.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aprende Tagalog">
+  <meta name="twitter:description" content="Media hora al día. Solo escuchar y repetir.">
+  <meta name="twitter:image" content="https://misioncebu.org/tagalog/social-image-20260622-centered.png">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260622-21">
+  <link rel="stylesheet" href="./styles.css?v=20260622-38">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Mag-aral tayo</p>
+        <h1>¡APRENDE TAGALOG!</h1>
+        <div class="hero-message">
+          <p class="hero-pill">MEDIA HORA AL DÍA. ESCUCHA Y REPITE</p>
+          <p class="subhead">De camino al trabajo, en el bus, en el coche... Dale al play y practica.</p>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="ph-flag" aria-label="Bandera de Filipinas" role="img">
+          <span class="flag-blue"></span>
+          <span class="flag-red"></span>
+          <span class="flag-white"></span>
+          <span class="flag-sun"></span>
+          <span class="star star-one"></span>
+          <span class="star star-two"></span>
+          <span class="star star-three"></span>
+        </div>
+        <div class="stats" aria-label="Progreso">
+          <span><strong id="doneCount">0</strong> hechas</span>
+          <span><strong id="totalCount">0</strong> audios</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="player-panel" aria-label="Reproductor">
+      <div class="now">
+        <span id="trackType" class="player-lesson-badge">01</span>
+        <div class="now-copy">
+          <h2 id="trackTitle">Primer contacto</h2>
+          <p id="trackSubtitle" hidden></p>
+        </div>
+      </div>
+      <audio id="player" preload="metadata" playsinline></audio>
+      <div class="player-transport" aria-label="Controles principales">
+        <button id="prevTrack" class="icon-button transport-skip" type="button" aria-label="Anterior" hidden></button>
+        <button id="playPause" class="play-pause-button" type="button" aria-label="Reproducir"></button>
+        <button id="nextTrack" class="icon-button transport-skip" type="button" aria-label="Siguiente" hidden></button>
+      </div>
+      <div class="progress-row">
+        <input id="progress" class="progress" type="range" min="0" max="1000" value="0" step="1" aria-label="Progreso">
+        <div class="time-row">
+          <span id="currentTime">0:00</span>
+          <span id="duration">--:--</span>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="transcriptToggle" class="transcript-toggle player-text-toggle" type="button" aria-controls="transcriptPanel" hidden>
+          <span class="transcript-toggle-icon" aria-hidden="true"></span>
+          <strong>Leer texto</strong>
+        </button>
+        <button id="markDone" class="icon-button mark-button" type="button" aria-label="Marcar hecha"></button>
+        <label class="speed-control">
+          <span class="sr-only">Velocidad</span>
+          <select id="speed" aria-label="Velocidad">
+            <option value="0.75">0.75x</option>
+            <option value="0.9">0.9x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.1">1.1x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section id="transcriptPanel" class="transcript-panel" aria-label="Transcripción" hidden>
+      <button id="transcriptClose" class="transcript-close" type="button" aria-label="Cerrar texto"></button>
+      <div class="transcript-header">
+        <div>
+          <p class="transcript-kicker">Guía de estudio</p>
+          <h2 id="transcriptTitle">Lección 01</h2>
+        </div>
+        <span id="transcriptCount" class="transcript-count"></span>
+      </div>
+      <p id="transcriptSummary" class="transcript-summary"></p>
+      <div id="topicList" class="topic-list"></div>
+      <div class="dialogue-grid" aria-label="Diálogo de la lección">
+        <article class="dialogue-card dialogue-tl">
+          <h3>Tagalog</h3>
+          <ol id="dialogueTagalog"></ol>
+        </article>
+        <article class="dialogue-card dialogue-es">
+          <h3>Español</h3>
+          <ol id="dialogueSpanish"></ol>
+        </article>
+      </div>
+      <div class="transcript-actions">
+        <button id="translationToggle" class="translation-toggle" type="button">Ocultar traducción ES</button>
+      </div>
+      <div id="transcriptLegend" class="transcript-legend" aria-label="Leyenda de transcripción">
+        <span class="legend-pill legend-tl">Tagalog</span>
+        <span class="legend-pill legend-en">Inglés</span>
+      </div>
+      <div id="transcriptList" class="transcript-list"></div>
+    </section>
+
+    <section class="dictionary-access" aria-label="Diccionario de Tagalog">
+      <button id="dictionaryOpen" class="dictionary-button" type="button">
+        <span class="dictionary-button-icon" aria-hidden="true"></span>
+        <span>
+          <strong>DICCIONARIO</strong>
+          <em>Palabras, frases clave y traducciones de las lecciones.</em>
+        </span>
+      </button>
+    </section>
+
+    <section class="tools" aria-label="Filtros">
+      <input id="search" type="search" placeholder="Buscar lección..." autocomplete="off">
+      <div class="chips">
+        <button class="chip active" type="button" data-filter="all">Todo</button>
+        <button class="chip" type="button" data-filter="main">Lecciones</button>
+        <button class="chip" type="button" data-filter="readings">Lecturas</button>
+        <button class="chip" type="button" data-filter="pending">Pendientes</button>
+      </div>
+    </section>
+
+    <section>
+      <div id="lessonList" class="lesson-list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <div id="dictionaryModal" class="dictionary-modal" role="dialog" aria-modal="true" aria-labelledby="dictionaryTitle" hidden>
+    <button class="dictionary-backdrop" type="button" data-dictionary-close aria-label="Cerrar diccionario"></button>
+    <section class="dictionary-panel">
+      <header class="dictionary-header">
+        <div>
+          <p class="dictionary-kicker">Tagalog + Español</p>
+          <h2 id="dictionaryTitle">DICCIONARIO</h2>
+        </div>
+        <button id="dictionaryClose" class="dictionary-close" type="button" aria-label="Cerrar diccionario"></button>
+      </header>
+      <div class="dictionary-search-row">
+        <input id="dictionarySearch" type="search" placeholder="Buscar palabra, frase o tema..." autocomplete="off">
+        <span id="dictionaryStats" class="dictionary-stats"></span>
+      </div>
+      <div id="dictionaryList" class="dictionary-list" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <script src="./app.js?v=20260622-36"></script>
+</body>
+</html>
