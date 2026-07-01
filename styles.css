@@ -93,6 +93,93 @@ svg {
   padding: 34px 0 56px;
 }
 
+.study-topbar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.study-topbar.has-continue {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.continue-button,
+.account-toggle {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  border: 1px solid rgba(32, 36, 44, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  cursor: pointer;
+  padding: 7px 12px 7px 8px;
+  box-shadow: 0 12px 28px rgba(32, 36, 44, 0.08);
+}
+
+.continue-button[hidden] {
+  display: none;
+}
+
+.continue-button:hover,
+.account-toggle:hover,
+.continue-button:focus-visible,
+.account-toggle:focus-visible {
+  border-color: rgba(0, 56, 168, 0.34);
+  outline: 0;
+  box-shadow: 0 0 0 4px rgba(0, 56, 168, 0.12);
+}
+
+.continue-icon,
+.account-initial {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  font-weight: 900;
+}
+
+.continue-icon {
+  background: var(--gold);
+  color: #332400;
+}
+
+.continue-button span:last-child,
+.account-toggle span:last-child {
+  display: grid;
+  gap: 1px;
+  min-width: 0;
+  text-align: left;
+}
+
+.continue-button strong,
+.account-toggle strong {
+  font-size: 0.82rem;
+  line-height: 1.05;
+}
+
+.continue-button em,
+.account-toggle em {
+  max-width: 180px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-style: normal;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -148,6 +235,7 @@ h1 {
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .hero-side {
@@ -1110,6 +1198,29 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
   gap: 24px;
 }
 
+.site-footer {
+  margin: clamp(44px, 7vw, 72px) auto calc(132px + env(safe-area-inset-bottom));
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 56, 168, 0.18);
+}
+
+.site-footer a:hover {
+  color: var(--red);
+  border-bottom-color: rgba(206, 17, 38, 0.28);
+}
+
 .lesson-section {
   display: grid;
   gap: 14px;
@@ -1231,6 +1342,12 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
   border-color: #b8dbc8;
 }
 
+.lesson-card.current {
+  background: #fff6cf;
+  border-color: #f2c94c;
+  box-shadow: 0 16px 34px rgba(255, 206, 0, 0.13);
+}
+
 .lesson-number {
   display: grid;
   place-items: center;
@@ -1273,6 +1390,20 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
   flex-wrap: wrap;
   min-width: 0;
   margin-top: 10px;
+}
+
+.current-badge {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 10px;
+  border-radius: 999px;
+  background: rgba(255, 206, 0, 0.22);
+  color: #6f5100;
+  padding: 5px 10px;
+  font-size: 0.74rem;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .lesson-topics span {
@@ -1329,6 +1460,7 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
   color: var(--ink);
   font-size: 1rem;
   letter-spacing: 0.04em;
+  overflow-wrap: anywhere;
 }
 
 .dictionary-button em {
@@ -1338,6 +1470,7 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
   font-size: 0.9rem;
   font-style: normal;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .dictionary-modal {
@@ -1540,6 +1673,291 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
   text-align: center;
 }
 
+.account-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 110;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.account-modal[hidden] {
+  display: none;
+}
+
+.account-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(20, 24, 32, 0.52);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.account-panel {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 16px;
+  width: min(520px, 100%);
+  max-height: calc(100vh - 36px);
+  overflow: auto;
+  border: 1px solid rgba(32, 36, 44, 0.12);
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 32px 90px rgba(20, 24, 32, 0.3);
+}
+
+.account-header {
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.account-kicker {
+  margin: 0 0 4px;
+  color: var(--red);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.account-header h2 {
+  margin: 0;
+  font-size: 1.65rem;
+  line-height: 1;
+}
+
+.account-close {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  border: 1px solid rgba(32, 36, 44, 0.12);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.account-close:hover,
+.account-close:focus-visible {
+  border-color: var(--blue);
+  color: var(--blue);
+  outline: 0;
+}
+
+.account-logged {
+  border: 1px solid rgba(0, 56, 168, 0.16);
+  border-left: 6px solid var(--blue);
+  border-radius: 8px;
+  background: var(--blue-soft);
+  padding: 12px 14px;
+}
+
+.account-logged p,
+.account-actions p,
+.account-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.account-form {
+  display: grid;
+  gap: 12px;
+}
+
+.account-form[hidden] {
+  display: none;
+}
+
+.account-form label {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.account-form input {
+  width: 100%;
+  min-height: 46px;
+}
+
+.pin-hidden-input {
+  position: absolute;
+  width: 1px !important;
+  height: 1px !important;
+  min-height: 0 !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pin-dots {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  min-height: 54px;
+  border: 1px solid rgba(32, 36, 44, 0.12);
+  border-radius: 12px;
+  background: #fff;
+  padding: 10px;
+}
+
+.pin-dots span {
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: #f0f2f6;
+}
+
+.pin-dots span::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #c8cdd7;
+  transform: scale(0.82);
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.pin-dots span.is-filled::after {
+  background: var(--ink);
+  transform: scale(1);
+}
+
+.pin-pad {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.pin-pad button {
+  min-height: 46px;
+  border: 1px solid rgba(32, 36, 44, 0.12);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 900;
+  box-shadow: 0 10px 22px rgba(32, 36, 44, 0.06);
+}
+
+.pin-pad button:hover,
+.pin-pad button:focus-visible {
+  border-color: rgba(0, 56, 168, 0.35);
+  background: var(--blue-soft);
+  outline: 0;
+}
+
+.pin-pad-action {
+  color: var(--muted) !important;
+  font-size: 0.78rem !important;
+  text-transform: uppercase;
+}
+
+.account-submit,
+.account-continue,
+.account-ghost {
+  min-height: 46px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 11px 14px;
+  font-weight: 900;
+}
+
+.account-submit,
+.account-continue {
+  background: var(--blue);
+  color: #fff;
+  box-shadow: inset 0 -4px 0 var(--red);
+}
+
+.account-submit:hover,
+.account-continue:hover,
+.account-submit:focus-visible,
+.account-continue:focus-visible {
+  background: var(--accent-dark);
+  outline: 0;
+}
+
+.account-status.is-error {
+  color: var(--red);
+}
+
+.account-status.is-ok {
+  color: var(--green);
+}
+
+.account-progress-card {
+  display: grid;
+  gap: 14px;
+  border: 1px solid rgba(32, 36, 44, 0.1);
+  border-radius: 10px;
+  background: #f8faff;
+  padding: 14px;
+}
+
+.account-progress-card dl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0;
+}
+
+.account-progress-card div {
+  min-width: 0;
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px;
+}
+
+.account-progress-card dt {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.account-progress-card dd {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.account-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.account-ghost {
+  border: 1px solid rgba(32, 36, 44, 0.12);
+  background: #fff;
+  color: var(--ink);
+  box-shadow: none;
+}
+
+.account-ghost:hover,
+.account-ghost:focus-visible {
+  border-color: var(--red);
+  color: var(--red);
+  outline: 0;
+}
+
 .status-icon {
   display: grid;
   place-items: center;
@@ -1551,6 +1969,10 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
 
 .status-icon.is-done {
   color: var(--green);
+}
+
+.status-icon.is-current {
+  color: #b88900;
 }
 
 .status-icon svg {
@@ -1584,6 +2006,12 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
 
 .readings-track .play-button {
   background: var(--red);
+}
+
+.lesson-card.current .play-button,
+.readings-track .play-button.is-current {
+  background: var(--gold);
+  color: #3c2c00;
 }
 
 .play-button:hover {
@@ -1692,6 +2120,41 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
     margin: 0 auto;
     padding: 12px 14px 36px;
     overflow: hidden;
+  }
+
+  .study-topbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .study-topbar.has-continue {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .continue-button,
+  .account-toggle {
+    min-width: 0;
+    min-height: 44px;
+    padding: 6px 10px 6px 7px;
+  }
+
+  .continue-icon,
+  .account-initial {
+    width: 32px;
+    height: 32px;
+  }
+
+  .continue-button strong,
+  .account-toggle strong {
+    font-size: 0.76rem;
+  }
+
+  .continue-button em,
+  .account-toggle em {
+    max-width: 118px;
+    font-size: 0.66rem;
   }
 
   .hero,
@@ -2107,9 +2570,14 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
     padding: 12px;
   }
 
+  .dictionary-button > span {
+    min-width: 0;
+  }
+
   .dictionary-button-icon {
     width: 42px;
     height: 42px;
+    flex: 0 0 42px;
   }
 
   .dictionary-button strong {
@@ -2147,5 +2615,25 @@ body.transcript-focus-mode .transcript-close svg path:last-child {
 
   .dictionary-stats {
     justify-self: start;
+  }
+
+  .account-modal {
+    align-items: end;
+    padding: 10px;
+  }
+
+  .account-panel {
+    width: 100%;
+    max-height: calc(100vh - 20px);
+    padding: 16px;
+    border-radius: 10px;
+  }
+
+  .account-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .account-progress-card dl {
+    grid-template-columns: 1fr;
   }
 }

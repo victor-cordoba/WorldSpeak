@@ -21,10 +21,27 @@
   <meta name="twitter:description" content="Media hora al día. Solo escuchar y repetir.">
   <meta name="twitter:image" content="https://misioncebu.org/tagalog/social-image-20260622-centered.png">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260622-21">
-  <link rel="stylesheet" href="./styles.css?v=20260622-38">
+  <link rel="stylesheet" href="./styles.css?v=20260701-4">
 </head>
 <body>
   <main class="shell">
+    <header id="studyTopbar" class="study-topbar" aria-label="Cuenta y progreso">
+      <button id="continueButton" class="continue-button" type="button" hidden>
+        <span class="continue-icon" aria-hidden="true"></span>
+        <span>
+          <strong>Continuar</strong>
+          <em id="continueMeta">Donde ibas</em>
+        </span>
+      </button>
+      <button id="accountToggle" class="account-toggle" type="button" aria-controls="accountModal" aria-expanded="false">
+        <span id="accountInitial" class="account-initial" aria-hidden="true">?</span>
+        <span>
+          <strong id="accountLabel">Entrar</strong>
+          <em id="accountMeta">Guardar progreso</em>
+        </span>
+      </button>
+    </header>
+
     <section class="hero">
       <div>
         <p class="eyebrow">Mag-aral tayo</p>
@@ -47,6 +64,7 @@
         <div class="stats" aria-label="Progreso">
           <span><strong id="doneCount">0</strong> hechas</span>
           <span><strong id="totalCount">0</strong> audios</span>
+          <span><strong id="listenedTime">0 min</strong> escuchadas</span>
         </div>
       </div>
     </section>
@@ -146,6 +164,10 @@
     <section>
       <div id="lessonList" class="lesson-list" aria-live="polite"></div>
     </section>
+
+    <footer class="site-footer">
+      <p>Designed by <a href="https://victorcordoba.com/" target="_blank" rel="noopener">Víctor Córdoba</a></p>
+    </footer>
   </main>
 
   <div id="dictionaryModal" class="dictionary-modal" role="dialog" aria-modal="true" aria-labelledby="dictionaryTitle" hidden>
@@ -166,6 +188,79 @@
     </section>
   </div>
 
-  <script src="./app.js?v=20260622-36"></script>
+  <div id="accountModal" class="account-modal" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden>
+    <button class="account-backdrop" type="button" data-account-close aria-label="Cerrar cuenta"></button>
+    <section class="account-panel">
+      <header class="account-header">
+        <div>
+          <p class="account-kicker">Progreso opcional</p>
+          <h2 id="accountTitle">Tu cuenta de estudio</h2>
+        </div>
+        <button id="accountClose" class="account-close" type="button" aria-label="Cerrar cuenta"></button>
+      </header>
+
+      <div id="accountLogged" class="account-logged" hidden>
+        <p>Sesión iniciada como <strong id="accountNameLabel">Víctor</strong>.</p>
+      </div>
+
+      <form id="accountForm" class="account-form">
+        <label>
+          <span>Nombre</span>
+          <input id="accountName" name="name" type="text" autocomplete="username" placeholder="Tu nombre" maxlength="80">
+        </label>
+        <label>
+          <span>PIN</span>
+          <div id="pinDots" class="pin-dots" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <input id="accountPin" class="pin-hidden-input" name="pin" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="current-password" aria-label="PIN de 4 números" minlength="4" maxlength="4">
+        </label>
+        <div id="pinPad" class="pin-pad" aria-label="Teclado PIN">
+          <button type="button" data-pin-key="1">1</button>
+          <button type="button" data-pin-key="2">2</button>
+          <button type="button" data-pin-key="3">3</button>
+          <button type="button" data-pin-key="4">4</button>
+          <button type="button" data-pin-key="5">5</button>
+          <button type="button" data-pin-key="6">6</button>
+          <button type="button" data-pin-key="7">7</button>
+          <button type="button" data-pin-key="8">8</button>
+          <button type="button" data-pin-key="9">9</button>
+          <button class="pin-pad-action" type="button" data-pin-clear>Limpiar</button>
+          <button type="button" data-pin-key="0">0</button>
+          <button class="pin-pad-action" type="button" data-pin-back>Borrar</button>
+        </div>
+        <button class="account-submit" type="submit">Entrar / crear</button>
+      </form>
+
+      <p id="accountStatus" class="account-status" role="status"></p>
+
+      <div class="account-progress-card">
+        <dl>
+          <div>
+            <dt>Escuchado</dt>
+            <dd id="accountHours">0 min</dd>
+          </div>
+          <div>
+            <dt>Hechas</dt>
+            <dd id="accountDone">0</dd>
+          </div>
+          <div>
+            <dt>Último punto</dt>
+            <dd id="accountLast">Sin empezar</dd>
+          </div>
+        </dl>
+        <button id="accountContinue" class="account-continue" type="button">Continuar por donde iba</button>
+      </div>
+
+      <div class="account-actions">
+        <button id="accountLogout" class="account-ghost" type="button" hidden>Cerrar sesión</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="./app.js?v=20260701-4"></script>
 </body>
 </html>

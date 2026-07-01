@@ -1,5 +1,5 @@
 const audioBase = './audio/';
-const assetVersion = '20260622-36';
+const assetVersion = '20260701-4';
 const tracks = [];
 
 for (let lesson = 1; lesson <= 30; lesson += 1) {
@@ -283,8 +283,41 @@ const dictionarySearch = document.querySelector('#dictionarySearch');
 const dictionaryStats = document.querySelector('#dictionaryStats');
 const dictionaryList = document.querySelector('#dictionaryList');
 const chips = [...document.querySelectorAll('.chip')];
+const listenedTime = document.querySelector('#listenedTime');
+const studyTopbar = document.querySelector('#studyTopbar');
+const continueButton = document.querySelector('#continueButton');
+const continueMeta = document.querySelector('#continueMeta');
+const accountToggle = document.querySelector('#accountToggle');
+const accountInitial = document.querySelector('#accountInitial');
+const accountLabel = document.querySelector('#accountLabel');
+const accountMeta = document.querySelector('#accountMeta');
+const accountModal = document.querySelector('#accountModal');
+const accountClose = document.querySelector('#accountClose');
+const accountForm = document.querySelector('#accountForm');
+const accountName = document.querySelector('#accountName');
+const accountPin = document.querySelector('#accountPin');
+const pinPad = document.querySelector('#pinPad');
+const pinDots = [...document.querySelectorAll('#pinDots span')];
+const accountStatus = document.querySelector('#accountStatus');
+const accountLogged = document.querySelector('#accountLogged');
+const accountNameLabel = document.querySelector('#accountNameLabel');
+const accountHours = document.querySelector('#accountHours');
+const accountDone = document.querySelector('#accountDone');
+const accountLast = document.querySelector('#accountLast');
+const accountContinue = document.querySelector('#accountContinue');
+const accountLogout = document.querySelector('#accountLogout');
 
-let currentId = localStorage.getItem('tagalog-current') || tracks[0].id;
+const progressStorageKey = 'tagalog-progress-v1';
+const accountStorageKey = 'tagalog-account-session-v1';
+const apiEndpoint = './api.php';
+let progressState = loadProgressState();
+let accountSession = loadAccountSession();
+let accountUser = accountSession?.user || null;
+let pendingSeekTime = null;
+let saveTimer = null;
+let lastListeningTick = null;
+let suppressNextMetadataPersist = false;
+let currentId = progressState.currentId || localStorage.getItem('tagalog-current') || tracks[0].id;
 let filter = 'all';
 let transcriptIndex = new Map();
 let transcriptOpen = false;
@@ -293,7 +326,7 @@ let playerVisible = false;
 let dictionaryLoaded = false;
 let dictionaryEntries = [];
 const transcriptCache = new Map();
-const done = new Set(JSON.parse(localStorage.getItem('tagalog-done') || '[]'));
+const done = new Set(progressState.done?.length ? progressState.done : JSON.parse(localStorage.getItem('tagalog-done') || '[]'));
 
 function srcFor(track) {
   return audioBase + encodeURIComponent(track.file);
@@ -341,6 +374,25 @@ function normalizeText(value) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
+function normalizeLoginName(value) {
+  return String(value || '')
+    .normalize('NFC')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 80);
+}
+
+function sanitizePin(value) {
+  return String(value || '').replace(/\D/g, '').slice(0, 4);
+}
+
+function updatePinDots() {
+  const length = sanitizePin(accountPin.value).length;
+  pinDots.forEach((dot, index) => {
+    dot.classList.toggle('is-filled', index < length);
+  });
+}
+
 function formatTime(seconds) {
   if (!Number.isFinite(seconds) || seconds < 0) {
     return '--:--';
@@ -361,6 +413,381 @@ function formatClock(seconds) {
   const minutes = Math.floor(rounded / 60);
   const secs = String(rounded % 60).padStart(2, '0');
   return `${minutes}:${secs}`;
+}
+
+function safeJsonParse(value, fallback) {
+  try {
+    return JSON.parse(value);
+  } catch (_error) {
+    return fallback;
+  }
+}
+
+function defaultProgressState() {
+  return {
+    version: 1,
+    done: [],
+    currentId: tracks[0]?.id || '',
+    positions: {},
+    lastPlayed: null,
+    totalSeconds: 0,
+    updatedAt: new Date().toISOString()
+  };
+}
+
+function normalizeProgressState(value = {}) {
+  const state = defaultProgressState();
+  const incoming = value && typeof value === 'object' ? value : {};
+  const positions = incoming.positions && typeof incoming.positions === 'object' ? incoming.positions : {};
+
+  state.done = Array.isArray(incoming.done) ? incoming.done.filter(Boolean) : [];
+  state.currentId = tracks.some((track) => track.id === incoming.currentId) ? incoming.currentId : state.currentId;
+  state.positions = Object.fromEntries(Object.entries(positions)
+    .filter(([id]) => tracks.some((track) => track.id === id))
+    .map(([id, item]) => {
+      const progressItem = item && typeof item === 'object' ? item : {};
+      return [id, {
+        currentTime: Math.max(0, Number(progressItem.currentTime) || 0),
+        duration: Math.max(0, Number(progressItem.duration) || 0),
+        updatedAt: progressItem.updatedAt || ''
+      }];
+    }));
+  state.lastPlayed = incoming.lastPlayed && tracks.some((track) => track.id === incoming.lastPlayed.id)
+    ? {
+        id: incoming.lastPlayed.id,
+        position: Math.max(0, Number(incoming.lastPlayed.position) || 0),
+        duration: Math.max(0, Number(incoming.lastPlayed.duration) || 0),
+        updatedAt: incoming.lastPlayed.updatedAt || ''
+      }
+    : null;
+  state.totalSeconds = Math.max(0, Number(incoming.totalSeconds) || 0);
+  state.updatedAt = incoming.updatedAt || state.updatedAt;
+  return state;
+}
+
+function loadProgressState() {
+  const saved = safeJsonParse(localStorage.getItem(progressStorageKey) || 'null', null);
+  const state = normalizeProgressState(saved);
+  const legacyDone = safeJsonParse(localStorage.getItem('tagalog-done') || '[]', []);
+  if (!state.done.length && Array.isArray(legacyDone) && legacyDone.length) {
+    state.done = legacyDone.filter(Boolean);
+  }
+  const legacyCurrent = localStorage.getItem('tagalog-current');
+  if (!saved && legacyCurrent && tracks.some((track) => track.id === legacyCurrent)) {
+    state.currentId = legacyCurrent;
+  }
+  return state;
+}
+
+function loadAccountSession() {
+  const saved = safeJsonParse(localStorage.getItem(accountStorageKey) || 'null', null);
+  return saved && saved.token && saved.user ? saved : null;
+}
+
+function saveAccountSession(session) {
+  accountSession = session;
+  accountUser = session?.user || null;
+  if (session) {
+    localStorage.setItem(accountStorageKey, JSON.stringify(session));
+  } else {
+    localStorage.removeItem(accountStorageKey);
+  }
+}
+
+function formatStudyTime(seconds) {
+  const total = Math.max(0, Number(seconds) || 0);
+  if (total < 3600) {
+    return `${Math.max(0, Math.round(total / 60))} min`;
+  }
+  const hours = total / 3600;
+  return `${hours >= 10 ? hours.toFixed(1) : hours.toFixed(2)} h`;
+}
+
+function trackById(id) {
+  return tracks.find((track) => track.id === id) || tracks[0];
+}
+
+function describeProgressPoint(point) {
+  if (!point?.id) {
+    return 'Sin empezar';
+  }
+  const track = trackById(point.id);
+  return `${playerNumberLabel(track)} · ${formatClock(Number(point.position) || 0)}`;
+}
+
+function latestPoint(progress) {
+  if (progress.lastPlayed?.id) {
+    return progress.lastPlayed;
+  }
+
+  const latest = Object.entries(progress.positions || {})
+    .map(([id, item]) => ({ id, ...item, position: item.currentTime }))
+    .sort((a, b) => Date.parse(b.updatedAt || 0) - Date.parse(a.updatedAt || 0))[0];
+  return latest || null;
+}
+
+function saveProgressLocal() {
+  progressState.done = [...done];
+  progressState.currentId = currentId;
+  progressState.updatedAt = new Date().toISOString();
+  localStorage.setItem(progressStorageKey, JSON.stringify(progressState));
+  localStorage.setItem('tagalog-current', currentId);
+  localStorage.setItem('tagalog-done', JSON.stringify([...done]));
+}
+
+function accountHeaders() {
+  const headers = { 'Content-Type': 'application/json' };
+  if (accountSession?.token) {
+    headers.Authorization = `Bearer ${accountSession.token}`;
+  }
+  return headers;
+}
+
+async function accountRequest(action, payload = {}) {
+  const response = await fetch(apiEndpoint, {
+    method: 'POST',
+    headers: accountHeaders(),
+    credentials: 'same-origin',
+    body: JSON.stringify({ action, ...payload })
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok || !data.ok) {
+    throw new Error(data.error || 'No se ha podido sincronizar.');
+  }
+  return data;
+}
+
+function scheduleServerSave() {
+  if (!accountSession?.token) {
+    return;
+  }
+  window.clearTimeout(saveTimer);
+  saveTimer = window.setTimeout(() => {
+    accountRequest('save', { progress: progressState }).catch(() => {});
+  }, 1800);
+}
+
+function mergeProgress(local, remote) {
+  const a = normalizeProgressState(local);
+  const b = normalizeProgressState(remote);
+  const merged = normalizeProgressState(a);
+  merged.done = [...new Set([...a.done, ...b.done])];
+  merged.totalSeconds = Math.max(a.totalSeconds, b.totalSeconds);
+
+  const ids = new Set([...Object.keys(a.positions || {}), ...Object.keys(b.positions || {})]);
+  ids.forEach((id) => {
+    const left = a.positions[id];
+    const right = b.positions[id];
+    if (!left) {
+      merged.positions[id] = right;
+      return;
+    }
+    if (!right) {
+      merged.positions[id] = left;
+      return;
+    }
+    const leftTime = Date.parse(left.updatedAt || 0);
+    const rightTime = Date.parse(right.updatedAt || 0);
+    merged.positions[id] = rightTime > leftTime ? right : left;
+  });
+
+  const leftLast = latestPoint(a);
+  const rightLast = latestPoint(b);
+  const leftTime = Date.parse(leftLast?.updatedAt || 0);
+  const rightTime = Date.parse(rightLast?.updatedAt || 0);
+  merged.lastPlayed = rightTime > leftTime ? rightLast : leftLast;
+  merged.currentId = merged.lastPlayed?.id || a.currentId || b.currentId || tracks[0].id;
+  return merged;
+}
+
+function applyProgressState(nextState) {
+  progressState = normalizeProgressState(nextState);
+  done.clear();
+  progressState.done.forEach((id) => done.add(id));
+  currentId = progressState.currentId || currentId;
+  saveProgressLocal();
+  if (!playerVisible) {
+    const point = latestPoint(progressState);
+    selectTrack(currentId, false, {
+      showPlayer: false,
+      openTranscript: false,
+      rememberSelection: false,
+      persistPrevious: false,
+      position: Number(point?.position) || null
+    });
+  }
+  updateStats();
+  updateAccountUi();
+  updateContinueUi();
+  renderList();
+}
+
+function currentTrackPosition(track) {
+  const position = progressState.positions?.[track.id];
+  const current = Number(position?.currentTime) || 0;
+  const knownDuration = Number(position?.duration) || 0;
+  if (current < 3) {
+    return 0;
+  }
+  if (knownDuration > 0 && current > knownDuration - 8) {
+    return 0;
+  }
+  return current;
+}
+
+function seekWhenReady(seconds) {
+  pendingSeekTime = Number(seconds) || 0;
+  applyPendingSeek();
+}
+
+function applyPendingSeek() {
+  if (!pendingSeekTime || !Number.isFinite(player.duration) || player.duration <= 0) {
+    return;
+  }
+  player.currentTime = Math.min(Math.max(0, pendingSeekTime), Math.max(0, player.duration - 1));
+  pendingSeekTime = null;
+  updateProgress();
+}
+
+function persistPlaybackProgress(options = {}) {
+  const { sync = true } = options;
+  const track = trackById(currentId);
+  const time = Math.max(0, Number(player.currentTime) || 0);
+  const trackDuration = Number.isFinite(player.duration) && player.duration > 0
+    ? player.duration
+    : Number(progressState.positions?.[track.id]?.duration) || 0;
+  const stamp = new Date().toISOString();
+
+  progressState.currentId = track.id;
+  progressState.done = [...done];
+  progressState.positions[track.id] = {
+    currentTime: time,
+    duration: trackDuration,
+    updatedAt: stamp
+  };
+  progressState.lastPlayed = {
+    id: track.id,
+    position: time,
+    duration: trackDuration,
+    updatedAt: stamp
+  };
+
+  saveProgressLocal();
+  updateAccountUi();
+  updateContinueUi();
+  if (sync) {
+    scheduleServerSave();
+  }
+}
+
+function recordListeningTime() {
+  if (player.paused || player.ended) {
+    lastListeningTick = null;
+    return;
+  }
+
+  const now = Date.now();
+  if (lastListeningTick) {
+    const delta = Math.min(5, Math.max(0, (now - lastListeningTick) / 1000));
+    if (delta > 0.1) {
+      progressState.totalSeconds += delta;
+    }
+  }
+  lastListeningTick = now;
+  persistPlaybackProgress({ sync: true });
+}
+
+function updateContinueUi() {
+  const point = latestPoint(progressState);
+  const hasPoint = Boolean(point?.id);
+  continueButton.hidden = !hasPoint;
+  studyTopbar.classList.toggle('has-continue', hasPoint);
+  accountContinue.disabled = !hasPoint;
+  if (!hasPoint) {
+    continueMeta.textContent = 'Donde ibas';
+    accountLast.textContent = 'Sin empezar';
+    return;
+  }
+  const track = trackById(point.id);
+  const meta = `${playerNumberLabel(track)} · ${displayTitle(track)} · ${formatClock(Number(point.position) || 0)}`;
+  continueMeta.textContent = meta;
+  accountLast.textContent = meta;
+}
+
+function updateAccountUi() {
+  const hoursText = formatStudyTime(progressState.totalSeconds);
+  listenedTime.textContent = hoursText;
+  accountHours.textContent = hoursText;
+  accountDone.textContent = String(done.size);
+  accountLogged.hidden = !accountUser;
+  accountForm.hidden = Boolean(accountUser);
+  accountLogout.hidden = !accountUser;
+  accountNameLabel.textContent = accountUser?.name || '';
+  accountLabel.textContent = accountUser ? accountUser.name : 'Entrar';
+  accountMeta.textContent = accountUser ? 'Progreso sincronizado' : 'Guardar progreso';
+  accountInitial.textContent = accountUser?.name?.trim()?.[0]?.toUpperCase() || '?';
+}
+
+function setAccountStatus(message = '', type = '') {
+  accountStatus.textContent = message;
+  accountStatus.classList.toggle('is-error', type === 'error');
+  accountStatus.classList.toggle('is-ok', type === 'ok');
+}
+
+function openAccountModal() {
+  accountModal.hidden = false;
+  accountToggle.setAttribute('aria-expanded', 'true');
+  document.body.classList.add('modal-open');
+  updateAccountUi();
+  updateContinueUi();
+  requestAnimationFrame(() => {
+    if (!accountUser) {
+      accountName.focus({ preventScroll: true });
+    }
+  });
+}
+
+function closeAccountModal() {
+  accountModal.hidden = true;
+  accountToggle.setAttribute('aria-expanded', 'false');
+  document.body.classList.remove('modal-open');
+  accountToggle.focus({ preventScroll: true });
+}
+
+function continueFromLastPoint() {
+  const point = latestPoint(progressState);
+  if (!point?.id) {
+    return;
+  }
+  const track = trackById(point.id);
+  transcriptOpen = false;
+  selectTrack(track.id, false, {
+    showPlayer: true,
+    openTranscript: false,
+    position: Number(point.position) || 0
+  });
+  player.play().catch(() => {});
+}
+
+async function restoreAccountSession() {
+  if (!accountSession?.token) {
+    updateAccountUi();
+    updateContinueUi();
+    return;
+  }
+
+  try {
+    const data = await accountRequest('me');
+    saveAccountSession({ token: accountSession.token, user: data.user });
+    applyProgressState(mergeProgress(progressState, data.progress || {}));
+    await accountRequest('save', { progress: progressState });
+    setAccountStatus('Progreso sincronizado.', 'ok');
+  } catch (_error) {
+    saveAccountSession(null);
+    setAccountStatus('', '');
+    updateAccountUi();
+    updateContinueUi();
+  }
 }
 
 function currentIndex() {
@@ -412,12 +839,17 @@ function updateCurrentSegment() {
 
 function saveDone() {
   localStorage.setItem('tagalog-done', JSON.stringify([...done]));
+  saveProgressLocal();
   updateStats();
+  updateAccountUi();
+  scheduleServerSave();
 }
 
 function updateStats() {
   doneCount.textContent = done.size;
   totalCount.textContent = tracks.length;
+  listenedTime.textContent = formatStudyTime(progressState.totalSeconds);
+  updateContinueUi();
 }
 
 function updatePlayButton() {
@@ -969,7 +1401,16 @@ function closeDictionary() {
 }
 
 function selectTrack(id, autoplay = true, options = {}) {
-  const { showPlayer = true, openTranscript = true } = options;
+  const {
+    showPlayer = true,
+    openTranscript = true,
+    position = null,
+    rememberSelection = true,
+    persistPrevious = true
+  } = options;
+  if (persistPrevious && player.currentSrc) {
+    persistPlaybackProgress({ sync: true });
+  }
   const track = tracks.find((item) => item.id === id) || tracks[0];
   currentId = track.id;
   localStorage.setItem('tagalog-current', currentId);
@@ -988,9 +1429,14 @@ function selectTrack(id, autoplay = true, options = {}) {
   trackType.dataset.kind = track.kind;
   playerPanel.dataset.kind = track.kind;
   const nextSrc = new URL(srcFor(track), window.location.href).href;
+  const resumeAt = Number.isFinite(Number(position)) ? Number(position) : currentTrackPosition(track);
   if (player.currentSrc !== nextSrc && player.src !== nextSrc) {
     resetProgressDisplay();
+    suppressNextMetadataPersist = !rememberSelection;
     player.src = srcFor(track);
+    seekWhenReady(resumeAt);
+  } else if (resumeAt > 0 && Math.abs(player.currentTime - resumeAt) > 2) {
+    seekWhenReady(resumeAt);
   }
   player.playbackRate = Number(speed.value);
   iconButton(markDone, 'check', done.has(track.id) ? 'Desmarcar' : 'Marcar');
@@ -1005,6 +1451,31 @@ function selectTrack(id, autoplay = true, options = {}) {
 
   if (autoplay) {
     player.play().catch(() => {});
+  }
+  if (!rememberSelection) {
+    progressState.currentId = track.id;
+    saveProgressLocal();
+    updateAccountUi();
+    updateContinueUi();
+  } else if (resumeAt > 0) {
+    const stamp = new Date().toISOString();
+    progressState.currentId = track.id;
+    progressState.positions[track.id] = {
+      ...(progressState.positions[track.id] || {}),
+      currentTime: resumeAt,
+      updatedAt: stamp
+    };
+    progressState.lastPlayed = {
+      id: track.id,
+      position: resumeAt,
+      duration: Number(progressState.positions[track.id]?.duration) || 0,
+      updatedAt: stamp
+    };
+    saveProgressLocal();
+    updateAccountUi();
+    updateContinueUi();
+  } else {
+    persistPlaybackProgress({ sync: false });
   }
 }
 
@@ -1103,7 +1574,9 @@ function renderList() {
 
 function createTrackCard(track) {
     const card = document.createElement('article');
-    card.className = `lesson-card ${track.kind}-track${done.has(track.id) ? ' done' : ''}`;
+    const isCurrent = track.id === currentId;
+    const isDone = done.has(track.id);
+    card.className = `lesson-card ${track.kind}-track${isDone ? ' done' : ''}${isCurrent && !isDone ? ' current' : ''}`;
     const entry = transcriptIndex.get(track.id);
 
     const number = document.createElement('span');
@@ -1122,6 +1595,13 @@ function createTrackCard(track) {
     meta.textContent = displaySubtitle(track);
     text.append(title, meta);
 
+    if (isCurrent && !isDone) {
+      const currentBadge = document.createElement('span');
+      currentBadge.className = 'current-badge';
+      currentBadge.textContent = 'Vas por aquí';
+      text.append(currentBadge);
+    }
+
     const topics = (entry?.topics || []).slice(0, 4);
     if (topics.length) {
       const topicWrap = document.createElement('div');
@@ -1135,13 +1615,12 @@ function createTrackCard(track) {
     }
 
     const status = document.createElement('span');
-    status.className = `status-icon${done.has(track.id) ? ' is-done' : ''}`;
+    status.className = `status-icon${isDone ? ' is-done' : ''}${isCurrent && !isDone ? ' is-current' : ''}`;
     status.innerHTML = icon('check');
-    status.title = done.has(track.id) ? 'Completada' : 'Pendiente';
-    status.setAttribute('aria-label', done.has(track.id) ? 'Completada' : 'Pendiente');
+    status.title = isDone ? 'Completada' : (isCurrent ? 'Vas por aquí' : 'Pendiente');
+    status.setAttribute('aria-label', isDone ? 'Completada' : (isCurrent ? 'Vas por aquí' : 'Pendiente'));
 
     const button = document.createElement('button');
-    const isCurrent = track.id === currentId;
     const isCurrentPlaying = isCurrent && !player.paused && !player.ended;
     const buttonLabel = isCurrentPlaying ? `Pausar ${fullTrackLabel(track)}` : `Reproducir ${fullTrackLabel(track)}`;
     button.className = `play-button${isCurrent ? ' is-current' : ''}`;
@@ -1185,6 +1664,13 @@ markDone.addEventListener('click', () => {
   renderList();
 });
 
+function syncCurrentDoneUi() {
+  iconButton(markDone, 'check', done.has(currentId) ? 'Desmarcar' : 'Marcar');
+  markDone.classList.toggle('is-done', done.has(currentId));
+  updateStats();
+  renderList();
+}
+
 function playPrevious() {
   const idx = currentIndex();
   selectTrack(tracks[Math.max(0, idx - 1)].id);
@@ -1209,8 +1695,11 @@ playPause.addEventListener('click', () => {
 });
 
 player.addEventListener('ended', () => {
+  recordListeningTime();
   done.add(currentId);
   saveDone();
+  persistPlaybackProgress({ sync: true });
+  syncCurrentDoneUi();
   updateTranscriptFocus();
   const idx = currentIndex();
   if (idx < tracks.length - 1) {
@@ -1221,27 +1710,47 @@ player.addEventListener('ended', () => {
 });
 
 player.addEventListener('play', () => {
+  lastListeningTick = Date.now();
   setPlayerVisible(true);
   updatePlayButton();
   updateTranscriptFocus();
+  persistPlaybackProgress({ sync: true });
   renderList();
 });
 
 player.addEventListener('pause', () => {
+  recordListeningTime();
   updatePlayButton();
   updateTranscriptFocus();
+  persistPlaybackProgress({ sync: true });
   renderList();
 });
 
-player.addEventListener('loadedmetadata', updateProgress);
-player.addEventListener('timeupdate', updateProgress);
+player.addEventListener('loadedmetadata', () => {
+  applyPendingSeek();
+  updateProgress();
+  if (suppressNextMetadataPersist) {
+    suppressNextMetadataPersist = false;
+    saveProgressLocal();
+    updateAccountUi();
+    updateContinueUi();
+    return;
+  }
+  persistPlaybackProgress({ sync: false });
+});
+player.addEventListener('timeupdate', () => {
+  updateProgress();
+  recordListeningTime();
+});
 window.addEventListener('resize', updatePlayerMetrics);
 
 progress.addEventListener('input', () => {
   if (Number.isFinite(player.duration) && player.duration > 0) {
     player.currentTime = (Number(progress.value) / 1000) * player.duration;
   }
+  lastListeningTick = player.paused ? null : Date.now();
   progress.style.setProperty('--progress', `${Number(progress.value) / 10}%`);
+  persistPlaybackProgress({ sync: true });
 });
 
 speed.addEventListener('change', () => {
@@ -1279,7 +1788,97 @@ dictionaryModal.addEventListener('click', (event) => {
   }
 });
 
+accountToggle.addEventListener('click', openAccountModal);
+accountClose.addEventListener('click', closeAccountModal);
+continueButton.addEventListener('click', continueFromLastPoint);
+accountContinue.addEventListener('click', () => {
+  closeAccountModal();
+  continueFromLastPoint();
+});
+
+accountModal.addEventListener('click', (event) => {
+  if (event.target.closest('[data-account-close]')) {
+    closeAccountModal();
+  }
+});
+
+accountPin.addEventListener('input', () => {
+  accountPin.value = sanitizePin(accountPin.value);
+  updatePinDots();
+});
+
+pinPad.addEventListener('click', (event) => {
+  const keyButton = event.target.closest('[data-pin-key]');
+  if (keyButton) {
+    accountPin.value = sanitizePin(`${accountPin.value}${keyButton.dataset.pinKey}`);
+    updatePinDots();
+    accountPin.focus({ preventScroll: true });
+    return;
+  }
+
+  if (event.target.closest('[data-pin-back]')) {
+    accountPin.value = accountPin.value.slice(0, -1);
+    updatePinDots();
+    accountPin.focus({ preventScroll: true });
+    return;
+  }
+
+  if (event.target.closest('[data-pin-clear]')) {
+    accountPin.value = '';
+    updatePinDots();
+    accountPin.focus({ preventScroll: true });
+  }
+});
+
+accountForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const name = normalizeLoginName(accountName.value);
+  const pin = sanitizePin(accountPin.value);
+  accountName.value = name;
+  accountPin.value = pin;
+  updatePinDots();
+  if (!name || pin.length !== 4) {
+    setAccountStatus('Escribe un nombre y un PIN de 4 números.', 'error');
+    return;
+  }
+
+  setAccountStatus('Sincronizando progreso...', '');
+  try {
+    persistPlaybackProgress({ sync: false });
+    const data = await accountRequest('login', {
+      name,
+      pin,
+      progress: progressState
+    });
+    saveAccountSession({ token: data.token, user: data.user });
+    applyProgressState(mergeProgress(progressState, data.progress || {}));
+    await accountRequest('save', { progress: progressState });
+    accountPin.value = '';
+    updatePinDots();
+    setAccountStatus('Listo. Tu progreso queda sincronizado.', 'ok');
+  } catch (error) {
+    setAccountStatus(error.message || 'No se ha podido entrar.', 'error');
+  }
+});
+
+accountLogout.addEventListener('click', async () => {
+  try {
+    await accountRequest('logout');
+  } catch (_error) {
+    // Local logout still matters even if the network request fails.
+  }
+  saveAccountSession(null);
+  accountForm.hidden = false;
+  setAccountStatus('Sesión cerrada. El progreso sigue guardado en este dispositivo.', 'ok');
+  updateAccountUi();
+});
+
 document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && !accountModal.hidden) {
+    closeAccountModal();
+    return;
+  }
+
   if (event.key === 'Escape' && !dictionaryModal.hidden) {
     closeDictionary();
     return;
@@ -1304,12 +1903,26 @@ speed.value = localStorage.getItem('tagalog-speed') || '1';
 iconButton(prevTrack, 'previous', 'Anterior');
 iconButton(nextTrack, 'next', 'Siguiente');
 iconButton(dictionaryClose, 'close', 'Cerrar diccionario');
+iconButton(accountClose, 'close', 'Cerrar cuenta');
 iconButton(transcriptClose, 'xCircleFilled', 'Cerrar texto');
 const dictionaryButtonIcon = dictionaryOpen.querySelector('.dictionary-button-icon');
 if (dictionaryButtonIcon) {
   dictionaryButtonIcon.innerHTML = icon('dictionary');
 }
+const continueIcon = continueButton.querySelector('.continue-icon');
+if (continueIcon) {
+  continueIcon.innerHTML = icon('play');
+}
 updateStats();
+updateAccountUi();
+updateContinueUi();
+updatePinDots();
 setPlayerVisible(false);
-selectTrack(currentId, false, { showPlayer: false, openTranscript: false });
+selectTrack(currentId, false, {
+  showPlayer: false,
+  openTranscript: false,
+  rememberSelection: false,
+  persistPrevious: false
+});
 loadTranscriptIndex();
+restoreAccountSession();
