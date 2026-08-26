@@ -37,7 +37,14 @@
         "style": 0.2,
         "use_speaker_boost": true
       },
-      "clean": false
+      "clean": false,
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "130bd00e5d89470bb0352d20b8c4bf8b",
+        "name": "Narratore Calmo (Fish)",
+        "voice_settings": {}
+      }
     },
     "native_f": {
       "provider": "elevenlabs",
@@ -50,7 +57,14 @@
         "style": 0.2,
         "use_speaker_boost": true
       },
-      "clean": false
+      "clean": false,
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "1fc7298d92b94174a1dac8c714be9ecc",
+        "name": "Voce Giovanile Italiana (Fish)",
+        "voice_settings": {}
+      }
     },
     "kid_m": {
       "provider": "elevenlabs",
@@ -63,7 +77,14 @@
         "style": 0.2,
         "use_speaker_boost": true
       },
-      "clean": false
+      "clean": false,
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "3ad879ce502844e2bd60ac67895e1064",
+        "name": "Giovane Voce Italiana (Fish)",
+        "voice_settings": {}
+      }
     },
     "kid_f": {
       "provider": "elevenlabs",
@@ -76,7 +97,14 @@
         "style": 0.2,
         "use_speaker_boost": true
       },
-      "clean": false
+      "clean": false,
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "1fc7298d92b94174a1dac8c714be9ecc",
+        "name": "Voce Giovanile Italiana (Fish)",
+        "voice_settings": {}
+      }
     }
   },
   "_alternativas": {

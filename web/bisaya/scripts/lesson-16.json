@@ -1,0 +1,1606 @@
+{
+  "title": "¿Dónde duermes?",
+  "subtitle": "Aprender a preguntar a los niños sobre su situación.",
+  "summary_es": "Una frase",
+  "topics": [
+    "ninos",
+    "preguntar",
+    "responder",
+    "ubicacion",
+    "cuidado"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta ka?",
+      "Maayo ra.",
+      "Asa ka matulog?",
+      "Sa dalan.",
+      "Ngano wala ka mouli?",
+      "Wala ko kuyog.",
+      "Uli na sa balay sa imong lola.",
+      "Sige, salamat."
+    ],
+    "es": [
+      "¿Cómo estás?",
+      "Bien.",
+      "¿Dónde duermes?",
+      "En la calle.",
+      "¿Por qué no has vuelto a casa?",
+      "No estoy acompañado.",
+      "Vuelve a casa de tu abuela.",
+      "Vale, gracias."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Asa ka matulog?",
+      "es": "¿Dónde duermes?"
+    },
+    {
+      "term": "Ngano wala ka mouli?",
+      "es": "¿Por qué no has vuelto a casa?"
+    },
+    {
+      "term": "Uli na.",
+      "es": "Vuelve a casa."
+    },
+    {
+      "term": "Sa dalan.",
+      "es": "En la calle."
+    },
+    {
+      "term": "Sa balay sa akong lola.",
+      "es": "En la casa de mi abuela."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 16. ¿Dónde duermes?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle de Cebú, un voluntario se acerca a un grupo de niños para conversar. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Maayo ra.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde duermes?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "En la calle.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Wala ko kuyog.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No estoy acompañado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na sa balay sa imong lola.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vuelve a casa de tu abuela.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sige, salamat.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vale, gracias.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar a los niños sobre su situación. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces aquí, niño?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Unsa imong gibuhat diri, dong?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí, niño?",
+      "item": "unsa-imong-gibuhat-diri-dong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás solo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nag-inusara ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "nag-inusara-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde están tu mamá y tu papá?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hain imong mama ug papa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu mamá y tu papá?",
+      "item": "hain-imong-mama-ug-papa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ven aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dali diri.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "dali-diri"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko diri.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí.",
+      "item": "naa-ko-diri"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está tu casa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa imong balay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está tu casa?",
+      "item": "asa-imong-balay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa diri.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está aquí.",
+      "item": "naa-diri"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde duermes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "log",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tulog",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "matulog",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka matulog",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar con amabilidad a un niño sobre su lugar de descanso.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde duermes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde duermes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Dos formas de decir no: dili niega lo que se hace o lo que se es, y wala dice que no hay o no se tiene.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Por qué no has vuelto a casa?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "li",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uli",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mouli",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "wala ka mouli",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indagar con suavidad por la razón de no regresar a casa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué no has vuelto a casa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué no has vuelto a casa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vuelve a casa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uli-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uli-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sugerencia cariñosa para que el niño regrese a casa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vuelve a casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vuelve a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En la calle». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lan",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dalan",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta común de un niño sin hogar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En la calle»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En la calle».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Por qué no has vuelto a casa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En la casa de mi abuela». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lola",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "akong lola",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "balay sa akong lola",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica que el niño tiene un lugar seguro.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En la casa de mi abuela»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En la casa de mi abuela».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hermano mayor / Hermana mayor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kuya / Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano mayor / Hermana mayor",
+      "item": "kuya-ate"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'mouli'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El verbo 'mouli' se utiliza para expresar la acción de volver a casa. Es común en contextos donde se pregunta por el regreso al hogar.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En la calle».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En la casa de mi abuela».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Lorega.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está en Lorega.",
+      "item": "naa-sa-lorega"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está en Lorega».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Lorega.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está en Lorega.",
+      "item": "naa-sa-lorega"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Pasil.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está en Pasil.",
+      "item": "naa-sa-pasil"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está en Pasil».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Pasil.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está en Pasil.",
+      "item": "naa-sa-pasil"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Mabolo.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está en Mabolo.",
+      "item": "naa-sa-mabolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está en Mabolo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Mabolo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está en Mabolo.",
+      "item": "naa-sa-mabolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a un niño dónde duerme.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Dile a un niño que vuelva a casa.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde duermes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué no has vuelto a casa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vuelve a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En la calle»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En la casa de mi abuela».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces aquí, niño?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Unsa imong gibuhat diri, dong?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí, niño?",
+      "item": "unsa-imong-gibuhat-diri-dong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás solo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nag-inusara ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "nag-inusara-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde están tu mamá y tu papá?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hain imong mama ug papa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu mamá y tu papá?",
+      "item": "hain-imong-mama-ug-papa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ven aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dali diri.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "dali-diri"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko diri.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí.",
+      "item": "naa-ko-diri"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está tu casa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa imong balay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está tu casa?",
+      "item": "asa-imong-balay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa diri.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está aquí.",
+      "item": "naa-diri"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde duermes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "asa-ka-matulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué no has vuelto a casa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": "ngano-wala-ka-mouli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vuelve a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vuelve a casa.",
+      "item": "uli-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En la calle»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En la calle.",
+      "item": "sa-dalan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En la casa de mi abuela».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sa balay sa akong lola.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "En la casa de mi abuela.",
+      "item": "sa-balay-sa-akong-lola"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Maayo ra.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka matulog?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde duermes?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sa dalan.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "En la calle.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ngano wala ka mouli?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Por qué no has vuelto a casa?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Wala ko kuyog.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No estoy acompañado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uli na sa balay sa imong lola.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vuelve a casa de tu abuela.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sige, salamat.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vale, gracias.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Amping!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.4,
+    "chars": 4082,
+    "cues": 171,
+    "mode": "lesson",
+    "lesson": 16
+  }
+}
