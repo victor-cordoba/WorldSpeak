@@ -228,13 +228,14 @@ nota del ítem desplegable por segmento.
 - [x] `content/recipes/lesson-01..03.json`.
 - [x] `compile_lesson.py`: receta + duración → cues (plantillas, construcción hacia atrás por sílabas, repaso espaciado cada 2 ítems, bloque «entender», modo review y modo a medida por ids).
 - [x] L01–L03 compiladas (143/159/163 cues, ~40–53 clips nativos únicos cada una) + `review-01` y `custom-pronombres-preguntas` como muestra. **Sin audio generado.**
-- [ ] Escenas y recetas L04–L08; ítems del Nivel 2 y 3.
-- [ ] Calibrar la estimación de minutos con audio real (la primera L01 real dirá si 15 min son ~150 cues o más).
+- [x] Escenas y recetas L04–L08 (Nivel 1 completo: 8 recetas, 8 escenas, 77 ítems).
+- [x] Calibrado con audio real: 10 min por unidad de escala; 15 min ≈ 175–200 cues. Estimador a 11 caracteres/s.
+- [ ] Ítems del Nivel 2 y 3.
 
 ### Fase B · Revisión humana y voces
 - [ ] Víctor revisa `items.json` con alguien de la misión (Tagalog, registro, tacto).
 - [ ] Fijar voces (¿un tercer nativo joven para las escenas con niños?).
-- [ ] Decidir proveedor: probar Fish Audio en Tagalog (doc 11). Generar L01–L08.
+- [x] Proveedor: **Fish Audio `s2.1-pro-free`** por defecto (`voices.json`); ElevenLabs queda en `voices-elevenlabs.json` y como pista de comparación de la L01. Nivel 1 (L01–L08) generado el 26/08/2026.
 - [ ] Textos del censo y notas de Visaya → ítems y escenas nuevas.
 
 ### Fase C · App del curso (diseño Duolingo) — en marcha 2026-08-26

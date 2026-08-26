@@ -1,69 +1,65 @@
 {
-  "title": "Yo, tú, mi, tu",
-  "subtitle": "Los pronombres que hacen funcionar todo: ako, ka, ko, mo, siya.",
-  "summary_es": "Aprendes los pronombres básicos, a decir mi casa y tu nombre al revés que en español, a devolver la pregunta con Ikaw y a decir yo también.",
+  "title": "Quiero… Quiero ir a…",
+  "subtitle": "Gusto ko, gusto mo ba, no quiero, y moverte por la ciudad.",
+  "summary_es": "Aprendes gusto ko ng y gusto kong pumunta, a preguntar gusto mo ba, a decir ayaw ko, a pedir el camino y a entender dumiretso, kumanan, kumaliwa.",
   "topics": [
-    "Pronombres",
-    "ako y ka",
-    "ko y mo",
-    "Yo también",
-    "Tengo hambre"
+    "Gusto ko",
+    "Gusto mo ba",
+    "Quiero ir a",
+    "Cómo se va",
+    "Derecha e izquierda"
   ],
   "dialogue": {
     "tl": [
-      "Ako si Marites. Ikaw?",
-      "Ako si Víctor. Gutom ako!",
-      "Ako rin! Malapit lang ang bahay ko.",
-      "Sino siya?",
-      "Kaibigan ko. Ikaw din, kaibigan ko na!"
+      "Paano pumunta sa Divisoria? Malayo ba?",
+      "Hindi. Dumiretso ka lang. Kumanan ka.",
+      "Gusto ko ng tubig. Gusto mo ba?",
+      "Ayaw ko. Gusto kong pumunta sa palengke.",
+      "Sige. Para po!"
     ],
     "es": [
-      "Yo soy Marites. ¿Y tú?",
-      "Yo soy Víctor. ¡Tengo hambre!",
-      "¡Yo también! Mi casa está aquí cerca.",
-      "¿Quién es ella?",
-      "Mi amiga. ¡Tú también, ya eres mi amigo!"
+      "¿Cómo se va a Divisoria? ¿Está lejos?",
+      "No. Sigue recto. Gira a la derecha.",
+      "Quiero agua. ¿Quieres?",
+      "No quiero. Quiero ir al mercado.",
+      "Vale. ¡Pare aquí!"
     ]
   },
   "vocabulary": [
     {
-      "term": "ako",
-      "es": "yo"
+      "term": "Gusto ko ng tubig.",
+      "es": "Quiero agua."
     },
     {
-      "term": "ikaw / ka",
-      "es": "tú"
+      "term": "Gusto mo ba?",
+      "es": "¿Quieres?"
     },
     {
-      "term": "ko",
-      "es": "mi / yo (agente)"
+      "term": "Gusto kong pumunta sa Divisoria.",
+      "es": "Quiero ir a Divisoria."
     },
     {
-      "term": "mo",
-      "es": "tu / tú (agente)"
+      "term": "Paano pumunta sa Tondo?",
+      "es": "¿Cómo se va a Tondo?"
     },
     {
-      "term": "siya",
-      "es": "él / ella"
+      "term": "Malayo ba?",
+      "es": "¿Está lejos?"
     },
     {
-      "term": "Bahay ko.",
-      "es": "Mi casa."
+      "term": "Kumanan ka. / Kumaliwa ka.",
+      "es": "Gira a la derecha. / Gira a la izquierda."
     },
     {
-      "term": "Ikaw?",
-      "es": "¿Y tú?"
-    },
-    {
-      "term": "Gutom ako.",
-      "es": "Tengo hambre."
+      "term": "Para po!",
+      "es": "¡Pare aquí! (en el jeepney)"
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 3. Yo, tú, mi, tu.",
+      "text": "Lección 5. Quiero… Quiero ir a….",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
@@ -72,61 +68,61 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Sentado con un amigo nuevo en un banco. Habláis de vosotros. Escucha la conversación.",
+      "text": "Quieres ir a Divisoria y no sabes por dónde. Preguntas a una señora en la esquina. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Marites. Ikaw?",
+      "text": "Paano pumunta sa Divisoria? Malayo ba?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Marites. ¿Y tú?",
+      "translation_es": "¿Cómo se va a Divisoria? ¿Está lejos?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi. Dumiretso ka lang. Kumanan ka.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No. Sigue recto. Gira a la derecha.",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor. Gutom ako!",
+      "text": "Gusto ko ng tubig. Gusto mo ba?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Víctor. ¡Tengo hambre!",
+      "translation_es": "Quiero agua. ¿Quieres?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin! Malapit lang ang bahay ko.",
+      "text": "Ayaw ko. Gusto kong pumunta sa palengke.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Yo también! Mi casa está aquí cerca.",
+      "translation_es": "No quiero. Quiero ir al mercado.",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sino siya?",
+      "text": "Sige. Para po!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Quién es ella?",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Kaibigan ko. Ikaw din, kaibigan ko na!",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Mi amiga. ¡Tú también, ya eres mi amigo!",
+      "translation_es": "Vale. ¡Pare aquí!",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Los pronombres que hacen funcionar todo: ako, ka, ko, mo, siya. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Gusto ko, gusto mo ba, no quiero, y moverte por la ciudad. Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -144,7 +140,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "text": "¿Cómo se dice «¿Dónde?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -153,16 +149,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Anong pangalan mo?",
+      "text": "Saan?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo"
+      "translation_es": "¿Dónde?",
+      "item": "saan"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Solo un poco».",
+      "text": "Di: «¿Qué es esto?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -171,11 +167,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Konti lang.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Solo un poco.",
-      "item": "konti-lang"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
@@ -198,7 +194,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Sabes hablar Tagalog?».",
+      "text": "Di: «Solo un poco».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -207,16 +203,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Marunong ka bang mag-Tagalog?",
+      "text": "Konti lang.",
       "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "¿Sabes hablar Tagalog?",
-      "item": "marunong-tagalog"
+      "pause": 2.5,
+      "translation_es": "Solo un poco.",
+      "item": "konti-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«yo». Escucha y repite.",
+      "text": "«Quiero agua». Literalmente, gusto mi de agua. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -225,52 +221,79 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "big",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ako"
+      "item": "gusto-ko-ng"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "tubig",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ako"
+      "item": "gusto-ko-ng"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ng tubig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-ko-ng"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko ng tubig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-ko-ng"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto ko ng tubig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ako",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "El sujeto. Ako si Víctor. Gutom ako = tengo hambre (hambriento yo).",
+      "text": "Gusto ko + ng + cosa. Sin conjugar nada: el superpoder del principiante.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -279,7 +302,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «yo»?",
+      "text": "¿Cómo se dice «Quiero agua»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -288,16 +311,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ako",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «yo».",
+      "text": "Otra vez. «Quiero agua».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -306,16 +329,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«tú». Escucha y repite.",
+      "text": "«¿Quieres?». Literalmente, gusto tu [ba]. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -324,61 +347,556 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Gusto mo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
     },
     {
       "role": "native_f",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "mo ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gusto mo ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto mo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gusto mo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Gusto mo ba ng kape? ¿quieres café? Respuesta: Oo / Hindi / Ayaw ko.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto mo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gusto mo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero ir a Divisoria». Literalmente, gusto mi-[ng] ir a Divisoria. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto kong pumunta sa Divisoria.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ria",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "soria",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "visoria",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kong pumunta sa Divisoria",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto kong pumunta sa Divisoria",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gusto kong pumunta sa Divisoria.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto kong pumunta sa Divisoria.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Con un verbo detrás, ko gana el -ng de enlace: kong. pumunta = ir.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero ir a Divisoria»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gusto kong pumunta sa Divisoria.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero ir a Divisoria».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto kong pumunta sa Divisoria.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se va a Tondo?». Literalmente, cómo ir a Tondo. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Paano pumunta sa Tondo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "do",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tondo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "sa Tondo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "pumunta sa Tondo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Paano pumunta sa Tondo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Paano pumunta sa Tondo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Paano pumunta sa Tondo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Paano = cómo. Con respeto: Paano po pumunta sa…?",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se va a Tondo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Paano pumunta sa Tondo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se va a Tondo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Paano pumunta sa Tondo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto mo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está lejos?». Literalmente, lejos [ba]. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malayo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malayo ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malayo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malayo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está lejos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malayo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está lejos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malayo ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Gira a la derecha. / Gira a la izquierda». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumanan ka. / Kumaliwa ka.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
+    },
+    {
+      "role": "native_m",
       "lang": "tl",
       "text": "ka",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "/ ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ikaw-ka"
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Kumaliwa ka",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "",
+      "item": "kumanan-kumaliwa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ Kumaliwa ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumanan-kumaliwa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka / Kumaliwa ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumanan-kumaliwa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumanan ka / Kumaliwa ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Kumanan ka. / Kumaliwa ka.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumanan ka. / Kumaliwa ka.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Son la misma palabra. ikaw al principio de la frase, ka detrás de algo. Nunca ka al principio.",
+      "text": "kanan = derecha, kaliwa = izquierda. Con -um- se vuelven orden.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -387,25 +905,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tú»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "¿Cómo se dice «Gira a la derecha. / Gira a la izquierda»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -414,88 +914,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Kumanan ka. / Kumaliwa ka.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«mi / yo (agente)». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ko"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Va detrás de la cosa: bahay ko = mi casa. Y es el 'yo' de gusto ko, hindi ko alam.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «mi / yo (agente)»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «mi / yo (agente)».",
+      "text": "Otra vez. «Gira a la derecha. / Gira a la izquierda».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -504,101 +932,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Kumanan ka. / Kumaliwa ka.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«tu / tú (agente)». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "mo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "pangalan mo = tu nombre. gusto mo = tú quieres.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tu / tú (agente)».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "narrator",
@@ -612,79 +950,79 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «tú».",
+      "text": "Y ahora, «¿Cómo se va a Tondo?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "native_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Paano pumunta sa Tondo?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«él / ella». Escucha y repite.",
+      "text": "«¡Pare aquí! (en el jeepney)». Literalmente, del español 'para'. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Para po!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ya",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "siya"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "siya",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "siya"
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "po",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "para-po"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Para po",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "",
+      "item": "para-po"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Para po!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Para po!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "No distingue género. Sino siya? = ¿quién es?",
+      "text": "Se grita para bajarse del jeepney. Sa Divisoria po! = ¡a Divisoria!",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -693,25 +1031,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «él / ella»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "siya",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «él / ella».",
+      "text": "¿Cómo se dice «¡Pare aquí! (en el jeepney)»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -720,97 +1040,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Para po!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Mi casa». Literalmente, casa mi. Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Bahay ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Al revés que en español: primero la cosa, luego de quién.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Mi casa»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Otra vez. «¡Pare aquí! (en el jeepney)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -819,277 +1058,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Para po!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Un momento. Volvamos atrás.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «tu / tú (agente)».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«¿Y tú?». Literalmente, tú. Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "kaw",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ikaw",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Para devolver la pregunta. Ikaw solo, con entonación de pregunta.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Y tú?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Y tú?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Tengo hambre». Literalmente, hambriento yo. Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Sin verbo. El tagalog dice primero el comentario y luego quién.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «Tengo hambre».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Un momento. Volvamos atrás.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «Mi casa».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "ka nunca va al principio.",
+      "text": "Gusto ko: el superpoder del principiante.",
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
@@ -1098,7 +1076,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "ikaw y ka significan lo mismo, tú. ikaw va al principio de la frase: Ikaw ba si Ana. ka va siempre detrás de algo: Kumusta ka, Marunong ka ba. Y ko y mo, mi y tu, van DETRÁS de la cosa: bahay ko, pangalan mo. Al revés que en español.",
+      "text": "Gusto ko más ng más una cosa: gusto ko ng tubig, quiero agua. Gusto kong más un verbo: gusto kong pumunta, quiero ir. Con gusto no conjugas nada. Lo contrario: ayaw ko, no quiero.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
@@ -1107,20 +1085,20 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Gusto kong pumunta sa Divisoria.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
     },
     {
       "role": "narrator",
@@ -1134,16 +1112,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin.",
+      "text": "Ayaw ko.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Yo también.",
-      "item": "ako-rin"
+      "translation_es": "No quiero.",
+      "item": "ayaw-ko"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Yo también».",
+      "text": "«No quiero».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -1152,11 +1130,38 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako rin.",
+      "text": "Ayaw ko.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Yo también.",
-      "item": "ako-rin"
+      "translation_es": "No quiero.",
+      "item": "ayaw-ko"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dumiretso ka lang.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sigue recto.",
+      "item": "dumiretso-ka-lang"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sigue recto».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dumiretso ka lang.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sigue recto.",
+      "item": "dumiretso-ka-lang"
     },
     {
       "role": "native_f",
@@ -1186,33 +1191,6 @@
       "item": "malapit-lang"
     },
     {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Kaibigan ko.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Mi amigo/a.",
-      "item": "kaibigan-ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Mi amigo/a».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Kaibigan ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi amigo/a.",
-      "item": "kaibigan-ko"
-    },
-    {
       "role": "narrator",
       "lang": "es",
       "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
@@ -1224,7 +1202,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Alguien te dice su nombre. Devuélvele la pregunta.",
+      "text": "Di que quieres agua.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1233,16 +1211,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di que tienes hambre.",
+      "text": "Ofrécele: ¿quieres?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1251,16 +1229,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Gusto mo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Te dice que él también. Señala una casa y di: mi casa.",
+      "text": "Di que quieres ir a Divisoria.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1269,16 +1247,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Gusto kong pumunta sa Divisoria.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale cómo se llama.",
+      "text": "Pregunta cómo se va a Tondo.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1287,16 +1265,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Anong pangalan mo?",
+      "text": "Paano pumunta sa Tondo?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Te dice algo que no entiendes. Di que no lo sabes.",
+      "text": "Pregunta si está lejos.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1305,11 +1283,29 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Hindi ko alam.",
+      "text": "Malayo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vas en el jeepney y quieres bajar. Grítalo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Para po!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "narrator",
@@ -1323,25 +1319,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «yo».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "Di: «Quiero agua».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1350,16 +1328,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «mi / yo (agente)».",
+      "text": "Otra vez. «¿Quieres?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1368,16 +1346,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Gusto mo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "text": "Y ahora, «Quiero ir a Divisoria».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1386,16 +1364,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Gusto kong pumunta sa Divisoria.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «él / ella».",
+      "text": "¿Cómo se dice «¿Cómo se va a Tondo?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1404,16 +1382,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Paano pumunta sa Tondo?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Di: «¿Está lejos?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1422,16 +1400,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Malayo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Y tú?».",
+      "text": "Otra vez. «Gira a la derecha. / Gira a la izquierda».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1440,16 +1418,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Kumanan ka. / Kumaliwa ka.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
+      "text": "Y ahora, «¡Pare aquí! (en el jeepney)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1458,11 +1436,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Para po!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "narrator",
@@ -1485,7 +1463,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "text": "¿Cómo se dice «¿Dónde?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1494,16 +1472,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Anong pangalan mo?",
+      "text": "Saan?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo"
+      "translation_es": "¿Dónde?",
+      "item": "saan"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Solo un poco».",
+      "text": "Di: «¿Qué es esto?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1512,11 +1490,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Konti lang.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Solo un poco.",
-      "item": "konti-lang"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
@@ -1539,7 +1517,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Sabes hablar Tagalog?».",
+      "text": "Di: «Solo un poco».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1548,11 +1526,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Marunong ka bang mag-Tagalog?",
+      "text": "Konti lang.",
       "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "¿Sabes hablar Tagalog?",
-      "item": "marunong-tagalog"
+      "pause": 2.5,
+      "translation_es": "Solo un poco.",
+      "item": "konti-lang"
     },
     {
       "role": "narrator",
@@ -1566,7 +1544,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «yo».",
+      "text": "Di: «Quiero agua».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1575,16 +1553,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "Gusto ko ng tubig.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "Otra vez. «¿Quieres?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1593,16 +1571,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Gusto mo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "¿Quieres?",
+      "item": "gusto-mo-ba"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «mi / yo (agente)».",
+      "text": "Y ahora, «Quiero ir a Divisoria».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1611,16 +1589,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Gusto kong pumunta sa Divisoria.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "pause": 3.5,
+      "translation_es": "Quiero ir a Divisoria.",
+      "item": "gusto-kong-pumunta"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "text": "¿Cómo se dice «¿Cómo se va a Tondo?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1629,16 +1607,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Paano pumunta sa Tondo?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a Tondo?",
+      "item": "paano-pumunta-sa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «él / ella».",
+      "text": "Di: «¿Está lejos?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1647,16 +1625,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Malayo ba?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¿Está lejos?",
+      "item": "malayo-ba"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Otra vez. «Gira a la derecha. / Gira a la izquierda».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1665,16 +1643,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Kumanan ka. / Kumaliwa ka.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "Gira a la derecha. / Gira a la izquierda.",
+      "item": "kumanan-kumaliwa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Y tú?».",
+      "text": "Y ahora, «¡Pare aquí! (en el jeepney)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1683,29 +1661,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Para po!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "¡Pare aquí! (en el jeepney)",
+      "item": "para-po"
     },
     {
       "role": "narrator",
@@ -1717,48 +1677,48 @@
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Marites. Ikaw?",
+      "text": "Paano pumunta sa Divisoria? Malayo ba?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Marites. ¿Y tú?",
+      "translation_es": "¿Cómo se va a Divisoria? ¿Está lejos?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi. Dumiretso ka lang. Kumanan ka.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No. Sigue recto. Gira a la derecha.",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor. Gutom ako!",
+      "text": "Gusto ko ng tubig. Gusto mo ba?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Víctor. ¡Tengo hambre!",
+      "translation_es": "Quiero agua. ¿Quieres?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin! Malapit lang ang bahay ko.",
+      "text": "Ayaw ko. Gusto kong pumunta sa palengke.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Yo también! Mi casa está aquí cerca.",
+      "translation_es": "No quiero. Quiero ir al mercado.",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sino siya?",
+      "text": "Sige. Para po!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Quién es ella?",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Kaibigan ko. Ikaw din, kaibigan ko na!",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Mi amiga. ¡Tú también, ya eres mi amigo!",
+      "translation_es": "Vale. ¡Pare aquí!",
       "item": null
     },
     {
@@ -1774,10 +1734,10 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 13.4,
-    "chars": 3965,
-    "cues": 190,
+    "minutes_estimated": 15.2,
+    "chars": 5002,
+    "cues": 186,
     "mode": "lesson",
-    "lesson": 3
+    "lesson": 5
   }
 }

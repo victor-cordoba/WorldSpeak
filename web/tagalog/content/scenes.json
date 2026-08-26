@@ -4,30 +4,256 @@
     "lesson-01": {
       "setting": "Estás en una calle de Tondo, a media mañana. Una mujer te saluda desde su puesto de la sari-sari.",
       "lines": [
-        { "role": "native_f", "tl": "Magandang umaga po! Kumusta?", "es": "¡Buenos días! ¿Qué tal?" },
-        { "role": "native_m", "tl": "Mabuti naman po, salamat. Ako si Víctor.", "es": "Bien, gracias. Soy Víctor." },
-        { "role": "native_f", "tl": "Ako si Ana. Anong pangalan mo?", "es": "Yo soy Ana. ¿Cómo te llamas?" },
-        { "role": "native_m", "tl": "Víctor. Salamat po, Ana. Ingat ka!", "es": "Víctor. Gracias, Ana. ¡Cuídate!" }
+        {
+          "role": "native_f",
+          "tl": "Magandang umaga po! Kumusta?",
+          "es": "¡Buenos días! ¿Qué tal?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Mabuti naman po, salamat. Ako si Víctor.",
+          "es": "Bien, gracias. Soy Víctor."
+        },
+        {
+          "role": "native_f",
+          "tl": "Ako si Ana. Anong pangalan mo?",
+          "es": "Yo soy Ana. ¿Cómo te llamas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Víctor. Salamat po, Ana. Ingat ka!",
+          "es": "Víctor. Gracias, Ana. ¡Cuídate!"
+        }
       ]
     },
     "lesson-02": {
       "setting": "Un chico se te acerca en la parroquia. Quiere saber si le entiendes.",
       "lines": [
-        { "role": "native_m", "tl": "Kumusta po? Marunong ka bang mag-Tagalog?", "es": "¿Qué tal? ¿Sabes hablar Tagalog?" },
-        { "role": "native_f", "tl": "Konti lang. Marunong ka bang mag-Ingles?", "es": "Solo un poco. ¿Sabes hablar inglés?" },
-        { "role": "native_m", "tl": "Hindi po. Hindi ako marunong.", "es": "No. No sé." },
-        { "role": "native_f", "tl": "Sige. Ulitin mo po? Naiintindihan mo ba?", "es": "Vale. ¿Repites, por favor? ¿Me entiendes?" },
-        { "role": "native_m", "tl": "Opo! Konti lang.", "es": "¡Sí! Un poco." }
+        {
+          "role": "native_m",
+          "tl": "Kumusta po? Marunong ka bang mag-Tagalog?",
+          "es": "¿Qué tal? ¿Sabes hablar Tagalog?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Konti lang. Marunong ka bang mag-Ingles?",
+          "es": "Solo un poco. ¿Sabes hablar inglés?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Hindi po. Hindi ako marunong.",
+          "es": "No. No sé."
+        },
+        {
+          "role": "native_f",
+          "tl": "Sige. Ulitin mo po? Naiintindihan mo ba?",
+          "es": "Vale. ¿Repites, por favor? ¿Me entiendes?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Opo! Konti lang.",
+          "es": "¡Sí! Un poco."
+        }
       ]
     },
     "lesson-03": {
       "setting": "Sentado con un amigo nuevo en un banco. Habláis de vosotros.",
       "lines": [
-        { "role": "native_f", "tl": "Ako si Marites. Ikaw?", "es": "Yo soy Marites. ¿Y tú?" },
-        { "role": "native_m", "tl": "Ako si Víctor. Gutom ako!", "es": "Yo soy Víctor. ¡Tengo hambre!" },
-        { "role": "native_f", "tl": "Ako rin! Malapit lang ang bahay ko.", "es": "¡Yo también! Mi casa está aquí cerca." },
-        { "role": "native_m", "tl": "Sino siya?", "es": "¿Quién es ella?" },
-        { "role": "native_f", "tl": "Kaibigan ko. Ikaw din, kaibigan ko na!", "es": "Mi amiga. ¡Tú también, ya eres mi amigo!" }
+        {
+          "role": "native_f",
+          "tl": "Ako si Marites. Ikaw?",
+          "es": "Yo soy Marites. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Ako si Víctor. Gutom ako!",
+          "es": "Yo soy Víctor. ¡Tengo hambre!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Ako rin! Malapit lang ang bahay ko.",
+          "es": "¡Yo también! Mi casa está aquí cerca."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sino siya?",
+          "es": "¿Quién es ella?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Kaibigan ko. Ikaw din, kaibigan ko na!",
+          "es": "Mi amiga. ¡Tú también, ya eres mi amigo!"
+        }
+      ]
+    },
+    "lesson-04": {
+      "setting": "En un patio de Tondo. Un vecino te presenta a alguien y te pregunta dónde vives.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Saan ka nakatira?",
+          "es": "¿Dónde vives?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Nakatira ako sa Tondo. Malapit lang.",
+          "es": "Vivo en Tondo. Aquí cerca."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sino siya?",
+          "es": "¿Quién es ella?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Kaibigan ko. Ano ito?",
+          "es": "Mi amiga. ¿Qué es esto?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Kape. Doon ang bahay ko.",
+          "es": "Café. Allí está mi casa."
+        }
+      ]
+    },
+    "lesson-05": {
+      "setting": "Quieres ir a Divisoria y no sabes por dónde. Preguntas a una señora en la esquina.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Paano pumunta sa Divisoria? Malayo ba?",
+          "es": "¿Cómo se va a Divisoria? ¿Está lejos?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Hindi. Dumiretso ka lang. Kumanan ka.",
+          "es": "No. Sigue recto. Gira a la derecha."
+        },
+        {
+          "role": "native_m",
+          "tl": "Gusto ko ng tubig. Gusto mo ba?",
+          "es": "Quiero agua. ¿Quieres?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Ayaw ko. Gusto kong pumunta sa palengke.",
+          "es": "No quiero. Quiero ir al mercado."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sige. Para po!",
+          "es": "Vale. ¡Pare aquí!"
+        }
+      ]
+    },
+    "lesson-06": {
+      "setting": "En una sari-sari. Quieres un café y preguntas el precio.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Magkano po ito?",
+          "es": "¿Cuánto cuesta esto?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Bente pesos po.",
+          "es": "Veinte pesos."
+        },
+        {
+          "role": "native_m",
+          "tl": "Ang mahal! Isang kape nga po.",
+          "es": "¡Qué caro! Un café, por favor."
+        },
+        {
+          "role": "native_f",
+          "tl": "Sige. Pahingi po ng tubig?",
+          "es": "Vale. ¿Me da agua?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Wala. Mura ang kape, dalawa!",
+          "es": "No hay. El café es barato, ¡dos!"
+        }
+      ]
+    },
+    "lesson-07": {
+      "setting": "Un chico te dice que no ha ido a casa. Le preguntas cuándo y por qué.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Kailan ka pupunta sa bahay?",
+          "es": "¿Cuándo vas a ir a casa?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Bukas. Hindi ngayon.",
+          "es": "Mañana. Hoy no."
+        },
+        {
+          "role": "native_f",
+          "tl": "Bakit?",
+          "es": "¿Por qué?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Kasi gutom ako. Mamaya na lang.",
+          "es": "Porque tengo hambre. Mejor más tarde."
+        },
+        {
+          "role": "native_f",
+          "tl": "Ilan kayo sa bahay?",
+          "es": "¿Cuántos sois en casa?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Lima. Kahapon, apat.",
+          "es": "Cinco. Ayer, cuatro."
+        }
+      ]
+    },
+    "lesson-08": {
+      "setting": "Tu primera conversación completa. En la parroquia, con una familia que acabas de conocer.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Magandang hapon po! Kumusta kayo?",
+          "es": "¡Buenas tardes! ¿Cómo están?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Mabuti naman. Ako si Marites. Ikaw?",
+          "es": "Bien. Yo soy Marites. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Ako si Víctor. Taga-Espanya kami.",
+          "es": "Soy Víctor. Somos de España."
+        },
+        {
+          "role": "native_f",
+          "tl": "Marunong ka bang mag-Tagalog?",
+          "es": "¿Sabes hablar Tagalog?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Konti lang. Sandali lang po… Ano sa Tagalog ang 'agua'?",
+          "es": "Solo un poco. Un momento… ¿cómo se dice 'agua' en Tagalog?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Tubig! Tara, kain tayo!",
+          "es": "¡Tubig! ¡Venga, comamos!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sige! Salamat po. Pasensya na po, konti lang.",
+          "es": "¡Vale! Gracias. Perdón, solo sé un poco."
+        },
+        {
+          "role": "native_f",
+          "tl": "Walang anuman. Ingat ka!",
+          "es": "De nada. ¡Cuídate!"
+        }
       ]
     }
   }

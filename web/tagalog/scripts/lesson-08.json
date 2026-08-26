@@ -1,69 +1,71 @@
 {
-  "title": "Yo, tú, mi, tu",
-  "subtitle": "Los pronombres que hacen funcionar todo: ako, ka, ko, mo, siya.",
-  "summary_es": "Aprendes los pronombres básicos, a decir mi casa y tu nombre al revés que en español, a devolver la pregunta con Ikaw y a decir yo también.",
+  "title": "Repaso: tu primera conversación",
+  "subtitle": "Nosotros, vosotros, ellos, las muletillas de la calle, y la conversación entera de principio a fin.",
+  "summary_es": "Cierras el Nivel 1 con kami, tayo, kayo, sila, con sige, tara, sandali lang y pasensya, y con la herramienta para seguir aprendiendo: ano sa Tagalog ang.",
   "topics": [
-    "Pronombres",
-    "ako y ka",
-    "ko y mo",
-    "Yo también",
-    "Tengo hambre"
+    "Kami y tayo",
+    "Sige y Tara",
+    "Un momento",
+    "Cómo se dice",
+    "Conversación completa"
   ],
   "dialogue": {
     "tl": [
-      "Ako si Marites. Ikaw?",
-      "Ako si Víctor. Gutom ako!",
-      "Ako rin! Malapit lang ang bahay ko.",
-      "Sino siya?",
-      "Kaibigan ko. Ikaw din, kaibigan ko na!"
+      "Magandang hapon po! Kumusta kayo?",
+      "Mabuti naman. Ako si Marites. Ikaw?",
+      "Ako si Víctor. Taga-Espanya kami.",
+      "Marunong ka bang mag-Tagalog?",
+      "Konti lang. Sandali lang po… Ano sa Tagalog ang 'agua'?",
+      "Tubig! Tara, kain tayo!",
+      "Sige! Salamat po. Pasensya na po, konti lang.",
+      "Walang anuman. Ingat ka!"
     ],
     "es": [
-      "Yo soy Marites. ¿Y tú?",
-      "Yo soy Víctor. ¡Tengo hambre!",
-      "¡Yo también! Mi casa está aquí cerca.",
-      "¿Quién es ella?",
-      "Mi amiga. ¡Tú también, ya eres mi amigo!"
+      "¡Buenas tardes! ¿Cómo están?",
+      "Bien. Yo soy Marites. ¿Y tú?",
+      "Soy Víctor. Somos de España.",
+      "¿Sabes hablar Tagalog?",
+      "Solo un poco. Un momento… ¿cómo se dice 'agua' en Tagalog?",
+      "¡Tubig! ¡Venga, comamos!",
+      "¡Vale! Gracias. Perdón, solo sé un poco.",
+      "De nada. ¡Cuídate!"
     ]
   },
   "vocabulary": [
     {
-      "term": "ako",
-      "es": "yo"
+      "term": "kami / tayo",
+      "es": "nosotros (sin ti) / nosotros (contigo)"
     },
     {
-      "term": "ikaw / ka",
-      "es": "tú"
+      "term": "kayo / sila",
+      "es": "vosotros, usted / ellos"
     },
     {
-      "term": "ko",
-      "es": "mi / yo (agente)"
+      "term": "Tara!",
+      "es": "¡Vamos!"
     },
     {
-      "term": "mo",
-      "es": "tu / tú (agente)"
+      "term": "Sandali lang.",
+      "es": "Un momento."
     },
     {
-      "term": "siya",
-      "es": "él / ella"
+      "term": "Pasensya na po.",
+      "es": "Perdón, disculpa."
     },
     {
-      "term": "Bahay ko.",
-      "es": "Mi casa."
+      "term": "Ano sa Tagalog ang 'agua'?",
+      "es": "¿Cómo se dice 'agua' en Tagalog?"
     },
     {
-      "term": "Ikaw?",
-      "es": "¿Y tú?"
-    },
-    {
-      "term": "Gutom ako.",
-      "es": "Tengo hambre."
+      "term": "Walang anuman.",
+      "es": "De nada."
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 3. Yo, tú, mi, tu.",
+      "text": "Lección 8. Repaso: tu primera conversación.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
@@ -72,61 +74,88 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Sentado con un amigo nuevo en un banco. Habláis de vosotros. Escucha la conversación.",
+      "text": "Tu primera conversación completa. En la parroquia, con una familia que acabas de conocer. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Marites. Ikaw?",
+      "text": "Magandang hapon po! Kumusta kayo?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Marites. ¿Y tú?",
+      "translation_es": "¡Buenas tardes! ¿Cómo están?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman. Ako si Marites. Ikaw?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien. Yo soy Marites. ¿Y tú?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor. Gutom ako!",
+      "text": "Ako si Víctor. Taga-Espanya kami.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Víctor. ¡Tengo hambre!",
+      "translation_es": "Soy Víctor. Somos de España.",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin! Malapit lang ang bahay ko.",
+      "text": "Marunong ka bang mag-Tagalog?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Yo también! Mi casa está aquí cerca.",
+      "translation_es": "¿Sabes hablar Tagalog?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sino siya?",
+      "text": "Konti lang. Sandali lang po… Ano sa Tagalog ang 'agua'?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Quién es ella?",
+      "translation_es": "Solo un poco. Un momento… ¿cómo se dice 'agua' en Tagalog?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kaibigan ko. Ikaw din, kaibigan ko na!",
+      "text": "Tubig! Tara, kain tayo!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Mi amiga. ¡Tú también, ya eres mi amigo!",
+      "translation_es": "¡Tubig! ¡Venga, comamos!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sige! Salamat po. Pasensya na po, konti lang.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Vale! Gracias. Perdón, solo sé un poco.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang anuman. Ingat ka!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De nada. ¡Cuídate!",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Los pronombres que hacen funcionar todo: ako, ka, ko, mo, siya. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Nosotros, vosotros, ellos, las muletillas de la calle, y la conversación entera de principio a fin. Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -140,6 +169,42 @@
       "pause": 0.5,
       "translation_es": "",
       "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy Víctor. / Me llamo Víctor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ako si Víctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy Víctor. / Me llamo Víctor.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
@@ -162,42 +227,6 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Solo un poco».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Konti lang.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Solo un poco.",
-      "item": "konti-lang"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «No lo sé»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Hindi ko alam.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
       "text": "Di: «¿Sabes hablar Tagalog?».",
       "kind": "prompt",
       "pause": 4.0,
@@ -216,7 +245,43 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«yo». Escucha y repite.",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Magkano po ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta esto?",
+      "item": "magkano-po-ito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«nosotros (sin ti) / nosotros (contigo)». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -225,52 +290,70 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "yo",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ako"
+      "item": "kami-tayo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "tayo",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ako"
+      "item": "kami-tayo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ tayo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kami-tayo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kami / tayo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kami-tayo"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ako",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "El sujeto. Ako si Víctor. Gutom ako = tengo hambre (hambriento yo).",
+      "text": "kami = venimos de España (tú no). tayo = tú incluido: Kain tayo! ¡comamos juntos!",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -279,7 +362,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «yo»?",
+      "text": "¿Cómo se dice «nosotros (sin ti) / nosotros (contigo)»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -288,16 +371,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ako",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «yo».",
+      "text": "Otra vez. «nosotros (sin ti) / nosotros (contigo)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -306,16 +389,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«tú». Escucha y repite.",
+      "text": "«vosotros, usted / ellos». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -324,61 +407,70 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ka",
+      "text": "la",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-ka"
+      "item": "kayo-sila"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "/ ka",
+      "text": "sila",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-ka"
+      "item": "kayo-sila"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "/ sila",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "ikaw-ka"
+      "item": "kayo-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "kayo / sila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kayo-sila"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Son la misma palabra. ikaw al principio de la frase, ka detrás de algo. Nunca ka al principio.",
+      "text": "kayo también es 'usted' con respeto: Kumusta po kayo?",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -387,7 +479,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tú»?",
+      "text": "¿Cómo se dice «vosotros, usted / ellos»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -396,16 +488,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "Otra vez. «vosotros, usted / ellos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -414,16 +506,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«mi / yo (agente)». Escucha y repite.",
+      "text": "«¡Vamos». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -432,43 +524,52 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "ra",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ko"
+      "item": "tara"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tara",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tara"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ko",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Va detrás de la cosa: bahay ko = mi casa. Y es el 'yo' de gusto ko, hindi ko alam.",
+      "text": "Tara na! = ¡vámonos ya!",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -477,7 +578,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «mi / yo (agente)»?",
+      "text": "¿Cómo se dice «¡Vamos»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -486,16 +587,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ko",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «mi / yo (agente)».",
+      "text": "Otra vez. «¡Vamos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -504,16 +605,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«tu / tú (agente)». Escucha y repite.",
+      "text": "«Un momento». Literalmente, momento solo. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -522,52 +623,52 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "lang",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "mo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "item": "sandali-lang"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Sandali lang",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "pangalan mo = tu nombre. gusto mo = tú quieres.",
-      "kind": "explanation",
-      "pause": 0.5,
       "translation_es": "",
-      "item": null
+      "item": "sandali-lang"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sandali lang.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sandali lang.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "text": "¿Cómo se dice «Un momento»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -576,16 +677,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "mo",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «tu / tú (agente)».",
+      "text": "Otra vez. «Un momento».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -594,11 +695,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
@@ -612,7 +713,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «tú».",
+      "text": "Y ahora, «vosotros, usted / ellos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -621,16 +722,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«él / ella». Escucha y repite.",
+      "text": "«Perdón, disculpa». Literalmente, paciencia ya po. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -639,52 +740,61 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ya",
+      "text": "po",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "siya"
+      "item": "pasensya-na-po"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "na po",
       "kind": "phrase",
-      "pause": 1.2,
+      "pause": 2.5,
       "translation_es": "",
-      "item": "siya"
+      "item": "pasensya-na-po"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pasensya na po",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pasensya-na-po"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "No distingue género. Sino siya? = ¿quién es?",
+      "text": "De 'paciencia'. Para pedir perdón por algo pequeño.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -693,7 +803,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «él / ella»?",
+      "text": "¿Cómo se dice «Perdón, disculpa»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -702,16 +812,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «él / ella».",
+      "text": "Otra vez. «Perdón, disculpa».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -720,16 +830,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Mi casa». Literalmente, casa mi. Escucha y repite.",
+      "text": "«¿Cómo se dice 'agua' en Tagalog?». Literalmente, qué en Tagalog el 'agua'. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -738,52 +848,79 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "a'",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "bahay-ko"
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko",
+      "text": "gua'",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano-sa-tagalog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "'agua'",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano-sa-tagalog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sa Tagalog ang 'agua'",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "bahay-ko"
+      "item": "ano-sa-tagalog"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano sa Tagalog ang 'agua'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Al revés que en español: primero la cosa, luego de quién.",
+      "text": "Tu herramienta para aprender en la calle. Cambia 'agua' por lo que quieras.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -792,7 +929,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Mi casa»?",
+      "text": "¿Cómo se dice «¿Cómo se dice 'agua' en Tagalog?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -801,16 +938,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Otra vez. «¿Cómo se dice 'agua' en Tagalog?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -819,11 +956,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "narrator",
@@ -837,7 +974,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «tu / tú (agente)».",
+      "text": "Y ahora, «Un momento».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -846,16 +983,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Y tú?». Literalmente, tú. Escucha y repite.",
+      "text": "«De nada». Literalmente, no-hay nada. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -864,187 +1001,70 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kaw",
+      "text": "man",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-y-tu"
+      "item": "walang-anuman"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw",
+      "text": "numan",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "item": "walang-anuman"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Para devolver la pregunta. Ikaw solo, con entonación de pregunta.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Y tú?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Y tú?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Tengo hambre». Literalmente, hambriento yo. Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ko",
+      "text": "anuman",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "gutom-ako"
+      "item": "walang-anuman"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Walang anuman",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "",
+      "item": "walang-anuman"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Sin verbo. El tagalog dice primero el comentario y luego quién.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Tengo hambre».",
+      "text": "¿Cómo se dice «De nada»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1053,25 +1073,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Un momento. Volvamos atrás.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «Mi casa».",
+      "text": "Otra vez. «De nada».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1080,16 +1091,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "ka nunca va al principio.",
+      "text": "Dos nosotros: kami y tayo.",
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
@@ -1098,7 +1109,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "ikaw y ka significan lo mismo, tú. ikaw va al principio de la frase: Ikaw ba si Ana. ka va siempre detrás de algo: Kumusta ka, Marunong ka ba. Y ko y mo, mi y tu, van DETRÁS de la cosa: bahay ko, pangalan mo. Al revés que en español.",
+      "text": "Kami es nosotros sin ti: venimos de España. Tayo es nosotros contigo: kain tayo, comamos juntos. Por eso la invitación filipina por excelencia es tayo.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
@@ -1107,20 +1118,20 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
@@ -1134,16 +1145,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin.",
+      "text": "Sige.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Yo también.",
-      "item": "ako-rin"
+      "translation_es": "Vale. / De acuerdo. / Venga.",
+      "item": "sige"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Yo también».",
+      "text": "«Vale. / De acuerdo. / Venga».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -1152,25 +1163,25 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako rin.",
+      "text": "Sige.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Yo también.",
-      "item": "ako-rin"
+      "translation_es": "Vale. / De acuerdo. / Venga.",
+      "item": "sige"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Malapit lang.",
+      "text": "Mabuti naman.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Aquí cerca.",
-      "item": "malapit-lang"
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Aquí cerca».",
+      "text": "«Bien, gracias».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -1179,25 +1190,25 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malapit lang.",
+      "text": "Mabuti naman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Aquí cerca.",
-      "item": "malapit-lang"
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kaibigan ko.",
+      "text": "Konti lang.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Mi amigo/a.",
-      "item": "kaibigan-ko"
+      "translation_es": "Solo un poco.",
+      "item": "konti-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Mi amigo/a».",
+      "text": "«Solo un poco».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -1206,11 +1217,38 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kaibigan ko.",
+      "text": "Konti lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi amigo/a.",
-      "item": "kaibigan-ko"
+      "translation_es": "Solo un poco.",
+      "item": "konti-lang"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi ko alam.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No lo sé.",
+      "item": "hindi-ko-alam"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No lo sé».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi ko alam.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "hindi-ko-alam"
     },
     {
       "role": "narrator",
@@ -1224,7 +1262,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Alguien te dice su nombre. Devuélvele la pregunta.",
+      "text": "Saluda por la tarde y pregunta cómo están.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1233,16 +1271,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Magandang hapon po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "Buenas tardes.",
+      "item": "magandang-hapon"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di que tienes hambre.",
+      "text": "Di quién eres.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1251,16 +1289,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Ako si Víctor.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "Soy Víctor. / Me llamo Víctor.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Te dice que él también. Señala una casa y di: mi casa.",
+      "text": "Te preguntan si hablas Tagalog. Solo un poco.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1269,16 +1307,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Konti lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "Solo un poco.",
+      "item": "konti-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale cómo se llama.",
+      "text": "Pide un momento.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1287,16 +1325,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Anong pangalan mo?",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Te dice algo que no entiendes. Di que no lo sabes.",
+      "text": "Pregunta cómo se dice agua en Tagalog.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1305,11 +1343,65 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Hindi ko alam.",
+      "text": "Ano sa Tagalog ang 'agua'?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Te invitan a comer. Di: ¡vamos!",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pide perdón por hablar poco.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pasensya na po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Te dicen gracias. Contesta de nada.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang anuman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "narrator",
@@ -1323,25 +1415,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «yo».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "Di: «nosotros (sin ti) / nosotros (contigo)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1350,16 +1424,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «mi / yo (agente)».",
+      "text": "Otra vez. «vosotros, usted / ellos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1368,16 +1442,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "text": "Y ahora, «¡Vamos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1386,16 +1460,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «él / ella».",
+      "text": "¿Cómo se dice «Un momento»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1404,16 +1478,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Di: «Perdón, disculpa».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1422,16 +1496,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Y tú?».",
+      "text": "Otra vez. «¿Cómo se dice 'agua' en Tagalog?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1440,16 +1514,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
+      "text": "Y ahora, «De nada».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1458,11 +1532,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "narrator",
@@ -1485,6 +1559,42 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy Víctor. / Me llamo Víctor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ako si Víctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy Víctor. / Me llamo Víctor.",
+      "item": "ako-si"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¿Cómo te llamas?»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1499,42 +1609,6 @@
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
       "item": "anong-pangalan-mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Solo un poco».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Konti lang.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Solo un poco.",
-      "item": "konti-lang"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «No lo sé»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Hindi ko alam.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
     },
     {
       "role": "narrator",
@@ -1557,6 +1631,78 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Magkano po ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta esto?",
+      "item": "magkano-po-ito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero agua»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto ko ng tubig.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "bakit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "Repaso final. Todo lo de hoy.",
       "kind": "instruction",
       "pause": 0.5,
@@ -1566,7 +1712,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «yo».",
+      "text": "Di: «nosotros (sin ti) / nosotros (contigo)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1575,16 +1721,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ako",
+      "text": "kami / tayo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
+      "translation_es": "nosotros (sin ti) / nosotros (contigo)",
+      "item": "kami-tayo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "Otra vez. «vosotros, usted / ellos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1593,16 +1739,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "kayo / sila",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "vosotros, usted / ellos",
+      "item": "kayo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «mi / yo (agente)».",
+      "text": "Y ahora, «¡Vamos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1611,16 +1757,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Tara!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¡Vamos!",
+      "item": "tara"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "text": "¿Cómo se dice «Un momento»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1629,16 +1775,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Sandali lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "Un momento.",
+      "item": "sandali-lang"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «él / ella».",
+      "text": "Di: «Perdón, disculpa».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1647,16 +1793,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Pasensya na po.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "Perdón, disculpa.",
+      "item": "pasensya-na-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Otra vez. «¿Cómo se dice 'agua' en Tagalog?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1665,16 +1811,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano sa Tagalog ang 'agua'?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice 'agua' en Tagalog?",
+      "item": "ano-sa-tagalog"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Y tú?».",
+      "text": "Y ahora, «De nada».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1683,29 +1829,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Walang anuman.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "De nada.",
+      "item": "walang-anuman"
     },
     {
       "role": "narrator",
@@ -1717,48 +1845,75 @@
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Marites. Ikaw?",
+      "text": "Magandang hapon po! Kumusta kayo?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Marites. ¿Y tú?",
+      "translation_es": "¡Buenas tardes! ¿Cómo están?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman. Ako si Marites. Ikaw?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien. Yo soy Marites. ¿Y tú?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor. Gutom ako!",
+      "text": "Ako si Víctor. Taga-Espanya kami.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Víctor. ¡Tengo hambre!",
+      "translation_es": "Soy Víctor. Somos de España.",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin! Malapit lang ang bahay ko.",
+      "text": "Marunong ka bang mag-Tagalog?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Yo también! Mi casa está aquí cerca.",
+      "translation_es": "¿Sabes hablar Tagalog?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sino siya?",
+      "text": "Konti lang. Sandali lang po… Ano sa Tagalog ang 'agua'?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Quién es ella?",
+      "translation_es": "Solo un poco. Un momento… ¿cómo se dice 'agua' en Tagalog?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kaibigan ko. Ikaw din, kaibigan ko na!",
+      "text": "Tubig! Tara, kain tayo!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Mi amiga. ¡Tú también, ya eres mi amigo!",
+      "translation_es": "¡Tubig! ¡Venga, comamos!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sige! Salamat po. Pasensya na po, konti lang.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Vale! Gracias. Perdón, solo sé un poco.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang anuman. Ingat ka!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De nada. ¡Cuídate!",
       "item": null
     },
     {
@@ -1774,10 +1929,10 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 13.4,
-    "chars": 3965,
-    "cues": 190,
+    "minutes_estimated": 16.1,
+    "chars": 5203,
+    "cues": 207,
     "mode": "lesson",
-    "lesson": 3
+    "lesson": 8
   }
 }

@@ -199,7 +199,7 @@ class Compiler:
         teach = recipe["teach"]
         prev = recipe.get("recall_prev", [])
         # escala por duración: 15 min = referencia
-        scale = self.minutes / 15
+        scale = self.minutes / 10   # calibrado con audio real: 10 min por unidad de escala
         reps = 2 if scale >= 1 else 1
         self.intro(scene, recipe)
         self.explain(recipe)
@@ -274,7 +274,7 @@ def main():
 
     cues = comp.cues
     chars = sum(len(c["text"]) for c in cues)
-    speech = chars / 14.0  # ~14 caracteres por segundo hablado
+    speech = chars / 11.0  # calibrado con audio real (Fish/ElevenLabs): ~11 caracteres por segundo
     pauses = sum(c["pause"] for c in cues)
     est = (speech + pauses) / 60
     script = {**meta, "cues": cues, "_meta": {"compiler": "compile_lesson.py", "minutes_target": args.minutes, "minutes_estimated": round(est, 1), "chars": chars, "cues": len(cues), "mode": args.mode, "lesson": args.lesson}}

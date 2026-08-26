@@ -1,69 +1,65 @@
 {
-  "title": "Yo, tú, mi, tu",
-  "subtitle": "Los pronombres que hacen funcionar todo: ako, ka, ko, mo, siya.",
-  "summary_es": "Aprendes los pronombres básicos, a decir mi casa y tu nombre al revés que en español, a devolver la pregunta con Ikaw y a decir yo también.",
+  "title": "¿Dónde? ¿Quién? ¿Qué?",
+  "subtitle": "Las tres preguntas que abren cualquier conversación, y entender lo que te contestan.",
+  "summary_es": "Aprendes Saan, Sino y Ano, la receta interrogativa + ka + verbo, aquí/ahí/allí, y a entender respuestas como nakatira ako sa Tondo o malapit lang.",
   "topics": [
-    "Pronombres",
-    "ako y ka",
-    "ko y mo",
-    "Yo también",
-    "Tengo hambre"
+    "Saan",
+    "Sino",
+    "Ano",
+    "Dónde vives",
+    "Aquí y allí"
   ],
   "dialogue": {
     "tl": [
-      "Ako si Marites. Ikaw?",
-      "Ako si Víctor. Gutom ako!",
-      "Ako rin! Malapit lang ang bahay ko.",
+      "Saan ka nakatira?",
+      "Nakatira ako sa Tondo. Malapit lang.",
       "Sino siya?",
-      "Kaibigan ko. Ikaw din, kaibigan ko na!"
+      "Kaibigan ko. Ano ito?",
+      "Kape. Doon ang bahay ko."
     ],
     "es": [
-      "Yo soy Marites. ¿Y tú?",
-      "Yo soy Víctor. ¡Tengo hambre!",
-      "¡Yo también! Mi casa está aquí cerca.",
+      "¿Dónde vives?",
+      "Vivo en Tondo. Aquí cerca.",
       "¿Quién es ella?",
-      "Mi amiga. ¡Tú también, ya eres mi amigo!"
+      "Mi amiga. ¿Qué es esto?",
+      "Café. Allí está mi casa."
     ]
   },
   "vocabulary": [
     {
-      "term": "ako",
-      "es": "yo"
+      "term": "Saan?",
+      "es": "¿Dónde?"
     },
     {
-      "term": "ikaw / ka",
-      "es": "tú"
+      "term": "Sino?",
+      "es": "¿Quién?"
     },
     {
-      "term": "ko",
-      "es": "mi / yo (agente)"
+      "term": "Ano?",
+      "es": "¿Qué? / ¿Cuál?"
     },
     {
-      "term": "mo",
-      "es": "tu / tú (agente)"
+      "term": "Saan ka nakatira?",
+      "es": "¿Dónde vives?"
     },
     {
-      "term": "siya",
-      "es": "él / ella"
+      "term": "Sino siya?",
+      "es": "¿Quién es él/ella?"
     },
     {
-      "term": "Bahay ko.",
-      "es": "Mi casa."
+      "term": "Ano ito?",
+      "es": "¿Qué es esto?"
     },
     {
-      "term": "Ikaw?",
-      "es": "¿Y tú?"
-    },
-    {
-      "term": "Gutom ako.",
-      "es": "Tengo hambre."
+      "term": "dito / diyan / doon",
+      "es": "aquí / ahí / allí"
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 3. Yo, tú, mi, tu.",
+      "text": "Lección 4. ¿Dónde? ¿Quién? ¿Qué?.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
@@ -72,37 +68,28 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Sentado con un amigo nuevo en un banco. Habláis de vosotros. Escucha la conversación.",
+      "text": "En un patio de Tondo. Un vecino te presenta a alguien y te pregunta dónde vives. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ako si Marites. Ikaw?",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Yo soy Marites. ¿Y tú?",
-      "item": null
-    },
-    {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor. Gutom ako!",
+      "text": "Saan ka nakatira?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Víctor. ¡Tengo hambre!",
+      "translation_es": "¿Dónde vives?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin! Malapit lang ang bahay ko.",
+      "text": "Nakatira ako sa Tondo. Malapit lang.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Yo también! Mi casa está aquí cerca.",
+      "translation_es": "Vivo en Tondo. Aquí cerca.",
       "item": null
     },
     {
@@ -117,16 +104,25 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kaibigan ko. Ikaw din, kaibigan ko na!",
+      "text": "Kaibigan ko. Ano ito?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Mi amiga. ¡Tú también, ya eres mi amigo!",
+      "translation_es": "Mi amiga. ¿Qué es esto?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kape. Doon ang bahay ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Café. Allí está mi casa.",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Los pronombres que hacen funcionar todo: ako, ka, ko, mo, siya. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Las tres preguntas que abren cualquier conversación, y entender lo que te contestan. Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -162,322 +158,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Solo un poco».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Konti lang.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Solo un poco.",
-      "item": "konti-lang"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «No lo sé»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Hindi ko alam.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¿Sabes hablar Tagalog?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Marunong ka bang mag-Tagalog?",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "¿Sabes hablar Tagalog?",
-      "item": "marunong-tagalog"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«yo». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ako"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "El sujeto. Ako si Víctor. Gutom ako = tengo hambre (hambriento yo).",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «yo»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «yo».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«tú». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ka",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "/ ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Son la misma palabra. ikaw al principio de la frase, ka detrás de algo. Nunca ka al principio.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «tú»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tú».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«mi / yo (agente)». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ko"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Va detrás de la cosa: bahay ko = mi casa. Y es el 'yo' de gusto ko, hindi ko alam.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «mi / yo (agente)»?",
+      "text": "Di: «mi / yo (agente)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -491,78 +172,6 @@
       "pause": 2.5,
       "translation_es": "mi / yo (agente)",
       "item": "ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «mi / yo (agente)».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«tu / tú (agente)». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "mo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "pangalan mo = tu nombre. gusto mo = tú quieres.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
     },
     {
       "role": "narrator",
@@ -585,7 +194,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «tu / tú (agente)».",
+      "text": "Di: «¿Y tú?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -594,11 +203,434 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Ikaw?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "¿Y tú?",
+      "item": "ikaw-y-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "an",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saan"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Con verbo: Saan ka nakatira? Sin verbo se usa nasaan (más adelante).",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sino siya? ¿quién es él/ella? Sino ang nanay mo? ¿quién es tu madre?",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué? / ¿Cuál?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ano ito? ¿qué es esto? Ano ang… ¿cuál es…?",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué? / ¿Cuál?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué? / ¿Cuál?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde vives?». Literalmente, dónde tú vives. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ra",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "tira",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "katira",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka nakatira",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "La receta: interrogativa + ka + verbo. El ka salta siempre a la segunda posición.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
     },
     {
       "role": "narrator",
@@ -612,7 +644,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «tú».",
+      "text": "Y ahora, «¿Quién?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -621,16 +653,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Sino?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "¿Quién?",
+      "item": "sino"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«él / ella». Escucha y repite.",
+      "text": "«¿Quién es él/ella?». Literalmente, quién él. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -639,11 +671,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Sino siya?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "native_f",
@@ -652,7 +684,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "siya"
+      "item": "sino-siya"
     },
     {
       "role": "native_f",
@@ -661,39 +693,39 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "siya"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "siya",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "item": "sino-siya"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Sino siya",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "No distingue género. Sino siya? = ¿quién es?",
-      "kind": "explanation",
-      "pause": 0.5,
       "translation_es": "",
-      "item": null
+      "item": "sino-siya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino siya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino siya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «él / ella»?",
+      "text": "¿Cómo se dice «¿Quién es él/ella?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -702,16 +734,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Sino siya?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «él / ella».",
+      "text": "Otra vez. «¿Quién es él/ella?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -720,16 +752,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "siya",
+      "text": "Sino siya?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Mi casa». Literalmente, casa mi. Escucha y repite.",
+      "text": "«¿Qué es esto?». Literalmente, qué esto. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -738,52 +770,61 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "to",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "bahay-ko"
+      "item": "ano-ito"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko",
+      "text": "ito",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano-ito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano ito",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "bahay-ko"
+      "item": "ano-ito"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Al revés que en español: primero la cosa, luego de quién.",
+      "text": "ito = esto (cerca de mí), iyan = eso (cerca de ti), iyon = aquello.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -792,7 +833,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Mi casa»?",
+      "text": "¿Cómo se dice «¿Qué es esto?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -801,16 +842,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Otra vez. «¿Qué es esto?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -819,11 +860,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
@@ -837,7 +878,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «tu / tú (agente)».",
+      "text": "Y ahora, «¿Dónde vives?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -846,16 +887,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Saan ka nakatira?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Y tú?». Literalmente, tú. Escucha y repite.",
+      "text": "«aquí / ahí / allí». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -864,52 +905,79 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "dito / diyan / doon",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kaw",
+      "text": "on",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-y-tu"
+      "item": "dito-diyan-doon"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw",
+      "text": "doon",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ikaw-y-tu"
+      "item": "dito-diyan-doon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ doon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dito-diyan-doon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ diyan / doon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dito-diyan-doon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dito / diyan / doon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "dito / diyan / doon",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "dito / diyan / doon",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Para devolver la pregunta. Ikaw solo, con entonación de pregunta.",
+      "text": "Nandito ako = estoy aquí. Doon = allí (señalando).",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -918,7 +986,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Y tú?»?",
+      "text": "¿Cómo se dice «aquí / ahí / allí»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -927,106 +995,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "dito / diyan / doon",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Y tú?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ikaw?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Tengo hambre». Literalmente, hambriento yo. Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ko",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Sin verbo. El tagalog dice primero el comentario y luego quién.",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
+      "text": "Otra vez. «aquí / ahí / allí».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1035,61 +1013,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "dito / diyan / doon",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Tengo hambre».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gutom ako.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Un momento. Volvamos atrás.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «Mi casa».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "ka nunca va al principio.",
+      "text": "La receta de preguntar con verbo.",
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
@@ -1098,7 +1031,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "ikaw y ka significan lo mismo, tú. ikaw va al principio de la frase: Ikaw ba si Ana. ka va siempre detrás de algo: Kumusta ka, Marunong ka ba. Y ko y mo, mi y tu, van DETRÁS de la cosa: bahay ko, pangalan mo. Al revés que en español.",
+      "text": "Palabra de preguntar, luego ka, luego el verbo. Saan ka nakatira. Saan ka natutulog. El ka salta siempre a la segunda posición. Nunca al principio, nunca al final.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
@@ -1107,20 +1040,20 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Saan ka nakatira?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka"
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Sino siya?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "narrator",
@@ -1134,16 +1067,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin.",
+      "text": "Nakatira ako sa Tondo.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Yo también.",
-      "item": "ako-rin"
+      "translation_es": "Vivo en Tondo.",
+      "item": "nakatira-ako-sa"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Yo también».",
+      "text": "«Vivo en Tondo».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -1152,38 +1085,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako rin.",
+      "text": "Nakatira ako sa Tondo.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Yo también.",
-      "item": "ako-rin"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Malapit lang.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Aquí cerca.",
-      "item": "malapit-lang"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Aquí cerca».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Malapit lang.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Aquí cerca.",
-      "item": "malapit-lang"
+      "translation_es": "Vivo en Tondo.",
+      "item": "nakatira-ako-sa"
     },
     {
       "role": "native_f",
@@ -1213,6 +1119,33 @@
       "item": "kaibigan-ko"
     },
     {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malapit lang.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Aquí cerca.",
+      "item": "malapit-lang"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Aquí cerca».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malapit lang.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí cerca.",
+      "item": "malapit-lang"
+    },
+    {
       "role": "narrator",
       "lang": "es",
       "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
@@ -1224,7 +1157,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Alguien te dice su nombre. Devuélvele la pregunta.",
+      "text": "Pregúntale dónde vive.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1233,16 +1166,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Saan ka nakatira?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di que tienes hambre.",
+      "text": "Señala a alguien y pregunta quién es.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1251,16 +1184,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Sino siya?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Te dice que él también. Señala una casa y di: mi casa.",
+      "text": "Coge algo de la mesa y pregunta qué es.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1269,16 +1202,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale cómo se llama.",
+      "text": "Te dice que vive aquí cerca. Repítelo tú.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1287,29 +1220,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Anong pangalan mo?",
+      "text": "Malapit lang.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Te dice algo que no entiendes. Di que no lo sabes.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Hindi ko alam.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
+      "translation_es": "Aquí cerca.",
+      "item": "malapit-lang"
     },
     {
       "role": "narrator",
@@ -1323,25 +1238,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «yo».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tú».",
+      "text": "Di: «¿Dónde?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1350,16 +1247,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "ikaw / ka",
+      "text": "Saan?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
+      "translation_es": "¿Dónde?",
+      "item": "saan"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «mi / yo (agente)».",
+      "text": "Otra vez. «¿Quién?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1368,16 +1265,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ko",
+      "text": "Sino?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "mi / yo (agente)",
-      "item": "ko"
+      "translation_es": "¿Quién?",
+      "item": "sino"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "text": "Y ahora, «¿Qué? / ¿Cuál?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1386,16 +1283,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "mo",
+      "text": "Ano?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "tu / tú (agente)",
-      "item": "mo"
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «él / ella».",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1404,16 +1301,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "siya",
+      "text": "Saan ka nakatira?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Di: «¿Quién es él/ella?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1422,16 +1319,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Bahay ko.",
+      "text": "Sino siya?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Y tú?».",
+      "text": "Otra vez. «¿Qué es esto?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1440,16 +1337,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ikaw?",
+      "text": "Ano ito?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Y tú?",
-      "item": "ikaw-y-tu"
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
+      "text": "Y ahora, «aquí / ahí / allí».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1458,11 +1355,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "dito / diyan / doon",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "narrator",
@@ -1503,7 +1400,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Solo un poco».",
+      "text": "Di: «mi / yo (agente)».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1511,105 +1408,6 @@
     },
     {
       "role": "native_f",
-      "lang": "tl",
-      "text": "Konti lang.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Solo un poco.",
-      "item": "konti-lang"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «No lo sé»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Hindi ko alam.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No lo sé.",
-      "item": "hindi-ko-alam"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¿Sabes hablar Tagalog?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Marunong ka bang mag-Tagalog?",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "¿Sabes hablar Tagalog?",
-      "item": "marunong-tagalog"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Repaso final. Todo lo de hoy.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «yo».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ako",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "yo",
-      "item": "ako"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «tú».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ikaw / ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "tú",
-      "item": "ikaw-ka"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «mi / yo (agente)».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
       "lang": "tl",
       "text": "ko",
       "kind": "phrase",
@@ -1627,7 +1425,7 @@
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "mo",
       "kind": "phrase",
@@ -1638,25 +1436,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «él / ella».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "siya",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "él / ella",
-      "item": "siya"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «Mi casa».",
+      "text": "Di: «¿Y tú?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1664,24 +1444,6 @@
     },
     {
       "role": "native_f",
-      "lang": "tl",
-      "text": "Bahay ko.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Mi casa.",
-      "item": "bahay-ko"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «¿Y tú?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
       "lang": "tl",
       "text": "Ikaw?",
       "kind": "phrase",
@@ -1692,7 +1454,34 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Tengo hambre»?",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1701,11 +1490,101 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Gutom ako.",
+      "text": "Sino?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hambre.",
-      "item": "gutom-ako"
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué? / ¿Cuál?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quién es él/ella?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino siya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él/ella?",
+      "item": "sino-siya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ano ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "ano-ito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «aquí / ahí / allí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dito / diyan / doon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / ahí / allí",
+      "item": "dito-diyan-doon"
     },
     {
       "role": "narrator",
@@ -1717,30 +1596,21 @@
       "item": null
     },
     {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ako si Marites. Ikaw?",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Yo soy Marites. ¿Y tú?",
-      "item": null
-    },
-    {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor. Gutom ako!",
+      "text": "Saan ka nakatira?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Yo soy Víctor. ¡Tengo hambre!",
+      "translation_es": "¿Dónde vives?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Ako rin! Malapit lang ang bahay ko.",
+      "text": "Nakatira ako sa Tondo. Malapit lang.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Yo también! Mi casa está aquí cerca.",
+      "translation_es": "Vivo en Tondo. Aquí cerca.",
       "item": null
     },
     {
@@ -1755,10 +1625,19 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Kaibigan ko. Ikaw din, kaibigan ko na!",
+      "text": "Kaibigan ko. Ano ito?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Mi amiga. ¡Tú también, ya eres mi amigo!",
+      "translation_es": "Mi amiga. ¿Qué es esto?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kape. Doon ang bahay ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Café. Allí está mi casa.",
       "item": null
     },
     {
@@ -1774,10 +1653,10 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 13.4,
-    "chars": 3965,
-    "cues": 190,
+    "minutes_estimated": 12.6,
+    "chars": 3848,
+    "cues": 177,
     "mode": "lesson",
-    "lesson": 3
+    "lesson": 4
   }
 }

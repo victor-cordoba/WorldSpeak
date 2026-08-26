@@ -27,6 +27,8 @@ Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster)
 - `assemble.py --track-id/--kind/--title-suffix` para publicar versiones alternativas de una lección.
 - Carpeta de iCloud renombrada a `09 - ESTUDIOS/WorldSpeak/` (el repo es `WorldSpeak/WorldSpeak/`).
 
+- **Nivel 1 completo (L01–L08) generado con Fish Audio** y publicado en la Ruta. Fish pasa a ser el proveedor por defecto; la L01 de ElevenLabs queda como pista de comparación. Escenas y recetas L04–L08. Compilador calibrado a 15 min reales.
+
 ### Corregido
 - `safeJson` devolvía `null` para `"null"` y tumbaba el render del curso.
 

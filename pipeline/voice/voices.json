@@ -1,84 +1,12 @@
 {
-  "_doc": "Voces de ElevenLabs por rol. Todas son de la Voice Library (cedidas por sus dueños), añadidas a la cuenta con POST /v1/voices/add. Modelo eleven_v3 en todas.",
-  "model_id": "eleven_v3",
-  "output_format": "mp3_44100_128",
+  "_doc": "Perfil alternativo: todo con Fish Audio s2.1-pro-free (voces genéricas de su biblioteca, no clones de famosos).",
+  "model_id": "s2.1-pro-free",
+  "output_format": "mp3",
   "roles": {
-    "narrator": {
-      "voice_id": "4R9s73RrCF4wi6GqmzrT",
-      "name": "Gabriel Blanco (narrador, español peninsular)",
-      "language_code": "es",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      }
-    },
-    "native_m": {
-      "voice_id": "u1CVBnSUn9JiL8ssgd2v",
-      "name": "Juanito (filipino, hombre)",
-      "language_code": "fil",
-      "voice_settings": {
-        "stability": 0.6,
-        "similarity_boost": 0.85,
-        "style": 0.15,
-        "use_speaker_boost": true
-      }
-    },
-    "native_f": {
-      "voice_id": "6LXO12QQcaZd6xGp9UIZ",
-      "name": "Cielle (filipina, mujer)",
-      "language_code": "fil",
-      "voice_settings": {
-        "stability": 0.6,
-        "similarity_boost": 0.85,
-        "style": 0.15,
-        "use_speaker_boost": true
-      }
-    },
-    "kid_f": {
-      "voice_id": "0OteN0TNg6Kyaflk2DY8",
-      "name": "Bea (niña filipina, dulce)",
-      "language_code": "fil",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      }
-    },
-    "kid_m": {
-      "voice_id": "FSuckdZNjSzYsEkK5aKN",
-      "name": "Donnel (chico joven filipino)",
-      "language_code": "fil",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      }
-    }
-  },
-  "languages": {
-    "tl": {
-      "name": "Tagalog",
-      "elevenlabs": "fil"
-    },
-    "ceb": {
-      "name": "Cebuano",
-      "elevenlabs": null
-    }
-  },
-  "_fish_candidates": {
-    "_doc": "Voces de Fish Audio (biblioteca, NO clones de famosos) para probar cuando haya crédito de API. Para usar una: copiar a roles con provider:'fish'.",
-    "native_calm": "92c6c4e5e8fa499e801b99eb7cd5c5b9",
-    "native_young": "0663e31efd9c4fd08d7178d1fbe03988",
-    "native_energetic": "a3df75244b0e43b0a2344a0fecee8a57",
-    "ejemplo_rol": {
-      "provider": "fish",
-      "voice_id": "92c6c4e5e8fa499e801b99eb7cd5c5b9",
-      "model": "s1",
-      "name": "Calm Filipino Voice (Fish)"
-    }
+    "narrator": { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "35199d5438854f5d9157c500479ab684", "name": "Narrador v2 (ES, Fish)", "voice_settings": {} },
+    "native_m": { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "92c6c4e5e8fa499e801b99eb7cd5c5b9", "name": "Calm Filipino Voice (Fish)", "voice_settings": {} },
+    "native_f": { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "0663e31efd9c4fd08d7178d1fbe03988", "name": "Young Filipino Speaker (Fish)", "voice_settings": {} },
+    "kid_f":    { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "0663e31efd9c4fd08d7178d1fbe03988", "name": "Young Filipino Speaker (Fish)", "voice_settings": {} },
+    "kid_m":    { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "a3df75244b0e43b0a2344a0fecee8a57", "name": "Energetic Filipino Speaker (Fish)", "voice_settings": {} }
   }
 }
