@@ -6,12 +6,13 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <meta name="theme-color" content="#0038a8">
   <title>Tagalog · WorldSpeak</title>
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260826-11">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260826-14">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="../assets/course.css?v=20260826-11">
+  <link rel="stylesheet" href="../assets/course.css?v=20260826-14">
+  <link rel="stylesheet" href="../assets/bg.css?v=20260826-14">
 </head>
 <body>
   <header class="top">
@@ -63,7 +64,7 @@
     <section id="tab-medida" class="tab" aria-labelledby="nav-medida" hidden>
       <div class="section-head">
         <h2>A medida</h2>
-        <p>Elige temas y repasa por anticipación: ves el español, lo dices en voz alta, compruebas.</p>
+        <p>Elige temas y repasa: ves el español, lo dices en voz alta en Tagalog, compruebas.</p>
       </div>
       <div id="customPills" class="pill-bar pill-bar-wrap" aria-label="Temas a repasar"></div>
       <div class="custom-row">
@@ -73,8 +74,7 @@
       <div id="quiz" class="quiz" hidden>
         <div class="quiz-progress"><span id="quizBar"></span></div>
         <p class="quiz-es" id="quizEs"></p>
-        <p class="quiz-hint">¿Cómo se dice en Tagalog? Dilo en voz alta.</p>
-        <div class="quiz-answer" id="quizAnswer" hidden>
+                <div class="quiz-answer" id="quizAnswer" hidden>
           <p class="quiz-tl" id="quizTl"></p>
           <p class="quiz-note" id="quizNote"></p>
         </div>
@@ -86,6 +86,9 @@
           </div>
         </div>
       </div>
+      <div class="section-head section-head-sub"><h3>Diálogos</h3><p>Las conversaciones de cada lección, para leerlas en voz alta y repetirlas.</p></div>
+      <div id="dialogueList" class="dialogue-list"></div>
+
       <div id="quizDone" class="quiz-done" hidden>
         <p class="quiz-done-big">🎉</p>
         <h3>¡Repaso hecho!</h3>
@@ -102,6 +105,8 @@
     <button id="nav-medida" class="nav-btn" data-tab="medida" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2.05V5a1 1 0 1 1-2 0V2.05A10 10 0 0 0 2.05 11H5a1 1 0 1 1 0 2H2.05A10 10 0 0 0 11 21.95V19a1 1 0 1 1 2 0v2.95A10 10 0 0 0 21.95 13H19a1 1 0 1 1 0-2h2.95A10 10 0 0 0 13 2.05zM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/></svg><span>A medida</span></button>
   </nav>
 
-  <script src="../assets/course.js?v=20260826-11"></script>
+  <script src="../assets/course.js?v=20260826-14"></script>
+  <script src="../assets/track.js?v=20260826-14" data-api="../api/track.php" data-course="tagalog" defer></script>
+  <script src="../assets/bg.js?v=20260826-14"></script>
 </body>
 </html>

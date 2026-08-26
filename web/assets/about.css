@@ -85,3 +85,7 @@ a { color: inherit; }
 }
 @media (max-width: 520px) { .ab-grid, .ab-strip { grid-template-columns: 1fr; } .ab-strip b { font-size: 36px; } }
 @media (prefers-reduced-motion: reduce) { .ws-globe-map, .ab-hero-globe::after, .ab-globe-pin { animation: none; } .ab-reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
+
+body.has-live-bg { background: transparent; }
+.has-live-bg .ab-card, .has-live-bg .ab-strip div, .has-live-bg .ab-chat-l { background: rgba(255,255,255,0.75); backdrop-filter: blur(12px); }
+.has-live-bg .ab-section-tinted, .has-live-bg .ab-footer { background: rgba(243,246,252,0.6); }

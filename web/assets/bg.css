@@ -1,0 +1,12 @@
+/* WorldSpeak · fondo vivo. Manchas de color de la bandera (azul, rojo, oro) desenfocadas,
+   que derivan solas y se desplazan con el scroll (--ws-scroll lo fija bg.js). */
+.ws-bg { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; background: linear-gradient(180deg, #f6f8fe 0%, #eef3ff 60%, #fff7e0 100%); }
+.ws-bg span { position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.55; will-change: transform; animation: ws-drift 22s ease-in-out infinite alternate; }
+.ws-bg .b1 { width: 52vmax; height: 52vmax; left: -14vmax; top: -18vmax; background: #4f86f7; transform: translateY(calc(var(--ws-scroll, 0) * -0.12px)); }
+.ws-bg .b2 { width: 44vmax; height: 44vmax; right: -16vmax; top: 22vh; background: #fcd116; animation-delay: -7s; transform: translateY(calc(var(--ws-scroll, 0) * -0.22px)); }
+.ws-bg .b3 { width: 40vmax; height: 40vmax; left: 30vw; bottom: -22vmax; background: #ff7a8a; opacity: 0.35; animation-delay: -13s; transform: translateY(calc(var(--ws-scroll, 0) * -0.3px)); }
+.ws-bg .b4 { width: 26vmax; height: 26vmax; left: 55vw; top: 8vh; background: #8ed4ff; opacity: 0.45; animation-delay: -4s; transform: translateY(calc(var(--ws-scroll, 0) * -0.18px)); }
+@keyframes ws-drift { 0% { translate: 0 0; scale: 1; } 50% { translate: 4vw -3vh; scale: 1.08; } 100% { translate: -3vw 4vh; scale: 0.95; } }
+@media (prefers-reduced-motion: reduce) { .ws-bg span { animation: none; } }
+/* superficies sobre el fondo vivo: un poco de cristal */
+body.has-live-bg { background: transparent !important; }

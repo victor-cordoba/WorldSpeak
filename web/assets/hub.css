@@ -81,3 +81,22 @@ a.course:hover, a.course:focus-visible { transform: none; border-color: var(--bl
 .hub-brand { display: grid; gap: 10px; }
 .hub-wordmark { width: 280px; max-width: 80vw; height: auto; }
 .hub-brand p { margin: 0; }
+
+/* v12 */
+.hub-brand-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.account-icon { width: 48px !important; height: 48px; padding: 0 !important; justify-content: center; border-radius: 50% !important; }
+.account-icon .account-initial { width: 40px; height: 40px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.section-title { display: grid; }
+.section-title h2 { order: 0; } .section-title p { order: 1; }
+@media (max-width: 760px) { .section-title p { font-size: 22px; } .legacy { margin-top: 40px; } .hub-hero2 { margin-bottom: 24px; } }
+
+.hub-hero2 { grid-template-columns: 1fr auto auto; }
+.hub-globe { width: 96px; height: 96px; }
+.hub-globe svg { width: 100%; height: 100%; filter: drop-shadow(0 12px 24px rgba(10, 47, 158, 0.25)); }
+.ws-globe-map { animation: drift 40s linear infinite; }
+@keyframes drift { to { transform: translateX(-400px); } }
+@media (max-width: 760px) { .hub-hero2 { grid-template-columns: 1fr; } .hub-globe { display: none; } }
+@media (prefers-reduced-motion: reduce) { .ws-globe-map { animation: none; } }
+
+.has-live-bg .course, .has-live-bg .legacy-row, .has-live-bg .hub-stats2 div, .has-live-bg .account-toggle { background: rgba(255,255,255,0.78); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }

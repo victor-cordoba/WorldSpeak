@@ -8,3 +8,25 @@
 /* Fondo de la página cuando solo hay barra: una pista de qué hacer */
 .player-only .shell::after { content: "Dale al play. El texto se abre solo y sigue el audio."; display: block; margin: 40px auto 0; max-width: 32ch; text-align: center; color: var(--muted); font-size: 15px; }
 .player-only.transcript-focus-mode .shell::after, .player-only .shell.has-transcript::after { display: none; }
+
+/* tarjeta de la lección cuando el texto está cerrado */
+.mini-card { display: grid; gap: 12px; margin: 6px 0 24px; padding: 24px 22px; border-radius: 24px; background: #fff; border: 1px solid var(--line); }
+.ws-transcript-open .mini-card { display: none; }
+.player-only .shell::after { display: none; }
+.lesson-pill { display: inline-block; width: max-content; padding: 6px 12px; border-radius: 999px; background: var(--blue); color: #fff; font-family: "Plus Jakarta Sans", Inter, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 0.02em; }
+.mini-card h2 { margin: 0; font-size: 28px; line-height: 1.1; }
+.mini-card p { margin: 0; color: var(--muted); line-height: 1.5; }
+.mini-topics { display: flex; flex-wrap: wrap; gap: 6px; }
+.mini-topics span { padding: 5px 10px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); font-size: 12px; font-weight: 700; }
+.mini-read { margin-top: 6px; padding: 14px 18px; border: 0; border-radius: 16px; background: var(--gold); color: var(--ink); font-family: "Plus Jakarta Sans", Inter, sans-serif; font-weight: 800; font-size: 16px; cursor: pointer; box-shadow: 0 4px 0 #d9b000; }
+.mini-read:active { transform: translateY(4px); box-shadow: none; }
+.player-only #transcriptTitle { display: grid; gap: 8px; font-size: 24px; }
+.player-only #transcriptTitle .lesson-name { display: block; }
+
+body.player-only.has-live-bg { background: transparent !important; }
+.has-live-bg .mini-card { background: rgba(255,255,255,0.82); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+/* barra superior en modo reproductor: solo Ruta + cuenta (Continuar sobra aquí) */
+.player-only .study-topbar, .player-only .study-topbar.has-continue { grid-template-columns: auto 1fr; }
+.player-only #continueButton { display: none !important; }
+.player-only .account-toggle { width: auto; justify-self: end; }
+@media (max-width: 760px) { .player-only .account-toggle span:last-child { display: none; } .player-only .account-toggle { padding-right: 8px; } .player-only .hub-link span:last-child { display: grid; } }

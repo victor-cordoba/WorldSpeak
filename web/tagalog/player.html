@@ -20,11 +20,12 @@
   <meta name="twitter:title" content="Tagalog · WorldSpeak">
   <meta name="twitter:description" content="Media hora al día. Solo escuchar y repetir.">
   <meta name="twitter:image" content="https://victorcordoba.com/worldspeak/tagalog/social-image.png">
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260826-11">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260826-15">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="../assets/player.css?v=20260826-11">
-  <link rel="stylesheet" href="../assets/player-only.css?v=20260826-11">
+  <link rel="stylesheet" href="../assets/player.css?v=20260826-15">
+  <link rel="stylesheet" href="../assets/player-only.css?v=20260826-15">
+  <link rel="stylesheet" href="../assets/bg.css?v=20260826-15">
 </head>
 <body class="player-only">
   <main class="shell">
@@ -73,6 +74,8 @@
       </div>
     </section>
 
+    <section id="miniCard" class="mini-card" aria-label="Lección"></section>
+
     <section class="player-panel" aria-label="Reproductor">
       <div class="now">
         <span id="trackType" class="player-lesson-badge">01</span>
@@ -81,7 +84,7 @@
           <p id="trackSubtitle" hidden></p>
         </div>
       </div>
-      <audio id="player" preload="metadata" playsinline></audio>
+      <audio id="player" preload="auto" playsinline webkit-playsinline></audio>
       <div class="player-transport" aria-label="Controles principales">
         <button id="prevTrack" class="icon-button transport-skip" type="button" aria-label="Anterior" hidden></button>
         <button id="playPause" class="play-pause-button" type="button" aria-label="Reproducir"></button>
@@ -118,7 +121,7 @@
       <button id="transcriptClose" class="transcript-close" type="button" aria-label="Cerrar texto"></button>
       <div class="transcript-header">
         <div>
-          <p class="transcript-kicker">Guía de estudio</p>
+          <p class="transcript-kicker" hidden>Guía de estudio</p>
           <h2 id="transcriptTitle">Lección 01</h2>
         </div>
         <span id="transcriptCount" class="transcript-count"></span>
@@ -265,6 +268,8 @@
     </section>
   </div>
 
-  <script src="../assets/boot.js?v=20260826-11" data-v="20260826-11"></script>
+  <script src="../assets/boot.js?v=20260826-15" data-v="20260826-15"></script>
+  <script src="../assets/track.js?v=20260826-15" data-api="../api/track.php" data-course="tagalog" defer></script>
+  <script src="../assets/bg.js?v=20260826-15"></script>
 </body>
 </html>

@@ -666,6 +666,7 @@ function updatePlayerMetrics() {
 
 function setTranscriptVisible(visible) {
   document.body.classList.toggle('transcript-visible', visible);
+  document.body.classList.toggle('ws-transcript-open', visible);
   if (visible) {
     updatePlayerMetrics();
   }
@@ -701,6 +702,27 @@ function setMediaSessionHandler(action, handler) {
   }
 }
 
+function renderMiniCard(track) {
+  const card = document.querySelector('#miniCard');
+  if (!card) return;
+  const entry = transcriptIndex.get(track.id) || {};
+  const topics = (entry.topics || []).slice(0, 6).map((t) => `<span>${t}</span>`).join('');
+  card.innerHTML = `<span class="lesson-pill">${track.title}</span><h2>${displayTitle(track)}</h2><p>${entry.summary || displaySubtitle(track) || ''}</p><div class="mini-topics">${topics}</div><button type="button" class="mini-read" id="miniRead">📖 Leer el texto mientras escuchas</button>`;
+  card.querySelector('#miniRead').addEventListener('click', () => { transcriptOpen = true; renderTranscript(track); });
+}
+
+function safePlay() {
+  const resumeAt = player.currentTime;
+  return player.play().catch(() => {
+    // iOS suspende el elemento tras bloquear la pantalla: recargar y volver al mismo segundo
+    const src = player.currentSrc || player.src;
+    const once = () => { player.removeEventListener('loadedmetadata', once); try { player.currentTime = resumeAt; } catch (_e) {} player.play().catch(() => {}); };
+    player.addEventListener('loadedmetadata', once);
+    player.src = src;
+    player.load();
+  });
+}
+
 function updateMediaSession(track) {
   if (!('mediaSession' in navigator)) {
     return;
@@ -718,7 +740,7 @@ function updateMediaSession(track) {
     // Metadata is progressive enhancement for lock-screen controls.
   }
 
-  setMediaSessionHandler('play', () => player.play().catch(() => {}));
+  setMediaSessionHandler('play', () => safePlay());
   setMediaSessionHandler('pause', () => player.pause());
   setMediaSessionHandler('previoustrack', () => playPrevious());
   setMediaSessionHandler('nexttrack', () => playNext());
@@ -995,7 +1017,11 @@ async function renderTranscript(track) {
     const data = transcriptCache.get(track.id);
     const segments = groupTranscriptSegments(data.segments || []);
     const summary = usefulSummary(data.summary_es);
-    transcriptTitle.textContent = fullTrackLabel(track);
+    if (document.body.classList.contains('player-only')) {
+      transcriptTitle.innerHTML = `<span class="lesson-pill">${track.title}</span><span class="lesson-name">${displayTitle(track)}</span>`;
+    } else {
+      transcriptTitle.textContent = fullTrackLabel(track);
+    }
     transcriptSummary.textContent = summary;
     transcriptSummary.hidden = !summary;
     renderTopics(data.topics || []);
@@ -1473,7 +1499,7 @@ nextTrack.addEventListener('click', playNext);
 playPause.addEventListener('click', () => {
   setPlayerVisible(true);
   if (player.paused || player.ended) {
-    player.play().catch(() => {});
+    safePlay();
   } else {
     player.pause();
   }
@@ -1716,5 +1742,12 @@ loadTranscriptIndex().then(() => {
     renderTranscript(tracks[currentIndex()]);
     document.querySelector('.shell')?.classList.add('has-transcript');
   }
+  if (document.body.classList.contains('player-only')) renderMiniCard(tracks[currentIndex()]);
 });
 restoreAccountSession();
+
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && 'mediaSession' in navigator) {
+    navigator.mediaSession.playbackState = player.paused ? 'paused' : 'playing';
+  }
+});

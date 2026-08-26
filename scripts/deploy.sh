@@ -5,7 +5,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 HOST="PERSONAL_SERVER"
-DEST="~/domains/victorcordoba.com/public_html/worldspeak/"
+DEST="~/domains/worldspeak.es/public_html/"
 
 EXCLUDES=(--exclude '.DS_Store' --exclude '__pycache__/' --exclude '*.md' --exclude 'config.php' --exclude '.private/'
           --exclude 'transcripts/chunks/' --exclude 'transcripts/enriched_batches/' --exclude '*/audio' --exclude '*/audio/' --exclude '_clips/')
@@ -21,4 +21,4 @@ if [[ "${1:-}" == "--audio" ]]; then
     rsync -azL --progress "$course/audio/" "$HOST:${DEST}${name}/audio/"
   done
 fi
-echo "OK https://victorcordoba.com/worldspeak/"
+echo "OK https://worldspeak.es/"

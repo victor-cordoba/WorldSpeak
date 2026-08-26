@@ -33,3 +33,17 @@ CREATE TABLE IF NOT EXISTS ws_rate_limits (
   blocked_until INT NOT NULL DEFAULT 0,
   updated_at INT NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+;
+CREATE TABLE IF NOT EXISTS ws_events (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  ts DATETIME NOT NULL,
+  sid CHAR(24) NOT NULL,
+  user_id CHAR(64) NULL,
+  event VARCHAR(40) NOT NULL,
+  page VARCHAR(120) NULL,
+  course VARCHAR(64) NULL,
+  track VARCHAR(80) NULL,
+  extra VARCHAR(255) NULL,
+  ua VARCHAR(160) NULL,
+  INDEX idx_events_ts (ts), INDEX idx_events_event (event)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4

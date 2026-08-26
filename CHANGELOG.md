@@ -1,12 +1,21 @@
 # Changelog
 
-Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster).
+Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versión `AAAAMMDD-N` (cache buster).
 
 ---
 
 ## [Sin publicar] — 2026-08-26 · Tagalog propio: sistema de aprendizaje modular
 
+![Hub en móvil](screenshots/12-movil-hub.jpg) ![Ruta en móvil](screenshots/13-movil-ruta.jpg) ![Lección en móvil](screenshots/14-movil-leccion.jpg)
+
 ### Añadido
+- **Dominio propio `worldspeak.es`** (Hostinger): todo desplegado ahí (código, datos, audio y la base de usuarios). Espejo temporal en `victorcordoba.com/worldspeak` hasta que el DNS resuelva; después redirecciones 301 desde ahí y desde `misioncebu.org/tagalog`.
+- **Analítica propia** sin cookies de terceros: `api/track.php` + tabla `ws_events` (visitas, play, fin de lección, marcar hecha, leer texto, repasos, login) y panel `api/stats.php?key=…`.
+- **Nivel 1 completo con Fish Audio (L01–L08)** y producción en marcha de L09–L30 con `scripts/produce-levels.sh` (GPT redacta ítems/escena/receta desde el currículo → compilador → Fish → montaje).
+- **Fondo vivo**: manchas de color de la bandera, desenfocadas, que derivan y se desplazan con el scroll; superficies con efecto cristal.
+- Reproductor del curso propio: tarjeta de la lección al cerrar el texto, cabecera con píldora «Lección 02», reanudación robusta tras bloquear el iPhone (`safePlay`: recarga y sigue en el mismo segundo).
+- Ruta: botón ▶ en cada parada, bus dentro de la línea, práctica rápida por lección preseleccionando sus temas; A medida con **Diálogos** (líneas tocables con traducción).
+- Hub: icono de cuenta alineado con el wordmark, «Aprende hablando», «Perfecto para Tondo», sección «Método Pimsleur».
 - **Plan maestro** `docs/10-plan-tagalog-propio.md`: Nivel 1 = kit de conversación (pronombres, preguntas, entender respuestas, gusto, ba), luego conocer a la persona, niños en la calle, el corazón, día a día. 15 min por lección con modos de 5 y 30.
 - **Contenido modular** en `web/tagalog/content/`: `items.json` (77 ítems Nivel 1), `tables.json` (13 tablas), `pills.json`, `scenes.json`, `recipes/`.
 - **`compile_lesson.py`**: compilador determinista receta → cues. Narrador por plantillas, construcción hacia atrás por sílabas, repaso espaciado, bloque «entender», modo repaso y modo a medida. Sin LLM por lección.

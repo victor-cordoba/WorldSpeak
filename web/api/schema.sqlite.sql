@@ -34,3 +34,18 @@ CREATE TABLE IF NOT EXISTS ws_rate_limits (
 )
 ;
 CREATE INDEX IF NOT EXISTS idx_sessions_user ON ws_sessions(user_id)
+;
+CREATE TABLE IF NOT EXISTS ws_events (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  ts TEXT NOT NULL,
+  sid TEXT NOT NULL,
+  user_id TEXT NULL,
+  event TEXT NOT NULL,
+  page TEXT NULL,
+  course TEXT NULL,
+  track TEXT NULL,
+  extra TEXT NULL,
+  ua TEXT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_events_ts ON ws_events(ts);
+CREATE INDEX IF NOT EXISTS idx_events_event ON ws_events(event)

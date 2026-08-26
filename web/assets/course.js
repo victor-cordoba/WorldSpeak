@@ -47,7 +47,7 @@ function renderRoute() {
       el.dataset.num = String(l.lesson);
       if (live) el.href = `./player.html?track=${l.id}`;
       const hasItems = items.some((i) => i.lesson === l.lesson);
-      el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-actions">${hasItems ? `<button class="stop-practice" type="button" title="Práctica rápida de esta lección" aria-label="Práctica rápida" data-practice="${l.lesson}">⚡</button>` : ''}<span class="stop-cta">${isDone ? 'Repetir' : isNext ? 'Empezar' : live ? 'Escuchar' : 'Pronto'}</span></span>`;
+      el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-actions">${hasItems ? `<button class="stop-practice" type="button" title="Práctica rápida de esta lección" aria-label="Práctica rápida" data-practice="${l.lesson}">⚡</button>` : ''}<span class="stop-cta ${live ? 'stop-play' : ''}" aria-label="${isDone ? 'Repetir' : 'Escuchar'}">${live ? '<svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>' : '🔒'}</span></span>`;
       el.querySelector('[data-practice]')?.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); practiceLesson(l.lesson); });
       wrap.appendChild(el);
     });
@@ -128,12 +128,15 @@ function renderTables() {
 // ---------- a medida: repaso por anticipación ----------
 const chosen = new Set(['preguntar', 'entender']);
 let deck = [], pos = 0, hard = [];
+let scenes = {};
 function renderCustom() {
   renderPills($('#customPills'), (id, b) => { chosen.has(id) ? chosen.delete(id) : chosen.add(id); b.classList.toggle('is-active', chosen.has(id)); }, true, chosen);
 }
 function practiceLesson(lessonNumber) {
   const pool = items.filter((i) => i.lesson === lessonNumber);
   if (!pool.length) { showTab('frases'); return; }
+  chosen.clear(); pool.forEach((i) => chosen.add(i.pill));
+  renderCustom();
   showTab('medida');
   runQuiz(pool, Math.min(pool.length, 12));
 }
@@ -163,6 +166,18 @@ function judge(wasHard) {
   const key = `ws:${course.id}:hard`; const prev = safeJson(localStorage.getItem(key), []);
   localStorage.setItem(key, JSON.stringify([...new Set([...prev, ...hard.map((h) => h.id)])]));
 }
+function renderDialogues() {
+  const wrap = $('#dialogueList'); if (!wrap) return; wrap.innerHTML = '';
+  Object.entries(scenes).forEach(([id, sc]) => {
+    const lesson = curriculum.lessons.find((l) => l.id === `${id}-main`);
+    const d = document.createElement('details'); d.className = 'dlg';
+    d.innerHTML = `<summary><span class="lesson-pill">${lesson ? 'L' + lesson.lesson : id}</span><strong>${lesson ? lesson.title : id}</strong><em>${sc.setting}</em></summary>
+      <div class="dlg-lines">${sc.lines.map((l) => `<button type="button" class="dlg-line ${l.role === 'native_f' ? 'is-f' : 'is-m'}"><b>${l.tl}</b><span>${l.es}</span></button>`).join('')}</div>
+      <p class="dlg-tip">Toca una línea para ver la traducción. Léela en voz alta antes de mirar.</p>`;
+    d.querySelectorAll('.dlg-line').forEach((b) => b.addEventListener('click', () => b.classList.toggle('is-open')));
+    wrap.appendChild(d);
+  });
+}
 $('#customStart').addEventListener('click', startQuiz);
 $('#quizReveal').addEventListener('click', reveal);
 $('#quizHard').addEventListener('click', () => judge(true));
@@ -176,6 +191,7 @@ document.addEventListener('keydown', (e) => { if ($('#quiz').hidden) return; if 
     [course, curriculum] = await Promise.all([getJson('./course.json'), getJson('./content/curriculum.json')]);
     const [it, pi, ta] = await Promise.all([getJson('./content/items.json'), getJson('./content/pills.json'), getJson('./content/tables.json')]);
     items = it.items; pills = pi.pills; tables = ta.tables;
+    try { scenes = (await getJson('./content/scenes.json')).scenes || {}; } catch (_e) { scenes = {}; }
   } catch (error) { $('#app').innerHTML = `<p class="empty">No se ha podido cargar el curso (${error.message}).</p>`; return; }
   $('#courseTitle').textContent = course.shortTitle || course.title;
   renderRoute();
@@ -184,6 +200,7 @@ document.addEventListener('keydown', (e) => { if ($('#quiz').hidden) return; if 
   $('#phraseSearch').addEventListener('input', renderPhrases);
   renderTables();
   renderCustom();
+  renderDialogues();
   const hash = location.hash.replace('#', '');
   if (['ruta', 'frases', 'tablas', 'medida'].includes(hash)) showTab(hash);
 })();

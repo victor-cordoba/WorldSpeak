@@ -6,35 +6,33 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <meta name="description" content="WorldSpeak. Aprende idiomas escuchando y repitiendo, media hora al día.">
   <title>WorldSpeak</title>
-  <link rel="canonical" href="https://victorcordoba.com/worldspeak/">
+  <link rel="canonical" href="https://worldspeak.es/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="WorldSpeak">
   <meta property="og:description" content="Aprende idiomas escuchando y repitiendo, media hora al día.">
-  <meta property="og:image" content="https://victorcordoba.com/worldspeak/tagalog-pimsleur/social-image.png">
-  <link rel="icon" href="./assets/favicon.svg?v=20260826-11" type="image/svg+xml">
+  <meta property="og:image" content="https://worldspeak.es/tagalog-pimsleur/social-image.png">
+  <link rel="icon" href="./assets/favicon.svg?v=20260826-14" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="./assets/player.css?v=20260826-11">
-  <link rel="stylesheet" href="./assets/hub.css?v=20260826-11">
+  <link rel="stylesheet" href="./assets/player.css?v=20260826-14">
+  <link rel="stylesheet" href="./assets/hub.css?v=20260826-14">
+  <link rel="stylesheet" href="./assets/bg.css?v=20260826-14">
 </head>
 <body class="hub-body">
   <main class="shell">
-    <header id="studyTopbar" class="study-topbar hub-topbar" aria-label="Cuenta">
-      <button id="accountToggle" class="account-toggle" type="button" aria-controls="accountModal" aria-expanded="false">
-        <span id="accountInitial" class="account-initial" aria-hidden="true">?</span>
-        <span>
-          <strong id="accountLabel">Entrar</strong>
-          <em id="accountMeta">Guardar progreso</em>
-        </span>
-      </button>
-    </header>
-
     <section class="hub-hero2">
       <div class="hub-brand">
-        <img class="hub-wordmark" src="./assets/wordmark.svg?v=20260826-11" alt="WorldSpeak" width="280" height="70">
-        <p>Idiomas de oído. Media hora al día, de camino a donde vayas.</p>
+        <div class="hub-brand-row">
+          <img class="hub-wordmark" src="./assets/wordmark.svg?v=20260826-14" alt="WorldSpeak" width="280" height="70">
+          <button id="accountToggle" class="account-toggle account-icon" type="button" aria-controls="accountModal" aria-expanded="false" title="Tu cuenta">
+            <span id="accountInitial" class="account-initial" aria-hidden="true">?</span>
+            <span class="sr-only"><strong id="accountLabel">Entrar</strong><em id="accountMeta">Guardar progreso</em></span>
+          </button>
+        </div>
+        <p>Aprende hablando. Media hora al día, de camino a donde vayas.</p>
       </div>
+      <div class="hub-globe" data-globe aria-hidden="true"></div>
       <div class="hub-stats2" aria-label="Tu progreso">
         <div><b id="hubTime">0 min</b><span>escuchados</span></div>
         <div><b id="hubDone">0</b><span>lecciones</span></div>
@@ -48,7 +46,7 @@
     </section>
 
     <section class="legacy" aria-label="Cursos originales">
-      <div class="section-title"><h2>Cursos originales</h2><p>Los audios con los que empezó todo. Se conservan tal cual, con tu progreso.</p></div>
+      <div class="section-title"><h2>Método Pimsleur</h2><p>El curso original, con tu progreso.</p></div>
       <div id="legacyList" class="legacy-list"></div>
     </section>
 
@@ -95,6 +93,9 @@
     </section>
   </div>
 
-  <script src="./assets/hub.js?v=20260826-11"></script>
+  <script>fetch("./assets/globe.svg").then(r=>r.text()).then(t=>{document.querySelectorAll("[data-globe]").forEach(e=>e.innerHTML=t)});</script>
+  <script src="./assets/hub.js?v=20260826-14"></script>
+  <script src="./assets/track.js?v=20260826-14" data-api="./api/track.php" data-course="" defer></script>
+  <script src="./assets/bg.js?v=20260826-14"></script>
 </body>
 </html>
