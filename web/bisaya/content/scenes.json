@@ -1,3 +1,554 @@
 {
-  "scenes": {}
+  "scenes": {
+    "lesson-01": {
+      "setting": "En el mercado Carbon de Cebu City, un voluntario español se encuentra con un vendedor local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Maayong buntag!",
+          "es": "¡Buenos días!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Maayong buntag! Kumusta ka?",
+          "es": "¡Buenos días! ¿Cómo estás?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Maayo ra. Unsa imong ngalan?",
+          "es": "Bien. ¿Cómo te llamas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Ako si Maria. Salamat sa pagbisita.",
+          "es": "Yo soy María. Gracias por visitar."
+        },
+        {
+          "role": "native_m",
+          "tl": "Salamat. Amping!",
+          "es": "Gracias. ¡Cuídate!"
+        }
+      ]
+    },
+    "lesson-02": {
+      "setting": "En el mercado Carbon de Cebu City, un voluntario español intenta comunicarse con un vendedor local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Maayong buntag!",
+          "es": "¡Buenos días!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Maayong buntag! Kabalo ka mag-Binisaya?",
+          "es": "¡Buenos días! ¿Sabes hablar Bisaya?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Gamay ra.",
+          "es": "Solo un poco."
+        },
+        {
+          "role": "native_f",
+          "tl": "Kabalo ka mag-Ingles?",
+          "es": "¿Sabes hablar inglés?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Oo, pero wala ko kasabot sa tanan.",
+          "es": "Sí, pero no entiendo todo."
+        },
+        {
+          "role": "native_f",
+          "tl": "Usba palihug.",
+          "es": "Repite, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Nakasabot ka?",
+          "es": "¿Entiendes?"
+        }
+      ]
+    },
+    "lesson-03": {
+      "setting": "En el mercado de Carbon, un voluntario español se encuentra con un amigo local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Maayo ra. Ikaw si Juan?",
+          "es": "Bien. ¿Eres Juan?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Oo, ako si Juan. Asa ang balay nimo?",
+          "es": "Sí, yo soy Juan. ¿Dónde está tu casa?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Naa sa Cebu. Ikaw, asa ka padulong?",
+          "es": "Está en Cebú. ¿Y tú, a dónde vas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Adto ko sa merkado.",
+          "es": "Voy al mercado."
+        }
+      ]
+    },
+    "lesson-04": {
+      "setting": "En el mercado de Carbon en Cebú, un voluntario habla con un vendedor sobre dónde encontrar ciertos productos.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Maayong buntag! Asa ka padulong?",
+          "es": "¡Buenos días! ¿A dónde vas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Maayong buntag! Adto ko sa merkado. Asa ang tindahan sa prutas?",
+          "es": "¡Buenos días! Voy al mercado. ¿Dónde está la tienda de frutas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Diha ra sa merkado, duol ra.",
+          "es": "Allí en el mercado, está cerca."
+        },
+        {
+          "role": "native_f",
+          "tl": "Salamat! Unsa ang oras karun?",
+          "es": "¡Gracias! ¿Qué hora es ahora?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Unsa ang oras? Alas diyes na.",
+          "es": "¿Qué hora es? Ya son las diez."
+        }
+      ]
+    },
+    "lesson-05": {
+      "setting": "En el mercado Carbon, un voluntario español está intentando encontrar su camino mientras habla con un niño local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Asa ka padulong?",
+          "es": "¿A dónde vas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Gusto kong moadto sa Carbon.",
+          "es": "Quiero ir al Carbon."
+        },
+        {
+          "role": "native_m",
+          "tl": "Unsaon pag-adto sa Carbon?",
+          "es": "¿Cómo se va al Carbon?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Diretso lang.",
+          "es": "Sigue recto."
+        },
+        {
+          "role": "native_m",
+          "tl": "Layo ba?",
+          "es": "¿Está lejos?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Dili kaayo.",
+          "es": "No mucho."
+        },
+        {
+          "role": "native_m",
+          "tl": "Salamat!",
+          "es": "¡Gracias!"
+        }
+      ]
+    },
+    "lesson-06": {
+      "setting": "En el bullicioso mercado de Carbon en Cebú, un voluntario español intenta comprar frutas.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Maayong buntag! Unsa imong gusto?",
+          "es": "¡Buenos días! ¿Qué deseas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Maayong buntag! Tagpila ni?",
+          "es": "¡Buenos días! ¿Cuánto cuesta esto?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Bente pesos.",
+          "es": "Veinte pesos."
+        },
+        {
+          "role": "native_m",
+          "tl": "Mahal! Pwede barato?",
+          "es": "¡Caro! ¿Puede ser más barato?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sige, barato. Kinsay magpalit?",
+          "es": "Está bien, barato. ¿Quién va a comprar?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Ako, usa ka kape palihug.",
+          "es": "Yo, un café, por favor."
+        }
+      ]
+    },
+    "lesson-07": {
+      "setting": "En el mercado de Carbon, un voluntario habla con un niño local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Maayo ra. Ikaw?",
+          "es": "Bien. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Maayo man. Kanus-a ka moadto sa eskwela?",
+          "es": "Estoy bien. ¿Cuándo vas a la escuela?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Ugma pa. Ngano?",
+          "es": "Mañana. ¿Por qué?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Kay gusto ko makakita sa imong klase.",
+          "es": "Porque quiero ver tu clase."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Pila mo sa inyong balay?",
+          "es": "¿Cuántos sois en tu casa?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Upat mi. Ikaw?",
+          "es": "Somos cuatro. ¿Y tú?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Tulo mi. Kay gigutom ko, adto na ko.",
+          "es": "Somos tres. Porque tengo hambre, me voy."
+        }
+      ]
+    },
+    "lesson-08": {
+      "setting": "En el mercado de Carbon, un voluntario español intenta hablar con un vendedor local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Maayong buntag! Unsa imong ngalan?",
+          "es": "¡Buenos días! ¿Cómo te llamas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Ako si Maria. Unsa sa Binisaya ang 'agua'?",
+          "es": "Yo soy María. ¿Cómo se dice 'agua' en Bisaya?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Tubig. Gusto ka og tubig?",
+          "es": "Agua. ¿Quieres agua?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Oo, gusto ko og tubig. Tagpila ni?",
+          "es": "Sí, quiero agua. ¿Cuánto cuesta esto?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Bente pesos. Walay sapayan.",
+          "es": "Veinte pesos. De nada."
+        },
+        {
+          "role": "native_f",
+          "tl": "Salamat! Pasaylo-a ko, wala ko kasabot usahay.",
+          "es": "¡Gracias! Perdóname, a veces no entiendo."
+        },
+        {
+          "role": "native_m",
+          "tl": "Walay sapayan. Amping!",
+          "es": "De nada. ¡Cuídate!"
+        }
+      ]
+    },
+    "lesson-09": {
+      "setting": "En el barrio de Lorega, en Cebú, un voluntario español conversa con un niño local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Maayo ra. Asa imong balay?",
+          "es": "Bien. ¿Dónde está tu casa?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Naa ko sa balay karun.",
+          "es": "Estoy en casa ahora."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Hain ka sa Cebú?",
+          "es": "¿Dónde estás en Cebú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Naa sa Cebu City, duol ra sa Lorega.",
+          "es": "Está en la ciudad de Cebú, cerca de Lorega."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Ah, naa diri ra diay.",
+          "es": "Ah, está aquí nomás."
+        }
+      ]
+    },
+    "lesson-10": {
+      "setting": "En un barrio de Cebú, un voluntario conversa con un niño sobre la familia.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Maayo ra.",
+          "es": "Bien."
+        },
+        {
+          "role": "native_m",
+          "tl": "Naa kay pamilya?",
+          "es": "¿Tienes familia?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Oo, naa koy mama ug papa.",
+          "es": "Sí, tengo mamá y papá."
+        },
+        {
+          "role": "native_m",
+          "tl": "Pila mo sa pamilya?",
+          "es": "¿Cuántos sois en la familia?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Upat mi. Naa koy igsoon.",
+          "es": "Somos cuatro. Tengo un hermano."
+        },
+        {
+          "role": "native_m",
+          "tl": "Naa ko sa Cebu karun.",
+          "es": "Estoy en Cebú ahora."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Maayo, amping!",
+          "es": "Bien, ¡cuídate!"
+        }
+      ]
+    },
+    "lesson-11": {
+      "setting": "En un barrio de Cebu City, un voluntario habla con un niño curioso.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Maayo ra. Pila imong edad?",
+          "es": "Bien. ¿Cuántos años tienes?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Trenta na ko.",
+          "es": "Tengo treinta años."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Bata pa siya.",
+          "es": "Es todavía joven."
+        },
+        {
+          "role": "native_m",
+          "tl": "Ikaw, pila imong edad?",
+          "es": "¿Y tú, cuántos años tienes?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Naa ko sa Pasil. Asa ka nagpuyo?",
+          "es": "Vivo en Pasil. ¿Dónde vives?"
+        }
+      ]
+    },
+    "lesson-12": {
+      "setting": "En el mercado de Carbon, un lugar bullicioso y lleno de vida en Cebu City, un voluntario se encuentra con un conocido.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Maayo ra. Asa ka karun?",
+          "es": "Bien. ¿Dónde estás ahora?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Naa ko sa Carbon. Unsa imong trabaho?",
+          "es": "Estoy en Carbon. ¿De qué trabajas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Nagbaligya ko og prutas. Ikaw?",
+          "es": "Vendo frutas. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Drayber ko. Naa kay negosyo?",
+          "es": "Soy conductor. ¿Tienes un negocio?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Walay negosyo, pero dako akong sweldo.",
+          "es": "No tengo negocio, pero tengo buen sueldo."
+        }
+      ]
+    },
+    "lesson-13": {
+      "setting": "En una casa en Cebu City, dos amigos se encuentran para charlar y compartir una comida.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Nikaon na ka?",
+          "es": "¿Ya has comido?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Wala pa. Gigutom ka?",
+          "es": "Todavía no. ¿Tienes hambre?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Oo, kaon ta!",
+          "es": "Sí, ¡comamos!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Nikaon na ko, pero sige, kaon ta.",
+          "es": "Ya he comido, pero vale, comamos."
+        },
+        {
+          "role": "native_m",
+          "tl": "Giuhaw ko. Asa ang tubig?",
+          "es": "Tengo sed. ¿Dónde está el agua?"
+        }
+      ]
+    },
+    "lesson-14": {
+      "setting": "En un encuentro casual en el mercado de Carbon, dos amigos se saludan y conversan sobre sus planes.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka, Bai?",
+          "es": "¿Cómo estás, amigo?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Maayo man, salamat. Nalipay ko nga nagkaila ta.",
+          "es": "Estoy bien, gracias. Me alegra que nos hayamos conocido."
+        },
+        {
+          "role": "native_m",
+          "tl": "Kita ta ugma?",
+          "es": "¿Nos vemos mañana?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Oo, kita ta ugma. Asa ka nagtrabaho karon?",
+          "es": "Sí, nos vemos mañana. ¿Dónde trabajas ahora?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Naa sa Guadalupe.",
+          "es": "Está en Guadalupe."
+        },
+        {
+          "role": "native_f",
+          "tl": "Gwapa ka, Bai! Amping ka!",
+          "es": "¡Eres guapa, amigo! ¡Cuídate!"
+        }
+      ]
+    },
+    "lesson-15": {
+      "setting": "En una calle de Cebu City, un voluntario se acerca a un niño que parece estar solo.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Unsa imong gibuhat diri, dong?",
+          "es": "¿Qué haces aquí, niño?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Naa ko diri.",
+          "es": "Estoy aquí."
+        },
+        {
+          "role": "native_m",
+          "tl": "Nag-inusara ka?",
+          "es": "¿Estás solo?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Wala ko kuyog.",
+          "es": "No estoy acompañado."
+        },
+        {
+          "role": "native_m",
+          "tl": "Hain imong mama ug papa?",
+          "es": "¿Dónde están tu mamá y tu papá?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Naa sa tindahan.",
+          "es": "Está en la tienda."
+        },
+        {
+          "role": "native_m",
+          "tl": "Dali diri.",
+          "es": "Ven aquí."
+        },
+        {
+          "role": "native_m",
+          "tl": "Gusto nimo og tubig?",
+          "es": "¿Quieres agua?"
+        }
+      ]
+    }
+  }
 }

@@ -1,0 +1,1640 @@
+{
+  "title": "Eu, tu, o meu, o teu",
+  "subtitle": "Aprender a hablar sobre uno mismo y preguntar al otro.",
+  "summary_es": "Una lección sobre posesivos y presentarse.",
+  "topics": [
+    "presentarse",
+    "posesivo",
+    "preguntar",
+    "vivir",
+    "surf"
+  ],
+  "dialogue": {
+    "tl": [
+      "Olá! Eu sou surfista. E tu?",
+      "Sim, eu também sou surfista.",
+      "Esta é a minha carrinha. E a tua carrinha?",
+      "Vivo na carrinha. E tu, onde vives?",
+      "Sim, vivo na carrinha também."
+    ],
+    "es": [
+      "¡Hola! Soy surfista. ¿Y tú?",
+      "Sí, yo también soy surfista.",
+      "Esta es mi furgoneta. ¿Y tu furgoneta?",
+      "Vivo en la furgoneta. ¿Y tú, dónde vives?",
+      "Sí, vivo en la furgoneta también."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Eu sou surfista.",
+      "es": "Soy surfista."
+    },
+    {
+      "term": "Tu és surfista?",
+      "es": "¿Tú eres surfista?"
+    },
+    {
+      "term": "Esta é a minha carrinha.",
+      "es": "Esta es mi furgoneta."
+    },
+    {
+      "term": "E a tua carrinha?",
+      "es": "¿Y tu furgoneta?"
+    },
+    {
+      "term": "Onde vives?",
+      "es": "¿Dónde vives?"
+    },
+    {
+      "term": "Vivo na carrinha.",
+      "es": "Vivo en la furgoneta."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 3. Eu, tu, o meu, o teu.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, dos surfistas se encuentran junto a sus furgonetas. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Eu sou surfista. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Soy surfista. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, eu também sou surfista.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, yo también soy surfista.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha. E a tua carrinha?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Esta es mi furgoneta. ¿Y tu furgoneta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vivo na carrinha. E tu, onde vives?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en la furgoneta. ¿Y tú, dónde vives?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, vivo na carrinha também.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, vivo en la furgoneta también.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre uno mismo y preguntar al otro. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial!",
+      "item": "fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas inglés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas inglês?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "falas-ingles"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo está el mar hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy surfista». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fista",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "surfista",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sou surfista",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Presentarse como surfista.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy surfista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy surfista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tú eres surfista?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fista",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "surfista",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "és surfista",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar si alguien es surfista.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tú eres surfista?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tú eres surfista?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Esta es mi furgoneta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carrinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é a minha carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar de posesiones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Esta es mi furgoneta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Y tu furgoneta?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carrinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a tua carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar sobre posesiones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tu furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Y tu furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Tú eres surfista?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde vives?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ves",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-vives"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vives",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-vives"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-vives"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar sobre el lugar de residencia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vivo en la furgoneta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carrinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar de vivir en la furgoneta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en la furgoneta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Y tu furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de posesivos.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, los posesivos se usan con el artículo definido: 'o meu', 'a minha'. Esto es diferente del español, donde el artículo no se usa.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, vivo en la furgoneta.",
+      "item": "sim-vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, vivo en la furgoneta».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, vivo en la furgoneta.",
+      "item": "sim-vivo-na-carrinha"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no vivo en la furgoneta.",
+      "item": "nao-vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no vivo en la furgoneta».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no vivo en la furgoneta.",
+      "item": "nao-vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Presenta tu profesión de surfista a un nuevo amigo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta si la otra persona también es surfista.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy surfista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tú eres surfista?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tu furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial!",
+      "item": "fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas inglés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas inglês?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "falas-ingles"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo está el mar hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy surfista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tú eres surfista?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tu furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Eu sou surfista. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Soy surfista. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, eu também sou surfista.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, yo también soy surfista.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha. E a tua carrinha?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Esta es mi furgoneta. ¿Y tu furgoneta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vivo na carrinha. E tu, onde vives?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en la furgoneta. ¿Y tú, dónde vives?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, vivo na carrinha também.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, vivo en la furgoneta también.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.1,
+    "chars": 4332,
+    "cues": 175,
+    "mode": "lesson",
+    "lesson": 3
+  }
+}

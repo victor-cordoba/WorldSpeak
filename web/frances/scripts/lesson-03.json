@@ -1,0 +1,1847 @@
+{
+  "title": "Chez et les Possessifs",
+  "subtitle": "Aprende a hablar sobre dónde vives y a preguntar a otros.",
+  "summary_es": "Una frase",
+  "topics": [
+    "posesivos",
+    "preposiciones",
+    "presentarse",
+    "preguntar"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Ça va ?",
+      "Salut ! Oui, ça va bien. Et toi ?",
+      "Moi aussi. Je suis content de te voir.",
+      "Moi aussi. Tu habites toujours chez toi ?",
+      "Non, maintenant je suis chez moi à Lyon.",
+      "Ah, d'accord. Chez moi, c'est toujours Paris."
+    ],
+    "es": [
+      "¡Hola! ¿Cómo estás?",
+      "¡Hola! Sí, estoy bien. ¿Y tú?",
+      "Yo también. Estoy contento de verte.",
+      "Yo también. ¿Sigues viviendo en tu casa?",
+      "No, ahora estoy en mi casa en Lyon.",
+      "Ah, de acuerdo. En mi casa, sigue siendo París."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Chez moi.",
+      "es": "En mi casa."
+    },
+    {
+      "term": "Chez toi.",
+      "es": "En tu casa."
+    },
+    {
+      "term": "Mon nom est...",
+      "es": "Mi nombre es..."
+    },
+    {
+      "term": "Ton nom est...",
+      "es": "Tu nombre es..."
+    },
+    {
+      "term": "Et toi ?",
+      "es": "¿Y tú?"
+    },
+    {
+      "term": "Moi aussi.",
+      "es": "Yo también."
+    },
+    {
+      "term": "Chez nous.",
+      "es": "En nuestra casa."
+    },
+    {
+      "term": "Chez vous.",
+      "es": "En vuestra casa."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 3. Chez et les Possessifs.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Montmartre, dos amigos se encuentran después de mucho tiempo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Ça va ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Salut ! Oui, ça va bien. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Sí, estoy bien. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi. Je suis content de te voir.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también. Estoy contento de verte.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Moi aussi. Tu habites toujours chez toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también. ¿Sigues viviendo en tu casa?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, maintenant je suis chez moi à Lyon.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, ahora estoy en mi casa en Lyon.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ah, d'accord. Chez moi, c'est toujours Paris.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ah, de acuerdo. En mi casa, sigue siendo París.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a hablar sobre dónde vives y a preguntar a otros. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En mi casa». Literalmente, en casa mía. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "moi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso de 'chez' para indicar el lugar donde vives",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En mi casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En tu casa». Literalmente, en casa tuya. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "toi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chez-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chez-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso de 'chez' para indicar el lugar donde vive otra persona",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En tu casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En tu casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi nombre es». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "est",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mon-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nom est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mon-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mon-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "presentarse formalmente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi nombre es»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tu nombre es». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "est",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ton-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nom est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ton-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ton-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar por el nombre de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tu nombre es»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tu nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «En tu casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Y tú?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "toi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "et-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "et-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para devolver una pregunta",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Yo también». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ussi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aussi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para mostrar acuerdo o similitud",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Yo también»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Yo también».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tu nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En nuestra casa». Literalmente, en casa nuestra. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "us",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chez-nous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nous",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chez-nous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chez-nous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso de 'chez' para indicar el lugar donde vive un grupo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En nuestra casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En nuestra casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vous es usted, y también vosotros. Con desconocidos, mayores y en tiendas, vous. Con amigos y jóvenes, tu. Si dudas, vous.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En vuestra casa». Literalmente, en casa vuestra. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "us",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chez-vous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vous",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chez-vous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chez-vous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso de 'chez' para indicar el lugar donde vive un grupo formal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En vuestra casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En vuestra casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Yo también».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'chez'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, 'chez' se utiliza para indicar la casa o lugar de residencia de alguien. Se combina con los pronombres posesivos para especificar de quién es la casa.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Chez elle.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "En su casa.",
+      "item": "chez-elle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En su casa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Chez elle.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En su casa.",
+      "item": "chez-elle"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Chez lui.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "En su casa.",
+      "item": "chez-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En su casa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Chez lui.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En su casa.",
+      "item": "chez-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Dile a alguien que vives en tu casa.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien si vive en su casa.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En tu casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tu nombre es»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Yo también».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «En nuestra casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En vuestra casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En tu casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tu nombre es»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Yo también».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «En nuestra casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez nous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En nuestra casa.",
+      "item": "chez-nous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En vuestra casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Ça va ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Salut ! Oui, ça va bien. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Sí, estoy bien. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi. Je suis content de te voir.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también. Estoy contento de verte.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Moi aussi. Tu habites toujours chez toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también. ¿Sigues viviendo en tu casa?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, maintenant je suis chez moi à Lyon.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, ahora estoy en mi casa en Lyon.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ah, d'accord. Chez moi, c'est toujours Paris.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ah, de acuerdo. En mi casa, sigue siendo París.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.0,
+    "chars": 4389,
+    "cues": 197,
+    "mode": "lesson",
+    "lesson": 3
+  }
+}

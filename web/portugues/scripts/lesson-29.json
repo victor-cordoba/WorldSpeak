@@ -1,0 +1,1447 @@
+{
+  "title": "Ligar frases",
+  "subtitle": "Aprender a usar muletillas y expresar acuerdo",
+  "summary_es": "Una frase",
+  "topics": [
+    "muletillas",
+    "conversación",
+    "acuerdo",
+    "día",
+    "cansancio"
+  ],
+  "dialogue": {
+    "tl": [
+      "Como foi o teu dia?",
+      "Foi bom, mas estou cansada.",
+      "Pois então, vamos descansar um pouco.",
+      "Se calhar, sim. Também gosto de relaxar aqui.",
+      "Pronto, está bem. Amanhã podemos surfar outra vez."
+    ],
+    "es": [
+      "¿Cómo fue tu día?",
+      "Fue bueno, pero estoy cansada.",
+      "Pues entonces, vamos a descansar un poco.",
+      "Quizás, sí. También me gusta relajarme aquí.",
+      "Bueno, está bien. Mañana podemos surfear otra vez."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Como foi o teu dia?",
+      "es": "¿Cómo fue tu día?"
+    },
+    {
+      "term": "Pois então...",
+      "es": "Pues entonces..."
+    },
+    {
+      "term": "Pronto, está bem.",
+      "es": "Bueno, está bien."
+    },
+    {
+      "term": "Também gosto.",
+      "es": "También me gusta."
+    },
+    {
+      "term": "Porque não?",
+      "es": "¿Por qué no?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 29. Ligar frases.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una terraza en Ericeira, después de un día de surf. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Foi bom, mas estou cansada.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Fue bueno, pero estoy cansada.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então, vamos descansar um pouco.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Pues entonces, vamos a descansar un poco.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Se calhar, sim. Também gosto de relaxar aqui.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quizás, sí. También me gusta relajarme aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem. Amanhã podemos surfar outra vez.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bueno, está bien. Mañana podemos surfear otra vez.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a usar muletillas y expresar acuerdo Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Sí, vamos a comer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, vamos comer!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Sí, vamos a comer!",
+      "item": "sim-vamos-comer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, hoy no»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, hoje não.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, hoy no.",
+      "item": "nao-hoje-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, estoy feliz».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, estou feliz.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy feliz.",
+      "item": "sim-estou-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, estoy triste»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, estou triste.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, estoy triste.",
+      "item": "nao-estou-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una francesinha, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma francesinha, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una francesinha, por favor.",
+      "item": "francesinha-porto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ha sido un placer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo fue tu día?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "teu dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "o teu dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "foi o teu dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para iniciar una conversación",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo fue tu día?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo fue tu día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Pues entonces». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tão",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pois-entao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "então",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pois-entao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pois-entao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Muletilla para continuar una conversación",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pues entonces»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pues entonces».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Bueno, está bien». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bem",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "está bem",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto está bem",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Muletilla para aceptar algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Bueno, está bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bueno, está bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«También me gusta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gosto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar acuerdo o afinidad",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «También me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «También me gusta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Pues entonces».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Por qué no?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "não",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "porque-nao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "porque-nao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión para aceptar una propuesta",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué no?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué no?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Está todo bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Muletillas en portugués.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Las muletillas como 'pois', 'pronto' y 'se calhar' son útiles para ligar frases y expresar matices. 'Pois' se usa para reflexionar o continuar una idea. 'Pronto' indica aceptación o conclusión. 'Se calhar' expresa duda o posibilidad.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Foi bom.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Fue bueno.",
+      "item": "foi-bom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Fue bueno».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Foi bom.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Fue bueno.",
+      "item": "foi-bom"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Foi cansativo.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Fue cansado.",
+      "item": "foi-cansativo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Fue cansado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Foi cansativo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Fue cansado.",
+      "item": "foi-cansativo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Se calhar, sim.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Quizás, sí.",
+      "item": "se-calhar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quizás, sí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Se calhar, sim.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quizás, sí.",
+      "item": "se-calhar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cómo fue el día de alguien.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que fue un día bueno pero cansado.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi cansativo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Fue cansado.",
+      "item": "foi-cansativo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo fue tu día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pues entonces».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Bueno, está bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «También me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Por qué no?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Sí, vamos a comer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, vamos comer!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Sí, vamos a comer!",
+      "item": "sim-vamos-comer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, hoy no»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, hoje não.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, hoy no.",
+      "item": "nao-hoje-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, estoy feliz».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, estou feliz.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy feliz.",
+      "item": "sim-estou-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, estoy triste»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, estou triste.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, estoy triste.",
+      "item": "nao-estou-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una francesinha, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma francesinha, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una francesinha, por favor.",
+      "item": "francesinha-porto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ha sido un placer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo fue tu día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": "como-foi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pues entonces».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pues entonces...",
+      "item": "pois-entao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Bueno, está bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bueno, está bien.",
+      "item": "pronto-esta-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «También me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Também gosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "También me gusta.",
+      "item": "tambem-gosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Por qué no?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porque não?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué no?",
+      "item": "porque-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como foi o teu dia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo fue tu día?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Foi bom, mas estou cansada.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Fue bueno, pero estoy cansada.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pois então, vamos descansar um pouco.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Pues entonces, vamos a descansar un poco.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Se calhar, sim. Também gosto de relaxar aqui.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quizás, sí. También me gusta relajarme aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pronto, está bem. Amanhã podemos surfar outra vez.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bueno, está bien. Mañana podemos surfear otra vez.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.7,
+    "chars": 3861,
+    "cues": 154,
+    "mode": "lesson",
+    "lesson": 29
+  }
+}

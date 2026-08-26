@@ -1,0 +1,1520 @@
+{
+  "title": "Cosa ti piace?",
+  "subtitle": "Aprende a hablar de tus gustos y preferencias en italiano.",
+  "summary_es": "Una lección sobre cómo expresar gustos y preferencias.",
+  "topics": [
+    "gustos",
+    "fútbol",
+    "música",
+    "preferencias"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ti piace la musica?",
+      "Sì, mi piace la musica. E tu?",
+      "Amo il calcio, ma non mi piace la musica.",
+      "Roma o Lazio?",
+      "Tifo Roma. E tu?",
+      "Tifo Lazio."
+    ],
+    "es": [
+      "¿Te gusta la música?",
+      "Sí, me gusta la música. ¿Y a ti?",
+      "Amo el fútbol, pero no me gusta la música.",
+      "¿Roma o Lazio?",
+      "Soy hincha de la Roma. ¿Y tú?",
+      "Soy hincha de la Lazio."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Ti piace la musica?",
+      "es": "¿Te gusta la música?"
+    },
+    {
+      "term": "Amo il calcio.",
+      "es": "Amo el fútbol."
+    },
+    {
+      "term": "Odio il calcio.",
+      "es": "Odio el fútbol."
+    },
+    {
+      "term": "Roma o Lazio?",
+      "es": "¿Roma o Lazio?"
+    },
+    {
+      "term": "Non mi piace la musica.",
+      "es": "No me gusta la música."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 22. Cosa ti piace?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una trattoria en Trastevere, dos amigos hablan sobre sus gustos personales y preferencias futbolísticas. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta la música?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, mi piace la musica. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta la música. ¿Y a ti?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio, ma non mi piace la musica.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Amo el fútbol, pero no me gusta la música.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Roma o Lazio?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tifo Roma. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy hincha de la Roma. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tifo Lazio.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy hincha de la Lazio.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a hablar de tus gustos y preferencias en italiano. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta mucho».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace molto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta mucho",
+      "item": "mi-piace-molto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No me gusta",
+      "item": "non-mi-piace"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perché?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "perche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi madre es italiana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta la música?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ca",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "musica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "piace la musica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa para preguntar por gustos musicales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Amo el fútbol». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "calcio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "il calcio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa una fuerte preferencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Amo el fútbol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Amo el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Odio el fútbol». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "calcio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "il calcio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa una fuerte aversión",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Odio el fútbol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Odio el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Roma o Lazio?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lazio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "o Lazio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común en Roma sobre equipos de fútbol",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Roma o Lazio?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Roma o Lazio?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Amo el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No me gusta la música». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ca",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "musica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mi piace la musica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde negativamente sobre gustos",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No me gusta la música»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No me gusta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué te apetece?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che ti va?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "che-ti-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de *piacere* con plurales.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, el verbo *piacere* se conjuga según el sujeto que gusta. Por ejemplo, *mi piace* se usa para cosas singulares, mientras que *mi piacciono* se usa para cosas plurales.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace la musica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta la música.",
+      "item": "mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mi piace la musica.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Me gusta la música.",
+      "item": "mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gusta la música».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mi piace la musica.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gusta la música.",
+      "item": "mi-piace-la-musica"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tifo Roma.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy hincha de la Roma.",
+      "item": "tifo-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy hincha de la Roma».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tifo Roma.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy hincha de la Roma.",
+      "item": "tifo-roma"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tifo Lazio.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy hincha de la Lazio.",
+      "item": "tifo-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy hincha de la Lazio».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tifo Lazio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy hincha de la Lazio.",
+      "item": "tifo-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a tu amigo si le gusta la música.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que amas el fútbol.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Amo el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Odio el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Roma o Lazio?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No me gusta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta mucho».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace molto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta mucho",
+      "item": "mi-piace-molto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No me gusta",
+      "item": "non-mi-piace"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perché?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "perche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi madre es italiana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Amo el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Amo el fútbol.",
+      "item": "amo-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Odio el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odio il calcio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odio-il-calcio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Roma o Lazio?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Roma o Lazio?",
+      "item": "roma-o-lazio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No me gusta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace la musica.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No me gusta la música.",
+      "item": "non-mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta la música?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, mi piace la musica. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta la música. ¿Y a ti?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amo il calcio, ma non mi piace la musica.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Amo el fútbol, pero no me gusta la música.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Roma o Lazio?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Roma o Lazio?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tifo Roma. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy hincha de la Roma. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tifo Lazio.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy hincha de la Lazio.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.9,
+    "chars": 3873,
+    "cues": 162,
+    "mode": "lesson",
+    "lesson": 22
+  }
+}

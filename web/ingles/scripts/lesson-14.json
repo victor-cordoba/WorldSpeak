@@ -1,0 +1,1621 @@
+{
+  "title": "Despedidas y mantenerse en contacto",
+  "subtitle": "Aprenderás a despedirte y a mantenerte en contacto.",
+  "summary_es": "Una frase",
+  "topics": [
+    "despedidas",
+    "contacto",
+    "cortesía",
+    "futuro"
+  ],
+  "dialogue": {
+    "tl": [
+      "It was lovely to meet you.",
+      "Yes, it was. Keep in touch.",
+      "Give me your number, and I'll text you.",
+      "Sure, here it is. See you tomorrow!",
+      "You're lovely. Bye!"
+    ],
+    "es": [
+      "Fue encantador conocerte.",
+      "Sí, lo fue. Mantente en contacto.",
+      "Dame tu número y te mandaré un mensaje.",
+      "Claro, aquí está. ¡Nos vemos mañana!",
+      "Eres encantadora. ¡Adiós!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "It was lovely to meet you.",
+      "es": "Fue encantador conocerte."
+    },
+    {
+      "term": "Keep in touch.",
+      "es": "Mantente en contacto."
+    },
+    {
+      "term": "See you tomorrow.",
+      "es": "Nos vemos mañana."
+    },
+    {
+      "term": "You're lovely.",
+      "es": "Eres encantador/a."
+    },
+    {
+      "term": "Give me your number.",
+      "es": "Dame tu número."
+    },
+    {
+      "term": "Text me.",
+      "es": "Mándame un mensaje."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 14. Despedidas y mantenerse en contacto.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Notting Hill, dos personas se despiden después de conocerse. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Fue encantador conocerte.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it was. Keep in touch.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, lo fue. Mantente en contacto.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Give me your number, and I'll text you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Dame tu número y te mandaré un mensaje.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure, here it is. See you tomorrow!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, aquí está. ¡Nos vemos mañana!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "You're lovely. Bye!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Eres encantadora. ¡Adiós!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a despedirte y a mantenerte en contacto. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy de España, de Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy profesor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tiene tu hermano o hermana?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Fue encantador conocerte». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "meet you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to meet you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "was lovely to meet you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una manera cortés de finalizar una conversación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Fue encantador conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Fue encantador conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mantente en contacto». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uch",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "touch",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in touch",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para expresar el deseo de seguir comunicándose.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mantente en contacto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mantente en contacto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Nos vemos mañana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "row",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "morrow",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tomorrow",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you tomorrow",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Despedida común para encuentros futuros.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Nos vemos mañana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Nos vemos mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Eres encantador/a». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vely",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lovely",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un cumplido cariñoso.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres encantador/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres encantador/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mantente en contacto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Dame tu número». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ber",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "number",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "your number",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me your number",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir el contacto de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Dame tu número»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Dame tu número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mándame un mensaje». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "text-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "text-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir que te envíen un mensaje de texto.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mándame un mensaje»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mándame un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Eres encantador/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué hora es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Imperativo y futuro.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El imperativo se usa para dar instrucciones o sugerencias. En inglés, se forma usando el verbo en su forma base. Para hablar del futuro, se puede usar 'will' seguido del verbo en su forma base.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I will.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, lo haré.",
+      "item": "yes-i-will"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, lo haré».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I will.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, lo haré.",
+      "item": "yes-i-will"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I can't.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no puedo.",
+      "item": "no-i-cant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no puedo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I can't.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no puedo.",
+      "item": "no-i-cant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café y te despides de un nuevo amigo. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Fue encantador conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mantente en contacto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Nos vemos mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres encantador/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Dame tu número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mándame un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy de España, de Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy profesor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tiene tu hermano o hermana?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Fue encantador conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mantente en contacto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Keep in touch.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mantente en contacto.",
+      "item": "keep-in-touch"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Nos vemos mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres encantador/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Dame tu número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Give me your number.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "give-me-your-number"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mándame un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Text me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mándame un mensaje.",
+      "item": "text-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Fue encantador conocerte.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it was. Keep in touch.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, lo fue. Mantente en contacto.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Give me your number, and I'll text you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Dame tu número y te mandaré un mensaje.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure, here it is. See you tomorrow!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, aquí está. ¡Nos vemos mañana!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "You're lovely. Bye!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Eres encantadora. ¡Adiós!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.5,
+    "chars": 4472,
+    "cues": 173,
+    "mode": "lesson",
+    "lesson": 14
+  }
+}

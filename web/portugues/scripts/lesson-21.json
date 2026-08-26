@@ -1,0 +1,1595 @@
+{
+  "title": "Expresiones del Corazón",
+  "subtitle": "Aprender a preguntar y expresar emociones.",
+  "summary_es": "Expresar emociones y preguntar cómo se siente alguien.",
+  "topics": [
+    "emociones",
+    "preguntar",
+    "respuestas",
+    "saudade",
+    "estado de ánimo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Estás feliz?",
+      "Sim, estou feliz. E tu?",
+      "Estou cansado, mas feliz.",
+      "Está tudo bem?",
+      "Sim, está tudo bem. Tenho saudades de casa."
+    ],
+    "es": [
+      "¿Estás feliz?",
+      "Sí, estoy feliz. ¿Y tú?",
+      "Estoy cansado, pero feliz.",
+      "¿Está todo bien?",
+      "Sí, está todo bien. Echo de menos mi casa."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Estás feliz?",
+      "es": "¿Estás feliz?"
+    },
+    {
+      "term": "Estás triste?",
+      "es": "¿Estás triste?"
+    },
+    {
+      "term": "Porquê?",
+      "es": "¿Por qué?"
+    },
+    {
+      "term": "Tenho medo.",
+      "es": "Tengo miedo."
+    },
+    {
+      "term": "Está tudo bem?",
+      "es": "¿Está todo bien?"
+    },
+    {
+      "term": "Tenho saudades.",
+      "es": "Te echo de menos."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 21. Expresiones del Corazón.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, un grupo de amigos se reúne después de surfear. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Estás feliz?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou feliz. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estoy feliz. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou cansado, mas feliz.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy cansado, pero feliz.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está todo bien?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, está tudo bem. Tenho saudades de casa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está todo bien. Echo de menos mi casa.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y expresar emociones. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy cansado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou cansado.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy cansado.",
+      "item": "estou-cansado"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí.",
+      "item": "sim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás feliz?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "liz",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "feliz",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar cómo se siente alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás triste?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estas-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "triste",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estas-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "estas-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar si alguien está triste.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Por qué?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quê",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "porque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "porque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir una razón o explicación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo miedo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "medo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar temor.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está todo bien?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bem",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tudo bem",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para asegurarse de que todo está bien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está todo bien?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está todo bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Te echo de menos». Literalmente, Tengo añoranza.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "des",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dades",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "udades",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "saudades",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa que se extraña a alguien o algo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Te echo de menos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Te echo de menos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿La playa es de arena o roca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A praia é de areia ou rocha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La playa es de arena o roca?",
+      "item": "praia-areia-rocha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Saudade.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "La palabra 'saudade' es única en portugués y se refiere a un sentimiento de nostalgia o añoranza. Se usa para expresar que echas de menos a alguien o algo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou feliz.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy feliz.",
+      "item": "sim-estou-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy feliz».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou feliz.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, estoy feliz.",
+      "item": "sim-estou-feliz"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, estou triste.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, estoy triste.",
+      "item": "nao-estou-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, estoy triste».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, estou triste.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, estoy triste.",
+      "item": "nao-estou-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a un amigo si está feliz.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa que echas de menos a alguien.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está todo bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Te echo de menos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy cansado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou cansado.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy cansado.",
+      "item": "estou-cansado"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí.",
+      "item": "sim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Porquê?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "porque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está todo bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está todo bien?",
+      "item": "esta-tudo-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Te echo de menos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Estás feliz?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou feliz. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estoy feliz. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou cansado, mas feliz.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy cansado, pero feliz.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está tudo bem?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está todo bien?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, está tudo bem. Tenho saudades de casa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está todo bien. Echo de menos mi casa.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.0,
+    "chars": 3702,
+    "cues": 170,
+    "mode": "lesson",
+    "lesson": 21
+  }
+}

@@ -1,0 +1,2001 @@
+{
+  "title": "Al mercato",
+  "subtitle": "Aprender a comprar en el mercado",
+  "summary_es": "Una lección sobre cómo interactuar en el mercado.",
+  "topics": [
+    "mercado",
+    "compras",
+    "cantidades",
+    "cortesía",
+    "preguntas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Buongiorno, mi dia un etto di prosciutto, per favore.",
+      "Certo, altro?",
+      "Mezzo chilo di pomodori, grazie.",
+      "È tutto?",
+      "Sì, basta così. Quanto viene?",
+      "Sono cinque euro."
+    ],
+    "es": [
+      "Buenos días, deme cien gramos de jamón, por favor.",
+      "Claro, ¿algo más?",
+      "Medio kilo de tomates, gracias.",
+      "¿Es todo?",
+      "Sí, así está bien. ¿Cuánto vale?",
+      "Son cinco euros."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Al mercato",
+      "es": "En el mercado"
+    },
+    {
+      "term": "Un etto di prosciutto, per favore.",
+      "es": "Cien gramos de jamón, por favor."
+    },
+    {
+      "term": "Mezzo chilo di pomodori.",
+      "es": "Medio kilo de tomates."
+    },
+    {
+      "term": "Quanto viene?",
+      "es": "¿Cuánto vale?"
+    },
+    {
+      "term": "È fresco?",
+      "es": "¿Es fresco?"
+    },
+    {
+      "term": "Mi dia due chili di mele.",
+      "es": "Deme dos kilos de manzanas."
+    },
+    {
+      "term": "Basta così, grazie.",
+      "es": "Así está bien, gracias."
+    },
+    {
+      "term": "Il quartiere è molto vivace.",
+      "es": "El barrio es muy animado."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 16. Al mercato.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un mercado de barrio en Roma, un cliente interactúa con el vendedor. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno, mi dia un etto di prosciutto, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, deme cien gramos de jamón, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo, altro?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, ¿algo más?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori, grazie.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Medio kilo de tomates, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È tutto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Es todo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, basta così. Quanto viene?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, así está bien. ¿Cuánto vale?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono cinque euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son cinco euros.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a comprar en el mercado Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy al mercado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta un café?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto le debo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «De Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En el mercado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mercato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para indicar que estás en el mercado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En el mercado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En el mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cien gramos de jamón, por favor». Literalmente, Un hectogramo de jamón, por favor.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "etto di prosciutto per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para pedir cantidades en el mercado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cien gramos de jamón, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cien gramos de jamón, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Medio kilo de tomates». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ri",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dori",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "modori",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chilo di pomodori",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para pedir cantidades en el mercado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Medio kilo de tomates»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Medio kilo de tomates».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto vale?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ne",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ene",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "viene",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber el precio total.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto vale?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto vale?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cien gramos de jamón, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es fresco?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "co",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-fresco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fresco",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-fresco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-fresco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre la frescura de un producto.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Es fresco?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es fresco?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Deme dos kilos de manzanas». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mele",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "di mele",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dia due chili di mele",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma cortés para pedir.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Deme dos kilos de manzanas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Deme dos kilos de manzanas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto vale?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Así está bien, gracias». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "grazie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "così grazie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così grazie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que no necesitas más.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Así está bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Así está bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El barrio es muy animado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vace",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vivace",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quartiere è molto vivace",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para describir la atmósfera de un lugar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El barrio es muy animado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El barrio es muy animado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Deme dos kilos de manzanas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Eres grande».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usar 'dare' para pedir.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, usamos 'dare' para pedir algo de manera cortés, como 'Mi dia'. Se acompaña de la cantidad y el objeto deseado.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto es?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Si paga alla cassa?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Se paga en la caja?",
+      "item": "si-paga-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Se paga en la caja?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Si paga alla cassa?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Se paga en la caja?",
+      "item": "si-paga-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en el mercado y quieres comprar medio kilo de manzanas.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En el mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cien gramos de jamón, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Medio kilo de tomates».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto vale?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Es fresco?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Deme dos kilos de manzanas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Así está bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El barrio es muy animado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy al mercado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta un café?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto le debo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «De Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En el mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado",
+      "item": "al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cien gramos de jamón, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un etto di prosciutto, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cien gramos de jamón, por favor.",
+      "item": "un-etto-di"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Medio kilo de tomates».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Medio kilo de tomates.",
+      "item": "mezzo-chilo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto vale?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto viene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto vale?",
+      "item": "quanto-viene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Es fresco?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È fresco?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es fresco?",
+      "item": "e-fresco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Deme dos kilos de manzanas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi dia due chili di mele.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Deme dos kilos de manzanas.",
+      "item": "mi-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Así está bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El barrio es muy animado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno, mi dia un etto di prosciutto, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, deme cien gramos de jamón, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo, altro?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, ¿algo más?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mezzo chilo di pomodori, grazie.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Medio kilo de tomates, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È tutto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Es todo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, basta così. Quanto viene?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, así está bien. ¿Cuánto vale?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono cinque euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son cinco euros.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.6,
+    "chars": 5454,
+    "cues": 214,
+    "mode": "lesson",
+    "lesson": 16
+  }
+}

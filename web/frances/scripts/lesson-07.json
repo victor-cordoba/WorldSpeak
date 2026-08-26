@@ -1,0 +1,1761 @@
+{
+  "title": "Quand ? Pourquoi ? Combien ? À quelle heure ?",
+  "subtitle": "Aprende a preguntar sobre el tiempo y los horarios.",
+  "summary_es": "Una lección sobre cómo preguntar el tiempo y los horarios en francés.",
+  "topics": [
+    "preguntar",
+    "tiempo",
+    "horarios",
+    "boulangerie",
+    "cortesía"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour !",
+      "Bonjour ! C'est ouvert aujourd'hui ?",
+      "Oui, c'est ouvert. À quelle heure vous fermez ?",
+      "Ça ferme à dix-neuf heures.",
+      "Merci beaucoup !"
+    ],
+    "es": [
+      "¡Hola!",
+      "¡Hola! ¿Está abierto hoy?",
+      "Sí, está abierto. ¿A qué hora cierran?",
+      "Cierra a las siete de la tarde.",
+      "¡Muchas gracias!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quand ?",
+      "es": "¿Cuándo?"
+    },
+    {
+      "term": "Pourquoi ?",
+      "es": "¿Por qué?"
+    },
+    {
+      "term": "Combien ?",
+      "es": "¿Cuánto?"
+    },
+    {
+      "term": "Aujourd'hui",
+      "es": "Hoy"
+    },
+    {
+      "term": "Demain",
+      "es": "Mañana"
+    },
+    {
+      "term": "À quelle heure...?",
+      "es": "¿A qué hora...?"
+    },
+    {
+      "term": "C'est ouvert ?",
+      "es": "¿Está abierto?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 7. Quand ? Pourquoi ? Combien ? À quelle heure ?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una boulangerie en Le Marais, París, preguntando sobre los horarios. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour ! C'est ouvert aujourd'hui ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Está abierto hoy?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert. À quelle heure vous fermez ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto. ¿A qué hora cierran?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ça ferme à dix-neuf heures.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cierra a las siete de la tarde.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci beaucoup !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a preguntar sobre el tiempo y los horarios. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un croissant, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un croissant, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un croissant, por favor.",
+      "item": "un-croissant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'addition, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "laddition-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «De acuerdo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "D'accord.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De acuerdo.",
+      "item": "daccord"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuándo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para preguntar sobre el tiempo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Por qué?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "oi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pourquoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quoi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pourquoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "urquoi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pourquoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pourquoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la razón",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "en",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bien",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre cantidad o precio",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hoy». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "d'hui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "urd'hui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jourd'hui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ujourd'hui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica el día actual",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hoy»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hoy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mañana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "demain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "main",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "demain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "demain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica el día siguiente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mañana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A qué hora...?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ure",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "heure",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quelle heure",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar la hora de un evento",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué hora...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué hora...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hoy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está abierto?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uvert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ouvert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre el estado de un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está abierto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «En mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar sobre el tiempo.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, para preguntar sobre el tiempo se usan palabras como 'quand', 'pourquoi', y 'à quelle heure'. Estas preguntas son fundamentales para planificar actividades.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Parce que...",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Porque...",
+      "item": "parce-que"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Porque».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Parce que...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Porque...",
+      "item": "parce-que"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "C'est fermé.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está cerrado.",
+      "item": "cest-ferme"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está cerrado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "C'est fermé.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está cerrado.",
+      "item": "cest-ferme"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una boulangerie y quieres saber a qué hora cierran.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hoy»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué hora...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Está abierto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un croissant, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un croissant, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un croissant, por favor.",
+      "item": "un-croissant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'addition, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "laddition-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «De acuerdo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "D'accord.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De acuerdo.",
+      "item": "daccord"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pourquoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "pourquoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto?",
+      "item": "combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hoy»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Demain",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana",
+      "item": "demain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué hora...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Está abierto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour ! C'est ouvert aujourd'hui ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Está abierto hoy?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert. À quelle heure vous fermez ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto. ¿A qué hora cierran?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ça ferme à dix-neuf heures.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cierra a las siete de la tarde.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci beaucoup !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.8,
+    "chars": 3837,
+    "cues": 188,
+    "mode": "lesson",
+    "lesson": 7
+  }
+}

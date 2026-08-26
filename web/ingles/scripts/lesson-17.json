@@ -1,0 +1,1613 @@
+{
+  "title": "Getting around: tube, bus, train",
+  "subtitle": "Aprender a moverse en Londres usando el transporte público.",
+  "summary_es": "Aprenderás a preguntar y entender sobre el transporte.",
+  "topics": [
+    "transporte",
+    "preguntas",
+    "cortesía",
+    "metro",
+    "billetes"
+  ],
+  "dialogue": {
+    "tl": [
+      "Excuse me, which line do I take for Piccadilly Circus?",
+      "Take the Bakerloo line.",
+      "Thank you. Do you have an Oyster or contactless card?",
+      "Yes, I have an Oyster card.",
+      "Great, mind the gap when you board."
+    ],
+    "es": [
+      "Perdona, ¿qué línea tomo para Piccadilly Circus?",
+      "Toma la línea Bakerloo.",
+      "Gracias. ¿Tienes una tarjeta Oyster o contactless?",
+      "Sí, tengo una tarjeta Oyster.",
+      "Genial, cuidado con el hueco al subir."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Which line do I take for Piccadilly Circus?",
+      "es": "¿Qué línea tomo para Piccadilly Circus?"
+    },
+    {
+      "term": "Do you have an Oyster or contactless card?",
+      "es": "¿Tienes una tarjeta Oyster o contactless?"
+    },
+    {
+      "term": "Mind the gap.",
+      "es": "Cuidado con el hueco."
+    },
+    {
+      "term": "What's the next stop?",
+      "es": "¿Cuál es la próxima parada?"
+    },
+    {
+      "term": "A return ticket to Oxford, please.",
+      "es": "Un billete de ida y vuelta a Oxford, por favor."
+    },
+    {
+      "term": "Is this seat taken?",
+      "es": "¿Está ocupado este asiento?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 17. Getting around: tube, bus, train.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una estación de metro en Londres, buscando cómo llegar a Piccadilly Circus. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excuse me, which line do I take for Piccadilly Circus?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdona, ¿qué línea tomo para Piccadilly Circus?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Take the Bakerloo line.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Toma la línea Bakerloo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you. Do you have an Oyster or contactless card?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Gracias. ¿Tienes una tarjeta Oyster o contactless?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have an Oyster card.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo una tarjeta Oyster.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Great, mind the gap when you board.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Genial, cuidado con el hueco al subir.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a moverse en Londres usando el transporte público. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pareja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Nos vemos mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué línea tomo para Piccadilly Circus?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cus",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Circus",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piccadilly Circus",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "line do I take for Piccadilly Circus",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta útil para moverse en el metro.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué línea tomo para Piccadilly Circus?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué línea tomo para Piccadilly Circus?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes una tarjeta Oyster o contactless?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "card",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "contactless card",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "or contactless card",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you have an Oyster or contactless card",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Tarjetas para pagar el transporte en Londres.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes una tarjeta Oyster o contactless?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes una tarjeta Oyster o contactless?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cuidado con el hueco». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gap",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the gap",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Frase típica al subir o bajar del metro.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cuidado con el hueco»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cuidado con el hueco».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es la próxima parada?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "stop",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "next-stop"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "next stop",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "next-stop"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the next stop",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "next-stop"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "next-stop"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber dónde bajarse.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es la próxima parada?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuál es la próxima parada?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Tienes una tarjeta Oyster o contactless?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un billete de ida y vuelta a Oxford, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "return ticket to Oxford please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para comprar billetes de tren.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un billete de ida y vuelta a Oxford, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un billete de ida y vuelta a Oxford, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está ocupado este asiento?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ken",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "taken",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seat taken",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "this seat taken",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cortés antes de sentarse.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está ocupado este asiento?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está ocupado este asiento?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuál es la próxima parada?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Voy a visitar el museo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preposiciones en el transporte.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cuando preguntas por direcciones o transporte, usa preposiciones como 'for' para destinos y 'to' para billetes. Por ejemplo, 'Which line do I take for Piccadilly Circus?' o 'A return ticket to Oxford, please.'",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's taken.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está ocupado.",
+      "item": "yes-its-taken"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está ocupado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's taken.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está ocupado.",
+      "item": "yes-its-taken"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, it's free.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, está libre.",
+      "item": "no-its-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, está libre».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, it's free.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, está libre.",
+      "item": "no-its-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una estación de tren y necesitas un billete de ida y vuelta a Oxford.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué línea tomo para Piccadilly Circus?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes una tarjeta Oyster o contactless?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cuidado con el hueco».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es la próxima parada?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un billete de ida y vuelta a Oxford, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está ocupado este asiento?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pareja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Nos vemos mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "See you tomorrow.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "see-you-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué línea tomo para Piccadilly Circus?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes una tarjeta Oyster o contactless?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an Oyster or contactless card?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes una tarjeta Oyster o contactless?",
+      "item": "oyster-contactless"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cuidado con el hueco».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the gap.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el hueco.",
+      "item": "mind-the-gap"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es la próxima parada?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's the next stop?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es la próxima parada?",
+      "item": "next-stop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un billete de ida y vuelta a Oxford, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A return ticket to Oxford, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "item": "return-ticket-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está ocupado este asiento?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is this seat taken?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está ocupado este asiento?",
+      "item": "is-this-seat-taken"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excuse me, which line do I take for Piccadilly Circus?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdona, ¿qué línea tomo para Piccadilly Circus?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Take the Bakerloo line.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Toma la línea Bakerloo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you. Do you have an Oyster or contactless card?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Gracias. ¿Tienes una tarjeta Oyster o contactless?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have an Oyster card.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo una tarjeta Oyster.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Great, mind the gap when you board.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Genial, cuidado con el hueco al subir.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.7,
+    "chars": 5776,
+    "cues": 172,
+    "mode": "lesson",
+    "lesson": 17
+  }
+}

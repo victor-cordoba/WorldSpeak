@@ -1,0 +1,1622 @@
+{
+  "title": "Horarios y Reservas",
+  "subtitle": "Aprender a preguntar y entender horarios de apertura y cierre",
+  "summary_es": "Cómo preguntar por horarios y cierres",
+  "topics": [
+    "horarios",
+    "apertura",
+    "cierre",
+    "reservas",
+    "festividades"
+  ],
+  "dialogue": {
+    "tl": [
+      "Scusi, è aperto la domenica?",
+      "Sì, è aperto.",
+      "E chiude per pranzo?",
+      "No, abbiamo orario continuato.",
+      "Perfetto, grazie!"
+    ],
+    "es": [
+      "Perdone, ¿está abierto el domingo?",
+      "Sí, está abierto.",
+      "¿Y cierra para el almuerzo?",
+      "No, tenemos horario continuo.",
+      "Perfecto, ¡gracias!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "È aperto la domenica?",
+      "es": "¿Está abierto el domingo?"
+    },
+    {
+      "term": "Chiude per pranzo.",
+      "es": "Cierra para el almuerzo."
+    },
+    {
+      "term": "Orario continuato.",
+      "es": "Horario continuo."
+    },
+    {
+      "term": "La pausa.",
+      "es": "La pausa."
+    },
+    {
+      "term": "Ferragosto.",
+      "es": "Ferragosto."
+    },
+    {
+      "term": "Prenotare.",
+      "es": "Reservar."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 18. Horarios y Reservas.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una trattoria en Roma, un cliente pregunta sobre los horarios de apertura. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi, è aperto la domenica?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdone, ¿está abierto el domingo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è aperto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E chiude per pranzo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y cierra para el almuerzo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, abbiamo orario continuato.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, tenemos horario continuo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfetto, grazie!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, ¡gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y entender horarios de apertura y cierre Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo abre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando apre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-apre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hoy cierra a las siete».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oggi chiude alle sette.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy cierra a las siete.",
+      "item": "oggi-chiude"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mañana está abierto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Domani è aperto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana está abierto.",
+      "item": "domani-aperto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ayer estaba cerrado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ieri era chiuso.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ayer estaba cerrado.",
+      "item": "ieri-chiuso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Pago en la caja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está abierto el domingo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ca",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "menica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aperto la domenica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por horarios de apertura",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto el domingo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está abierto el domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cierra para el almuerzo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pranzo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "per pranzo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Información sobre cierres durante el día",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cierra para el almuerzo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cierra para el almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Horario continuo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nuato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "continuato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Horario sin pausas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Horario continuo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Horario continuo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La pausa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pausa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "usa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pausa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pausa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pausa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-pausa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Momento de descanso",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La pausa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La pausa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cierra para el almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Ferragosto». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferragosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gosto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferragosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ragosto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferragosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferragosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Festividad italiana en agosto",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ferragosto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ferragosto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Reservar». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prenotare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prenotare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "notare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prenotare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prenotare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Acción de hacer una reserva",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Reservar»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Reservar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La pausa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué te apetece?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che ti va?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "che-ti-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'è aperto' y 'è chiuso'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, para preguntar si un lugar está abierto o cerrado, se utiliza 'è aperto?' o 'è chiuso?'. Estas expresiones son útiles para saber si un establecimiento está disponible para visitar.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, è chiuso.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, está cerrado.",
+      "item": "no-e-chiuso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è aperto.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está abierto.",
+      "item": "si-e-aperto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está abierto».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è aperto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está abierto.",
+      "item": "si-e-aperto"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, è chiuso.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, está cerrado.",
+      "item": "no-e-chiuso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, está cerrado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, è chiuso.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, está cerrado.",
+      "item": "no-e-chiuso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres saber si una tienda está abierta el domingo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta si el restaurante cierra para el almuerzo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto el domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cierra para el almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Horario continuo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La pausa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ferragosto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Reservar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo abre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando apre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-apre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hoy cierra a las siete».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oggi chiude alle sette.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy cierra a las siete.",
+      "item": "oggi-chiude"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mañana está abierto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Domani è aperto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mañana está abierto.",
+      "item": "domani-aperto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ayer estaba cerrado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ieri era chiuso.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ayer estaba cerrado.",
+      "item": "ieri-chiuso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Pago en la caja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto el domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "È aperto la domenica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "e-aperto-la-domenica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cierra para el almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiude per pranzo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra para el almuerzo.",
+      "item": "chiude-per-pranzo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Horario continuo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Orario continuato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario continuo.",
+      "item": "orario-continuato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La pausa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pausa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa.",
+      "item": "la-pausa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ferragosto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ferragosto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ferragosto.",
+      "item": "ferragosto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Reservar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prenotare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Reservar.",
+      "item": "prenotare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi, è aperto la domenica?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdone, ¿está abierto el domingo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è aperto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E chiude per pranzo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y cierra para el almuerzo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, abbiamo orario continuato.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, tenemos horario continuo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfetto, grazie!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, ¡gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.4,
+    "chars": 3997,
+    "cues": 173,
+    "mode": "lesson",
+    "lesson": 18
+  }
+}

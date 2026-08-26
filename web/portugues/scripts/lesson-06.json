@@ -1,0 +1,1649 @@
+{
+  "title": "Quanto custa? Uma imperial, por favor",
+  "subtitle": "Aprender a pedir y preguntar precios en un bar",
+  "summary_es": "Cómo pedir bebidas y preguntar precios en un bar.",
+  "topics": [
+    "precios",
+    "bebidas",
+    "cortesía",
+    "bar",
+    "imperial"
+  ],
+  "dialogue": {
+    "tl": [
+      "Boa tarde! Uma imperial, por favor.",
+      "Claro! Quanto custa uma imperial?",
+      "Quanto custa um café?",
+      "Uma mini, por favor.",
+      "A conta, por favor."
+    ],
+    "es": [
+      "¡Buenas tardes! Una caña, por favor.",
+      "¡Claro! ¿Cuánto cuesta una caña?",
+      "¿Cuánto cuesta un café?",
+      "Una mini, por favor.",
+      "La cuenta, por favor."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quanto custa?",
+      "es": "¿Cuánto cuesta?"
+    },
+    {
+      "term": "Quanto é?",
+      "es": "¿Cuánto es?"
+    },
+    {
+      "term": "Uma imperial, por favor.",
+      "es": "Una caña, por favor."
+    },
+    {
+      "term": "A conta, por favor.",
+      "es": "La cuenta, por favor."
+    },
+    {
+      "term": "Uma mini, por favor.",
+      "es": "Una mini, por favor."
+    },
+    {
+      "term": "Um café, por favor.",
+      "es": "Un café, por favor."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 6. Quanto custa? Uma imperial, por favor.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un bar de Ericeira, después de una sesión de surf, los surfistas se reúnen para tomar algo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Boa tarde! Uma imperial, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenas tardes! Una caña, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Claro! Quanto custa uma imperial?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Cuánto cuesta una caña?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um café?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una mini, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La cuenta, por favor.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a pedir y preguntar precios en un bar Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero cerveza, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não quero cerveja, obrigado.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero cerveza, gracias.",
+      "item": "nao-quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial!",
+      "item": "fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy surfista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo hay mejores olas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "custa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar el precio de algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto es?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra forma de preguntar el precio",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "La cerveza en Portugal: una imperial es una caña, una mini es un botellín. En el Porto, la caña es un fino. Pide así y nadie pensará que eres turista.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una caña, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "imperial por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pedir cerveza en Portugal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una caña, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una caña, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La cuenta, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "conta por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir la cuenta en un bar o restaurante",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una mini, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mini por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pedir una cerveza pequeña",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una mini, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una mini, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un café, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "café por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pedir un café",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar precios.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, para preguntar el precio de algo, usamos 'Quanto custa?' o 'Quanto é?'. Ambas son formas comunes y educadas.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto custa uma imperial?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto cuesta una caña?",
+      "item": "quanto-custa-uma-imperial"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta una caña?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto custa uma imperial?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta una caña?",
+      "item": "quanto-custa-uma-imperial"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto custa um café?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-custa-um-cafe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta un café?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto custa um café?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-custa-um-cafe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un bar y quieres pedir una caña. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres saber cuánto cuesta un café. ¿Cómo preguntas?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um café?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-custa-um-cafe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una caña, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una mini, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero cerveza, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não quero cerveja, obrigado.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero cerveza, gracias.",
+      "item": "nao-quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial!",
+      "item": "fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy surfista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo hay mejores olas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una caña, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una mini, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una mini, por favor.",
+      "item": "uma-mini-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um café, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "um-cafe-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Boa tarde! Uma imperial, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenas tardes! Una caña, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Claro! Quanto custa uma imperial?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Cuánto cuesta una caña?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um café?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uma mini, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una mini, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La cuenta, por favor.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.9,
+    "chars": 4633,
+    "cues": 176,
+    "mode": "lesson",
+    "lesson": 6
+  }
+}

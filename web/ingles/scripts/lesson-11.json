@@ -1,0 +1,1514 @@
+{
+  "title": "How old are you?",
+  "subtitle": "Aprender a preguntar y responder sobre la edad.",
+  "summary_es": "Aprenderás a preguntar y responder sobre la edad.",
+  "topics": [
+    "edad",
+    "presentarse",
+    "números",
+    "preguntas",
+    "respuestas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi! What's your name?",
+      "I'm Emily. Nice to meet you.",
+      "Nice to meet you too. How old are you?",
+      "I'm eight years old. And you?",
+      "I'm nine. You're young!",
+      "When were you born?",
+      "I was born in 2014."
+    ],
+    "es": [
+      "¡Hola! ¿Cómo te llamas?",
+      "Soy Emily. Encantada de conocerte.",
+      "Encantado de conocerte también. ¿Cuántos años tienes?",
+      "Tengo ocho años. ¿Y tú?",
+      "Tengo nueve. ¡Eres joven!",
+      "¿Cuándo naciste?",
+      "Nací en 2014."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "How old are you?",
+      "es": "¿Cuántos años tienes?"
+    },
+    {
+      "term": "You're young.",
+      "es": "Eres joven."
+    },
+    {
+      "term": "When were you born?",
+      "es": "¿Cuándo naciste?"
+    },
+    {
+      "term": "How old is your brother or sister?",
+      "es": "¿Cuántos años tiene tu hermano o hermana?"
+    },
+    {
+      "term": "That's nice.",
+      "es": "Eso es agradable."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 11. How old are you?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un parque de Londres, dos niños se conocen mientras juegan. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Hi! What's your name?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "I'm Emily. Nice to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy Emily. Encantada de conocerte.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Nice to meet you too. How old are you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantado de conocerte también. ¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "I'm eight years old. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo ocho años. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I'm nine. You're young!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo nueve. ¡Eres joven!",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuándo naciste?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I was born in 2014.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Nací en 2014.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre la edad. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Encantado de conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mamá y papá»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres ir al parque?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tienes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "are you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "old are you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para conocer la edad de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Eres joven». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ung",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "youre-young"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "young",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "youre-young"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "youre-young"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un cumplido amable para alguien joven.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuándo naciste?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "born",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you born",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "were you born",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber el año de nacimiento.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo naciste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tiene tu hermano o hermana?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ter",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sister",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "or sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "old is your brother or sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la edad de un hermano o hermana.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tiene tu hermano o hermana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tiene tu hermano o hermana?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Eso es agradable». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "thats-nice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nice",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "thats-nice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "thats-nice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una respuesta común para mostrar interés o aprobación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso es agradable»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eso es agradable».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un té con leche, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Números hasta 100.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de la edad, usamos números. Por ejemplo, 'I'm eight years old' significa 'Tengo ocho años'. Practiquemos contar hasta 100.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm [age] years old.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo [edad] años.",
+      "item": "im-years-old"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm [age] years old.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo [edad] años.",
+      "item": "im-years-old"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo [edad] años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm [age] years old.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo [edad] años.",
+      "item": "im-years-old"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I was born in [year].",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Nací en [año].",
+      "item": "i-was-born-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Nací en [año]».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I was born in [year].",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Nací en [año].",
+      "item": "i-was-born-in"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My brother/sister is [age] years old.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Mi hermano/hermana tiene [edad] años.",
+      "item": "my-sibling-is-years-old"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi hermano/hermana tiene [edad] años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My brother/sister is [age] years old.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi hermano/hermana tiene [edad] años.",
+      "item": "my-sibling-is-years-old"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en el parque y quieres saber la edad de un nuevo amigo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Alguien te pregunta cuántos años tienes.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm [age] years old.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo [edad] años.",
+      "item": "im-years-old"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tiene tu hermano o hermana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Eso es agradable».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Encantado de conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mamá y papá»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres ir al parque?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're young.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "youre-young"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "when-were-you-born"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tiene tu hermano o hermana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old is your brother or sister?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos años tiene tu hermano o hermana?",
+      "item": "how-old-is-your-sibling"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Eso es agradable».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es agradable.",
+      "item": "thats-nice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Hi! What's your name?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "I'm Emily. Nice to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy Emily. Encantada de conocerte.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Nice to meet you too. How old are you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantado de conocerte también. ¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "I'm eight years old. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo ocho años. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I'm nine. You're young!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo nueve. ¡Eres joven!",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "When were you born?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuándo naciste?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I was born in 2014.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Nací en 2014.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.9,
+    "chars": 4439,
+    "cues": 161,
+    "mode": "lesson",
+    "lesson": 11
+  }
+}

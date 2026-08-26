@@ -1,0 +1,2064 @@
+{
+  "title": "What do you like?",
+  "subtitle": "Aprender a hablar sobre gustos y preferencias.",
+  "summary_es": "Una frase",
+  "topics": [
+    "gustos",
+    "preferencias",
+    "música",
+    "deportes",
+    "charla"
+  ],
+  "dialogue": {
+    "tl": [
+      "Do you like music?",
+      "I love music. What music do you listen to?",
+      "I listen to rock. And you?",
+      "I prefer pop. Which team do you support?",
+      "I support Liverpool. Football or rugby?",
+      "Football, definitely."
+    ],
+    "es": [
+      "¿Te gusta la música?",
+      "Me encanta la música. ¿Qué música escuchas?",
+      "Escucho rock. ¿Y tú?",
+      "Prefiero el pop. ¿A qué equipo apoyas?",
+      "Apoyo al Liverpool. ¿Fútbol o rugby?",
+      "Fútbol, definitivamente."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Do you like music?",
+      "es": "¿Te gusta la música?"
+    },
+    {
+      "term": "I love music.",
+      "es": "Me encanta la música."
+    },
+    {
+      "term": "What music do you listen to?",
+      "es": "¿Qué música escuchas?"
+    },
+    {
+      "term": "I listen to rock.",
+      "es": "Escucho rock."
+    },
+    {
+      "term": "Which team do you support?",
+      "es": "¿A qué equipo apoyas?"
+    },
+    {
+      "term": "I support Liverpool.",
+      "es": "Apoyo al Liverpool."
+    },
+    {
+      "term": "Football or rugby?",
+      "es": "¿Fútbol o rugby?"
+    },
+    {
+      "term": "I prefer football.",
+      "es": "Prefiero el fútbol."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 22. What do you like?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pub de Londres, dos amigos charlan sobre sus gustos personales. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta la música?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I love music. What music do you listen to?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me encanta la música. ¿Qué música escuchas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Escucho rock. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I prefer pop. Which team do you support?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Prefiero el pop. ¿A qué equipo apoyas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool. Football or rugby?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Apoyo al Liverpool. ¿Fútbol o rugby?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Football, definitely.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Fútbol, definitivamente.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre gustos y preferencias. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta el fútbol?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me encanta el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta el fútbol.",
+      "item": "i-love-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu comida favorita?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi comida favorita es el pescado con patatas fritas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta la música?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sic",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "music",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "like music",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you like music",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre gustos musicales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me encanta la música». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sic",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-love-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "music",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-love-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "love music",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-love-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-love-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar amor por algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me encanta la música»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué música escuchas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "listen to",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you listen to",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "music do you listen to",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre preferencias musicales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué música escuchas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué música escuchas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Escucho rock». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rock",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to rock",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "listen to rock",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "hablar de preferencias musicales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Escucho rock»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Escucho rock».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A qué equipo apoyas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "port",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "support",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you support",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "team do you support",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre aficiones deportivas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué equipo apoyas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué equipo apoyas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Apoyo al Liverpool». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ol",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pool",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "verpool",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "support Liverpool",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "hablar de aficiones deportivas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Apoyo al Liverpool»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Apoyo al Liverpool».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Escucho rock».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Fútbol o rugby?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rugby",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "or rugby",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre preferencias deportivas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Fútbol o rugby?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Fútbol o rugby?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Prefiero el fútbol». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ball",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "otball",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "football",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prefer football",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar preferencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Prefiero el fútbol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Prefiero el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Apoyo al Liverpool».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy profesor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'like' y 'prefer'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés, usamos 'like' para hablar de cosas que nos gustan y 'prefer' para expresar una preferencia entre dos opciones. Por ejemplo, 'I like music' y 'I prefer football'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I like music.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me gusta la música.",
+      "item": "yes-i-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me gusta la música».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I like music.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me gusta la música.",
+      "item": "yes-i-like-music"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't like music.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no me gusta la música.",
+      "item": "no-i-dont-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no me gusta la música».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't like music.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no me gusta la música.",
+      "item": "no-i-dont-like-music"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, apoyo al Liverpool.",
+      "item": "yes-i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, apoyo al Liverpool».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I support Liverpool.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, apoyo al Liverpool.",
+      "item": "yes-i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien si le gusta la música.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que apoyas al Liverpool.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué música escuchas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Escucho rock»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué equipo apoyas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Apoyo al Liverpool».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Fútbol o rugby?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Prefiero el fútbol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta el fútbol?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me encanta el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta el fútbol.",
+      "item": "i-love-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu comida favorita?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi comida favorita es el pescado con patatas fritas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I love music.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "i-love-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué música escuchas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What music do you listen to?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "what-music-do-you-listen-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Escucho rock»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escucho rock.",
+      "item": "i-listen-to-rock"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué equipo apoyas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which team do you support?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "which-team-do-you-support"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Apoyo al Liverpool».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Apoyo al Liverpool.",
+      "item": "i-support-liverpool"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Fútbol o rugby?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Football or rugby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Fútbol o rugby?",
+      "item": "football-or-rugby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Prefiero el fútbol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I prefer football.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "i-prefer-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta la música?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I love music. What music do you listen to?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me encanta la música. ¿Qué música escuchas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I listen to rock. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Escucho rock. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I prefer pop. Which team do you support?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Prefiero el pop. ¿A qué equipo apoyas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I support Liverpool. Football or rugby?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Apoyo al Liverpool. ¿Fútbol o rugby?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Football, definitely.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Fútbol, definitivamente.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 17.4,
+    "chars": 5777,
+    "cues": 221,
+    "mode": "lesson",
+    "lesson": 22
+  }
+}

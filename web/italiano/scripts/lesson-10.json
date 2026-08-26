@@ -1,0 +1,1550 @@
+{
+  "title": "La famiglia",
+  "subtitle": "Aprender a hablar sobre la familia",
+  "summary_es": "Hablar sobre la familia y el estado civil.",
+  "topics": [
+    "familia",
+    "presentarse",
+    "interrogativo",
+    "avere",
+    "possessivo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ciao, come ti chiami?",
+      "Mi chiamo Laura. Piacere!",
+      "Piacere! Hai famiglia?",
+      "Sì, ho due fratelli e una sorella.",
+      "Quanti siete in totale?",
+      "Siamo sei. E tu?",
+      "Sono sposato e ho una figlia."
+    ],
+    "es": [
+      "Hola, ¿cómo te llamas?",
+      "Me llamo Laura. ¡Encantada!",
+      "¡Encantado! ¿Tienes familia?",
+      "Sí, tengo dos hermanos y una hermana.",
+      "¿Cuántos sois en total?",
+      "Somos seis. ¿Y tú?",
+      "Estoy casado y tengo una hija."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Hai famiglia?",
+      "es": "¿Tienes familia?"
+    },
+    {
+      "term": "Quanti siete?",
+      "es": "¿Cuántos sois?"
+    },
+    {
+      "term": "Mia madre è italiana.",
+      "es": "Mi madre es italiana."
+    },
+    {
+      "term": "Mio padre lavora a Roma.",
+      "es": "Mi padre trabaja en Roma."
+    },
+    {
+      "term": "La mia nonna vive in campagna.",
+      "es": "Mi abuela vive en el campo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 10. La famiglia.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un encuentro en una trattoria en Trastevere, donde dos personas empiezan a conocerse hablando de sus familias. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come ti chiami?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mi chiamo Laura. Piacere!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Laura. ¡Encantada!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere! Hai famiglia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Encantado! ¿Tienes familia?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, ho due fratelli e una sorella.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo dos hermanos y una hermana.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete in totale?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos sois en total?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Siamo sei. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Somos seis. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono sposato e ho una figlia.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy casado y tengo una hija.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre la familia Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se dice… en italiano?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes familia?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "miglia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "famiglia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar por la familia de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos sois?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ete",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "siete",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar por el número de personas en la familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi madre es italiana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ana",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "liana",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "madre è italiana",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "describir el origen de la madre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi madre es italiana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi madre es italiana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi padre trabaja en Roma». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "padre lavora a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "hablar sobre el trabajo del padre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre trabaja en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi padre trabaja en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi abuela vive en el campo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pagna",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "campagna",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mia nonna vive in campagna",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "hablar sobre dónde vive la abuela",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi abuela vive en el campo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi abuela vive en el campo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un poco».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un po'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco",
+      "item": "un-po"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del verbo 'avere'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El verbo 'avere' se utiliza para expresar posesión o relaciones familiares. Es un verbo irregular en italiano. Por ejemplo, 'Ho due fratelli' significa 'Tengo dos hermanos'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho due fratelli.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dos hermanos.",
+      "item": "ho-due-fratelli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho una sorella.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "ho-una-sorella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho due fratelli.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo dos hermanos.",
+      "item": "ho-due-fratelli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo dos hermanos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho due fratelli.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo dos hermanos.",
+      "item": "ho-due-fratelli"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho una sorella.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo una hermana.",
+      "item": "ho-una-sorella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo una hermana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho una sorella.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo una hermana.",
+      "item": "ho-una-sorella"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono sposato.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy casado.",
+      "item": "sono-sposato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy casado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono sposato.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy casado.",
+      "item": "sono-sposato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien si tiene familia.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di cuántos sois en tu familia.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi madre es italiana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre trabaja en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi abuela vive en el campo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se dice… en italiano?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi madre es italiana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mia madre è italiana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre es italiana.",
+      "item": "mia-madre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre trabaja en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi abuela vive en el campo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La mia nonna vive in campagna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi abuela vive en el campo.",
+      "item": "nonna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come ti chiami?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mi chiamo Laura. Piacere!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Laura. ¡Encantada!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere! Hai famiglia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Encantado! ¿Tienes familia?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, ho due fratelli e una sorella.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo dos hermanos y una hermana.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete in totale?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos sois en total?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Siamo sei. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Somos seis. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono sposato e ho una figlia.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy casado y tengo una hija.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.5,
+    "chars": 4167,
+    "cues": 165,
+    "mode": "lesson",
+    "lesson": 10
+  }
+}

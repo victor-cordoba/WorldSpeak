@@ -1,0 +1,1806 @@
+{
+  "title": "No médico e na farmácia",
+  "subtitle": "Aprender a expresar y entender problemas de salud comunes.",
+  "summary_es": "Una lección sobre salud y bienestar.",
+  "topics": [
+    "saude",
+    "verbos",
+    "reflexivo",
+    "sustantivo",
+    "estado"
+  ],
+  "dialogue": {
+    "tl": [
+      "Boa tarde! Preciso de algo para a dor de cabeça.",
+      "Claro, temos comprimidos ou pomada. Dói-te muito?",
+      "Sim, dói-me bastante. E também cortei-me na prancha.",
+      "Entendo. Aqui está a pomada. Estás melhor agora?",
+      "Sim, estou melhor. Obrigado pela ajuda!"
+    ],
+    "es": [
+      "¡Buenas tardes! Necesito algo para el dolor de cabeza.",
+      "Claro, tenemos pastillas o pomada. ¿Te duele mucho?",
+      "Sí, me duele bastante. Y también me corté con la tabla.",
+      "Entiendo. Aquí está la pomada. ¿Estás mejor ahora?",
+      "Sí, estoy mejor. ¡Gracias por la ayuda!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Dói-me a cabeça.",
+      "es": "Me duele la cabeza."
+    },
+    {
+      "term": "Dói-me as costas.",
+      "es": "Me duelen las costas."
+    },
+    {
+      "term": "Cortei-me na prancha.",
+      "es": "Me corté con la tabla."
+    },
+    {
+      "term": "Estou melhor.",
+      "es": "Estoy mejor."
+    },
+    {
+      "term": "Farmácia",
+      "es": "Farmacia"
+    },
+    {
+      "term": "Receita",
+      "es": "Receta"
+    },
+    {
+      "term": "Urgências",
+      "es": "Urgencias"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 28. No médico e na farmácia.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la farmacia, buscando alivio para dolores comunes después de un día de surf. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Boa tarde! Preciso de algo para a dor de cabeça.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenas tardes! Necesito algo para el dolor de cabeza.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Claro, temos comprimidos ou pomada. Dói-te muito?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, tenemos pastillas o pomada. ¿Te duele mucho?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, dói-me bastante. E também cortei-me na prancha.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me duele bastante. Y también me corté con la tabla.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Entendo. Aqui está a pomada. Estás melhor agora?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Entiendo. Aquí está la pomada. ¿Estás mejor ahora?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, estou melhor. Obrigado pela ajuda!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estoy mejor. ¡Gracias por la ayuda!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a expresar y entender problemas de salud comunes. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está el hospital?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, estoy bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, estou bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "sim-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no estoy bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não estou bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no estoy bien.",
+      "item": "nao-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde hay fiesta hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há fiesta hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde hay fiesta hoy?",
+      "item": "onde-ha-fiesta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Bacalao con nata, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bacalhau com natas, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Bacalao con nata, por favor.",
+      "item": "bacalhau-com-natas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me duele la cabeza». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ça",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "beça",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cabeça",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a cabeça",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'dói-me' para expresar dolor personal.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me duele la cabeza»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me duelen las costas». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tas",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "costas",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "as costas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para dolores específicos, usa 'dói-me'.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me duelen las costas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duelen las costas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me corté con la tabla». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prancha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na prancha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Describe accidentes comunes en surf.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me corté con la tabla»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me corté con la tabla».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy mejor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "melhor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar recuperación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mejor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy mejor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me duelen las costas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Farmacia». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mácia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lugar para comprar medicinas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Farmacia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Farmacia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Receta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "receita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ita",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "receita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ceita",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "receita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "receita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Documento para obtener medicamentos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy mejor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Urgencias». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "as",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "urgencias"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gências",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "urgencias"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "urgencias"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para emergencias médicas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Urgencias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Urgencias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una tabla y un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'dói-me'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, para expresar que algo nos duele, usamos 'dói-me' seguido de la parte del cuerpo. Es una forma reflexiva que indica que el sujeto siente el dolor.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou melhor.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy mejor.",
+      "item": "sim-estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy mejor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou melhor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, estoy mejor.",
+      "item": "sim-estou-melhor"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não me dói a cabeça.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no me duele la cabeza.",
+      "item": "nao-doe-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no me duele la cabeza».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não me dói a cabeça.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no me duele la cabeza.",
+      "item": "nao-doe-cabeca"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me duelen las costas.",
+      "item": "sim-doe-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me duelen las costas».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, dói-me as costas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me duelen las costas.",
+      "item": "sim-doe-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Te duele la cabeza y buscas alivio en la farmacia.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Te cortaste con la tabla de surf y necesitas una pomada.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duelen las costas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me corté con la tabla».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mejor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Farmacia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Urgencias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está el hospital?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, estoy bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, estou bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "sim-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no estoy bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não estou bem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no estoy bien.",
+      "item": "nao-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde hay fiesta hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há fiesta hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde hay fiesta hoy?",
+      "item": "onde-ha-fiesta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Bacalao con nata, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bacalhau com natas, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Bacalao con nata, por favor.",
+      "item": "bacalhau-com-natas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me a cabeça.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "doe-me-cabeca"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duelen las costas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dói-me as costas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duelen las costas.",
+      "item": "doe-me-costas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me corté con la tabla».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cortei-me na prancha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me corté con la tabla.",
+      "item": "cortei-me-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mejor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou melhor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "estou-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Farmacia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Farmácia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Farmacia",
+      "item": "farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Receita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "receita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Urgencias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Urgências",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Urgencias",
+      "item": "urgencias"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Boa tarde! Preciso de algo para a dor de cabeça.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenas tardes! Necesito algo para el dolor de cabeza.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Claro, temos comprimidos ou pomada. Dói-te muito?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, tenemos pastillas o pomada. ¿Te duele mucho?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, dói-me bastante. E também cortei-me na prancha.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me duele bastante. Y también me corté con la tabla.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Entendo. Aqui está a pomada. Estás melhor agora?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Entiendo. Aquí está la pomada. ¿Estás mejor ahora?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, estou melhor. Obrigado pela ajuda!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estoy mejor. ¡Gracias por la ayuda!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.3,
+    "chars": 4683,
+    "cues": 193,
+    "mode": "lesson",
+    "lesson": 28
+  }
+}

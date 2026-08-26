@@ -1,0 +1,1476 @@
+{
+  "title": "Tu viens d'où ?",
+  "subtitle": "Aprender a preguntar y responder sobre el origen y el gusto por un lugar",
+  "summary_es": "Una conversación en un café sobre el origen y las impresiones de Francia.",
+  "topics": [
+    "origen",
+    "nacionalidad",
+    "duración",
+    "gustos",
+    "preguntas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Tu viens d'où ?",
+      "Je suis espagnole, de Madrid. Et toi ?",
+      "Je suis français, de Lyon. Tu es là depuis combien de temps ?",
+      "Depuis une semaine. J'aime bien la France.",
+      "Tu aimes la France ?",
+      "Oui, j'aime bien."
+    ],
+    "es": [
+      "¡Hola! ¿De dónde vienes?",
+      "Soy española, de Madrid. ¿Y tú?",
+      "Soy francés, de Lyon. ¿Cuánto tiempo llevas aquí?",
+      "Desde hace una semana. Me gusta Francia.",
+      "¿Te gusta Francia?",
+      "Sí, me gusta."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu viens d'où ?",
+      "es": "¿De dónde vienes?"
+    },
+    {
+      "term": "Je suis espagnol(e), de Madrid.",
+      "es": "Soy español(a), de Madrid."
+    },
+    {
+      "term": "Tu es là depuis combien de temps ?",
+      "es": "¿Cuánto tiempo llevas aquí?"
+    },
+    {
+      "term": "J'aime bien la France.",
+      "es": "Me gusta Francia."
+    },
+    {
+      "term": "Tu aimes la France ?",
+      "es": "¿Te gusta Francia?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 9. Tu viens d'où ?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Montmartre, dos personas se conocen. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu viens d'où ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿De dónde vienes?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis espagnole, de Madrid. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy española, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis français, de Lyon. Tu es là depuis combien de temps ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy francés, de Lyon. ¿Cuánto tiempo llevas aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Depuis une semaine. J'aime bien la France.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Desde hace una semana. Me gusta Francia.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta Francia?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre el origen y el gusto por un lugar Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «De acuerdo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "D'accord.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De acuerdo.",
+      "item": "daccord"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De dónde vienes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "d'où",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "viens d'où",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar el origen de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De dónde vienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy español(a), de Madrid». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rid",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Madrid",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "suis espagnol(e) de Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e) de Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar nacionalidad y ciudad de origen",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy español(a), de Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto tiempo llevas aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "temps",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de temps",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "combien de temps",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es là depuis combien de temps",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar la duración de la estancia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gusta Francia». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "France",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la France",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bien la France",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar gusto por un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Francia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gusta Francia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta Francia?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "France",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la France",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aimes la France",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre el gusto por un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Francia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta Francia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Yo también».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Yo también.",
+      "item": "moi-aussi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'depuis'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, 'depuis' se utiliza para indicar la duración de una acción que comenzó en el pasado y continúa en el presente. Por ejemplo, 'Depuis une semaine' significa 'Desde hace una semana'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Depuis une semaine.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "depuis-une-semaine"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Depuis une semaine.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Desde hace una semana.",
+      "item": "depuis-une-semaine"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Desde hace una semana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Depuis une semaine.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Desde hace una semana.",
+      "item": "depuis-une-semaine"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me gusta».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, pas trop.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no mucho.",
+      "item": "non-pas-trop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no mucho».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, pas trop.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no mucho.",
+      "item": "non-pas-trop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café en París y quieres saber de dónde es la persona que tienes enfrente.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde vienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Francia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Francia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «De acuerdo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "D'accord.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De acuerdo.",
+      "item": "daccord"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde vienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Francia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Francia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu viens d'où ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿De dónde vienes?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis espagnole, de Madrid. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy española, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis français, de Lyon. Tu es là depuis combien de temps ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy francés, de Lyon. ¿Cuánto tiempo llevas aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Depuis une semaine. J'aime bien la France.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Desde hace una semana. Me gusta Francia.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta Francia?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.6,
+    "chars": 4337,
+    "cues": 157,
+    "mode": "lesson",
+    "lesson": 9
+  }
+}

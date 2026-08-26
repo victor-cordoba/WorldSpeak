@@ -1,0 +1,1688 @@
+{
+  "title": "Manger comme un Français",
+  "subtitle": "Aprende a pedir una comida completa en un restaurante francés.",
+  "summary_es": "Aprenderás a pedir una comida completa.",
+  "topics": [
+    "restaurante",
+    "comida",
+    "cultura",
+    "social"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, nous allons prendre une entrée, un plat et un dessert.",
+      "Très bien, le plat du jour est du poulet rôti.",
+      "Papa, je veux un verre de rouge !",
+      "Non, tu peux avoir un jus d'orange.",
+      "Fromage ou dessert pour vous deux ?",
+      "Pour moi, un dessert, s'il vous plaît.",
+      "Moi aussi, un dessert !"
+    ],
+    "es": [
+      "Hola, vamos a tomar un entrante, un plato y un postre.",
+      "Muy bien, el plato del día es pollo asado.",
+      "¡Papá, quiero una copa de tinto!",
+      "No, puedes tomar un zumo de naranja.",
+      "¿Queso o postre para vosotros dos?",
+      "Para mí, un postre, por favor.",
+      "¡Yo también, un postre!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Une entrée, un plat, un dessert",
+      "es": "Un entrante, un plato, un postre"
+    },
+    {
+      "term": "Le plat du jour",
+      "es": "El plato del día"
+    },
+    {
+      "term": "Un verre de rouge",
+      "es": "Una copa de tinto"
+    },
+    {
+      "term": "Fromage ou dessert ?",
+      "es": "¿Queso o postre?"
+    },
+    {
+      "term": "L'apéro",
+      "es": "El aperitivo"
+    },
+    {
+      "term": "Le pourboire",
+      "es": "La propina"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 20. Manger comme un Français.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pequeño restaurante en Montmartre, un padre y su hijo están eligiendo su comida. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, nous allons prendre une entrée, un plat et un dessert.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, vamos a tomar un entrante, un plato y un postre.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Très bien, le plat du jour est du poulet rôti.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Muy bien, el plato del día es pollo asado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Papa, je veux un verre de rouge !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Papá, quiero una copa de tinto!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, tu peux avoir un jus d'orange.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, puedes tomar un zumo de naranja.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Fromage ou dessert pour vous deux ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Queso o postre para vosotros dos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pour moi, un dessert, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Para mí, un postre, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi, un dessert !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Yo también, un postre!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a pedir una comida completa en un restaurante francés. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Buenos días, señor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Buenos días, señor.",
+      "item": "bonjour-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'addition, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "laddition-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un café, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-cafe-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, está abierto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "oui-cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un entrante, un plato, un postre». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dessert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un dessert",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "entrée un plat un dessert",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée un plat un dessert",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estructura típica de una comida en Francia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un entrante, un plato, un postre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un entrante, un plato, un postre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El plato del día». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jour",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Suele ser una opción económica en los restaurantes",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El plato del día»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El plato del día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una copa de tinto». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ge",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uge",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rouge",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vino tinto, común en las comidas francesas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una copa de tinto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una copa de tinto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Queso o postre?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dessert",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ou dessert",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta típica al final de una comida",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Queso o postre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Queso o postre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El plato del día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El aperitivo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lapero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "péro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lapero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lapero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Momento social antes de la cena",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El aperitivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El aperitivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La propina». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "boire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pourboire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "No es obligatorio pero apreciado",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La propina»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La propina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Queso o postre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El arte de la comida francesa.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Francia, una comida típica puede consistir en una entrada, un plato principal y un postre. Es común preguntar si prefieres queso o postre al final. Además, el 'apéro' es un momento social importante antes de la cena.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est bon.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está bueno.",
+      "item": "oui-cest-bon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está bueno».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est bon.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está bueno.",
+      "item": "oui-cest-bon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, c'est pas bon.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no está bueno.",
+      "item": "non-cest-pas-bon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no está bueno».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, c'est pas bon.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no está bueno.",
+      "item": "non-cest-pas-bon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un restaurante y quieres pedir el menú completo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un entrante, un plato, un postre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El plato del día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una copa de tinto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Queso o postre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El aperitivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La propina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Buenos días, señor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Buenos días, señor.",
+      "item": "bonjour-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'addition, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "laddition-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un café, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-cafe-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, está abierto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "oui-cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un entrante, un plato, un postre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une entrée, un plat, un dessert",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un entrante, un plato, un postre",
+      "item": "une-entree-un-plat-un-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El plato del día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una copa de tinto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un verre de rouge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una copa de tinto",
+      "item": "un-verre-de-rouge"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Queso o postre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fromage ou dessert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Queso o postre?",
+      "item": "fromage-ou-dessert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El aperitivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'apéro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo",
+      "item": "lapero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La propina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le pourboire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La propina",
+      "item": "le-pourboire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, nous allons prendre une entrée, un plat et un dessert.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, vamos a tomar un entrante, un plato y un postre.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Très bien, le plat du jour est du poulet rôti.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Muy bien, el plato del día es pollo asado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Papa, je veux un verre de rouge !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Papá, quiero una copa de tinto!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, tu peux avoir un jus d'orange.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, puedes tomar un zumo de naranja.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Fromage ou dessert pour vous deux ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Queso o postre para vosotros dos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pour moi, un dessert, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Para mí, un postre, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi aussi, un dessert !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Yo también, un postre!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.0,
+    "chars": 4763,
+    "cues": 180,
+    "mode": "lesson",
+    "lesson": 20
+  }
+}

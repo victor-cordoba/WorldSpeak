@@ -1,0 +1,1660 @@
+{
+  "title": "Conocer a alguien: ¿Qué haces en la vida?",
+  "subtitle": "Aprender a preguntar y responder sobre la profesión o estudios.",
+  "summary_es": "Una lección para hablar sobre tu vida profesional o académica.",
+  "topics": [
+    "profesiones",
+    "estudios",
+    "verbo faire",
+    "presentarse",
+    "trabajo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Tu fais quoi dans la vie ?",
+      "Je suis professeure. Et toi ?",
+      "Je fais des études en informatique.",
+      "Tu aimes ça ?",
+      "Oui, j'aime bien. Et toi, tu aimes être prof ?",
+      "Oui, beaucoup. C'est très enrichissant."
+    ],
+    "es": [
+      "¡Hola! ¿Qué haces en la vida?",
+      "Soy profesora. ¿Y tú?",
+      "Estoy estudiando informática.",
+      "¿Te gusta eso?",
+      "Sí, me gusta. ¿Y tú, te gusta ser profesora?",
+      "Sí, mucho. Es muy enriquecedor."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu fais quoi dans la vie ?",
+      "es": "¿Qué haces en la vida?"
+    },
+    {
+      "term": "Je suis...",
+      "es": "Soy..."
+    },
+    {
+      "term": "Je fais des études.",
+      "es": "Estoy estudiando."
+    },
+    {
+      "term": "Je travaille dans...",
+      "es": "Trabajo en..."
+    },
+    {
+      "term": "Je suis en télétravail.",
+      "es": "Estoy teletrabajando."
+    },
+    {
+      "term": "Je suis à la retraite.",
+      "es": "Estoy jubilado/a."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 12. Conocer a alguien: ¿Qué haces en la vida?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Montmartre, dos personas se conocen y hablan de sus vidas. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu fais quoi dans la vie ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Qué haces en la vida?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis professeure. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy profesora. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études en informatique.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy estudiando informática.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu aimes ça ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta eso?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien. Et toi, tu aimes être prof ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta. ¿Y tú, te gusta ser profesora?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, beaucoup. C'est très enrichissant.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, mucho. Es muy enriquecedor.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre la profesión o estudios. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué haces en la vida?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la vie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dans la vie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fais quoi dans la vie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para conocer a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces en la vida?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué haces en la vida?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "suis",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para describir tu profesión o estado",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy estudiando». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "des",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tudes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "études",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fais des études",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que estás estudiando",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy estudiando»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy estudiando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo en». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dans",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "travaille dans",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar tu sector de trabajo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy teletrabajando». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "il",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vail",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ravail",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "suis en télétravail",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica que trabajas desde casa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy teletrabajando»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy teletrabajando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy jubilado/a». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "raite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "suis à la retraite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que estás jubilado/a",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy jubilado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy jubilado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «En mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del verbo 'faire'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El verbo 'faire' se usa para hablar de actividades o profesiones. Por ejemplo, 'Je fais des études' significa 'Estoy estudiando'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "dans une entreprise",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "en una empresa",
+      "item": "dans-une-entreprise"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«en una empresa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "dans une entreprise",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "en una empresa",
+      "item": "dans-une-entreprise"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "à la maison",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "en casa",
+      "item": "a-la-maison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«en casa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "à la maison",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "en casa",
+      "item": "a-la-maison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café y quieres saber a qué se dedica la persona que está contigo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces en la vida?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy estudiando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy teletrabajando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy jubilado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces en la vida?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy estudiando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy estudiando.",
+      "item": "je-fais-des-etudes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je travaille dans...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "je-travaille-dans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy teletrabajando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis en télétravail.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy teletrabajando.",
+      "item": "je-suis-en-teletravail"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy jubilado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis à la retraite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado/a.",
+      "item": "je-suis-a-la-retraite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu fais quoi dans la vie ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Qué haces en la vida?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis professeure. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy profesora. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je fais des études en informatique.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy estudiando informática.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu aimes ça ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta eso?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien. Et toi, tu aimes être prof ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta. ¿Y tú, te gusta ser profesora?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, beaucoup. C'est très enrichissant.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, mucho. Es muy enriquecedor.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.6,
+    "chars": 4483,
+    "cues": 177,
+    "mode": "lesson",
+    "lesson": 12
+  }
+}

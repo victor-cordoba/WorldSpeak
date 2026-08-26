@@ -1,0 +1,1545 @@
+{
+  "title": "Aprender sobre el tiempo y las condiciones para surfear",
+  "subtitle": "Hablar sobre la marea, el viento y el mejor momento para surfear",
+  "summary_es": "Una frase",
+  "topics": [
+    "marea",
+    "viento",
+    "olas",
+    "surf"
+  ],
+  "dialogue": {
+    "tl": [
+      "Como está a maré agora?",
+      "Está maré alta.",
+      "O vento está offshore, perfeito para surfar!",
+      "A que horas é melhor surfar?",
+      "Agora é ótimo, há ondas grandes."
+    ],
+    "es": [
+      "¿Cómo está la marea ahora?",
+      "Está marea alta.",
+      "El viento está offshore, ¡perfecto para surfear!",
+      "¿A qué horas es mejor surfear?",
+      "Ahora es genial, hay olas grandes."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Como está a maré agora?",
+      "es": "¿Cómo está la marea ahora?"
+    },
+    {
+      "term": "A que horas é melhor surfar?",
+      "es": "¿A qué horas es mejor surfear?"
+    },
+    {
+      "term": "Há ondas grandes hoje?",
+      "es": "¿Hay olas grandes hoy?"
+    },
+    {
+      "term": "Está maré alta.",
+      "es": "Está marea alta."
+    },
+    {
+      "term": "Está maré baixa.",
+      "es": "Está marea baja."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 15. Aprender sobre el tiempo y las condiciones para surfear.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, los surfistas se preparan para entrar al agua. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está marea alta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O vento está offshore, perfeito para surfar!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El viento está offshore, ¡perfecto para surfear!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Agora é ótimo, há ondas grandes.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ahora es genial, hay olas grandes.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar sobre la marea, el viento y el mejor momento para surfear Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, hay buenas olas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no se puede acampar aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no se puede acampar aquí.",
+      "item": "nao-nao-acampar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hoy o mañana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hoje ou amanhã?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hoy o mañana?",
+      "item": "hoje-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo está la marea ahora?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ra",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gora",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "agora",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "está a maré agora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre el estado de la marea",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está la marea ahora?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo está la marea ahora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A qué horas es mejor surfear?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "far",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "surfar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "melhor surfar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "que horas é melhor surfar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar por el mejor momento para surfear",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué horas es mejor surfear?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué horas es mejor surfear?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hay olas grandes hoy?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "je",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hoje",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "grandes hoje",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ondas grandes hoje",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar por el tamaño de las olas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay olas grandes hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hay olas grandes hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está marea alta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "alta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "maré alta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "informar sobre la marea alta",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está marea alta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Está marea alta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿A qué horas es mejor surfear?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está marea baja». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "xa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ixa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "baixa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "maré baixa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "informar sobre la marea baja",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está marea baja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Está marea baja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes repetir?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes repetir?",
+      "item": "podes-repetir"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del impersonal 'se'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, el impersonal 'se' se utiliza para hablar de acciones en general, sin especificar quién las realiza. Es común en preguntas sobre el tiempo y las condiciones.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está marea alta».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está marea baja».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "O vento está offshore.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "El viento está offshore.",
+      "item": "vento-offshore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El viento está offshore».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "O vento está offshore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El viento está offshore.",
+      "item": "vento-offshore"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, há ondas grandes.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, hay olas grandes.",
+      "item": "sim-ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, hay olas grandes».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, há ondas grandes.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, hay olas grandes.",
+      "item": "sim-ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cómo está la marea ahora.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Confirma si el viento está offshore.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O vento está offshore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El viento está offshore.",
+      "item": "vento-offshore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo está la marea ahora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué horas es mejor surfear?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hay olas grandes hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está marea alta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Está marea baja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, hay buenas olas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no se puede acampar aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no se puede acampar aquí.",
+      "item": "nao-nao-acampar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hoy o mañana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hoje ou amanhã?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hoy o mañana?",
+      "item": "hoje-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo está la marea ahora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": "como-esta-mare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué horas es mejor surfear?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": "a-que-horas-melhor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hay olas grandes hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há ondas grandes hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay olas grandes hoy?",
+      "item": "ondas-grandes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está marea alta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea alta.",
+      "item": "mare-alta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Está marea baja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está maré baixa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está marea baja.",
+      "item": "mare-baixa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está a maré agora?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo está la marea ahora?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está maré alta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está marea alta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O vento está offshore, perfeito para surfar!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El viento está offshore, ¡perfecto para surfear!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A que horas é melhor surfar?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿A qué horas es mejor surfear?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Agora é ótimo, há ondas grandes.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ahora es genial, hay olas grandes.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.5,
+    "chars": 4655,
+    "cues": 165,
+    "mode": "lesson",
+    "lesson": 15
+  }
+}

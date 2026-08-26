@@ -1,0 +1,1816 @@
+{
+  "title": "Il bar: come un romano",
+  "subtitle": "Aprende a pedir en el bar como un local",
+  "summary_es": "Una frase",
+  "topics": [
+    "bar",
+    "café",
+    "costumbres",
+    "pago"
+  ],
+  "dialogue": {
+    "tl": [
+      "Buongiorno! Un caffè al banco, per favore.",
+      "Certo! Vuoi anche un cornetto?",
+      "Sì, vorrei un cornetto.",
+      "Perfetto. Si paga alla cassa.",
+      "Quanto le devo?",
+      "Sono due euro e cinquanta."
+    ],
+    "es": [
+      "¡Buenos días! Un café en la barra, por favor.",
+      "¡Claro! ¿Quieres también un cruasán?",
+      "Sí, querría un cruasán.",
+      "Perfecto. Se paga en la caja.",
+      "¿Cuánto le debo?",
+      "Son dos euros y cincuenta."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Un caffè al banco, per favore.",
+      "es": "Un café en la barra, por favor."
+    },
+    {
+      "term": "Vorrei un cornetto.",
+      "es": "Querría un cruasán."
+    },
+    {
+      "term": "Un macchiato caldo, grazie.",
+      "es": "Un macchiato caliente, gracias."
+    },
+    {
+      "term": "Un macchiato freddo, per favore.",
+      "es": "Un macchiato frío, por favor."
+    },
+    {
+      "term": "Il cappuccino solo la mattina.",
+      "es": "El cappuccino solo por la mañana."
+    },
+    {
+      "term": "Pago alla cassa.",
+      "es": "Pago en la caja."
+    },
+    {
+      "term": "Quanto le devo?",
+      "es": "¿Cuánto le debo?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 15. Il bar: come un romano.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un bar típico de Roma, un cliente está aprendiendo a pedir como un local. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno! Un caffè al banco, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenos días! Un café en la barra, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo! Vuoi anche un cornetto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Quieres también un cruasán?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, vorrei un cornetto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, querría un cruasán.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Perfetto. Si paga alla cassa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto. Se paga en la caja.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto le debo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono due euro e cinquanta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son dos euros y cincuenta.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a pedir en el bar como un local Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El recibo, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡De nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Esta es mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un café en la barra, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "caffè al banco per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Italia, es común tomar el café de pie en la barra.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café en la barra, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un café en la barra, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Querría un cruasán». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "netto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cornetto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un cornetto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El cornetto es un desayuno típico en Italia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un cruasán»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría un cruasán».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un macchiato caliente, gracias». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "grazie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "caldo grazie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "macchiato caldo grazie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo grazie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El macchiato puede ser caldo (caliente) o freddo (frío).",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un macchiato caliente, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un macchiato caliente, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un macchiato frío, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "macchiato freddo per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El macchiato puede ser caldo (caliente) o freddo (frío).",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un macchiato frío, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un macchiato frío, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Querría un cruasán».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El cappuccino solo por la mañana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mattina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cappuccino solo la mattina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Italia, el cappuccino se toma solo por la mañana.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El cappuccino solo por la mañana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El cappuccino solo por la mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Pago en la caja». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cassa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "alla cassa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En muchos bares, se paga primero en la caja.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pago en la caja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pago en la caja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un macchiato frío, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto le debo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "devo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le devo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cortés para saber cuánto pagar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto le debo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto le debo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Puoi ripetere?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes repetir?",
+      "item": "puoi-ripetere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Costumbres del bar italiano.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Italia, es común tomar el café de pie en la barra. El cappuccino se toma solo por la mañana. En muchos bares, se paga primero en la caja antes de pedir.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Si paga alla cassa?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Se paga en la caja?",
+      "item": "si-paga-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Se paga en la caja?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Si paga alla cassa?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Se paga en la caja?",
+      "item": "si-paga-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un bar en Roma y quieres pedir un café y un cruasán.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café en la barra, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría un cruasán».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un macchiato caliente, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un macchiato frío, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El cappuccino solo por la mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pago en la caja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto le debo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El recibo, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡De nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Esta es mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café en la barra, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè al banco, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un café en la barra, por favor.",
+      "item": "un-caffe-al-banco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría un cruasán».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un cornetto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un cruasán.",
+      "item": "un-cornetto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un macchiato caliente, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un macchiato frío, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato freddo, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato frío, por favor.",
+      "item": "macchiato-freddo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El cappuccino solo por la mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pago en la caja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pago alla cassa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago en la caja.",
+      "item": "pago-alla-cassa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto le debo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno! Un caffè al banco, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenos días! Un café en la barra, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo! Vuoi anche un cornetto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Quieres también un cruasán?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, vorrei un cornetto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, querría un cruasán.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Perfetto. Si paga alla cassa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto. Se paga en la caja.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto le debo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono due euro e cinquanta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son dos euros y cincuenta.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.1,
+    "chars": 5471,
+    "cues": 194,
+    "mode": "lesson",
+    "lesson": 15
+  }
+}

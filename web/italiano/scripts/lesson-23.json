@@ -1,0 +1,1696 @@
+{
+  "title": "Sogni e Desideri",
+  "subtitle": "Aprender a hablar sobre sueños y deseos futuros",
+  "summary_es": "Hablar sobre sueños y deseos futuros.",
+  "topics": [
+    "sogni",
+    "desideri",
+    "futuro",
+    "condizionale",
+    "capacità"
+  ],
+  "dialogue": {
+    "tl": [
+      "Cosa vuoi fare da grande?",
+      "Il mio sogno è diventare un artista.",
+      "Vorrei vivere a Roma.",
+      "Un giorno visiterò il Colosseo.",
+      "Ce la fai a realizzare i tuoi sogni?",
+      "Sì, ce la faccio."
+    ],
+    "es": [
+      "¿Qué quieres ser de mayor?",
+      "Mi sueño es ser artista.",
+      "Querría vivir en Roma.",
+      "Un día visitaré el Coliseo.",
+      "¿Puedes lograr tus sueños?",
+      "Sí, puedo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Cosa vuoi fare da grande?",
+      "es": "¿Qué quieres ser de mayor?"
+    },
+    {
+      "term": "Il mio sogno è diventare un artista.",
+      "es": "Mi sueño es ser artista."
+    },
+    {
+      "term": "Vorrei vivere a Roma.",
+      "es": "Querría vivir en Roma."
+    },
+    {
+      "term": "Un giorno visiterò il Colosseo.",
+      "es": "Un día visitaré el Coliseo."
+    },
+    {
+      "term": "Ce la fai a realizzare i tuoi sogni?",
+      "es": "¿Puedes lograr tus sueños?"
+    },
+    {
+      "term": "Forse un giorno ci riuscirò.",
+      "es": "Quizás un día lo lograré."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 23. Sogni e Desideri.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un parque de Roma, dos amigos hablan sobre sus sueños y el futuro. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Querría vivir en Roma.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, ce la faccio.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre sueños y deseos futuros Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace la musica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta la música.",
+      "item": "mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "sei-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy jubilado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El barrio es muy animado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué quieres ser de mayor?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "grande",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "da grande",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vuoi fare da grande",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "una pregunta común para conocer los sueños de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué quieres ser de mayor?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué quieres ser de mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi sueño es ser artista». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tista",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "artista",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mio sogno è diventare un artista",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar un sueño personal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi sueño es ser artista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es ser artista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Querría vivir en Roma». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vivere a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar un deseo futuro",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría vivir en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría vivir en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un día visitaré el Coliseo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "losseo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Colosseo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "giorno visiterò il Colosseo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "hablar de planes futuros",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día visitaré el Coliseo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un día visitaré el Coliseo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi sueño es ser artista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedes lograr tus sueños?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ni",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sogni",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tuoi sogni",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la fai a realizzare i tuoi sogni",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre la capacidad de lograr algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedes lograr tus sueños?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedes lograr tus sueños?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quizás un día lo lograré». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cirò",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uscirò",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "riuscirò",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un giorno ci riuscirò",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar esperanza futura",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quizás un día lo lograré»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quizás un día lo lograré».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un día visitaré el Coliseo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gusta Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del Condizionale.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El condizionale se utiliza para expresar deseos, sueños o situaciones hipotéticas. Es común en frases como 'Vorrei vivere a Roma' para expresar un deseo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, ce la faccio.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, puedo.",
+      "item": "si-ce-la-faccio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, puedo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, ce la faccio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, puedo.",
+      "item": "si-ce-la-faccio"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, non ce la faccio.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no puedo.",
+      "item": "no-non-ce-la-faccio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no puedo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, non ce la faccio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no puedo.",
+      "item": "no-non-ce-la-faccio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Habla sobre un sueño que tienes para el futuro.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué quieres ser de mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es ser artista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Querría vivir en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día visitaré el Coliseo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedes lograr tus sueños?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quizás un día lo lograré».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace la musica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta la música.",
+      "item": "mi-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "sei-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy jubilado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El barrio es muy animado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il quartiere è molto vivace.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El barrio es muy animado.",
+      "item": "il-quartiere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué quieres ser de mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": "cosa-vuoi-fare-da-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es ser artista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": "il-mio-sogno-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Querría vivir en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría vivir en Roma.",
+      "item": "vorrei-vivere-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día visitaré el Coliseo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": "un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedes lograr tus sueños?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": "ce-la-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quizás un día lo lograré».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse un giorno ci riuscirò.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quizás un día lo lograré.",
+      "item": "forse-un-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa vuoi fare da grande?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué quieres ser de mayor?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Il mio sogno è diventare un artista.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei vivere a Roma.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Querría vivir en Roma.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Un giorno visiterò il Colosseo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día visitaré el Coliseo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ce la fai a realizzare i tuoi sogni?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Puedes lograr tus sueños?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, ce la faccio.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.4,
+    "chars": 5313,
+    "cues": 181,
+    "mode": "lesson",
+    "lesson": 23
+  }
+}

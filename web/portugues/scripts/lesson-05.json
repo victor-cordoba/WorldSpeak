@@ -1,0 +1,1684 @@
+{
+  "title": "Quero… Vou a…",
+  "subtitle": "Aprender a expresar deseos y direcciones",
+  "summary_es": "Aprender a pedir y ofrecer cosas, y a preguntar direcciones.",
+  "topics": [
+    "querer",
+    "ir",
+    "cortesia",
+    "direcciones"
+  ],
+  "dialogue": {
+    "tl": [
+      "Queres uma cerveja?",
+      "Sim, quero uma cerveja, por favor.",
+      "Eu vou à praia agora. Vamos à praia!",
+      "Como se vai para a praia?",
+      "É em frente, depois à direita."
+    ],
+    "es": [
+      "¿Quieres una cerveza?",
+      "Sí, quiero una cerveza, por favor.",
+      "Voy a la playa ahora. ¡Vamos a la playa!",
+      "¿Cómo se va a la playa?",
+      "Es recto, luego a la derecha."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quero uma cerveja, por favor.",
+      "es": "Quiero una cerveza, por favor."
+    },
+    {
+      "term": "Queres uma cerveja?",
+      "es": "¿Quieres una cerveza?"
+    },
+    {
+      "term": "Vou à praia agora.",
+      "es": "Voy a la playa ahora."
+    },
+    {
+      "term": "Vamos à praia!",
+      "es": "¡Vamos a la playa!"
+    },
+    {
+      "term": "Como se vai para a praia?",
+      "es": "¿Cómo se va a la playa?"
+    },
+    {
+      "term": "É à direita ou à esquerda?",
+      "es": "¿Es a la derecha o a la izquierda?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 5. Quero… Vou a….",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un bar cercano a la playa, después de una sesión de surf. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, quero uma cerveja, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, quiero una cerveza, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu vou à praia agora. Vamos à praia!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Voy a la playa ahora. ¡Vamos a la playa!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É em frente, depois à direita.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es recto, luego a la derecha.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a expresar deseos y direcciones Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tú eres surfista?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero una cerveza, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uma cerveja por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para pedir en un bar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero una cerveza, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quieres una cerveza?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ja",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "veja",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cerveja",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uma cerveja",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para ofrecer algo a alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres una cerveza?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Voy a la playa ahora». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ra",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gora",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "agora",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à praia agora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar intención de ir a un lugar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a la playa ahora»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy a la playa ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos a la playa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "praia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para invitar a alguien a unirse.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos a la playa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se va a la playa?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "praia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se vai para a praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar direcciones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se va a la playa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se va a la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es a la derecha o a la izquierda?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "da",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "erda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "querda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à direita ou à esquerda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para confirmar direcciones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Es a la derecha o a la izquierda?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es a la derecha o a la izquierda?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Vamos a la playa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Y tu furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'querer' y 'ir'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, 'querer' se usa para expresar deseos, y 'ir' para indicar movimiento. Se conjugan según el sujeto.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não quero cerveja, obrigado.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No quiero cerveza, gracias.",
+      "item": "nao-quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No quiero cerveza, gracias».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não quero cerveja, obrigado.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No quiero cerveza, gracias.",
+      "item": "nao-quero-cerveja"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É em frente.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Es recto.",
+      "item": "em-frente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es recto».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É em frente.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es recto.",
+      "item": "em-frente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un bar y quieres pedir una cerveza.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres invitar a alguien a ir a la playa contigo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quiero una cerveza, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Voy a la playa ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se va a la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es a la derecha o a la izquierda?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tú eres surfista?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu és surfista?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tú eres surfista?",
+      "item": "tu-es-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quiero una cerveza, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Voy a la playa ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se va a la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es a la derecha o a la izquierda?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É à direita ou à esquerda?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es a la derecha o a la izquierda?",
+      "item": "direita-esquerda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, quero uma cerveja, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, quiero una cerveza, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu vou à praia agora. Vamos à praia!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Voy a la playa ahora. ¡Vamos a la playa!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É em frente, depois à direita.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es recto, luego a la derecha.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.6,
+    "chars": 4923,
+    "cues": 180,
+    "mode": "lesson",
+    "lesson": 5
+  }
+}

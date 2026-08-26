@@ -1,0 +1,1686 @@
+{
+  "title": "Do que gostas?",
+  "subtitle": "Aprender a preguntar y expresar gustos.",
+  "summary_es": "Una lección sobre gustos y preferencias.",
+  "topics": [
+    "gustos",
+    "música",
+    "fútbol",
+    "preferencias"
+  ],
+  "dialogue": {
+    "tl": [
+      "Gostas de música?",
+      "Adoro música! E tu, que música ouves?",
+      "Gosto de rock. Qual é a tua banda favorita?",
+      "Benfica ou Sporting?",
+      "Odeio futebol.",
+      "Sim, gosto de música."
+    ],
+    "es": [
+      "¿Te gusta la música?",
+      "¡Me encanta la música! ¿Y tú, qué música escuchas?",
+      "Me gusta el rock. ¿Cuál es tu banda favorita?",
+      "¿Benfica o Sporting?",
+      "Odio el fútbol.",
+      "Sí, me gusta la música."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Gostas de música?",
+      "es": "¿Te gusta la música?"
+    },
+    {
+      "term": "Adoro música.",
+      "es": "Me encanta la música."
+    },
+    {
+      "term": "Qual é a tua banda favorita?",
+      "es": "¿Cuál es tu banda favorita?"
+    },
+    {
+      "term": "Benfica ou Sporting?",
+      "es": "¿Benfica o Sporting?"
+    },
+    {
+      "term": "Odeio futebol.",
+      "es": "Odio el fútbol."
+    },
+    {
+      "term": "Que música ouves?",
+      "es": "¿Qué música escuchas?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 22. Do que gostas?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una terraza de café en Ericeira, un grupo de jóvenes surfistas conversa sobre sus gustos. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta la música?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Adoro música! E tu, que música ouves?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Me encanta la música! ¿Y tú, qué música escuchas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de rock. Qual é a tua banda favorita?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me gusta el rock. ¿Cuál es tu banda favorita?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Odio el fútbol.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gosto de música.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta la música.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y expresar gustos. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Portugal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Te echo de menos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vine para surfear».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy portugués, de Lisboa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou português, de Lisboa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy portugués, de Lisboa.",
+      "item": "sou-portugues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta la música?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ca",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "música",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de música",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre gustos musicales.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me encanta la música». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ca",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "música",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa un fuerte gusto por la música.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me encanta la música»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es tu banda favorita?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rita",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vorita",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é a tua banda favorita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre preferencias musicales.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu banda favorita?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuál es tu banda favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Benfica o Sporting?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ting",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sporting",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ou Sporting",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre preferencias futbolísticas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Benfica o Sporting?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Benfica o Sporting?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Odio el fútbol». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bol",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tebol",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "futebol",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar desagrado hacia el fútbol.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Odio el fútbol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Odio el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué música escuchas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ves",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uves",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ouves",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "música ouves",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre el tipo de música que alguien escucha.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué música escuchas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué música escuchas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Benfica o Sporting?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Gustar de + infinitivo.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, para expresar gustos usamos 'gostar de' seguido de un infinitivo o un sustantivo. Es importante recordar la preposición 'de'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gosto de música.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me gusta la música.",
+      "item": "sim-gosto-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me gusta la música».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gosto de música.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me gusta la música.",
+      "item": "sim-gosto-musica"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não gosto de futebol.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no me gusta el fútbol.",
+      "item": "nao-gosto-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no me gusta el fútbol».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não gosto de futebol.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no me gusta el fútbol.",
+      "item": "nao-gosto-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien si le gusta la música.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa que te encanta la música.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuál es tu banda favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Benfica o Sporting?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Odio el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué música escuchas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Portugal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás feliz?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "estas-feliz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Te echo de menos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho saudades.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te echo de menos.",
+      "item": "tenho-saudades"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vine para surfear».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy portugués, de Lisboa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou português, de Lisboa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy portugués, de Lisboa.",
+      "item": "sou-portugues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en la furgoneta.",
+      "item": "vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta la música?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "gostas-de-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encanta la música».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adoro música.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encanta la música.",
+      "item": "adoro-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuál es tu banda favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é a tua banda favorita?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu banda favorita?",
+      "item": "qual-tua-banda-favorita"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Benfica o Sporting?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": "benfica-ou-sporting"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Odio el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Odio el fútbol.",
+      "item": "odeio-futebol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué música escuchas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que música ouves?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué música escuchas?",
+      "item": "que-musica-ouves"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gostas de música?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gusta la música?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Adoro música! E tu, que música ouves?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Me encanta la música! ¿Y tú, qué música escuchas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de rock. Qual é a tua banda favorita?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me gusta el rock. ¿Cuál es tu banda favorita?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Benfica ou Sporting?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Benfica o Sporting?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Odeio futebol.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Odio el fútbol.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gosto de música.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gusta la música.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.7,
+    "chars": 4585,
+    "cues": 180,
+    "mode": "lesson",
+    "lesson": 22
+  }
+}

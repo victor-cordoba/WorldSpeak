@@ -1,0 +1,1660 @@
+{
+  "title": "Conversación en el pub",
+  "subtitle": "Aprender a preguntar y ofrecer ayuda en un pub",
+  "summary_es": "Una conversación en un pub británico.",
+  "topics": [
+    "cortesia",
+    "preguntar",
+    "social",
+    "moverse",
+    "pub"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi there! Can I help you?",
+      "Sorry, excuse me. I'm looking for the tube station.",
+      "No worries, it's just around the corner.",
+      "Brilliant! Thank you.",
+      "By the way, is there a pub quiz tonight?",
+      "Yes, it starts at 8 PM."
+    ],
+    "es": [
+      "¡Hola! ¿Puedo ayudarte?",
+      "Perdona, disculpa. Estoy buscando la estación de metro.",
+      "No pasa nada, está justo a la vuelta de la esquina.",
+      "¡Genial! Gracias.",
+      "Por cierto, ¿hay un concurso de pub esta noche?",
+      "Sí, empieza a las 8 PM."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Sorry, excuse me.",
+      "es": "Perdona, disculpa."
+    },
+    {
+      "term": "Just a moment.",
+      "es": "Un momento."
+    },
+    {
+      "term": "How do you say… in English?",
+      "es": "¿Cómo se dice… en inglés?"
+    },
+    {
+      "term": "No worries.",
+      "es": "No pasa nada."
+    },
+    {
+      "term": "Brilliant! / Lovely!",
+      "es": "¡Genial! / ¡Encantador!"
+    },
+    {
+      "term": "I'm looking for the tube station.",
+      "es": "Estoy buscando la estación de metro."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 8. Conversación en el pub.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pub en Camden, un lugar ideal para socializar y practicar inglés. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi there! Can I help you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Puedo ayudarte?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Sorry, excuse me. I'm looking for the tube station.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdona, disculpa. Estoy buscando la estación de metro.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries, it's just around the corner.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No pasa nada, está justo a la vuelta de la esquina.",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Brilliant! Thank you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! Gracias.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "By the way, is there a pub quiz tonight?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Por cierto, ¿hay un concurso de pub esta noche?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it starts at 8 PM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, empieza a las 8 PM.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y ofrecer ayuda en un pub Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un té con leche, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sorry es la palabra más británica que existe: se dice para pedir perdón, para pedir paso, para llamar la atención y hasta cuando el otro se ha chocado contigo. Úsala sin miedo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Perdona, disculpa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "excuse me",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry excuse me",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para llamar la atención de alguien educadamente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Perdona, disculpa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un momento». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "moment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a moment",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir a alguien que espere brevemente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un momento»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se dice… en inglés?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lish",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "English",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in English",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do you say… in English",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta útil para aprender vocabulario nuevo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en inglés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se dice… en inglés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No pasa nada». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "no-worries"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ries",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "no-worries"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "worries",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "no-worries"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "no-worries"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión británica para tranquilizar a alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No pasa nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No pasa nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Genial! / ¡Encantador». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vely",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lovely",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ Lovely",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant / Lovely",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresiones de entusiasmo o aprecio.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial! / ¡Encantador»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Genial! / ¡Encantador».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy buscando la estación de metro». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tion",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "looking for the tube station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para pedir direcciones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy buscando la estación de metro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy buscando la estación de metro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No pasa nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Podrías repetirlo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'sorry' en inglés británico.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En el Reino Unido, 'sorry' se utiliza frecuentemente, no solo para disculparse, sino también para llamar la atención o suavizar una petición. Es una muestra de cortesía muy valorada.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedo ayudarte?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is there a pub quiz tonight?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Hay un concurso de pub esta noche?",
+      "item": "pub-quiz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hay un concurso de pub esta noche?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is there a pub quiz tonight?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hay un concurso de pub esta noche?",
+      "item": "pub-quiz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub y quieres saber si hay un concurso de pub esta noche.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is there a pub quiz tonight?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un concurso de pub esta noche?",
+      "item": "pub-quiz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona, disculpa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se dice… en inglés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No pasa nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Genial! / ¡Encantador».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy buscando la estación de metro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un té con leche, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona, disculpa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se dice… en inglés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do you say… in English?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en inglés?",
+      "item": "how-do-you-say-in-english"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No pasa nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Genial! / ¡Encantador».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy buscando la estación de metro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm looking for the tube station.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Estoy buscando la estación de metro.",
+      "item": "im-looking-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi there! Can I help you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Puedo ayudarte?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Sorry, excuse me. I'm looking for the tube station.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdona, disculpa. Estoy buscando la estación de metro.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries, it's just around the corner.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No pasa nada, está justo a la vuelta de la esquina.",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Brilliant! Thank you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! Gracias.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "By the way, is there a pub quiz tonight?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Por cierto, ¿hay un concurso de pub esta noche?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it starts at 8 PM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, empieza a las 8 PM.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.5,
+    "chars": 4995,
+    "cues": 177,
+    "mode": "lesson",
+    "lesson": 8
+  }
+}

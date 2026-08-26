@@ -1,0 +1,1622 @@
+{
+  "title": "Vorrei… Vado a…",
+  "subtitle": "Aprender a pedir y a moverse en Roma.",
+  "summary_es": "Aprenderás a pedir cosas cortésmente y a indicar direcciones.",
+  "topics": [
+    "pedir",
+    "direcciones",
+    "cortesia",
+    "volere",
+    "andare"
+  ],
+  "dialogue": {
+    "tl": [
+      "Vorrei un caffè, per favore.",
+      "Vuoi anche un cornetto?",
+      "No, grazie. Vado al mercato dopo.",
+      "Come si arriva al Colosseo?",
+      "Vai dritto e poi a destra."
+    ],
+    "es": [
+      "Querría un café, por favor.",
+      "¿Quieres también un cruasán?",
+      "No, gracias. Voy al mercado después.",
+      "¿Cómo se llega al Coliseo?",
+      "Vas recto y luego a la derecha."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Vorrei un caffè.",
+      "es": "Querría un café."
+    },
+    {
+      "term": "Vado al mercato.",
+      "es": "Voy al mercado."
+    },
+    {
+      "term": "Vuoi un gelato?",
+      "es": "¿Quieres un helado?"
+    },
+    {
+      "term": "Non voglio andare.",
+      "es": "No quiero ir."
+    },
+    {
+      "term": "Andiamo a casa.",
+      "es": "Vamos a casa."
+    },
+    {
+      "term": "Come si arriva al Colosseo?",
+      "es": "¿Cómo se llega al Coliseo?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 5. Vorrei… Vado a….",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una cafetería típica de Roma, un cliente y el barista conversan mientras un niño observa. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Querría un café, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vuoi anche un cornetto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quieres también un cruasán?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, grazie. Vado al mercato dopo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, gracias. Voy al mercado después.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vai dritto e poi a destra.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vas recto y luego a la derecha.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a pedir y a moverse en Roma. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡De nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Querría un café». Literalmente, Querría un café.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "caffè",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un caffè",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'vorrei' para pedir algo de manera cortés.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Voy al mercado». Literalmente, Voy al mercado.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mercato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'vado a...' para indicar a dónde vas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy al mercado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy al mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quieres un helado?». Literalmente, ¿Quieres un helado?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gelato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un gelato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta informal para ofrecer algo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres un helado?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres un helado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No quiero ir». Literalmente, No quiero ir.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "andare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "voglio andare",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresa negación de manera directa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No quiero ir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Voy al mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Eso es romanesco: lo que oyes en la calle de Roma. Úsalo con amigos, nunca en una oficina.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vamos a casa». Literalmente, Vamos a casa.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "casa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a casa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'andiamo' para sugerir ir juntos a algún lugar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vamos a casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vamos a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se llega al Coliseo?». Literalmente, ¿Cómo se llega al Coliseo?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "losseo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Colosseo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si arriva al Colosseo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para orientarse en la ciudad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se llega al Coliseo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se llega al Coliseo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No quiero ir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'volere' y 'andare'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, 'volere' se usa para expresar deseos o necesidades, mientras que 'andare' indica movimiento o destino. 'Vorrei' es la forma cortés de pedir algo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A destra.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "A la derecha.",
+      "item": "a-destra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«A la derecha».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A destra.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "A la derecha.",
+      "item": "a-destra"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A sinistra.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "A la izquierda.",
+      "item": "a-sinistra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«A la izquierda».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A sinistra.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "A la izquierda.",
+      "item": "a-sinistra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una cafetería y quieres pedir un café.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy al mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres un helado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vamos a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se llega al Coliseo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡De nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy al mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vado al mercato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy al mercado.",
+      "item": "vado-al-mercato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres un helado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non voglio andare.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero ir.",
+      "item": "non-voglio-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vamos a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se llega al Coliseo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Querría un café, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vuoi anche un cornetto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quieres también un cruasán?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, grazie. Vado al mercato dopo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, gracias. Voy al mercado después.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vai dritto e poi a destra.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vas recto y luego a la derecha.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.1,
+    "chars": 4390,
+    "cues": 173,
+    "mode": "lesson",
+    "lesson": 5
+  }
+}

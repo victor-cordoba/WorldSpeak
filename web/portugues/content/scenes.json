@@ -1,1 +1,989 @@
-{"scenes": {}}
+{
+  "scenes": {
+    "lesson-01": {
+      "setting": "En la playa de Ericeira, un surfista pregunta por las condiciones del mar y la posibilidad de acampar.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Como está o mar hoje?",
+          "es": "¡Hola! ¿Cómo está el mar hoy?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Está ótimo, há ondas boas!",
+          "es": "Está genial, ¡hay buenas olas!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Ótimo! Onde é que se surfa bem aqui?",
+          "es": "¡Genial! ¿Dónde se surfea bien aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Em Ribeira d'Ilhas, é perfeito para surfar.",
+          "es": "En Ribeira d'Ilhas, es perfecto para surfear."
+        },
+        {
+          "role": "native_m",
+          "tl": "Obrigado pela ajuda! Posso acampar aqui?",
+          "es": "¡Gracias por la ayuda! ¿Puedo acampar aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Não, não se pode acampar aqui, mas há um parque de campismo perto.",
+          "es": "No, no se puede acampar aquí, pero hay un camping cerca."
+        }
+      ]
+    },
+    "lesson-02": {
+      "setting": "En una playa de Ericeira, un surfista español intenta comunicarse con un local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Falas espanhol?",
+          "es": "¡Hola! ¿Hablas español?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Um pouco. Falas inglês?",
+          "es": "Un poco. ¿Hablas inglés?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, um pouco.",
+          "es": "Sí, un poco."
+        },
+        {
+          "role": "native_f",
+          "tl": "Fixe! Como está o mar hoje?",
+          "es": "¡Genial! ¿Cómo está el mar hoy?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Não percebo. Podes repetir?",
+          "es": "No entiendo. ¿Puedes repetir?"
+        }
+      ]
+    },
+    "lesson-03": {
+      "setting": "En la playa de Ericeira, dos surfistas se encuentran junto a sus furgonetas.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Eu sou surfista. E tu?",
+          "es": "¡Hola! Soy surfista. ¿Y tú?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, eu também sou surfista.",
+          "es": "Sí, yo también soy surfista."
+        },
+        {
+          "role": "native_m",
+          "tl": "Esta é a minha carrinha. E a tua carrinha?",
+          "es": "Esta es mi furgoneta. ¿Y tu furgoneta?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Vivo na carrinha. E tu, onde vives?",
+          "es": "Vivo en la furgoneta. ¿Y tú, dónde vives?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, vivo na carrinha também.",
+          "es": "Sí, vivo en la furgoneta también."
+        }
+      ]
+    },
+    "lesson-04": {
+      "setting": "En la playa de Ericeira, un surfista pregunta a otro sobre la ubicación de la playa y su residencia.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Onde fica a praia?",
+          "es": "¡Hola! ¿Dónde está la playa?"
+        },
+        {
+          "role": "native_f",
+          "tl": "A praia fica ali.",
+          "es": "La playa está allí."
+        },
+        {
+          "role": "native_m",
+          "tl": "Obrigado! E moras onde?",
+          "es": "¡Gracias! ¿Y dónde vives?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Moro em Lisboa. E tu?",
+          "es": "Vivo en Lisboa. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Vivo na carrinha, aqui perto.",
+          "es": "Vivo en la furgoneta, aquí cerca."
+        }
+      ]
+    },
+    "lesson-05": {
+      "setting": "En un bar cercano a la playa, después de una sesión de surf.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Queres uma cerveja?",
+          "es": "¿Quieres una cerveza?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, quero uma cerveja, por favor.",
+          "es": "Sí, quiero una cerveza, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Eu vou à praia agora. Vamos à praia!",
+          "es": "Voy a la playa ahora. ¡Vamos a la playa!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Como se vai para a praia?",
+          "es": "¿Cómo se va a la playa?"
+        },
+        {
+          "role": "native_m",
+          "tl": "É em frente, depois à direita.",
+          "es": "Es recto, luego a la derecha."
+        }
+      ]
+    },
+    "lesson-06": {
+      "setting": "En un bar de Ericeira, después de una sesión de surf, los surfistas se reúnen para tomar algo.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Boa tarde! Uma imperial, por favor.",
+          "es": "¡Buenas tardes! Una caña, por favor."
+        },
+        {
+          "role": "native_f",
+          "tl": "Claro! Quanto custa uma imperial?",
+          "es": "¡Claro! ¿Cuánto cuesta una caña?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Quanto custa um café?",
+          "es": "¿Cuánto cuesta un café?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Uma mini, por favor.",
+          "es": "Una mini, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "A conta, por favor.",
+          "es": "La cuenta, por favor."
+        }
+      ]
+    },
+    "lesson-07": {
+      "setting": "En una cafetería en Ericeira, los surfistas preguntan sobre los horarios de apertura.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Está aberto agora?",
+          "es": "¡Hola! ¿Está abierto ahora?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, está aberto. Fecha às oito.",
+          "es": "Sí, está abierto. Cierra a las ocho."
+        },
+        {
+          "role": "native_m",
+          "tl": "Obrigado. E amanhã, está aberto?",
+          "es": "Gracias. Y mañana, ¿está abierto?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, amanhã também está aberto.",
+          "es": "Sí, mañana también está abierto."
+        },
+        {
+          "role": "native_m",
+          "tl": "Ótimo! A que horas começa o pequeno-almoço?",
+          "es": "¡Genial! ¿A qué horas empieza el desayuno?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Começa às sete.",
+          "es": "Empieza a las siete."
+        }
+      ]
+    },
+    "lesson-08": {
+      "setting": "En un café en Ericeira, un surfista español intenta pedir un café y practicar un poco de portugués.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Com licença, posso ajudar?",
+          "es": "Con permiso, ¿puedo ayudar?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Desculpa, como se diz 'café' em português?",
+          "es": "Perdona, ¿cómo se dice 'café' en portugués?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Café. Não há problema.",
+          "es": "Café. No hay problema."
+        },
+        {
+          "role": "native_f",
+          "tl": "Obrigado! Um café, por favor.",
+          "es": "¡Gracias! Un café, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, entendo. Bora!",
+          "es": "Sí, entiendo. ¡Vamos!"
+        }
+      ]
+    },
+    "lesson-09": {
+      "setting": "En la playa de Ericeira, dos surfistas se conocen mientras preparan sus tablas.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "De onde és?",
+          "es": "¿De dónde eres?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sou espanhola, de Madrid. E tu?",
+          "es": "Soy española, de Madrid. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sou português, de Lisboa.",
+          "es": "Soy portugués, de Lisboa."
+        },
+        {
+          "role": "native_f",
+          "tl": "Há quanto tempo estás em Portugal?",
+          "es": "¿Cuánto tiempo llevas en Portugal?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Há uma semana. Vim para surfar.",
+          "es": "Desde hace una semana. Vine para surfear."
+        },
+        {
+          "role": "native_f",
+          "tl": "Gosto de Portugal.",
+          "es": "Me gusta Portugal."
+        }
+      ]
+    },
+    "lesson-10": {
+      "setting": "En una playa de Ericeira, dos surfistas conversan después de surfear.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Fixe! As ondas estavam ótimas hoje.",
+          "es": "¡Genial! Las olas estaban estupendas hoy."
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, adorei! Tens família?",
+          "es": "Sí, ¡me encantó! ¿Tienes familia?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Tenho um irmão e uma irmã. E tu?",
+          "es": "Tengo un hermano y una hermana. ¿Y tú?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Tenho filhos, mas não tenho mulher.",
+          "es": "Tengo hijos, pero no tengo esposa."
+        },
+        {
+          "role": "native_m",
+          "tl": "Quantos são?",
+          "es": "¿Cuántos son?"
+        },
+        {
+          "role": "native_f",
+          "tl": "São dois. E tu, tens filhos?",
+          "es": "Son dos. ¿Y tú, tienes hijos?"
+        }
+      ]
+    },
+    "lesson-11": {
+      "setting": "En una playa de Ericeira, un grupo de surfistas se encuentra descansando después de una sesión de surf.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Quantos anos tens?",
+          "es": "¿Cuántos años tienes?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Tenho dez anos.",
+          "es": "Tengo diez años."
+        },
+        {
+          "role": "native_m",
+          "tl": "És novo! Quando nasceste?",
+          "es": "¡Eres joven! ¿Cuándo naciste?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Nasci em dois mil e treze.",
+          "es": "Nací en dos mil trece."
+        },
+        {
+          "role": "native_m",
+          "tl": "Fixe, que idade fixe!",
+          "es": "¡Genial, qué edad tan buena!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, a idade não importa.",
+          "es": "Sí, la edad no importa."
+        }
+      ]
+    },
+    "lesson-12": {
+      "setting": "En una playa de Ericeira, dos jóvenes se conocen mientras descansan después de surfear.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! O que fazes aqui?",
+          "es": "¡Hola! ¿Qué haces aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Olá! Ando a viajar e a surfar.",
+          "es": "¡Hola! Estoy viajando y surfeando."
+        },
+        {
+          "role": "native_m",
+          "tl": "Fixe! Sou surfista também.",
+          "es": "¡Genial! Yo también soy surfista."
+        },
+        {
+          "role": "native_f",
+          "tl": "Trabalho remoto, por isso posso viajar.",
+          "es": "Trabajo remoto, por eso puedo viajar."
+        },
+        {
+          "role": "native_m",
+          "tl": "Que bom! Eu estudo e surfo nos fins de semana.",
+          "es": "¡Qué bien! Yo estudio y surfeo los fines de semana."
+        }
+      ]
+    },
+    "lesson-13": {
+      "setting": "En una cafetería cerca de la playa, después de una sesión de surf.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Já comeste?",
+          "es": "¿Ya has comido?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Não, ainda não comi. Tenho fome.",
+          "es": "No, aún no he comido. Tengo hambre."
+        },
+        {
+          "role": "native_m",
+          "tl": "Vamos comer? Pago eu.",
+          "es": "¿Vamos a comer? Pago yo."
+        },
+        {
+          "role": "native_f",
+          "tl": "Fixe! O que te apetece?",
+          "es": "¡Genial! ¿Qué te apetece?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Apetece-me uma francesinha.",
+          "es": "Me apetece una francesinha."
+        }
+      ]
+    },
+    "lesson-14": {
+      "setting": "En una playa de Ericeira, después de una sesión de surf, dos amigos se despiden.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Foi um prazer surfar contigo hoje.",
+          "es": "Ha sido un placer surfear contigo hoy."
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, foi fixe! Vamos surfar amanhã?",
+          "es": "¡Sí, ha sido genial! ¿Vamos a surfear mañana?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Claro! Até amanhã então.",
+          "es": "¡Claro! Hasta mañana entonces."
+        },
+        {
+          "role": "native_f",
+          "tl": "Dá-me o teu número, assim combinamos melhor.",
+          "es": "Dame tu número, así lo organizamos mejor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Boa ideia! Manda mensagem mais tarde.",
+          "es": "¡Buena idea! Manda un mensaje más tarde."
+        }
+      ]
+    },
+    "lesson-15": {
+      "setting": "En la playa de Ericeira, los surfistas se preparan para entrar al agua.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Como está a maré agora?",
+          "es": "¿Cómo está la marea ahora?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Está maré alta.",
+          "es": "Está marea alta."
+        },
+        {
+          "role": "native_m",
+          "tl": "O vento está offshore, perfeito para surfar!",
+          "es": "El viento está offshore, ¡perfecto para surfear!"
+        },
+        {
+          "role": "native_f",
+          "tl": "A que horas é melhor surfar?",
+          "es": "¿A qué horas es mejor surfear?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Agora é ótimo, há ondas grandes.",
+          "es": "Ahora es genial, hay olas grandes."
+        }
+      ]
+    },
+    "lesson-16": {
+      "setting": "En una tienda de surf en Ericeira, el alumno busca alquilar una tabla y un traje.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Onde posso alugar uma prancha?",
+          "es": "¡Hola! ¿Dónde puedo alquilar una tabla?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Aqui mesmo. Temos pranchas e fatos.",
+          "es": "Aquí mismo. Tenemos tablas y trajes."
+        },
+        {
+          "role": "native_m",
+          "tl": "Quanto é por dia?",
+          "es": "¿Cuánto es por día?"
+        },
+        {
+          "role": "native_f",
+          "tl": "É vinte euros por dia.",
+          "es": "Son veinte euros por día."
+        },
+        {
+          "role": "native_m",
+          "tl": "E tens escola de surf?",
+          "es": "¿Y tienes escuela de surf?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, temos aulas para principiantes e intermédios.",
+          "es": "Sí, tenemos clases para principiantes e intermedios."
+        }
+      ]
+    },
+    "lesson-17": {
+      "setting": "Estás en Ericeira, buscando un lugar para aparcar y dormir con tu furgoneta.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Onde posso estacionar a carrinha?",
+          "es": "¡Hola! ¿Dónde puedo aparcar la furgoneta?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Há um parque de campismo perto, ali.",
+          "es": "Hay un camping cerca, allí."
+        },
+        {
+          "role": "native_m",
+          "tl": "É seguro dormir aqui?",
+          "es": "¿Es seguro dormir aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, é seguro.",
+          "es": "Sí, es seguro."
+        },
+        {
+          "role": "native_m",
+          "tl": "Obrigado pela ajuda!",
+          "es": "¡Gracias por la ayuda!"
+        }
+      ]
+    },
+    "lesson-18": {
+      "setting": "En una playa de Ericeira, un surfista español pregunta a un local sobre las condiciones y servicios de la playa.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Olá! Qual é a melhor praia por aqui?",
+          "es": "¡Hola! ¿Cuál es la mejor playa por aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Olá! A Praia dos Pescadores é muito boa.",
+          "es": "¡Hola! La Playa de los Pescadores está muy bien."
+        },
+        {
+          "role": "native_m",
+          "tl": "Tem nadador-salvador?",
+          "es": "¿Hay socorrista?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, tem nadador-salvador.",
+          "es": "Sí, hay socorrista."
+        },
+        {
+          "role": "native_m",
+          "tl": "Há correntes?",
+          "es": "¿Hay corrientes?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Não, não há correntes.",
+          "es": "No, no hay corrientes."
+        }
+      ]
+    },
+    "lesson-19": {
+      "setting": "En una gasolinera cerca de Ericeira, un surfista necesita repostar y solucionar un problema con su furgoneta.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Onde há uma bomba de gasolina?",
+          "es": "¿Dónde hay una gasolinera?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Ali em frente.",
+          "es": "Allí enfrente."
+        },
+        {
+          "role": "native_m",
+          "tl": "Gasóleo ou gasolina?",
+          "es": "¿Gasóleo o gasolina?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, gasóleo.",
+          "es": "Sí, gasóleo."
+        },
+        {
+          "role": "native_m",
+          "tl": "Cheio, por favor.",
+          "es": "Lleno, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "A carrinha não pega.",
+          "es": "La furgoneta no arranca."
+        },
+        {
+          "role": "native_f",
+          "tl": "Preciso de um mecânico.",
+          "es": "Necesito un mecánico."
+        },
+        {
+          "role": "native_f",
+          "tl": "Não, não há mecânico perto.",
+          "es": "No, no hay mecánico cerca."
+        }
+      ]
+    },
+    "lesson-20": {
+      "setting": "Después de un día de surf en Ericeira, un grupo de amigos decide qué hacer por la noche.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Estou cansado. Hoje foi intenso!",
+          "es": "Estoy cansado. ¡Hoy fue intenso!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, mas foi fixe! Bora jantar?",
+          "es": "Sí, ¡pero fue genial! ¿Vamos a cenar?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Bora! Onde há fiesta hoje?",
+          "es": "¡Vamos! ¿Dónde hay fiesta hoy?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Ouvi dizer que há música ao vivo no bar da praia.",
+          "es": "He oído que hay música en vivo en el bar de la playa."
+        },
+        {
+          "role": "native_m",
+          "tl": "Fixe! A que horas abre o bar?",
+          "es": "¡Genial! ¿A qué horas abre el bar?"
+        }
+      ]
+    },
+    "lesson-21": {
+      "setting": "En la playa de Ericeira, un grupo de amigos se reúne después de surfear.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Estás feliz?",
+          "es": "¿Estás feliz?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, estou feliz. E tu?",
+          "es": "Sí, estoy feliz. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Estou cansado, mas feliz.",
+          "es": "Estoy cansado, pero feliz."
+        },
+        {
+          "role": "native_f",
+          "tl": "Está tudo bem?",
+          "es": "¿Está todo bien?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, está tudo bem. Tenho saudades de casa.",
+          "es": "Sí, está todo bien. Echo de menos mi casa."
+        }
+      ]
+    },
+    "lesson-22": {
+      "setting": "En una terraza de café en Ericeira, un grupo de jóvenes surfistas conversa sobre sus gustos.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Gostas de música?",
+          "es": "¿Te gusta la música?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Adoro música! E tu, que música ouves?",
+          "es": "¡Me encanta la música! ¿Y tú, qué música escuchas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Gosto de rock. Qual é a tua banda favorita?",
+          "es": "Me gusta el rock. ¿Cuál es tu banda favorita?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Benfica ou Sporting?",
+          "es": "¿Benfica o Sporting?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Odeio futebol.",
+          "es": "Odio el fútbol."
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, gosto de música.",
+          "es": "Sí, me gusta la música."
+        }
+      ]
+    },
+    "lesson-23": {
+      "setting": "En una playa de Ericeira, dos amigos hablan sobre sus sueños mientras miran el mar.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Qual é o teu sonho?",
+          "es": "¿Cuál es tu sueño?"
+        },
+        {
+          "role": "native_f",
+          "tl": "O meu sonho é viver junto ao mar.",
+          "es": "Mi sueño es vivir junto al mar."
+        },
+        {
+          "role": "native_m",
+          "tl": "Queria viver junto ao mar também.",
+          "es": "Quería vivir junto al mar también."
+        },
+        {
+          "role": "native_f",
+          "tl": "Um dia vou conseguir.",
+          "es": "Un día lo lograré."
+        },
+        {
+          "role": "native_m",
+          "tl": "Tu consegues!",
+          "es": "¡Tú puedes!"
+        }
+      ]
+    },
+    "lesson-24": {
+      "setting": "En la playa de Supertubos, un surfista se encuentra en problemas en el agua.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Atenção! Cuidado com a corrente!",
+          "es": "¡Atención! ¡Cuidado con la corriente!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Socorro! Ele está em perigo!",
+          "es": "¡Socorro! ¡Él está en peligro!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Chama o 112!",
+          "es": "¡Llama al 112!"
+        },
+        {
+          "role": "native_f",
+          "tl": "Onde é o hospital mais próximo?",
+          "es": "¿Dónde está el hospital más cercano?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Estou mal, preciso de um médico.",
+          "es": "Estoy mal, necesito un médico."
+        }
+      ]
+    },
+    "lesson-25": {
+      "setting": "En una pequeña iglesia en Ericeira, dos amigos conversan sobre la fe y sus experiencias en Portugal.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Queres rezar?",
+          "es": "¿Quieres rezar?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, vamos rezar o Pai Nosso.",
+          "es": "Sí, vamos a rezar el Padre Nuestro."
+        },
+        {
+          "role": "native_m",
+          "tl": "A missa é às dez. Queres ir?",
+          "es": "La misa es a las diez. ¿Quieres ir?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Já foste a Fátima?",
+          "es": "¿Has ido a Fátima?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, já fui a Fátima. É um lugar especial.",
+          "es": "Sí, ya he ido a Fátima. Es un lugar especial."
+        },
+        {
+          "role": "native_f",
+          "tl": "Deus te abençoe!",
+          "es": "¡Dios te bendiga!"
+        }
+      ]
+    },
+    "lesson-26": {
+      "setting": "En un restaurante típico en Lisboa, después de una mañana de surf.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Bom dia! Já decidiram o que vão comer?",
+          "es": "¡Buenos días! ¿Ya han decidido qué van a comer?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sim, para mim, bacalhau com natas, por favor.",
+          "es": "Sí, para mí, bacalao con nata, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "E para mim, uma francesinha, por favor.",
+          "es": "Y para mí, una francesinha, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Desejam algo para beber?",
+          "es": "¿Desean algo para beber?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Um galão, por favor.",
+          "es": "Un café con leche, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Para mim, uma bica, por favor.",
+          "es": "Para mí, un café solo, por favor."
+        },
+        {
+          "role": "native_f",
+          "tl": "A conta, se faz favor.",
+          "es": "La cuenta, por favor."
+        }
+      ]
+    },
+    "lesson-27": {
+      "setting": "En un bar en Lisboa, un grupo de amigos decide qué hacer en la noche.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Onde há festa hoje?",
+          "es": "¿Dónde hay fiesta hoy?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Vamos ao Bairro Alto!",
+          "es": "¡Vamos al Bairro Alto!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Uma rodada, por favor.",
+          "es": "Una ronda, por favor."
+        },
+        {
+          "role": "native_f",
+          "tl": "Saúde!",
+          "es": "¡Salud!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Está cheio aqui.",
+          "es": "Está lleno aquí."
+        },
+        {
+          "role": "native_f",
+          "tl": "Onde há um bar com terraço?",
+          "es": "¿Dónde hay un bar con terraza?"
+        }
+      ]
+    },
+    "lesson-28": {
+      "setting": "En la farmacia, buscando alivio para dolores comunes después de un día de surf.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Boa tarde! Preciso de algo para a dor de cabeça.",
+          "es": "¡Buenas tardes! Necesito algo para el dolor de cabeza."
+        },
+        {
+          "role": "native_f",
+          "tl": "Claro, temos comprimidos ou pomada. Dói-te muito?",
+          "es": "Claro, tenemos pastillas o pomada. ¿Te duele mucho?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, dói-me bastante. E também cortei-me na prancha.",
+          "es": "Sí, me duele bastante. Y también me corté con la tabla."
+        },
+        {
+          "role": "native_f",
+          "tl": "Entendo. Aqui está a pomada. Estás melhor agora?",
+          "es": "Entiendo. Aquí está la pomada. ¿Estás mejor ahora?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, estou melhor. Obrigado pela ajuda!",
+          "es": "Sí, estoy mejor. ¡Gracias por la ayuda!"
+        }
+      ]
+    },
+    "lesson-29": {
+      "setting": "En una terraza en Ericeira, después de un día de surf.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Como foi o teu dia?",
+          "es": "¿Cómo fue tu día?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Foi bom, mas estou cansada.",
+          "es": "Fue bueno, pero estoy cansada."
+        },
+        {
+          "role": "native_m",
+          "tl": "Pois então, vamos descansar um pouco.",
+          "es": "Pues entonces, vamos a descansar un poco."
+        },
+        {
+          "role": "native_f",
+          "tl": "Se calhar, sim. Também gosto de relaxar aqui.",
+          "es": "Quizás, sí. También me gusta relajarme aquí."
+        },
+        {
+          "role": "native_m",
+          "tl": "Pronto, está bem. Amanhã podemos surfar outra vez.",
+          "es": "Bueno, está bien. Mañana podemos surfear otra vez."
+        }
+      ]
+    },
+    "lesson-30": {
+      "setting": "En la playa de Ericeira, dos amigos hablan sobre sus planes para el día.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Quero ir à praia.",
+          "es": "Quiero ir a la playa."
+        },
+        {
+          "role": "native_f",
+          "tl": "Podes vir comigo?",
+          "es": "¿Puedes venir conmigo?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Não posso ir.",
+          "es": "No puedo ir."
+        },
+        {
+          "role": "native_f",
+          "tl": "Quero comprar um fato.",
+          "es": "Quiero comprar un traje."
+        },
+        {
+          "role": "native_m",
+          "tl": "Quanto custa um fato?",
+          "es": "¿Cuánto cuesta un traje?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Posso alugar um fato?",
+          "es": "¿Puedo alquilar un traje?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sim, podes alugar.",
+          "es": "Sí, puedes alquilar."
+        }
+      ]
+    }
+  }
+}

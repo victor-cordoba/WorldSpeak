@@ -1,0 +1,1648 @@
+{
+  "title": "At the Doctor's",
+  "subtitle": "Aprender a describir síntomas y pedir ayuda médica.",
+  "summary_es": "Hablar sobre síntomas y buscar ayuda médica.",
+  "topics": [
+    "salud",
+    "pregunta",
+    "tener",
+    "estado"
+  ],
+  "dialogue": {
+    "tl": [
+      "Good morning. How can I help you today?",
+      "I've got a headache and a cold.",
+      "I see. Do you need a prescription?",
+      "Yes, please. Also, where is the chemist?",
+      "It's just around the corner. I'm sure you'll be feeling better soon."
+    ],
+    "es": [
+      "Buenos días. ¿En qué puedo ayudarte hoy?",
+      "Tengo dolor de cabeza y un resfriado.",
+      "Ya veo. ¿Necesitas una receta?",
+      "Sí, por favor. Además, ¿dónde está la farmacia?",
+      "Está justo a la vuelta de la esquina. Estoy seguro de que te sentirás mejor pronto."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "I've got a headache.",
+      "es": "Tengo dolor de cabeza."
+    },
+    {
+      "term": "I've got a cold.",
+      "es": "Tengo un resfriado."
+    },
+    {
+      "term": "Where is the chemist?",
+      "es": "¿Dónde está la farmacia?"
+    },
+    {
+      "term": "I need a prescription.",
+      "es": "Necesito una receta."
+    },
+    {
+      "term": "I have an appointment with the GP.",
+      "es": "Tengo una cita con el médico de cabecera."
+    },
+    {
+      "term": "Where's A&E?",
+      "es": "¿Dónde está urgencias?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 28. At the Doctor's.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una consulta médica en Camden, Londres, un paciente habla con el médico sobre sus síntomas. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Good morning. How can I help you today?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días. ¿En qué puedo ayudarte hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I've got a headache and a cold.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo dolor de cabeza y un resfriado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I see. Do you need a prescription?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ya veo. ¿Necesitas una receta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, please. Also, where is the chemist?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, por favor. Además, ¿dónde está la farmacia?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's just around the corner. I'm sure you'll be feeling better soon.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está justo a la vuelta de la esquina. Estoy seguro de que te sentirás mejor pronto.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a describir síntomas y pedir ayuda médica. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, me siento mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me siento mal.",
+      "item": "yes-i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no necesito un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, I don't need a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no necesito un médico.",
+      "item": "no-i-dont-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vamos a la freiduría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El Padrenuestro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo dolor de cabeza». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "he",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dache",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "adache",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "got a headache",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'I've got' para hablar de síntomas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo dolor de cabeza»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo dolor de cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo un resfriado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cold",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a cold",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "got a cold",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'I've got' para hablar de síntomas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo un resfriado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo un resfriado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está la farmacia?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mist",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chemist",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the chemist",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is the chemist",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En el Reino Unido, 'chemist' se usa para farmacia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la farmacia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está la farmacia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Necesito una receta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tion",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cription",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "need a prescription",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Recuerda que 'prescription' es receta médica.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito una receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo un resfriado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo una cita con el médico de cabecera». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "GP",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the GP",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "with the GP",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "have an appointment with the GP",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "GP es el médico de cabecera en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo una cita con el médico de cabecera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo una cita con el médico de cabecera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está urgencias?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "&E",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A&E",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "A&E es Accident and Emergency en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Necesito una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde puedo alquilar una bici?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'have got'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés británico, 'have got' se usa para hablar de posesiones y síntomas. Es común en el lenguaje cotidiano.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm feeling better.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Me siento mejor.",
+      "item": "feeling-better"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me siento mejor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm feeling better.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me siento mejor.",
+      "item": "feeling-better"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm not feeling well.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No me siento bien.",
+      "item": "not-feeling-well"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No me siento bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm not feeling well.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No me siento bien.",
+      "item": "not-feeling-well"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en el médico y tienes un resfriado. ¿Cómo lo dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo dolor de cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo un resfriado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está la farmacia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito una receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo una cita con el médico de cabecera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, me siento mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me siento mal.",
+      "item": "yes-i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no necesito un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, I don't need a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no necesito un médico.",
+      "item": "no-i-dont-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vamos a la freiduría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El Padrenuestro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo dolor de cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a headache.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ive-got-a-headache"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo un resfriado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está la farmacia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the chemist?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "chemist"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito una receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a prescription.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito una receta.",
+      "item": "prescription"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo una cita con el médico de cabecera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Good morning. How can I help you today?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días. ¿En qué puedo ayudarte hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I've got a headache and a cold.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo dolor de cabeza y un resfriado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I see. Do you need a prescription?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ya veo. ¿Necesitas una receta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, please. Also, where is the chemist?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, por favor. Además, ¿dónde está la farmacia?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's just around the corner. I'm sure you'll be feeling better soon.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está justo a la vuelta de la esquina. Estoy seguro de que te sentirás mejor pronto.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.4,
+    "chars": 5002,
+    "cues": 176,
+    "mode": "lesson",
+    "lesson": 28
+  }
+}

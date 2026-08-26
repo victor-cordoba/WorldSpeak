@@ -1,0 +1,1512 @@
+{
+  "title": "I verbi: il motore",
+  "subtitle": "Aprender a expresar deseos y planes futuros",
+  "summary_es": "Una lección sobre cómo expresar deseos y planes.",
+  "topics": [
+    "verbo volere",
+    "futuro semplice",
+    "imperativo",
+    "orario",
+    "presente indicativo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ciao, cosa fai stasera?",
+      "Non ho ancora deciso. Tu?",
+      "Voglio vedere un film. Ti va di andare al cinema?",
+      "Non posso oggi, ho troppo da fare.",
+      "Forse domani sarà meglio. Ci vediamo alle otto?",
+      "Fammi sapere!"
+    ],
+    "es": [
+      "Hola, ¿qué haces esta noche?",
+      "No he decidido todavía. ¿Y tú?",
+      "Quiero ver una película. ¿Te apetece ir al cine?",
+      "No puedo hoy, tengo demasiado que hacer.",
+      "Quizás mañana será mejor. ¿Nos vemos a las ocho?",
+      "¡Avísame!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Ti va di andare al cinema?",
+      "es": "¿Te apetece ir al cine?"
+    },
+    {
+      "term": "Cosa fai stasera?",
+      "es": "¿Qué haces esta noche?"
+    },
+    {
+      "term": "Voglio vedere un film.",
+      "es": "Quiero ver una película."
+    },
+    {
+      "term": "Ci vediamo alle otto?",
+      "es": "¿Nos vemos a las ocho?"
+    },
+    {
+      "term": "Fammi sapere!",
+      "es": "¡Avísame!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 30. I verbi: il motore.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café de Trastevere, dos amigos hablan sobre sus planes para la noche. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, cosa fai stasera?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué haces esta noche?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non ho ancora deciso. Tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No he decidido todavía. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film. Ti va di andare al cinema?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quiero ver una película. ¿Te apetece ir al cine?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non posso oggi, ho troppo da fare.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No puedo hoy, tengo demasiado que hacer.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse domani sarà meglio. Ci vediamo alle otto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quizás mañana será mejor. ¿Nos vemos a las ocho?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Avísame!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a expresar deseos y planes futuros Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vamos a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo abre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando apre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-apre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La entrada reducida»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il biglietto ridotto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La entrada reducida",
+      "item": "biglietto-ridotto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te apetece ir al cine?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cinema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "va di andare al cinema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar si alguien quiere hacer algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te apetece ir al cine?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te apetece ir al cine?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué haces esta noche?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ra",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sera",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "stasera",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fai stasera",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar planes para la noche",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces esta noche?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué haces esta noche?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero ver una película». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "film",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un film",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vedere un film",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar un deseo o preferencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero ver una película»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero ver una película».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Nos vemos a las ocho?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "otto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "alle otto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vediamo alle otto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "proponer una hora para encontrarse",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Nos vemos a las ocho?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Nos vemos a las ocho?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué haces esta noche?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Avísame». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pere",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sapere",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pedir que informen sobre una decisión",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Avísame»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Avísame».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Nos vemos mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo domani.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Nos vemos mañana.",
+      "item": "ci-vediamo-domani"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del futuro y del imperativo.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, el futuro se utiliza para expresar planes o posibilidades futuras. El imperativo se usa para dar órdenes o hacer peticiones directas. Ambos son esenciales para la comunicación diaria.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non posso oggi, ho troppo da fare.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No puedo hoy, tengo demasiado que hacer.",
+      "item": "non-posso-oggi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No puedo hoy, tengo demasiado que hacer».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non posso oggi, ho troppo da fare.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No puedo hoy, tengo demasiado que hacer.",
+      "item": "non-posso-oggi"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Forse domani sarà meglio.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Quizás mañana será mejor.",
+      "item": "forse-domani"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quizás mañana será mejor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Forse domani sarà meglio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quizás mañana será mejor.",
+      "item": "forse-domani"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non ho ancora deciso.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No he decidido todavía.",
+      "item": "non-ho-ancora-deciso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No he decidido todavía».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non ho ancora deciso.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No he decidido todavía.",
+      "item": "non-ho-ancora-deciso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Proponle a un amigo ir al cine esta noche.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te apetece ir al cine?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué haces esta noche?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quiero ver una película».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Nos vemos a las ocho?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Avísame».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vamos a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo abre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando apre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-apre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La entrada reducida»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il biglietto ridotto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La entrada reducida",
+      "item": "biglietto-ridotto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te apetece ir al cine?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti va di andare al cinema?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece ir al cine?",
+      "item": "ti-va-di-andare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué haces esta noche?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cosa fai stasera?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces esta noche?",
+      "item": "cosa-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quiero ver una película».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ver una película.",
+      "item": "voglio-vedere-un-film"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Nos vemos a las ocho?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo alle otto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Nos vemos a las ocho?",
+      "item": "ci-vediamo-alle-otto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Avísame».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Avísame!",
+      "item": "fammi-sapere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, cosa fai stasera?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué haces esta noche?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non ho ancora deciso. Tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No he decidido todavía. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Voglio vedere un film. Ti va di andare al cinema?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quiero ver una película. ¿Te apetece ir al cine?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non posso oggi, ho troppo da fare.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No puedo hoy, tengo demasiado que hacer.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Forse domani sarà meglio. Ci vediamo alle otto?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quizás mañana será mejor. ¿Nos vemos a las ocho?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Fammi sapere!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Avísame!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.5,
+    "chars": 4326,
+    "cues": 161,
+    "mode": "lesson",
+    "lesson": 30
+  }
+}

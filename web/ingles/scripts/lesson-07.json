@@ -1,0 +1,1616 @@
+{
+  "title": "Preguntar sobre horarios",
+  "subtitle": "Aprender a preguntar y entender horarios y razones",
+  "summary_es": "Preguntar sobre horarios y razones.",
+  "topics": [
+    "preguntar",
+    "entender",
+    "tiempo",
+    "cortesia"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, what time do you close today?",
+      "We close at 6 PM.",
+      "Is it open tomorrow?",
+      "Yes, we're open tomorrow.",
+      "Great, how many coffees do you serve daily?",
+      "Around 200. Why do you ask?",
+      "Just curious! Thanks."
+    ],
+    "es": [
+      "Hola, ¿a qué hora cierran hoy?",
+      "Cerramos a las 6 PM.",
+      "¿Está abierto mañana?",
+      "Sí, estamos abiertos mañana.",
+      "Genial, ¿cuántos cafés sirven diariamente?",
+      "Alrededor de 200. ¿Por qué preguntas?",
+      "¡Solo curiosidad! Gracias."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "When?",
+      "es": "¿Cuándo?"
+    },
+    {
+      "term": "Why?",
+      "es": "¿Por qué?"
+    },
+    {
+      "term": "How many?",
+      "es": "¿Cuántos?"
+    },
+    {
+      "term": "What time is it?",
+      "es": "¿Qué hora es?"
+    },
+    {
+      "term": "Is it open?",
+      "es": "¿Está abierto?"
+    },
+    {
+      "term": "Today, tomorrow, yesterday, tonight",
+      "es": "Hoy, mañana, ayer, esta noche"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 7. Preguntar sobre horarios.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café en Londres, preguntando sobre el horario de cierre. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hi, what time do you close today?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿a qué hora cierran hoy?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "We close at 6 PM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cerramos a las 6 PM.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is it open tomorrow?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está abierto mañana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, we're open tomorrow.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estamos abiertos mañana.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Great, how many coffees do you serve daily?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Genial, ¿cuántos cafés sirven diariamente?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Around 200. Why do you ask?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Alrededor de 200. ¿Por qué preguntas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Just curious! Thanks.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Solo curiosidad! Gracias.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y entender horarios y razones Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo pagar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo comprar un billete?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No entiendo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuándo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "when"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "una pregunta básica para saber el tiempo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Por qué?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "why"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta para entender la razón",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "many",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-many"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-many"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar cantidad",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué hora es?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-time"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-time"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "time is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-time"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-time"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar la hora",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué hora es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué hora es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está abierto?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pen",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-it-open"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "open",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-it-open"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it open",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-it-open"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-it-open"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar si un lugar está disponible",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está abierto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hoy, mañana, ayer, esta noche». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "night",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tonight",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "yesterday tonight",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tomorrow yesterday tonight",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today tomorrow yesterday tonight",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "vocabulario básico de tiempo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hoy, mañana, ayer, esta noche»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hoy, mañana, ayer, esta noche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué hora es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntas con 'When' y 'What time'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usamos 'When' para preguntar sobre el tiempo en general y 'What time' para preguntar la hora exacta. 'Why' se usa para preguntar la razón y se responde con 'Because'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Because...",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Porque...",
+      "item": "because"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Porque».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Because...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Porque...",
+      "item": "because"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It closes at...",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Cierra a las...",
+      "item": "it-closes-at"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cierra a las».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It closes at...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cierra a las...",
+      "item": "it-closes-at"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un museo y quieres saber a qué hora cierra.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntas por qué un lugar está cerrado.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué hora es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hoy, mañana, ayer, esta noche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo pagar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo comprar un billete?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No entiendo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "When?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo?",
+      "item": "when"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Por qué?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos?",
+      "item": "how-many"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué hora es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What time is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hora es?",
+      "item": "what-time"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hoy, mañana, ayer, esta noche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hi, what time do you close today?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿a qué hora cierran hoy?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "We close at 6 PM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cerramos a las 6 PM.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is it open tomorrow?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está abierto mañana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, we're open tomorrow.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estamos abiertos mañana.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Great, how many coffees do you serve daily?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Genial, ¿cuántos cafés sirven diariamente?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Around 200. Why do you ask?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Alrededor de 200. ¿Por qué preguntas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Just curious! Thanks.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Solo curiosidad! Gracias.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.8,
+    "chars": 4102,
+    "cues": 172,
+    "mode": "lesson",
+    "lesson": 7
+  }
+}

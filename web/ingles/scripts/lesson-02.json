@@ -1,0 +1,1419 @@
+{
+  "title": "Do you speak Spanish?",
+  "subtitle": "Aprender a preguntar y entender respuestas básicas",
+  "summary_es": "Preguntar si alguien habla español y entender respuestas.",
+  "topics": [
+    "pregunta",
+    "respuesta",
+    "idioma",
+    "comprensión"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, do you speak Spanish?",
+      "A little.",
+      "Could you say that again?",
+      "I don't understand.",
+      "Alright, no worries."
+    ],
+    "es": [
+      "Hola, ¿hablas español?",
+      "Un poco.",
+      "¿Podrías repetirlo?",
+      "No entiendo.",
+      "Está bien, no te preocupes."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Do you speak Spanish?",
+      "es": "¿Hablas español?"
+    },
+    {
+      "term": "Could you say that again?",
+      "es": "¿Podrías repetirlo?"
+    },
+    {
+      "term": "I don't know.",
+      "es": "No lo sé."
+    },
+    {
+      "term": "A little.",
+      "es": "Un poco."
+    },
+    {
+      "term": "I don't understand.",
+      "es": "No entiendo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 2. Do you speak Spanish?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pub en Camden, Londres, dos personas están conversando mientras esperan su turno para pedir bebida. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, do you speak Spanish?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿hablas español?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un poco.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No entiendo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Alright, no worries.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está bien, no te preocupes.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y entender respuestas básicas Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hablas español?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nish",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Spanish",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "speak Spanish",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you speak Spanish",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar si alguien habla español",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas español?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Podrías repetirlo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gain",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "again",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you say that again",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cortesía para pedir repetición",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Podrías repetirlo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Podrías repetirlo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No lo sé». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "know",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "don't know",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar desconocimiento",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No lo sé»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No lo sé».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un poco». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tle",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-little"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "little",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-little"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-little"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta común para indicar conocimiento básico",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un poco»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un poco».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Podrías repetirlo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No entiendo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "stand",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "derstand",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "understand",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "don't understand",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que no se comprende",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No entiendo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'do' para preguntas.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés, 'do' se usa para formar preguntas en presente simple. Por ejemplo, 'Do you speak Spanish?' es una manera de preguntar si alguien habla español.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un poco».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No entiendo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes / No.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí / No.",
+      "item": "yes-no"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí / No».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes / No.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí / No.",
+      "item": "yes-no"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Alright / Fine.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está bien.",
+      "item": "alright-fine"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Alright / Fine.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está bien.",
+      "item": "alright-fine"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub y quieres saber si alguien habla español.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Alguien te pregunta algo en inglés y no entiendes.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Podrías repetirlo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No lo sé».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un poco»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Podrías repetirlo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No lo sé».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un poco»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco.",
+      "item": "a-little"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, do you speak Spanish?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿hablas español?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A little.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un poco.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No entiendo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Alright, no worries.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está bien, no te preocupes.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.0,
+    "chars": 3585,
+    "cues": 151,
+    "mode": "lesson",
+    "lesson": 2
+  }
+}

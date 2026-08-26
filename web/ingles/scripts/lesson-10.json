@@ -1,0 +1,2000 @@
+{
+  "title": "Family Matters",
+  "subtitle": "Aprender a hablar sobre la familia.",
+  "summary_es": "Hablar sobre la familia.",
+  "topics": [
+    "familia",
+    "presentarse",
+    "preguntar",
+    "responder"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi! Nice to meet you. Do you have family here?",
+      "Yes, I have family here. My mum and dad live in Camden.",
+      "That's lovely! How many of you are there?",
+      "We are four. I have a brother and a sister.",
+      "Do you have kids?",
+      "No, just me."
+    ],
+    "es": [
+      "¡Hola! Encantado de conocerte. ¿Tienes familia aquí?",
+      "Sí, tengo familia aquí. Mi mamá y papá viven en Camden.",
+      "¡Qué bien! ¿Cuántos sois?",
+      "Somos cuatro. Tengo un hermano y una hermana.",
+      "¿Tienes niños?",
+      "No, solo yo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Do you have family here?",
+      "es": "¿Tienes familia aquí?"
+    },
+    {
+      "term": "How many of you are there?",
+      "es": "¿Cuántos sois?"
+    },
+    {
+      "term": "Mum and Dad",
+      "es": "Mamá y papá"
+    },
+    {
+      "term": "Brother and sister",
+      "es": "Hermano y hermana"
+    },
+    {
+      "term": "Kids",
+      "es": "Niños"
+    },
+    {
+      "term": "Grandma and Grandad",
+      "es": "Abuela y abuelo"
+    },
+    {
+      "term": "Wife and husband",
+      "es": "Esposa y esposo"
+    },
+    {
+      "term": "Partner",
+      "es": "Pareja"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 10. Family Matters.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub en Camden, Londres, charlando con un nuevo amigo sobre la familia. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi! Nice to meet you. Do you have family here?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Encantado de conocerte. ¿Tienes familia aquí?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Yes, I have family here. My mum and dad live in Camden.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo familia aquí. Mi mamá y papá viven en Camden.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's lovely! How many of you are there?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Qué bien! ¿Cuántos sois?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "We are four. I have a brother and a sister.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Somos cuatro. Tengo un hermano y una hermana.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have kids?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes niños?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "No, just me.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, solo yo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre la familia. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una semana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A week.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una semana.",
+      "item": "a-week"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hoy, mañana, ayer, esta noche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes familia aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "here",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "family here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you have family here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre la familia de alguien en una conversación amistosa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes familia aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos sois?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "there",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "are there",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "many of you are there",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre el tamaño de una familia o grupo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mamá y papá». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mum-dad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mum-dad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mum-dad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario básico sobre la familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mamá y papá»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mamá y papá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hermano y hermana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ter",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "brother-sister"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sister",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "brother-sister"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "brother-sister"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "brother-sister"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario básico sobre la familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hermano y hermana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hermano y hermana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Niños». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kids"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario básico sobre la familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Niños»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Niños».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Abuela y abuelo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario básico sobre la familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Abuela y abuelo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Abuela y abuelo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hermano y hermana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Esposa y esposo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "band",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wife-husband"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "husband",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wife-husband"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "wife-husband"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "wife-husband"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario básico sobre la familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Esposa y esposo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Esposa y esposo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Pareja». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tner",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "partner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "partner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Término neutral para referirse a una pareja.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pareja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pareja».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Abuela y abuelo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'have got'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés británico, 'have got' se usa a menudo para indicar posesión. Por ejemplo, 'I have got a brother' es lo mismo que 'I have a brother'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, I have family here.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Sí, tengo familia aquí.",
+      "item": "yes-i-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have family here.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, tengo familia aquí.",
+      "item": "yes-i-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, tengo familia aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have family here.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, tengo familia aquí.",
+      "item": "yes-i-have-family"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't have family here.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no tengo familia aquí.",
+      "item": "no-i-dont-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no tengo familia aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't have family here.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no tengo familia aquí.",
+      "item": "no-i-dont-have-family"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "We are four.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Somos cuatro.",
+      "item": "we-are-four"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Somos cuatro».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "We are four.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Somos cuatro.",
+      "item": "we-are-four"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Just me.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Solo yo.",
+      "item": "just-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Solo yo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Just me.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Solo yo.",
+      "item": "just-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub en Londres y alguien te pregunta sobre tu familia. Responde.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mamá y papá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hermano y hermana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Niños».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Abuela y abuelo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Esposa y esposo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pareja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una semana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A week.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una semana.",
+      "item": "a-week"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hoy, mañana, ayer, esta noche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How many of you are there?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "how-many-of-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mamá y papá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mum and Dad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mamá y papá",
+      "item": "mum-dad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hermano y hermana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Niños».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kids",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Niños",
+      "item": "kids"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Abuela y abuelo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grandma and Grandad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Abuela y abuelo",
+      "item": "grandma-grandad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Esposa y esposo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wife and husband",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esposa y esposo",
+      "item": "wife-husband"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pareja»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Partner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pareja",
+      "item": "partner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi! Nice to meet you. Do you have family here?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Encantado de conocerte. ¿Tienes familia aquí?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Yes, I have family here. My mum and dad live in Camden.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo familia aquí. Mi mamá y papá viven en Camden.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's lovely! How many of you are there?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Qué bien! ¿Cuántos sois?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "We are four. I have a brother and a sister.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Somos cuatro. Tengo un hermano y una hermana.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have kids?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes niños?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "No, just me.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, solo yo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.3,
+    "chars": 5251,
+    "cues": 214,
+    "mode": "lesson",
+    "lesson": 10
+  }
+}

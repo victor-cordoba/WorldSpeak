@@ -1,0 +1,1703 @@
+{
+  "title": "Métro, bus, train",
+  "subtitle": "Aprender a moverse por la ciudad en transporte público.",
+  "summary_es": "Cómo preguntar por direcciones y comprar billetes.",
+  "topics": [
+    "transporte",
+    "preguntas",
+    "direcciones",
+    "billetes",
+    "cortesía"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, quelle ligne pour aller à Montmartre ?",
+      "Prenez la ligne 12, c'est direct.",
+      "Merci ! Et le prochain arrêt, c'est Châtelet ?",
+      "Oui, c'est direct.",
+      "Parfait, un ticket, s'il vous plaît."
+    ],
+    "es": [
+      "Hola, ¿qué línea para ir a Montmartre?",
+      "Tome la línea 12, es directo.",
+      "¡Gracias! ¿Y la próxima parada es Châtelet?",
+      "Sí, es directo.",
+      "Perfecto, un billete, por favor."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quelle ligne pour aller à Montmartre ?",
+      "es": "¿Qué línea para ir a Montmartre?"
+    },
+    {
+      "term": "Un ticket, s'il vous plaît.",
+      "es": "Un billete, por favor."
+    },
+    {
+      "term": "Le prochain arrêt, c'est Châtelet ?",
+      "es": "¿La próxima parada es Châtelet?"
+    },
+    {
+      "term": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "es": "Un billete de ida y vuelta a Lyon, por favor."
+    },
+    {
+      "term": "Le TGV part à quelle heure ?",
+      "es": "¿A qué hora sale el TGV?"
+    },
+    {
+      "term": "C'est direct pour Bordeaux ?",
+      "es": "¿Es directo a Burdeos?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 17. Métro, bus, train.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En el metro de París, un viajero pregunta por direcciones. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, quelle ligne pour aller à Montmartre ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué línea para ir a Montmartre?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prenez la ligne 12, c'est direct.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tome la línea 12, es directo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci ! Et le prochain arrêt, c'est Châtelet ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿Y la próxima parada es Châtelet?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est direct.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, es directo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parfait, un ticket, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, un billete, por favor.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a moverse por la ciudad en transporte público. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué línea para ir a Montmartre?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tmartre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Montmartre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ligne pour aller à Montmartre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común en el metro de París.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué línea para ir a Montmartre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué línea para ir a Montmartre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vous es usted, y también vosotros. Con desconocidos, mayores y en tiendas, vous. Con amigos y jóvenes, tu. Si dudas, vous.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un billete, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "plaît",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ticket s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma cortés de pedir un billete.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un billete, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un billete, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿La próxima parada es Châtelet?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "let",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Châtelet",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "c'est Châtelet",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prochain arrêt c'est Châtelet",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt c'est Châtelet",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para confirmar paradas en el metro.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿La próxima parada es Châtelet?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿La próxima parada es Châtelet?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un billete de ida y vuelta a Lyon, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "plaît",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aller-retour pour Lyon s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para comprar billetes de tren.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un billete de ida y vuelta a Lyon, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un billete de ida y vuelta a Lyon, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un billete, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A qué hora sale el TGV?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ure",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "heure",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "TGV part à quelle heure",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por horarios de trenes de alta velocidad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué hora sale el TGV?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué hora sale el TGV?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es directo a Burdeos?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "deaux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "direct pour Bordeaux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para confirmar si un tren es directo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Es directo a Burdeos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es directo a Burdeos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un billete de ida y vuelta a Lyon, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vivo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de preposiciones en preguntas.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, las preposiciones son esenciales para formular preguntas sobre direcciones y transporte. Por ejemplo, 'pour' indica destino: 'Quelle ligne pour Montmartre ?'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est direct.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, es directo.",
+      "item": "oui-cest-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, es directo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est direct.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, es directo.",
+      "item": "oui-cest-direct"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, ce n'est pas direct.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no es directo.",
+      "item": "non-cest-pas-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no es directo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, ce n'est pas direct.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no es directo.",
+      "item": "non-cest-pas-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en el metro y necesitas saber qué línea tomar para llegar a Montmartre.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres confirmar si la próxima parada es Châtelet.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué línea para ir a Montmartre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un billete, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿La próxima parada es Châtelet?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un billete de ida y vuelta a Lyon, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué hora sale el TGV?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es directo a Burdeos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué línea para ir a Montmartre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quelle ligne pour aller à Montmartre ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea para ir a Montmartre?",
+      "item": "quelle-ligne-pour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un billete, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿La próxima parada es Châtelet?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un billete de ida y vuelta a Lyon, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "item": "un-aller-retour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué hora sale el TGV?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le TGV part à quelle heure ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué hora sale el TGV?",
+      "item": "le-tgv"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es directo a Burdeos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est direct pour Bordeaux ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Es directo a Burdeos?",
+      "item": "cest-direct"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, quelle ligne pour aller à Montmartre ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué línea para ir a Montmartre?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prenez la ligne 12, c'est direct.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tome la línea 12, es directo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci ! Et le prochain arrêt, c'est Châtelet ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿Y la próxima parada es Châtelet?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est direct.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, es directo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parfait, un ticket, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, un billete, por favor.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.7,
+    "chars": 6044,
+    "cues": 182,
+    "mode": "lesson",
+    "lesson": 17
+  }
+}

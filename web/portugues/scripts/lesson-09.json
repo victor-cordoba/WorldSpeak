@@ -1,0 +1,1458 @@
+{
+  "title": "De onde és?",
+  "subtitle": "Aprender a preguntar y responder sobre el origen y la duración de la estancia.",
+  "summary_es": "Una frase",
+  "topics": [
+    "pregunta",
+    "ser",
+    "nacionalidad",
+    "tempo",
+    "gostar de"
+  ],
+  "dialogue": {
+    "tl": [
+      "De onde és?",
+      "Sou espanhola, de Madrid. E tu?",
+      "Sou português, de Lisboa.",
+      "Há quanto tempo estás em Portugal?",
+      "Há uma semana. Vim para surfar.",
+      "Gosto de Portugal."
+    ],
+    "es": [
+      "¿De dónde eres?",
+      "Soy española, de Madrid. ¿Y tú?",
+      "Soy portugués, de Lisboa.",
+      "¿Cuánto tiempo llevas en Portugal?",
+      "Desde hace una semana. Vine para surfear.",
+      "Me gusta Portugal."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "De onde és?",
+      "es": "¿De dónde eres?"
+    },
+    {
+      "term": "Há quanto tempo estás em Portugal?",
+      "es": "¿Cuánto tiempo llevas en Portugal?"
+    },
+    {
+      "term": "Gosto de Portugal.",
+      "es": "Me gusta Portugal."
+    },
+    {
+      "term": "Vim para surfar.",
+      "es": "Vine para surfear."
+    },
+    {
+      "term": "E tu?",
+      "es": "¿Y tú?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 9. De onde és?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, dos surfistas se conocen mientras preparan sus tablas. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿De dónde eres?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sou espanhola, de Madrid. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy española, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou português, de Lisboa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy portugués, de Lisboa.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há uma semana. Vim para surfar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Desde hace una semana. Vine para surfear.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me gusta Portugal.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre el origen y la duración de la estancia. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy surfista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De dónde eres?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "és",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "onde és",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso informal para preguntar la procedencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto tiempo llevas en Portugal?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tugal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portugal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quanto tempo estás em Portugal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar sobre la duración de la estancia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas en Portugal?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas en Portugal?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gusta Portugal». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tugal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portugal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de Portugal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar gusto por el lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Portugal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vine para surfear». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "far",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "surfar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "para surfar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "explicar el motivo del viaje",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vine para surfear».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto tiempo llevas en Portugal?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Y tú?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tu",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-tu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-tu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta corta para devolver la pregunta",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'gostar de'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, 'gostar de' se usa para expresar gustos. Siempre va seguido de 'de' antes del complemento.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy español, de Madrid».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Há uma semana.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Desde hace una semana.",
+      "item": "ha-uma-semana"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Desde hace una semana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Há uma semana.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Desde hace una semana.",
+      "item": "ha-uma-semana"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sou português, de Lisboa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy portugués, de Lisboa.",
+      "item": "sou-portugues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy portugués, de Lisboa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sou português, de Lisboa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy portugués, de Lisboa.",
+      "item": "sou-portugues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien de dónde es.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que eres español de Madrid.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas en Portugal?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy surfista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Eu sou surfista.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy surfista.",
+      "item": "eu-sou-surfista"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Esta es mi furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Esta é a minha carrinha.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Esta es mi furgoneta.",
+      "item": "a-minha-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas en Portugal?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿De dónde eres?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sou espanhola, de Madrid. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy española, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou português, de Lisboa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy portugués, de Lisboa.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há uma semana. Vim para surfar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Desde hace una semana. Vine para surfear.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me gusta Portugal.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.1,
+    "chars": 4081,
+    "cues": 155,
+    "mode": "lesson",
+    "lesson": 9
+  }
+}

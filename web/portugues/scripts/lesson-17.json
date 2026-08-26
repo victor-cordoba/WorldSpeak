@@ -1,0 +1,1631 @@
+{
+  "title": "A carrinha e onde dormir",
+  "subtitle": "Aprenderás a preguntar sobre lugares para aparcar y dormir con la furgoneta.",
+  "summary_es": "Preguntas sobre aparcamiento y seguridad.",
+  "topics": [
+    "moverse",
+    "seguridad",
+    "campismo",
+    "verbo-haver",
+    "verbo-poder"
+  ],
+  "dialogue": {
+    "tl": [
+      "Olá! Onde posso estacionar a carrinha?",
+      "Há um parque de campismo perto, ali.",
+      "É seguro dormir aqui?",
+      "Sim, é seguro.",
+      "Obrigado pela ajuda!"
+    ],
+    "es": [
+      "¡Hola! ¿Dónde puedo aparcar la furgoneta?",
+      "Hay un camping cerca, allí.",
+      "¿Es seguro dormir aquí?",
+      "Sí, es seguro.",
+      "¡Gracias por la ayuda!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Onde posso estacionar a carrinha?",
+      "es": "¿Dónde puedo aparcar la furgoneta?"
+    },
+    {
+      "term": "Há um bom sítio para dormir com a carrinha?",
+      "es": "¿Hay un buen sitio para dormir con la furgoneta?"
+    },
+    {
+      "term": "Pode-se acampar aqui?",
+      "es": "¿Se puede acampar aquí?"
+    },
+    {
+      "term": "Há um parque de campismo perto?",
+      "es": "¿Hay un camping cerca?"
+    },
+    {
+      "term": "Onde posso despejar / encher água?",
+      "es": "¿Dónde puedo vaciar / llenar agua?"
+    },
+    {
+      "term": "É seguro dormir aqui?",
+      "es": "¿Es seguro dormir aquí?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 17. A carrinha e onde dormir.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Ericeira, buscando un lugar para aparcar y dormir con tu furgoneta. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Onde posso estacionar a carrinha?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde puedo aparcar la furgoneta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto, ali.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hay un camping cerca, allí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, é seguro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, es seguro.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar sobre lugares para aparcar y dormir con la furgoneta. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, hay buenas olas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No, no se puede acampar aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no se puede acampar aquí.",
+      "item": "nao-nao-acampar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres mayor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És velho.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres mayor.",
+      "item": "es-velho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Eres genial».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo aparcar la furgoneta?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carrinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "posso estacionar a carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa esta pregunta para encontrar un lugar seguro para tu furgoneta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo aparcar la furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo aparcar la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hay un buen sitio para dormir con la furgoneta?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carrinha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um bom sítio para dormir com a carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para encontrar lugares tranquilos para pasar la noche.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay un buen sitio para dormir con la furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Se puede acampar aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aqui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "acampar aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta si es legal acampar en una zona.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Se puede acampar aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Se puede acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hay un camping cerca?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "perto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "campismo perto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um parque de campismo perto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para encontrar campings cercanos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay un camping cerca?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hay un camping cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo vaciar / llenar agua?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gua",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "água",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "encher água",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "posso despejar / encher água",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre servicios de agua para la furgoneta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo vaciar / llenar agua?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo vaciar / llenar agua?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es seguro dormir aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aqui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dormir aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seguro dormir aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la seguridad del lugar para dormir.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Es seguro dormir aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es seguro dormir aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hay un camping cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Voy a la playa ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'pode-se' y 'há'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, 'pode-se' se usa para expresar acciones impersonales, como 'se puede'. 'Há' se utiliza para indicar existencia, similar a 'hay' en español.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, é seguro.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, es seguro.",
+      "item": "sim-e-seguro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, es seguro».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, é seguro.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, es seguro.",
+      "item": "sim-e-seguro"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não é seguro.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no es seguro.",
+      "item": "nao-nao-e-seguro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no es seguro».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não é seguro.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no es seguro.",
+      "item": "nao-nao-e-seguro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntas a un local si es seguro dormir en tu furgoneta aquí.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo aparcar la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Se puede acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay un camping cerca?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo vaciar / llenar agua?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es seguro dormir aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, hay buenas olas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No, no se puede acampar aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no se puede acampar aquí.",
+      "item": "nao-nao-acampar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres mayor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És velho.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres mayor.",
+      "item": "es-velho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Eres genial».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo aparcar la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Se puede acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pode-se acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Se puede acampar aquí?",
+      "item": "pode-se-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay un camping cerca?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un camping cerca?",
+      "item": "ha-parque-campismo-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo vaciar / llenar agua?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es seguro dormir aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Onde posso estacionar a carrinha?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde puedo aparcar la furgoneta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Há um parque de campismo perto, ali.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hay un camping cerca, allí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, é seguro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, es seguro.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.5,
+    "chars": 5661,
+    "cues": 174,
+    "mode": "lesson",
+    "lesson": 17
+  }
+}

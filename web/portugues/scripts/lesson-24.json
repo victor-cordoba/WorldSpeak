@@ -1,0 +1,1725 @@
+{
+  "title": "Atenção!",
+  "subtitle": "Cómo reaccionar ante emergencias en la playa",
+  "summary_es": "Imperativos y frases de emergencia",
+  "topics": [
+    "imperativo",
+    "emergencia",
+    "salud",
+    "playa",
+    "corriente"
+  ],
+  "dialogue": {
+    "tl": [
+      "Atenção! Cuidado com a corrente!",
+      "Socorro! Ele está em perigo!",
+      "Chama o 112!",
+      "Onde é o hospital mais próximo?",
+      "Estou mal, preciso de um médico."
+    ],
+    "es": [
+      "¡Atención! ¡Cuidado con la corriente!",
+      "¡Socorro! ¡Él está en peligro!",
+      "¡Llama al 112!",
+      "¿Dónde está el hospital más cercano?",
+      "Estoy mal, necesito un médico."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Atenção!",
+      "es": "¡Atención!"
+    },
+    {
+      "term": "Socorro!",
+      "es": "¡Socorro!"
+    },
+    {
+      "term": "Cuidado com a corrente!",
+      "es": "¡Cuidado con la corriente!"
+    },
+    {
+      "term": "Chama o 112!",
+      "es": "¡Llama al 112!"
+    },
+    {
+      "term": "Estou mal.",
+      "es": "Estoy mal."
+    },
+    {
+      "term": "Preciso de um médico.",
+      "es": "Necesito un médico."
+    },
+    {
+      "term": "Onde é o hospital?",
+      "es": "¿Dónde está el hospital?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 24. Atenção!.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Supertubos, un surfista se encuentra en problemas en el agua. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção! Cuidado com a corrente!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Atención! ¡Cuidado con la corriente!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Socorro! Ele está em perigo!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Socorro! ¡Él está en peligro!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Llama al 112!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Onde é o hospital mais próximo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde está el hospital más cercano?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal, preciso de um médico.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy mal, necesito un médico.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cómo reaccionar ante emergencias en la playa Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay corrientes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há correntes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay corrientes?",
+      "item": "ha-correntes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, hay socorrista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, tem nadador-salvador.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Sí, hay socorrista.",
+      "item": "sim-tem-nadador"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No, no hay corrientes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não há correntes.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no hay corrientes.",
+      "item": "nao-ha-correntes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay socorrista?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tem nadador-salvador?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay socorrista?",
+      "item": "tem-nadador-salvador"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Atención». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ção",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "atencao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tenção",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "atencao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "atencao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "imperativo para alertar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Atención»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Atención».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Socorro». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "socorro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "corro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "socorro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "socorro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "grito de ayuda urgente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Socorro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Socorro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Cuidado con la corriente». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rente",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "corrente",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "com a corrente",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "advertencia en la playa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Cuidado con la corriente»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Cuidado con la corriente».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Llama al 112». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "112",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chama-112"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "o 112",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chama-112"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chama-112"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "número de emergencia en Portugal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Llama al 112»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Llama al 112».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Socorro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy mal». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estou-mal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "estou-mal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresión de malestar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Necesito un médico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "co",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dico",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "médico",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de um médico",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "urgencia médica",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Llama al 112».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está el hospital?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pital",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hospital",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é o hospital",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta de ubicación en emergencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está el hospital?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está el hospital?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿A qué horas abre el bar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A que horas abre o bar?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué horas abre el bar?",
+      "item": "a-que-horas-abre-bar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Imperativos en Portugués.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El imperativo se usa para dar órdenes o hacer peticiones. En situaciones de emergencia, es crucial para alertar o pedir ayuda rápidamente.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou bem.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy bien.",
+      "item": "sim-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estou bem.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, estoy bien.",
+      "item": "sim-estou-bem"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não estou bem.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no estoy bien.",
+      "item": "nao-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no estoy bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não estou bem.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no estoy bien.",
+      "item": "nao-estou-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en la playa y ves a alguien en peligro en el agua. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Atención».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Socorro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Cuidado con la corriente».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Llama al 112»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está el hospital?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay corrientes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há correntes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay corrientes?",
+      "item": "ha-correntes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, hay socorrista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, tem nadador-salvador.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Sí, hay socorrista.",
+      "item": "sim-tem-nadador"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No, no hay corrientes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não, não há correntes.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no hay corrientes.",
+      "item": "nao-ha-correntes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay socorrista?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tem nadador-salvador?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay socorrista?",
+      "item": "tem-nadador-salvador"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estás triste?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "estas-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Atención».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "atencao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Socorro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Socorro!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Socorro!",
+      "item": "socorro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Cuidado con la corriente».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cuidado com a corrente!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Cuidado con la corriente!",
+      "item": "cuidado-corrente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Llama al 112»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 112!",
+      "item": "chama-112"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "estou-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um médico.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "preciso-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está el hospital?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é o hospital?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está el hospital?",
+      "item": "onde-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Atenção! Cuidado com a corrente!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Atención! ¡Cuidado con la corriente!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Socorro! Ele está em perigo!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Socorro! ¡Él está en peligro!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chama o 112!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Llama al 112!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Onde é o hospital mais próximo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde está el hospital más cercano?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estou mal, preciso de um médico.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy mal, necesito un médico.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.3,
+    "chars": 4211,
+    "cues": 184,
+    "mode": "lesson",
+    "lesson": 24
+  }
+}

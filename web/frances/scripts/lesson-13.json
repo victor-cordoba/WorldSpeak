@@ -1,0 +1,1826 @@
+{
+  "title": "Tu as mangé ?",
+  "subtitle": "Aprender a preguntar y hablar sobre comida y apetito.",
+  "summary_es": "Una lección sobre cómo preguntar si alguien ha comido y expresar hambre o sed.",
+  "topics": [
+    "passé composé",
+    "avoir",
+    "futuro próximo",
+    "comida",
+    "cortesía"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Tu as mangé ?",
+      "Non, je n'ai pas mangé. J'ai faim.",
+      "On va manger ?",
+      "Oui, j'ai envie d'un croque-monsieur.",
+      "C'est moi qui invite.",
+      "Merci !"
+    ],
+    "es": [
+      "¡Hola! ¿Has comido?",
+      "No, no he comido. Tengo hambre.",
+      "¿Vamos a comer?",
+      "Sí, me apetece un croque-monsieur.",
+      "Invito yo.",
+      "¡Gracias!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu as mangé ?",
+      "es": "¿Has comido?"
+    },
+    {
+      "term": "J'ai faim.",
+      "es": "Tengo hambre."
+    },
+    {
+      "term": "J'ai soif.",
+      "es": "Tengo sed."
+    },
+    {
+      "term": "On va manger ?",
+      "es": "¿Vamos a comer?"
+    },
+    {
+      "term": "Tu as envie de quoi ?",
+      "es": "¿De qué tienes ganas?"
+    },
+    {
+      "term": "J'ai envie d'un croque-monsieur.",
+      "es": "Me apetece un croque-monsieur."
+    },
+    {
+      "term": "C'est moi qui invite.",
+      "es": "Invito yo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 13. Tu as mangé ?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en el barrio de Montmartre, dos amigos se encuentran para charlar y decidir si van a comer juntos. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu as mangé ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Has comido?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je n'ai pas mangé. J'ai faim.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no he comido. Tengo hambre.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Vamos a comer?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'ai envie d'un croque-monsieur.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me apetece un croque-monsieur.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Invito yo.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y hablar sobre comida y apetito. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Francia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué hora...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Has comido?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ngé",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mangé",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "as mangé",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar si alguien ha comido. Usado en conversaciones informales.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Has comido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo hambre». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "im",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-faim"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "faim",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-faim"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-faim"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar que tienes hambre. Muy común.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo hambre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo sed». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "if",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-soif"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "soif",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-soif"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-soif"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar que tienes sed. Muy común.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo sed»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Vamos a comer?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nger",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "manger",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "va manger",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Proponer ir a comer. Usado en conversaciones informales.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Vamos a comer?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De qué tienes ganas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "oi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quoi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de quoi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "as envie de quoi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar qué le apetece a alguien. Muy usado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De qué tienes ganas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De qué tienes ganas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me apetece un croque-monsieur». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "eur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sieur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "envie d'un croque-monsieur",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar que te apetece algo específico.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me apetece un croque-monsieur»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me apetece un croque-monsieur».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Vamos a comer?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Invito yo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "invite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "moi qui invite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ofrecer pagar la cuenta. Muy cortés.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Invito yo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El passé composé.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El passé composé se usa para hablar de acciones completadas en el pasado. Se forma con el presente del verbo auxiliar 'avoir' o 'être' seguido del participio pasado del verbo principal.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'ai mangé.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, he comido.",
+      "item": "oui-jai-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'ai mangé.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, he comido.",
+      "item": "oui-jai-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, he comido».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'ai mangé.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, he comido.",
+      "item": "oui-jai-mange"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je n'ai pas mangé.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no he comido.",
+      "item": "non-je-nai-pas-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no he comido».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je n'ai pas mangé.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no he comido.",
+      "item": "non-je-nai-pas-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a tu amigo si ha comido.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que no has comido y que tienes hambre.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, je n'ai pas mangé.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no he comido.",
+      "item": "non-je-nai-pas-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De qué tienes ganas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me apetece un croque-monsieur».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Francia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué hora...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "À quelle heure...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué hora...?",
+      "item": "a-quelle-heure"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as mangé ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "tu-as-mange"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai faim.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "jai-faim"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai soif.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "jai-soif"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De qué tienes ganas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me apetece un croque-monsieur».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai envie d'un croque-monsieur.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me apetece un croque-monsieur.",
+      "item": "jai-envie-dun-croque-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "cest-moi-qui-invite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu as mangé ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Has comido?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je n'ai pas mangé. J'ai faim.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no he comido. Tengo hambre.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Vamos a comer?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, j'ai envie d'un croque-monsieur.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me apetece un croque-monsieur.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est moi qui invite.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Invito yo.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.5,
+    "chars": 4694,
+    "cues": 195,
+    "mode": "lesson",
+    "lesson": 13
+  }
+}

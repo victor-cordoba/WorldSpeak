@@ -1,0 +1,1401 @@
+{
+  "title": "Che lavoro fai?",
+  "subtitle": "Aprender a preguntar y responder sobre el trabajo.",
+  "summary_es": "Aprenderás a preguntar y responder sobre el trabajo.",
+  "topics": [
+    "trabajo",
+    "presentarse",
+    "preguntar",
+    "profesiones"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ciao, come stai?",
+      "Tutto bene, grazie. E tu?",
+      "Bene! Che lavoro fai?",
+      "Sono un'insegnante. E tu?",
+      "Lavoro in un ufficio."
+    ],
+    "es": [
+      "Hola, ¿cómo estás?",
+      "Todo bien, gracias. ¿Y tú?",
+      "¡Bien! ¿Qué trabajo haces?",
+      "Soy profesora. ¿Y tú?",
+      "Trabajo en una oficina."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Che lavoro fai?",
+      "es": "¿Qué trabajo haces?"
+    },
+    {
+      "term": "Faccio il...",
+      "es": "Hago el..."
+    },
+    {
+      "term": "Lavoro in...",
+      "es": "Trabajo en..."
+    },
+    {
+      "term": "Sono in pensione.",
+      "es": "Estoy jubilado."
+    },
+    {
+      "term": "Studio.",
+      "es": "Estudio."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 12. Che lavoro fai?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Roma, dos personas se conocen y hablan sobre su trabajo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tutto bene, grazie. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Todo bien, gracias. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bene! Che lavoro fai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Bien! ¿Qué trabajo haces?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono un'insegnante. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy profesora. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in un ufficio.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Trabajo en una oficina.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre el trabajo. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No lo sé»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non lo so",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé",
+      "item": "non-lo-so"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué trabajo haces?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fai",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lavoro fai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar sobre el trabajo de alguien es común al conocer a una persona.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué trabajo haces?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué trabajo haces?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hago el». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "il",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "faccio-il"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "faccio-il"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para responder sobre la profesión, seguido del trabajo específico.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hago el»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hago el».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo en». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa para indicar el lugar o sector de trabajo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy jubilado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ne",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "one",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sione",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in pensione",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que una persona ya no trabaja.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy jubilado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy jubilado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hago el».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estudio». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "studio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "studio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que uno es estudiante.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estudio»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli spagnolo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "parli-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del verbo 'fare'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El verbo 'fare' se utiliza para expresar acciones relacionadas con el trabajo o actividades. Por ejemplo, 'Che lavoro fai?' significa '¿Qué trabajo haces?'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono un insegnante.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy profesor.",
+      "item": "sono-un-insegnante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy profesor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono un insegnante.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy profesor.",
+      "item": "sono-un-insegnante"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Lavoro in un ufficio.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Trabajo en una oficina.",
+      "item": "lavoro-in-un-ufficio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo en una oficina».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Lavoro in un ufficio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo en una oficina.",
+      "item": "lavoro-in-un-ufficio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien qué trabajo hace.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que trabajas en una oficina.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in un ufficio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en una oficina.",
+      "item": "lavoro-in-un-ufficio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué trabajo haces?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hago el».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy jubilado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No lo sé»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non lo so",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé",
+      "item": "non-lo-so"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué trabajo haces?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che lavoro fai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué trabajo haces?",
+      "item": "che-lavoro-fai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hago el».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Faccio il...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hago el...",
+      "item": "faccio-il"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy jubilado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono in pensione.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "sono-in-pensione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Studio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio.",
+      "item": "studio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tutto bene, grazie. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Todo bien, gracias. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bene! Che lavoro fai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Bien! ¿Qué trabajo haces?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono un'insegnante. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy profesora. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in un ufficio.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Trabajo en una oficina.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 10.8,
+    "chars": 3415,
+    "cues": 149,
+    "mode": "lesson",
+    "lesson": 12
+  }
+}

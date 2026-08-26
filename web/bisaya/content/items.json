@@ -1,3 +1,1441 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "kumusta-ka",
+      "tl": "Kumusta ka?",
+      "es": "¿Cómo estás?",
+      "lit": "¿Cómo tú?",
+      "note": "saludo común",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "maayo-ra",
+      "tl": "Maayo ra.",
+      "es": "Bien.",
+      "lit": "Bien solo.",
+      "note": "respuesta a 'Kumusta'",
+      "pill": "entender",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 1
+    },
+    {
+      "id": "ako-si",
+      "tl": "Ako si Maria.",
+      "es": "Yo soy María.",
+      "lit": "Yo soy María.",
+      "note": "para presentarse",
+      "pill": "presentarse",
+      "tags": [
+        "presentación"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "unsa-imong-ngalan",
+      "tl": "Unsa imong ngalan?",
+      "es": "¿Cómo te llamas?",
+      "lit": "¿Qué tu nombre?",
+      "note": "preguntar nombre",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "salamat",
+      "tl": "Salamat.",
+      "es": "Gracias.",
+      "lit": "",
+      "note": "agradecimiento",
+      "pill": "cortesia",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "amping",
+      "tl": "Amping!",
+      "es": "¡Cuídate!",
+      "lit": "",
+      "note": "despedida cariñosa",
+      "pill": "cortesia",
+      "tags": [
+        "despedida"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "maayong-buntag",
+      "tl": "Maayong buntag!",
+      "es": "¡Buenos días!",
+      "lit": "Buen mañana",
+      "note": "saludo matutino",
+      "pill": "cortesia",
+      "tags": [
+        "saludo"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "maayo-man",
+      "tl": "Maayo man.",
+      "es": "Estoy bien.",
+      "lit": "Bien también.",
+      "note": "respuesta alternativa",
+      "pill": "entender",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 1
+    },
+    {
+      "id": "kabalo-ka-mag-binisaya",
+      "tl": "Kabalo ka mag-Binisaya?",
+      "es": "¿Sabes hablar Bisaya?",
+      "lit": "saber tú hablar Bisaya",
+      "note": "preguntar si alguien habla Bisaya",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta",
+        "verbo",
+        "saber"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "gamay-ra",
+      "tl": "Gamay ra.",
+      "es": "Solo un poco.",
+      "lit": "poco solo",
+      "note": "responder que se sabe un poco",
+      "pill": "entender",
+      "tags": [
+        "respuesta",
+        "cantidad"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "kabalo-ka-mag-ingles",
+      "tl": "Kabalo ka mag-Ingles?",
+      "es": "¿Sabes hablar inglés?",
+      "lit": "saber tú hablar inglés",
+      "note": "preguntar si alguien habla inglés",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta",
+        "verbo",
+        "saber"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "oo-dili",
+      "tl": "Oo / Dili",
+      "es": "Sí / No",
+      "lit": "",
+      "note": "respuestas afirmativa y negativa",
+      "pill": "entender",
+      "tags": [
+        "respuesta",
+        "afirmación",
+        "negación"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "wala-ko-kasabot",
+      "tl": "Wala ko kasabot.",
+      "es": "No entiendo.",
+      "lit": "no yo entender",
+      "note": "expresar que no se entiende algo",
+      "pill": "entender",
+      "tags": [
+        "negación",
+        "verbo"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "usba-palihug",
+      "tl": "Usba palihug.",
+      "es": "Repite, por favor.",
+      "lit": "repite por favor",
+      "note": "pedir que repitan algo",
+      "pill": "entender",
+      "tags": [
+        "petición",
+        "cortesía"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "nakasabot-ka",
+      "tl": "Nakasabot ka?",
+      "es": "¿Entiendes?",
+      "lit": "entender tú",
+      "note": "preguntar si alguien entiende",
+      "pill": "entender",
+      "tags": [
+        "pregunta",
+        "verbo"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "ikaw-si",
+      "tl": "Ikaw si Juan?",
+      "es": "¿Eres Juan?",
+      "lit": "",
+      "note": "preguntar por la identidad de alguien",
+      "pill": "presentarse",
+      "tags": [
+        "pronombres"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "ako-pud",
+      "tl": "Ako pud.",
+      "es": "Yo también.",
+      "lit": "",
+      "note": "responder afirmativamente a una presentación",
+      "pill": "presentarse",
+      "tags": [
+        "pronombres"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "asa-ang-balay-nimo",
+      "tl": "Asa ang balay nimo?",
+      "es": "¿Dónde está tu casa?",
+      "lit": "",
+      "note": "preguntar por la ubicación de la casa de alguien",
+      "pill": "casa",
+      "tags": [
+        "pronombres",
+        "preguntas"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "naa-sa-cebu",
+      "tl": "Naa sa Cebu.",
+      "es": "Está en Cebú.",
+      "lit": "",
+      "note": "responder sobre la ubicación",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "kinsa-si-maria",
+      "tl": "Kinsa si Maria?",
+      "es": "¿Quién es María?",
+      "lit": "",
+      "note": "preguntar por la identidad de alguien",
+      "pill": "familia",
+      "tags": [
+        "preguntas"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "siya-ang-igsoon-ko",
+      "tl": "Siya ang igsoon ko.",
+      "es": "Ella es mi hermana.",
+      "lit": "",
+      "note": "presentar a un miembro de la familia",
+      "pill": "familia",
+      "tags": [
+        "pronombres",
+        "posesivos"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "asa-ka-padulong",
+      "tl": "Asa ka padulong?",
+      "es": "¿A dónde vas?",
+      "lit": "",
+      "note": "preguntar por el destino de alguien",
+      "pill": "moverse",
+      "tags": [
+        "preguntas"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "adto-ko-sa-merkado",
+      "tl": "Adto ko sa merkado.",
+      "es": "Voy al mercado.",
+      "lit": "",
+      "note": "responder sobre el destino",
+      "pill": "mercado",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "asa-ka-karun",
+      "tl": "Asa ka karun?",
+      "es": "¿Dónde estás ahora?",
+      "lit": "",
+      "note": "preguntar ubicación actual",
+      "pill": "preguntar",
+      "tags": [
+        "asa",
+        "verbo"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "hain-ang-tindahan",
+      "tl": "Hain ang tindahan?",
+      "es": "¿Dónde está la tienda?",
+      "lit": "",
+      "note": "preguntar ubicación sin verbo",
+      "pill": "mercado",
+      "tags": [
+        "hain",
+        "sin verbo"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "kinsa-ang-maestro",
+      "tl": "Kinsa ang maestro?",
+      "es": "¿Quién es el maestro?",
+      "lit": "",
+      "note": "preguntar por una persona",
+      "pill": "presentarse",
+      "tags": [
+        "kinsa"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "unsa-ang-oras",
+      "tl": "Unsa ang oras?",
+      "es": "¿Qué hora es?",
+      "lit": "",
+      "note": "preguntar la hora",
+      "pill": "tiempo",
+      "tags": [
+        "unsa"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "diri-ra",
+      "tl": "Diri ra.",
+      "es": "Aquí nomás.",
+      "lit": "",
+      "note": "respuesta corta sobre ubicación",
+      "pill": "entender",
+      "tags": [
+        "diri"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "diha-sa-merkado",
+      "tl": "Diha sa merkado.",
+      "es": "Allí en el mercado.",
+      "lit": "",
+      "note": "respuesta sobre ubicación",
+      "pill": "mercado",
+      "tags": [
+        "diha"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "didto-sa-balay",
+      "tl": "Didto sa balay.",
+      "es": "Allí en la casa.",
+      "lit": "",
+      "note": "respuesta sobre ubicación",
+      "pill": "casa",
+      "tags": [
+        "didto"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "duol-ra-sa-here",
+      "tl": "Duol ra sa here.",
+      "es": "Cerca de aquí.",
+      "lit": "",
+      "note": "respuesta sobre proximidad",
+      "pill": "entender",
+      "tags": [
+        "duol"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "gusto-ko-og-tubig",
+      "tl": "Gusto ko og tubig.",
+      "es": "Quiero agua.",
+      "lit": "",
+      "note": "expresando una necesidad o deseo",
+      "pill": "comida",
+      "tags": [
+        "verbo",
+        "gusto"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "gusto-ka",
+      "tl": "Gusto ka?",
+      "es": "¿Quieres?",
+      "lit": "",
+      "note": "preguntar si alguien desea algo",
+      "pill": "preguntar",
+      "tags": [
+        "verbo",
+        "interrogativo"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "dili-ko-gusto",
+      "tl": "Dili ko gusto.",
+      "es": "No quiero.",
+      "lit": "",
+      "note": "negando un deseo",
+      "pill": "entender",
+      "tags": [
+        "verbo",
+        "negación"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "gusto-kong-moadto-sa-carbon",
+      "tl": "Gusto kong moadto sa Carbon.",
+      "es": "Quiero ir al Carbon.",
+      "lit": "",
+      "note": "expresando un deseo de ir a un lugar",
+      "pill": "moverse",
+      "tags": [
+        "verbo",
+        "gusto",
+        "lugar"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "unsaon-pag-adto-sa",
+      "tl": "Unsaon pag-adto sa...?",
+      "es": "¿Cómo se va a...?",
+      "lit": "",
+      "note": "preguntar por direcciones",
+      "pill": "preguntar",
+      "tags": [
+        "verbo",
+        "interrogativo"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "layo-ba",
+      "tl": "Layo ba?",
+      "es": "¿Está lejos?",
+      "lit": "",
+      "note": "preguntar sobre la distancia",
+      "pill": "preguntar",
+      "tags": [
+        "adjetivo",
+        "interrogativo"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "diretso-lang",
+      "tl": "Diretso lang.",
+      "es": "Sigue recto.",
+      "lit": "",
+      "note": "dar direcciones simples",
+      "pill": "moverse",
+      "tags": [
+        "dirección"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "para-jeepney",
+      "tl": "Para!",
+      "es": "¡Para!",
+      "lit": "",
+      "note": "detener un jeepney",
+      "pill": "moverse",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "tagpila-ni",
+      "tl": "Tagpila ni?",
+      "es": "¿Cuánto cuesta esto?",
+      "lit": "",
+      "note": "Usado para preguntar el precio de un objeto",
+      "pill": "mercado",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "bente-pesos",
+      "tl": "Bente pesos.",
+      "es": "Veinte pesos.",
+      "lit": "",
+      "note": "Respuesta típica para indicar el precio",
+      "pill": "mercado",
+      "tags": [
+        "números"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "mahal",
+      "tl": "Mahal!",
+      "es": "¡Caro!",
+      "lit": "",
+      "note": "Expresión para indicar que algo es caro",
+      "pill": "mercado",
+      "tags": [
+        "exclamación"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "barato",
+      "tl": "Barato.",
+      "es": "Barato.",
+      "lit": "",
+      "note": "Expresión para indicar que algo es barato",
+      "pill": "mercado",
+      "tags": [
+        "exclamación"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "usa-ka-kape",
+      "tl": "Usa ka kape palihug.",
+      "es": "Un café, por favor.",
+      "lit": "",
+      "note": "Forma cortés de pedir algo",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "pahatag-og-tubig",
+      "tl": "Pahatag og tubig.",
+      "es": "Dame agua.",
+      "lit": "",
+      "note": "Forma directa de pedir agua",
+      "pill": "comida",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "wala",
+      "tl": "Wala.",
+      "es": "No hay.",
+      "lit": "",
+      "note": "Respuesta para indicar ausencia",
+      "pill": "mercado",
+      "tags": [
+        "negación"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "usa-duha-tulo",
+      "tl": "Usa, duha, tulo...",
+      "es": "Uno, dos, tres...",
+      "lit": "",
+      "note": "Números básicos en Bisaya",
+      "pill": "mercado",
+      "tags": [
+        "números"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "kanus-a",
+      "tl": "Kanus-a?",
+      "es": "¿Cuándo?",
+      "lit": "",
+      "note": "Pregunta sobre el tiempo",
+      "pill": "preguntar",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "ngano",
+      "tl": "Ngano?",
+      "es": "¿Por qué?",
+      "lit": "",
+      "note": "Pregunta sobre la razón",
+      "pill": "preguntar",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "pila",
+      "tl": "Pila?",
+      "es": "¿Cuántos?",
+      "lit": "",
+      "note": "Pregunta sobre cantidad",
+      "pill": "preguntar",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "kay-gigutom-ko",
+      "tl": "Kay gigutom ko.",
+      "es": "Porque tengo hambre.",
+      "lit": "",
+      "note": "Explicación de motivo",
+      "pill": "comida",
+      "tags": [
+        "conjunción",
+        "explicación"
+      ],
+      "answer": true,
+      "lesson": 7
+    },
+    {
+      "id": "karon-ugma-gahapon-unya",
+      "tl": "Karon, ugma, gahapon, unya",
+      "es": "Ahora, mañana, ayer, luego",
+      "lit": "",
+      "note": "Palabras de tiempo comunes",
+      "pill": "tiempo",
+      "tags": [
+        "tiempo"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "pila-mo",
+      "tl": "Pila mo?",
+      "es": "¿Cuántos sois?",
+      "lit": "",
+      "note": "Pregunta sobre número de personas",
+      "pill": "familia",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "kami-kita",
+      "tl": "Kami ug kita",
+      "es": "Nosotros (sin ti) y nosotros (contigo)",
+      "lit": "",
+      "note": "Diferencia entre 'kami' y 'kita'",
+      "pill": "familia",
+      "tags": [
+        "pronombres"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "kamo-sila",
+      "tl": "Kamo ug sila",
+      "es": "Vosotros y ellos",
+      "lit": "",
+      "note": "Diferencia entre 'kamo' y 'sila'",
+      "pill": "familia",
+      "tags": [
+        "pronombres"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "sige-tara-dali",
+      "tl": "Sige, tara, dali!",
+      "es": "¡Vamos, ven, rápido!",
+      "lit": "",
+      "note": "Expresiones para moverse rápido",
+      "pill": "moverse",
+      "tags": [
+        "imperativos"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "kadali-lang",
+      "tl": "Kadali lang",
+      "es": "Espera un momento",
+      "lit": "",
+      "note": "Usado para pedir paciencia",
+      "pill": "cortesia",
+      "tags": [
+        "imperativos"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "pasaylo",
+      "tl": "Pasaylo-a ko",
+      "es": "Perdóname",
+      "lit": "",
+      "note": "Para disculparse",
+      "pill": "cortesia",
+      "tags": [
+        "imperativos"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "unsa-sa-binisaya-ang-agua",
+      "tl": "Unsa sa Binisaya ang 'agua'?",
+      "es": "¿Cómo se dice 'agua' en Bisaya?",
+      "lit": "",
+      "note": "Preguntar por palabras en Bisaya",
+      "pill": "entender",
+      "tags": [
+        "interrogativos"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "walay-sapayan",
+      "tl": "Walay sapayan",
+      "es": "De nada",
+      "lit": "",
+      "note": "Respuesta a 'gracias'",
+      "pill": "cortesia",
+      "tags": [
+        "respuestas"
+      ],
+      "answer": true,
+      "lesson": 8
+    },
+    {
+      "id": "unsa-ang-imo-buhaton",
+      "tl": "Unsa ang imo buhaton?",
+      "es": "¿Qué vas a hacer?",
+      "lit": "",
+      "note": "Preguntar por planes",
+      "pill": "tiempo",
+      "tags": [
+        "interrogativos"
+      ],
+      "answer": true,
+      "lesson": 8
+    },
+    {
+      "id": "asa-imong-balay",
+      "tl": "Asa imong balay?",
+      "es": "¿Dónde está tu casa?",
+      "lit": "",
+      "note": "preguntar por la ubicación de la casa",
+      "pill": "casa",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "naa-ko-sa-balay",
+      "tl": "Naa ko sa balay.",
+      "es": "Estoy en casa.",
+      "lit": "",
+      "note": "responder sobre tu ubicación",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "hain-ka",
+      "tl": "Hain ka?",
+      "es": "¿Dónde estás?",
+      "lit": "",
+      "note": "pregunta genérica sobre ubicación",
+      "pill": "casa",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "naa-diri",
+      "tl": "Naa diri.",
+      "es": "Está aquí.",
+      "lit": "",
+      "note": "indicar presencia en el lugar",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "naa-didto",
+      "tl": "Naa didto.",
+      "es": "Está allí.",
+      "lit": "",
+      "note": "indicar presencia en otro lugar",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "wala-siya-diri",
+      "tl": "Wala siya diri.",
+      "es": "No está aquí.",
+      "lit": "",
+      "note": "indicar ausencia en el lugar",
+      "pill": "casa",
+      "tags": [
+        "negación"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "naa-sa-bohol",
+      "tl": "Naa sa Bohol.",
+      "es": "Está en Bohol.",
+      "lit": "",
+      "note": "indicar ubicación en Bohol",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "naa-kay-pamilya",
+      "tl": "Naa kay pamilya?",
+      "es": "¿Tienes familia?",
+      "lit": "",
+      "note": "Pregunta para conocer la situación familiar de alguien",
+      "pill": "familia",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "naa-koy-anak",
+      "tl": "Naa koy anak.",
+      "es": "Tengo hijos.",
+      "lit": "",
+      "note": "Para expresar que se tienen hijos",
+      "pill": "familia",
+      "tags": [
+        "posesivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "pila-mo-sa-pamilya",
+      "tl": "Pila mo sa pamilya?",
+      "es": "¿Cuántos sois en la familia?",
+      "lit": "",
+      "note": "Para preguntar el tamaño de la familia",
+      "pill": "familia",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "nanay-mama",
+      "tl": "Nanay / Mama",
+      "es": "Madre / Mamá",
+      "lit": "",
+      "note": "Términos para referirse a la madre",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "tatay-papa",
+      "tl": "Tatay / Papa",
+      "es": "Padre / Papá",
+      "lit": "",
+      "note": "Términos para referirse al padre",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "igsoon",
+      "tl": "Igsoon",
+      "es": "Hermano/a",
+      "lit": "",
+      "note": "Palabra general para hermano o hermana",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "kuya-ate",
+      "tl": "Kuya / Ate",
+      "es": "Hermano mayor / Hermana mayor",
+      "lit": "",
+      "note": "Términos de respeto para hermanos mayores",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "naa-ko-sa-cebu",
+      "tl": "Naa ko sa Cebu.",
+      "es": "Estoy en Cebú.",
+      "lit": "",
+      "note": "Para indicar ubicación en Cebú",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "pila-imong-edad",
+      "tl": "Pila imong edad?",
+      "es": "¿Cuántos años tienes?",
+      "lit": "",
+      "note": "preguntar la edad de manera directa y respetuosa",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "bata-pa-siya",
+      "tl": "Bata pa siya.",
+      "es": "Es todavía joven.",
+      "lit": "",
+      "note": "describir a alguien joven",
+      "pill": "ninos",
+      "tags": [
+        "descripción"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "tigulang-na",
+      "tl": "Tigulang na.",
+      "es": "Es mayor.",
+      "lit": "",
+      "note": "describir a alguien mayor",
+      "pill": "ninos",
+      "tags": [
+        "descripción"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "ka-tuig-na-ko",
+      "tl": "…ka tuig na ko.",
+      "es": "Tengo… años.",
+      "lit": "",
+      "note": "responder con la edad",
+      "pill": "ninos",
+      "tags": [
+        "respuesta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "pila-ka-tuig",
+      "tl": "Pila ka tuig?",
+      "es": "¿Cuántos años?",
+      "lit": "",
+      "note": "preguntar cuántos años",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "diri-sa-cebu",
+      "tl": "Diri sa Cebu.",
+      "es": "Aquí en Cebú.",
+      "lit": "",
+      "note": "indicar ubicación en Cebú",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "naa-sa-pasil",
+      "tl": "Naa sa Pasil.",
+      "es": "Está en Pasil.",
+      "lit": "",
+      "note": "indicar ubicación en Pasil",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "asa-ka-nagpuyo",
+      "tl": "Asa ka nagpuyo?",
+      "es": "¿Dónde vives?",
+      "lit": "",
+      "note": "preguntar por el lugar de residencia",
+      "pill": "casa",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "unsa-imong-trabaho",
+      "tl": "Unsa imong trabaho?",
+      "es": "¿De qué trabajas?",
+      "lit": "",
+      "note": "pregunta común sobre la ocupación",
+      "pill": "trabajo",
+      "tags": [
+        "pregunta",
+        "trabajo"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "drayber-ko",
+      "tl": "Drayber ko.",
+      "es": "Soy conductor.",
+      "lit": "",
+      "note": "respuesta común sobre la ocupación",
+      "pill": "trabajo",
+      "tags": [
+        "respuesta",
+        "trabajo"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "nagbaligya-ko",
+      "tl": "Nagbaligya ko.",
+      "es": "Vendo.",
+      "lit": "",
+      "note": "respuesta común sobre la ocupación",
+      "pill": "trabajo",
+      "tags": [
+        "respuesta",
+        "trabajo"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "walay-trabaho",
+      "tl": "Walay trabaho.",
+      "es": "No tengo trabajo.",
+      "lit": "",
+      "note": "respuesta común sobre la ocupación",
+      "pill": "trabajo",
+      "tags": [
+        "respuesta",
+        "trabajo"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "naa-kay-negosyo",
+      "tl": "Naa kay negosyo?",
+      "es": "¿Tienes un negocio?",
+      "lit": "",
+      "note": "pregunta sobre negocio personal",
+      "pill": "trabajo",
+      "tags": [
+        "pregunta",
+        "trabajo"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "dako-imong-sweldo",
+      "tl": "Dako imong sweldo?",
+      "es": "¿Tienes buen sueldo?",
+      "lit": "",
+      "note": "pregunta sobre el salario",
+      "pill": "trabajo",
+      "tags": [
+        "pregunta",
+        "trabajo"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "naa-ko-sa-carbon",
+      "tl": "Naa ko sa Carbon.",
+      "es": "Estoy en Carbon.",
+      "lit": "",
+      "note": "ubicación en un mercado conocido",
+      "pill": "mercado",
+      "tags": [
+        "ubicación",
+        "lugar"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "naa-sa-talisay",
+      "tl": "Naa sa Talisay.",
+      "es": "Está en Talisay.",
+      "lit": "",
+      "note": "ubicación en una ciudad cercana",
+      "pill": "casa",
+      "tags": [
+        "ubicación",
+        "lugar"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "nikaon-na-ka",
+      "tl": "Nikaon na ka?",
+      "es": "¿Ya has comido?",
+      "lit": "",
+      "note": "Usado para preguntar si alguien ya ha comido, una forma común de mostrar interés.",
+      "pill": "comida",
+      "tags": [
+        "pregunta",
+        "na/pa"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "nikaon-na-ko",
+      "tl": "Nikaon na ko.",
+      "es": "Ya he comido.",
+      "lit": "",
+      "note": "Respuesta afirmativa a si ya has comido.",
+      "pill": "comida",
+      "tags": [
+        "afirmación",
+        "na/pa"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "wala-pa",
+      "tl": "Wala pa.",
+      "es": "Todavía no.",
+      "lit": "",
+      "note": "Respuesta negativa, indicando que aún no se ha hecho algo.",
+      "pill": "comida",
+      "tags": [
+        "negación",
+        "na/pa"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "kaon-ta",
+      "tl": "Kaon ta!",
+      "es": "¡Comamos!",
+      "lit": "",
+      "note": "Invitación a comer juntos.",
+      "pill": "comida",
+      "tags": [
+        "invitación",
+        "ta"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "gigutom-ka",
+      "tl": "Gigutom ka?",
+      "es": "¿Tienes hambre?",
+      "lit": "",
+      "note": "Pregunta para saber si alguien tiene hambre.",
+      "pill": "comida",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "giuhaw-ko",
+      "tl": "Giuhaw ko.",
+      "es": "Tengo sed.",
+      "lit": "",
+      "note": "Expresión para indicar que se tiene sed.",
+      "pill": "comida",
+      "tags": [
+        "estado"
+      ],
+      "answer": true,
+      "lesson": 13
+    },
+    {
+      "id": "nalipay-ko-nagkaila",
+      "tl": "Nalipay ko nga nagkaila ta.",
+      "es": "Me alegra que nos hayamos conocido.",
+      "lit": "Feliz yo que conocernos.",
+      "note": "Expresión de alegría al conocer a alguien.",
+      "pill": "presentarse",
+      "tags": [
+        "verbo",
+        "sentimiento"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "kita-ta-ugma",
+      "tl": "Kita ta ugma.",
+      "es": "Nos vemos mañana.",
+      "lit": "Ver nosotros mañana.",
+      "note": "Despedida común indicando un próximo encuentro.",
+      "pill": "tiempo",
+      "tags": [
+        "verbo",
+        "futuro"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "gwapa-ka",
+      "tl": "Gwapa ka.",
+      "es": "Eres guapa.",
+      "lit": "Guapa tú.",
+      "note": "Cumplido cariñoso.",
+      "pill": "social",
+      "tags": [
+        "adjetivo",
+        "cumplido"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "bai",
+      "tl": "Bai!",
+      "es": "¡Amigo!",
+      "lit": "",
+      "note": "Término coloquial para referirse a un amigo.",
+      "pill": "social",
+      "tags": [
+        "vocativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "kanta",
+      "tl": "Kanta!",
+      "es": "¡Canta!",
+      "lit": "Cantar.",
+      "note": "Invitación a cantar, común en reuniones.",
+      "pill": "social",
+      "tags": [
+        "verbo",
+        "imperativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "amping-ka",
+      "tl": "Amping ka!",
+      "es": "¡Cuídate!",
+      "lit": "Cuidar tú.",
+      "note": "Forma cariñosa de despedirse.",
+      "pill": "cortesia",
+      "tags": [
+        "imperativo"
+      ],
+      "answer": true,
+      "lesson": 14
+    },
+    {
+      "id": "asa-ka-nagtrabaho",
+      "tl": "Asa ka nagtrabaho?",
+      "es": "¿Dónde trabajas?",
+      "lit": "Dónde tú trabajar.",
+      "note": "Pregunta sobre el lugar de trabajo.",
+      "pill": "trabajo",
+      "tags": [
+        "pregunta",
+        "verbo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "naa-sa-guadalupe",
+      "tl": "Naa sa Guadalupe.",
+      "es": "Está en Guadalupe.",
+      "lit": "Está en Guadalupe.",
+      "note": "Indicación de ubicación.",
+      "pill": "casa",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 14
+    },
+    {
+      "id": "unsa-imong-gibuhat-diri-dong",
+      "tl": "Unsa imong gibuhat diri, dong?",
+      "es": "¿Qué haces aquí, niño?",
+      "lit": "",
+      "note": "preguntar a un niño con cariño",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "nag-inusara-ka",
+      "tl": "Nag-inusara ka?",
+      "es": "¿Estás solo?",
+      "lit": "",
+      "note": "preguntar por la compañía de un niño",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "hain-imong-mama-ug-papa",
+      "tl": "Hain imong mama ug papa?",
+      "es": "¿Dónde están tu mamá y tu papá?",
+      "lit": "",
+      "note": "preguntar por los padres de un niño",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "dali-diri",
+      "tl": "Dali diri.",
+      "es": "Ven aquí.",
+      "lit": "",
+      "note": "invitar a acercarse",
+      "pill": "ninos",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "naa-ko-diri",
+      "tl": "Naa ko diri.",
+      "es": "Estoy aquí.",
+      "lit": "",
+      "note": "indicar presencia",
+      "pill": "ninos",
+      "tags": [
+        "presente"
+      ],
+      "answer": true,
+      "lesson": 15
+    },
+    {
+      "id": "wala-ko-kuyog",
+      "tl": "Wala ko kuyog.",
+      "es": "No estoy acompañado.",
+      "lit": "",
+      "note": "indicar que está solo",
+      "pill": "ninos",
+      "tags": [
+        "negación"
+      ],
+      "answer": true,
+      "lesson": 15
+    },
+    {
+      "id": "naa-sa-tindahan",
+      "tl": "Naa sa tindahan.",
+      "es": "Está en la tienda.",
+      "lit": "",
+      "note": "indicar ubicación de alguien",
+      "pill": "ninos",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 15
+    },
+    {
+      "id": "gusto-nimo-og-tubig",
+      "tl": "Gusto nimo og tubig?",
+      "es": "¿Quieres agua?",
+      "lit": "",
+      "note": "ofrecer algo al niño",
+      "pill": "ninos",
+      "tags": [
+        "oferta"
+      ],
+      "lesson": 15
+    }
+  ]
 }

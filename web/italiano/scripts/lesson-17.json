@@ -1,0 +1,2062 @@
+{
+  "title": "Muoversi in città",
+  "subtitle": "Aprender a moverse en Roma usando el transporte público.",
+  "summary_es": "Una frase",
+  "topics": [
+    "transporte",
+    "ubicación",
+    "preguntar",
+    "precio",
+    "requisito"
+  ],
+  "dialogue": {
+    "tl": [
+      "Scusa, che linea prendo per il Colosseo?",
+      "Prendi la linea B e scendi alla prossima fermata.",
+      "Grazie! La fermata è qui vicino?",
+      "Sì, è alla fermata lì.",
+      "Perfetto, grazie mille!"
+    ],
+    "es": [
+      "Perdona, ¿qué línea tomo para el Coliseo?",
+      "Toma la línea B y baja en la próxima parada.",
+      "¡Gracias! ¿La parada está cerca?",
+      "Sí, está en la parada allí.",
+      "Perfecto, ¡muchas gracias!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Che linea prendo per il Colosseo?",
+      "es": "¿Qué línea tomo para el Coliseo?"
+    },
+    {
+      "term": "La fermata è qui vicino?",
+      "es": "¿La parada está cerca?"
+    },
+    {
+      "term": "Scendo alla prossima.",
+      "es": "Bajo en la próxima."
+    },
+    {
+      "term": "Dove posso noleggiare una Vespa?",
+      "es": "¿Dónde puedo alquilar una Vespa?"
+    },
+    {
+      "term": "C'è un noleggio moto qui vicino?",
+      "es": "¿Hay un alquiler de motos cerca?"
+    },
+    {
+      "term": "Quanto costa al giorno?",
+      "es": "¿Cuánto cuesta al día?"
+    },
+    {
+      "term": "Serve la patente?",
+      "es": "¿Hace falta carnet?"
+    },
+    {
+      "term": "Il casco è incluso?",
+      "es": "¿El casco está incluido?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 17. Muoversi in città.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una parada de autobús en Roma, tratando de entender cómo llegar al Coliseo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa, che linea prendo per il Colosseo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdona, ¿qué línea tomo para el Coliseo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prendi la linea B e scendi alla prossima fermata.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Toma la línea B y baja en la próxima parada.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie! La fermata è qui vicino?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿La parada está cerca?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è alla fermata lì.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está en la parada allí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfetto, grazie mille!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, ¡muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a moverse en Roma usando el transporte público. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El cappuccino solo por la mañana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué línea tomo para el Coliseo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "losseo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Colosseo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "linea prendo per il Colosseo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa esta pregunta para saber qué transporte público tomar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué línea tomo para el Coliseo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué línea tomo para el Coliseo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿La parada está cerca?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vicino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fermata è qui vicino",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta útil para encontrar la parada de autobús o metro.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿La parada está cerca?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿La parada está cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Bajo en la próxima». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sima",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prossima",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "alla prossima",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Úsalo para indicar que bajarás en la siguiente parada.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Bajo en la próxima»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bajo en la próxima».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo alquilar una Vespa?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vespa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "una Vespa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "posso noleggiare una Vespa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para encontrar un lugar de alquiler de Vespas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar una Vespa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo alquilar una Vespa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿La parada está cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hay un alquiler de motos cerca?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vicino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un noleggio moto qui vicino",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber si hay un lugar de alquiler de motos cerca.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hay un alquiler de motos cerca?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hay un alquiler de motos cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta al día?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "orno",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "giorno",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "costa al giorno",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar el precio diario de alquiler.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta al día?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde puedo alquilar una Vespa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hace falta carnet?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tente",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "patente",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la patente",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta si se necesita carnet para alquilar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hace falta carnet?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hace falta carnet?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿El casco está incluido?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "so",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cluso",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "incluso",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "casco è incluso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta si el casco viene con el alquiler.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿El casco está incluido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿El casco está incluido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vamos a casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo a casa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a casa.",
+      "item": "andiamo-a-casa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar direcciones y precios.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, para preguntar cómo llegar a un lugar, se usa 'Che linea prendo per…?' para el transporte público. Para preguntar precios, se usa 'Quanto costa?' o 'Quant'è?'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è alla fermata.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está en la parada.",
+      "item": "si-alla-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está en la parada».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è alla fermata.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está en la parada.",
+      "item": "si-alla-fermata"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, non c'è un noleggio qui vicino.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no hay un alquiler cerca.",
+      "item": "no-non-ce-noleggio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no hay un alquiler cerca».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, non c'è un noleggio qui vicino.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no hay un alquiler cerca.",
+      "item": "no-non-ce-noleggio"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Costa venti euro al giorno.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Cuesta veinte euros al día.",
+      "item": "costa-venti-euro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cuesta veinte euros al día».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Costa venti euro al giorno.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cuesta veinte euros al día.",
+      "item": "costa-venti-euro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Roma y quieres alquilar una Vespa. Pregunta dónde puedes hacerlo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué línea tomo para el Coliseo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿La parada está cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Bajo en la próxima».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar una Vespa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay un alquiler de motos cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hace falta carnet?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿El casco está incluido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lavoro in...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "lavoro-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El cappuccino solo por la mañana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il cappuccino solo la mattina.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El cappuccino solo por la mañana.",
+      "item": "cappuccino-mattina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué línea tomo para el Coliseo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Che linea prendo per il Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para el Coliseo?",
+      "item": "che-linea-prendo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿La parada está cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La fermata è qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La parada está cerca?",
+      "item": "la-fermata"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Bajo en la próxima».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scendo alla prossima.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bajo en la próxima.",
+      "item": "scendo-alla-prossima"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar una Vespa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove posso noleggiare una Vespa?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una Vespa?",
+      "item": "dove-posso-noleggiare-vespa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay un alquiler de motos cerca?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'è un noleggio moto qui vicino?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un alquiler de motos cerca?",
+      "item": "c-e-noleggio-moto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa al giorno?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "quanto-costa-al-giorno"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hace falta carnet?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve la patente?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hace falta carnet?",
+      "item": "serve-la-patente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿El casco está incluido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il casco è incluso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El casco está incluido?",
+      "item": "il-casco-incluso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa, che linea prendo per il Colosseo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdona, ¿qué línea tomo para el Coliseo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prendi la linea B e scendi alla prossima fermata.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Toma la línea B y baja en la próxima parada.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie! La fermata è qui vicino?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿La parada está cerca?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è alla fermata lì.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está en la parada allí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfetto, grazie mille!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, ¡muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 18.5,
+    "chars": 6417,
+    "cues": 221,
+    "mode": "lesson",
+    "lesson": 17
+  }
+}

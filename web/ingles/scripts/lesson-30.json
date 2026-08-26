@@ -1,0 +1,1485 @@
+{
+  "title": "Verbs: the engine",
+  "subtitle": "Aprenderás a usar verbos en situaciones cotidianas.",
+  "summary_es": "Una frase",
+  "topics": [
+    "verbos",
+    "presente",
+    "futuro",
+    "presente perfecto",
+    "informal"
+  ],
+  "dialogue": {
+    "tl": [
+      "Do you wanna visit the British Museum?",
+      "I gotta go now.",
+      "Have you been here before?",
+      "No, I haven't been here.",
+      "It's gonna rain soon. Do you have an umbrella?",
+      "Yes, I have one."
+    ],
+    "es": [
+      "¿Quieres visitar el Museo Británico?",
+      "Tengo que irme ahora.",
+      "¿Has estado aquí antes?",
+      "No, no he estado aquí.",
+      "Va a llover pronto. ¿Tienes un paraguas?",
+      "Sí, tengo uno."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Do you wanna visit the British Museum?",
+      "es": "¿Quieres visitar el Museo Británico?"
+    },
+    {
+      "term": "I gotta go now.",
+      "es": "Tengo que irme ahora."
+    },
+    {
+      "term": "Have you been here before?",
+      "es": "¿Has estado aquí antes?"
+    },
+    {
+      "term": "It's gonna rain soon.",
+      "es": "Va a llover pronto."
+    },
+    {
+      "term": "Do you have an umbrella?",
+      "es": "¿Tienes un paraguas?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 30. Verbs: the engine.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Londres, paseando por Camden, y empieza a llover. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo que irme ahora.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I haven't been here.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no he estado aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon. Do you have an umbrella?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Va a llover pronto. ¿Tienes un paraguas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have one.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo uno.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a usar verbos en situaciones cotidianas. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a visitar el museo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está abierto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Horario de apertura».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quieres visitar el Museo Británico?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Museum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you wanna visit the British Museum",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso informal de 'wanna' para 'want to'",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres visitar el Museo Británico?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres visitar el Museo Británico?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo que irme ahora». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "now",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go now",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gotta go now",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso informal de 'gotta' para 'got to'",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo que irme ahora»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo que irme ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Has estado aquí antes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "before",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you been here before",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre experiencia previa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Has estado aquí antes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Has estado aquí antes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Va a llover pronto». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "soon",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rain soon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gonna rain soon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso informal de 'gonna' para 'going to'",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Va a llover pronto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Va a llover pronto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo que irme ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes un paraguas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "brella",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "umbrella",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you have an umbrella",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta práctica ante lluvia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes un paraguas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes un paraguas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso informal de 'wanna', 'gonna' y 'gotta'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés hablado, es común usar 'wanna' en lugar de 'want to', 'gonna' en lugar de 'going to', y 'gotta' en lugar de 'got to'. Estos son atajos que hacen el habla más fluida.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I've been here.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, he estado aquí.",
+      "item": "yes-ive-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, he estado aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I've been here.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, he estado aquí.",
+      "item": "yes-ive-been-here"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I haven't been here.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no he estado aquí.",
+      "item": "no-i-havent-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no he estado aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I haven't been here.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no he estado aquí.",
+      "item": "no-i-havent-been-here"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have one.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, tengo uno.",
+      "item": "yes-i-have-one"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, tengo uno».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have one.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, tengo uno.",
+      "item": "yes-i-have-one"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Camden y empieza a llover. Pregunta si la otra persona tiene paraguas.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres visitar el Museo Británico?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo que irme ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Has estado aquí antes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Va a llover pronto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes un paraguas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a visitar el museo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está abierto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Horario de apertura».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres visitar el Museo Británico?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": "do-you-wanna-visit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo que irme ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo que irme ahora.",
+      "item": "i-gotta-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Has estado aquí antes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": "have-you-been-here-before"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Va a llover pronto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Va a llover pronto.",
+      "item": "its-gonna-rain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes un paraguas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have an umbrella?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes un paraguas?",
+      "item": "do-you-have-an-umbrella"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you wanna visit the British Museum?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quieres visitar el Museo Británico?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I gotta go now.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo que irme ahora.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you been here before?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Has estado aquí antes?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I haven't been here.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no he estado aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's gonna rain soon. Do you have an umbrella?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Va a llover pronto. ¿Tienes un paraguas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I have one.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo uno.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.0,
+    "chars": 4532,
+    "cues": 158,
+    "mode": "lesson",
+    "lesson": 30
+  }
+}

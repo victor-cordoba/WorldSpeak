@@ -1,0 +1,2064 @@
+{
+  "title": "Alugar uma prancha",
+  "subtitle": "Aprenderás a preguntar sobre alquiler de tablas y clases de surf.",
+  "summary_es": "Una lección sobre alquiler de equipo de surf.",
+  "topics": [
+    "alquiler",
+    "surf",
+    "precios",
+    "clases",
+    "equipo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Olá! Onde posso alugar uma prancha?",
+      "Aqui mesmo. Temos pranchas e fatos.",
+      "Quanto é por dia?",
+      "É vinte euros por dia.",
+      "E tens escola de surf?",
+      "Sim, temos aulas para principiantes e intermédios."
+    ],
+    "es": [
+      "¡Hola! ¿Dónde puedo alquilar una tabla?",
+      "Aquí mismo. Tenemos tablas y trajes.",
+      "¿Cuánto es por día?",
+      "Son veinte euros por día.",
+      "¿Y tienes escuela de surf?",
+      "Sí, tenemos clases para principiantes e intermedios."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Onde posso alugar uma prancha?",
+      "es": "¿Dónde puedo alquilar una tabla?"
+    },
+    {
+      "term": "Uma prancha e um fato",
+      "es": "Una tabla y un traje"
+    },
+    {
+      "term": "Quanto é por dia?",
+      "es": "¿Cuánto es por día?"
+    },
+    {
+      "term": "Quanto é por hora?",
+      "es": "¿Cuánto es por hora?"
+    },
+    {
+      "term": "Tens escola de surf?",
+      "es": "¿Tienes escuela de surf?"
+    },
+    {
+      "term": "Uma aula para principiantes",
+      "es": "Una clase para principiantes"
+    },
+    {
+      "term": "Sou intermédio",
+      "es": "Soy intermedio"
+    },
+    {
+      "term": "Tens leash / parafina?",
+      "es": "¿Tienes leash / parafina?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 16. Alugar uma prancha.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una tienda de surf en Ericeira, el alumno busca alquilar una tabla y un traje. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Onde posso alugar uma prancha?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde puedo alquilar una tabla?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Aqui mesmo. Temos pranchas e fatos.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Aquí mismo. Tenemos tablas y trajes.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto es por día?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É vinte euros por dia.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son veinte euros por día.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tens escola de surf?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tienes escuela de surf?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, temos aulas para principiantes e intermédios.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tenemos clases para principiantes e intermedios.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar sobre alquiler de tablas y clases de surf. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo abre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que abre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-abre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto ahora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está aberto agora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto ahora?",
+      "item": "esta-aberto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una caña, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não há problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "nao-ha-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas en Portugal?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo alquilar una tabla?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prancha",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uma prancha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "posso alugar uma prancha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta útil al llegar a una playa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar una tabla?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo alquilar una tabla?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una tabla y un traje». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "combinación común para alquilar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una tabla y un traje»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una tabla y un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto es por día?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é por dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre precios al alquilar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es por día?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es por día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto es por hora?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ra",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hora",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por hora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é por hora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre precios al alquilar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es por hora?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es por hora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una tabla y un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes escuela de surf?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "surf",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de surf",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "escola de surf",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta para encontrar clases",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes escuela de surf?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes escuela de surf?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una clase para principiantes». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "antes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "piantes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aula para principiantes",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "útil para quienes empiezan",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una clase para principiantes»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una clase para principiantes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto es por hora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy intermedio». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "médio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "termédio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "intermédio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "nivel de habilidad en surf",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy intermedio»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy intermedio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes leash / parafina?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rafina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "leash / parafina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre accesorios de surf",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes leash / parafina?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes leash / parafina?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una clase para principiantes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo hijos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar sobre precios y disponibilidad.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, usamos 'quanto é' o 'quanto custa' para preguntar por precios. 'Tens' se usa para preguntar por disponibilidad de algo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, tenho.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, tengo.",
+      "item": "sim-tenho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, tengo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, tenho.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, tengo.",
+      "item": "sim-tenho"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não tenho.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no tengo.",
+      "item": "nao-nao-tenho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no tengo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não tenho.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no tengo.",
+      "item": "nao-nao-tenho"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto custa uma prancha?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto cuesta una tabla?",
+      "item": "quanto-custa-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta una tabla?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto custa uma prancha?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta una tabla?",
+      "item": "quanto-custa-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una tienda de surf y quieres alquilar una tabla y un traje.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una tabla?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una tabla y un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto es por día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es por hora?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes escuela de surf?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una clase para principiantes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy intermedio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes leash / parafina?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo abre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que abre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-abre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto ahora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está aberto agora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto ahora?",
+      "item": "esta-aberto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una caña, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não há problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "nao-ha-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas en Portugal?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há quanto tempo estás em Portugal?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas en Portugal?",
+      "item": "ha-quanto-tempo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una tabla?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una tabla y un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma prancha e um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una tabla y un traje",
+      "item": "prancha-e-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto es por día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por día?",
+      "item": "quanto-por-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es por hora?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por hora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es por hora?",
+      "item": "quanto-por-hora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes escuela de surf?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens escola de surf?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes escuela de surf?",
+      "item": "tens-escola-surf"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una clase para principiantes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma aula para principiantes",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una clase para principiantes",
+      "item": "aula-principiantes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy intermedio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes leash / parafina?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens leash / parafina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes leash / parafina?",
+      "item": "tens-leash-parafina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Onde posso alugar uma prancha?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde puedo alquilar una tabla?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Aqui mesmo. Temos pranchas e fatos.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Aquí mismo. Tenemos tablas y trajes.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto é por dia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto es por día?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É vinte euros por dia.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son veinte euros por día.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tens escola de surf?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tienes escuela de surf?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, temos aulas para principiantes e intermédios.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tenemos clases para principiantes e intermedios.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 17.5,
+    "chars": 5881,
+    "cues": 221,
+    "mode": "lesson",
+    "lesson": 16
+  }
+}

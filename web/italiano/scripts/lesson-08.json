@@ -1,0 +1,1640 @@
+{
+  "title": "La tua prima chiacchierata",
+  "subtitle": "Aprende a pedir y preguntar en un café romano",
+  "summary_es": "Cómo desenvolverse en un café en Roma.",
+  "topics": [
+    "café",
+    "cortesía",
+    "preguntar",
+    "vocabulario",
+    "romano"
+  ],
+  "dialogue": {
+    "tl": [
+      "Buongiorno! Un caffè, per favore.",
+      "Scusi, come si dice 'mesa' in italiano?",
+      "Si dice 'tavolo'.",
+      "Grazie! Un attimo, per favore.",
+      "Non c'è problema!"
+    ],
+    "es": [
+      "¡Buenos días! Un café, por favor.",
+      "Perdone, ¿cómo se dice 'mesa' en italiano?",
+      "Se dice 'tavolo'.",
+      "¡Gracias! Un momento, por favor.",
+      "¡No hay problema!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Scusa / Scusi",
+      "es": "Perdona / Perdone"
+    },
+    {
+      "term": "Permesso",
+      "es": "Con permiso"
+    },
+    {
+      "term": "Un attimo",
+      "es": "Un momento"
+    },
+    {
+      "term": "Daje!",
+      "es": "¡Vamos!"
+    },
+    {
+      "term": "Come si dice… in italiano?",
+      "es": "¿Cómo se dice… en italiano?"
+    },
+    {
+      "term": "Non c'è problema",
+      "es": "No hay problema"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 8. La tua prima chiacchierata.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café en Trastevere, intentando pedir un café y preguntar por una palabra en italiano. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Buongiorno! Un caffè, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenos días! Un café, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi, come si dice 'mesa' in italiano?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdone, ¿cómo se dice 'mesa' en italiano?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Si dice 'tavolo'.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Se dice 'tavolo'.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie! Un attimo, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! Un momento, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non c'è problema!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡No hay problema!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a pedir y preguntar en un café romano Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta un café?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡De nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se llega al Coliseo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Perdona / Perdone». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "uso informal y formal para disculparse o llamar la atención",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Perdona / Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Con permiso». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "so",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "permesso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "messo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "permesso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "permesso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para pedir paso o entrar en un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Con permiso»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Con permiso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un momento». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-attimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "timo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-attimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "attimo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-attimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-attimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para pedir que esperen brevemente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un momento»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Eso es romanesco: lo que oyes en la calle de Roma. Úsalo con amigos, nunca en una oficina.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos». Literalmente, ¡Dale!. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "je",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "daje"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "daje"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresión típica romana para animar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Con permiso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se dice… en italiano?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ano",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "liano",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si dice… in italiano",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar por vocabulario",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en italiano?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se dice… en italiano?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No hay problema». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "problema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para tranquilizar o restar importancia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No hay problema»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Puoi ripetere?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes repetir?",
+      "item": "puoi-ripetere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'Scusa' y 'Scusi'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, 'scusa' se usa para dirigirse a amigos o personas de confianza, mientras que 'scusi' es más formal y se utiliza con desconocidos o en situaciones más formales. Es importante elegir el registro adecuado según el contexto.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi, permesso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone, ¿con permiso?",
+      "item": "scusi-permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Scusi, permesso?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Perdone, ¿con permiso?",
+      "item": "scusi-permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Perdone, ¿con permiso?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Scusi, permesso?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Perdone, ¿con permiso?",
+      "item": "scusi-permesso"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Un attimo, per favore",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Un momento, por favor",
+      "item": "un-attimo-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un momento, por favor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Un attimo, per favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un momento, por favor",
+      "item": "un-attimo-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un bar y necesitas pedir permiso para pasar.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi, permesso?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone, ¿con permiso?",
+      "item": "scusi-permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres que alguien espere un momento mientras piensas.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo, per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento, por favor",
+      "item": "un-attimo-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona / Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Con permiso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se dice… en italiano?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta un café?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡De nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se llega al Coliseo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si arriva al Colosseo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se llega al Coliseo?",
+      "item": "come-si-arriva-al-colosseo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona / Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Con permiso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Daje!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "daje"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se dice… en italiano?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come si dice… in italiano?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en italiano?",
+      "item": "come-si-dice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non c'è problema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema",
+      "item": "non-ce-problema"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Buongiorno! Un caffè, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenos días! Un café, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusi, come si dice 'mesa' in italiano?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perdone, ¿cómo se dice 'mesa' en italiano?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Si dice 'tavolo'.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Se dice 'tavolo'.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie! Un attimo, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! Un momento, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non c'è problema!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡No hay problema!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.0,
+    "chars": 4237,
+    "cues": 175,
+    "mode": "lesson",
+    "lesson": 8
+  }
+}

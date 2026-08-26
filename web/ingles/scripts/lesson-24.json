@@ -1,0 +1,1735 @@
+{
+  "title": "Watch out!",
+  "subtitle": "Aprende a reaccionar en situaciones de emergencia.",
+  "summary_es": "Una frase para advertir de un peligro inmediato.",
+  "topics": [
+    "emergencia",
+    "salud",
+    "peligro",
+    "imperativos"
+  ],
+  "dialogue": {
+    "tl": [
+      "Watch out!",
+      "Help! I can't find my mum!",
+      "Where's A&E? He looks ill.",
+      "Call 999! He needs a doctor.",
+      "I feel ill.",
+      "Mind the traffic!"
+    ],
+    "es": [
+      "¡Cuidado!",
+      "¡Ayuda! ¡No encuentro a mi mamá!",
+      "¿Dónde está urgencias? Parece enfermo.",
+      "¡Llama al 999! Necesita un médico.",
+      "Me siento mal.",
+      "¡Cuidado con el tráfico!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Watch out!",
+      "es": "¡Cuidado!"
+    },
+    {
+      "term": "Help!",
+      "es": "¡Ayuda!"
+    },
+    {
+      "term": "Call 999!",
+      "es": "¡Llama al 999!"
+    },
+    {
+      "term": "I feel ill.",
+      "es": "Me siento mal."
+    },
+    {
+      "term": "I need a doctor.",
+      "es": "Necesito un médico."
+    },
+    {
+      "term": "Where's A&E?",
+      "es": "¿Dónde está urgencias?"
+    },
+    {
+      "term": "Mind the traffic.",
+      "es": "Cuidado con el tráfico."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 24. Watch out!.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un concurrido mercado de Camden, un niño se pierde de vista de sus padres. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Cuidado!",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Help! I can't find my mum!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Ayuda! ¡No encuentro a mi mamá!",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Where's A&E? He looks ill.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde está urgencias? Parece enfermo.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Call 999! He needs a doctor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Llama al 999! Necesita un médico.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me siento mal.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mind the traffic!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Cuidado con el tráfico!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a reaccionar en situaciones de emergencia. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo ayudarte?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Conduce por la izquierda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Desayuno inglés completo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Cuidado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ut",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "watch-out"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "out",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "watch-out"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "watch-out"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa para advertir de un peligro inmediato.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Cuidado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Cuidado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Ayuda». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "help"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil en situaciones de emergencia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Ayuda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Llama al 999». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "999",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "call-999"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "call-999"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "999 es el número de emergencia en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Llama al 999»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Llama al 999».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me siento mal». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ill",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "feel ill",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar malestar o enfermedad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me siento mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Necesito un médico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "doctor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a doctor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "need a doctor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para buscar atención médica.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está urgencias?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "&E",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A&E",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "A&E es Accident and Emergency en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me siento mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cuidado con el tráfico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fic",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "traffic",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the traffic",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para advertir a alguien sobre el tráfico.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cuidado con el tráfico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cuidado con el tráfico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Té de la tarde».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Imperativos en inglés.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Los imperativos se usan para dar órdenes, advertencias o instrucciones. Se forman con el verbo en su forma base, sin 'to'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I feel ill.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me siento mal.",
+      "item": "yes-i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me siento mal».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I feel ill.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me siento mal.",
+      "item": "yes-i-feel-ill"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't need a doctor.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no necesito un médico.",
+      "item": "no-i-dont-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no necesito un médico».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't need a doctor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no necesito un médico.",
+      "item": "no-i-dont-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un mercado y ves a un niño que parece perdido. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Cuidado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Llama al 999».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cuidado con el tráfico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo ayudarte?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Conduce por la izquierda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Desayuno inglés completo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Cuidado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado!",
+      "item": "watch-out"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Help!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "help"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Llama al 999».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Call 999!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama al 999!",
+      "item": "call-999"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "i-feel-ill"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a doctor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Necesito un médico.",
+      "item": "i-need-a-doctor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where's A&E?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "wheres-ae"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cuidado con el tráfico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mind the traffic.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuidado con el tráfico.",
+      "item": "mind-the-traffic"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Watch out!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Cuidado!",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Help! I can't find my mum!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Ayuda! ¡No encuentro a mi mamá!",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Where's A&E? He looks ill.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde está urgencias? Parece enfermo.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Call 999! He needs a doctor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Llama al 999! Necesita un médico.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I feel ill.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me siento mal.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mind the traffic!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Cuidado con el tráfico!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.3,
+    "chars": 4135,
+    "cues": 185,
+    "mode": "lesson",
+    "lesson": 24
+  }
+}

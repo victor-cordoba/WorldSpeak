@@ -1,0 +1,1680 @@
+{
+  "title": "Horarios en Francia",
+  "subtitle": "Aprende a preguntar y entender los horarios de apertura.",
+  "summary_es": "Una frase",
+  "topics": [
+    "horarios",
+    "días de la semana",
+    "apertura",
+    "cierre",
+    "reservas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, Monsieur.",
+      "Bonjour, c'est ouvert le dimanche ?",
+      "Oui, c'est ouvert.",
+      "Et le lundi ?",
+      "Non, c'est fermé le lundi.",
+      "Merci beaucoup !",
+      "De rien, bonne journée !"
+    ],
+    "es": [
+      "Buenos días, señor.",
+      "Buenos días, ¿está abierto el domingo?",
+      "Sí, está abierto.",
+      "¿Y el lunes?",
+      "No, está cerrado los lunes.",
+      "¡Muchas gracias!",
+      "De nada, ¡buen día!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "C'est ouvert le dimanche ?",
+      "es": "¿Está abierto el domingo?"
+    },
+    {
+      "term": "Fermé le lundi.",
+      "es": "Cerrado los lunes."
+    },
+    {
+      "term": "La pause déjeuner.",
+      "es": "La pausa del almuerzo."
+    },
+    {
+      "term": "Jour férié.",
+      "es": "Día festivo."
+    },
+    {
+      "term": "Je voudrais réserver.",
+      "es": "Quisiera reservar."
+    },
+    {
+      "term": "Fermé pour congés annuels.",
+      "es": "Cerrado por vacaciones anuales."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 18. Horarios en Francia.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café de Montmartre, un turista español pregunta sobre los horarios de apertura. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, c'est ouvert le dimanche ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, ¿está abierto el domingo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Et le lundi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y el lunes?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, c'est fermé le lundi.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, está cerrado los lunes.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Merci beaucoup !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De rien, bonne journée !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De nada, ¡buen día!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a preguntar y entender los horarios de apertura. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí.",
+      "item": "oui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "non"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De qué tienes ganas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está abierto el domingo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "che",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "manche",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dimanche",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ouvert le dimanche",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar en tiendas o museos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto el domingo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está abierto el domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cerrado los lunes». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "di",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lundi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le lundi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica el día de cierre habitual en Francia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cerrado los lunes»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cerrado los lunes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La pausa del almuerzo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ner",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uner",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jeuner",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pause déjeuner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Importante para saber horarios de cierre al mediodía.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La pausa del almuerzo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La pausa del almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Día festivo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rié",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "férié",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Días en los que muchos lugares están cerrados.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Día festivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Día festivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Cerrado los lunes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quisiera reservar». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ver",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "server",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "réserver",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "voudrais réserver",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para hacer reservas en restaurantes o eventos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera reservar»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quisiera reservar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cerrado por vacaciones anuales». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "els",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nuels",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "annuels",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pour congés annuels",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica cierres prolongados por vacaciones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cerrado por vacaciones anuales»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cerrado por vacaciones anuales».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Día festivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por horarios.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, para preguntar si un lugar está abierto, usamos 'C'est ouvert ?'. Para saber si está cerrado, decimos 'C'est fermé ?'. Los días de la semana se usan sin artículo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está abierto.",
+      "item": "oui-cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está abierto».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está abierto.",
+      "item": "oui-cest-ouvert"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, c'est fermé.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, está cerrado.",
+      "item": "non-cest-ferme"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, está cerrado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, c'est fermé.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, está cerrado.",
+      "item": "non-cest-ferme"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je ne sais pas les horaires.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No sé los horarios.",
+      "item": "je-ne-sais-pas-les-horaires"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No sé los horarios».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je ne sais pas les horaires.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No sé los horarios.",
+      "item": "je-ne-sais-pas-les-horaires"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una boulangerie y quieres saber si está abierta el domingo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto el domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cerrado los lunes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La pausa del almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Día festivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera reservar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cerrado por vacaciones anuales».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí.",
+      "item": "oui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "non"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De qué tienes ganas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as envie de quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué tienes ganas?",
+      "item": "tu-as-envie-de-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto el domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert le dimanche ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Está abierto el domingo?",
+      "item": "cest-ouvert-le-dimanche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cerrado los lunes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé le lundi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cerrado los lunes.",
+      "item": "ferme-le-lundi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La pausa del almuerzo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pause déjeuner.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La pausa del almuerzo.",
+      "item": "la-pause-dejeuner"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Día festivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera reservar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais réserver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera reservar.",
+      "item": "je-voudrais-reserver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cerrado por vacaciones anuales».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fermé pour congés annuels.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Cerrado por vacaciones anuales.",
+      "item": "ferme-pour-conges-annuels"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, c'est ouvert le dimanche ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, ¿está abierto el domingo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est ouvert.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Et le lundi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y el lunes?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, c'est fermé le lundi.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, está cerrado los lunes.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Merci beaucoup !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De rien, bonne journée !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De nada, ¡buen día!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.5,
+    "chars": 4479,
+    "cues": 179,
+    "mode": "lesson",
+    "lesson": 18
+  }
+}

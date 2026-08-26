@@ -1,0 +1,1880 @@
+{
+  "title": "Explorando museos y el campo",
+  "subtitle": "Aprenderás a preguntar sobre la entrada a museos y planificar un paseo.",
+  "summary_es": "Una frase",
+  "topics": [
+    "museos",
+    "campo",
+    "cortesía",
+    "preguntas",
+    "respuestas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Is the museum free?",
+      "Yes, it's free.",
+      "Great! Can we go in?",
+      "Yes, you can go in.",
+      "Afterwards, let's have a walk in the countryside.",
+      "And finish at the pub at the end of the walk!"
+    ],
+    "es": [
+      "¿Es gratis el museo?",
+      "Sí, es gratis.",
+      "¡Genial! ¿Podemos entrar?",
+      "Sí, puedes entrar.",
+      "Después, demos un paseo por el campo.",
+      "¡Y terminamos en el pub al final del paseo!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Is the museum free?",
+      "es": "¿Es gratis el museo?"
+    },
+    {
+      "term": "National Trust",
+      "es": "National Trust"
+    },
+    {
+      "term": "The Tate / the British Museum",
+      "es": "La Tate / el Museo Británico"
+    },
+    {
+      "term": "Can we go in?",
+      "es": "¿Podemos entrar?"
+    },
+    {
+      "term": "A walk in the countryside",
+      "es": "Un paseo por el campo"
+    },
+    {
+      "term": "Public footpath",
+      "es": "Sendero público"
+    },
+    {
+      "term": "The pub at the end of the walk",
+      "es": "El pub al final del paseo"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 19. Explorando museos y el campo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Londres, planeando un día de museos y paseo por el campo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Es gratis el museo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's free.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, es gratis.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Great! Can we go in?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Podemos entrar?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, you can go in.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedes entrar.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Afterwards, let's have a walk in the countryside.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Después, demos un paseo por el campo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And finish at the pub at the end of the walk!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Y terminamos en el pub al final del paseo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar sobre la entrada a museos y planificar un paseo. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto los domingos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está abierto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, está cerrado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, it's closed.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, está cerrado.",
+      "item": "no-its-closed"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hoy, mañana, ayer, esta noche»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es gratis el museo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "free",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "museum free",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the museum free",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común al visitar museos en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Es gratis el museo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es gratis el museo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«National Trust». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trust",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "national-trust"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "national-trust"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Organización que protege lugares históricos y naturales en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «National Trust»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «National Trust».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La Tate / el Museo Británico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Museum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Museos icónicos en Londres.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La Tate / el Museo Británico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La Tate / el Museo Británico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Podemos entrar?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go in",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "we go in",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para confirmar si se puede acceder a un lugar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Podemos entrar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Podemos entrar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «National Trust».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un paseo por el campo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tryside",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "untryside",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "walk in the countryside",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Actividad popular en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un paseo por el campo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un paseo por el campo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sendero público». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "path",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "public-footpath"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "otpath",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "public-footpath"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "footpath",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "public-footpath"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "public-footpath"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Camino público para pasear, común en el campo británico.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sendero público»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sendero público».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Podemos entrar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El pub al final del paseo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "walk",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the walk",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "of the walk",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Tradición británica de terminar un paseo con una visita al pub.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El pub al final del paseo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El pub al final del paseo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'can' para preguntar.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés, 'can' se usa para hacer preguntas sobre posibilidad o permiso. Es común en situaciones cotidianas, como preguntar si se puede entrar a un lugar.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's free.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, es gratis.",
+      "item": "yes-its-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, es gratis».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's free.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, es gratis.",
+      "item": "yes-its-free"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, it's not free.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no es gratis.",
+      "item": "no-its-not-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no es gratis».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, it's not free.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no es gratis.",
+      "item": "no-its-not-free"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, you can go in.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, puedes entrar.",
+      "item": "yes-you-can-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, puedes entrar».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, you can go in.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, puedes entrar.",
+      "item": "yes-you-can-go-in"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, you can't go in.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no puedes entrar.",
+      "item": "no-you-cant-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no puedes entrar».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, you can't go in.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no puedes entrar.",
+      "item": "no-you-cant-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a un amigo si el museo es gratis.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Confirma si puedes entrar al museo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Es gratis el museo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «National Trust».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La Tate / el Museo Británico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Podemos entrar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un paseo por el campo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sendero público».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El pub al final del paseo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto los domingos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está abierto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, está cerrado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No, it's closed.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, está cerrado.",
+      "item": "no-its-closed"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hoy, mañana, ayer, esta noche»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Today, tomorrow, yesterday, tonight",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Hoy, mañana, ayer, esta noche",
+      "item": "today-tomorrow"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Es gratis el museo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es gratis el museo?",
+      "item": "is-the-museum-free"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «National Trust».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "National Trust",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "National Trust",
+      "item": "national-trust"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La Tate / el Museo Británico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Tate / the British Museum",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La Tate / el Museo Británico",
+      "item": "the-tate-the-british-museum"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Podemos entrar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can we go in?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "can-we-go-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un paseo por el campo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A walk in the countryside",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un paseo por el campo",
+      "item": "a-walk-in-the-countryside"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sendero público».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El pub al final del paseo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The pub at the end of the walk",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El pub al final del paseo",
+      "item": "the-pub-at-the-end-of-the-walk"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is the museum free?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Es gratis el museo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's free.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, es gratis.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Great! Can we go in?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Podemos entrar?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, you can go in.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedes entrar.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Afterwards, let's have a walk in the countryside.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Después, demos un paseo por el campo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And finish at the pub at the end of the walk!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Y terminamos en el pub al final del paseo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.1,
+    "chars": 5454,
+    "cues": 201,
+    "mode": "lesson",
+    "lesson": 19
+  }
+}

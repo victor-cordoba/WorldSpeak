@@ -1,0 +1,1622 @@
+{
+  "title": "Preghiamo insieme",
+  "subtitle": "Aprender a hablar de fe y actividades religiosas en Roma.",
+  "summary_es": "Una lección sobre la fe y la religión en Roma.",
+  "topics": [
+    "fe",
+    "religión",
+    "Roma",
+    "misa",
+    "bendiciones"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ciao, come stai?",
+      "Tutto bene, grazie! Vuoi pregare insieme?",
+      "Sì, andiamo alla messa a San Pietro.",
+      "Perfetto! Il Vaticano è qui vicino.",
+      "Dio ti benedica."
+    ],
+    "es": [
+      "Hola, ¿cómo estás?",
+      "¡Todo bien, gracias! ¿Quieres rezar juntos?",
+      "Sí, vamos a la misa en San Pedro.",
+      "¡Perfecto! El Vaticano está aquí cerca.",
+      "Dios te bendiga."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Vuoi pregare?",
+      "es": "¿Quieres rezar?"
+    },
+    {
+      "term": "Dio ti benedica.",
+      "es": "Dios te bendiga."
+    },
+    {
+      "term": "Andiamo alla messa.",
+      "es": "Vamos a la misa."
+    },
+    {
+      "term": "San Pietro è bellissimo.",
+      "es": "San Pedro es bellísimo."
+    },
+    {
+      "term": "Il Vaticano è qui vicino.",
+      "es": "El Vaticano está aquí cerca."
+    },
+    {
+      "term": "Padre nostro che sei nei cieli...",
+      "es": "Padre nuestro que estás en los cielos..."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 25. Preghiamo insieme.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una plaza cerca del Vaticano, dos amigos conversan sobre sus planes para el día. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tutto bene, grazie! Vuoi pregare insieme?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Todo bien, gracias! ¿Quieres rezar juntos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, andiamo alla messa a San Pietro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, vamos a la misa en San Pedro.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Perfetto! Il Vaticano è qui vicino.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Perfecto! El Vaticano está aquí cerca.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Dios te bendiga.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar de fe y actividades religiosas en Roma. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Todo bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tutto bene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Todo bien?",
+      "item": "tutto-bene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre trabaja en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quieres rezar?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pregare",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "ofrecer rezar juntos, común en Italia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres rezar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres rezar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Dios te bendiga». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ca",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nedica",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ti benedica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "bendición común en contextos religiosos",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Dios te bendiga»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Dios te bendiga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vamos a la misa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "messa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "alla messa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "invitación a ir a misa, actividad común",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vamos a la misa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vamos a la misa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«San Pedro es bellísimo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "simo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lissimo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pietro è bellissimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "comentario sobre la Basílica de San Pedro",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «San Pedro es bellísimo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «San Pedro es bellísimo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Dios te bendiga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El Vaticano está aquí cerca». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vicino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vaticano è qui vicino",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "ubicación del Vaticano, importante en Roma",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El Vaticano está aquí cerca»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El Vaticano está aquí cerca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Padre nuestro que estás en los cielos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "li",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "eli",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cieli",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nostro che sei nei cieli",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "oración cristiana común",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Padre nuestro que estás en los cielos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Padre nuestro que estás en los cielos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «San Pedro es bellísimo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usos del presente en contextos religiosos.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, el presente se utiliza para hablar de acciones habituales como ir a misa o rezar. Frases como 'Andiamo alla messa' son comunes.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, vado alla messa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, voy a la misa.",
+      "item": "si-vado-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, voy a la misa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, vado alla messa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, voy a la misa.",
+      "item": "si-vado-alla-messa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, non vado alla messa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no voy a la misa.",
+      "item": "no-non-vado-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no voy a la misa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, non vado alla messa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no voy a la misa.",
+      "item": "no-non-vado-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Roma y quieres invitar a un amigo a rezar juntos. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres rezar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Dios te bendiga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vamos a la misa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «San Pedro es bellísimo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El Vaticano está aquí cerca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Padre nuestro que estás en los cielos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Todo bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tutto bene?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Todo bien?",
+      "item": "tutto-bene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre trabaja en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mio padre lavora a Roma.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi padre trabaja en Roma.",
+      "item": "mio-padre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres rezar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi pregare?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres rezar?",
+      "item": "vuoi-pregare"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Dios te bendiga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dios te bendiga.",
+      "item": "dio-ti-benedica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vamos a la misa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Andiamo alla messa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vamos a la misa.",
+      "item": "andiamo-alla-messa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «San Pedro es bellísimo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "San Pietro è bellissimo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "San Pedro es bellísimo.",
+      "item": "san-pietro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El Vaticano está aquí cerca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il Vaticano è qui vicino.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El Vaticano está aquí cerca.",
+      "item": "il-vaticano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Padre nuestro que estás en los cielos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Padre nostro che sei nei cieli...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Padre nuestro que estás en los cielos...",
+      "item": "il-padre-nostro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tutto bene, grazie! Vuoi pregare insieme?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Todo bien, gracias! ¿Quieres rezar juntos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, andiamo alla messa a San Pietro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, vamos a la misa en San Pedro.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Perfetto! Il Vaticano è qui vicino.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Perfecto! El Vaticano está aquí cerca.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dio ti benedica.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Dios te bendiga.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.8,
+    "chars": 4671,
+    "cues": 173,
+    "mode": "lesson",
+    "lesson": 25
+  }
+}

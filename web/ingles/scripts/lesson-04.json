@@ -1,0 +1,1422 @@
+{
+  "title": "Explorando Camden",
+  "subtitle": "Aprender a preguntar por ubicaciones y personas.",
+  "summary_es": "Aprenderás a preguntar dónde están las cosas y quiénes son las personas.",
+  "topics": [
+    "ubicación",
+    "pregunta",
+    "residencia",
+    "distancia",
+    "persona"
+  ],
+  "dialogue": {
+    "tl": [
+      "Mum, where is the tube station?",
+      "It's near, just around the corner.",
+      "Who is that man over there?",
+      "I'm not sure. Maybe a local artist.",
+      "What's this building?",
+      "That's a famous market. Let's have a look!"
+    ],
+    "es": [
+      "Mamá, ¿dónde está la estación de metro?",
+      "Está cerca, justo a la vuelta de la esquina.",
+      "¿Quién es ese hombre allí?",
+      "No estoy segura. Quizás un artista local.",
+      "¿Qué es este edificio?",
+      "Es un mercado famoso. ¡Vamos a echar un vistazo!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Where is the tube station?",
+      "es": "¿Dónde está la estación de metro?"
+    },
+    {
+      "term": "Who is that?",
+      "es": "¿Quién es ese?"
+    },
+    {
+      "term": "What's this?",
+      "es": "¿Qué es esto?"
+    },
+    {
+      "term": "Where do you live?",
+      "es": "¿Dónde vives?"
+    },
+    {
+      "term": "I live in Camden.",
+      "es": "Vivo en Camden."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 4. Explorando Camden.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Camden, Londres, un niño y su madre están explorando el barrio. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mum, where is the tube station?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mamá, ¿dónde está la estación de metro?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's near, just around the corner.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está cerca, justo a la vuelta de la esquina.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Who is that man over there?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién es ese hombre allí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm not sure. Maybe a local artist.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No estoy segura. Quizás un artista local.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "What's this building?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué es este edificio?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "That's a famous market. Let's have a look!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es un mercado famoso. ¡Vamos a echar un vistazo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar por ubicaciones y personas. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está la estación de metro?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tion",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is the tube station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para moverse por Londres.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién es ese?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "that",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "who-is-that"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is that",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "who-is-that"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "who-is-that"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre una persona desconocida.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién es ese?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es ese?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué es esto?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "this",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "whats-this"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whats-this"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre un objeto desconocido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué es esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde vives?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ve",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "live",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you live",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do you live",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para conocer el lugar de residencia de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es ese?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vivo en Camden». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "den",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Camden",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in Camden",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "live in Camden",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar sobre tu lugar de residencia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Camden»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en Camden».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't understand.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "i-dont-understand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por ubicaciones.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usamos 'where' para preguntar por la ubicación de algo o alguien. Por ejemplo, 'Where is the tube station?' o 'Where do you live?'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's here / It's there.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está aquí / Está allí.",
+      "item": "here-there"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está aquí / Está allí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's here / It's there.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está aquí / Está allí.",
+      "item": "here-there"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's near / It's far.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está cerca / Está lejos.",
+      "item": "its-near-far"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está cerca / Está lejos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's near / It's far.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está cerca / Está lejos.",
+      "item": "its-near-far"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Camden y necesitas encontrar la estación de metro. Pregunta a alguien.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es ese?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Camden».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la estación de metro?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es ese?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's this?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "whats-this"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Camden».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I live in Camden.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Camden.",
+      "item": "i-live-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mum, where is the tube station?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mamá, ¿dónde está la estación de metro?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's near, just around the corner.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está cerca, justo a la vuelta de la esquina.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Who is that man over there?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién es ese hombre allí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm not sure. Maybe a local artist.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No estoy segura. Quizás un artista local.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "What's this building?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué es este edificio?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "That's a famous market. Let's have a look!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es un mercado famoso. ¡Vamos a echar un vistazo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.6,
+    "chars": 3908,
+    "cues": 151,
+    "mode": "lesson",
+    "lesson": 4
+  }
+}

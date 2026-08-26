@@ -1,1 +1,3229 @@
-{"items": []}
+{
+  "items": [
+    {
+      "id": "hi",
+      "tl": "Hi",
+      "es": "Hola",
+      "lit": "",
+      "note": "saludo informal y amigable",
+      "pill": "presentarse",
+      "tags": [
+        "saludo"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "how-are-you",
+      "tl": "How are you?",
+      "es": "¿Cómo estás?",
+      "lit": "",
+      "note": "pregunta común para iniciar una conversación",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "im-good-thanks",
+      "tl": "I'm good, thanks.",
+      "es": "Estoy bien, gracias.",
+      "lit": "",
+      "note": "respuesta común a 'How are you?'",
+      "pill": "entender",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 1
+    },
+    {
+      "id": "whats-your-name",
+      "tl": "What's your name?",
+      "es": "¿Cómo te llamas?",
+      "lit": "",
+      "note": "pregunta para conocer a alguien",
+      "pill": "presentarse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "im-name",
+      "tl": "I'm [Name].",
+      "es": "Soy [Nombre].",
+      "lit": "",
+      "note": "respuesta a 'What's your name?'",
+      "pill": "presentarse",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 1
+    },
+    {
+      "id": "nice-to-meet-you",
+      "tl": "Nice to meet you.",
+      "es": "Encantado de conocerte.",
+      "lit": "",
+      "note": "frase cortés al conocer a alguien",
+      "pill": "cortesia",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "thank-you",
+      "tl": "Thank you.",
+      "es": "Gracias.",
+      "lit": "",
+      "note": "expresión de gratitud",
+      "pill": "cortesia",
+      "tags": [
+        "agradecimiento"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "cheers",
+      "tl": "Cheers!",
+      "es": "¡Gracias!",
+      "lit": "",
+      "note": "informal, usado también para brindar",
+      "pill": "cortesia",
+      "tags": [
+        "agradecimiento"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "do-you-speak-spanish",
+      "tl": "Do you speak Spanish?",
+      "es": "¿Hablas español?",
+      "lit": "",
+      "note": "Útil para preguntar si alguien habla español",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta",
+        "idioma"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "a-little",
+      "tl": "A little.",
+      "es": "Un poco.",
+      "lit": "",
+      "note": "Respuesta común para indicar conocimiento básico",
+      "pill": "entender",
+      "tags": [
+        "respuesta",
+        "cantidad"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "i-dont-understand",
+      "tl": "I don't understand.",
+      "es": "No entiendo.",
+      "lit": "",
+      "note": "Para indicar que no se comprende",
+      "pill": "entender",
+      "tags": [
+        "negación",
+        "comprensión"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "could-you-say-that-again",
+      "tl": "Could you say that again?",
+      "es": "¿Podrías repetirlo?",
+      "lit": "",
+      "note": "Cortesía para pedir repetición",
+      "pill": "cortesia",
+      "tags": [
+        "petición",
+        "cortesía"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "yes-no",
+      "tl": "Yes / No.",
+      "es": "Sí / No.",
+      "lit": "",
+      "note": "Respuestas básicas afirmativas o negativas",
+      "pill": "entender",
+      "tags": [
+        "respuesta",
+        "básico"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "i-dont-know",
+      "tl": "I don't know.",
+      "es": "No lo sé.",
+      "lit": "",
+      "note": "Para expresar desconocimiento",
+      "pill": "entender",
+      "tags": [
+        "negación",
+        "conocimiento"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "alright-fine",
+      "tl": "Alright / Fine.",
+      "es": "Está bien.",
+      "lit": "",
+      "note": "Para indicar conformidad o aceptación",
+      "pill": "entender",
+      "tags": [
+        "respuesta",
+        "aceptación"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "whats-your-favourite-food",
+      "tl": "What's your favourite food?",
+      "es": "¿Cuál es tu comida favorita?",
+      "lit": "",
+      "note": "útil para iniciar una conversación sobre gustos personales",
+      "pill": "comida",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "my-favourite-food-is",
+      "tl": "My favourite food is fish and chips.",
+      "es": "Mi comida favorita es el pescado con patatas fritas.",
+      "lit": "",
+      "note": "una respuesta típica sobre gustos culinarios británicos",
+      "pill": "comida",
+      "tags": [
+        "respuesta"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "do-you-like-football",
+      "tl": "Do you like football?",
+      "es": "¿Te gusta el fútbol?",
+      "lit": "",
+      "note": "pregunta común en el Reino Unido sobre deportes",
+      "pill": "social",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "i-love-football",
+      "tl": "I love football.",
+      "es": "Me encanta el fútbol.",
+      "lit": "",
+      "note": "respuesta entusiasta sobre el fútbol",
+      "pill": "social",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "and-you",
+      "tl": "And you?",
+      "es": "¿Y tú?",
+      "lit": "",
+      "note": "útil para devolver la pregunta a la otra persona",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "me-too",
+      "tl": "Me too.",
+      "es": "Yo también.",
+      "lit": "",
+      "note": "respuesta corta y afirmativa",
+      "pill": "entender",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "whats-your-hobby",
+      "tl": "What's your hobby?",
+      "es": "¿Cuál es tu afición?",
+      "lit": "",
+      "note": "pregunta para conocer intereses personales",
+      "pill": "social",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "my-hobby-is",
+      "tl": "My hobby is painting.",
+      "es": "Mi afición es la pintura.",
+      "lit": "",
+      "note": "respuesta sobre un pasatiempo",
+      "pill": "social",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "where-is-the-tube",
+      "tl": "Where is the tube station?",
+      "es": "¿Dónde está la estación de metro?",
+      "lit": "",
+      "note": "Útil para moverse por Londres.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta",
+        "ubicación"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "who-is-that",
+      "tl": "Who is that?",
+      "es": "¿Quién es ese?",
+      "lit": "",
+      "note": "Para preguntar sobre una persona desconocida.",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta",
+        "persona"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "whats-this",
+      "tl": "What's this?",
+      "es": "¿Qué es esto?",
+      "lit": "",
+      "note": "Para preguntar sobre un objeto desconocido.",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta",
+        "objeto"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "here-there",
+      "tl": "It's here / It's there.",
+      "es": "Está aquí / Está allí.",
+      "lit": "",
+      "note": "Para indicar ubicación.",
+      "pill": "entender",
+      "tags": [
+        "ubicación"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "where-do-you-live",
+      "tl": "Where do you live?",
+      "es": "¿Dónde vives?",
+      "lit": "",
+      "note": "Para conocer el lugar de residencia de alguien.",
+      "pill": "presentarse",
+      "tags": [
+        "pregunta",
+        "residencia"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "i-live-in",
+      "tl": "I live in Camden.",
+      "es": "Vivo en Camden.",
+      "lit": "",
+      "note": "Para hablar sobre tu lugar de residencia.",
+      "pill": "presentarse",
+      "tags": [
+        "residencia"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "its-near-far",
+      "tl": "It's near / It's far.",
+      "es": "Está cerca / Está lejos.",
+      "lit": "",
+      "note": "Para describir la distancia.",
+      "pill": "entender",
+      "tags": [
+        "distancia"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "id-like",
+      "tl": "I'd like a cup of tea, please.",
+      "es": "Quisiera una taza de té, por favor.",
+      "lit": "Me gustaría una taza de té, por favor.",
+      "note": "Usa 'I'd like' para pedir cortésmente.",
+      "pill": "cortesia",
+      "tags": [
+        "condicional",
+        "cortesía"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "i-want",
+      "tl": "I want a sandwich.",
+      "es": "Quiero un bocadillo.",
+      "lit": "",
+      "note": "Usa 'I want' para expresar deseos directos.",
+      "pill": "comida",
+      "tags": [
+        "presente simple",
+        "deseo"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "do-you-want",
+      "tl": "Do you want to go to the park?",
+      "es": "¿Quieres ir al parque?",
+      "lit": "",
+      "note": "Preguntar por deseos o planes.",
+      "pill": "ninos",
+      "tags": [
+        "presente simple",
+        "pregunta"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "i-dont-want",
+      "tl": "I don't want to go out.",
+      "es": "No quiero salir.",
+      "lit": "",
+      "note": "Negar deseos o planes.",
+      "pill": "casa",
+      "tags": [
+        "presente simple",
+        "negación"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "im-going-to",
+      "tl": "I'm going to visit the museum.",
+      "es": "Voy a visitar el museo.",
+      "lit": "",
+      "note": "Usa 'I'm going to' para planes futuros.",
+      "pill": "tiempo",
+      "tags": [
+        "futuro",
+        "intención"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "lets-go",
+      "tl": "Let's go to the cinema!",
+      "es": "¡Vamos al cine!",
+      "lit": "",
+      "note": "Sugiere actividades en grupo.",
+      "pill": "social",
+      "tags": [
+        "imperativo",
+        "sugerencia"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "how-do-i-get-to",
+      "tl": "How do I get to the station?",
+      "es": "¿Cómo llego a la estación?",
+      "lit": "",
+      "note": "Pide direcciones.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta",
+        "direcciones"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "where-can-i",
+      "tl": "Where can I buy a ticket?",
+      "es": "¿Dónde puedo comprar un billete?",
+      "lit": "",
+      "note": "Preguntar por ubicaciones.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta",
+        "ubicación"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "yes-id-like-that",
+      "tl": "Yes, I'd like that.",
+      "es": "Sí, me gustaría eso.",
+      "lit": "",
+      "note": "Responder afirmativamente a una oferta.",
+      "pill": "cortesia",
+      "tags": [
+        "condicional",
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 5
+    },
+    {
+      "id": "no-thanks",
+      "tl": "No, thanks.",
+      "es": "No, gracias.",
+      "lit": "",
+      "note": "Rechazar cortésmente.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "cortesía"
+      ],
+      "answer": true,
+      "lesson": 5
+    },
+    {
+      "id": "how-much-is-it",
+      "tl": "How much is it?",
+      "es": "¿Cuánto cuesta?",
+      "lit": "¿Cuánto es?",
+      "note": "Útil para preguntar precios en tiendas o bares.",
+      "pill": "mercado",
+      "tags": [
+        "preguntar",
+        "precios"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "a-pint-please",
+      "tl": "A pint, please.",
+      "es": "Una pinta, por favor.",
+      "lit": "",
+      "note": "Cortesía al pedir una bebida en un pub.",
+      "pill": "comida",
+      "tags": [
+        "pedir",
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "a-half-please",
+      "tl": "A half, please.",
+      "es": "Media pinta, por favor.",
+      "lit": "",
+      "note": "Para pedir una media pinta en un pub.",
+      "pill": "comida",
+      "tags": [
+        "pedir",
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "a-coffee-please",
+      "tl": "A coffee, please.",
+      "es": "Un café, por favor.",
+      "lit": "",
+      "note": "Cortesía al pedir café.",
+      "pill": "comida",
+      "tags": [
+        "pedir",
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "a-tea-with-milk-please",
+      "tl": "A tea with milk, please.",
+      "es": "Un té con leche, por favor.",
+      "lit": "",
+      "note": "Común en el Reino Unido.",
+      "pill": "comida",
+      "tags": [
+        "pedir",
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "the-bill-please",
+      "tl": "The bill, please.",
+      "es": "La cuenta, por favor.",
+      "lit": "",
+      "note": "Para pedir la cuenta en un restaurante o pub.",
+      "pill": "comida",
+      "tags": [
+        "pedir",
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "can-i-pay",
+      "tl": "Can I pay?",
+      "es": "¿Puedo pagar?",
+      "lit": "",
+      "note": "Para preguntar si es posible pagar ahora.",
+      "pill": "comida",
+      "tags": [
+        "preguntar",
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "card-or-cash",
+      "tl": "Card or cash?",
+      "es": "¿Tarjeta o efectivo?",
+      "lit": "",
+      "note": "Para preguntar la forma de pago preferida.",
+      "pill": "comida",
+      "tags": [
+        "preguntar"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "its-5-pounds",
+      "tl": "It's 5 pounds.",
+      "es": "Son 5 libras.",
+      "lit": "",
+      "note": "Respuesta típica sobre el precio.",
+      "pill": "mercado",
+      "tags": [
+        "responder",
+        "precios"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "heres-your-change",
+      "tl": "Here's your change.",
+      "es": "Aquí tienes tu cambio.",
+      "lit": "",
+      "note": "Frase común al devolver el cambio.",
+      "pill": "mercado",
+      "tags": [
+        "responder",
+        "cortesía"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "when",
+      "tl": "When?",
+      "es": "¿Cuándo?",
+      "lit": "",
+      "note": "una pregunta básica para saber el tiempo",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "why",
+      "tl": "Why?",
+      "es": "¿Por qué?",
+      "lit": "",
+      "note": "pregunta para entender la razón",
+      "pill": "entender",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "because",
+      "tl": "Because...",
+      "es": "Porque...",
+      "lit": "",
+      "note": "respuesta para explicar la razón",
+      "pill": "entender",
+      "tags": [
+        "conjunction"
+      ],
+      "answer": true,
+      "lesson": 7
+    },
+    {
+      "id": "how-many",
+      "tl": "How many?",
+      "es": "¿Cuántos?",
+      "lit": "",
+      "note": "para preguntar cantidad",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "what-time",
+      "tl": "What time is it?",
+      "es": "¿Qué hora es?",
+      "lit": "",
+      "note": "para preguntar la hora",
+      "pill": "tiempo",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "is-it-open",
+      "tl": "Is it open?",
+      "es": "¿Está abierto?",
+      "lit": "",
+      "note": "para preguntar si un lugar está disponible",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "it-closes-at",
+      "tl": "It closes at...",
+      "es": "Cierra a las...",
+      "lit": "",
+      "note": "para indicar la hora de cierre",
+      "pill": "tiempo",
+      "tags": [
+        "time"
+      ],
+      "answer": true,
+      "lesson": 7
+    },
+    {
+      "id": "today-tomorrow",
+      "tl": "Today, tomorrow, yesterday, tonight",
+      "es": "Hoy, mañana, ayer, esta noche",
+      "lit": "",
+      "note": "vocabulario básico de tiempo",
+      "pill": "tiempo",
+      "tags": [
+        "time"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "sorry-excuse-me",
+      "tl": "Sorry, excuse me.",
+      "es": "Perdona, disculpa.",
+      "lit": "",
+      "note": "Útil para llamar la atención de alguien educadamente.",
+      "pill": "cortesia",
+      "tags": [
+        "interjection"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "just-a-moment",
+      "tl": "Just a moment.",
+      "es": "Un momento.",
+      "lit": "",
+      "note": "Para pedir a alguien que espere brevemente.",
+      "pill": "cortesia",
+      "tags": [
+        "phrase"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "how-do-you-say-in-english",
+      "tl": "How do you say… in English?",
+      "es": "¿Cómo se dice… en inglés?",
+      "lit": "",
+      "note": "Pregunta útil para aprender vocabulario nuevo.",
+      "pill": "preguntar",
+      "tags": [
+        "question"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "no-worries",
+      "tl": "No worries.",
+      "es": "No pasa nada.",
+      "lit": "",
+      "note": "Expresión británica para tranquilizar a alguien.",
+      "pill": "cortesia",
+      "tags": [
+        "phrase"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "brilliant-lovely",
+      "tl": "Brilliant! / Lovely!",
+      "es": "¡Genial! / ¡Encantador!",
+      "lit": "",
+      "note": "Expresiones de entusiasmo o aprecio.",
+      "pill": "social",
+      "tags": [
+        "exclamation"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "can-i-help-you",
+      "tl": "Can I help you?",
+      "es": "¿Puedo ayudarte?",
+      "lit": "",
+      "note": "Frase cortés para ofrecer ayuda.",
+      "pill": "cortesia",
+      "tags": [
+        "question"
+      ],
+      "answer": true,
+      "lesson": 8
+    },
+    {
+      "id": "im-looking-for",
+      "tl": "I'm looking for the tube station.",
+      "es": "Estoy buscando la estación de metro.",
+      "lit": "",
+      "note": "Útil para pedir direcciones.",
+      "pill": "moverse",
+      "tags": [
+        "phrase"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "pub-quiz",
+      "tl": "Is there a pub quiz tonight?",
+      "es": "¿Hay un concurso de pub esta noche?",
+      "lit": "",
+      "note": "Pregunta sobre eventos sociales típicos en pubs británicos.",
+      "pill": "social",
+      "tags": [
+        "question"
+      ],
+      "answer": true,
+      "lesson": 8
+    },
+    {
+      "id": "where-are-you-from",
+      "tl": "Where are you from?",
+      "es": "¿De dónde eres?",
+      "lit": "",
+      "note": "una pregunta común para conocer a alguien",
+      "pill": "presentarse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "im-from-spain",
+      "tl": "I'm from Spain, from Madrid.",
+      "es": "Soy de España, de Madrid.",
+      "lit": "",
+      "note": "responder sobre tu origen",
+      "pill": "presentarse",
+      "tags": [
+        "respuesta"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "how-long-have-you-been-here",
+      "tl": "How long have you been here?",
+      "es": "¿Cuánto tiempo llevas aquí?",
+      "lit": "",
+      "note": "usando el present perfect para preguntar sobre duración",
+      "pill": "presentarse",
+      "tags": [
+        "pregunta",
+        "present perfect"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "a-week",
+      "tl": "A week.",
+      "es": "Una semana.",
+      "lit": "",
+      "note": "respuesta corta sobre duración",
+      "pill": "presentarse",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "i-like-it-here",
+      "tl": "I like it here.",
+      "es": "Me gusta aquí.",
+      "lit": "",
+      "note": "comentario positivo sobre el lugar",
+      "pill": "presentarse",
+      "tags": [
+        "opinión"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "what-brings-you-here",
+      "tl": "What brings you here?",
+      "es": "¿Qué te trae por aquí?",
+      "lit": "",
+      "note": "pregunta sobre la razón de estar en un lugar",
+      "pill": "presentarse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "im-here-for-work",
+      "tl": "I'm here for work.",
+      "es": "Estoy aquí por trabajo.",
+      "lit": "",
+      "note": "explicación de la razón de estar en un lugar",
+      "pill": "trabajo",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "im-here-on-holiday",
+      "tl": "I'm here on holiday.",
+      "es": "Estoy aquí de vacaciones.",
+      "lit": "",
+      "note": "explicación alternativa sobre la razón de estar en un lugar",
+      "pill": "tiempo",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "do-you-have-family",
+      "tl": "Do you have family here?",
+      "es": "¿Tienes familia aquí?",
+      "lit": "",
+      "note": "Para preguntar sobre la familia de alguien en una conversación amistosa.",
+      "pill": "familia",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "how-many-of-you",
+      "tl": "How many of you are there?",
+      "es": "¿Cuántos sois?",
+      "lit": "",
+      "note": "Para preguntar sobre el tamaño de una familia o grupo.",
+      "pill": "familia",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "mum-dad",
+      "tl": "Mum and Dad",
+      "es": "Mamá y papá",
+      "lit": "",
+      "note": "Vocabulario básico sobre la familia.",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "brother-sister",
+      "tl": "Brother and sister",
+      "es": "Hermano y hermana",
+      "lit": "",
+      "note": "Vocabulario básico sobre la familia.",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "kids",
+      "tl": "Kids",
+      "es": "Niños",
+      "lit": "",
+      "note": "Vocabulario básico sobre la familia.",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "grandma-grandad",
+      "tl": "Grandma and Grandad",
+      "es": "Abuela y abuelo",
+      "lit": "",
+      "note": "Vocabulario básico sobre la familia.",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "wife-husband",
+      "tl": "Wife and husband",
+      "es": "Esposa y esposo",
+      "lit": "",
+      "note": "Vocabulario básico sobre la familia.",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "partner",
+      "tl": "Partner",
+      "es": "Pareja",
+      "lit": "",
+      "note": "Término neutral para referirse a una pareja.",
+      "pill": "familia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "yes-i-have-family",
+      "tl": "Yes, I have family here.",
+      "es": "Sí, tengo familia aquí.",
+      "lit": "",
+      "note": "Respuesta afirmativa a preguntas sobre familia.",
+      "pill": "familia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "no-i-dont-have-family",
+      "tl": "No, I don't have family here.",
+      "es": "No, no tengo familia aquí.",
+      "lit": "",
+      "note": "Respuesta negativa a preguntas sobre familia.",
+      "pill": "familia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "we-are-four",
+      "tl": "We are four.",
+      "es": "Somos cuatro.",
+      "lit": "",
+      "note": "Para responder sobre el tamaño de la familia.",
+      "pill": "familia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "just-me",
+      "tl": "Just me.",
+      "es": "Solo yo.",
+      "lit": "",
+      "note": "Para responder que no hay más familia.",
+      "pill": "familia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "how-old-are-you",
+      "tl": "How old are you?",
+      "es": "¿Cuántos años tienes?",
+      "lit": "",
+      "note": "Pregunta común para conocer la edad de alguien.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "im-years-old",
+      "tl": "I'm [age] years old.",
+      "es": "Tengo [edad] años.",
+      "lit": "",
+      "note": "Responde a la pregunta sobre la edad.",
+      "pill": "ninos",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "youre-young",
+      "tl": "You're young.",
+      "es": "Eres joven.",
+      "lit": "",
+      "note": "Un cumplido amable para alguien joven.",
+      "pill": "ninos",
+      "tags": [
+        "adjetivo"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "when-were-you-born",
+      "tl": "When were you born?",
+      "es": "¿Cuándo naciste?",
+      "lit": "",
+      "note": "Pregunta para saber el año de nacimiento.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "i-was-born-in",
+      "tl": "I was born in [year].",
+      "es": "Nací en [año].",
+      "lit": "",
+      "note": "Responde a la pregunta sobre el año de nacimiento.",
+      "pill": "ninos",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "how-old-is-your-sibling",
+      "tl": "How old is your brother or sister?",
+      "es": "¿Cuántos años tiene tu hermano o hermana?",
+      "lit": "",
+      "note": "Pregunta sobre la edad de un hermano o hermana.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "my-sibling-is-years-old",
+      "tl": "My brother/sister is [age] years old.",
+      "es": "Mi hermano/hermana tiene [edad] años.",
+      "lit": "",
+      "note": "Responde a la pregunta sobre la edad de un hermano o hermana.",
+      "pill": "ninos",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "thats-nice",
+      "tl": "That's nice.",
+      "es": "Eso es agradable.",
+      "lit": "",
+      "note": "Una respuesta común para mostrar interés o aprobación.",
+      "pill": "social",
+      "tags": [
+        "respuesta"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "what-do-you-do",
+      "tl": "What do you do?",
+      "es": "¿A qué te dedicas?",
+      "lit": "",
+      "note": "Pregunta común para conocer a alguien",
+      "pill": "trabajo",
+      "tags": [
+        "present simple",
+        "questions"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "im-a",
+      "tl": "I'm a teacher.",
+      "es": "Soy profesor.",
+      "lit": "",
+      "note": "Responder sobre la profesión",
+      "pill": "trabajo",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "i-study",
+      "tl": "I study biology.",
+      "es": "Estudio biología.",
+      "lit": "",
+      "note": "Responder sobre estudios",
+      "pill": "trabajo",
+      "tags": [
+        "present simple"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "i-work-in",
+      "tl": "I work in marketing.",
+      "es": "Trabajo en marketing.",
+      "lit": "",
+      "note": "Responder sobre sector laboral",
+      "pill": "trabajo",
+      "tags": [
+        "present simple"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "i-work-from-home",
+      "tl": "I work from home.",
+      "es": "Trabajo desde casa.",
+      "lit": "",
+      "note": "Situación laboral común",
+      "pill": "trabajo",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "im-retired",
+      "tl": "I'm retired.",
+      "es": "Estoy jubilado.",
+      "lit": "",
+      "note": "Responder sobre estado laboral",
+      "pill": "trabajo",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "what-does-your-partner-do",
+      "tl": "What does your partner do?",
+      "es": "¿A qué se dedica tu pareja?",
+      "lit": "",
+      "note": "Pregunta sobre la pareja",
+      "pill": "trabajo",
+      "tags": [
+        "present simple",
+        "questions"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "my-partner-is",
+      "tl": "My partner is a doctor.",
+      "es": "Mi pareja es médico.",
+      "lit": "",
+      "note": "Responder sobre la pareja",
+      "pill": "trabajo",
+      "tags": [
+        "present simple"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "have-you-eaten",
+      "tl": "Have you eaten?",
+      "es": "¿Has comido?",
+      "lit": "",
+      "note": "Pregunta común para iniciar una conversación sobre comida.",
+      "pill": "comida",
+      "tags": [
+        "present perfect"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "im-hungry",
+      "tl": "I'm hungry.",
+      "es": "Tengo hambre.",
+      "lit": "",
+      "note": "Expresión común para indicar que quieres comer.",
+      "pill": "comida",
+      "tags": [
+        "adjectives"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "im-thirsty",
+      "tl": "I'm thirsty.",
+      "es": "Tengo sed.",
+      "lit": "",
+      "note": "Expresión común para indicar que quieres beber.",
+      "pill": "comida",
+      "tags": [
+        "adjectives"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "shall-we-get-something-to-eat",
+      "tl": "Shall we get something to eat?",
+      "es": "¿Vamos a comer algo?",
+      "lit": "",
+      "note": "Forma cortés de sugerir salir a comer.",
+      "pill": "comida",
+      "tags": [
+        "modal verbs"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "what-do-you-fancy",
+      "tl": "What do you fancy?",
+      "es": "¿Qué te apetece?",
+      "lit": "",
+      "note": "Pregunta para saber las preferencias de alguien.",
+      "pill": "comida",
+      "tags": [
+        "questions"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "i-fancy-a-curry",
+      "tl": "I fancy a curry.",
+      "es": "Me apetece un curry.",
+      "lit": "",
+      "note": "Expresión común para indicar preferencia por un tipo de comida.",
+      "pill": "comida",
+      "tags": [
+        "verbs"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "its-on-me",
+      "tl": "It's on me.",
+      "es": "Invito yo.",
+      "lit": "",
+      "note": "Frase utilizada para ofrecer pagar la cuenta.",
+      "pill": "cortesia",
+      "tags": [
+        "expressions"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "yes-im-hungry",
+      "tl": "Yes, I'm hungry.",
+      "es": "Sí, tengo hambre.",
+      "lit": "",
+      "note": "Respuesta afirmativa indicando que tienes hambre.",
+      "pill": "comida",
+      "tags": [
+        "adjectives"
+      ],
+      "answer": true,
+      "lesson": 13
+    },
+    {
+      "id": "no-im-not-hungry",
+      "tl": "No, I'm not hungry.",
+      "es": "No, no tengo hambre.",
+      "lit": "",
+      "note": "Respuesta negativa indicando que no tienes hambre.",
+      "pill": "comida",
+      "tags": [
+        "adjectives"
+      ],
+      "answer": true,
+      "lesson": 13
+    },
+    {
+      "id": "yes-i-fancy-that",
+      "tl": "Yes, I fancy that.",
+      "es": "Sí, me apetece eso.",
+      "lit": "",
+      "note": "Respuesta afirmativa indicando que te apetece algo.",
+      "pill": "comida",
+      "tags": [
+        "verbs"
+      ],
+      "answer": true,
+      "lesson": 13
+    },
+    {
+      "id": "it-was-lovely-to-meet-you",
+      "tl": "It was lovely to meet you.",
+      "es": "Fue encantador conocerte.",
+      "lit": "",
+      "note": "Una manera cortés de finalizar una conversación.",
+      "pill": "cortesia",
+      "tags": [
+        "pasado"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "keep-in-touch",
+      "tl": "Keep in touch.",
+      "es": "Mantente en contacto.",
+      "lit": "",
+      "note": "Usado para expresar el deseo de seguir comunicándose.",
+      "pill": "social",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "see-you-tomorrow",
+      "tl": "See you tomorrow.",
+      "es": "Nos vemos mañana.",
+      "lit": "",
+      "note": "Despedida común para encuentros futuros.",
+      "pill": "tiempo",
+      "tags": [
+        "futuro"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "youre-lovely",
+      "tl": "You're lovely.",
+      "es": "Eres encantador/a.",
+      "lit": "",
+      "note": "Un cumplido cariñoso.",
+      "pill": "corazon",
+      "tags": [
+        "adjetivos"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "give-me-your-number",
+      "tl": "Give me your number.",
+      "es": "Dame tu número.",
+      "lit": "",
+      "note": "Para pedir el contacto de alguien.",
+      "pill": "social",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "text-me",
+      "tl": "Text me.",
+      "es": "Mándame un mensaje.",
+      "lit": "",
+      "note": "Para pedir que te envíen un mensaje de texto.",
+      "pill": "social",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "yes-i-will",
+      "tl": "Yes, I will.",
+      "es": "Sí, lo haré.",
+      "lit": "",
+      "note": "Respuesta afirmativa a una solicitud o plan.",
+      "pill": "entender",
+      "tags": [
+        "futuro"
+      ],
+      "answer": true,
+      "lesson": 14
+    },
+    {
+      "id": "no-i-cant",
+      "tl": "No, I can't.",
+      "es": "No, no puedo.",
+      "lit": "",
+      "note": "Respuesta negativa a una solicitud o plan.",
+      "pill": "entender",
+      "tags": [
+        "negación"
+      ],
+      "answer": true,
+      "lesson": 14
+    },
+    {
+      "id": "a-pint-of-bitter",
+      "tl": "A pint of bitter, please.",
+      "es": "Una pinta de bitter, por favor.",
+      "lit": "",
+      "note": "Bitter es un tipo de cerveza británica.",
+      "pill": "comida",
+      "tags": [
+        "solicitud"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "same-again-please",
+      "tl": "Same again, please.",
+      "es": "Lo mismo otra vez, por favor.",
+      "lit": "",
+      "note": "Se usa para pedir otra ronda de lo mismo.",
+      "pill": "comida",
+      "tags": [
+        "repetición"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "whose-round-is-it",
+      "tl": "Whose round is it?",
+      "es": "¿De quién es la ronda?",
+      "lit": "",
+      "note": "Pregunta común en pubs para saber quién paga la siguiente ronda.",
+      "pill": "social",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "its-my-round",
+      "tl": "It's my round.",
+      "es": "Es mi ronda.",
+      "lit": "",
+      "note": "Ofrecimiento para pagar la siguiente ronda.",
+      "pill": "social",
+      "tags": [
+        "ofrecimiento"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "last-orders",
+      "tl": "Last orders, please!",
+      "es": "¡Últimos pedidos, por favor!",
+      "lit": "",
+      "note": "Anuncio en pubs antes de cerrar.",
+      "pill": "comida",
+      "tags": [
+        "anuncio"
+      ],
+      "answer": true,
+      "lesson": 15
+    },
+    {
+      "id": "sunday-roast",
+      "tl": "Do you fancy a Sunday roast?",
+      "es": "¿Te apetece un asado de domingo?",
+      "lit": "",
+      "note": "Comida tradicional británica los domingos.",
+      "pill": "comida",
+      "tags": [
+        "invitación"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "where-can-i-hire-a-bike",
+      "tl": "Where can I hire a bike?",
+      "es": "¿Dónde puedo alquilar una bici?",
+      "lit": "",
+      "note": "Usa 'hire' para alquilar cosas pequeñas como bicis.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "how-much-is-it-per-day",
+      "tl": "How much is it per day?",
+      "es": "¿Cuánto cuesta al día?",
+      "lit": "",
+      "note": "Útil para preguntar precios de alquiler.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "do-i-need-a-helmet",
+      "tl": "Do I need a helmet?",
+      "es": "¿Necesito casco?",
+      "lit": "",
+      "note": "Pregunta sobre seguridad al alquilar una bici.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "where-can-i-rent-a-car",
+      "tl": "Where can I rent a car?",
+      "es": "¿Dónde puedo alquilar un coche?",
+      "lit": "",
+      "note": "Usa 'rent' para alquilar cosas grandes como coches.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "drive-on-the-left",
+      "tl": "Drive on the left!",
+      "es": "¡Conduce por la izquierda!",
+      "lit": "",
+      "note": "Importante recordar al conducir en el Reino Unido.",
+      "pill": "moverse",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "where-can-i-park",
+      "tl": "Where can I park?",
+      "es": "¿Dónde puedo aparcar?",
+      "lit": "",
+      "note": "Pregunta común al conducir.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "petrol-diesel-petrol-station",
+      "tl": "Petrol / diesel / the petrol station",
+      "es": "Gasolina / diésel / la gasolinera",
+      "lit": "",
+      "note": "Vocabulario útil para repostar.",
+      "pill": "moverse",
+      "tags": [
+        "sustantivos"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "mot-insurance",
+      "tl": "MOT / insurance",
+      "es": "ITV / seguro",
+      "lit": "",
+      "note": "Términos importantes para el coche en el Reino Unido.",
+      "pill": "moverse",
+      "tags": [
+        "sustantivos"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "yes-i-need-a-helmet",
+      "tl": "Yes, you need a helmet.",
+      "es": "Sí, necesitas casco.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre seguridad.",
+      "pill": "moverse",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "no-you-dont-need-a-helmet",
+      "tl": "No, you don't need a helmet.",
+      "es": "No, no necesitas casco.",
+      "lit": "",
+      "note": "Respuesta negativa sobre seguridad.",
+      "pill": "moverse",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "its-10-pounds-per-day",
+      "tl": "It's 10 pounds per day.",
+      "es": "Son 10 libras al día.",
+      "lit": "",
+      "note": "Respuesta sobre el coste del alquiler.",
+      "pill": "moverse",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "theres-a-petrol-station-nearby",
+      "tl": "There's a petrol station nearby.",
+      "es": "Hay una gasolinera cerca.",
+      "lit": "",
+      "note": "Indicación sobre la ubicación de una gasolinera.",
+      "pill": "moverse",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "which-line-do-i-take-for",
+      "tl": "Which line do I take for Piccadilly Circus?",
+      "es": "¿Qué línea tomo para Piccadilly Circus?",
+      "lit": "",
+      "note": "Pregunta útil para moverse en el metro.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta",
+        "transporte"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "oyster-contactless",
+      "tl": "Do you have an Oyster or contactless card?",
+      "es": "¿Tienes una tarjeta Oyster o contactless?",
+      "lit": "",
+      "note": "Tarjetas para pagar el transporte en Londres.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta",
+        "transporte"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "mind-the-gap",
+      "tl": "Mind the gap.",
+      "es": "Cuidado con el hueco.",
+      "lit": "",
+      "note": "Frase típica al subir o bajar del metro.",
+      "pill": "moverse",
+      "tags": [
+        "advertencia",
+        "transporte"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "next-stop",
+      "tl": "What's the next stop?",
+      "es": "¿Cuál es la próxima parada?",
+      "lit": "",
+      "note": "Pregunta para saber dónde bajarse.",
+      "pill": "moverse",
+      "tags": [
+        "pregunta",
+        "transporte"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "return-ticket-please",
+      "tl": "A return ticket to Oxford, please.",
+      "es": "Un billete de ida y vuelta a Oxford, por favor.",
+      "lit": "",
+      "note": "Útil para comprar billetes de tren.",
+      "pill": "moverse",
+      "tags": [
+        "transporte",
+        "compra"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "is-this-seat-taken",
+      "tl": "Is this seat taken?",
+      "es": "¿Está ocupado este asiento?",
+      "lit": "",
+      "note": "Pregunta cortés antes de sentarse.",
+      "pill": "cortesia",
+      "tags": [
+        "pregunta",
+        "cortesía"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "yes-its-taken",
+      "tl": "Yes, it's taken.",
+      "es": "Sí, está ocupado.",
+      "lit": "",
+      "note": "Respuesta típica si el asiento está ocupado.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "cortesía"
+      ],
+      "answer": true,
+      "lesson": 17
+    },
+    {
+      "id": "no-its-free",
+      "tl": "No, it's free.",
+      "es": "No, está libre.",
+      "lit": "",
+      "note": "Respuesta típica si el asiento está libre.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "cortesía"
+      ],
+      "answer": true,
+      "lesson": 17
+    },
+    {
+      "id": "is-it-open-on-sundays",
+      "tl": "Is it open on Sundays?",
+      "es": "¿Está abierto los domingos?",
+      "lit": "",
+      "note": "Pregunta común sobre horarios de apertura.",
+      "pill": "tiempo",
+      "tags": [
+        "pregunta",
+        "presente simple"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "bank-holiday",
+      "tl": "Bank holiday",
+      "es": "Día festivo",
+      "lit": "",
+      "note": "Día festivo en el Reino Unido cuando los bancos están cerrados.",
+      "pill": "tiempo",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "its-closed-for-refurbishment",
+      "tl": "It's closed for refurbishment.",
+      "es": "Está cerrado por reformas.",
+      "lit": "",
+      "note": "Explicación común para cierres temporales.",
+      "pill": "tiempo",
+      "tags": [
+        "pasado participio",
+        "presente simple"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "can-i-book-a-table",
+      "tl": "Can I book a table?",
+      "es": "¿Puedo reservar una mesa?",
+      "lit": "",
+      "note": "Útil para hacer reservas en restaurantes.",
+      "pill": "comida",
+      "tags": [
+        "pregunta",
+        "modal"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "opening-hours",
+      "tl": "Opening hours",
+      "es": "Horario de apertura",
+      "lit": "",
+      "note": "Información sobre cuándo un lugar está abierto.",
+      "pill": "tiempo",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "half-day-closing",
+      "tl": "Half day closing",
+      "es": "Cierre de medio día",
+      "lit": "",
+      "note": "Días en que las tiendas cierran antes.",
+      "pill": "tiempo",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "yes-its-open",
+      "tl": "Yes, it's open.",
+      "es": "Sí, está abierto.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre apertura.",
+      "pill": "tiempo",
+      "tags": [
+        "respuesta",
+        "presente simple"
+      ],
+      "answer": true,
+      "lesson": 18
+    },
+    {
+      "id": "no-its-closed",
+      "tl": "No, it's closed.",
+      "es": "No, está cerrado.",
+      "lit": "",
+      "note": "Respuesta negativa sobre apertura.",
+      "pill": "tiempo",
+      "tags": [
+        "respuesta",
+        "presente simple"
+      ],
+      "answer": true,
+      "lesson": 18
+    },
+    {
+      "id": "is-the-museum-free",
+      "tl": "Is the museum free?",
+      "es": "¿Es gratis el museo?",
+      "lit": "",
+      "note": "Pregunta común al visitar museos en el Reino Unido.",
+      "pill": "cortesia",
+      "tags": [
+        "pregunta",
+        "presente simple"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "national-trust",
+      "tl": "National Trust",
+      "es": "National Trust",
+      "lit": "",
+      "note": "Organización que protege lugares históricos y naturales en el Reino Unido.",
+      "pill": "cultura",
+      "tags": [
+        "sustantivo propio"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "the-tate-the-british-museum",
+      "tl": "The Tate / the British Museum",
+      "es": "La Tate / el Museo Británico",
+      "lit": "",
+      "note": "Museos icónicos en Londres.",
+      "pill": "cultura",
+      "tags": [
+        "sustantivo propio"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "can-we-go-in",
+      "tl": "Can we go in?",
+      "es": "¿Podemos entrar?",
+      "lit": "",
+      "note": "Pregunta para confirmar si se puede acceder a un lugar.",
+      "pill": "cortesia",
+      "tags": [
+        "pregunta",
+        "modal"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "a-walk-in-the-countryside",
+      "tl": "A walk in the countryside",
+      "es": "Un paseo por el campo",
+      "lit": "",
+      "note": "Actividad popular en el Reino Unido.",
+      "pill": "tiempo",
+      "tags": [
+        "frase nominal"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "public-footpath",
+      "tl": "Public footpath",
+      "es": "Sendero público",
+      "lit": "",
+      "note": "Camino público para pasear, común en el campo británico.",
+      "pill": "tiempo",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "the-pub-at-the-end-of-the-walk",
+      "tl": "The pub at the end of the walk",
+      "es": "El pub al final del paseo",
+      "lit": "",
+      "note": "Tradición británica de terminar un paseo con una visita al pub.",
+      "pill": "cultura",
+      "tags": [
+        "frase nominal"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "yes-its-free",
+      "tl": "Yes, it's free.",
+      "es": "Sí, es gratis.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre la gratuidad de un servicio.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "presente simple"
+      ],
+      "answer": true,
+      "lesson": 19
+    },
+    {
+      "id": "no-its-not-free",
+      "tl": "No, it's not free.",
+      "es": "No, no es gratis.",
+      "lit": "",
+      "note": "Respuesta negativa sobre la gratuidad de un servicio.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "presente simple"
+      ],
+      "answer": true,
+      "lesson": 19
+    },
+    {
+      "id": "yes-you-can-go-in",
+      "tl": "Yes, you can go in.",
+      "es": "Sí, puedes entrar.",
+      "lit": "",
+      "note": "Confirmación de acceso permitido.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "modal"
+      ],
+      "answer": true,
+      "lesson": 19
+    },
+    {
+      "id": "no-you-cant-go-in",
+      "tl": "No, you can't go in.",
+      "es": "No, no puedes entrar.",
+      "lit": "",
+      "note": "Negación de acceso permitido.",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta",
+        "modal"
+      ],
+      "answer": true,
+      "lesson": 19
+    },
+    {
+      "id": "fancy-some-fish-and-chips",
+      "tl": "Fancy some fish and chips?",
+      "es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "lit": "",
+      "note": "Usa 'fancy' para ofrecer comida de manera informal.",
+      "pill": "comida",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "lets-go-to-the-chippy",
+      "tl": "Let's go to the chippy.",
+      "es": "Vamos a la freiduría.",
+      "lit": "",
+      "note": "Chippy es una forma coloquial de decir freiduría.",
+      "pill": "comida",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "is-it-any-good",
+      "tl": "Is it any good?",
+      "es": "¿Está bueno?",
+      "lit": "",
+      "note": "Útil para preguntar sobre la calidad de la comida.",
+      "pill": "comida",
+      "tags": [
+        "pregunta"
+      ],
+      "answer": true,
+      "lesson": 20
+    },
+    {
+      "id": "a-cuppa",
+      "tl": "A cuppa.",
+      "es": "Una taza de té.",
+      "lit": "",
+      "note": "Cuppa es una forma cariñosa de referirse a una taza de té.",
+      "pill": "comida",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "afternoon-tea",
+      "tl": "Afternoon tea.",
+      "es": "Té de la tarde.",
+      "lit": "",
+      "note": "Una tradición británica de tomar té con pasteles o sándwiches.",
+      "pill": "comida",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "curry-night",
+      "tl": "Curry night.",
+      "es": "Noche de curry.",
+      "lit": "",
+      "note": "Una costumbre popular de tener una noche dedicada a comer curry.",
+      "pill": "comida",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "takeaway",
+      "tl": "Takeaway.",
+      "es": "Comida para llevar.",
+      "lit": "",
+      "note": "Comida que se compra para llevar a casa.",
+      "pill": "comida",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "full-english-breakfast",
+      "tl": "Full English breakfast.",
+      "es": "Desayuno inglés completo.",
+      "lit": "",
+      "note": "Un desayuno tradicional que incluye huevos, bacon, salchichas, etc.",
+      "pill": "comida",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "are-you-happy",
+      "tl": "Are you happy?",
+      "es": "¿Estás feliz?",
+      "lit": "",
+      "note": "Preguntar sobre el estado emocional de alguien",
+      "pill": "corazon",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "are-you-sad",
+      "tl": "Are you sad?",
+      "es": "¿Estás triste?",
+      "lit": "",
+      "note": "Preguntar sobre el estado emocional de alguien",
+      "pill": "corazon",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "im-knackered",
+      "tl": "I'm knackered.",
+      "es": "Estoy hecho polvo.",
+      "lit": "",
+      "note": "Expresión coloquial británica para decir que estás muy cansado",
+      "pill": "corazon",
+      "tags": [
+        "estado"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "im-scared",
+      "tl": "I'm scared.",
+      "es": "Tengo miedo.",
+      "lit": "",
+      "note": "Expresar miedo",
+      "pill": "corazon",
+      "tags": [
+        "estado"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "im-alright",
+      "tl": "I'm alright.",
+      "es": "Estoy bien.",
+      "lit": "",
+      "note": "Expresión británica para indicar que estás bien, aunque no sea perfecto",
+      "pill": "corazon",
+      "tags": [
+        "estado"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "i-miss-home",
+      "tl": "I miss home.",
+      "es": "Echo de menos mi casa.",
+      "lit": "",
+      "note": "Expresar añoranza por el hogar",
+      "pill": "corazon",
+      "tags": [
+        "estado"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "do-you-like-music",
+      "tl": "Do you like music?",
+      "es": "¿Te gusta la música?",
+      "lit": "",
+      "note": "preguntar sobre gustos musicales",
+      "pill": "corazon",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "i-love-music",
+      "tl": "I love music.",
+      "es": "Me encanta la música.",
+      "lit": "",
+      "note": "expresar amor por algo",
+      "pill": "corazon",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "what-music-do-you-listen-to",
+      "tl": "What music do you listen to?",
+      "es": "¿Qué música escuchas?",
+      "lit": "",
+      "note": "preguntar sobre preferencias musicales",
+      "pill": "corazon",
+      "tags": [
+        "present simple",
+        "question"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "i-listen-to-rock",
+      "tl": "I listen to rock.",
+      "es": "Escucho rock.",
+      "lit": "",
+      "note": "hablar de preferencias musicales",
+      "pill": "corazon",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "which-team-do-you-support",
+      "tl": "Which team do you support?",
+      "es": "¿A qué equipo apoyas?",
+      "lit": "",
+      "note": "preguntar sobre aficiones deportivas",
+      "pill": "corazon",
+      "tags": [
+        "present simple",
+        "question"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "i-support-liverpool",
+      "tl": "I support Liverpool.",
+      "es": "Apoyo al Liverpool.",
+      "lit": "",
+      "note": "hablar de aficiones deportivas",
+      "pill": "corazon",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "football-or-rugby",
+      "tl": "Football or rugby?",
+      "es": "¿Fútbol o rugby?",
+      "lit": "",
+      "note": "preguntar sobre preferencias deportivas",
+      "pill": "corazon",
+      "tags": [
+        "question"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "i-prefer-football",
+      "tl": "I prefer football.",
+      "es": "Prefiero el fútbol.",
+      "lit": "",
+      "note": "expresar preferencia",
+      "pill": "corazon",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "yes-i-like-music",
+      "tl": "Yes, I like music.",
+      "es": "Sí, me gusta la música.",
+      "lit": "",
+      "note": "responder afirmativamente sobre gustos",
+      "pill": "corazon",
+      "tags": [
+        "present simple",
+        "answer"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "no-i-dont-like-music",
+      "tl": "No, I don't like music.",
+      "es": "No, no me gusta la música.",
+      "lit": "",
+      "note": "responder negativamente sobre gustos",
+      "pill": "corazon",
+      "tags": [
+        "present simple",
+        "answer"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "yes-i-support-liverpool",
+      "tl": "Yes, I support Liverpool.",
+      "es": "Sí, apoyo al Liverpool.",
+      "lit": "",
+      "note": "responder afirmativamente sobre aficiones deportivas",
+      "pill": "corazon",
+      "tags": [
+        "present simple",
+        "answer"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "what-do-you-want-to-be",
+      "tl": "What do you want to be?",
+      "es": "¿Qué quieres ser?",
+      "lit": "",
+      "note": "Pregunta sobre aspiraciones futuras",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "futuro"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "my-dream-is-to",
+      "tl": "My dream is to be a doctor.",
+      "es": "Mi sueño es ser médico.",
+      "lit": "",
+      "note": "Hablar sobre sueños personales",
+      "pill": "corazon",
+      "tags": [
+        "posesivo",
+        "infinitivo"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "id-love-to-live-here",
+      "tl": "I'd love to live here.",
+      "es": "Me encantaría vivir aquí.",
+      "lit": "",
+      "note": "Expresar un deseo fuerte",
+      "pill": "corazon",
+      "tags": [
+        "condicional",
+        "deseo"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "one-day",
+      "tl": "One day, I'll travel the world.",
+      "es": "Un día, viajaré por el mundo.",
+      "lit": "",
+      "note": "Hablar sobre planes futuros",
+      "pill": "corazon",
+      "tags": [
+        "futuro",
+        "planes"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "you-can-do-it",
+      "tl": "You can do it!",
+      "es": "¡Tú puedes hacerlo!",
+      "lit": "",
+      "note": "Frase motivacional",
+      "pill": "corazon",
+      "tags": [
+        "modal",
+        "motivación"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "would-love-to",
+      "tl": "I would love to visit Edinburgh.",
+      "es": "Me encantaría visitar Edimburgo.",
+      "lit": "",
+      "note": "Expresar un deseo con 'would love to'",
+      "pill": "corazon",
+      "tags": [
+        "condicional",
+        "deseo"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "whats-your-dream",
+      "tl": "What's your dream?",
+      "es": "¿Cuál es tu sueño?",
+      "lit": "",
+      "note": "Pregunta sobre sueños personales",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "posesivo"
+      ],
+      "answer": true,
+      "lesson": 23
+    },
+    {
+      "id": "i-dream-of",
+      "tl": "I dream of becoming an artist.",
+      "es": "Sueño con ser artista.",
+      "lit": "",
+      "note": "Hablar sobre sueños y aspiraciones",
+      "pill": "corazon",
+      "tags": [
+        "infinitivo",
+        "sueños"
+      ],
+      "answer": true,
+      "lesson": 23
+    },
+    {
+      "id": "watch-out",
+      "tl": "Watch out!",
+      "es": "¡Cuidado!",
+      "lit": "",
+      "note": "Se usa para advertir de un peligro inmediato.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "help",
+      "tl": "Help!",
+      "es": "¡Ayuda!",
+      "lit": "",
+      "note": "Útil en situaciones de emergencia.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "call-999",
+      "tl": "Call 999!",
+      "es": "¡Llama al 999!",
+      "lit": "",
+      "note": "999 es el número de emergencia en el Reino Unido.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "i-feel-ill",
+      "tl": "I feel ill.",
+      "es": "Me siento mal.",
+      "lit": "",
+      "note": "Para indicar malestar o enfermedad.",
+      "pill": "salud",
+      "tags": [
+        "estado"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "i-need-a-doctor",
+      "tl": "I need a doctor.",
+      "es": "Necesito un médico.",
+      "lit": "",
+      "note": "Para buscar atención médica.",
+      "pill": "salud",
+      "tags": [
+        "necesidad"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "wheres-ae",
+      "tl": "Where's A&E?",
+      "es": "¿Dónde está urgencias?",
+      "lit": "",
+      "note": "A&E es Accident and Emergency en el Reino Unido.",
+      "pill": "salud",
+      "tags": [
+        "ubicación"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "mind-the-traffic",
+      "tl": "Mind the traffic.",
+      "es": "Cuidado con el tráfico.",
+      "lit": "",
+      "note": "Útil para advertir a alguien sobre el tráfico.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "yes-i-feel-ill",
+      "tl": "Yes, I feel ill.",
+      "es": "Sí, me siento mal.",
+      "lit": "",
+      "note": "Una respuesta afirmativa sobre sentirse mal.",
+      "pill": "salud",
+      "tags": [
+        "estado"
+      ],
+      "answer": true,
+      "lesson": 24
+    },
+    {
+      "id": "no-i-dont-need-a-doctor",
+      "tl": "No, I don't need a doctor.",
+      "es": "No, no necesito un médico.",
+      "lit": "",
+      "note": "Para negar la necesidad de atención médica.",
+      "pill": "salud",
+      "tags": [
+        "negación"
+      ],
+      "answer": true,
+      "lesson": 24
+    },
+    {
+      "id": "would-you-like-to-pray",
+      "tl": "Would you like to pray?",
+      "es": "¿Te gustaría rezar?",
+      "lit": "",
+      "note": "Una forma cortés de invitar a alguien a unirse en oración.",
+      "pill": "fe",
+      "tags": [
+        "invitation",
+        "modal"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "the-lords-prayer",
+      "tl": "The Lord's Prayer",
+      "es": "El Padrenuestro",
+      "lit": "",
+      "note": "Una oración cristiana tradicional.",
+      "pill": "fe",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "mass-church-service",
+      "tl": "Mass / church service",
+      "es": "Misa / servicio religioso",
+      "lit": "",
+      "note": "Eventos religiosos comunes en el Reino Unido.",
+      "pill": "fe",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "god-bless-you",
+      "tl": "God bless you.",
+      "es": "Que Dios te bendiga.",
+      "lit": "",
+      "note": "Expresión de buenos deseos.",
+      "pill": "fe",
+      "tags": [
+        "expression"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "westminster-canterbury",
+      "tl": "Westminster / Canterbury",
+      "es": "Westminster / Canterbury",
+      "lit": "",
+      "note": "Lugares icónicos de fe en el Reino Unido.",
+      "pill": "fe",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "do-you-believe-in-god",
+      "tl": "Do you believe in God?",
+      "es": "¿Crees en Dios?",
+      "lit": "",
+      "note": "Pregunta sobre la fe personal.",
+      "pill": "fe",
+      "tags": [
+        "question"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "yes-i-believe",
+      "tl": "Yes, I believe.",
+      "es": "Sí, creo.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre la fe.",
+      "pill": "fe",
+      "tags": [
+        "answer"
+      ],
+      "answer": true,
+      "lesson": 25
+    },
+    {
+      "id": "no-i-dont-believe",
+      "tl": "No, I don't believe.",
+      "es": "No, no creo.",
+      "lit": "",
+      "note": "Respuesta negativa sobre la fe.",
+      "pill": "fe",
+      "tags": [
+        "answer"
+      ],
+      "answer": true,
+      "lesson": 25
+    },
+    {
+      "id": "lovely-day",
+      "tl": "Lovely day, isn't it?",
+      "es": "Día encantador, ¿verdad?",
+      "lit": "",
+      "note": "Una forma educada de iniciar una conversación sobre el tiempo.",
+      "pill": "tiempo",
+      "tags": [
+        "question tag"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "its-chucking-it-down",
+      "tl": "It's chucking it down.",
+      "es": "Está diluviando.",
+      "lit": "",
+      "note": "Expresión coloquial para lluvia intensa.",
+      "pill": "tiempo",
+      "tags": [
+        "present continuous"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "bit-chilly",
+      "tl": "Bit chilly, isn't it?",
+      "es": "Hace un poco de frío, ¿no?",
+      "lit": "",
+      "note": "Comentario sobre el tiempo fresco.",
+      "pill": "tiempo",
+      "tags": [
+        "question tag"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "hows-it-going",
+      "tl": "How's it going?",
+      "es": "¿Cómo va todo?",
+      "lit": "",
+      "note": "Saludo informal para preguntar por el estado de alguien.",
+      "pill": "social",
+      "tags": [
+        "present continuous"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "not-bad",
+      "tl": "Not bad.",
+      "es": "No está mal.",
+      "lit": "",
+      "note": "Respuesta típica británica, minimizando lo positivo.",
+      "pill": "social",
+      "tags": [
+        "understatement"
+      ],
+      "answer": true,
+      "lesson": 26
+    },
+    {
+      "id": "cant-complain",
+      "tl": "Can't complain.",
+      "es": "No me puedo quejar.",
+      "lit": "",
+      "note": "Respuesta estándar para indicar que todo está bien.",
+      "pill": "social",
+      "tags": [
+        "understatement"
+      ],
+      "answer": true,
+      "lesson": 26
+    },
+    {
+      "id": "do-you-come-here-often",
+      "tl": "Do you come here often?",
+      "es": "¿Vienes aquí a menudo?",
+      "lit": "",
+      "note": "Pregunta típica para iniciar una conversación en un lugar común.",
+      "pill": "social",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "whats-the-weather-like",
+      "tl": "What's the weather like?",
+      "es": "¿Cómo está el tiempo?",
+      "lit": "",
+      "note": "Pregunta estándar sobre el clima.",
+      "pill": "tiempo",
+      "tags": [
+        "present simple"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "whos-playing",
+      "tl": "Who's playing?",
+      "es": "¿Quién juega?",
+      "lit": "",
+      "note": "Usado para preguntar por los equipos en un partido.",
+      "pill": "tiempo",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "who-scored",
+      "tl": "Who scored?",
+      "es": "¿Quién ha marcado?",
+      "lit": "",
+      "note": "Pregunta común durante un partido de fútbol.",
+      "pill": "tiempo",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "the-match-is-on-at-the-pub",
+      "tl": "The match is on at the pub.",
+      "es": "El partido se ve en el pub.",
+      "lit": "",
+      "note": "Indica dónde se puede ver el partido.",
+      "pill": "tiempo",
+      "tags": [
+        "presente continuo"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "come-on",
+      "tl": "Come on!",
+      "es": "¡Vamos!",
+      "lit": "",
+      "note": "Animar a un equipo o persona.",
+      "pill": "tiempo",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "derby-day",
+      "tl": "Derby day.",
+      "es": "Día de derbi.",
+      "lit": "",
+      "note": "Se refiere a un partido importante entre rivales locales.",
+      "pill": "tiempo",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "a-day-out",
+      "tl": "A day out.",
+      "es": "Un día fuera.",
+      "lit": "",
+      "note": "Se usa para describir un día de excursión o actividad.",
+      "pill": "tiempo",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "yes-i-love-football",
+      "tl": "Yes, I love football.",
+      "es": "Sí, me encanta el fútbol.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre el gusto por el fútbol.",
+      "pill": "tiempo",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 27
+    },
+    {
+      "id": "no-i-dont-like-football",
+      "tl": "No, I don't like football.",
+      "es": "No, no me gusta el fútbol.",
+      "lit": "",
+      "note": "Respuesta negativa sobre el gusto por el fútbol.",
+      "pill": "tiempo",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 27
+    },
+    {
+      "id": "ive-got-a-headache",
+      "tl": "I've got a headache.",
+      "es": "Tengo dolor de cabeza.",
+      "lit": "",
+      "note": "Usa 'I've got' para hablar de síntomas.",
+      "pill": "salud",
+      "tags": [
+        "have got"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "ive-got-a-cold",
+      "tl": "I've got a cold.",
+      "es": "Tengo un resfriado.",
+      "lit": "",
+      "note": "Usa 'I've got' para hablar de síntomas.",
+      "pill": "salud",
+      "tags": [
+        "have got"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "chemist",
+      "tl": "Where is the chemist?",
+      "es": "¿Dónde está la farmacia?",
+      "lit": "",
+      "note": "En el Reino Unido, 'chemist' se usa para farmacia.",
+      "pill": "salud",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "prescription",
+      "tl": "I need a prescription.",
+      "es": "Necesito una receta.",
+      "lit": "",
+      "note": "Recuerda que 'prescription' es receta médica.",
+      "pill": "salud",
+      "tags": [
+        "necesidad"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "gp",
+      "tl": "I have an appointment with the GP.",
+      "es": "Tengo una cita con el médico de cabecera.",
+      "lit": "",
+      "note": "GP es el médico de cabecera en el Reino Unido.",
+      "pill": "salud",
+      "tags": [
+        "tener"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "feeling-better",
+      "tl": "I'm feeling better.",
+      "es": "Me siento mejor.",
+      "lit": "",
+      "note": "Usa 'I'm feeling' para describir cómo te sientes.",
+      "pill": "salud",
+      "tags": [
+        "estado"
+      ],
+      "answer": true,
+      "lesson": 28
+    },
+    {
+      "id": "not-feeling-well",
+      "tl": "I'm not feeling well.",
+      "es": "No me siento bien.",
+      "lit": "",
+      "note": "Usa 'I'm not feeling' para expresar malestar.",
+      "pill": "salud",
+      "tags": [
+        "estado"
+      ],
+      "answer": true,
+      "lesson": 28
+    },
+    {
+      "id": "but-you-know",
+      "tl": "But, you know, it's not always easy.",
+      "es": "Pero, ya sabes, no siempre es fácil.",
+      "lit": "",
+      "note": "Una forma de suavizar una opinión personal.",
+      "pill": "social",
+      "tags": [
+        "conjunction",
+        "muletilla"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "because-its-raining",
+      "tl": "Because it's raining, we should stay inside.",
+      "es": "Porque está lloviendo, deberíamos quedarnos dentro.",
+      "lit": "",
+      "note": "Explicación de causa y efecto.",
+      "pill": "tiempo",
+      "tags": [
+        "conjunction",
+        "weather"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "also-its-quite-cold",
+      "tl": "Also, it's quite cold today.",
+      "es": "Además, hace bastante frío hoy.",
+      "lit": "",
+      "note": "Añadir información adicional.",
+      "pill": "tiempo",
+      "tags": [
+        "adverb",
+        "weather"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "then-we-can-go",
+      "tl": "Then, we can go for a walk.",
+      "es": "Entonces, podemos ir a dar un paseo.",
+      "lit": "",
+      "note": "Indica una secuencia de acciones.",
+      "pill": "tiempo",
+      "tags": [
+        "adverb",
+        "sequence"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "so-what-do-you-think",
+      "tl": "So, what do you think?",
+      "es": "Entonces, ¿qué piensas?",
+      "lit": "",
+      "note": "Invita a la opinión del interlocutor.",
+      "pill": "social",
+      "tags": [
+        "conjunction",
+        "question"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "if-you-want",
+      "tl": "If you want, we can stay here.",
+      "es": "Si quieres, podemos quedarnos aquí.",
+      "lit": "",
+      "note": "Ofrece una opción o sugerencia.",
+      "pill": "cortesia",
+      "tags": [
+        "conditional",
+        "suggestion"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "just-a-bit",
+      "tl": "Just a bit.",
+      "es": "Solo un poco.",
+      "lit": "",
+      "note": "Indicar una cantidad pequeña.",
+      "pill": "social",
+      "tags": [
+        "adverb",
+        "quantity"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "maybe-later",
+      "tl": "Maybe later.",
+      "es": "Quizás más tarde.",
+      "lit": "",
+      "note": "Indica una posibilidad futura.",
+      "pill": "tiempo",
+      "tags": [
+        "adverb",
+        "possibility"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "well-i-dont-know",
+      "tl": "Well, I don't know.",
+      "es": "Bueno, no lo sé.",
+      "lit": "",
+      "note": "Expresa duda o incertidumbre.",
+      "pill": "social",
+      "tags": [
+        "muletilla",
+        "doubt"
+      ],
+      "answer": true,
+      "lesson": 29
+    },
+    {
+      "id": "you-know-its-true",
+      "tl": "You know, it's true.",
+      "es": "Sabes, es verdad.",
+      "lit": "",
+      "note": "Busca confirmación o acuerdo.",
+      "pill": "social",
+      "tags": [
+        "muletilla",
+        "confirmation"
+      ],
+      "answer": true,
+      "lesson": 29
+    },
+    {
+      "id": "do-you-wanna-visit",
+      "tl": "Do you wanna visit the British Museum?",
+      "es": "¿Quieres visitar el Museo Británico?",
+      "lit": "",
+      "note": "uso informal de 'wanna' para 'want to'",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "i-gotta-go",
+      "tl": "I gotta go now.",
+      "es": "Tengo que irme ahora.",
+      "lit": "",
+      "note": "uso informal de 'gotta' para 'got to'",
+      "pill": "moverse",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "have-you-been-here-before",
+      "tl": "Have you been here before?",
+      "es": "¿Has estado aquí antes?",
+      "lit": "",
+      "note": "pregunta sobre experiencia previa",
+      "pill": "social",
+      "tags": [
+        "verbo",
+        "presente perfecto"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "yes-ive-been-here",
+      "tl": "Yes, I've been here.",
+      "es": "Sí, he estado aquí.",
+      "lit": "",
+      "note": "respuesta afirmativa sobre experiencia",
+      "pill": "social",
+      "tags": [
+        "verbo",
+        "presente perfecto"
+      ],
+      "answer": true,
+      "lesson": 30
+    },
+    {
+      "id": "no-i-havent-been-here",
+      "tl": "No, I haven't been here.",
+      "es": "No, no he estado aquí.",
+      "lit": "",
+      "note": "respuesta negativa sobre experiencia",
+      "pill": "social",
+      "tags": [
+        "verbo",
+        "presente perfecto"
+      ],
+      "answer": true,
+      "lesson": 30
+    },
+    {
+      "id": "its-gonna-rain",
+      "tl": "It's gonna rain soon.",
+      "es": "Va a llover pronto.",
+      "lit": "",
+      "note": "uso informal de 'gonna' para 'going to'",
+      "pill": "tiempo",
+      "tags": [
+        "verbo",
+        "futuro"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "do-you-have-an-umbrella",
+      "tl": "Do you have an umbrella?",
+      "es": "¿Tienes un paraguas?",
+      "lit": "",
+      "note": "pregunta práctica ante lluvia",
+      "pill": "tiempo",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "yes-i-have-one",
+      "tl": "Yes, I have one.",
+      "es": "Sí, tengo uno.",
+      "lit": "",
+      "note": "respuesta afirmativa práctica",
+      "pill": "tiempo",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "answer": true,
+      "lesson": 30
+    }
+  ]
+}

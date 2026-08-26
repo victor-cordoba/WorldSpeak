@@ -1,0 +1,1778 @@
+{
+  "title": "Di dove sei?",
+  "subtitle": "Aprende a preguntar y responder sobre el origen y la estancia en Roma.",
+  "summary_es": "Una frase para preguntar de dónde es alguien.",
+  "topics": [
+    "presentarse",
+    "nacionalidad",
+    "ciudad",
+    "tiempo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ciao, di dove sei?",
+      "Sono spagnola, di Madrid. E tu?",
+      "Sono italiano, abito a Roma.",
+      "Da quanto tempo sei a Roma?",
+      "Da una settimana. Mi piace molto!"
+    ],
+    "es": [
+      "Hola, ¿de dónde eres?",
+      "Soy española, de Madrid. ¿Y tú?",
+      "Soy italiano, vivo en Roma.",
+      "¿Desde cuándo estás en Roma?",
+      "Desde hace una semana. ¡Me gusta mucho!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Di dove sei?",
+      "es": "¿De dónde eres?"
+    },
+    {
+      "term": "Sono spagnolo.",
+      "es": "Soy español."
+    },
+    {
+      "term": "Di Madrid.",
+      "es": "De Madrid."
+    },
+    {
+      "term": "Da quanto tempo sei a Roma?",
+      "es": "¿Desde cuándo estás en Roma?"
+    },
+    {
+      "term": "Da una settimana.",
+      "es": "Desde hace una semana."
+    },
+    {
+      "term": "Mi piace Roma.",
+      "es": "Me gusta Roma."
+    },
+    {
+      "term": "Ti piace Roma?",
+      "es": "¿Te gusta Roma?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 9. Di dove sei?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Roma, dos personas se conocen. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, di dove sei?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿de dónde eres?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono spagnola, di Madrid. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy española, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono italiano, abito a Roma.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy italiano, vivo en Roma.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana. Mi piace molto!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Desde hace una semana. ¡Me gusta mucho!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a preguntar y responder sobre el origen y la estancia en Roma. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No me gusta",
+      "item": "non-mi-piace"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De dónde eres?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sei",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dove sei",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar la procedencia de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy español». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nolo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "spagnolo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar la nacionalidad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy español»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy español».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«De Madrid». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rid",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "di-madrid"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Madrid",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "di-madrid"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "di-madrid"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para especificar la ciudad de origen.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «De Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «De Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Desde cuándo estás en Roma?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quanto tempo sei a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar la duración de la estancia en Roma.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Desde cuándo estás en Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Desde cuándo estás en Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy español».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Desde hace una semana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mana",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "timana",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "una settimana",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar la duración de la estancia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Desde hace una semana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Desde hace una semana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gusta Roma». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "piace Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar gusto por la ciudad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gusta Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Desde cuándo estás en Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta Roma?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "piace Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre preferencias",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'piacere'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, 'piacere' se usa para expresar gusto. La estructura es diferente al español: 'Mi piace Roma' significa 'Me gusta Roma'. El sujeto es la cosa que gusta.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta Roma?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono a Roma per lavoro.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy en Roma por trabajo.",
+      "item": "sono-a-roma-per-lavoro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy en Roma por trabajo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono a Roma per lavoro.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy en Roma por trabajo.",
+      "item": "sono-a-roma-per-lavoro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien de dónde es.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy español».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «De Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Desde cuándo estás en Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Desde hace una semana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gusta Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non mi piace",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No me gusta",
+      "item": "non-mi-piace"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "di-dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy español».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono spagnolo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy español.",
+      "item": "sono-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «De Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Di Madrid.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "De Madrid.",
+      "item": "di-madrid"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Desde cuándo estás en Roma?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": "da-quanto-tempo-sei-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Desde hace una semana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Desde hace una semana.",
+      "item": "da-una-settimana"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gusta Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace Roma.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Roma.",
+      "item": "mi-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, di dove sei?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿de dónde eres?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono spagnola, di Madrid. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy española, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono italiano, abito a Roma.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy italiano, vivo en Roma.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Da quanto tempo sei a Roma?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Desde cuándo estás en Roma?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Da una settimana. Mi piace molto!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Desde hace una semana. ¡Me gusta mucho!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.9,
+    "chars": 4395,
+    "cues": 190,
+    "mode": "lesson",
+    "lesson": 9
+  }
+}

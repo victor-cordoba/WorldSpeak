@@ -1,0 +1,1651 @@
+{
+  "title": "Quanto costa? Un caffè, per favore",
+  "subtitle": "Aprender a pedir y preguntar precios en un bar.",
+  "summary_es": "Aprenderás a pedir un café y preguntar precios.",
+  "topics": [
+    "pedir",
+    "precios",
+    "cortesía",
+    "números",
+    "bar"
+  ],
+  "dialogue": {
+    "tl": [
+      "Buongiorno! Un caffè, per favore.",
+      "Certo! Quanto costa un caffè?",
+      "Costa un euro.",
+      "Quant'è il totale?",
+      "Il conto è due euro.",
+      "Grazie! Ecco lo scontrino."
+    ],
+    "es": [
+      "¡Buenos días! Un café, por favor.",
+      "¡Claro! ¿Cuánto cuesta un café?",
+      "Cuesta un euro.",
+      "¿Cuánto es el total?",
+      "La cuenta es de dos euros.",
+      "¡Gracias! Aquí está el recibo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quanto costa?",
+      "es": "¿Cuánto cuesta?"
+    },
+    {
+      "term": "Quant'è?",
+      "es": "¿Cuánto es?"
+    },
+    {
+      "term": "Un caffè, per favore.",
+      "es": "Un café, por favor."
+    },
+    {
+      "term": "Il conto, per favore.",
+      "es": "La cuenta, por favor."
+    },
+    {
+      "term": "Lo scontrino, per favore.",
+      "es": "El recibo, por favor."
+    },
+    {
+      "term": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez..."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 6. Quanto costa? Un caffè, per favore.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un bar de Roma, aprendemos a pedir y preguntar precios. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno! Un caffè, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenos días! Un café, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo! Quanto costa un caffè?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Cuánto cuesta un café?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Costa un euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cuesta un euro.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quant'è il totale?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto es el total?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto è due euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La cuenta es de dos euros.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Grazie! Ecco lo scontrino.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! Aquí está el recibo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a pedir y preguntar precios en un bar. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡De nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «A la derecha».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A destra.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "A la derecha.",
+      "item": "a-destra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «A la izquierda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A sinistra.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "A la izquierda.",
+      "item": "a-sinistra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "costa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para preguntar el precio de algo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto es?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ant'è",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma corta y común de preguntar el precio total.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un café, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "caffè per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma cortés de pedir un café.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La cuenta, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "conto per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir la cuenta en un restaurante o bar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El recibo, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "scontrino per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir el recibo después de pagar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El recibo, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El recibo, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "eci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dieci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "due tre quattro cinque sei sette otto nove dieci",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno due tre quattro cinque sei sette otto nove dieci",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Números básicos del 1 al 20.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar precios.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, para preguntar precios, puedes usar 'Quanto costa?' o 'Quant'è?'. Ambas son formas corteses y comunes.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prezzi",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Precios",
+      "item": "prezzi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Precios».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prezzi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Precios",
+      "item": "prezzi"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta un café?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un bar y quieres saber el precio de un café.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa un caffè?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un café?",
+      "item": "quanto-costa-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El recibo, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un café»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡De nada»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «A la derecha».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A destra.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "A la derecha.",
+      "item": "a-destra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «A la izquierda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A sinistra.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "A la izquierda.",
+      "item": "a-sinistra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quant'è?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto es?",
+      "item": "quanto-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El recibo, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lo scontrino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El recibo, por favor.",
+      "item": "lo-scontrino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci...",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez...",
+      "item": "numeri-1-20"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno! Un caffè, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buenos días! Un café, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo! Quanto costa un caffè?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Cuánto cuesta un café?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Costa un euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cuesta un euro.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quant'è il totale?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto es el total?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto è due euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La cuenta es de dos euros.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Grazie! Ecco lo scontrino.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! Aquí está el recibo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.8,
+    "chars": 4698,
+    "cues": 176,
+    "mode": "lesson",
+    "lesson": 6
+  }
+}

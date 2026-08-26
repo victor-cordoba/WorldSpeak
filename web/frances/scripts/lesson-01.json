@@ -1,0 +1,1421 @@
+{
+  "title": "Saludos y Presentaciones",
+  "subtitle": "Aprender a saludar y presentarse en francés",
+  "summary_es": "Una conversación básica para conocer a alguien.",
+  "topics": [
+    "saludo",
+    "presentacion",
+    "agradecimiento",
+    "pregunta",
+    "respuesta"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour !",
+      "Salut ! Ça va ?",
+      "Ça va bien, merci ! Et toi ?",
+      "Ça va. Je m'appelle Pierre. Tu t'appelles comment ?",
+      "Je m'appelle Marie. Enchantée !",
+      "Enchanté, Marie."
+    ],
+    "es": [
+      "¡Hola!",
+      "¡Hola! ¿Cómo estás?",
+      "Estoy bien, ¡gracias! ¿Y tú?",
+      "Estoy bien. Me llamo Pierre. ¿Cómo te llamas?",
+      "Me llamo Marie. ¡Encantada!",
+      "Encantado, Marie."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Bonjour !",
+      "es": "¡Hola!"
+    },
+    {
+      "term": "Salut !",
+      "es": "¡Hola!"
+    },
+    {
+      "term": "Ça va ?",
+      "es": "¿Cómo estás?"
+    },
+    {
+      "term": "Je m'appelle...",
+      "es": "Me llamo..."
+    },
+    {
+      "term": "Tu t'appelles comment ?",
+      "es": "¿Cómo te llamas?"
+    },
+    {
+      "term": "Enchanté(e) !",
+      "es": "¡Encantado/a!"
+    },
+    {
+      "term": "Merci !",
+      "es": "¡Gracias!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 1. Saludos y Presentaciones.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una boulangerie en París, un lugar perfecto para practicar saludos y presentaciones. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Ça va ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ça va bien, merci ! Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy bien, ¡gracias! ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va. Je m'appelle Pierre. Tu t'appelles comment ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy bien. Me llamo Pierre. ¿Cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je m'appelle Marie. Enchantée !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Marie. ¡Encantada!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté, Marie.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantado, Marie.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a saludar y presentarse en francés Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un apunte importante: en Francia se dice bonjour al entrar en cualquier sitio, antes de nada. Sin bonjour, te atienden peor. Es la llave.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Hola». Literalmente, Buenos días. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bonjour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jour",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bonjour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bonjour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa al entrar en cualquier sitio",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Hola». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lut",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "salut"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "salut"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Saludo informal entre amigos",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo estás?». Literalmente, ¿Va?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "va",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ca-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ca-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta informal sobre el estado de ánimo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me llamo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pelle",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "m'appelle",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para presentarse",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo te llamas?». Literalmente, ¿Tú te llamas cómo?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "comment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "t'appelles comment",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar el nombre de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Encantado/a». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "enchante"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "té(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "enchante"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chanté(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "enchante"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "enchante"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Al conocer a alguien por primera vez",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Gracias». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "merci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "merci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para agradecer",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'Bonjour' y 'Salut'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, 'Bonjour' se usa al entrar en cualquier lugar, mientras que 'Salut' es más informal y se usa entre amigos. Es importante elegir el saludo adecuado según el contexto.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "De rien.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "De nada.",
+      "item": "de-rien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«De nada».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "De rien.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "De nada.",
+      "item": "de-rien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una boulangerie y quieres saludar y presentarte a alguien.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Ça va ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ça va bien, merci ! Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy bien, ¡gracias! ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va. Je m'appelle Pierre. Tu t'appelles comment ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy bien. Me llamo Pierre. ¿Cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je m'appelle Marie. Enchantée !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Marie. ¡Encantada!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté, Marie.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantado, Marie.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 10.4,
+    "chars": 3373,
+    "cues": 150,
+    "mode": "lesson",
+    "lesson": 1
+  }
+}

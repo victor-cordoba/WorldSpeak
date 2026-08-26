@@ -1,0 +1,1683 @@
+{
+  "title": "¿Cuántos años tienes?",
+  "subtitle": "Aprender a preguntar y responder sobre la edad.",
+  "summary_es": "Una frase para preguntar la edad.",
+  "topics": [
+    "edad",
+    "pregunta",
+    "respuesta",
+    "ubicación",
+    "descripción"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta ka?",
+      "Maayo ra. Pila imong edad?",
+      "Trenta na ko.",
+      "Bata pa siya.",
+      "Ikaw, pila imong edad?",
+      "Naa ko sa Pasil. Asa ka nagpuyo?"
+    ],
+    "es": [
+      "¿Cómo estás?",
+      "Bien. ¿Cuántos años tienes?",
+      "Tengo treinta años.",
+      "Es todavía joven.",
+      "¿Y tú, cuántos años tienes?",
+      "Vivo en Pasil. ¿Dónde vives?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Pila imong edad?",
+      "es": "¿Cuántos años tienes?"
+    },
+    {
+      "term": "…ka tuig na ko.",
+      "es": "Tengo… años."
+    },
+    {
+      "term": "Pila ka tuig?",
+      "es": "¿Cuántos años?"
+    },
+    {
+      "term": "Asa ka nagpuyo?",
+      "es": "¿Dónde vives?"
+    },
+    {
+      "term": "Bata pa siya.",
+      "es": "Es todavía joven."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 11. ¿Cuántos años tienes?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/67373dc64030a0b4.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un barrio de Cebu City, un voluntario habla con un niño curioso. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/bf1c608e409ac543.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null,
+      "clip": "_clips/a8ccd62864d777e0.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Maayo ra. Pila imong edad?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien. ¿Cuántos años tienes?",
+      "item": null,
+      "clip": "_clips/5cd19e928880afaa.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trenta na ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo treinta años.",
+      "item": null,
+      "clip": "_clips/185f4100fa7cde45.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es todavía joven.",
+      "item": null,
+      "clip": "_clips/61b68070b7f5dda8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ikaw, pila imong edad?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tú, cuántos años tienes?",
+      "item": null,
+      "clip": "_clips/f347fdb58bfc1c1c.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Naa ko sa Pasil. Asa ka nagpuyo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en Pasil. ¿Dónde vives?",
+      "item": null,
+      "clip": "_clips/c3b4f9bfc5e8fbcf.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre la edad. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f102d7736953f5f4.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2ba7d7346ccc7e9e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/eedbf45358c9d519.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay pamilya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "naa-kay-pamilya",
+      "clip": "_clips/26136fb8993b76b2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo hijos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/64607c8d82156170.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa koy anak.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "naa-koy-anak",
+      "clip": "_clips/6546dc162c16ea93.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está tu casa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/69781bf03ebf426e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa imong balay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está tu casa?",
+      "item": "asa-imong-balay",
+      "clip": "_clips/61bfb0148abce363.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Está en Cebú».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/aae4880f9b290516.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está en Cebú.",
+      "item": "naa-sa-cebu",
+      "clip": "_clips/f9f3b4fe9c7eb353.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está en Bohol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0abece1ae00591a1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa sa Bohol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está en Bohol.",
+      "item": "naa-sa-bohol",
+      "clip": "_clips/8678091fe628b18b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/02f7ed77033741aa.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dili ko gusto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "dili-ko-gusto",
+      "clip": "_clips/46079d9b5cb756af.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás ahora?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/37bbbc5155ef592f.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka karun?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás ahora?",
+      "item": "asa-ka-karun",
+      "clip": "_clips/6ee66eee74d953d6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tienes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ffbd5bd03a817194.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pila-imong-edad",
+      "clip": "_clips/0c279b91f19b8cd3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "edad",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pila-imong-edad",
+      "clip": "_clips/2eb7093f945b046e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "imong edad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pila-imong-edad",
+      "clip": "_clips/ee370edb51e24a61.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pila-imong-edad",
+      "clip": "_clips/e9b94321ade562bd.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar la edad de manera directa y respetuosa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4fc8fd7cf79be2e7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/62e3755ccf785afe.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/67bb238d5c4e4e09.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo… años». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6baf78709c3f83af.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/a54398aa1247f919.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/e6c40a661505ea7d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tuig na ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/8069c550d356984b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/39f1bf1a7cbbd3cc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "responder con la edad",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a8a8dd460f70a5a9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo… años»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/01f8fb1928063e22.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo… años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/21898eae63ffceb8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e157374647788dd7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ig",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/e3989761ee5425c1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tuig",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/8ae63803ae0ee48e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka tuig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/a9314242c7ff465b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/c588e6bf843092c3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar cuántos años",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5be560634ffbb9ce.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4727ac99c41b5fa2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/919e6365732842b1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde vives?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/71db939d31524d7a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "yo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/da1bda815fb5281e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "puyo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/ad1e10e303acdd33.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nagpuyo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/0945e9e40846b291.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka nagpuyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/b7d7be204c18b332.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/65a1ea3acbf1ad07.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar por el lugar de residencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9eed69c99eeefb88.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/76f8437874249063.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d79b241f3ee4db90.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/be9a10e2ba9013fd.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo… años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/625441ff77e799d5.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es todavía joven». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/892a3eb1ee7f5a7d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bata-pa-siya",
+      "clip": "_clips/06e2ccdb5cb10fc4.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "siya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bata-pa-siya",
+      "clip": "_clips/46e30dc5ce9c7948.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pa siya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bata-pa-siya",
+      "clip": "_clips/c8a720dc1071a848.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bata-pa-siya",
+      "clip": "_clips/7f7d4f454076edb9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "describir a alguien joven",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7f534c7f73611563.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Es todavía joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/81732c39d30955af.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Es todavía joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3f8fd73399d5a22e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/295882ca43b46238.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Dame agua».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/376375eaa965e385.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahatag og tubig.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame agua.",
+      "item": "pahatag-og-tubig",
+      "clip": "_clips/f1cfdb97a1e09225.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'ka' para numerales.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/bfe8a3a5f48dcb88.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Bisaya, 'ka' se utiliza para conectar números con sustantivos, como en 'pila ka tuig' para preguntar '¿cuántos años?'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/38e0824b4323b3e3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7d5aa14df50cd375.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/c21a7fb835bda8c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es todavía joven».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/44b31a1c6cd5986b.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/c21a7fb835bda8c0.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tigulang na.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Es mayor.",
+      "item": "tigulang-na",
+      "clip": "_clips/267a82fd0c44945f.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es mayor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9e072a532faa983d.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tigulang na.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es mayor.",
+      "item": "tigulang-na",
+      "clip": "_clips/267a82fd0c44945f.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Diri sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Aquí en Cebú.",
+      "item": "diri-sa-cebu",
+      "clip": "_clips/56a112e76017225a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Aquí en Cebú».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8bd2027d2501ad59.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Diri sa Cebu.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Aquí en Cebú.",
+      "item": "diri-sa-cebu",
+      "clip": "_clips/56a112e76017225a.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Pasil.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está en Pasil.",
+      "item": "naa-sa-pasil",
+      "clip": "_clips/5e6f386b058dd600.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está en Pasil».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2f322f9bd5e3aa80.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa sa Pasil.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está en Pasil.",
+      "item": "naa-sa-pasil",
+      "clip": "_clips/5e6f386b058dd600.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/b47ecfe71030e820.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a un niño cuántos años tiene.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3f2b87698c2a5d5a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c1930716c94dd87e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/79610a9b622b0934.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo… años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/21898eae63ffceb8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos años?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5963daf259d55323.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/76f8437874249063.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Es todavía joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cf81b8d5da544326.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f5ee5dd97c439f7a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/94c5aac323518ddf.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/eedbf45358c9d519.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay pamilya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "naa-kay-pamilya",
+      "clip": "_clips/26136fb8993b76b2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo hijos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/64607c8d82156170.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa koy anak.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "naa-koy-anak",
+      "clip": "_clips/6546dc162c16ea93.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está tu casa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/69781bf03ebf426e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa imong balay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está tu casa?",
+      "item": "asa-imong-balay",
+      "clip": "_clips/61bfb0148abce363.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Está en Cebú».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/aae4880f9b290516.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está en Cebú.",
+      "item": "naa-sa-cebu",
+      "clip": "_clips/f9f3b4fe9c7eb353.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está en Bohol»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0abece1ae00591a1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa sa Bohol.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está en Bohol.",
+      "item": "naa-sa-bohol",
+      "clip": "_clips/8678091fe628b18b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/02f7ed77033741aa.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dili ko gusto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "dili-ko-gusto",
+      "clip": "_clips/46079d9b5cb756af.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás ahora?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/37bbbc5155ef592f.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka karun?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás ahora?",
+      "item": "asa-ka-karun",
+      "clip": "_clips/6ee66eee74d953d6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c1930716c94dd87e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/79610a9b622b0934.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila imong edad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "pila-imong-edad",
+      "clip": "_clips/90326baaac98d75c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo… años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/21898eae63ffceb8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "…ka tuig na ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo… años.",
+      "item": "ka-tuig-na-ko",
+      "clip": "_clips/b41d7b563d258dbe.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos años?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5963daf259d55323.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pila ka tuig?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años?",
+      "item": "pila-ka-tuig",
+      "clip": "_clips/91652348109a4df7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/76f8437874249063.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Asa ka nagpuyo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "asa-ka-nagpuyo",
+      "clip": "_clips/e8652af2ae59e44d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Es todavía joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cf81b8d5da544326.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya",
+      "clip": "_clips/211e2482fa7b8bb2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/456dc485f2d2d824.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null,
+      "clip": "_clips/a8ccd62864d777e0.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Maayo ra. Pila imong edad?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien. ¿Cuántos años tienes?",
+      "item": null,
+      "clip": "_clips/5cd19e928880afaa.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trenta na ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo treinta años.",
+      "item": null,
+      "clip": "_clips/185f4100fa7cde45.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es todavía joven.",
+      "item": null,
+      "clip": "_clips/61b68070b7f5dda8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ikaw, pila imong edad?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tú, cuántos años tienes?",
+      "item": null,
+      "clip": "_clips/f347fdb58bfc1c1c.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Naa ko sa Pasil. Asa ka nagpuyo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en Pasil. ¿Dónde vives?",
+      "item": null,
+      "clip": "_clips/c3b4f9bfc5e8fbcf.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Amping!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7ef62e3dd16c3c52.mp3"
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.3,
+    "chars": 3542,
+    "cues": 162,
+    "mode": "lesson",
+    "lesson": 11
+  }
+}

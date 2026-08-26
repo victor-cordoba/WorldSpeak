@@ -1,0 +1,2030 @@
+{
+  "title": "La boulangerie et le marché",
+  "subtitle": "Aprende a pedir en una boulangerie y en el mercado",
+  "summary_es": "Aprenderás a pedir productos en una boulangerie y en el mercado.",
+  "topics": [
+    "boulangerie",
+    "mercado",
+    "cortesía",
+    "pedidos",
+    "temporada"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, une baguette, s'il vous plaît.",
+      "Bien cuite ou pas trop cuite ?",
+      "Bien cuite, merci.",
+      "Et avec ça ?",
+      "Un pain au chocolat, s'il vous plaît.",
+      "Ça sera tout ?",
+      "Oui, ça sera tout, merci."
+    ],
+    "es": [
+      "Hola, una baguette, por favor.",
+      "¿Bien cocida o no muy cocida?",
+      "Bien cocida, gracias.",
+      "¿Y con eso?",
+      "Un pain au chocolat, por favor.",
+      "¿Eso será todo?",
+      "Sí, eso será todo, gracias."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Une baguette, s'il vous plaît.",
+      "es": "Una baguette, por favor."
+    },
+    {
+      "term": "Bien cuite.",
+      "es": "Bien cocida."
+    },
+    {
+      "term": "Pas trop cuite.",
+      "es": "No muy cocida."
+    },
+    {
+      "term": "Un pain au chocolat, s'il vous plaît.",
+      "es": "Un pain au chocolat, por favor."
+    },
+    {
+      "term": "Au marché.",
+      "es": "En el mercado."
+    },
+    {
+      "term": "Un kilo de...",
+      "es": "Un kilo de..."
+    },
+    {
+      "term": "C'est de saison ?",
+      "es": "¿Es de temporada?"
+    },
+    {
+      "term": "Ça sera tout.",
+      "es": "Eso será todo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 15. La boulangerie et le marché.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una boulangerie del barrio de Montmartre, un cliente pide una baguette. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, une baguette, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, una baguette, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bien cuite ou pas trop cuite ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Bien cocida o no muy cocida?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite, merci.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien cocida, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Et avec ça ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y con eso?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ça sera tout ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Eso será todo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, ça sera tout, merci.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, eso será todo, gracias.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a pedir en una boulangerie y en el mercado Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso es todo, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est tout, merci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es todo, gracias.",
+      "item": "cest-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En tu casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Con tarjeta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Par carte.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con tarjeta.",
+      "item": "par-carte"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vous es usted, y también vosotros. Con desconocidos, mayores y en tiendas, vous. Con amigos y jóvenes, tu. Si dudas, vous.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una baguette, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "plaît",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "baguette s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 's'il vous plaît' para pedir educadamente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una baguette, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una baguette, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Bien cocida». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cuite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir una baguette bien cocida.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Bien cocida»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bien cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No muy cocida». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cuite",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "trop cuite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir una baguette no muy cocida.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No muy cocida»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No muy cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un pain au chocolat, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "plaît",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pain au chocolat s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat s'il vous plaît",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un clásico en las boulangeries.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un pain au chocolat, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un pain au chocolat, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Bien cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«En el mercado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ché",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "au-marche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "marché",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "au-marche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "au-marche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para situarse en el contexto del mercado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En el mercado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «En el mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un kilo de». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kilo de",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir cantidades en el mercado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un kilo de»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un kilo de».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un pain au chocolat, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es de temporada?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "son",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ison",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "saison",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de saison",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar si un producto es de temporada.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Es de temporada?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Es de temporada?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Eso será todo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ut",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tout",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sera tout",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que has terminado de pedir.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso será todo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eso será todo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un kilo de».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux répéter ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes repetir?",
+      "item": "tu-peux-repeter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pedidos en la boulangerie.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Francia, es común especificar cómo quieres tu baguette: 'bien cuite' o 'pas trop cuite'. Usa 's'il vous plaît' para ser cortés.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je veux.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, quiero.",
+      "item": "oui-je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, quiero».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je veux.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, quiero.",
+      "item": "oui-je-veux"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no quiero.",
+      "item": "non-je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no quiero».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne veux pas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no quiero.",
+      "item": "non-je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una boulangerie y quieres pedir una baguette bien cocida.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una baguette, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bien cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No muy cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un pain au chocolat, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En el mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un kilo de».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Es de temporada?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso será todo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso es todo, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est tout, merci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es todo, gracias.",
+      "item": "cest-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En tu casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez toi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En tu casa.",
+      "item": "chez-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Con tarjeta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Par carte.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con tarjeta.",
+      "item": "par-carte"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una baguette, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une baguette, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una baguette, por favor.",
+      "item": "une-baguette-svp"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bien cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien cocida.",
+      "item": "bien-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No muy cocida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas trop cuite.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No muy cocida.",
+      "item": "pas-trop-cuite"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un pain au chocolat, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": "pain-au-chocolat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «En el mercado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Au marché.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En el mercado.",
+      "item": "au-marche"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un kilo de».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un kilo de...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un kilo de...",
+      "item": "un-kilo-de"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Es de temporada?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est de saison ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es de temporada?",
+      "item": "cest-de-saison"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso será todo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, une baguette, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, una baguette, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bien cuite ou pas trop cuite ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Bien cocida o no muy cocida?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bien cuite, merci.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien cocida, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Et avec ça ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y con eso?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un pain au chocolat, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un pain au chocolat, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ça sera tout ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Eso será todo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, ça sera tout, merci.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, eso será todo, gracias.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.4,
+    "chars": 5273,
+    "cues": 217,
+    "mode": "lesson",
+    "lesson": 15
+  }
+}

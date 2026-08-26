@@ -1,0 +1,1631 @@
+{
+  "title": "Dreams and Aspirations",
+  "subtitle": "Learn to talk about your dreams and future plans.",
+  "summary_es": "Hablar sobre sueños y aspiraciones.",
+  "topics": [
+    "sueños",
+    "futuro",
+    "deseos",
+    "planes",
+    "motivación"
+  ],
+  "dialogue": {
+    "tl": [
+      "What do you want to be?",
+      "My dream is to be a doctor.",
+      "I'd love to live here.",
+      "One day, I'll travel the world.",
+      "You can do it!"
+    ],
+    "es": [
+      "¿Qué quieres ser?",
+      "Mi sueño es ser médico.",
+      "Me encantaría vivir aquí.",
+      "Un día, viajaré por el mundo.",
+      "¡Tú puedes hacerlo!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "What do you want to be?",
+      "es": "¿Qué quieres ser?"
+    },
+    {
+      "term": "My dream is to be a doctor.",
+      "es": "Mi sueño es ser médico."
+    },
+    {
+      "term": "I'd love to live here.",
+      "es": "Me encantaría vivir aquí."
+    },
+    {
+      "term": "One day, I'll travel the world.",
+      "es": "Un día, viajaré por el mundo."
+    },
+    {
+      "term": "You can do it!",
+      "es": "¡Tú puedes hacerlo!"
+    },
+    {
+      "term": "I would love to visit Edinburgh.",
+      "es": "Me encantaría visitar Edimburgo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 23. Dreams and Aspirations.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un parque de Londres, dos amigos charlan sobre sus sueños y aspiraciones futuras. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué quieres ser?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Learn to talk about your dreams and future plans. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Are you sad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "are-you-sad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sendero público».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué quieres ser?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "be",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to be",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "want to be",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do you want to be",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre aspiraciones futuras",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué quieres ser?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué quieres ser?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi sueño es ser médico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "doctor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a doctor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dream is to be a doctor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar sobre sueños personales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi sueño es ser médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es ser médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me encantaría vivir aquí». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "here",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "live here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "love to live here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar un deseo fuerte",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me encantaría vivir aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encantaría vivir aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un día, viajaré por el mundo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "world",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the world",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "travel the world",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "day I'll travel the world",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day I'll travel the world",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar sobre planes futuros",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día, viajaré por el mundo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un día, viajaré por el mundo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi sueño es ser médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Tú puedes hacerlo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "can do it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Frase motivacional",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Tú puedes hacerlo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Tú puedes hacerlo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me encantaría visitar Edimburgo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "burgh",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dinburgh",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Edinburgh",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "would love to visit Edinburgh",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar un deseo con 'would love to'",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me encantaría visitar Edimburgo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encantaría visitar Edimburgo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un día, viajaré por el mundo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué línea tomo para Piccadilly Circus?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Which line do I take for Piccadilly Circus?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué línea tomo para Piccadilly Circus?",
+      "item": "which-line-do-i-take-for"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Using 'would love to'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "The phrase 'would love to' is used to express strong desires or wishes. It's a polite way to say what you really want to do.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "What's your dream?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "whats-your-dream"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es tu sueño?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "What's your dream?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "whats-your-dream"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I dream of becoming an artist.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sueño con ser artista.",
+      "item": "i-dream-of"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sueño con ser artista».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I dream of becoming an artist.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sueño con ser artista.",
+      "item": "i-dream-of"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Habla sobre tu sueño de viajar por el mundo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué quieres ser?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es ser médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me encantaría vivir aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día, viajaré por el mundo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Tú puedes hacerlo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encantaría visitar Edimburgo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like music?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "do-you-like-music"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Are you sad?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "are-you-sad"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sendero público».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Public footpath",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sendero público",
+      "item": "public-footpath"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué quieres ser?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres ser?",
+      "item": "what-do-you-want-to-be"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es ser médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": "my-dream-is-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me encantaría vivir aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": "id-love-to-live-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día, viajaré por el mundo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": "one-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Tú puedes hacerlo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me encantaría visitar Edimburgo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I would love to visit Edinburgh.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Me encantaría visitar Edimburgo.",
+      "item": "would-love-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you want to be?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué quieres ser?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My dream is to be a doctor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es ser médico.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd love to live here.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me encantaría vivir aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "One day, I'll travel the world.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día, viajaré por el mundo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.4,
+    "chars": 4893,
+    "cues": 174,
+    "mode": "lesson",
+    "lesson": 23
+  }
+}

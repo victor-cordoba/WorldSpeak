@@ -1,0 +1,1734 @@
+{
+  "title": "Eating like a Brit",
+  "subtitle": "Aprende sobre las comidas británicas típicas.",
+  "summary_es": "Una frase",
+  "topics": [
+    "comida",
+    "cultura",
+    "tradiciones",
+    "preguntas",
+    "ofertas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Fancy some fish and chips?",
+      "Sure, let's go to the chippy.",
+      "Is it any good?",
+      "Yes, it's brilliant! And we can have a cuppa after.",
+      "Sounds lovely. Maybe an afternoon tea?"
+    ],
+    "es": [
+      "¿Te apetece un poco de pescado con patatas fritas?",
+      "Claro, vamos a la freiduría.",
+      "¿Está bueno?",
+      "Sí, ¡es genial! Y podemos tomar una taza de té después.",
+      "Suena encantador. ¿Quizás un té de la tarde?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Fancy some fish and chips?",
+      "es": "¿Te apetece un poco de pescado con patatas fritas?"
+    },
+    {
+      "term": "Let's go to the chippy.",
+      "es": "Vamos a la freiduría."
+    },
+    {
+      "term": "A cuppa.",
+      "es": "Una taza de té."
+    },
+    {
+      "term": "Afternoon tea.",
+      "es": "Té de la tarde."
+    },
+    {
+      "term": "Curry night.",
+      "es": "Noche de curry."
+    },
+    {
+      "term": "Takeaway.",
+      "es": "Comida para llevar."
+    },
+    {
+      "term": "Full English breakfast.",
+      "es": "Desayuno inglés completo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 20. Eating like a Brit.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un paseo por Camden, decides parar a comer algo típico británico. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sure, let's go to the chippy.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, vamos a la freiduría.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it any good?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está bueno?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's brilliant! And we can have a cuppa after.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¡es genial! Y podemos tomar una taza de té después.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sounds lovely. Maybe an afternoon tea?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Suena encantador. ¿Quizás un té de la tarde?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende sobre las comidas británicas típicas. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi comida favorita es el pescado con patatas fritas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me apetece un curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera una taza de té, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te apetece un poco de pescado con patatas fritas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chips",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fish and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "some fish and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'fancy' para ofrecer comida de manera informal.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te apetece un poco de pescado con patatas fritas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te apetece un poco de pescado con patatas fritas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vamos a la freiduría». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chippy",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the chippy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to the chippy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go to the chippy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Chippy es una forma coloquial de decir freiduría.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vamos a la freiduría»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vamos a la freiduría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una taza de té». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cuppa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cuppa es una forma cariñosa de referirse a una taza de té.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una taza de té»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una taza de té».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Té de la tarde». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tea",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una tradición británica de tomar té con pasteles o sándwiches.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Té de la tarde»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Té de la tarde».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vamos a la freiduría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Noche de curry». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "night",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "curry-night"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "curry-night"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una costumbre popular de tener una noche dedicada a comer curry.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Noche de curry»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Noche de curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Comida para llevar». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "way",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "takeaway"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "away",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "takeaway"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "keaway",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "takeaway"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "takeaway"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Comida que se compra para llevar a casa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Comida para llevar»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Comida para llevar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Té de la tarde».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Desayuno inglés completo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fast",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "akfast",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "breakfast",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "English breakfast",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un desayuno tradicional que incluye huevos, bacon, salchichas, etc.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Desayuno inglés completo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Desayuno inglés completo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Fue encantador conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It was lovely to meet you.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Fue encantador conocerte.",
+      "item": "it-was-lovely-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ofreciendo y Preguntando sobre Comida.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés británico, es común usar 'fancy' para ofrecer comida de manera informal. También puedes preguntar 'Is it any good?' para saber si algo está bueno.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it any good?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está bueno?",
+      "item": "is-it-any-good"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is it any good?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Está bueno?",
+      "item": "is-it-any-good"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está bueno?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is it any good?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está bueno?",
+      "item": "is-it-any-good"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en Camden y quieres comer pescado con patatas fritas. ¿Cómo lo ofreces a tu amigo?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te apetece un poco de pescado con patatas fritas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vamos a la freiduría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una taza de té».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Té de la tarde»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Noche de curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Comida para llevar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Desayuno inglés completo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi comida favorita es el pescado con patatas fritas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me apetece un curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera una taza de té, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te apetece un poco de pescado con patatas fritas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": "fancy-some-fish-and-chips"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vamos a la freiduría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the chippy.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Vamos a la freiduría.",
+      "item": "lets-go-to-the-chippy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una taza de té».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A cuppa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una taza de té.",
+      "item": "a-cuppa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Té de la tarde»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Afternoon tea.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Té de la tarde.",
+      "item": "afternoon-tea"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Noche de curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Curry night.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Noche de curry.",
+      "item": "curry-night"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Comida para llevar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Takeaway.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Comida para llevar.",
+      "item": "takeaway"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Desayuno inglés completo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Full English breakfast.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Desayuno inglés completo.",
+      "item": "full-english-breakfast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fancy some fish and chips?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te apetece un poco de pescado con patatas fritas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sure, let's go to the chippy.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, vamos a la freiduría.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it any good?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está bueno?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's brilliant! And we can have a cuppa after.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¡es genial! Y podemos tomar una taza de té después.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sounds lovely. Maybe an afternoon tea?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Suena encantador. ¿Quizás un té de la tarde?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.3,
+    "chars": 5155,
+    "cues": 185,
+    "mode": "lesson",
+    "lesson": 20
+  }
+}

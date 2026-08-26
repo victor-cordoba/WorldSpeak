@@ -1,0 +1,1493 @@
+{
+  "title": "Dove? Chi? Cosa?",
+  "subtitle": "Aprende a preguntar ubicaciones e identificar personas y objetos",
+  "summary_es": "Aprender a preguntar y responder sobre ubicaciones, personas y objetos.",
+  "topics": [
+    "ubicaciones",
+    "identidad",
+    "objetos",
+    "preguntas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Mamma, dove sei?",
+      "Sono qui, vicino alla fontana!",
+      "Chi è lui, vicino a te?",
+      "È un amico di papà.",
+      "E cos'è quello?",
+      "È un gatto, vieni a vederlo!"
+    ],
+    "es": [
+      "Mamá, ¿dónde estás?",
+      "¡Estoy aquí, cerca de la fuente!",
+      "¿Quién es él, cerca de ti?",
+      "Es un amigo de papá.",
+      "¿Y qué es aquello?",
+      "Es un gato, ¡ven a verlo!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Dove sei?",
+      "es": "¿Dónde estás?"
+    },
+    {
+      "term": "Chi è lui?",
+      "es": "¿Quién es él?"
+    },
+    {
+      "term": "Chi è lei?",
+      "es": "¿Quién es ella?"
+    },
+    {
+      "term": "Cos'è questo?",
+      "es": "¿Qué es esto?"
+    },
+    {
+      "term": "Sono qui",
+      "es": "Estoy aquí"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 4. Dove? Chi? Cosa?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una plaza de Roma, un niño y su madre buscan a su padre. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mamma, dove sei?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mamá, ¿dónde estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono qui, vicino alla fontana!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Estoy aquí, cerca de la fuente!",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Chi è lui, vicino a te?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién es él, cerca de ti?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un amico di papà.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es un amigo de papá.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "E cos'è quello?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y qué es aquello?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un gatto, vieni a vederlo!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es un gato, ¡ven a verlo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a preguntar ubicaciones e identificar personas y objetos Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Esta es mi casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta mucho»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace molto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta mucho",
+      "item": "mi-piace-molto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli spagnolo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "parli-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde estás?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sei",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa para preguntar la ubicación de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién es él?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "è lui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre la identidad de un hombre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién es él?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es él?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién es ella?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lei",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "è lei",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre la identidad de una mujer",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién es ella?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es ella?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué es esto?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "esto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "questo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre un objeto cercano",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué es esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es él?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy aquí». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sono-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sono-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta común para indicar presencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un poco».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un po'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un poco",
+      "item": "un-po"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Interrogativos: Dove, Chi, Cosa.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, usamos 'dove' para preguntar sobre ubicaciones, 'chi' para preguntar sobre personas y 'cosa' para preguntar sobre objetos. Estas palabras son esenciales para iniciar conversaciones y obtener información.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono lì",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy allí",
+      "item": "sono-li"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy allí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono lì",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy allí",
+      "item": "sono-li"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un libro",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Es un libro",
+      "item": "e-un-libro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es un libro».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un libro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es un libro",
+      "item": "e-un-libro"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un gatto",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Es un gato",
+      "item": "e-un-gatto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es un gato».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un gatto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es un gato",
+      "item": "e-un-gatto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien dónde está.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien quién es esa persona.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien qué es ese objeto.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es él?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es ella?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué es esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Esta es mi casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta mucho»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi piace molto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta mucho",
+      "item": "mi-piace-molto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli spagnolo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "parli-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es él?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es él?",
+      "item": "chi-e-lui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es ella?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chi è lei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ella?",
+      "item": "chi-e-lei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué es esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cos'è questo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "cos-e-questo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mamma, dove sei?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mamá, ¿dónde estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono qui, vicino alla fontana!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Estoy aquí, cerca de la fuente!",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Chi è lui, vicino a te?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién es él, cerca de ti?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un amico di papà.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es un amigo de papá.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "E cos'è quello?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y qué es aquello?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È un gatto, vieni a vederlo!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es un gato, ¡ven a verlo!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.1,
+    "chars": 3464,
+    "cues": 159,
+    "mode": "lesson",
+    "lesson": 4
+  }
+}

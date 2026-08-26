@@ -1,0 +1,1788 @@
+{
+  "title": "Attenzione!",
+  "subtitle": "Aprende a manejar situaciones de emergencia en Roma.",
+  "summary_es": "Una frase",
+  "topics": [
+    "peligro",
+    "salud",
+    "imperativo",
+    "exclamación",
+    "emergencia"
+  ],
+  "dialogue": {
+    "tl": [
+      "Attenzione! Occhio al portafoglio!",
+      "Aiuto! Sto male!",
+      "Chiama la polizia! Serve un medico!",
+      "Non è sicuro restare qui.",
+      "Sì, è aperto!"
+    ],
+    "es": [
+      "¡Atención! ¡Cuidado con la cartera!",
+      "¡Ayuda! ¡Estoy mal!",
+      "¡Llama a la policía! ¡Se necesita un médico!",
+      "No es seguro quedarse aquí.",
+      "¡Sí, está abierto!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Attenzione!",
+      "es": "¡Atención!"
+    },
+    {
+      "term": "Aiuto!",
+      "es": "¡Ayuda!"
+    },
+    {
+      "term": "Non è sicuro.",
+      "es": "No es seguro."
+    },
+    {
+      "term": "Occhio al portafoglio!",
+      "es": "¡Cuidado con la cartera!"
+    },
+    {
+      "term": "Chiama la polizia!",
+      "es": "¡Llama a la policía!"
+    },
+    {
+      "term": "Sto male.",
+      "es": "Estoy mal."
+    },
+    {
+      "term": "Serve un medico!",
+      "es": "¡Se necesita un médico!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 24. Attenzione!.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle concurrida de Roma, un turista se siente mal y necesita ayuda. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione! Occhio al portafoglio!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Atención! ¡Cuidado con la cartera!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Aiuto! Sto male!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Ayuda! ¡Estoy mal!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia! Serve un medico!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Llama a la policía! ¡Se necesita un médico!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non è sicuro restare qui.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No es seguro quedarse aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, è aperto!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Sí, está abierto!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a manejar situaciones de emergencia en Roma. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Con permiso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un momento»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Atención». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ne",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "one",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zione",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tenzione",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa para alertar a alguien de un peligro inminente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Atención»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Atención».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Ayuda». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aiuto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aiuto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "iuto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aiuto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aiuto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se grita cuando se necesita asistencia urgente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Ayuda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No es seguro». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "curo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sicuro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "è sicuro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se dice para advertir sobre una situación peligrosa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No es seguro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No es seguro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Cuidado con la cartera». Literalmente, Ojo a la cartera. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "foglio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tafoglio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "al portafoglio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Advertencia común en lugares concurridos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Cuidado con la cartera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Cuidado con la cartera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Llama a la policía». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lizia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "polizia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la polizia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se utiliza en situaciones de emergencia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Llama a la policía»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Llama a la policía».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy mal». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sto-male"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "male",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sto-male"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sto-male"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar que uno se siente mal físicamente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Cuidado con la cartera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Se necesita un médico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "co",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dico",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "medico",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un medico",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa en situaciones de urgencia médica.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Se necesita un médico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Se necesita un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy cansado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono stanco.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy cansado.",
+      "item": "sono-stanco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Imperativos de urgencia.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Los imperativos se usan para dar órdenes o instrucciones directas. En situaciones de emergencia, se emplean con frecuencia para alertar o pedir ayuda.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è aperto.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está abierto.",
+      "item": "si-e-aperto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está abierto».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sì, è aperto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está abierto.",
+      "item": "si-e-aperto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una calle de Roma y ves a alguien que parece necesitar ayuda. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Atención».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No es seguro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Cuidado con la cartera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Llama a la policía».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Se necesita un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sono qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy aquí",
+      "item": "sono-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona / Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Con permiso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Permesso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con permiso",
+      "item": "permesso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un momento»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un attimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento",
+      "item": "un-attimo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Grazie!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta la música?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace la musica?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta la música?",
+      "item": "ti-piace-la-musica"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Atención».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Atención!",
+      "item": "attenzione"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aiuto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Ayuda!",
+      "item": "aiuto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No es seguro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non è sicuro.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No es seguro.",
+      "item": "non-e-sicuro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Cuidado con la cartera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Occhio al portafoglio!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuidado con la cartera!",
+      "item": "occhio-al-portafoglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Llama a la policía».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Llama a la policía!",
+      "item": "chiama-la-polizia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy mal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Se necesita un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Attenzione! Occhio al portafoglio!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Atención! ¡Cuidado con la cartera!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Aiuto! Sto male!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Ayuda! ¡Estoy mal!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chiama la polizia! Serve un medico!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Llama a la policía! ¡Se necesita un médico!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non è sicuro restare qui.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No es seguro quedarse aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sì, è aperto!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Sí, está abierto!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.5,
+    "chars": 4200,
+    "cues": 191,
+    "mode": "lesson",
+    "lesson": 24
+  }
+}

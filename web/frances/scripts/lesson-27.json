@@ -1,0 +1,1615 @@
+{
+  "title": "Le foot et le vélo",
+  "subtitle": "Aprenderás a hablar de fútbol y actividades al aire libre.",
+  "summary_es": "Una lección sobre el fútbol y actividades familiares.",
+  "topics": [
+    "fútbol",
+    "familia",
+    "preguntar",
+    "preferencias",
+    "actividades"
+  ],
+  "dialogue": {
+    "tl": [
+      "Qui joue aujourd'hui ?",
+      "Le PSG contre l'OM.",
+      "Allez les Bleus !",
+      "Tu préfères le PSG ou l'OM ?",
+      "Moi, j'aime bien le PSG.",
+      "Et moi, l'OM !"
+    ],
+    "es": [
+      "¿Quién juega hoy?",
+      "El PSG contra el OM.",
+      "¡Vamos, los Bleus!",
+      "¿Prefieres el PSG o el OM?",
+      "A mí me gusta el PSG.",
+      "¡Y a mí, el OM!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Qui joue ?",
+      "es": "¿Quién juega?"
+    },
+    {
+      "term": "Qui a marqué ?",
+      "es": "¿Quién ha marcado?"
+    },
+    {
+      "term": "Allez les Bleus !",
+      "es": "¡Vamos, los Bleus!"
+    },
+    {
+      "term": "Une sortie à vélo",
+      "es": "Una salida en bicicleta"
+    },
+    {
+      "term": "Le dimanche en famille",
+      "es": "El domingo en familia"
+    },
+    {
+      "term": "Le PSG ou l'OM ?",
+      "es": "¿El PSG o el OM?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 27. Le foot et le vélo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Es un domingo soleado en el parque de Belleville. Familias y amigos disfrutan del día al aire libre. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue aujourd'hui ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién juega hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Le PSG contre l'OM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El PSG contra el OM.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu préfères le PSG ou l'OM ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Prefieres el PSG o el OM?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi, j'aime bien le PSG.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "A mí me gusta el PSG.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Et moi, l'OM !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Y a mí, el OM!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a hablar de fútbol y actividades al aire libre. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué equipo apoyas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es pour quelle équipe ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "tu-es-pour-quelle-equipe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Prefiero el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je préfère le foot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "je-prefere-le-foot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está bueno».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est bon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está bueno.",
+      "item": "oui-cest-bon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién juega?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ue",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qui-joue"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "joue",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qui-joue"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qui-joue"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar quién está jugando.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién juega?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién juega?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién ha marcado?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qué",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "marqué",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a marqué",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar quién ha anotado un gol.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién ha marcado?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién ha marcado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos, los Bleus». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "us",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bleus",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "les Bleus",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Frase de aliento para el equipo nacional de fútbol francés.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos, los Bleus»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos, los Bleus».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una salida en bicicleta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vélo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de una actividad recreativa en bicicleta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una salida en bicicleta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una salida en bicicleta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién ha marcado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El domingo en familia». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mille",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "famille",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para describir una actividad familiar típica del domingo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El domingo en familia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El domingo en familia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿El PSG o el OM?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "l'OM",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ou l'OM",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "PSG ou l'OM",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre la preferencia entre dos equipos de fútbol populares en Francia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿El PSG o el OM?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿El PSG o el OM?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una salida en bicicleta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quisiera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar de deportes.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En esta lección, aprenderás a preguntar sobre partidos de fútbol y expresar tus preferencias entre equipos. Usamos el passé composé para preguntar quién ha marcado.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, le PSG.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, el PSG.",
+      "item": "oui-le-psg"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, el PSG».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, le PSG.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, el PSG.",
+      "item": "oui-le-psg"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, l'OM.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, el OM.",
+      "item": "non-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, el OM».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, l'OM.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, el OM.",
+      "item": "non-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien qué equipo de fútbol prefiere.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quién juega?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién ha marcado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Vamos, los Bleus».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una salida en bicicleta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El domingo en familia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿El PSG o el OM?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué equipo apoyas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es pour quelle équipe ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué equipo apoyas?",
+      "item": "tu-es-pour-quelle-equipe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Prefiero el fútbol».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je préfère le foot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Prefiero el fútbol.",
+      "item": "je-prefere-le-foot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On va manger ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Vamos a comer?",
+      "item": "on-va-manger"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está bueno».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est bon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está bueno.",
+      "item": "oui-cest-bon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quién juega?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién juega?",
+      "item": "qui-joue"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién ha marcado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui a marqué ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "qui-a-marque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Vamos, los Bleus».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": "allez-les-bleus"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una salida en bicicleta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une sortie à vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una salida en bicicleta",
+      "item": "une-sortie-a-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El domingo en familia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le dimanche en famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El domingo en familia",
+      "item": "le-dimanche-en-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿El PSG o el OM?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le PSG ou l'OM ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿El PSG o el OM?",
+      "item": "le-psg-ou-lom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qui joue aujourd'hui ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién juega hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Le PSG contre l'OM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El PSG contra el OM.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez les Bleus !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Vamos, los Bleus!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu préfères le PSG ou l'OM ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Prefieres el PSG o el OM?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi, j'aime bien le PSG.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "A mí me gusta el PSG.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Et moi, l'OM !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Y a mí, el OM!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.8,
+    "chars": 4227,
+    "cues": 172,
+    "mode": "lesson",
+    "lesson": 27
+  }
+}

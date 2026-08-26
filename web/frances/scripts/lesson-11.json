@@ -1,0 +1,1622 @@
+{
+  "title": "Conocer la edad",
+  "subtitle": "Aprender a preguntar y responder sobre la edad",
+  "summary_es": "Una conversación sobre la edad en un café.",
+  "topics": [
+    "edad",
+    "nacimiento",
+    "números",
+    "presentarse",
+    "social"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Tu as quel âge ?",
+      "J'ai vingt-cinq ans. Et toi ?",
+      "Je suis né en quatre-vingt-dix.",
+      "Ah, tu es jeune !",
+      "Merci ! Tu es née quand ?"
+    ],
+    "es": [
+      "¡Hola! ¿Cuántos años tienes?",
+      "Tengo veinticinco años. ¿Y tú?",
+      "Nací en noventa.",
+      "¡Ah, eres joven!",
+      "¡Gracias! ¿Cuándo naciste?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu as quel âge ?",
+      "es": "¿Cuántos años tienes?"
+    },
+    {
+      "term": "Tu es jeune.",
+      "es": "Eres joven."
+    },
+    {
+      "term": "Tu es né(e) quand ?",
+      "es": "¿Cuándo naciste?"
+    },
+    {
+      "term": "quatre-vingts",
+      "es": "ochenta"
+    },
+    {
+      "term": "quatre-vingt-dix",
+      "es": "noventa"
+    },
+    {
+      "term": "cent",
+      "es": "cien"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 11. Conocer la edad.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en Montmartre, dos amigos charlan mientras toman un café. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu as quel âge ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai vingt-cinq ans. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo veinticinco años. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis né en quatre-vingt-dix.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Nací en noventa.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ah, tu es jeune !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Ah, eres joven!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci ! Tu es née quand ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿Cuándo naciste?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre la edad Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo un hermano»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai un frère.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "jai-un-frere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «aquí / allá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tienes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "âge",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quel âge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "as quel âge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para conocer a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Eres joven». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ne",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "une",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jeune",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es jeune",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Comentario positivo sobre la edad",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuándo naciste?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quand",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "né(e) quand",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es né(e) quand",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber la fecha de nacimiento",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo naciste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«ochenta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vingts",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re-vingts",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "atre-vingts",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Número en francés",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «ochenta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «ochenta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«noventa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "t-dix",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vingt-dix",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re-vingt-dix",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "atre-vingt-dix",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Número en francés",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «noventa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «noventa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«cien». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cent"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Número en francés",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «cien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «cien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «ochenta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Números en francés.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, los números pueden ser un poco complicados. Por ejemplo, 'quatre-vingts' significa ochenta, y 'quatre-vingt-dix' significa noventa. Practiquemos algunos números juntos.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai ... ans.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo ... años.",
+      "item": "jai-ans"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo ... años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai ... ans.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo ... años.",
+      "item": "jai-ans"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis né(e) en...",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Nací en...",
+      "item": "je-suis-ne-en"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Nací en».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis né(e) en...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Nací en...",
+      "item": "je-suis-ne-en"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café y quieres saber cuántos años tiene tu amigo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «ochenta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «noventa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «cien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo un hermano»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai un frère.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "jai-un-frere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «aquí / allá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "et-toi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as quel âge ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "tu-as-quel-age"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es né(e) quand ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "tu-es-ne-quand"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «ochenta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingts",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ochenta",
+      "item": "quatre-vingts"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «noventa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quatre-vingt-dix",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "noventa",
+      "item": "quatre-vingt-dix"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «cien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cent",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "cien",
+      "item": "cent"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu as quel âge ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai vingt-cinq ans. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo veinticinco años. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis né en quatre-vingt-dix.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Nací en noventa.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ah, tu es jeune !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Ah, eres joven!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci ! Tu es née quand ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿Cuándo naciste?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.3,
+    "chars": 3847,
+    "cues": 173,
+    "mode": "lesson",
+    "lesson": 11
+  }
+}

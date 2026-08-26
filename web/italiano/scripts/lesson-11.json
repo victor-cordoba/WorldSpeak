@@ -1,0 +1,1486 @@
+{
+  "title": "Quanti anni hai?",
+  "subtitle": "Aprender a preguntar y responder sobre la edad.",
+  "summary_es": "Preguntar y responder sobre la edad y el año de nacimiento.",
+  "topics": [
+    "números",
+    "interrogativos",
+    "familia",
+    "ninos"
+  ],
+  "dialogue": {
+    "tl": [
+      "Ciao, come ti chiami?",
+      "Mi chiamo Anna. E tu?",
+      "Mi chiamo Luca. Quanti anni hai?",
+      "Ho dieci anni. E tu?",
+      "Anch'io ho dieci anni. Sei giovane!",
+      "Quando sei nato?",
+      "Sono nato nel 2013."
+    ],
+    "es": [
+      "Hola, ¿cómo te llamas?",
+      "Me llamo Anna. ¿Y tú?",
+      "Me llamo Luca. ¿Cuántos años tienes?",
+      "Tengo diez años. ¿Y tú?",
+      "Yo también tengo diez años. ¡Eres joven!",
+      "¿Cuándo naciste?",
+      "Nací en 2013."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quanti anni hai?",
+      "es": "¿Cuántos años tienes?"
+    },
+    {
+      "term": "Sei giovane!",
+      "es": "¡Eres joven!"
+    },
+    {
+      "term": "Quando sei nato?",
+      "es": "¿Cuándo naciste?"
+    },
+    {
+      "term": "Sei grande!",
+      "es": "¡Eres grande!"
+    },
+    {
+      "term": "Quanti fratelli hai?",
+      "es": "¿Cuántos hermanos tienes?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 11. Quanti anni hai?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un parque de Roma, dos niños se conocen mientras juegan. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Ciao, come ti chiami?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Mi chiamo Anna. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Anna. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mi chiamo Luca. Quanti anni hai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Luca. ¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Ho dieci anni. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo diez años. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Anch'io ho dieci anni. Sei giovane!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también tengo diez años. ¡Eres joven!",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuándo naciste?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sono nato nel 2013.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Nací en 2013.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre la edad. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo dos hermanos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho due fratelli.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dos hermanos.",
+      "item": "ho-due-fratelli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres un helado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tienes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hai",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "anni hai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta común para conocer la edad",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Eres joven». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ne",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vane",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ovane",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "giovane",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "comentario cariñoso",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuándo naciste?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sei nato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta para conocer más sobre alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo naciste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Eres grande». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sei-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "grande",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sei-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sei-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "comentario cariñoso",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres grande»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Eres grande».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos hermanos tienes?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hai",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fratelli hai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre la familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos hermanos tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos hermanos tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo abre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando apre?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo abre?",
+      "item": "quando-apre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'quanti' y números.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, 'quanti' se usa para preguntar sobre cantidades. Los números son esenciales para responder preguntas sobre edad y otros datos numéricos.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho dieci anni.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo diez años.",
+      "item": "ho-dieci-anni"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo diez años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho dieci anni.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo diez años.",
+      "item": "ho-dieci-anni"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono nato nel 2013.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Nací en 2013.",
+      "item": "sono-nato-nel-2013"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Nací en 2013».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sono nato nel 2013.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Nací en 2013.",
+      "item": "sono-nato-nel-2013"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho un fratello.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo un hermano.",
+      "item": "ho-un-fratello"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo un hermano».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho un fratello.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo un hermano.",
+      "item": "ho-un-fratello"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a un niño cuántos años tiene.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres grande»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos hermanos tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti siete?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "quanti-siete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo dos hermanos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho due fratelli.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dos hermanos.",
+      "item": "ho-due-fratelli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hai famiglia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "hai-famiglia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres un helado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vuoi un gelato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres un helado?",
+      "item": "vuoi-un-gelato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei giovane!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres joven!",
+      "item": "sei-giovane"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo naciste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuándo naciste?",
+      "item": "quando-sei-nato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres grande»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei grande!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres grande!",
+      "item": "sei-grande"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos hermanos tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti fratelli hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos hermanos tienes?",
+      "item": "quanti-fratelli-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Ciao, come ti chiami?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Mi chiamo Anna. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Anna. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mi chiamo Luca. Quanti anni hai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me llamo Luca. ¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Ho dieci anni. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo diez años. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Anch'io ho dieci anni. Sei giovane!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también tengo diez años. ¡Eres joven!",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Quando sei nato?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuándo naciste?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sono nato nel 2013.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Nací en 2013.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.3,
+    "chars": 3687,
+    "cues": 158,
+    "mode": "lesson",
+    "lesson": 11
+  }
+}

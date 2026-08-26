@@ -1,0 +1,1615 @@
+{
+  "title": "A família",
+  "subtitle": "Aprender a hablar sobre la familia",
+  "summary_es": "Una frase",
+  "topics": [
+    "familia",
+    "pregunta",
+    "afirmación",
+    "negación",
+    "conversación"
+  ],
+  "dialogue": {
+    "tl": [
+      "Fixe! As ondas estavam ótimas hoje.",
+      "Sim, adorei! Tens família?",
+      "Tenho um irmão e uma irmã. E tu?",
+      "Tenho filhos, mas não tenho mulher.",
+      "Quantos são?",
+      "São dois. E tu, tens filhos?"
+    ],
+    "es": [
+      "¡Genial! Las olas estaban estupendas hoy.",
+      "Sí, ¡me encantó! ¿Tienes familia?",
+      "Tengo un hermano y una hermana. ¿Y tú?",
+      "Tengo hijos, pero no tengo esposa.",
+      "¿Cuántos son?",
+      "Son dos. ¿Y tú, tienes hijos?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tens família?",
+      "es": "¿Tienes familia?"
+    },
+    {
+      "term": "Quantos são?",
+      "es": "¿Cuántos son?"
+    },
+    {
+      "term": "Tenho um irmão.",
+      "es": "Tengo un hermano."
+    },
+    {
+      "term": "Tenho uma irmã.",
+      "es": "Tengo una hermana."
+    },
+    {
+      "term": "Tenho filhos.",
+      "es": "Tengo hijos."
+    },
+    {
+      "term": "Tenho mulher.",
+      "es": "Tengo esposa."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 10. A família.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una playa de Ericeira, dos surfistas conversan después de surfear. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe! As ondas estavam ótimas hoje.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! Las olas estaban estupendas hoy.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, adorei! Tens família?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¡me encantó! ¿Tienes familia?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão e uma irmã. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo un hermano y una hermana. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tenho filhos, mas não tenho mulher.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo hijos, pero no tengo esposa.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos son?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "São dois. E tu, tens filhos?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son dos. ¿Y tú, tienes hijos?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre la familia Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Portugal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vine para surfear».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Desculpe",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone",
+      "item": "desculpe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hoy o mañana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hoje ou amanhã?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hoy o mañana?",
+      "item": "hoje-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes familia?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-familia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mília",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-familia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "família",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tens-familia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tens-familia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por la familia de manera informal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos son?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "são",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar por el número de miembros de la familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos son?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos son?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo un hermano». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mão",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "irmão",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um irmão",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de la familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo un hermano»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo un hermano».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo una hermana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "irmã",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uma irmã",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de la familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo una hermana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo una hermana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos son?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo hijos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hos",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "filhos",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de la familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo hijos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hijos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo esposa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "her",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mulher",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de la pareja",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo esposa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo esposa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo una hermana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não percebo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "nao-percebo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'ter' para hablar de la familia.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, usamos el verbo 'ter' para hablar de lo que tenemos, incluyendo miembros de la familia. Puedes decir 'Tenho um irmão' para decir que tienes un hermano.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No tengo hijos.",
+      "item": "nao-tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No tengo hijos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não tenho filhos.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No tengo hijos.",
+      "item": "nao-tenho-filhos"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No tengo esposa.",
+      "item": "nao-tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No tengo esposa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não tenho mulher.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No tengo esposa.",
+      "item": "nao-tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien si tiene familia.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que no tienes hijos.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengo hijos.",
+      "item": "nao-tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos son?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo un hermano».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo una hermana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo hijos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo esposa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Portugal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Vine para surfear».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E tu?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "e-tu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Desculpe",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone",
+      "item": "desculpe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hoy o mañana?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hoje ou amanhã?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hoy o mañana?",
+      "item": "hoje-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tens família?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tens-familia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos son?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos son?",
+      "item": "quantos-sao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo un hermano».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "tenho-irmao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo una hermana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho uma irmã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo una hermana.",
+      "item": "tenho-irma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo hijos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hijos.",
+      "item": "tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo esposa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho mulher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo esposa.",
+      "item": "tenho-mulher"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe! As ondas estavam ótimas hoje.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! Las olas estaban estupendas hoy.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, adorei! Tens família?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¡me encantó! ¿Tienes familia?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho um irmão e uma irmã. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo un hermano y una hermana. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tenho filhos, mas não tenho mulher.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo hijos, pero no tengo esposa.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quantos são?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos son?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "São dois. E tu, tens filhos?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son dos. ¿Y tú, tienes hijos?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.5,
+    "chars": 3952,
+    "cues": 172,
+    "mode": "lesson",
+    "lesson": 10
+  }
+}

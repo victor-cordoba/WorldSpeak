@@ -1,0 +1,1568 @@
+{
+  "title": "Os verbos: o motor",
+  "subtitle": "Aprenderás a expresar deseos y posibilidades con verbos clave.",
+  "summary_es": "Una frase",
+  "topics": [
+    "verbos",
+    "deseo",
+    "posibilidad",
+    "compra",
+    "alquiler"
+  ],
+  "dialogue": {
+    "tl": [
+      "Quero ir à praia.",
+      "Podes vir comigo?",
+      "Não posso ir.",
+      "Quero comprar um fato.",
+      "Quanto custa um fato?",
+      "Posso alugar um fato?",
+      "Sim, podes alugar."
+    ],
+    "es": [
+      "Quiero ir a la playa.",
+      "¿Puedes venir conmigo?",
+      "No puedo ir.",
+      "Quiero comprar un traje.",
+      "¿Cuánto cuesta un traje?",
+      "¿Puedo alquilar un traje?",
+      "Sí, puedes alquilar."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Quero ir à praia.",
+      "es": "Quiero ir a la playa."
+    },
+    {
+      "term": "Podes vir comigo?",
+      "es": "¿Puedes venir conmigo?"
+    },
+    {
+      "term": "Quero comprar um fato.",
+      "es": "Quiero comprar un traje."
+    },
+    {
+      "term": "Quanto custa um fato?",
+      "es": "¿Cuánto cuesta un traje?"
+    },
+    {
+      "term": "Posso alugar um fato?",
+      "es": "¿Puedo alquilar un traje?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 30. Os verbos: o motor.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, dos amigos hablan sobre sus planes para el día. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quiero ir a la playa.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não posso ir.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No puedo ir.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quiero comprar un traje.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, podes alugar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedes alquilar.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a expresar deseos y posibilidades con verbos clave. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero cerveza, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não quero cerveja, obrigado.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero cerveza, gracias.",
+      "item": "nao-quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Voy a la playa ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tu furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde hay sombra / ducha?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há sombra / chuveiro?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay sombra / ducha?",
+      "item": "onde-sombra-chuveiro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero ir a la playa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "praia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ir à praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar un deseo de ir a la playa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero ir a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero ir a la playa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedes venir conmigo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "migo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "comigo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vir comigo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "invitar a alguien a acompañarte",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedes venir conmigo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedes venir conmigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero comprar un traje». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "comprar um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresar deseo de comprar un traje",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero comprar un traje»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero comprar un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta un traje?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "custa um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar el precio de un traje",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta un traje?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta un traje?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes venir conmigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedo alquilar un traje?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fato",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "alugar um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "preguntar si se puede alquilar un traje",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo alquilar un traje?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedo alquilar un traje?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho sede.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "tenho-sede"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'querer', 'poder' e 'ir'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En esta lección, practicamos cómo expresar deseos con 'querer', posibilidades con 'poder' y acciones con 'ir'. Por ejemplo, 'Quero ir à praia' muestra un deseo, mientras que 'Posso ir?' pregunta por la posibilidad.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não posso ir.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No puedo ir.",
+      "item": "nao-posso-ir"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No puedo ir».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não posso ir.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No puedo ir.",
+      "item": "nao-posso-ir"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, vamos juntos!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¡Sí, vamos juntos!",
+      "item": "sim-vamos-juntos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Sí, vamos juntos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, vamos juntos!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Sí, vamos juntos!",
+      "item": "sim-vamos-juntos"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, podes alugar.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, puedes alquilar.",
+      "item": "sim-podes-alugar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, puedes alquilar».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, podes alugar.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, puedes alquilar.",
+      "item": "sim-podes-alugar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres ir a la playa, pregunta a un amigo si puede acompañarte.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cuánto cuesta alquilar un traje de surf.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quiero ir a la playa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedes venir conmigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quiero comprar un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta un traje?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedo alquilar un traje?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero una cerveza, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero uma cerveja, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quiero una cerveza, por favor.",
+      "item": "quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quieres una cerveza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queres uma cerveja?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres una cerveza?",
+      "item": "queres-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero cerveza, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não quero cerveja, obrigado.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero cerveza, gracias.",
+      "item": "nao-quero-cerveja"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Voy a la playa ahora».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vou à praia agora.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a la playa ahora.",
+      "item": "vou-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la playa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos à praia!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la playa!",
+      "item": "vamos-a-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Y tu furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "E a tua carrinha?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tu furgoneta?",
+      "item": "a-tua-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde hay sombra / ducha?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há sombra / chuveiro?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay sombra / ducha?",
+      "item": "onde-sombra-chuveiro"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quiero ir a la playa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero ir a la playa.",
+      "item": "quero-ir-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedes venir conmigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": "podes-vir-comigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quiero comprar un traje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero comprar un traje.",
+      "item": "quero-comprar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta un traje?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": "quanto-custa-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedo alquilar un traje?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": "posso-alugar-fato"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quero ir à praia.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quiero ir a la playa.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Podes vir comigo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Puedes venir conmigo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não posso ir.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No puedo ir.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quero comprar um fato.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quiero comprar un traje.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa um fato?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta un traje?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Posso alugar um fato?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Puedo alquilar un traje?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, podes alugar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedes alquilar.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.0,
+    "chars": 4470,
+    "cues": 167,
+    "mode": "lesson",
+    "lesson": 30
+  }
+}

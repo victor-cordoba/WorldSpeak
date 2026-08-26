@@ -1,0 +1,1467 @@
+{
+  "title": "La famille",
+  "subtitle": "Aprender a hablar sobre la familia",
+  "summary_es": "Hablar sobre la familia",
+  "topics": [
+    "familia",
+    "presentarse",
+    "preguntar",
+    "tener",
+    "posesivos"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour ! Tu viens d'où ?",
+      "Je suis espagnol, de Madrid. Et toi ?",
+      "Je suis française, de Lyon. Tu as de la famille ici ?",
+      "Oui, j'ai un frère et une sœur ici.",
+      "Vous êtes combien dans ta famille ?",
+      "Nous sommes cinq : mes parents, mon frère, ma sœur et moi."
+    ],
+    "es": [
+      "¡Hola! ¿De dónde vienes?",
+      "Soy español, de Madrid. ¿Y tú?",
+      "Soy francesa, de Lyon. ¿Tienes familia aquí?",
+      "Sí, tengo un hermano y una hermana aquí.",
+      "¿Cuántos sois en tu familia?",
+      "Somos cinco: mis padres, mi hermano, mi hermana y yo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu as de la famille ?",
+      "es": "¿Tienes familia?"
+    },
+    {
+      "term": "Vous êtes combien ?",
+      "es": "¿Cuántos sois?"
+    },
+    {
+      "term": "Mes parents",
+      "es": "Mis padres"
+    },
+    {
+      "term": "Ma mère",
+      "es": "Mi madre"
+    },
+    {
+      "term": "Mon père",
+      "es": "Mi padre"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 10. La famille.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en París, dos personas se conocen y hablan de sus familias. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour ! Tu viens d'où ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿De dónde vienes?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol, de Madrid. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy español, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis française, de Lyon. Tu as de la famille ici ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy francesa, de Lyon. ¿Tienes familia aquí?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'ai un frère et une sœur ici.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo un hermano y una hermana aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vous êtes combien dans ta famille ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos sois en tu familia?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nous sommes cinq : mes parents, mon frère, ma sœur et moi.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Somos cinco: mis padres, mi hermano, mi hermana y yo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre la familia Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, me gusta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no mucho»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, pas trop.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no mucho.",
+      "item": "non-pas-trop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Eso es todo, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est tout, merci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es todo, gracias.",
+      "item": "cest-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Con tarjeta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Par carte.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con tarjeta.",
+      "item": "par-carte"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes familia?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mille",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "famille",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "as de la famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la familia de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vous es usted, y también vosotros. Con desconocidos, mayores y en tiendas, vous. Con amigos y jóvenes, tu. Si dudas, vous.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos sois?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "en",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bien",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "combien",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "êtes combien",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar el número de personas en una familia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mis padres». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rents",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mes-parents"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "parents",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mes-parents"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mes-parents"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para referirse a los padres",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mis padres»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mis padres».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi madre». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mère",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ma-mere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ma-mere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para referirse a la madre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi madre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi madre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi padre». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "père",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mon-pere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mon-pere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para referirse al padre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi padre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne comprends pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "je-ne-comprends-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'avoir' para hablar de la familia.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, usamos el verbo 'avoir' para hablar de lo que tenemos, incluida la familia. Por ejemplo, 'J'ai un frère' significa 'Tengo un hermano'. También usamos posesivos como 'mon', 'ma', 'mes' para especificar a quién nos referimos.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai un frère.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un hermano.",
+      "item": "jai-un-frere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai un frère.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo un hermano.",
+      "item": "jai-un-frere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo un hermano».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai un frère.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo un hermano.",
+      "item": "jai-un-frere"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai une sœur.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo una hermana.",
+      "item": "jai-une-soeur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo una hermana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai une sœur.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo una hermana.",
+      "item": "jai-une-soeur"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai deux enfants.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo dos hijos.",
+      "item": "jai-deux-enfants"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo dos hijos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'ai deux enfants.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo dos hijos.",
+      "item": "jai-deux-enfants"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Habla sobre cuántos sois en tu familia.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mis padres».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi madre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi padre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde vienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu viens d'où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde vienes?",
+      "item": "tu-viens-dou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, me gusta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no mucho»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, pas trop.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no mucho.",
+      "item": "non-pas-trop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Eso es todo, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est tout, merci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es todo, gracias.",
+      "item": "cest-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Con tarjeta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Par carte.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Con tarjeta.",
+      "item": "par-carte"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos sois?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vous êtes combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois?",
+      "item": "vous-etes-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mis padres».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mes parents",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mis padres",
+      "item": "mes-parents"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi madre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma mère",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi madre",
+      "item": "ma-mere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi padre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour ! Tu viens d'où ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿De dónde vienes?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol, de Madrid. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy español, de Madrid. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je suis française, de Lyon. Tu as de la famille ici ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy francesa, de Lyon. ¿Tienes familia aquí?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'ai un frère et une sœur ici.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo un hermano y una hermana aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vous êtes combien dans ta famille ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos sois en tu familia?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nous sommes cinq : mes parents, mon frère, ma sœur et moi.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Somos cinco: mis padres, mi hermano, mi hermana y yo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.8,
+    "chars": 4025,
+    "cues": 156,
+    "mode": "lesson",
+    "lesson": 10
+  }
+}

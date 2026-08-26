@@ -1,0 +1,1882 @@
+{
+  "title": "Alquilar bicicletas en París",
+  "subtitle": "Aprenderás a preguntar por el alquiler de bicicletas y coches.",
+  "summary_es": "Una lección sobre cómo moverse en París alquilando bicicletas y coches.",
+  "topics": [
+    "alquiler",
+    "bicicleta",
+    "coche",
+    "preguntar",
+    "precio"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, vous cherchez quelque chose ?",
+      "Oui, où est-ce que je peux louer un vélo ?",
+      "Il y a un Vélib' juste là-bas.",
+      "C'est combien la journée ?",
+      "Ça dépend, mais ce n'est pas cher.",
+      "Je voudrais louer un vélo.",
+      "Allez-y, c'est facile à utiliser."
+    ],
+    "es": [
+      "Hola, ¿busca algo?",
+      "Sí, ¿dónde puedo alquilar una bicicleta?",
+      "Hay un Vélib' justo allí.",
+      "¿Cuánto cuesta al día?",
+      "Depende, pero no es caro.",
+      "Quisiera alquilar una bicicleta.",
+      "Adelante, es fácil de usar."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Où est-ce que je peux louer un vélo ?",
+      "es": "¿Dónde puedo alquilar una bicicleta?"
+    },
+    {
+      "term": "Vélib'",
+      "es": "Vélib'"
+    },
+    {
+      "term": "C'est combien la journée ?",
+      "es": "¿Cuánto cuesta al día?"
+    },
+    {
+      "term": "Louer une voiture",
+      "es": "Alquilar un coche"
+    },
+    {
+      "term": "Où est-ce que je peux me garer ?",
+      "es": "¿Dónde puedo aparcar?"
+    },
+    {
+      "term": "Essence / gasoil / la station",
+      "es": "Gasolina / diésel / la estación"
+    },
+    {
+      "term": "Le péage / l'autoroute",
+      "es": "El peaje / la autopista"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 16. Alquilar bicicletas en París.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En París, cerca de una estación de Vélib', un turista español pregunta cómo alquilar una bicicleta. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, vous cherchez quelque chose ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿busca algo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Oui, où est-ce que je peux louer un vélo ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¿dónde puedo alquilar una bicicleta?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il y a un Vélib' juste là-bas.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hay un Vélib' justo allí.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça dépend, mais ce n'est pas cher.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Depende, pero no es caro.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Je voudrais louer un vélo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quisiera alquilar una bicicleta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez-y, c'est facile à utiliser.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Adelante, es fácil de usar.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar por el alquiler de bicicletas y coches. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está cerca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está cerca.",
+      "item": "oui-cest-pres"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, está lejos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, c'est loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, está lejos.",
+      "item": "non-cest-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hoy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo alquilar una bicicleta?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vélo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "est-ce que je peux louer un vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta útil para encontrar un lugar para alquilar bicicletas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar una bicicleta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo alquilar una bicicleta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vélib'». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lib'",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "velib"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "velib"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sistema de alquiler de bicicletas en París.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vélib'»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vélib'».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta al día?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "née",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "urnée",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "journée",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "combien la journée",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre el precio del alquiler diario.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta al día?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Alquilar un coche». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ture",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "iture",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión para alquilar un coche.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Alquilar un coche»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Alquilar un coche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vélib'».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo aparcar?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "garer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me garer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "est-ce que je peux me garer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para encontrar un lugar de estacionamiento.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo aparcar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Gasolina / diésel / la estación». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tion",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ gasoil / la station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario relacionado con el repostaje de combustible.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Gasolina / diésel / la estación»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Gasolina / diésel / la estación».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Alquilar un coche».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El peaje / la autopista». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ute",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "route",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Términos relacionados con las autopistas y peajes.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El peaje / la autopista»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El peaje / la autopista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy español(a), de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis espagnol(e), de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español(a), de Madrid.",
+      "item": "je-suis-espagnol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Louer.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El verbo 'louer' significa alquilar. Se usa para bicicletas, coches y otros objetos. Ejemplos: 'Je voudrais louer un vélo' (Quisiera alquilar una bicicleta) y 'Louer une voiture' (Alquilar un coche).",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais louer un vélo.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera alquilar una bicicleta.",
+      "item": "je-voudrais-louer-un-velo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je voudrais louer un vélo.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Quisiera alquilar una bicicleta.",
+      "item": "je-voudrais-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quisiera alquilar una bicicleta».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je voudrais louer un vélo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quisiera alquilar una bicicleta.",
+      "item": "je-voudrais-louer-un-velo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "C'est cher, Vélib' ?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Es caro, Vélib'?",
+      "item": "cest-cher-velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Es caro, Vélib'?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "C'est cher, Vélib' ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Es caro, Vélib'?",
+      "item": "cest-cher-velib"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Où est la station-service ?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Dónde está la gasolinera?",
+      "item": "ou-est-la-station-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está la gasolinera?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Où est la station-service ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está la gasolinera?",
+      "item": "ou-est-la-station-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en París y quieres alquilar una bicicleta. Pregunta dónde puedes hacerlo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una bicicleta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vélib'».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Alquilar un coche»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Gasolina / diésel / la estación».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El peaje / la autopista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, está cerca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está cerca.",
+      "item": "oui-cest-pres"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, está lejos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, c'est loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, está lejos.",
+      "item": "non-cest-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hoy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aujourd'hui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hoy",
+      "item": "aujourdhui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est ouvert ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "cest-ouvert"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una bicicleta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux louer un vélo ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bicicleta?",
+      "item": "ou-est-ce-que-je-peux-louer-un-velo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vélib'».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vélib'",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vélib'",
+      "item": "velib"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "cest-combien-la-journee"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Alquilar un coche»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Louer une voiture",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Alquilar un coche",
+      "item": "louer-une-voiture"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux me garer ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "ou-est-ce-que-je-peux-me-garer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Gasolina / diésel / la estación».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Essence / gasoil / la station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la estación",
+      "item": "essence-gasoil-la-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El peaje / la autopista».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le péage / l'autoroute",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El peaje / la autopista",
+      "item": "le-peage-lautoroute"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, vous cherchez quelque chose ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿busca algo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Oui, où est-ce que je peux louer un vélo ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¿dónde puedo alquilar una bicicleta?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il y a un Vélib' juste là-bas.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hay un Vélib' justo allí.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "C'est combien la journée ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça dépend, mais ce n'est pas cher.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Depende, pero no es caro.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Je voudrais louer un vélo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quisiera alquilar una bicicleta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez-y, c'est facile à utiliser.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Adelante, es fácil de usar.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.6,
+    "chars": 5765,
+    "cues": 201,
+    "mode": "lesson",
+    "lesson": 16
+  }
+}

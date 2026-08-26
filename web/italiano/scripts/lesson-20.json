@@ -1,0 +1,1736 @@
+{
+  "title": "Mangiare come un romano",
+  "subtitle": "Aprenderás a pedir comida típica romana en una trattoria.",
+  "summary_es": "Una lección sobre cómo pedir en una trattoria romana.",
+  "topics": [
+    "trattoria",
+    "comida",
+    "cortesia",
+    "precio",
+    "cultura"
+  ],
+  "dialogue": {
+    "tl": [
+      "Buongiorno, cosa desidera?",
+      "Vorrei un supplì e un quartino di vino, per favore.",
+      "Perfetto. E per il primo?",
+      "La carbonara, ma senza panna, grazie.",
+      "Certo, la carbonara non si fa con la panna!",
+      "Quanto costa la carbonara?",
+      "Costa dodici euro.",
+      "Perfetto, grazie!"
+    ],
+    "es": [
+      "Buenos días, ¿qué desea?",
+      "Querría un supplì y un cuarto de litro de vino, por favor.",
+      "Perfecto. ¿Y para el primer plato?",
+      "La carbonara, pero sin nata, gracias.",
+      "¡Claro, la carbonara no se hace con nata!",
+      "¿Cuánto cuesta la carbonara?",
+      "Cuesta doce euros.",
+      "Perfecto, ¡gracias!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Vorrei un supplì, per favore.",
+      "es": "Querría un supplì, por favor."
+    },
+    {
+      "term": "La carbonara non si fa con la panna.",
+      "es": "La carbonara no se hace con nata."
+    },
+    {
+      "term": "Un quartino di vino, per favore.",
+      "es": "Un cuarto de litro de vino, por favor."
+    },
+    {
+      "term": "Il dolce, per favore.",
+      "es": "El postre, por favor."
+    },
+    {
+      "term": "Vorrei una pizza al taglio.",
+      "es": "Querría una pizza al corte."
+    },
+    {
+      "term": "Il conto, per favore.",
+      "es": "La cuenta, por favor."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 20. Mangiare come un romano.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una trattoria en el barrio de Trastevere, un lugar típico para disfrutar de la comida romana. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Buongiorno, cosa desidera?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, ¿qué desea?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì e un quartino di vino, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Querría un supplì y un cuarto de litro de vino, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Perfetto. E per il primo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto. ¿Y para el primer plato?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara, ma senza panna, grazie.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La carbonara, pero sin nata, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo, la carbonara non si fa con la panna!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro, la carbonara no se hace con nata!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa la carbonara?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta la carbonara?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Costa dodici euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cuesta doce euros.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfetto, grazie!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, ¡gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a pedir comida típica romana en una trattoria. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto le debo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Querría un supplì, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "un supplì per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "usado para pedir comida en un tono cortés",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría un supplì, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría un supplì, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La carbonara no se hace con nata». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "panna",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la panna",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carbonara non si fa con la panna",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "una aclaración cultural sobre la receta auténtica",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La carbonara no se hace con nata»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La carbonara no se hace con nata».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un cuarto de litro de vino, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quartino di vino per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "medida común para pedir vino en trattorias",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un cuarto de litro de vino, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un cuarto de litro de vino, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El postre, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dolce per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pedir el postre en un restaurante",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El postre, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El postre, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La carbonara no se hace con nata».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Querría una pizza al corte». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "taglio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "al taglio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "una pizza al taglio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "comida rápida típica de Roma",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Querría una pizza al corte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Querría una pizza al corte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La cuenta, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favore",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "conto per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto per favore",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir la cuenta en un restaurante o bar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El postre, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un macchiato caliente, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un macchiato caldo, grazie.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un macchiato caliente, gracias.",
+      "item": "macchiato-caldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pedir comida en una trattoria.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una trattoria, es común usar 'vorrei' para pedir de manera cortés. También es importante conocer las medidas locales como 'un quartino' para el vino.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto costa la carbonara?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Cuánto cuesta la carbonara?",
+      "item": "quanto-costa-la-carbonara"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta la carbonara?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Quanto costa la carbonara?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta la carbonara?",
+      "item": "quanto-costa-la-carbonara"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È buono il supplì?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Está bueno el supplì?",
+      "item": "e-buono-il-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está bueno el supplì?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "È buono il supplì?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está bueno el supplì?",
+      "item": "e-buono-il-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una trattoria y quieres pedir un supplì y un cuarto de vino.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un supplì, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La carbonara no se hace con nata».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un cuarto de litro de vino, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El postre, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría una pizza al corte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un caffè, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "un-caffe-per-favore"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-costa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un café».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un caffè.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Querría un café.",
+      "item": "vorrei-un-caffe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto le debo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto le devo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto le debo?",
+      "item": "quanto-le-devo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría un supplì, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría un supplì, por favor.",
+      "item": "vorrei-un-suppli"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La carbonara no se hace con nata».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara non si fa con la panna.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La carbonara no se hace con nata.",
+      "item": "carbonara-senza-panna"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un cuarto de litro de vino, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un quartino di vino, per favore.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un cuarto de litro de vino, por favor.",
+      "item": "un-quartino-di-vino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El postre, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il dolce, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El postre, por favor.",
+      "item": "il-dolce"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Querría una pizza al corte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei una pizza al taglio.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Querría una pizza al corte.",
+      "item": "pizza-al-taglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Il conto, per favore.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "il-conto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Buongiorno, cosa desidera?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, ¿qué desea?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vorrei un supplì e un quartino di vino, per favore.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Querría un supplì y un cuarto de litro de vino, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Perfetto. E per il primo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto. ¿Y para el primer plato?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La carbonara, ma senza panna, grazie.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La carbonara, pero sin nata, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo, la carbonara non si fa con la panna!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro, la carbonara no se hace con nata!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto costa la carbonara?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta la carbonara?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Costa dodici euro.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Cuesta doce euros.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfetto, grazie!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, ¡gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.7,
+    "chars": 5622,
+    "cues": 185,
+    "mode": "lesson",
+    "lesson": 20
+  }
+}

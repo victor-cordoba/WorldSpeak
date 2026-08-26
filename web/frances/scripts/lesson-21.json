@@ -1,0 +1,1677 @@
+{
+  "title": "Tu es heureux ?",
+  "subtitle": "Aprender a expresar y preguntar emociones.",
+  "summary_es": "Expresar cómo te sientes y preguntar a otros sobre sus emociones.",
+  "topics": [
+    "emociones",
+    "preguntas",
+    "respuestas",
+    "conversación"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Ça va ?",
+      "Salut ! Je suis crevée. Et toi ?",
+      "Ça va. Tu es heureuse ?",
+      "Pas trop... Ma famille me manque.",
+      "Ça va aller, ne t'inquiète pas.",
+      "Merci, ça fait du bien d'entendre ça."
+    ],
+    "es": [
+      "¡Hola! ¿Cómo estás?",
+      "¡Hola! Estoy agotada. ¿Y tú?",
+      "Estoy bien. ¿Eres feliz?",
+      "No mucho... Echo de menos a mi familia.",
+      "Todo irá bien, no te preocupes.",
+      "Gracias, sienta bien escuchar eso."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu es heureux ?",
+      "es": "¿Eres feliz?"
+    },
+    {
+      "term": "Tu es triste ?",
+      "es": "¿Estás triste?"
+    },
+    {
+      "term": "Je suis crevé(e).",
+      "es": "Estoy agotado/a."
+    },
+    {
+      "term": "J'ai peur.",
+      "es": "Tengo miedo."
+    },
+    {
+      "term": "Ça va aller.",
+      "es": "Todo irá bien."
+    },
+    {
+      "term": "Ma famille me manque.",
+      "es": "Echo de menos a mi familia."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 21. Tu es heureux ?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café acogedor en Montmartre, dos amigos conversan sobre cómo se sienten últimamente. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Ça va ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Salut ! Je suis crevée. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Estoy agotada. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va. Tu es heureuse ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy bien. ¿Eres feliz?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pas trop... Ma famille me manque.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No mucho... Echo de menos a mi familia.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller, ne t'inquiète pas.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Todo irá bien, no te preocupes.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Merci, ça fait du bien d'entendre ça.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Gracias, sienta bien escuchar eso.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a expresar y preguntar emociones. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No, no mucho».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, pas trop.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no mucho.",
+      "item": "non-pas-trop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Eres feliz?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "reux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ureux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es heureux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre el estado emocional, usada con amigos o familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás triste?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "triste",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es triste",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre el estado emocional, usada con amigos o familia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy agotado/a». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vé(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "crevé(e)",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "suis crevé(e)",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e)",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión coloquial para decir que uno está muy cansado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy agotado/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy agotado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo miedo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-peur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "peur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-peur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-peur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión de temor o inseguridad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Todo irá bien». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ler",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aller",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "va aller",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Frase de consuelo y ánimo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Todo irá bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Todo irá bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Echo de menos a mi familia». Literalmente, Mi familia me falta.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "que",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "manque",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me manque",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "famille me manque",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión de añoranza.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Echo de menos a mi familia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Echo de menos a mi familia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un billete, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un ticket, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un billete, por favor.",
+      "item": "un-ticket"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El uso de 'manquer'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, para decir que echas de menos a alguien, se usa 'manquer'. La estructura es diferente al español: 'Ma famille me manque' se traduce literalmente como 'Mi familia me falta'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je suis heureux.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, soy feliz.",
+      "item": "oui-je-suis-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, soy feliz».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je suis heureux.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, soy feliz.",
+      "item": "oui-je-suis-heureux"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je suis triste.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, estoy triste.",
+      "item": "non-je-suis-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, estoy triste».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je suis triste.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, estoy triste.",
+      "item": "non-je-suis-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a tu amigo si está feliz.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que estás agotado/a.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy agotado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Todo irá bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Echo de menos a mi familia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu as de la famille ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "tu-as-de-la-famille"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, me gusta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No, no mucho».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Non, pas trop.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no mucho.",
+      "item": "non-pas-trop"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es là depuis combien de temps ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "tu-es-la-depuis-combien-de-temps"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Eres joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es jeune.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres joven.",
+      "item": "tu-es-jeune"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi padre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon père",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi padre",
+      "item": "mon-pere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás triste?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es triste ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás triste?",
+      "item": "tu-es-triste"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy agotado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis crevé(e).",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy agotado/a.",
+      "item": "je-suis-creve"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai peur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "jai-peur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Todo irá bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todo irá bien.",
+      "item": "ca-va-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Echo de menos a mi familia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ma famille me manque.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Echo de menos a mi familia.",
+      "item": "ma-famille-me-manque"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Ça va ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Salut ! Je suis crevée. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Estoy agotada. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va. Tu es heureuse ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy bien. ¿Eres feliz?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pas trop... Ma famille me manque.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No mucho... Echo de menos a mi familia.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va aller, ne t'inquiète pas.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Todo irá bien, no te preocupes.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Merci, ça fait du bien d'entendre ça.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Gracias, sienta bien escuchar eso.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.3,
+    "chars": 4328,
+    "cues": 179,
+    "mode": "lesson",
+    "lesson": 21
+  }
+}

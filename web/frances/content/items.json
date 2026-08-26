@@ -1,1 +1,3252 @@
-{"items": []}
+{
+  "items": [
+    {
+      "id": "bonjour",
+      "tl": "Bonjour !",
+      "es": "¡Hola!",
+      "lit": "Buenos días",
+      "note": "Se usa al entrar en cualquier sitio",
+      "pill": "cortesia",
+      "tags": [
+        "saludo"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "salut",
+      "tl": "Salut !",
+      "es": "¡Hola!",
+      "lit": "",
+      "note": "Saludo informal entre amigos",
+      "pill": "cortesia",
+      "tags": [
+        "saludo"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "ca-va",
+      "tl": "Ça va ?",
+      "es": "¿Cómo estás?",
+      "lit": "¿Va?",
+      "note": "Pregunta informal sobre el estado de ánimo",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "je-mappelle",
+      "tl": "Je m'appelle...",
+      "es": "Me llamo...",
+      "lit": "",
+      "note": "Para presentarse",
+      "pill": "presentarse",
+      "tags": [
+        "presentacion"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "tu-tappelles-comment",
+      "tl": "Tu t'appelles comment ?",
+      "es": "¿Cómo te llamas?",
+      "lit": "¿Tú te llamas cómo?",
+      "note": "Para preguntar el nombre de alguien",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "enchante",
+      "tl": "Enchanté(e) !",
+      "es": "¡Encantado/a!",
+      "lit": "",
+      "note": "Al conocer a alguien por primera vez",
+      "pill": "cortesia",
+      "tags": [
+        "presentacion"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "merci",
+      "tl": "Merci !",
+      "es": "¡Gracias!",
+      "lit": "",
+      "note": "Para agradecer",
+      "pill": "cortesia",
+      "tags": [
+        "agradecimiento"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "de-rien",
+      "tl": "De rien.",
+      "es": "De nada.",
+      "lit": "",
+      "note": "Respuesta a 'merci'",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 1
+    },
+    {
+      "id": "tu-parles-espagnol",
+      "tl": "Tu parles espagnol ?",
+      "es": "¿Hablas español?",
+      "lit": "",
+      "note": "pregunta común para iniciar una conversación",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "un-peu",
+      "tl": "Un peu.",
+      "es": "Un poco.",
+      "lit": "",
+      "note": "respuesta breve y útil",
+      "pill": "entender",
+      "tags": [
+        "adverb"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "je-ne-comprends-pas",
+      "tl": "Je ne comprends pas.",
+      "es": "No entiendo.",
+      "lit": "",
+      "note": "útil cuando no se comprende algo",
+      "pill": "entender",
+      "tags": [
+        "negation"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "tu-peux-repeter",
+      "tl": "Tu peux répéter ?",
+      "es": "¿Puedes repetir?",
+      "lit": "",
+      "note": "pedir repetir algo que no se entendió",
+      "pill": "entender",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "oui",
+      "tl": "Oui.",
+      "es": "Sí.",
+      "lit": "",
+      "note": "respuesta afirmativa simple",
+      "pill": "entender",
+      "tags": [
+        "affirmation"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "non",
+      "tl": "Non.",
+      "es": "No.",
+      "lit": "",
+      "note": "respuesta negativa simple",
+      "pill": "entender",
+      "tags": [
+        "negation"
+      ],
+      "answer": true,
+      "lesson": 2
+    },
+    {
+      "id": "je-ne-sais-pas",
+      "tl": "Je ne sais pas.",
+      "es": "No sé.",
+      "lit": "",
+      "note": "cuando no se tiene la respuesta",
+      "pill": "entender",
+      "tags": [
+        "negation"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "daccord",
+      "tl": "D'accord.",
+      "es": "De acuerdo.",
+      "lit": "",
+      "note": "expresar acuerdo",
+      "pill": "entender",
+      "tags": [
+        "agreement"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "chez-moi",
+      "tl": "Chez moi.",
+      "es": "En mi casa.",
+      "lit": "en casa mía",
+      "note": "uso de 'chez' para indicar el lugar donde vives",
+      "pill": "casa",
+      "tags": [
+        "preposición"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "chez-toi",
+      "tl": "Chez toi.",
+      "es": "En tu casa.",
+      "lit": "en casa tuya",
+      "note": "uso de 'chez' para indicar el lugar donde vive otra persona",
+      "pill": "casa",
+      "tags": [
+        "preposición"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "mon-nom",
+      "tl": "Mon nom est...",
+      "es": "Mi nombre es...",
+      "lit": "",
+      "note": "presentarse formalmente",
+      "pill": "presentarse",
+      "tags": [
+        "posesivo"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "ton-nom",
+      "tl": "Ton nom est...",
+      "es": "Tu nombre es...",
+      "lit": "",
+      "note": "preguntar por el nombre de alguien",
+      "pill": "presentarse",
+      "tags": [
+        "posesivo"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "et-toi",
+      "tl": "Et toi ?",
+      "es": "¿Y tú?",
+      "lit": "",
+      "note": "para devolver una pregunta",
+      "pill": "preguntar",
+      "tags": [
+        "conjunción"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "moi-aussi",
+      "tl": "Moi aussi.",
+      "es": "Yo también.",
+      "lit": "",
+      "note": "para mostrar acuerdo o similitud",
+      "pill": "entender",
+      "tags": [
+        "pronombre"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "chez-nous",
+      "tl": "Chez nous.",
+      "es": "En nuestra casa.",
+      "lit": "en casa nuestra",
+      "note": "uso de 'chez' para indicar el lugar donde vive un grupo",
+      "pill": "casa",
+      "tags": [
+        "preposición"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "chez-vous",
+      "tl": "Chez vous.",
+      "es": "En vuestra casa.",
+      "lit": "en casa vuestra",
+      "note": "uso de 'chez' para indicar el lugar donde vive un grupo formal",
+      "pill": "casa",
+      "tags": [
+        "preposición"
+      ],
+      "lesson": 3
+    },
+    {
+      "id": "chez-elle",
+      "tl": "Chez elle.",
+      "es": "En su casa.",
+      "lit": "en casa de ella",
+      "note": "uso de 'chez' para indicar el lugar donde vive otra persona",
+      "pill": "casa",
+      "tags": [
+        "preposición"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "chez-lui",
+      "tl": "Chez lui.",
+      "es": "En su casa.",
+      "lit": "en casa de él",
+      "note": "uso de 'chez' para indicar el lugar donde vive otra persona",
+      "pill": "casa",
+      "tags": [
+        "preposición"
+      ],
+      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "ou-est",
+      "tl": "Où est...?",
+      "es": "¿Dónde está...?",
+      "lit": "",
+      "note": "para preguntar por la ubicación de algo o alguien",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "cest-qui",
+      "tl": "C'est qui ?",
+      "es": "¿Quién es?",
+      "lit": "",
+      "note": "para preguntar la identidad de alguien",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "cest-quoi",
+      "tl": "C'est quoi ?",
+      "es": "¿Qué es?",
+      "lit": "",
+      "note": "para preguntar sobre un objeto o situación",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "ici-la-bas",
+      "tl": "ici / là-bas",
+      "es": "aquí / allá",
+      "lit": "",
+      "note": "para indicar proximidad o lejanía",
+      "pill": "entender",
+      "tags": [
+        "adverb"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "tu-habites-ou",
+      "tl": "Tu habites où ?",
+      "es": "¿Dónde vives?",
+      "lit": "",
+      "note": "para preguntar por el lugar de residencia",
+      "pill": "presentarse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "jhabite-a",
+      "tl": "J'habite à...",
+      "es": "Vivo en...",
+      "lit": "",
+      "note": "para indicar el lugar de residencia",
+      "pill": "presentarse",
+      "tags": [
+        "statement"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "cest-pres-loin",
+      "tl": "C'est près / loin.",
+      "es": "Está cerca / lejos.",
+      "lit": "",
+      "note": "para describir la distancia",
+      "pill": "entender",
+      "tags": [
+        "adjective"
+      ],
+      "lesson": 4
+    },
+    {
+      "id": "oui-cest-pres",
+      "tl": "Oui, c'est près.",
+      "es": "Sí, está cerca.",
+      "lit": "",
+      "note": "respuesta afirmativa sobre la proximidad",
+      "pill": "entender",
+      "tags": [
+        "response"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "non-cest-loin",
+      "tl": "Non, c'est loin.",
+      "es": "No, está lejos.",
+      "lit": "",
+      "note": "respuesta negativa sobre la proximidad",
+      "pill": "entender",
+      "tags": [
+        "response"
+      ],
+      "answer": true,
+      "lesson": 4
+    },
+    {
+      "id": "je-voudrais",
+      "tl": "Je voudrais...",
+      "es": "Quisiera...",
+      "lit": "",
+      "note": "Usado para pedir educadamente",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "condicional"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "je-veux",
+      "tl": "Je veux...",
+      "es": "Quiero...",
+      "lit": "",
+      "note": "Más directo que 'je voudrais'",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "tu-veux",
+      "tl": "Tu veux ?",
+      "es": "¿Quieres?",
+      "lit": "",
+      "note": "Para ofrecer algo a alguien",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "je-ne-veux-pas",
+      "tl": "Je ne veux pas.",
+      "es": "No quiero.",
+      "lit": "",
+      "note": "Negación en presente",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "negación"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "je-vais-a",
+      "tl": "Je vais à...",
+      "es": "Voy a...",
+      "lit": "",
+      "note": "Para indicar destino",
+      "pill": "moverse",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "on-y-va",
+      "tl": "On y va !",
+      "es": "¡Vamos!",
+      "lit": "",
+      "note": "Expresión para animar a irse",
+      "pill": "moverse",
+      "tags": [
+        "expresión"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "comment-on-va-a",
+      "tl": "Comment on va à...?",
+      "es": "¿Cómo se va a...?",
+      "lit": "",
+      "note": "Para preguntar direcciones",
+      "pill": "moverse",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "ou-est-ce-que-je-peux",
+      "tl": "Où est-ce que je peux...?",
+      "es": "¿Dónde puedo...?",
+      "lit": "",
+      "note": "Para preguntar por un lugar o acción",
+      "pill": "preguntar",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 5
+    },
+    {
+      "id": "oui-je-veux",
+      "tl": "Oui, je veux.",
+      "es": "Sí, quiero.",
+      "lit": "",
+      "note": "Respuesta afirmativa",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 5
+    },
+    {
+      "id": "non-je-ne-veux-pas",
+      "tl": "Non, je ne veux pas.",
+      "es": "No, no quiero.",
+      "lit": "",
+      "note": "Respuesta negativa",
+      "pill": "cortesia",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 5
+    },
+    {
+      "id": "cest-combien",
+      "tl": "C'est combien ?",
+      "es": "¿Cuánto cuesta?",
+      "lit": "",
+      "note": "pregunta típica al comprar algo",
+      "pill": "mercado",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "un-cafe-svp",
+      "tl": "Un café, s'il vous plaît.",
+      "es": "Un café, por favor.",
+      "lit": "",
+      "note": "usado al pedir en un café o bar",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "laddition-svp",
+      "tl": "L'addition, s'il vous plaît.",
+      "es": "La cuenta, por favor.",
+      "lit": "",
+      "note": "usado al pedir la cuenta en un restaurante",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "par-carte",
+      "tl": "Par carte.",
+      "es": "Con tarjeta.",
+      "lit": "",
+      "note": "respuesta al preguntar cómo va a pagar",
+      "pill": "comida",
+      "tags": [
+        "pago"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "un-demi",
+      "tl": "Un demi, s'il vous plaît.",
+      "es": "Una caña, por favor.",
+      "lit": "",
+      "note": "una forma común de pedir cerveza en Francia",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "une-pression",
+      "tl": "Une pression, s'il vous plaît.",
+      "es": "Una cerveza de barril, por favor.",
+      "lit": "",
+      "note": "otra forma de pedir cerveza",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "un-croissant",
+      "tl": "Un croissant, s'il vous plaît.",
+      "es": "Un croissant, por favor.",
+      "lit": "",
+      "note": "pedido típico en una boulangerie",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "cest-tout",
+      "tl": "C'est tout, merci.",
+      "es": "Eso es todo, gracias.",
+      "lit": "",
+      "note": "usado para finalizar un pedido",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 6
+    },
+    {
+      "id": "je-paie-en-especes",
+      "tl": "Je paie en espèces.",
+      "es": "Pago en efectivo.",
+      "lit": "",
+      "note": "respuesta al preguntar cómo va a pagar",
+      "pill": "comida",
+      "tags": [
+        "pago"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "je-paie-par-carte",
+      "tl": "Je paie par carte.",
+      "es": "Pago con tarjeta.",
+      "lit": "",
+      "note": "respuesta al preguntar cómo va a pagar",
+      "pill": "comida",
+      "tags": [
+        "pago"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "cest-cher",
+      "tl": "C'est cher.",
+      "es": "Es caro.",
+      "lit": "",
+      "note": "comentario sobre el precio",
+      "pill": "mercado",
+      "tags": [
+        "adjetivo"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "cest-pas-cher",
+      "tl": "C'est pas cher.",
+      "es": "No es caro.",
+      "lit": "",
+      "note": "comentario sobre el precio",
+      "pill": "mercado",
+      "tags": [
+        "adjetivo"
+      ],
+      "answer": true,
+      "lesson": 6
+    },
+    {
+      "id": "quand",
+      "tl": "Quand ?",
+      "es": "¿Cuándo?",
+      "lit": "",
+      "note": "Usado para preguntar sobre el tiempo",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "pourquoi",
+      "tl": "Pourquoi ?",
+      "es": "¿Por qué?",
+      "lit": "",
+      "note": "Pregunta sobre la razón",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "parce-que",
+      "tl": "Parce que...",
+      "es": "Porque...",
+      "lit": "",
+      "note": "Para responder a 'pourquoi'",
+      "pill": "entender",
+      "tags": [
+        "conjunction"
+      ],
+      "answer": true,
+      "lesson": 7
+    },
+    {
+      "id": "combien",
+      "tl": "Combien ?",
+      "es": "¿Cuánto?",
+      "lit": "",
+      "note": "Para preguntar sobre cantidad o precio",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "aujourdhui",
+      "tl": "Aujourd'hui",
+      "es": "Hoy",
+      "lit": "",
+      "note": "Indica el día actual",
+      "pill": "tiempo",
+      "tags": [
+        "temporal"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "demain",
+      "tl": "Demain",
+      "es": "Mañana",
+      "lit": "",
+      "note": "Indica el día siguiente",
+      "pill": "tiempo",
+      "tags": [
+        "temporal"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "a-quelle-heure",
+      "tl": "À quelle heure...?",
+      "es": "¿A qué hora...?",
+      "lit": "",
+      "note": "Para preguntar la hora de un evento",
+      "pill": "tiempo",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "cest-ouvert",
+      "tl": "C'est ouvert ?",
+      "es": "¿Está abierto?",
+      "lit": "",
+      "note": "Para preguntar sobre el estado de un lugar",
+      "pill": "preguntar",
+      "tags": [
+        "adjective"
+      ],
+      "lesson": 7
+    },
+    {
+      "id": "cest-ferme",
+      "tl": "C'est fermé.",
+      "es": "Está cerrado.",
+      "lit": "",
+      "note": "Para indicar que un lugar no está accesible",
+      "pill": "entender",
+      "tags": [
+        "adjective"
+      ],
+      "answer": true,
+      "lesson": 7
+    },
+    {
+      "id": "excusez-moi",
+      "tl": "Excusez-moi.",
+      "es": "Perdone.",
+      "lit": "",
+      "note": "Útil para llamar la atención de alguien.",
+      "pill": "cortesia",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "pardon",
+      "tl": "Pardon.",
+      "es": "Perdón.",
+      "lit": "",
+      "note": "Se usa para disculparse o al pedir paso.",
+      "pill": "cortesia",
+      "tags": [
+        "interjección"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "un-instant",
+      "tl": "Un instant.",
+      "es": "Un momento.",
+      "lit": "",
+      "note": "Para pedir que esperen un momento.",
+      "pill": "cortesia",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "comment-on-dit",
+      "tl": "Comment on dit… en français ?",
+      "es": "¿Cómo se dice… en francés?",
+      "lit": "",
+      "note": "Para preguntar cómo se dice algo.",
+      "pill": "preguntar",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "pas-de-souci",
+      "tl": "Pas de souci.",
+      "es": "No hay problema.",
+      "lit": "",
+      "note": "Expresión para tranquilizar a alguien.",
+      "pill": "cortesia",
+      "tags": [
+        "negación"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "allez",
+      "tl": "Allez !",
+      "es": "¡Vamos!",
+      "lit": "",
+      "note": "Para animar o dar prisa.",
+      "pill": "social",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 8
+    },
+    {
+      "id": "bonjour-monsieur",
+      "tl": "Bonjour, Monsieur.",
+      "es": "Buenos días, señor.",
+      "lit": "",
+      "note": "Cortesía al entrar en un lugar.",
+      "pill": "cortesia",
+      "tags": [
+        "saludo"
+      ],
+      "answer": true,
+      "lesson": 8
+    },
+    {
+      "id": "bonjour-madame",
+      "tl": "Bonjour, Madame.",
+      "es": "Buenos días, señora.",
+      "lit": "",
+      "note": "Cortesía al entrar en un lugar.",
+      "pill": "cortesia",
+      "tags": [
+        "saludo"
+      ],
+      "answer": true,
+      "lesson": 8
+    },
+    {
+      "id": "tu-viens-dou",
+      "tl": "Tu viens d'où ?",
+      "es": "¿De dónde vienes?",
+      "lit": "",
+      "note": "Para preguntar el origen de alguien",
+      "pill": "presentarse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "je-suis-espagnol",
+      "tl": "Je suis espagnol(e), de Madrid.",
+      "es": "Soy español(a), de Madrid.",
+      "lit": "",
+      "note": "Para indicar nacionalidad y ciudad de origen",
+      "pill": "presentarse",
+      "tags": [
+        "nationality"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "tu-es-la-depuis-combien-de-temps",
+      "tl": "Tu es là depuis combien de temps ?",
+      "es": "¿Cuánto tiempo llevas aquí?",
+      "lit": "",
+      "note": "Para preguntar la duración de la estancia",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative",
+        "time"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "depuis-une-semaine",
+      "tl": "Depuis une semaine.",
+      "es": "Desde hace una semana.",
+      "lit": "",
+      "note": "Para responder sobre la duración de la estancia",
+      "pill": "presentarse",
+      "tags": [
+        "time"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "jaime-bien-la-france",
+      "tl": "J'aime bien la France.",
+      "es": "Me gusta Francia.",
+      "lit": "",
+      "note": "Para expresar gusto por un lugar",
+      "pill": "presentarse",
+      "tags": [
+        "likes"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "tu-aimes-la-france",
+      "tl": "Tu aimes la France ?",
+      "es": "¿Te gusta Francia?",
+      "lit": "",
+      "note": "Para preguntar sobre el gusto por un lugar",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative",
+        "likes"
+      ],
+      "lesson": 9
+    },
+    {
+      "id": "oui-jaime-bien",
+      "tl": "Oui, j'aime bien.",
+      "es": "Sí, me gusta.",
+      "lit": "",
+      "note": "Para confirmar que algo gusta",
+      "pill": "entender",
+      "tags": [
+        "confirmation"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "non-pas-trop",
+      "tl": "Non, pas trop.",
+      "es": "No, no mucho.",
+      "lit": "",
+      "note": "Para expresar que algo no gusta mucho",
+      "pill": "entender",
+      "tags": [
+        "negation"
+      ],
+      "answer": true,
+      "lesson": 9
+    },
+    {
+      "id": "tu-as-de-la-famille",
+      "tl": "Tu as de la famille ?",
+      "es": "¿Tienes familia?",
+      "lit": "",
+      "note": "Pregunta sobre la familia de alguien",
+      "pill": "familia",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "vous-etes-combien",
+      "tl": "Vous êtes combien ?",
+      "es": "¿Cuántos sois?",
+      "lit": "",
+      "note": "Para preguntar el número de personas en una familia",
+      "pill": "familia",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "jai-un-frere",
+      "tl": "J'ai un frère.",
+      "es": "Tengo un hermano.",
+      "lit": "",
+      "note": "Para hablar de un hermano",
+      "pill": "familia",
+      "tags": [
+        "avoir"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "jai-une-soeur",
+      "tl": "J'ai une sœur.",
+      "es": "Tengo una hermana.",
+      "lit": "",
+      "note": "Para hablar de una hermana",
+      "pill": "familia",
+      "tags": [
+        "avoir"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "mes-parents",
+      "tl": "Mes parents",
+      "es": "Mis padres",
+      "lit": "",
+      "note": "Para referirse a los padres",
+      "pill": "familia",
+      "tags": [
+        "possessive"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "ma-mere",
+      "tl": "Ma mère",
+      "es": "Mi madre",
+      "lit": "",
+      "note": "Para referirse a la madre",
+      "pill": "familia",
+      "tags": [
+        "possessive"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "mon-pere",
+      "tl": "Mon père",
+      "es": "Mi padre",
+      "lit": "",
+      "note": "Para referirse al padre",
+      "pill": "familia",
+      "tags": [
+        "possessive"
+      ],
+      "lesson": 10
+    },
+    {
+      "id": "jai-deux-enfants",
+      "tl": "J'ai deux enfants.",
+      "es": "Tengo dos hijos.",
+      "lit": "",
+      "note": "Para hablar de los hijos",
+      "pill": "familia",
+      "tags": [
+        "avoir"
+      ],
+      "answer": true,
+      "lesson": 10
+    },
+    {
+      "id": "tu-as-quel-age",
+      "tl": "Tu as quel âge ?",
+      "es": "¿Cuántos años tienes?",
+      "lit": "",
+      "note": "Pregunta común para conocer a alguien",
+      "pill": "presentarse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "jai-ans",
+      "tl": "J'ai ... ans.",
+      "es": "Tengo ... años.",
+      "lit": "",
+      "note": "Respuesta típica para decir la edad",
+      "pill": "presentarse",
+      "tags": [
+        "present"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "tu-es-jeune",
+      "tl": "Tu es jeune.",
+      "es": "Eres joven.",
+      "lit": "",
+      "note": "Comentario positivo sobre la edad",
+      "pill": "social",
+      "tags": [
+        "adjective"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "tu-es-ne-quand",
+      "tl": "Tu es né(e) quand ?",
+      "es": "¿Cuándo naciste?",
+      "lit": "",
+      "note": "Pregunta para saber la fecha de nacimiento",
+      "pill": "presentarse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "je-suis-ne-en",
+      "tl": "Je suis né(e) en...",
+      "es": "Nací en...",
+      "lit": "",
+      "note": "Para decir el año de nacimiento",
+      "pill": "presentarse",
+      "tags": [
+        "past"
+      ],
+      "answer": true,
+      "lesson": 11
+    },
+    {
+      "id": "quatre-vingts",
+      "tl": "quatre-vingts",
+      "es": "ochenta",
+      "lit": "",
+      "note": "Número en francés",
+      "pill": "entender",
+      "tags": [
+        "number"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "quatre-vingt-dix",
+      "tl": "quatre-vingt-dix",
+      "es": "noventa",
+      "lit": "",
+      "note": "Número en francés",
+      "pill": "entender",
+      "tags": [
+        "number"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "cent",
+      "tl": "cent",
+      "es": "cien",
+      "lit": "",
+      "note": "Número en francés",
+      "pill": "entender",
+      "tags": [
+        "number"
+      ],
+      "lesson": 11
+    },
+    {
+      "id": "tu-fais-quoi-dans-la-vie",
+      "tl": "Tu fais quoi dans la vie ?",
+      "es": "¿Qué haces en la vida?",
+      "lit": "",
+      "note": "Pregunta común para conocer a alguien",
+      "pill": "presentarse",
+      "tags": [
+        "informal",
+        "pregunta"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "je-suis",
+      "tl": "Je suis...",
+      "es": "Soy...",
+      "lit": "",
+      "note": "Para describir tu profesión o estado",
+      "pill": "presentarse",
+      "tags": [
+        "verbo être",
+        "presentarse"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "je-fais-des-etudes",
+      "tl": "Je fais des études.",
+      "es": "Estoy estudiando.",
+      "lit": "",
+      "note": "Para indicar que estás estudiando",
+      "pill": "presentarse",
+      "tags": [
+        "verbo faire",
+        "estudios"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "je-travaille-dans",
+      "tl": "Je travaille dans...",
+      "es": "Trabajo en...",
+      "lit": "",
+      "note": "Para indicar tu sector de trabajo",
+      "pill": "trabajo",
+      "tags": [
+        "verbo travailler",
+        "trabajo"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "je-suis-en-teletravail",
+      "tl": "Je suis en télétravail.",
+      "es": "Estoy teletrabajando.",
+      "lit": "",
+      "note": "Indica que trabajas desde casa",
+      "pill": "trabajo",
+      "tags": [
+        "teletrabajo",
+        "verbo être"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "je-suis-a-la-retraite",
+      "tl": "Je suis à la retraite.",
+      "es": "Estoy jubilado/a.",
+      "lit": "",
+      "note": "Para indicar que estás jubilado/a",
+      "pill": "trabajo",
+      "tags": [
+        "verbo être",
+        "jubilación"
+      ],
+      "lesson": 12
+    },
+    {
+      "id": "dans-une-entreprise",
+      "tl": "dans une entreprise",
+      "es": "en una empresa",
+      "lit": "",
+      "note": "Para especificar el lugar de trabajo",
+      "pill": "trabajo",
+      "tags": [
+        "lugar",
+        "trabajo"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "a-la-maison",
+      "tl": "à la maison",
+      "es": "en casa",
+      "lit": "",
+      "note": "Indica que trabajas desde casa",
+      "pill": "casa",
+      "tags": [
+        "lugar",
+        "casa"
+      ],
+      "answer": true,
+      "lesson": 12
+    },
+    {
+      "id": "tu-as-mange",
+      "tl": "Tu as mangé ?",
+      "es": "¿Has comido?",
+      "lit": "",
+      "note": "Preguntar si alguien ha comido. Usado en conversaciones informales.",
+      "pill": "comida",
+      "tags": [
+        "passé composé"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "jai-faim",
+      "tl": "J'ai faim.",
+      "es": "Tengo hambre.",
+      "lit": "",
+      "note": "Expresar que tienes hambre. Muy común.",
+      "pill": "comida",
+      "tags": [
+        "avoir"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "jai-soif",
+      "tl": "J'ai soif.",
+      "es": "Tengo sed.",
+      "lit": "",
+      "note": "Expresar que tienes sed. Muy común.",
+      "pill": "comida",
+      "tags": [
+        "avoir"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "on-va-manger",
+      "tl": "On va manger ?",
+      "es": "¿Vamos a comer?",
+      "lit": "",
+      "note": "Proponer ir a comer. Usado en conversaciones informales.",
+      "pill": "comida",
+      "tags": [
+        "futuro próximo"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "tu-as-envie-de-quoi",
+      "tl": "Tu as envie de quoi ?",
+      "es": "¿De qué tienes ganas?",
+      "lit": "",
+      "note": "Preguntar qué le apetece a alguien. Muy usado.",
+      "pill": "comida",
+      "tags": [
+        "avoir envie de"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "jai-envie-dun-croque-monsieur",
+      "tl": "J'ai envie d'un croque-monsieur.",
+      "es": "Me apetece un croque-monsieur.",
+      "lit": "",
+      "note": "Expresar que te apetece algo específico.",
+      "pill": "comida",
+      "tags": [
+        "avoir envie de"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "cest-moi-qui-invite",
+      "tl": "C'est moi qui invite.",
+      "es": "Invito yo.",
+      "lit": "",
+      "note": "Ofrecer pagar la cuenta. Muy cortés.",
+      "pill": "comida",
+      "tags": [
+        "c'est moi qui"
+      ],
+      "lesson": 13
+    },
+    {
+      "id": "oui-jai-mange",
+      "tl": "Oui, j'ai mangé.",
+      "es": "Sí, he comido.",
+      "lit": "",
+      "note": "Responder afirmativamente a si has comido.",
+      "pill": "comida",
+      "tags": [
+        "passé composé"
+      ],
+      "answer": true,
+      "lesson": 13
+    },
+    {
+      "id": "non-je-nai-pas-mange",
+      "tl": "Non, je n'ai pas mangé.",
+      "es": "No, no he comido.",
+      "lit": "",
+      "note": "Responder negativamente a si has comido.",
+      "pill": "comida",
+      "tags": [
+        "passé composé"
+      ],
+      "answer": true,
+      "lesson": 13
+    },
+    {
+      "id": "c-etait-un-plaisir",
+      "tl": "C'était un plaisir.",
+      "es": "Fue un placer.",
+      "lit": "",
+      "note": "Úsalo al despedirte después de una conversación agradable.",
+      "pill": "cortesia",
+      "tags": [
+        "pasado"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "on-se-tient-au-courant",
+      "tl": "On se tient au courant.",
+      "es": "Nos mantenemos en contacto.",
+      "lit": "",
+      "note": "Para expresar que seguiréis en contacto.",
+      "pill": "social",
+      "tags": [
+        "futuro"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "a-demain",
+      "tl": "À demain.",
+      "es": "Hasta mañana.",
+      "lit": "",
+      "note": "Para despedirse hasta el día siguiente.",
+      "pill": "cortesia",
+      "tags": [
+        "futuro"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "tu-es-sympa",
+      "tl": "Tu es sympa.",
+      "es": "Eres simpático/a.",
+      "lit": "",
+      "note": "Para expresar simpatía hacia alguien.",
+      "pill": "social",
+      "tags": [
+        "adjetivo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "donne-moi-ton-numero",
+      "tl": "Donne-moi ton numéro.",
+      "es": "Dame tu número.",
+      "lit": "",
+      "note": "Cuando quieres pedir el número de alguien.",
+      "pill": "social",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "envoie-moi-un-message",
+      "tl": "Envoie-moi un message.",
+      "es": "Envíame un mensaje.",
+      "lit": "",
+      "note": "Para pedir que te envíen un mensaje.",
+      "pill": "social",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 14
+    },
+    {
+      "id": "oui-a-demain",
+      "tl": "Oui, à demain.",
+      "es": "Sí, hasta mañana.",
+      "lit": "",
+      "note": "Respuesta afirmativa a una cita para el día siguiente.",
+      "pill": "cortesia",
+      "tags": [
+        "futuro"
+      ],
+      "answer": true,
+      "lesson": 14
+    },
+    {
+      "id": "pas-de-probleme",
+      "tl": "Pas de problème.",
+      "es": "No hay problema.",
+      "lit": "",
+      "note": "Para expresar que todo está bien.",
+      "pill": "cortesia",
+      "tags": [
+        "frase hecha"
+      ],
+      "answer": true,
+      "lesson": 14
+    },
+    {
+      "id": "une-baguette-svp",
+      "tl": "Une baguette, s'il vous plaît.",
+      "es": "Una baguette, por favor.",
+      "lit": "",
+      "note": "Usa 's'il vous plaît' para pedir educadamente.",
+      "pill": "comida",
+      "tags": [
+        "imperativo",
+        "cortesía"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "bien-cuite",
+      "tl": "Bien cuite.",
+      "es": "Bien cocida.",
+      "lit": "",
+      "note": "Para pedir una baguette bien cocida.",
+      "pill": "comida",
+      "tags": [
+        "adjetivo"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "pas-trop-cuite",
+      "tl": "Pas trop cuite.",
+      "es": "No muy cocida.",
+      "lit": "",
+      "note": "Para pedir una baguette no muy cocida.",
+      "pill": "comida",
+      "tags": [
+        "negación"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "pain-au-chocolat",
+      "tl": "Un pain au chocolat, s'il vous plaît.",
+      "es": "Un pain au chocolat, por favor.",
+      "lit": "",
+      "note": "Un clásico en las boulangeries.",
+      "pill": "comida",
+      "tags": [
+        "imperativo",
+        "cortesía"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "au-marche",
+      "tl": "Au marché.",
+      "es": "En el mercado.",
+      "lit": "",
+      "note": "Para situarse en el contexto del mercado.",
+      "pill": "mercado",
+      "tags": [
+        "preposición"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "un-kilo-de",
+      "tl": "Un kilo de...",
+      "es": "Un kilo de...",
+      "lit": "",
+      "note": "Para pedir cantidades en el mercado.",
+      "pill": "mercado",
+      "tags": [
+        "cantidad"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "cest-de-saison",
+      "tl": "C'est de saison ?",
+      "es": "¿Es de temporada?",
+      "lit": "",
+      "note": "Para preguntar si un producto es de temporada.",
+      "pill": "mercado",
+      "tags": [
+        "interrogativo"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "ca-sera-tout",
+      "tl": "Ça sera tout.",
+      "es": "Eso será todo.",
+      "lit": "",
+      "note": "Para indicar que has terminado de pedir.",
+      "pill": "comida",
+      "tags": [
+        "futuro"
+      ],
+      "lesson": 15
+    },
+    {
+      "id": "ou-est-ce-que-je-peux-louer-un-velo",
+      "tl": "Où est-ce que je peux louer un vélo ?",
+      "es": "¿Dónde puedo alquilar una bicicleta?",
+      "lit": "",
+      "note": "Pregunta útil para encontrar un lugar para alquilar bicicletas.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "velib",
+      "tl": "Vélib'",
+      "es": "Vélib'",
+      "lit": "",
+      "note": "Sistema de alquiler de bicicletas en París.",
+      "pill": "moverse",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "cest-combien-la-journee",
+      "tl": "C'est combien la journée ?",
+      "es": "¿Cuánto cuesta al día?",
+      "lit": "",
+      "note": "Pregunta sobre el precio del alquiler diario.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "louer-une-voiture",
+      "tl": "Louer une voiture",
+      "es": "Alquilar un coche",
+      "lit": "",
+      "note": "Expresión para alquilar un coche.",
+      "pill": "moverse",
+      "tags": [
+        "verb phrase"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "ou-est-ce-que-je-peux-me-garer",
+      "tl": "Où est-ce que je peux me garer ?",
+      "es": "¿Dónde puedo aparcar?",
+      "lit": "",
+      "note": "Pregunta para encontrar un lugar de estacionamiento.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "essence-gasoil-la-station",
+      "tl": "Essence / gasoil / la station",
+      "es": "Gasolina / diésel / la estación",
+      "lit": "",
+      "note": "Vocabulario relacionado con el repostaje de combustible.",
+      "pill": "moverse",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "le-peage-lautoroute",
+      "tl": "Le péage / l'autoroute",
+      "es": "El peaje / la autopista",
+      "lit": "",
+      "note": "Términos relacionados con las autopistas y peajes.",
+      "pill": "moverse",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 16
+    },
+    {
+      "id": "je-voudrais-louer-un-velo",
+      "tl": "Je voudrais louer un vélo.",
+      "es": "Quisiera alquilar una bicicleta.",
+      "lit": "",
+      "note": "Frase para expresar el deseo de alquilar una bicicleta.",
+      "pill": "moverse",
+      "tags": [
+        "conditional"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "cest-cher-velib",
+      "tl": "C'est cher, Vélib' ?",
+      "es": "¿Es caro, Vélib'?",
+      "lit": "",
+      "note": "Pregunta sobre el precio del servicio Vélib'.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "ou-est-la-station-service",
+      "tl": "Où est la station-service ?",
+      "es": "¿Dónde está la gasolinera?",
+      "lit": "",
+      "note": "Pregunta para encontrar una gasolinera.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "answer": true,
+      "lesson": 16
+    },
+    {
+      "id": "quelle-ligne-pour",
+      "tl": "Quelle ligne pour aller à Montmartre ?",
+      "es": "¿Qué línea para ir a Montmartre?",
+      "lit": "",
+      "note": "Pregunta común en el metro de París.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "un-ticket",
+      "tl": "Un ticket, s'il vous plaît.",
+      "es": "Un billete, por favor.",
+      "lit": "",
+      "note": "Forma cortés de pedir un billete.",
+      "pill": "moverse",
+      "tags": [
+        "politeness"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "le-prochain-arret",
+      "tl": "Le prochain arrêt, c'est Châtelet ?",
+      "es": "¿La próxima parada es Châtelet?",
+      "lit": "",
+      "note": "Útil para confirmar paradas en el metro.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "un-aller-retour",
+      "tl": "Un aller-retour pour Lyon, s'il vous plaît.",
+      "es": "Un billete de ida y vuelta a Lyon, por favor.",
+      "lit": "",
+      "note": "Para comprar billetes de tren.",
+      "pill": "moverse",
+      "tags": [
+        "politeness"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "le-tgv",
+      "tl": "Le TGV part à quelle heure ?",
+      "es": "¿A qué hora sale el TGV?",
+      "lit": "",
+      "note": "Preguntar por horarios de trenes de alta velocidad.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "cest-direct",
+      "tl": "C'est direct pour Bordeaux ?",
+      "es": "¿Es directo a Burdeos?",
+      "lit": "",
+      "note": "Para confirmar si un tren es directo.",
+      "pill": "moverse",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "oui-cest-direct",
+      "tl": "Oui, c'est direct.",
+      "es": "Sí, es directo.",
+      "lit": "",
+      "note": "Confirmación de que el trayecto es directo.",
+      "pill": "moverse",
+      "tags": [
+        "affirmative"
+      ],
+      "answer": true,
+      "lesson": 17
+    },
+    {
+      "id": "non-cest-pas-direct",
+      "tl": "Non, ce n'est pas direct.",
+      "es": "No, no es directo.",
+      "lit": "",
+      "note": "Negación de que el trayecto sea directo.",
+      "pill": "moverse",
+      "tags": [
+        "negative"
+      ],
+      "answer": true,
+      "lesson": 17
+    },
+    {
+      "id": "cest-ouvert-le-dimanche",
+      "tl": "C'est ouvert le dimanche ?",
+      "es": "¿Está abierto el domingo?",
+      "lit": "",
+      "note": "Útil para preguntar en tiendas o museos.",
+      "pill": "tiempo",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "ferme-le-lundi",
+      "tl": "Fermé le lundi.",
+      "es": "Cerrado los lunes.",
+      "lit": "",
+      "note": "Indica el día de cierre habitual en Francia.",
+      "pill": "tiempo",
+      "tags": [
+        "adjective"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "la-pause-dejeuner",
+      "tl": "La pause déjeuner.",
+      "es": "La pausa del almuerzo.",
+      "lit": "",
+      "note": "Importante para saber horarios de cierre al mediodía.",
+      "pill": "tiempo",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "jour-ferie",
+      "tl": "Jour férié.",
+      "es": "Día festivo.",
+      "lit": "",
+      "note": "Días en los que muchos lugares están cerrados.",
+      "pill": "tiempo",
+      "tags": [
+        "noun"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "je-voudrais-reserver",
+      "tl": "Je voudrais réserver.",
+      "es": "Quisiera reservar.",
+      "lit": "",
+      "note": "Útil para hacer reservas en restaurantes o eventos.",
+      "pill": "cortesia",
+      "tags": [
+        "conditional"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "ferme-pour-conges-annuels",
+      "tl": "Fermé pour congés annuels.",
+      "es": "Cerrado por vacaciones anuales.",
+      "lit": "",
+      "note": "Indica cierres prolongados por vacaciones.",
+      "pill": "tiempo",
+      "tags": [
+        "adjective"
+      ],
+      "lesson": 18
+    },
+    {
+      "id": "oui-cest-ouvert",
+      "tl": "Oui, c'est ouvert.",
+      "es": "Sí, está abierto.",
+      "lit": "",
+      "note": "Confirmación de que un lugar está abierto.",
+      "pill": "tiempo",
+      "tags": [
+        "affirmative"
+      ],
+      "answer": true,
+      "lesson": 18
+    },
+    {
+      "id": "non-cest-ferme",
+      "tl": "Non, c'est fermé.",
+      "es": "No, está cerrado.",
+      "lit": "",
+      "note": "Confirmación de que un lugar está cerrado.",
+      "pill": "tiempo",
+      "tags": [
+        "negative"
+      ],
+      "answer": true,
+      "lesson": 18
+    },
+    {
+      "id": "je-ne-sais-pas-les-horaires",
+      "tl": "Je ne sais pas les horaires.",
+      "es": "No sé los horarios.",
+      "lit": "",
+      "note": "Para expresar desconocimiento sobre los horarios.",
+      "pill": "tiempo",
+      "tags": [
+        "negative"
+      ],
+      "answer": true,
+      "lesson": 18
+    },
+    {
+      "id": "on-peut-entrer",
+      "tl": "On peut entrer ?",
+      "es": "¿Podemos entrar?",
+      "lit": "",
+      "note": "Se usa para preguntar si se puede acceder a un lugar",
+      "pill": "cortesia",
+      "tags": [
+        "verbo modal"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "cest-gratuit",
+      "tl": "C'est gratuit le premier dimanche.",
+      "es": "Es gratis el primer domingo.",
+      "lit": "",
+      "note": "Información útil sobre la entrada gratuita a museos",
+      "pill": "cultura",
+      "tags": [
+        "frase impersonal"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "une-expo",
+      "tl": "Une expo",
+      "es": "Una exposición",
+      "lit": "",
+      "note": "Forma abreviada de 'exposition', común en el habla",
+      "pill": "cultura",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "une-balade",
+      "tl": "Une balade en bord de Seine",
+      "es": "Un paseo a orillas del Sena",
+      "lit": "",
+      "note": "Actividad típica y relajante en París",
+      "pill": "cultura",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "un-chateau",
+      "tl": "Un château",
+      "es": "Un castillo",
+      "lit": "",
+      "note": "Se refiere a los numerosos castillos en Francia",
+      "pill": "cultura",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "on-peut-voir",
+      "tl": "On peut voir le Louvre ?",
+      "es": "¿Podemos ver el Louvre?",
+      "lit": "",
+      "note": "Pregunta común sobre la visita a museos",
+      "pill": "cultura",
+      "tags": [
+        "verbo modal"
+      ],
+      "lesson": 19
+    },
+    {
+      "id": "cest-ouvert-aujourdhui",
+      "tl": "C'est ouvert aujourd'hui ?",
+      "es": "¿Está abierto hoy?",
+      "lit": "",
+      "note": "Pregunta sobre horarios de apertura",
+      "pill": "tiempo",
+      "tags": [
+        "frase impersonal"
+      ],
+      "answer": true,
+      "lesson": 19
+    },
+    {
+      "id": "oui-cest-gratuit",
+      "tl": "Oui, c'est gratuit.",
+      "es": "Sí, es gratis.",
+      "lit": "",
+      "note": "Confirmación sobre la entrada gratuita",
+      "pill": "cultura",
+      "tags": [
+        "respuesta corta"
+      ],
+      "answer": true,
+      "lesson": 19
+    },
+    {
+      "id": "une-entree-un-plat-un-dessert",
+      "tl": "Une entrée, un plat, un dessert",
+      "es": "Un entrante, un plato, un postre",
+      "lit": "",
+      "note": "Estructura típica de una comida en Francia",
+      "pill": "comida",
+      "tags": [
+        "nombres",
+        "comida"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "le-plat-du-jour",
+      "tl": "Le plat du jour",
+      "es": "El plato del día",
+      "lit": "",
+      "note": "Suele ser una opción económica en los restaurantes",
+      "pill": "comida",
+      "tags": [
+        "nombres",
+        "comida"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "un-verre-de-rouge",
+      "tl": "Un verre de rouge",
+      "es": "Una copa de tinto",
+      "lit": "",
+      "note": "Vino tinto, común en las comidas francesas",
+      "pill": "comida",
+      "tags": [
+        "nombres",
+        "comida"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "fromage-ou-dessert",
+      "tl": "Fromage ou dessert ?",
+      "es": "¿Queso o postre?",
+      "lit": "",
+      "note": "Pregunta típica al final de una comida",
+      "pill": "comida",
+      "tags": [
+        "preguntas",
+        "comida"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "lapero",
+      "tl": "L'apéro",
+      "es": "El aperitivo",
+      "lit": "",
+      "note": "Momento social antes de la cena",
+      "pill": "comida",
+      "tags": [
+        "nombres",
+        "social"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "le-pourboire",
+      "tl": "Le pourboire",
+      "es": "La propina",
+      "lit": "",
+      "note": "No es obligatorio pero apreciado",
+      "pill": "comida",
+      "tags": [
+        "nombres",
+        "cultura"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "oui-cest-bon",
+      "tl": "Oui, c'est bon.",
+      "es": "Sí, está bueno.",
+      "lit": "",
+      "note": "Respuesta típica sobre la comida",
+      "pill": "comida",
+      "tags": [
+        "respuestas",
+        "comida"
+      ],
+      "answer": true,
+      "lesson": 20
+    },
+    {
+      "id": "non-cest-pas-bon",
+      "tl": "Non, c'est pas bon.",
+      "es": "No, no está bueno.",
+      "lit": "",
+      "note": "Respuesta negativa sobre la comida",
+      "pill": "comida",
+      "tags": [
+        "respuestas",
+        "comida"
+      ],
+      "answer": true,
+      "lesson": 20
+    },
+    {
+      "id": "tu-es-heureux",
+      "tl": "Tu es heureux ?",
+      "es": "¿Eres feliz?",
+      "lit": "",
+      "note": "Pregunta sobre el estado emocional, usada con amigos o familia.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "adjetivo"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "tu-es-triste",
+      "tl": "Tu es triste ?",
+      "es": "¿Estás triste?",
+      "lit": "",
+      "note": "Pregunta sobre el estado emocional, usada con amigos o familia.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "adjetivo"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "je-suis-creve",
+      "tl": "Je suis crevé(e).",
+      "es": "Estoy agotado/a.",
+      "lit": "",
+      "note": "Expresión coloquial para decir que uno está muy cansado.",
+      "pill": "corazon",
+      "tags": [
+        "adjetivo",
+        "estado"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "jai-peur",
+      "tl": "J'ai peur.",
+      "es": "Tengo miedo.",
+      "lit": "",
+      "note": "Expresión de temor o inseguridad.",
+      "pill": "corazon",
+      "tags": [
+        "verbo",
+        "estado"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "ca-va-aller",
+      "tl": "Ça va aller.",
+      "es": "Todo irá bien.",
+      "lit": "",
+      "note": "Frase de consuelo y ánimo.",
+      "pill": "corazon",
+      "tags": [
+        "expresión",
+        "futuro"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "ma-famille-me-manque",
+      "tl": "Ma famille me manque.",
+      "es": "Echo de menos a mi familia.",
+      "lit": "Mi familia me falta.",
+      "note": "Expresión de añoranza.",
+      "pill": "corazon",
+      "tags": [
+        "verbo",
+        "sentimiento"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "oui-je-suis-heureux",
+      "tl": "Oui, je suis heureux.",
+      "es": "Sí, soy feliz.",
+      "lit": "",
+      "note": "Respuesta afirmativa a si eres feliz.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta",
+        "adjetivo"
+      ],
+      "answer": true,
+      "lesson": 21
+    },
+    {
+      "id": "non-je-suis-triste",
+      "tl": "Non, je suis triste.",
+      "es": "No, estoy triste.",
+      "lit": "",
+      "note": "Respuesta negativa a si eres feliz.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta",
+        "adjetivo"
+      ],
+      "answer": true,
+      "lesson": 21
+    },
+    {
+      "id": "tu-aimes-quoi",
+      "tl": "Tu aimes quoi ?",
+      "es": "¿Qué te gusta?",
+      "lit": "",
+      "note": "Pregunta informal sobre gustos",
+      "pill": "corazon",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "jadore",
+      "tl": "J'adore !",
+      "es": "¡Me encanta!",
+      "lit": "",
+      "note": "Expresión de entusiasmo",
+      "pill": "corazon",
+      "tags": [
+        "expression"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "je-deteste",
+      "tl": "Je déteste.",
+      "es": "Lo detesto.",
+      "lit": "",
+      "note": "Expresión de disgusto",
+      "pill": "corazon",
+      "tags": [
+        "expression"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "tu-ecoutes-quoi",
+      "tl": "Tu écoutes quoi comme musique ?",
+      "es": "¿Qué música escuchas?",
+      "lit": "",
+      "note": "Pregunta sobre preferencias musicales",
+      "pill": "corazon",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "je-prefere-le-foot",
+      "tl": "Je préfère le foot.",
+      "es": "Prefiero el fútbol.",
+      "lit": "",
+      "note": "Preferencia deportiva",
+      "pill": "corazon",
+      "tags": [
+        "preference"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "je-prefere-le-rugby",
+      "tl": "Je préfère le rugby.",
+      "es": "Prefiero el rugby.",
+      "lit": "",
+      "note": "Preferencia deportiva",
+      "pill": "corazon",
+      "tags": [
+        "preference"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "tu-es-pour-quelle-equipe",
+      "tl": "Tu es pour quelle équipe ?",
+      "es": "¿A qué equipo apoyas?",
+      "lit": "",
+      "note": "Pregunta sobre aficiones deportivas",
+      "pill": "corazon",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "moi-jaime-le-tour",
+      "tl": "Moi, j'aime le Tour.",
+      "es": "A mí me gusta el Tour.",
+      "lit": "",
+      "note": "Preferencia por el Tour de France",
+      "pill": "corazon",
+      "tags": [
+        "preference"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "tu-veux-faire-quoi-plus-tard",
+      "tl": "Tu veux faire quoi plus tard ?",
+      "es": "¿Qué quieres hacer más tarde?",
+      "lit": "",
+      "note": "Pregunta sobre aspiraciones futuras",
+      "pill": "corazon",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "mon-reve-cest",
+      "tl": "Mon rêve, c'est...",
+      "es": "Mi sueño es...",
+      "lit": "",
+      "note": "Para expresar un sueño o deseo",
+      "pill": "corazon",
+      "tags": [
+        "expression"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "jaimerais-vivre-ici",
+      "tl": "J'aimerais vivre ici.",
+      "es": "Me gustaría vivir aquí.",
+      "lit": "",
+      "note": "Expresión de deseo",
+      "pill": "corazon",
+      "tags": [
+        "conditional"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "un-jour",
+      "tl": "Un jour...",
+      "es": "Un día...",
+      "lit": "",
+      "note": "Para hablar de planes futuros",
+      "pill": "corazon",
+      "tags": [
+        "time"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "tu-vas-y-arriver",
+      "tl": "Tu vas y arriver.",
+      "es": "Lo vas a lograr.",
+      "lit": "",
+      "note": "Para animar a alguien",
+      "pill": "corazon",
+      "tags": [
+        "encouragement"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "oui-je-vais-y-arriver",
+      "tl": "Oui, je vais y arriver.",
+      "es": "Sí, lo voy a lograr.",
+      "lit": "",
+      "note": "Respuesta afirmativa a un ánimo",
+      "pill": "corazon",
+      "tags": [
+        "affirmation"
+      ],
+      "answer": true,
+      "lesson": 23
+    },
+    {
+      "id": "non-je-ne-vais-pas-y-arriver",
+      "tl": "Non, je ne vais pas y arriver.",
+      "es": "No, no lo voy a lograr.",
+      "lit": "",
+      "note": "Respuesta negativa a un ánimo",
+      "pill": "corazon",
+      "tags": [
+        "negation"
+      ],
+      "answer": true,
+      "lesson": 23
+    },
+    {
+      "id": "jaimerais-etre",
+      "tl": "J'aimerais être...",
+      "es": "Me gustaría ser...",
+      "lit": "",
+      "note": "Para expresar un deseo personal",
+      "pill": "corazon",
+      "tags": [
+        "conditional"
+      ],
+      "lesson": 23
+    },
+    {
+      "id": "attention",
+      "tl": "Attention !",
+      "es": "¡Atención!",
+      "lit": "",
+      "note": "Útil para alertar a alguien de un peligro inmediato.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "au-secours",
+      "tl": "Au secours !",
+      "es": "¡Socorro!",
+      "lit": "",
+      "note": "Se usa en situaciones de emergencia para pedir ayuda.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "appelle-le-15",
+      "tl": "Appelle le 15 !",
+      "es": "¡Llama al 15!",
+      "lit": "",
+      "note": "El 15 es el número de emergencias médicas en Francia.",
+      "pill": "peligro",
+      "tags": [
+        "imperativo"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "je-me-sens-mal",
+      "tl": "Je me sens mal.",
+      "es": "Me siento mal.",
+      "lit": "",
+      "note": "Para expresar que uno no se encuentra bien físicamente.",
+      "pill": "salud",
+      "tags": [
+        "verbo pronominal"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "jai-besoin-dun-medecin",
+      "tl": "J'ai besoin d'un médecin.",
+      "es": "Necesito un médico.",
+      "lit": "",
+      "note": "Frase útil cuando se requiere atención médica.",
+      "pill": "salud",
+      "tags": [
+        "estructura con besoin"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "ou-sont-les-urgences",
+      "tl": "Où sont les urgences ?",
+      "es": "¿Dónde están las urgencias?",
+      "lit": "",
+      "note": "Para preguntar por el hospital o servicios de emergencia más cercanos.",
+      "pill": "salud",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 24
+    },
+    {
+      "id": "oui-je-vais-bien",
+      "tl": "Oui, je vais bien.",
+      "es": "Sí, estoy bien.",
+      "lit": "",
+      "note": "Para confirmar que uno se encuentra bien después de un susto.",
+      "pill": "salud",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 24
+    },
+    {
+      "id": "non-je-ne-vais-pas-bien",
+      "tl": "Non, je ne vais pas bien.",
+      "es": "No, no estoy bien.",
+      "lit": "",
+      "note": "Para indicar que uno no se encuentra bien.",
+      "pill": "salud",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 24
+    },
+    {
+      "id": "tu-veux-prier",
+      "tl": "Tu veux prier ?",
+      "es": "¿Quieres rezar?",
+      "lit": "",
+      "note": "Pregunta sencilla para invitar a rezar juntos.",
+      "pill": "fe",
+      "tags": [
+        "interrogative",
+        "vouloir"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "le-notre-pere",
+      "tl": "Le Notre Père",
+      "es": "El Padre Nuestro",
+      "lit": "",
+      "note": "Oración común en contextos religiosos.",
+      "pill": "fe",
+      "tags": [
+        "nom",
+        "priere"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "la-messe",
+      "tl": "La messe",
+      "es": "La misa",
+      "lit": "",
+      "note": "Evento religioso regular.",
+      "pill": "fe",
+      "tags": [
+        "nom"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "notre-dame",
+      "tl": "Notre-Dame",
+      "es": "Notre-Dame",
+      "lit": "",
+      "note": "Famosa catedral en París.",
+      "pill": "fe",
+      "tags": [
+        "nom",
+        "lieu"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "que-dieu-te-benisse",
+      "tl": "Que Dieu te bénisse.",
+      "es": "Que Dios te bendiga.",
+      "lit": "",
+      "note": "Frase de bendición y buenos deseos.",
+      "pill": "fe",
+      "tags": [
+        "expression",
+        "souhait"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "tu-es-croyant",
+      "tl": "Tu es croyant ?",
+      "es": "¿Eres creyente?",
+      "lit": "",
+      "note": "Pregunta para conocer la fe del interlocutor.",
+      "pill": "fe",
+      "tags": [
+        "interrogative",
+        "etre"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "je-crois-en-dieu",
+      "tl": "Je crois en Dieu.",
+      "es": "Creo en Dios.",
+      "lit": "",
+      "note": "Expresión de fe personal.",
+      "pill": "fe",
+      "tags": [
+        "affirmative",
+        "croire"
+      ],
+      "lesson": 25
+    },
+    {
+      "id": "je-ne-crois-pas-en-dieu",
+      "tl": "Je ne crois pas en Dieu.",
+      "es": "No creo en Dios.",
+      "lit": "",
+      "note": "Expresión de falta de fe.",
+      "pill": "fe",
+      "tags": [
+        "negation",
+        "croire"
+      ],
+      "answer": true,
+      "lesson": 25
+    },
+    {
+      "id": "on-prend-lapero",
+      "tl": "On prend l'apéro ?",
+      "es": "¿Tomamos el aperitivo?",
+      "lit": "",
+      "note": "Usado para proponer tomar algo antes de la cena, un momento social típico en Francia.",
+      "pill": "comida",
+      "tags": [
+        "interrogative",
+        "proposition"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "un-kir",
+      "tl": "Un kir, s'il vous plaît.",
+      "es": "Un kir, por favor.",
+      "lit": "",
+      "note": "El kir es un aperitivo típico francés, mezcla de vino blanco y crema de cassis.",
+      "pill": "comida",
+      "tags": [
+        "politeness",
+        "request"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "un-pastis",
+      "tl": "Un pastis, s'il vous plaît.",
+      "es": "Un pastis, por favor.",
+      "lit": "",
+      "note": "El pastis es una bebida alcohólica anisada popular en el sur de Francia.",
+      "pill": "comida",
+      "tags": [
+        "politeness",
+        "request"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "on-fait-quoi-ce-soir",
+      "tl": "On fait quoi ce soir ?",
+      "es": "¿Qué hacemos esta noche?",
+      "lit": "",
+      "note": "Pregunta común para planificar la velada.",
+      "pill": "social",
+      "tags": [
+        "interrogative",
+        "informal"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "on-sort",
+      "tl": "On sort ?",
+      "es": "¿Salimos?",
+      "lit": "",
+      "note": "Propuesta para salir, ya sea a cenar o a tomar algo.",
+      "pill": "social",
+      "tags": [
+        "interrogative",
+        "proposition"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "il-fait-chaud",
+      "tl": "Il fait chaud.",
+      "es": "Hace calor.",
+      "lit": "",
+      "note": "Comentario sobre el tiempo, útil para iniciar una conversación.",
+      "pill": "tiempo",
+      "tags": [
+        "statement",
+        "weather"
+      ],
+      "answer": true,
+      "lesson": 26
+    },
+    {
+      "id": "une-terrasse",
+      "tl": "On va en terrasse ?",
+      "es": "¿Vamos a una terraza?",
+      "lit": "",
+      "note": "Propuesta para disfrutar del buen tiempo en una terraza.",
+      "pill": "social",
+      "tags": [
+        "interrogative",
+        "proposition"
+      ],
+      "lesson": 26
+    },
+    {
+      "id": "oui-il-fait-chaud",
+      "tl": "Oui, il fait chaud.",
+      "es": "Sí, hace calor.",
+      "lit": "",
+      "note": "Confirmación sobre el tiempo, útil en conversaciones cotidianas.",
+      "pill": "tiempo",
+      "tags": [
+        "agreement",
+        "weather"
+      ],
+      "answer": true,
+      "lesson": 26
+    },
+    {
+      "id": "qui-joue",
+      "tl": "Qui joue ?",
+      "es": "¿Quién juega?",
+      "lit": "",
+      "note": "Para preguntar quién está jugando.",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "qui-a-marque",
+      "tl": "Qui a marqué ?",
+      "es": "¿Quién ha marcado?",
+      "lit": "",
+      "note": "Para preguntar quién ha anotado un gol.",
+      "pill": "preguntar",
+      "tags": [
+        "interrogative",
+        "passé composé"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "allez-les-bleus",
+      "tl": "Allez les Bleus !",
+      "es": "¡Vamos, los Bleus!",
+      "lit": "",
+      "note": "Frase de aliento para el equipo nacional de fútbol francés.",
+      "pill": "social",
+      "tags": [
+        "imperative"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "une-sortie-a-velo",
+      "tl": "Une sortie à vélo",
+      "es": "Una salida en bicicleta",
+      "lit": "",
+      "note": "Para hablar de una actividad recreativa en bicicleta.",
+      "pill": "moverse",
+      "tags": [
+        "noun phrase"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "le-dimanche-en-famille",
+      "tl": "Le dimanche en famille",
+      "es": "El domingo en familia",
+      "lit": "",
+      "note": "Para describir una actividad familiar típica del domingo.",
+      "pill": "familia",
+      "tags": [
+        "noun phrase"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "le-psg-ou-lom",
+      "tl": "Le PSG ou l'OM ?",
+      "es": "¿El PSG o el OM?",
+      "lit": "",
+      "note": "Para preguntar sobre la preferencia entre dos equipos de fútbol populares en Francia.",
+      "pill": "social",
+      "tags": [
+        "interrogative"
+      ],
+      "lesson": 27
+    },
+    {
+      "id": "oui-le-psg",
+      "tl": "Oui, le PSG.",
+      "es": "Sí, el PSG.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre la preferencia del equipo.",
+      "pill": "social",
+      "tags": [
+        "affirmative"
+      ],
+      "answer": true,
+      "lesson": 27
+    },
+    {
+      "id": "non-lom",
+      "tl": "Non, l'OM.",
+      "es": "No, el OM.",
+      "lit": "",
+      "note": "Respuesta negativa sobre la preferencia del equipo.",
+      "pill": "social",
+      "tags": [
+        "negative"
+      ],
+      "answer": true,
+      "lesson": 27
+    },
+    {
+      "id": "jai-mal-a-la-tete",
+      "tl": "J'ai mal à la tête.",
+      "es": "Me duele la cabeza.",
+      "lit": "",
+      "note": "Usa 'avoir mal à' para expresar dolor en una parte del cuerpo.",
+      "pill": "salud",
+      "tags": [
+        "avoir",
+        "mal à"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "jai-mal-au-ventre",
+      "tl": "J'ai mal au ventre.",
+      "es": "Me duele el estómago.",
+      "lit": "",
+      "note": "Indica dolor en el estómago.",
+      "pill": "salud",
+      "tags": [
+        "avoir",
+        "mal à"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "la-pharmacie",
+      "tl": "La pharmacie",
+      "es": "La farmacia",
+      "lit": "",
+      "note": "Lugar donde se compran medicamentos.",
+      "pill": "salud",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "une-ordonnance",
+      "tl": "Une ordonnance",
+      "es": "Una receta médica",
+      "lit": "",
+      "note": "Documento del médico para obtener medicamentos.",
+      "pill": "salud",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "le-medecin-traitant",
+      "tl": "Le médecin traitant",
+      "es": "El médico de cabecera",
+      "lit": "",
+      "note": "Médico principal que atiende regularmente.",
+      "pill": "salud",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "les-urgences",
+      "tl": "Les urgences",
+      "es": "Las urgencias",
+      "lit": "",
+      "note": "Servicio médico para emergencias.",
+      "pill": "salud",
+      "tags": [
+        "sustantivo"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "je-vais-mieux",
+      "tl": "Je vais mieux.",
+      "es": "Mejoro.",
+      "lit": "",
+      "note": "Para indicar que tu salud está mejorando.",
+      "pill": "salud",
+      "tags": [
+        "verbo"
+      ],
+      "lesson": 28
+    },
+    {
+      "id": "ou-est-la-pharmacie",
+      "tl": "Où est la pharmacie ?",
+      "es": "¿Dónde está la farmacia?",
+      "lit": "",
+      "note": "Pregunta para encontrar una farmacia.",
+      "pill": "salud",
+      "tags": [
+        "pregunta"
+      ],
+      "answer": true,
+      "lesson": 28
+    },
+    {
+      "id": "du-coup",
+      "tl": "Du coup, on y va ?",
+      "es": "Entonces, ¿vamos?",
+      "lit": "",
+      "note": "Usado para conectar ideas o cambiar de tema.",
+      "pill": "social",
+      "tags": [
+        "muletillas"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "bon",
+      "tl": "Bon, on fait quoi ?",
+      "es": "Bueno, ¿qué hacemos?",
+      "lit": "",
+      "note": "Para iniciar o cerrar una conversación.",
+      "pill": "social",
+      "tags": [
+        "muletillas"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "peut-etre",
+      "tl": "Peut-être demain.",
+      "es": "Quizás mañana.",
+      "lit": "",
+      "note": "Expresa una posibilidad.",
+      "pill": "tiempo",
+      "tags": [
+        "adverbes"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "si",
+      "tl": "Si tu veux.",
+      "es": "Si quieres.",
+      "lit": "",
+      "note": "Para expresar una condición o sugerencia.",
+      "pill": "cortesia",
+      "tags": [
+        "conjonctions"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "juste",
+      "tl": "C'est juste ici.",
+      "es": "Está justo aquí.",
+      "lit": "",
+      "note": "Para indicar precisión o cercanía.",
+      "pill": "moverse",
+      "tags": [
+        "adverbes"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "donc",
+      "tl": "Donc, tu viens ?",
+      "es": "Entonces, ¿vienes?",
+      "lit": "",
+      "note": "Para concluir o deducir algo.",
+      "pill": "social",
+      "tags": [
+        "conjonctions"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "aussi",
+      "tl": "Moi aussi, j'aime bien.",
+      "es": "A mí también, me gusta.",
+      "lit": "",
+      "note": "Para añadir información similar.",
+      "pill": "social",
+      "tags": [
+        "adverbes"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "mais",
+      "tl": "Mais, c'est fermé !",
+      "es": "¡Pero está cerrado!",
+      "lit": "",
+      "note": "Para expresar una objeción o sorpresa.",
+      "pill": "tiempo",
+      "tags": [
+        "conjonctions"
+      ],
+      "lesson": 29
+    },
+    {
+      "id": "oui-cest-ferme",
+      "tl": "Oui, c'est fermé.",
+      "es": "Sí, está cerrado.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre el estado de algo.",
+      "pill": "tiempo",
+      "tags": [
+        "phrases"
+      ],
+      "answer": true,
+      "lesson": 29
+    },
+    {
+      "id": "non-cest-ouvert",
+      "tl": "Non, c'est ouvert.",
+      "es": "No, está abierto.",
+      "lit": "",
+      "note": "Respuesta negativa sobre el estado de algo.",
+      "pill": "tiempo",
+      "tags": [
+        "phrases"
+      ],
+      "answer": true,
+      "lesson": 29
+    },
+    {
+      "id": "je-peux-aller",
+      "tl": "Je peux aller...",
+      "es": "Puedo ir...",
+      "lit": "",
+      "note": "Expresión para indicar capacidad de ir a un lugar",
+      "pill": "moverse",
+      "tags": [
+        "verbo",
+        "modal"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "tu-peux-faire",
+      "tl": "Tu peux faire...",
+      "es": "Puedes hacer...",
+      "lit": "",
+      "note": "Pregunta sobre la capacidad de realizar una acción",
+      "pill": "entender",
+      "tags": [
+        "verbo",
+        "modal"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "on-fait-quoi",
+      "tl": "On fait quoi ?",
+      "es": "¿Qué hacemos?",
+      "lit": "",
+      "note": "Pregunta común para decidir actividades",
+      "pill": "social",
+      "tags": [
+        "verbo",
+        "interrogativo"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "je-vais-faire",
+      "tl": "Je vais faire...",
+      "es": "Voy a hacer...",
+      "lit": "",
+      "note": "Para expresar intención de hacer algo",
+      "pill": "tiempo",
+      "tags": [
+        "verbo",
+        "futuro"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "je-prends",
+      "tl": "Je prends...",
+      "es": "Tomo...",
+      "lit": "",
+      "note": "Usado para pedir o tomar algo",
+      "pill": "comida",
+      "tags": [
+        "verbo",
+        "presente"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "tu-voudrais",
+      "tl": "Tu voudrais...",
+      "es": "Te gustaría...",
+      "lit": "",
+      "note": "Forma cortés para ofrecer o preguntar deseos",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "condicional"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "je-peux-prendre",
+      "tl": "Je peux prendre...",
+      "es": "Puedo tomar...",
+      "lit": "",
+      "note": "Pregunta sobre la posibilidad de tomar algo",
+      "pill": "comida",
+      "tags": [
+        "verbo",
+        "modal"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "on-peut-aller",
+      "tl": "On peut aller...",
+      "es": "Podemos ir...",
+      "lit": "",
+      "note": "Sugerencia para ir a un lugar",
+      "pill": "moverse",
+      "tags": [
+        "verbo",
+        "modal"
+      ],
+      "lesson": 30
+    },
+    {
+      "id": "oui-je-peux",
+      "tl": "Oui, je peux.",
+      "es": "Sí, puedo.",
+      "lit": "",
+      "note": "Confirmación de capacidad",
+      "pill": "entender",
+      "tags": [
+        "verbo",
+        "modal"
+      ],
+      "answer": true,
+      "lesson": 30
+    },
+    {
+      "id": "non-je-ne-peux-pas",
+      "tl": "Non, je ne peux pas.",
+      "es": "No, no puedo.",
+      "lit": "",
+      "note": "Negación de capacidad",
+      "pill": "entender",
+      "tags": [
+        "verbo",
+        "modal"
+      ],
+      "answer": true,
+      "lesson": 30
+    },
+    {
+      "id": "oui-je-voudrais",
+      "tl": "Oui, je voudrais.",
+      "es": "Sí, me gustaría.",
+      "lit": "",
+      "note": "Confirmación de deseo",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "condicional"
+      ],
+      "answer": true,
+      "lesson": 30
+    },
+    {
+      "id": "non-je-ne-voudrais-pas",
+      "tl": "Non, je ne voudrais pas.",
+      "es": "No, no me gustaría.",
+      "lit": "",
+      "note": "Negación de deseo",
+      "pill": "cortesia",
+      "tags": [
+        "verbo",
+        "condicional"
+      ],
+      "answer": true,
+      "lesson": 30
+    }
+  ]
+}

@@ -1,0 +1,1417 @@
+{
+  "title": "Explorar Ericeira",
+  "subtitle": "Aprender a preguntar por las condiciones del mar y acampar",
+  "summary_es": "Preguntar y entender sobre surf y acampada",
+  "topics": [
+    "preguntar",
+    "cortesia",
+    "entender",
+    "surf",
+    "acampar"
+  ],
+  "dialogue": {
+    "tl": [
+      "Olá! Como está o mar hoje?",
+      "Está ótimo, há ondas boas!",
+      "Ótimo! Onde é que se surfa bem aqui?",
+      "Em Ribeira d'Ilhas, é perfeito para surfar.",
+      "Obrigado pela ajuda! Posso acampar aqui?",
+      "Não, não se pode acampar aqui, mas há um parque de campismo perto."
+    ],
+    "es": [
+      "¡Hola! ¿Cómo está el mar hoy?",
+      "Está genial, ¡hay buenas olas!",
+      "¡Genial! ¿Dónde se surfea bien aquí?",
+      "En Ribeira d'Ilhas, es perfecto para surfear.",
+      "¡Gracias por la ayuda! ¿Puedo acampar aquí?",
+      "No, no se puede acampar aquí, pero hay un camping cerca."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Onde é que se surfa bem aqui?",
+      "es": "¿Dónde se surfea bien aquí?"
+    },
+    {
+      "term": "Quando é que há melhores ondas?",
+      "es": "¿Cuándo hay mejores olas?"
+    },
+    {
+      "term": "Prazer em conhecer-te!",
+      "es": "¡Encantado de conocerte!"
+    },
+    {
+      "term": "Obrigado pela ajuda!",
+      "es": "¡Gracias por la ayuda!"
+    },
+    {
+      "term": "Como está o mar hoje?",
+      "es": "¿Cómo está el mar hoy?"
+    },
+    {
+      "term": "Posso acampar aqui?",
+      "es": "¿Puedo acampar aquí?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 1. Explorar Ericeira.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, un surfista pregunta por las condiciones del mar y la posibilidad de acampar. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Como está o mar hoje?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo está el mar hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está ótimo, há ondas boas!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está genial, ¡hay buenas olas!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ótimo! Onde é que se surfa bem aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Dónde se surfea bien aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Em Ribeira d'Ilhas, é perfeito para surfar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "En Ribeira d'Ilhas, es perfecto para surfear.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda! Posso acampar aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias por la ayuda! ¿Puedo acampar aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui, mas há um parque de campismo perto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no se puede acampar aquí, pero hay un camping cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar por las condiciones del mar y acampar Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde se surfea bien aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aqui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bem aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é que se surfa bem aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por buenos lugares para surfear",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuándo hay mejores olas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "das",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ondas",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "melhores ondas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é que há melhores ondas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Consultar sobre el mejor momento para surfear",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuándo hay mejores olas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Encantado de conocerte». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "-te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cer-te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hecer-te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "em conhecer-te",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión de cortesía al conocer a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Encantado de conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un apunte: en portugués das las gracias según quién eres tú. Si eres hombre, obrigado; si eres mujer, obrigada. Siempre.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Gracias por la ayuda». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "da",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "juda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ajuda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pela ajuda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Agradecer la ayuda recibida",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias por la ayuda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo está el mar hoy?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "je",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hoje",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mar hoje",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "está o mar hoje",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por las condiciones del mar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo está el mar hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedo acampar aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aqui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "acampar aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Consultar sobre la posibilidad de acampar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo acampar aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'há' para expresar existencia.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, 'há' se utiliza para indicar la existencia de algo, similar a 'hay' en español. Es común en preguntas sobre disponibilidad o condiciones.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, hay buenas olas».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, há ondas boas!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, hay buenas olas.",
+      "item": "sim-ondas-boas"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no se puede acampar aquí.",
+      "item": "nao-nao-acampar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no se puede acampar aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no se puede acampar aquí.",
+      "item": "nao-nao-acampar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien cómo está el mar hoy.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Agradece a alguien por su ayuda.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Encantado de conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias por la ayuda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo está el mar hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Encantado de conocerte».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias por la ayuda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo está el mar hoy?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Como está o mar hoje?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo está el mar hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Está ótimo, há ondas boas!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está genial, ¡hay buenas olas!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ótimo! Onde é que se surfa bem aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Dónde se surfea bien aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Em Ribeira d'Ilhas, é perfeito para surfar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "En Ribeira d'Ilhas, es perfecto para surfear.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda! Posso acampar aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias por la ayuda! ¿Puedo acampar aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não se pode acampar aqui, mas há um parque de campismo perto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no se puede acampar aquí, pero hay un camping cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.4,
+    "chars": 4619,
+    "cues": 150,
+    "mode": "lesson",
+    "lesson": 1
+  }
+}

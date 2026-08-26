@@ -1,0 +1,1512 @@
+{
+  "title": "Where are you from?",
+  "subtitle": "Aprender a preguntar y responder sobre el origen y la estancia",
+  "summary_es": "Conocer a alguien preguntando de dónde es.",
+  "topics": [
+    "presentarse",
+    "pregunta",
+    "present perfect",
+    "trabajo",
+    "tiempo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, where are you from?",
+      "I'm from Spain, from Madrid.",
+      "How long have you been here?",
+      "A week. I like it here.",
+      "What brings you here?",
+      "I'm here for work."
+    ],
+    "es": [
+      "Hola, ¿de dónde eres?",
+      "Soy de España, de Madrid.",
+      "¿Cuánto tiempo llevas aquí?",
+      "Una semana. Me gusta aquí.",
+      "¿Qué te trae por aquí?",
+      "Estoy aquí por trabajo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Where are you from?",
+      "es": "¿De dónde eres?"
+    },
+    {
+      "term": "How long have you been here?",
+      "es": "¿Cuánto tiempo llevas aquí?"
+    },
+    {
+      "term": "I like it here.",
+      "es": "Me gusta aquí."
+    },
+    {
+      "term": "What brings you here?",
+      "es": "¿Qué te trae por aquí?"
+    },
+    {
+      "term": "I'm from Spain, from Madrid.",
+      "es": "Soy de España, de Madrid."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 9. Where are you from?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pub en Camden, Londres, dos personas se conocen por primera vez. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, where are you from?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿de dónde eres?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A week. I like it here.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una semana. Me gusta aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm here for work.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy aquí por trabajo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre el origen y la estancia Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De dónde eres?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "from",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you from",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "are you from",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "una pregunta común para conocer a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto tiempo llevas aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "here",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "been here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "long have you been here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "usando el present perfect para preguntar sobre duración",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto tiempo llevas aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gusta aquí». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "here",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "like it here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "comentario positivo sobre el lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gusta aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué te trae por aquí?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "here",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "brings you here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre la razón de estar en un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué te trae por aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué te trae por aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy de España, de Madrid». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rid",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Madrid",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "from Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "from Spain from Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain from Madrid",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "responder sobre tu origen",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy de España, de Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es ese?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Present Perfect.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El present perfect se usa para hablar de acciones que empezaron en el pasado y continúan en el presente. Por ejemplo, 'How long have you been here?' pregunta sobre la duración de tu estancia hasta ahora.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A week.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una semana.",
+      "item": "a-week"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy de España, de Madrid».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A week.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Una semana.",
+      "item": "a-week"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una semana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A week.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una semana.",
+      "item": "a-week"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm here for work.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy aquí por trabajo.",
+      "item": "im-here-for-work"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy aquí por trabajo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm here for work.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy aquí por trabajo.",
+      "item": "im-here-for-work"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm here on holiday.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy aquí de vacaciones.",
+      "item": "im-here-on-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy aquí de vacaciones».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm here on holiday.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy aquí de vacaciones.",
+      "item": "im-here-on-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub y quieres saber de dónde es la persona a tu lado.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gusta aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué te trae por aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto tiempo llevas aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": "how-long-have-you-been-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gusta aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I like it here.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta aquí.",
+      "item": "i-like-it-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué te trae por aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, where are you from?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿de dónde eres?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How long have you been here?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto tiempo llevas aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A week. I like it here.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una semana. Me gusta aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm here for work.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy aquí por trabajo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.6,
+    "chars": 4273,
+    "cues": 161,
+    "mode": "lesson",
+    "lesson": 9
+  }
+}

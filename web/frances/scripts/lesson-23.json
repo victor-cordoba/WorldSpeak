@@ -1,0 +1,1604 @@
+{
+  "title": "Les rêves",
+  "subtitle": "Hablar de sueños y aspiraciones",
+  "summary_es": "Una lección sobre cómo expresar deseos y sueños.",
+  "topics": [
+    "sueños",
+    "aspiraciones",
+    "futuro",
+    "deseos",
+    "motivación"
+  ],
+  "dialogue": {
+    "tl": [
+      "Tu veux faire quoi plus tard ?",
+      "Mon rêve, c'est d'être artiste.",
+      "J'aimerais vivre ici, à Montmartre.",
+      "Un jour, on y arrivera.",
+      "Tu vas y arriver, j'en suis sûre."
+    ],
+    "es": [
+      "¿Qué quieres hacer más tarde?",
+      "Mi sueño es ser artista.",
+      "Me gustaría vivir aquí, en Montmartre.",
+      "Un día, lo lograremos.",
+      "Lo vas a lograr, estoy segura."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Tu veux faire quoi plus tard ?",
+      "es": "¿Qué quieres hacer más tarde?"
+    },
+    {
+      "term": "Mon rêve, c'est...",
+      "es": "Mi sueño es..."
+    },
+    {
+      "term": "J'aimerais vivre ici.",
+      "es": "Me gustaría vivir aquí."
+    },
+    {
+      "term": "Un jour...",
+      "es": "Un día..."
+    },
+    {
+      "term": "Tu vas y arriver.",
+      "es": "Lo vas a lograr."
+    },
+    {
+      "term": "J'aimerais être...",
+      "es": "Me gustaría ser..."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 23. Les rêves.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café de Montmartre, dos amigos hablan de sus sueños y aspiraciones. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est d'être artiste.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici, à Montmartre.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me gustaría vivir aquí, en Montmartre.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour, on y arrivera.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día, lo lograremos.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu vas y arriver, j'en suis sûre.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Lo vas a lograr, estoy segura.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar de sueños y aspiraciones Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, me gusta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Francia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces en la vida?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Francia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El plato del día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Día festivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué quieres hacer más tarde?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tard",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "plus tard",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quoi plus tard",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "veux faire quoi plus tard",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre aspiraciones futuras",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué quieres hacer más tarde?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué quieres hacer más tarde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi sueño es». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "c'est",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rêve c'est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve c'est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar un sueño o deseo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi sueño es»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gustaría vivir aquí». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vivre ici",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión de deseo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gustaría vivir aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gustaría vivir aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un día». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ur",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jour",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para hablar de planes futuros",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi sueño es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Lo vas a lograr». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ver",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "river",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "arriver",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vas y arriver",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para animar a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Lo vas a lograr»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Lo vas a lograr».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gustaría ser». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "être",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar un deseo personal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gustaría ser»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gustaría ser».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Eso será todo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça sera tout.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso será todo.",
+      "item": "ca-sera-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El uso de 'j'aimerais'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "La expresión 'j'aimerais' se utiliza para expresar deseos o aspiraciones. Es una forma cortés de decir 'me gustaría'. Puedes usarla para hablar de lo que te gustaría hacer o ser en el futuro.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je vais y arriver.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, lo voy a lograr.",
+      "item": "oui-je-vais-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, lo voy a lograr».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je vais y arriver.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, lo voy a lograr.",
+      "item": "oui-je-vais-y-arriver"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne vais pas y arriver.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no lo voy a lograr.",
+      "item": "non-je-ne-vais-pas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no lo voy a lograr».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne vais pas y arriver.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no lo voy a lograr.",
+      "item": "non-je-ne-vais-pas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Habla sobre un sueño que tienes para el futuro.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué quieres hacer más tarde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gustaría vivir aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Lo vas a lograr».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gustaría ser».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Eres feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu es heureux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "tu-es-heureux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, me gusta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, j'aime bien.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me gusta.",
+      "item": "oui-jaime-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Francia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces en la vida?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu fais quoi dans la vie ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces en la vida?",
+      "item": "tu-fais-quoi-dans-la-vie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me gusta Francia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El plato del día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le plat du jour",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El plato del día",
+      "item": "le-plat-du-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Día festivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Jour férié.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo.",
+      "item": "jour-ferie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué quieres hacer más tarde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": "tu-veux-faire-quoi-plus-tard"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi sueño es...",
+      "item": "mon-reve-cest"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me gustaría vivir aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría vivir aquí.",
+      "item": "jaimerais-vivre-ici"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día...",
+      "item": "un-jour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Lo vas a lograr».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu vas y arriver.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo vas a lograr.",
+      "item": "tu-vas-y-arriver"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me gustaría ser».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aimerais être...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gustaría ser...",
+      "item": "jaimerais-etre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu veux faire quoi plus tard ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué quieres hacer más tarde?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon rêve, c'est d'être artiste.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es ser artista.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "J'aimerais vivre ici, à Montmartre.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me gustaría vivir aquí, en Montmartre.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un jour, on y arrivera.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día, lo lograremos.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu vas y arriver, j'en suis sûre.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Lo vas a lograr, estoy segura.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.2,
+    "chars": 4376,
+    "cues": 171,
+    "mode": "lesson",
+    "lesson": 23
+  }
+}

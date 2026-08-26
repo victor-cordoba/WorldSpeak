@@ -1,0 +1,1492 @@
+{
+  "title": "Sonhos",
+  "subtitle": "Hablar sobre tus sueños y deseos.",
+  "summary_es": "Una conversación sobre sueños.",
+  "topics": [
+    "sueños",
+    "deseos",
+    "futuro",
+    "animo",
+    "condicional"
+  ],
+  "dialogue": {
+    "tl": [
+      "Qual é o teu sonho?",
+      "O meu sonho é viver junto ao mar.",
+      "Queria viver junto ao mar também.",
+      "Um dia vou conseguir.",
+      "Tu consegues!"
+    ],
+    "es": [
+      "¿Cuál es tu sueño?",
+      "Mi sueño es vivir junto al mar.",
+      "Quería vivir junto al mar también.",
+      "Un día lo lograré.",
+      "¡Tú puedes!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Qual é o teu sonho?",
+      "es": "¿Cuál es tu sueño?"
+    },
+    {
+      "term": "O meu sonho é viver junto ao mar.",
+      "es": "Mi sueño es vivir junto al mar."
+    },
+    {
+      "term": "Queria viver junto ao mar.",
+      "es": "Quería vivir junto al mar."
+    },
+    {
+      "term": "Um dia vou conseguir.",
+      "es": "Un día lo lograré."
+    },
+    {
+      "term": "Tu consegues!",
+      "es": "¡Tú puedes!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 23. Sonhos.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una playa de Ericeira, dos amigos hablan sobre sus sueños mientras miran el mar. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar também.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quería vivir junto al mar también.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día lo lograré.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Tú puedes!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar sobre tus sueños y deseos. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, vivo en la furgoneta.",
+      "item": "sim-vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No tengo hijos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengo hijos.",
+      "item": "nao-tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Peajes o vía verde?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es tu sueño?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ho",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sonho",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "teu sonho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é o teu sonho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar sobre sueños es una forma de conocer mejor a alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu sueño?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuál es tu sueño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi sueño es vivir junto al mar». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "junto ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "meu sonho é viver junto ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar sueños personales.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi sueño es vivir junto al mar»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quería vivir junto al mar». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "junto ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "viver junto ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del condicional para expresar deseos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quería vivir junto al mar»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quería vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un día lo lograré». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ir",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "guir",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seguir",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dia vou conseguir",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresar esperanza y determinación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día lo lograré»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un día lo lograré».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi sueño es vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Tú puedes». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "es",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gues",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "segues",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "consegues",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Animar a alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Tú puedes»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Tú puedes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del condicional 'queria'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El condicional 'queria' se utiliza para expresar deseos o situaciones hipotéticas. Es una forma educada de hablar sobre lo que nos gustaría hacer.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, o meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, mi sueño es vivir junto al mar.",
+      "item": "sim-sonho-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, mi sueño es vivir junto al mar».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, o meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, mi sueño es vivir junto al mar.",
+      "item": "sim-sonho-mar"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, o meu sonho é diferente.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, mi sueño es diferente.",
+      "item": "nao-sonho-diferente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, mi sueño es diferente».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, o meu sonho é diferente.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, mi sueño es diferente.",
+      "item": "nao-sonho-diferente"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a tu amigo cuál es su sueño.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que tu sueño es vivir junto al mar.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu sueño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quería vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día lo lograré»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Tú puedes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Sí, vivo en la furgoneta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sim, vivo na carrinha.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, vivo en la furgoneta.",
+      "item": "sim-vivo-na-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No tengo hijos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não tenho filhos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengo hijos.",
+      "item": "nao-tenho-filhos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tenho medo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo miedo.",
+      "item": "tenho-medo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Peajes o vía verde?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu sueño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "qual-teu-sonho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi sueño es vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": "meu-sonho-e"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quería vivir junto al mar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quería vivir junto al mar.",
+      "item": "queria-viver-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día lo lograré»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día lo lograré.",
+      "item": "um-dia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Tú puedes».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes!",
+      "item": "tu-consegues"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Qual é o teu sonho?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "O meu sonho é viver junto ao mar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi sueño es vivir junto al mar.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Queria viver junto ao mar também.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quería vivir junto al mar también.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Um dia vou conseguir.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Un día lo lograré.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu consegues!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Tú puedes!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.0,
+    "chars": 4423,
+    "cues": 159,
+    "mode": "lesson",
+    "lesson": 23
+  }
+}

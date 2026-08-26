@@ -1,0 +1,1613 @@
+{
+  "title": "Onde? Quem? O quê?",
+  "subtitle": "Aprender a preguntar por ubicaciones y personas.",
+  "summary_es": "Preguntar por la ubicación y la residencia.",
+  "topics": [
+    "ubicación",
+    "residencia",
+    "interrogativos",
+    "proximidad",
+    "distancia"
+  ],
+  "dialogue": {
+    "tl": [
+      "Olá! Onde fica a praia?",
+      "A praia fica ali.",
+      "Obrigado! E moras onde?",
+      "Moro em Lisboa. E tu?",
+      "Vivo na carrinha, aqui perto."
+    ],
+    "es": [
+      "¡Hola! ¿Dónde está la playa?",
+      "La playa está allí.",
+      "¡Gracias! ¿Y dónde vives?",
+      "Vivo en Lisboa. ¿Y tú?",
+      "Vivo en la furgoneta, aquí cerca."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Onde fica a praia?",
+      "es": "¿Dónde está la playa?"
+    },
+    {
+      "term": "Quem está contigo?",
+      "es": "¿Quién está contigo?"
+    },
+    {
+      "term": "O que é isto?",
+      "es": "¿Qué es esto?"
+    },
+    {
+      "term": "Aqui",
+      "es": "Aquí"
+    },
+    {
+      "term": "Ali",
+      "es": "Allí"
+    },
+    {
+      "term": "Moras onde?",
+      "es": "¿Dónde vives?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 4. Onde? Quem? O quê?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En la playa de Ericeira, un surfista pregunta a otro sobre la ubicación de la playa y su residencia. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Onde fica a praia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde está la playa?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A praia fica ali.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La playa está allí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado! E moras onde?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿Y dónde vives?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Moro em Lisboa. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en Lisboa. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha, aqui perto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en la furgoneta, aquí cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar por ubicaciones y personas. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está la playa?». Literalmente, ¿Dónde queda la playa?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "praia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fica a praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'fica' para preguntar por la ubicación exacta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la playa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién está contigo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tigo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "contigo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "está contigo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por compañía en un tono amistoso.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién está contigo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién está contigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué es esto?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "isto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "é isto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "que é isto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar sobre objetos desconocidos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué es esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Aquí». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar un lugar cercano.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién está contigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Allí». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "li",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ali"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ali"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar un lugar más lejano.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Allí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Allí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde vives?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "moras-onde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "onde",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "moras-onde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "moras-onde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma coloquial de preguntar por la residencia.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Não percebo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "nao-percebo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Onde fica vs Onde está.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usamos 'onde fica' para preguntar por la ubicación exacta de un lugar, mientras que 'onde está' se usa más para preguntar por la ubicación actual de una persona o cosa.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde vives?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "onde-vives"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Moro em Lisboa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Vivo en Lisboa.",
+      "item": "moro-em-lisboa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vivo en Lisboa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Moro em Lisboa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vivo en Lisboa.",
+      "item": "moro-em-lisboa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É perto.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está cerca.",
+      "item": "perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está cerca».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É perto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está cerca.",
+      "item": "perto"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É longe.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está lejos.",
+      "item": "longe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está lejos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "É longe.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está lejos.",
+      "item": "longe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien dónde está la playa.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a una persona dónde vive.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién está contigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Allí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde se surfea bien aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuándo hay mejores olas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quando é que há melhores ondas?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuándo hay mejores olas?",
+      "item": "quando-melhor-ondas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias por la ayuda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado pela ajuda!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias por la ayuda!",
+      "item": "obrigado-ajuda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde fica a praia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la playa?",
+      "item": "onde-fica-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién está contigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quem está contigo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "quem-esta-contigo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Aqui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Aquí",
+      "item": "aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Allí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moras onde?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "moras-onde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! Onde fica a praia?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde está la playa?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A praia fica ali.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La playa está allí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Obrigado! E moras onde?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias! ¿Y dónde vives?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Moro em Lisboa. E tu?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en Lisboa. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vivo na carrinha, aqui perto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en la furgoneta, aquí cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.4,
+    "chars": 3953,
+    "cues": 172,
+    "mode": "lesson",
+    "lesson": 4
+  }
+}

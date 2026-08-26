@@ -1,0 +1,2019 @@
+{
+  "title": "Ordering at the Pub",
+  "subtitle": "Aprenderás a pedir bebidas y preguntar precios en un pub.",
+  "summary_es": "Pedir bebidas y entender precios.",
+  "topics": [
+    "pedir",
+    "precios",
+    "cortesía",
+    "pub",
+    "bebidas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, what can I get you?",
+      "A pint, please.",
+      "Sure, anything else?",
+      "No, that's all. How much is it?",
+      "It's 5 pounds.",
+      "Here's your change."
+    ],
+    "es": [
+      "Hola, ¿qué te pongo?",
+      "Una pinta, por favor.",
+      "Claro, ¿algo más?",
+      "No, eso es todo. ¿Cuánto cuesta?",
+      "Son 5 libras.",
+      "Aquí tienes tu cambio."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "How much is it?",
+      "es": "¿Cuánto cuesta?"
+    },
+    {
+      "term": "A pint, please.",
+      "es": "Una pinta, por favor."
+    },
+    {
+      "term": "A half, please.",
+      "es": "Media pinta, por favor."
+    },
+    {
+      "term": "A coffee, please.",
+      "es": "Un café, por favor."
+    },
+    {
+      "term": "A tea with milk, please.",
+      "es": "Un té con leche, por favor."
+    },
+    {
+      "term": "The bill, please.",
+      "es": "La cuenta, por favor."
+    },
+    {
+      "term": "Can I pay?",
+      "es": "¿Puedo pagar?"
+    },
+    {
+      "term": "Card or cash?",
+      "es": "¿Tarjeta o efectivo?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 6. Ordering at the Pub.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub en Camden, Londres, y decides pedir algo de beber. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, what can I get you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué te pongo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una pinta, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure, anything else?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, ¿algo más?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, that's all. How much is it?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, eso es todo. ¿Cuánto cuesta?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's 5 pounds.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son 5 libras.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Here's your change.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Aquí tienes tu cambio.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a pedir bebidas y preguntar precios en un pub. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas español?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta?». Literalmente, ¿Cuánto es?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "much is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar precios en tiendas o bares.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "La cerveza se pide por pintas: a pint. Media es a half. Y si alguien dice it's my round, invita a toda la mesa: la ronda es sagrada.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una pinta, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pint please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cortesía al pedir una bebida en un pub.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una pinta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Media pinta, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "half please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir una media pinta en un pub.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Media pinta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Media pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un café, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "coffee please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cortesía al pedir café.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un té con leche, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tea with milk please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Común en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un té con leche, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un té con leche, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La cuenta, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bill please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir la cuenta en un restaurante o pub.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedo pagar?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pay",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I pay",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar si es posible pagar ahora.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo pagar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedo pagar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tarjeta o efectivo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cash",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "or cash",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar la forma de pago preferida.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tarjeta o efectivo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tarjeta o efectivo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es ese?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who is that?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es ese?",
+      "item": "who-is-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pedir en el pub.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir algo en un pub, usa 'I'd like' o simplemente el objeto con 'please'. Por ejemplo, 'A pint, please.' es muy común y cortés.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's 5 pounds.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Son 5 libras.",
+      "item": "its-5-pounds"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Son 5 libras».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's 5 pounds.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Son 5 libras.",
+      "item": "its-5-pounds"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Here's your change.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Aquí tienes tu cambio.",
+      "item": "heres-your-change"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Aquí tienes tu cambio».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Here's your change.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Aquí tienes tu cambio.",
+      "item": "heres-your-change"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub y quieres pedir una media pinta.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Media pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un té con leche, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedo pagar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tarjeta o efectivo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas español?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Media pinta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A half, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Media pinta, por favor.",
+      "item": "a-half-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un té con leche, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A tea with milk, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un té con leche, por favor.",
+      "item": "a-tea-with-milk-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La cuenta, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The bill, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "the-bill-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedo pagar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I pay?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo pagar?",
+      "item": "can-i-pay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tarjeta o efectivo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Card or cash?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tarjeta o efectivo?",
+      "item": "card-or-cash"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, what can I get you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué te pongo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una pinta, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure, anything else?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, ¿algo más?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, that's all. How much is it?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, eso es todo. ¿Cuánto cuesta?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's 5 pounds.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son 5 libras.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Here's your change.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Aquí tienes tu cambio.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.1,
+    "chars": 5159,
+    "cues": 216,
+    "mode": "lesson",
+    "lesson": 6
+  }
+}

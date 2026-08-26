@@ -1,0 +1,1660 @@
+{
+  "title": "Is it open? Understanding Opening Hours",
+  "subtitle": "Aprenderás a preguntar y entender horarios de apertura.",
+  "summary_es": "Una frase",
+  "topics": [
+    "horarios",
+    "preguntar",
+    "responder",
+    "tiempo",
+    "comida"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi there! Can I help you?",
+      "Yes, is the café open on Sundays?",
+      "Yes, it's open from 9 AM to 5 PM.",
+      "Great! And what about bank holidays?",
+      "It's closed for refurbishment on bank holidays.",
+      "Thanks for the information!"
+    ],
+    "es": [
+      "¡Hola! ¿Puedo ayudarte?",
+      "Sí, ¿el café está abierto los domingos?",
+      "Sí, está abierto de 9 AM a 5 PM.",
+      "¡Genial! ¿Y qué pasa con los días festivos?",
+      "Está cerrado por reformas en días festivos.",
+      "¡Gracias por la información!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Is it open on Sundays?",
+      "es": "¿Está abierto los domingos?"
+    },
+    {
+      "term": "Bank holiday",
+      "es": "Día festivo"
+    },
+    {
+      "term": "It's closed for refurbishment.",
+      "es": "Está cerrado por reformas."
+    },
+    {
+      "term": "Can I book a table?",
+      "es": "¿Puedo reservar una mesa?"
+    },
+    {
+      "term": "Opening hours",
+      "es": "Horario de apertura"
+    },
+    {
+      "term": "Half day closing",
+      "es": "Cierre de medio día"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 18. Is it open? Understanding Opening Hours.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un día soleado en Camden, un visitante pregunta por los horarios de un café local. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hi there! Can I help you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Puedo ayudarte?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, is the café open on Sundays?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¿el café está abierto los domingos?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's open from 9 AM to 5 PM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto de 9 AM a 5 PM.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Great! And what about bank holidays?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Y qué pasa con los días festivos?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's closed for refurbishment on bank holidays.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está cerrado por reformas en días festivos.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thanks for the information!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias por la información!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar y entender horarios de apertura. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Cierra a las».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It closes at...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra a las...",
+      "item": "it-closes-at"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo ayudarte?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres encantador/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Está abierto los domingos?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "days",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sundays",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on Sundays",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it open on Sundays",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común sobre horarios de apertura.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto los domingos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Está abierto los domingos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Día festivo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "day",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "liday",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "holiday",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Día festivo en el Reino Unido cuando los bancos están cerrados.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Día festivo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Día festivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está cerrado por reformas». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bishment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "furbishment",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "closed for refurbishment",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Explicación común para cierres temporales.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está cerrado por reformas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Está cerrado por reformas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Puedo reservar una mesa?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "le",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "table",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a table",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I book a table",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para hacer reservas en restaurantes.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo reservar una mesa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Puedo reservar una mesa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Día festivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Horario de apertura». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "urs",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opening-hours"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hours",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opening-hours"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opening-hours"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Información sobre cuándo un lugar está abierto.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Horario de apertura»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Horario de apertura».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Cierre de medio día». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sing",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "closing",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Días en que las tiendas cierran antes.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Cierre de medio día»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cierre de medio día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedo reservar una mesa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy profesor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por horarios.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar por horarios, usamos 'Is it open?' seguido del día o evento específico. Responda con 'Yes, it's open.' o 'No, it's closed.'",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está abierto».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's open.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está abierto.",
+      "item": "yes-its-open"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, it's closed.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, está cerrado.",
+      "item": "no-its-closed"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, está cerrado».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, it's closed.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, está cerrado.",
+      "item": "no-its-closed"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un museo y quieres saber si está abierto el domingo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto los domingos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Día festivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Está cerrado por reformas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo reservar una mesa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Horario de apertura».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cierre de medio día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Está abierto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto?",
+      "item": "is-it-open"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Cierra a las».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It closes at...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierra a las...",
+      "item": "it-closes-at"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdona, disculpa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just a moment.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "just-a-moment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo ayudarte?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eres encantador/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You're lovely.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eres encantador/a.",
+      "item": "youre-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Está abierto los domingos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Is it open on Sundays?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto los domingos?",
+      "item": "is-it-open-on-sundays"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Día festivo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bank holiday",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Día festivo",
+      "item": "bank-holiday"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Está cerrado por reformas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's closed for refurbishment.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Está cerrado por reformas.",
+      "item": "its-closed-for-refurbishment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo reservar una mesa?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I book a table?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo reservar una mesa?",
+      "item": "can-i-book-a-table"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Horario de apertura».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opening hours",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Horario de apertura",
+      "item": "opening-hours"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Cierre de medio día».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Half day closing",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cierre de medio día",
+      "item": "half-day-closing"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hi there! Can I help you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Puedo ayudarte?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, is the café open on Sundays?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, ¿el café está abierto los domingos?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it's open from 9 AM to 5 PM.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está abierto de 9 AM a 5 PM.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Great! And what about bank holidays?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Y qué pasa con los días festivos?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's closed for refurbishment on bank holidays.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está cerrado por reformas en días festivos.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thanks for the information!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Gracias por la información!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.9,
+    "chars": 4734,
+    "cues": 177,
+    "mode": "lesson",
+    "lesson": 18
+  }
+}

@@ -1,0 +1,1875 @@
+{
+  "title": "Combustível e Avarias",
+  "subtitle": "Aprender a manejar situaciones en gasolineras y averías.",
+  "summary_es": "Una lección sobre repostar y solucionar problemas mecánicos.",
+  "topics": [
+    "gasolinera",
+    "avería",
+    "mecánico",
+    "furgoneta",
+    "portugues"
+  ],
+  "dialogue": {
+    "tl": [
+      "Onde há uma bomba de gasolina?",
+      "Ali em frente.",
+      "Gasóleo ou gasolina?",
+      "Sim, gasóleo.",
+      "Cheio, por favor.",
+      "A carrinha não pega.",
+      "Preciso de um mecânico.",
+      "Não, não há mecânico perto."
+    ],
+    "es": [
+      "¿Dónde hay una gasolinera?",
+      "Allí enfrente.",
+      "¿Gasóleo o gasolina?",
+      "Sí, gasóleo.",
+      "Lleno, por favor.",
+      "La furgoneta no arranca.",
+      "Necesito un mecánico.",
+      "No, no hay mecánico cerca."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Onde há uma bomba de gasolina?",
+      "es": "¿Dónde hay una gasolinera?"
+    },
+    {
+      "term": "Gasóleo ou gasolina?",
+      "es": "¿Gasóleo o gasolina?"
+    },
+    {
+      "term": "Cheio, por favor.",
+      "es": "Lleno, por favor."
+    },
+    {
+      "term": "Furou um pneu.",
+      "es": "Se ha pinchado un neumático."
+    },
+    {
+      "term": "Preciso de um mecânico.",
+      "es": "Necesito un mecánico."
+    },
+    {
+      "term": "A carrinha não pega.",
+      "es": "La furgoneta no arranca."
+    },
+    {
+      "term": "Portagens ou via verde?",
+      "es": "¿Peajes o vía verde?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 19. Combustível e Avarias.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una gasolinera cerca de Ericeira, un surfista necesita repostar y solucionar un problema con su furgoneta. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ali em frente.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Allí enfrente.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gasóleo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, gasóleo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Lleno, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La furgoneta no arranca.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Necesito un mecánico.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não há mecânico perto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no hay mecánico cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a manejar situaciones en gasolineras y averías. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo aparcar la furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo vaciar / llenar agua?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Es seguro dormir aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Desculpe",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone",
+      "item": "desculpe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde hay una gasolinera?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "solina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "há uma bomba de gasolina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para encontrar gasolineras en Portugal.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde hay una gasolinera?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde hay una gasolinera?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Gasóleo o gasolina?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "solina",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ou gasolina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común al repostar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Gasóleo o gasolina?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Gasóleo o gasolina?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Lleno, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir llenar el depósito.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Lleno, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Lleno, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Se ha pinchado un neumático». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pneu",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um pneu",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para informar de un pinchazo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Se ha pinchado un neumático»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Se ha pinchado un neumático».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Gasóleo o gasolina?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Necesito un mecánico». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "co",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ânico",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mecânico",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de um mecânico",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil en caso de avería.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito un mecánico»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito un mecánico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La furgoneta no arranca». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ga",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pega",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "não pega",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "carrinha não pega",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar problemas al arrancar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La furgoneta no arranca»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La furgoneta no arranca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Se ha pinchado un neumático».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Peajes o vía verde?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "verde",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "via verde",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ou via verde",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar sobre el sistema de peajes.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Peajes o vía verde?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Peajes o vía verde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que é isto?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es esto?",
+      "item": "o-que-isto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'precisar de'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, 'precisar de' se usa para expresar necesidad. Siempre va seguido de un sustantivo o un infinitivo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gasóleo.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, gasóleo.",
+      "item": "sim-gasoleo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, gasóleo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gasóleo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, gasóleo.",
+      "item": "sim-gasoleo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gasolina.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, gasolina.",
+      "item": "sim-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, gasolina».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gasolina.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, gasolina.",
+      "item": "sim-gasolina"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não há mecânico perto.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no hay mecánico cerca.",
+      "item": "nao-mecanico-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no hay mecánico cerca».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não há mecânico perto.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no hay mecánico cerca.",
+      "item": "nao-mecanico-perto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una gasolinera y necesitas llenar el depósito de tu furgoneta.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Tu furgoneta no arranca y necesitas ayuda.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde hay una gasolinera?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Gasóleo o gasolina?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Lleno, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Se ha pinchado un neumático»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un mecánico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La furgoneta no arranca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Peajes o vía verde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo aparcar la furgoneta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso estacionar a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo aparcar la furgoneta?",
+      "item": "onde-posso-estacionar-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay un buen sitio para dormir con la furgoneta?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há um bom sítio para dormir com a carrinha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Hay un buen sitio para dormir con la furgoneta?",
+      "item": "ha-bom-sitio-dormir-carrinha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo vaciar / llenar agua?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso despejar / encher água?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo vaciar / llenar agua?",
+      "item": "onde-despejar-encher-agua"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Es seguro dormir aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "É seguro dormir aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Es seguro dormir aquí?",
+      "item": "e-seguro-dormir-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo está el mar hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como está o mar hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo está el mar hoy?",
+      "item": "como-esta-o-mar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Desculpe",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone",
+      "item": "desculpe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde hay una gasolinera?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": "onde-bomba-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Gasóleo o gasolina?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": "gasoleo-gasolina"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Lleno, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lleno, por favor.",
+      "item": "cheio-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Se ha pinchado un neumático»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Furou um pneu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Se ha pinchado un neumático.",
+      "item": "furou-pneu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un mecánico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un mecánico.",
+      "item": "preciso-mecanico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La furgoneta no arranca».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La furgoneta no arranca.",
+      "item": "carrinha-nao-pega"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Peajes o vía verde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Portagens ou via verde?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Peajes o vía verde?",
+      "item": "portagens-via-verde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há uma bomba de gasolina?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde hay una gasolinera?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ali em frente.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Allí enfrente.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gasóleo ou gasolina?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Gasóleo o gasolina?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, gasóleo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, gasóleo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheio, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Lleno, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A carrinha não pega.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La furgoneta no arranca.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Preciso de um mecânico.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Necesito un mecánico.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não há mecânico perto.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no hay mecánico cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.9,
+    "chars": 5400,
+    "cues": 200,
+    "mode": "lesson",
+    "lesson": 19
+  }
+}

@@ -1,0 +1,2026 @@
+{
+  "title": "Les verbes : le moteur",
+  "subtitle": "Aprender a usar los verbos para expresar acciones y deseos.",
+  "summary_es": "Una lección sobre el uso de verbos modales y de acción.",
+  "topics": [
+    "verbo",
+    "modal",
+    "acción",
+    "futuro",
+    "cortesia"
+  ],
+  "dialogue": {
+    "tl": [
+      "On fait quoi après ?",
+      "Je peux aller au musée, et toi ?",
+      "Moi, je vais faire une balade.",
+      "Tu voudrais venir avec nous ?",
+      "Oui, je peux. Ça marche !"
+    ],
+    "es": [
+      "¿Qué hacemos después?",
+      "Puedo ir al museo, ¿y tú?",
+      "Yo, voy a dar un paseo.",
+      "¿Te gustaría venir con nosotros?",
+      "Sí, puedo. ¡Está bien!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Je peux aller...",
+      "es": "Puedo ir..."
+    },
+    {
+      "term": "Tu peux faire...",
+      "es": "Puedes hacer..."
+    },
+    {
+      "term": "On fait quoi ?",
+      "es": "¿Qué hacemos?"
+    },
+    {
+      "term": "Je vais faire...",
+      "es": "Voy a hacer..."
+    },
+    {
+      "term": "Je prends...",
+      "es": "Tomo..."
+    },
+    {
+      "term": "Tu voudrais...",
+      "es": "Te gustaría..."
+    },
+    {
+      "term": "Je peux prendre...",
+      "es": "Puedo tomar..."
+    },
+    {
+      "term": "On peut aller...",
+      "es": "Podemos ir..."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 30. Les verbes : le moteur.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café en el barrio de Montmartre, un grupo de amigos decide qué hacer después de tomar algo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi après ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué hacemos después?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je peux aller au musée, et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Puedo ir al museo, ¿y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi, je vais faire une balade.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo, voy a dar un paseo.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu voudrais venir avec nous ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gustaría venir con nosotros?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, je peux. Ça marche !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedo. ¡Está bien!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a usar los verbos para expresar acciones y deseos. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se va a...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿La próxima parada es Châtelet?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Puedo ir». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ler",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aller",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "peux aller",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión para indicar capacidad de ir a un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Puedo ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Puedo ir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Puedes hacer». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "faire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "peux faire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la capacidad de realizar una acción",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Puedes hacer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Puedes hacer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué hacemos?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "oi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quoi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fait quoi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para decidir actividades",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué hacemos?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué hacemos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Voy a hacer». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "re",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "faire",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vais faire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar intención de hacer algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a hacer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy a hacer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Puedes hacer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tomo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prends",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-prends"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-prends"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para pedir o tomar algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tomo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tomo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Te gustaría». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "udrais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "voudrais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma cortés para ofrecer o preguntar deseos",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Te gustaría»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Te gustaría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Voy a hacer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Puedo tomar». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prendre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "peux prendre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la posibilidad de tomar algo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Puedo tomar»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Puedo tomar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Podemos ir». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ler",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aller",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "peut aller",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sugerencia para ir a un lugar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Podemos ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Podemos ir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Te gustaría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je suis...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "je-suis"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de verbos modales.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Los verbos modales como 'pouvoir' y 'vouloir' son esenciales para expresar capacidad y deseo. Usamos 'je peux' para decir que podemos hacer algo y 'je voudrais' para expresar lo que nos gustaría hacer. 'On' se usa en lugar de 'nous' para hablar de acciones colectivas.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je peux.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, puedo.",
+      "item": "oui-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, puedo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je peux.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, puedo.",
+      "item": "oui-je-peux"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne peux pas.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no puedo.",
+      "item": "non-je-ne-peux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no puedo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne peux pas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no puedo.",
+      "item": "non-je-ne-peux-pas"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je voudrais.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me gustaría.",
+      "item": "oui-je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me gustaría».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je voudrais.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me gustaría.",
+      "item": "oui-je-voudrais"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne voudrais pas.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no me gustaría.",
+      "item": "non-je-ne-voudrais-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no me gustaría».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne voudrais pas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no me gustaría.",
+      "item": "non-je-ne-voudrais-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café y quieres saber qué quieren hacer tus amigos después.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Puedo ir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Puedes hacer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué hacemos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a hacer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tomo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Te gustaría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Puedo tomar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Podemos ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se va a...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿La próxima parada es Châtelet?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le prochain arrêt, c'est Châtelet ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿La próxima parada es Châtelet?",
+      "item": "le-prochain-arret"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Puedo ir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo ir...",
+      "item": "je-peux-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Puedes hacer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedes hacer...",
+      "item": "tu-peux-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué hacemos?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué hacemos?",
+      "item": "on-fait-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a hacer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais faire...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a hacer...",
+      "item": "je-vais-faire"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tomo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je prends...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tomo...",
+      "item": "je-prends"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Te gustaría».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te gustaría...",
+      "item": "tu-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Puedo tomar».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je peux prendre...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Puedo tomar...",
+      "item": "je-peux-prendre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Podemos ir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut aller...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Podemos ir...",
+      "item": "on-peut-aller"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On fait quoi après ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Qué hacemos después?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je peux aller au musée, et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Puedo ir al museo, ¿y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Moi, je vais faire une balade.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo, voy a dar un paseo.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tu voudrais venir avec nous ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te gustaría venir con nosotros?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, je peux. Ça marche !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, puedo. ¡Está bien!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.6,
+    "chars": 4900,
+    "cues": 217,
+    "mode": "lesson",
+    "lesson": 30
+  }
+}

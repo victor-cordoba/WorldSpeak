@@ -1,0 +1,1946 @@
+{
+  "title": "Je voudrais… Je vais à…",
+  "subtitle": "Aprender a pedir y preguntar direcciones.",
+  "summary_es": "Una lección sobre cómo expresar deseos y preguntar direcciones.",
+  "topics": [
+    "cortesia",
+    "moverse",
+    "preguntar",
+    "direcciones"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour ! Je voudrais une baguette, s'il vous plaît.",
+      "Et toi, tu veux quelque chose ?",
+      "Oui, je veux un pain au chocolat !",
+      "D'accord, on y va !",
+      "Comment on va à la Seine après ?",
+      "On prend la rue à droite, c'est près."
+    ],
+    "es": [
+      "¡Hola! Quisiera una baguette, por favor.",
+      "¿Y tú, quieres algo?",
+      "¡Sí, quiero un pan de chocolate!",
+      "De acuerdo, ¡vamos!",
+      "¿Cómo se va a la Seine después?",
+      "Tomamos la calle a la derecha, está cerca."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Je voudrais...",
+      "es": "Quisiera..."
+    },
+    {
+      "term": "Je veux...",
+      "es": "Quiero..."
+    },
+    {
+      "term": "Tu veux ?",
+      "es": "¿Quieres?"
+    },
+    {
+      "term": "Je ne veux pas.",
+      "es": "No quiero."
+    },
+    {
+      "term": "Je vais à...",
+      "es": "Voy a..."
+    },
+    {
+      "term": "On y va !",
+      "es": "¡Vamos!"
+    },
+    {
+      "term": "Comment on va à...?",
+      "es": "¿Cómo se va a...?"
+    },
+    {
+      "term": "Où est-ce que je peux...?",
+      "es": "¿Dónde puedo...?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 5. Je voudrais… Je vais à….",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una boulangerie en Montmartre, un niño y su madre eligen qué comprar. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour ! Je voudrais une baguette, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Quisiera una baguette, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi, tu veux quelque chose ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tú, quieres algo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je veux un pain au chocolat !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Sí, quiero un pan de chocolate!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "D'accord, on y va !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo, ¡vamos!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à la Seine après ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo se va a la Seine después?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "On prend la rue à droite, c'est près.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tomamos la calle a la derecha, está cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a pedir y preguntar direcciones. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Está cerca / lejos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, está cerca»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está cerca.",
+      "item": "oui-cest-pres"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tu nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En mi casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quisiera». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "udrais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "voudrais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usado para pedir educadamente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quisiera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "veux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Más directo que 'je voudrais'",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quieres?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "veux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para ofrecer algo a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No quiero». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pas",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "veux pas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ne veux pas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Negación en presente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Voy a». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vais à",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar destino",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "va",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "on-y-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "y va",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-y-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "on-y-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión para animar a irse",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se va a...?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "va à",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on va à",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar direcciones",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se va a...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo...?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "peux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "je peux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "est-ce que je peux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar por un lugar o acción",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mi nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mon nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi nombre es...",
+      "item": "mon-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usos de 'on' en francés.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés oral, 'on' se usa en lugar de 'nous' para hablar de 'nosotros'. Es más informal y común en la conversación diaria.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je veux.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, quiero.",
+      "item": "oui-je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, quiero».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je veux.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, quiero.",
+      "item": "oui-je-veux"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no quiero.",
+      "item": "non-je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no quiero».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne veux pas.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no quiero.",
+      "item": "non-je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una boulangerie y quieres pedir una baguette.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Voy a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Está cerca / lejos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, está cerca»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, está cerca.",
+      "item": "oui-cest-pres"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tu nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «En mi casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En mi casa.",
+      "item": "chez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je voudrais...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quisiera...",
+      "item": "je-voudrais"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu veux ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quieres?",
+      "item": "tu-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne veux pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No quiero.",
+      "item": "je-ne-veux-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Voy a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Voy a...",
+      "item": "je-vais-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On y va !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "on-y-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est-ce que je peux...?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo...?",
+      "item": "ou-est-ce-que-je-peux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour ! Je voudrais une baguette, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Quisiera una baguette, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Et toi, tu veux quelque chose ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tú, quieres algo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je veux un pain au chocolat !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Sí, quiero un pan de chocolate!",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "D'accord, on y va !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo, ¡vamos!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à la Seine après ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo se va a la Seine después?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "On prend la rue à droite, c'est près.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tomamos la calle a la derecha, está cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.6,
+    "chars": 4360,
+    "cues": 208,
+    "mode": "lesson",
+    "lesson": 5
+  }
+}

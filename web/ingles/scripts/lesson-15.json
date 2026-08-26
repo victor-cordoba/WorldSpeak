@@ -1,0 +1,1474 @@
+{
+  "title": "The pub, like a local",
+  "subtitle": "Aprende a pedir en un pub británico y participar en actividades sociales.",
+  "summary_es": "Una noche en el pub.",
+  "topics": [
+    "pub",
+    "rondas",
+    "cerveza",
+    "social",
+    "comida"
+  ],
+  "dialogue": {
+    "tl": [
+      "Whose round is it?",
+      "It's my round. A pint of bitter, please.",
+      "Same again, please.",
+      "Do you fancy a Sunday roast tomorrow?",
+      "Brilliant! Is there a pub quiz tonight?"
+    ],
+    "es": [
+      "¿De quién es la ronda?",
+      "Es mi ronda. Una pinta de bitter, por favor.",
+      "Lo mismo otra vez, por favor.",
+      "¿Te apetece un asado de domingo mañana?",
+      "¡Genial! ¿Hay un concurso de pub esta noche?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "A pint of bitter, please.",
+      "es": "Una pinta de bitter, por favor."
+    },
+    {
+      "term": "Same again, please.",
+      "es": "Lo mismo otra vez, por favor."
+    },
+    {
+      "term": "Whose round is it?",
+      "es": "¿De quién es la ronda?"
+    },
+    {
+      "term": "It's my round.",
+      "es": "Es mi ronda."
+    },
+    {
+      "term": "Do you fancy a Sunday roast?",
+      "es": "¿Te apetece un asado de domingo?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 15. The pub, like a local.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub tradicional británico en Camden, disfrutando de una noche con amigos. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿De quién es la ronda?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's my round. A pint of bitter, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es mi ronda. Una pinta de bitter, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast tomorrow?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te apetece un asado de domingo mañana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! Is there a pub quiz tonight?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Hay un concurso de pub esta noche?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a pedir en un pub británico y participar en actividades sociales. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una pinta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial! / ¡Encantador»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta el fútbol?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "La cerveza se pide por pintas: a pint. Media es a half. Y si alguien dice it's my round, invita a toda la mesa: la ronda es sagrada.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una pinta de bitter, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pint of bitter please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Bitter es un tipo de cerveza británica.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una pinta de bitter, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una pinta de bitter, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Lo mismo otra vez, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "again please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa para pedir otra ronda de lo mismo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Lo mismo otra vez, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Lo mismo otra vez, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De quién es la ronda?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "round is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común en pubs para saber quién paga la siguiente ronda.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De quién es la ronda?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De quién es la ronda?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es mi ronda». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "und",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-my-round"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "round",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-my-round"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "my round",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-my-round"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-my-round"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ofrecimiento para pagar la siguiente ronda.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Es mi ronda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Es mi ronda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Lo mismo otra vez, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te apetece un asado de domingo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ast",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "roast",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sunday roast",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you fancy a Sunday roast",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Comida tradicional británica los domingos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te apetece un asado de domingo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te apetece un asado de domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Podrías repetirlo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Could you say that again?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Podrías repetirlo?",
+      "item": "could-you-say-that-again"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Cultura de pub.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En los pubs británicos, es común comprar rondas de bebidas para el grupo. Preguntar 'Whose round is it?' es una forma de organizar quién paga la siguiente ronda. 'Last orders' se anuncia antes de cerrar para que los clientes hagan sus últimos pedidos.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Last orders, please!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¡Últimos pedidos, por favor!",
+      "item": "last-orders"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Últimos pedidos, por favor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Last orders, please!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Últimos pedidos, por favor!",
+      "item": "last-orders"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is there a pub quiz tonight?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Hay un concurso de pub esta noche?",
+      "item": "pub-quiz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hay un concurso de pub esta noche?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Is there a pub quiz tonight?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hay un concurso de pub esta noche?",
+      "item": "pub-quiz"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub y es tu turno de pagar. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una pinta de bitter, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Lo mismo otra vez, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿De quién es la ronda?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Es mi ronda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te apetece un asado de domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una pinta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una pinta, por favor.",
+      "item": "a-pint-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial! / ¡Encantador»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! / Lovely!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial! / ¡Encantador!",
+      "item": "brilliant-lovely"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gusta el fútbol?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Por qué?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Why?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Por qué?",
+      "item": "why"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una pinta de bitter, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A pint of bitter, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una pinta de bitter, por favor.",
+      "item": "a-pint-of-bitter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Lo mismo otra vez, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": "same-again-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿De quién es la ronda?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De quién es la ronda?",
+      "item": "whose-round-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Es mi ronda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's my round.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es mi ronda.",
+      "item": "its-my-round"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te apetece un asado de domingo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te apetece un asado de domingo?",
+      "item": "sunday-roast"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Whose round is it?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿De quién es la ronda?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's my round. A pint of bitter, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Es mi ronda. Una pinta de bitter, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Same again, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Lo mismo otra vez, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Do you fancy a Sunday roast tomorrow?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te apetece un asado de domingo mañana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brilliant! Is there a pub quiz tonight?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! ¿Hay un concurso de pub esta noche?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.0,
+    "chars": 4603,
+    "cues": 157,
+    "mode": "lesson",
+    "lesson": 15
+  }
+}

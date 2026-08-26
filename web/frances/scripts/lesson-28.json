@@ -1,0 +1,1799 @@
+{
+  "title": "Chez le médecin et à la pharmacie",
+  "subtitle": "Aprenderás a expresar dolores y buscar ayuda médica.",
+  "summary_es": "Una lección sobre salud y farmacias.",
+  "topics": [
+    "salud",
+    "dolor",
+    "farmacia",
+    "médico",
+    "urgencias"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, Madame. Vous avez besoin d'aide ?",
+      "Oui, j'ai mal à la tête.",
+      "Je comprends. Avez-vous une ordonnance ?",
+      "Non, je n'ai pas d'ordonnance.",
+      "Pas de souci, je vais vous donner quelque chose.",
+      "Merci beaucoup !"
+    ],
+    "es": [
+      "Buenos días, señora. ¿Necesita ayuda?",
+      "Sí, me duele la cabeza.",
+      "Entiendo. ¿Tiene una receta médica?",
+      "No, no tengo receta.",
+      "No hay problema, le daré algo.",
+      "¡Muchas gracias!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "J'ai mal à la tête.",
+      "es": "Me duele la cabeza."
+    },
+    {
+      "term": "J'ai mal au ventre.",
+      "es": "Me duele el estómago."
+    },
+    {
+      "term": "La pharmacie",
+      "es": "La farmacia"
+    },
+    {
+      "term": "Une ordonnance",
+      "es": "Una receta médica"
+    },
+    {
+      "term": "Le médecin traitant",
+      "es": "El médico de cabecera"
+    },
+    {
+      "term": "Les urgences",
+      "es": "Las urgencias"
+    },
+    {
+      "term": "Je vais mieux.",
+      "es": "Mejoro."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 28. Chez le médecin et à la pharmacie.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una farmacia en París, buscando alivio para un dolor de cabeza. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Madame. Vous avez besoin d'aide ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señora. ¿Necesita ayuda?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Oui, j'ai mal à la tête.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me duele la cabeza.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je comprends. Avez-vous une ordonnance ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Entiendo. ¿Tiene una receta médica?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Non, je n'ai pas d'ordonnance.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no tengo receta.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pas de souci, je vais vous donner quelque chose.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No hay problema, le daré algo.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Merci beaucoup !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a expresar dolores y buscar ayuda médica. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je me sens mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "je-me-sens-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai besoin d'un médecin.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un médico.",
+      "item": "jai-besoin-dun-medecin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde están las urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où sont les urgences ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde están las urgencias?",
+      "item": "ou-sont-les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Podemos entrar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut entrer ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "on-peut-entrer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me duele la cabeza». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tête",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la tête",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à la tête",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mal à la tête",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'avoir mal à' para expresar dolor en una parte del cuerpo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me duele la cabeza»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me duele el estómago». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ventre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "au ventre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mal au ventre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Indica dolor en el estómago.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me duele el estómago»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele el estómago».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La farmacia». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "macie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pharmacie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lugar donde se compran medicamentos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La farmacia»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La farmacia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una receta médica». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "donnance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ordonnance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Documento del médico para obtener medicamentos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una receta médica»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una receta médica».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me duele el estómago».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El médico de cabecera». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tant",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "itant",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "traitant",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Médico principal que atiende regularmente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El médico de cabecera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El médico de cabecera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Las urgencias». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ces",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "les-urgences"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gences",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "les-urgences"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "urgences",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "les-urgences"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "les-urgences"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Servicio médico para emergencias.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Las urgencias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Las urgencias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una receta médica».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mejoro». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "eux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mieux",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vais mieux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar que tu salud está mejorando.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mejoro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mejoro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Envíame un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Envoie-moi un message.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Envíame un mensaje.",
+      "item": "envoie-moi-un-message"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresiones con 'avoir mal à'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, para expresar que te duele una parte del cuerpo, se usa 'avoir mal à' seguido de la parte del cuerpo. Por ejemplo, 'J'ai mal à la tête' significa 'Me duele la cabeza'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Où est la pharmacie ?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "ou-est-la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está la farmacia?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Où est la pharmacie ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "ou-est-la-pharmacie"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je vais bien.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy bien.",
+      "item": "oui-je-vais-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, je vais bien.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, estoy bien.",
+      "item": "oui-je-vais-bien"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne vais pas bien.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no estoy bien.",
+      "item": "non-je-ne-vais-pas-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no estoy bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, je ne vais pas bien.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no estoy bien.",
+      "item": "non-je-ne-vais-pas-bien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una farmacia y necesitas algo para el dolor de cabeza.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est la pharmacie ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "ou-est-la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele el estómago».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La farmacia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una receta médica»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El médico de cabecera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Las urgencias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mejoro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me siento mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je me sens mal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me siento mal.",
+      "item": "je-me-sens-mal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito un médico».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai besoin d'un médecin.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito un médico.",
+      "item": "jai-besoin-dun-medecin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde están las urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où sont les urgences ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde están las urgencias?",
+      "item": "ou-sont-les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Podemos entrar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "On peut entrer ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Podemos entrar?",
+      "item": "on-peut-entrer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal à la tête.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "jai-mal-a-la-tete"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele el estómago».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «La farmacia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La pharmacie",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La farmacia",
+      "item": "la-pharmacie"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una receta médica»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Une ordonnance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una receta médica",
+      "item": "une-ordonnance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «El médico de cabecera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Las urgencias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Les urgences",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Las urgencias",
+      "item": "les-urgences"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Mejoro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je vais mieux.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mejoro.",
+      "item": "je-vais-mieux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Madame. Vous avez besoin d'aide ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señora. ¿Necesita ayuda?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Oui, j'ai mal à la tête.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me duele la cabeza.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Je comprends. Avez-vous une ordonnance ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Entiendo. ¿Tiene una receta médica?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Non, je n'ai pas d'ordonnance.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no tengo receta.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pas de souci, je vais vous donner quelque chose.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No hay problema, le daré algo.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Merci beaucoup !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Muchas gracias!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.1,
+    "chars": 4703,
+    "cues": 192,
+    "mode": "lesson",
+    "lesson": 28
+  }
+}

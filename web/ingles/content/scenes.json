@@ -1,1 +1,1014 @@
-{"scenes": {}}
+{
+  "scenes": {
+    "lesson-01": {
+      "setting": "En un pub en Camden, Londres, dos personas se conocen por primera vez.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi! How are you?",
+          "es": "¡Hola! ¿Cómo estás?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I'm good, thanks. What's your name?",
+          "es": "Estoy bien, gracias. ¿Cómo te llamas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "I'm John. Nice to meet you.",
+          "es": "Soy John. Encantado de conocerte."
+        },
+        {
+          "role": "native_f",
+          "tl": "Nice to meet you too.",
+          "es": "Encantada de conocerte también."
+        },
+        {
+          "role": "native_m",
+          "tl": "Cheers!",
+          "es": "¡Gracias!"
+        }
+      ]
+    },
+    "lesson-02": {
+      "setting": "En un pub en Camden, Londres, dos personas están conversando mientras esperan su turno para pedir bebida.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi, do you speak Spanish?",
+          "es": "Hola, ¿hablas español?"
+        },
+        {
+          "role": "native_f",
+          "tl": "A little.",
+          "es": "Un poco."
+        },
+        {
+          "role": "native_m",
+          "tl": "Could you say that again?",
+          "es": "¿Podrías repetirlo?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I don't understand.",
+          "es": "No entiendo."
+        },
+        {
+          "role": "native_m",
+          "tl": "Alright, no worries.",
+          "es": "Está bien, no te preocupes."
+        }
+      ]
+    },
+    "lesson-03": {
+      "setting": "En un pub de Londres, dos personas se conocen mejor mientras disfrutan de una pinta.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi, what's your name?",
+          "es": "Hola, ¿cómo te llamas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I'm Emma. Nice to meet you.",
+          "es": "Soy Emma. Encantada de conocerte."
+        },
+        {
+          "role": "native_m",
+          "tl": "Nice to meet you too. What's your favourite food?",
+          "es": "Encantado de conocerte también. ¿Cuál es tu comida favorita?"
+        },
+        {
+          "role": "native_f",
+          "tl": "My favourite food is fish and chips. And you?",
+          "es": "Mi comida favorita es el pescado con patatas fritas. ¿Y tú?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Me too. Do you like football?",
+          "es": "Yo también. ¿Te gusta el fútbol?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I love football.",
+          "es": "Me encanta el fútbol."
+        }
+      ]
+    },
+    "lesson-04": {
+      "setting": "En Camden, Londres, un niño y su madre están explorando el barrio.",
+      "lines": [
+        {
+          "role": "kid_m",
+          "tl": "Mum, where is the tube station?",
+          "es": "Mamá, ¿dónde está la estación de metro?"
+        },
+        {
+          "role": "native_f",
+          "tl": "It's near, just around the corner.",
+          "es": "Está cerca, justo a la vuelta de la esquina."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Who is that man over there?",
+          "es": "¿Quién es ese hombre allí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I'm not sure. Maybe a local artist.",
+          "es": "No estoy segura. Quizás un artista local."
+        },
+        {
+          "role": "kid_m",
+          "tl": "What's this building?",
+          "es": "¿Qué es este edificio?"
+        },
+        {
+          "role": "native_f",
+          "tl": "That's a famous market. Let's have a look!",
+          "es": "Es un mercado famoso. ¡Vamos a echar un vistazo!"
+        }
+      ]
+    },
+    "lesson-05": {
+      "setting": "Estás en un café en Notting Hill.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Hi! What would you like to have?",
+          "es": "¡Hola! ¿Qué te gustaría tomar?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "I'd like a cup of tea, please.",
+          "es": "Quisiera una taza de té, por favor."
+        },
+        {
+          "role": "native_f",
+          "tl": "And you? Do you want a sandwich?",
+          "es": "¿Y tú? ¿Quieres un bocadillo?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, I'd like that.",
+          "es": "Sí, me gustaría eso."
+        },
+        {
+          "role": "native_f",
+          "tl": "Great choice! Let's go to the park after.",
+          "es": "¡Buena elección! Vamos al parque después."
+        }
+      ]
+    },
+    "lesson-06": {
+      "setting": "Estás en un pub en Camden, Londres, y decides pedir algo de beber.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi, what can I get you?",
+          "es": "Hola, ¿qué te pongo?"
+        },
+        {
+          "role": "native_f",
+          "tl": "A pint, please.",
+          "es": "Una pinta, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sure, anything else?",
+          "es": "Claro, ¿algo más?"
+        },
+        {
+          "role": "native_f",
+          "tl": "No, that's all. How much is it?",
+          "es": "No, eso es todo. ¿Cuánto cuesta?"
+        },
+        {
+          "role": "native_m",
+          "tl": "It's 5 pounds.",
+          "es": "Son 5 libras."
+        },
+        {
+          "role": "native_f",
+          "tl": "Here's your change.",
+          "es": "Aquí tienes tu cambio."
+        }
+      ]
+    },
+    "lesson-07": {
+      "setting": "Estás en un café en Londres, preguntando sobre el horario de cierre.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Hi, what time do you close today?",
+          "es": "Hola, ¿a qué hora cierran hoy?"
+        },
+        {
+          "role": "native_m",
+          "tl": "We close at 6 PM.",
+          "es": "Cerramos a las 6 PM."
+        },
+        {
+          "role": "native_f",
+          "tl": "Is it open tomorrow?",
+          "es": "¿Está abierto mañana?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, we're open tomorrow.",
+          "es": "Sí, estamos abiertos mañana."
+        },
+        {
+          "role": "native_f",
+          "tl": "Great, how many coffees do you serve daily?",
+          "es": "Genial, ¿cuántos cafés sirven diariamente?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Around 200. Why do you ask?",
+          "es": "Alrededor de 200. ¿Por qué preguntas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Just curious! Thanks.",
+          "es": "¡Solo curiosidad! Gracias."
+        }
+      ]
+    },
+    "lesson-08": {
+      "setting": "En un pub en Camden, un lugar ideal para socializar y practicar inglés.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi there! Can I help you?",
+          "es": "¡Hola! ¿Puedo ayudarte?"
+        },
+        {
+          "role": "learner",
+          "tl": "Sorry, excuse me. I'm looking for the tube station.",
+          "es": "Perdona, disculpa. Estoy buscando la estación de metro."
+        },
+        {
+          "role": "native_m",
+          "tl": "No worries, it's just around the corner.",
+          "es": "No pasa nada, está justo a la vuelta de la esquina."
+        },
+        {
+          "role": "learner",
+          "tl": "Brilliant! Thank you.",
+          "es": "¡Genial! Gracias."
+        },
+        {
+          "role": "native_m",
+          "tl": "By the way, is there a pub quiz tonight?",
+          "es": "Por cierto, ¿hay un concurso de pub esta noche?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, it starts at 8 PM.",
+          "es": "Sí, empieza a las 8 PM."
+        }
+      ]
+    },
+    "lesson-09": {
+      "setting": "En un pub en Camden, Londres, dos personas se conocen por primera vez.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi, where are you from?",
+          "es": "Hola, ¿de dónde eres?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I'm from Spain, from Madrid.",
+          "es": "Soy de España, de Madrid."
+        },
+        {
+          "role": "native_m",
+          "tl": "How long have you been here?",
+          "es": "¿Cuánto tiempo llevas aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "A week. I like it here.",
+          "es": "Una semana. Me gusta aquí."
+        },
+        {
+          "role": "native_m",
+          "tl": "What brings you here?",
+          "es": "¿Qué te trae por aquí?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I'm here for work.",
+          "es": "Estoy aquí por trabajo."
+        }
+      ]
+    },
+    "lesson-10": {
+      "setting": "Estás en un pub en Camden, Londres, charlando con un nuevo amigo sobre la familia.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi! Nice to meet you. Do you have family here?",
+          "es": "¡Hola! Encantado de conocerte. ¿Tienes familia aquí?"
+        },
+        {
+          "role": "learner",
+          "tl": "Yes, I have family here. My mum and dad live in Camden.",
+          "es": "Sí, tengo familia aquí. Mi mamá y papá viven en Camden."
+        },
+        {
+          "role": "native_m",
+          "tl": "That's lovely! How many of you are there?",
+          "es": "¡Qué bien! ¿Cuántos sois?"
+        },
+        {
+          "role": "learner",
+          "tl": "We are four. I have a brother and a sister.",
+          "es": "Somos cuatro. Tengo un hermano y una hermana."
+        },
+        {
+          "role": "native_m",
+          "tl": "Do you have kids?",
+          "es": "¿Tienes niños?"
+        },
+        {
+          "role": "learner",
+          "tl": "No, just me.",
+          "es": "No, solo yo."
+        }
+      ]
+    },
+    "lesson-11": {
+      "setting": "En un parque de Londres, dos niños se conocen mientras juegan.",
+      "lines": [
+        {
+          "role": "kid_m",
+          "tl": "Hi! What's your name?",
+          "es": "¡Hola! ¿Cómo te llamas?"
+        },
+        {
+          "role": "kid_f",
+          "tl": "I'm Emily. Nice to meet you.",
+          "es": "Soy Emily. Encantada de conocerte."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Nice to meet you too. How old are you?",
+          "es": "Encantado de conocerte también. ¿Cuántos años tienes?"
+        },
+        {
+          "role": "kid_f",
+          "tl": "I'm eight years old. And you?",
+          "es": "Tengo ocho años. ¿Y tú?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "I'm nine. You're young!",
+          "es": "Tengo nueve. ¡Eres joven!"
+        },
+        {
+          "role": "kid_f",
+          "tl": "When were you born?",
+          "es": "¿Cuándo naciste?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "I was born in 2014.",
+          "es": "Nací en 2014."
+        }
+      ]
+    },
+    "lesson-12": {
+      "setting": "En un acogedor pub de Camden, dos personas se conocen por primera vez.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi, nice to meet you.",
+          "es": "Hola, encantado de conocerte."
+        },
+        {
+          "role": "native_f",
+          "tl": "Nice to meet you too. What do you do?",
+          "es": "Encantada de conocerte también. ¿A qué te dedicas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "I'm a teacher. And you?",
+          "es": "Soy profesor. ¿Y tú?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I work in marketing.",
+          "es": "Trabajo en marketing."
+        },
+        {
+          "role": "native_m",
+          "tl": "That's nice. Do you like it?",
+          "es": "Eso es agradable. ¿Te gusta?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, I love it. What does your partner do?",
+          "es": "Sí, me encanta. ¿A qué se dedica tu pareja?"
+        },
+        {
+          "role": "native_m",
+          "tl": "My partner is a doctor.",
+          "es": "Mi pareja es médico."
+        }
+      ]
+    },
+    "lesson-13": {
+      "setting": "En un pub de Londres, dos amigos conversan sobre qué comer.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi! Have you eaten?",
+          "es": "¡Hola! ¿Has comido?"
+        },
+        {
+          "role": "native_f",
+          "tl": "No, I'm hungry. Shall we get something to eat?",
+          "es": "No, tengo hambre. ¿Vamos a comer algo?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sure! What do you fancy?",
+          "es": "¡Claro! ¿Qué te apetece?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I fancy a curry.",
+          "es": "Me apetece un curry."
+        },
+        {
+          "role": "native_m",
+          "tl": "Perfect, it's on me.",
+          "es": "Perfecto, invito yo."
+        }
+      ]
+    },
+    "lesson-14": {
+      "setting": "En un café en Notting Hill, dos personas se despiden después de conocerse.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "It was lovely to meet you.",
+          "es": "Fue encantador conocerte."
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, it was. Keep in touch.",
+          "es": "Sí, lo fue. Mantente en contacto."
+        },
+        {
+          "role": "native_f",
+          "tl": "Give me your number, and I'll text you.",
+          "es": "Dame tu número y te mandaré un mensaje."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sure, here it is. See you tomorrow!",
+          "es": "Claro, aquí está. ¡Nos vemos mañana!"
+        },
+        {
+          "role": "native_f",
+          "tl": "You're lovely. Bye!",
+          "es": "Eres encantadora. ¡Adiós!"
+        }
+      ]
+    },
+    "lesson-15": {
+      "setting": "Estás en un pub tradicional británico en Camden, disfrutando de una noche con amigos.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Whose round is it?",
+          "es": "¿De quién es la ronda?"
+        },
+        {
+          "role": "native_f",
+          "tl": "It's my round. A pint of bitter, please.",
+          "es": "Es mi ronda. Una pinta de bitter, por favor."
+        },
+        {
+          "role": "native_m",
+          "tl": "Same again, please.",
+          "es": "Lo mismo otra vez, por favor."
+        },
+        {
+          "role": "native_f",
+          "tl": "Do you fancy a Sunday roast tomorrow?",
+          "es": "¿Te apetece un asado de domingo mañana?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Brilliant! Is there a pub quiz tonight?",
+          "es": "¡Genial! ¿Hay un concurso de pub esta noche?"
+        }
+      ]
+    },
+    "lesson-16": {
+      "setting": "En un encantador pueblo de los Cotswolds, estás planeando un día de exploración en bici.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi there! How can I help you today?",
+          "es": "¡Hola! ¿Cómo puedo ayudarte hoy?"
+        },
+        {
+          "role": "learner",
+          "tl": "Where can I hire a bike?",
+          "es": "¿Dónde puedo alquilar una bici?"
+        },
+        {
+          "role": "native_m",
+          "tl": "You can hire one at the shop around the corner.",
+          "es": "Puedes alquilar una en la tienda a la vuelta de la esquina."
+        },
+        {
+          "role": "learner",
+          "tl": "How much is it per day?",
+          "es": "¿Cuánto cuesta al día?"
+        },
+        {
+          "role": "native_m",
+          "tl": "It's 10 pounds per day.",
+          "es": "Son 10 libras al día."
+        },
+        {
+          "role": "learner",
+          "tl": "Do I need a helmet?",
+          "es": "¿Necesito casco?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, you need a helmet. Safety first!",
+          "es": "Sí, necesitas casco. ¡La seguridad es lo primero!"
+        }
+      ]
+    },
+    "lesson-17": {
+      "setting": "Estás en una estación de metro en Londres, buscando cómo llegar a Piccadilly Circus.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Excuse me, which line do I take for Piccadilly Circus?",
+          "es": "Perdona, ¿qué línea tomo para Piccadilly Circus?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Take the Bakerloo line.",
+          "es": "Toma la línea Bakerloo."
+        },
+        {
+          "role": "native_m",
+          "tl": "Thank you. Do you have an Oyster or contactless card?",
+          "es": "Gracias. ¿Tienes una tarjeta Oyster o contactless?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, I have an Oyster card.",
+          "es": "Sí, tengo una tarjeta Oyster."
+        },
+        {
+          "role": "native_m",
+          "tl": "Great, mind the gap when you board.",
+          "es": "Genial, cuidado con el hueco al subir."
+        }
+      ]
+    },
+    "lesson-18": {
+      "setting": "Un día soleado en Camden, un visitante pregunta por los horarios de un café local.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Hi there! Can I help you?",
+          "es": "¡Hola! ¿Puedo ayudarte?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, is the café open on Sundays?",
+          "es": "Sí, ¿el café está abierto los domingos?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, it's open from 9 AM to 5 PM.",
+          "es": "Sí, está abierto de 9 AM a 5 PM."
+        },
+        {
+          "role": "native_m",
+          "tl": "Great! And what about bank holidays?",
+          "es": "¡Genial! ¿Y qué pasa con los días festivos?"
+        },
+        {
+          "role": "native_f",
+          "tl": "It's closed for refurbishment on bank holidays.",
+          "es": "Está cerrado por reformas en días festivos."
+        },
+        {
+          "role": "native_m",
+          "tl": "Thanks for the information!",
+          "es": "¡Gracias por la información!"
+        }
+      ]
+    },
+    "lesson-19": {
+      "setting": "Estás en Londres, planeando un día de museos y paseo por el campo.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Is the museum free?",
+          "es": "¿Es gratis el museo?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, it's free.",
+          "es": "Sí, es gratis."
+        },
+        {
+          "role": "native_f",
+          "tl": "Great! Can we go in?",
+          "es": "¡Genial! ¿Podemos entrar?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, you can go in.",
+          "es": "Sí, puedes entrar."
+        },
+        {
+          "role": "native_f",
+          "tl": "Afterwards, let's have a walk in the countryside.",
+          "es": "Después, demos un paseo por el campo."
+        },
+        {
+          "role": "native_m",
+          "tl": "And finish at the pub at the end of the walk!",
+          "es": "¡Y terminamos en el pub al final del paseo!"
+        }
+      ]
+    },
+    "lesson-20": {
+      "setting": "En un paseo por Camden, decides parar a comer algo típico británico.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Fancy some fish and chips?",
+          "es": "¿Te apetece un poco de pescado con patatas fritas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Sure, let's go to the chippy.",
+          "es": "Claro, vamos a la freiduría."
+        },
+        {
+          "role": "native_m",
+          "tl": "Is it any good?",
+          "es": "¿Está bueno?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, it's brilliant! And we can have a cuppa after.",
+          "es": "Sí, ¡es genial! Y podemos tomar una taza de té después."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sounds lovely. Maybe an afternoon tea?",
+          "es": "Suena encantador. ¿Quizás un té de la tarde?"
+        }
+      ]
+    },
+    "lesson-21": {
+      "setting": "En un parque de Londres, dos amigos charlan sobre cómo se sienten últimamente.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi! Are you happy today?",
+          "es": "¡Hola! ¿Estás feliz hoy?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I'm alright, just a bit knackered.",
+          "es": "Estoy bien, solo un poco hecha polvo."
+        },
+        {
+          "role": "native_m",
+          "tl": "Why?",
+          "es": "¿Por qué?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Because I miss home.",
+          "es": "Porque echo de menos mi casa."
+        },
+        {
+          "role": "native_m",
+          "tl": "I'm sorry to hear that. Anything I can do?",
+          "es": "Lo siento. ¿Puedo hacer algo?"
+        }
+      ]
+    },
+    "lesson-22": {
+      "setting": "En un pub de Londres, dos amigos charlan sobre sus gustos personales.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Do you like music?",
+          "es": "¿Te gusta la música?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I love music. What music do you listen to?",
+          "es": "Me encanta la música. ¿Qué música escuchas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "I listen to rock. And you?",
+          "es": "Escucho rock. ¿Y tú?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I prefer pop. Which team do you support?",
+          "es": "Prefiero el pop. ¿A qué equipo apoyas?"
+        },
+        {
+          "role": "native_m",
+          "tl": "I support Liverpool. Football or rugby?",
+          "es": "Apoyo al Liverpool. ¿Fútbol o rugby?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Football, definitely.",
+          "es": "Fútbol, definitivamente."
+        }
+      ]
+    },
+    "lesson-23": {
+      "setting": "En un parque de Londres, dos amigos charlan sobre sus sueños y aspiraciones futuras.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "What do you want to be?",
+          "es": "¿Qué quieres ser?"
+        },
+        {
+          "role": "native_f",
+          "tl": "My dream is to be a doctor.",
+          "es": "Mi sueño es ser médico."
+        },
+        {
+          "role": "native_m",
+          "tl": "I'd love to live here.",
+          "es": "Me encantaría vivir aquí."
+        },
+        {
+          "role": "native_f",
+          "tl": "One day, I'll travel the world.",
+          "es": "Un día, viajaré por el mundo."
+        },
+        {
+          "role": "native_m",
+          "tl": "You can do it!",
+          "es": "¡Tú puedes hacerlo!"
+        }
+      ]
+    },
+    "lesson-24": {
+      "setting": "En un concurrido mercado de Camden, un niño se pierde de vista de sus padres.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Watch out!",
+          "es": "¡Cuidado!"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Help! I can't find my mum!",
+          "es": "¡Ayuda! ¡No encuentro a mi mamá!"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Where's A&E? He looks ill.",
+          "es": "¿Dónde está urgencias? Parece enfermo."
+        },
+        {
+          "role": "native_f",
+          "tl": "Call 999! He needs a doctor.",
+          "es": "¡Llama al 999! Necesita un médico."
+        },
+        {
+          "role": "kid_m",
+          "tl": "I feel ill.",
+          "es": "Me siento mal."
+        },
+        {
+          "role": "kid_m",
+          "tl": "Mind the traffic!",
+          "es": "¡Cuidado con el tráfico!"
+        }
+      ]
+    },
+    "lesson-25": {
+      "setting": "En una iglesia en Londres, dos personas conversan después de un servicio religioso.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Hi, did you enjoy the service?",
+          "es": "Hola, ¿disfrutaste del servicio?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, it was lovely. Would you like to pray together?",
+          "es": "Sí, fue encantador. ¿Te gustaría rezar juntos?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Sure, let's say the Lord's Prayer.",
+          "es": "Claro, recitemos el Padrenuestro."
+        },
+        {
+          "role": "native_f",
+          "tl": "Do you believe in God?",
+          "es": "¿Crees en Dios?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, I believe. God bless you.",
+          "es": "Sí, creo. Que Dios te bendiga."
+        }
+      ]
+    },
+    "lesson-26": {
+      "setting": "En un parque de Londres, dos personas se encuentran mientras pasean a sus perros.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Lovely day, isn't it?",
+          "es": "Día encantador, ¿verdad?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, it's beautiful. How's it going?",
+          "es": "Sí, es precioso. ¿Cómo va todo?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Not bad. Just enjoying the fresh air.",
+          "es": "No está mal. Solo disfrutando del aire fresco."
+        },
+        {
+          "role": "native_f",
+          "tl": "Do you come here often?",
+          "es": "¿Vienes aquí a menudo?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, every weekend. It's a bit chilly today, isn't it?",
+          "es": "Sí, todos los fines de semana. Hace un poco de frío, ¿no?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, but I can't complain. It's better than rain!",
+          "es": "Sí, pero no me puedo quejar. ¡Es mejor que la lluvia!"
+        }
+      ]
+    },
+    "lesson-27": {
+      "setting": "Es un sábado por la tarde en un pub de Londres. La gente está emocionada por el partido de fútbol.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Who's playing today?",
+          "es": "¿Quién juega hoy?"
+        },
+        {
+          "role": "native_f",
+          "tl": "It's Derby day! Arsenal vs. Tottenham.",
+          "es": "¡Es día de derbi! Arsenal contra Tottenham."
+        },
+        {
+          "role": "native_m",
+          "tl": "Brilliant! The match is on at the pub.",
+          "es": "¡Genial! El partido se ve en el pub."
+        },
+        {
+          "role": "native_f",
+          "tl": "Come on, let's get a pint!",
+          "es": "¡Vamos, vamos a por una pinta!"
+        },
+        {
+          "role": "native_m",
+          "tl": "Who scored?",
+          "es": "¿Quién ha marcado?"
+        }
+      ]
+    },
+    "lesson-28": {
+      "setting": "En una consulta médica en Camden, Londres, un paciente habla con el médico sobre sus síntomas.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Good morning. How can I help you today?",
+          "es": "Buenos días. ¿En qué puedo ayudarte hoy?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I've got a headache and a cold.",
+          "es": "Tengo dolor de cabeza y un resfriado."
+        },
+        {
+          "role": "native_m",
+          "tl": "I see. Do you need a prescription?",
+          "es": "Ya veo. ¿Necesitas una receta?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, please. Also, where is the chemist?",
+          "es": "Sí, por favor. Además, ¿dónde está la farmacia?"
+        },
+        {
+          "role": "native_m",
+          "tl": "It's just around the corner. I'm sure you'll be feeling better soon.",
+          "es": "Está justo a la vuelta de la esquina. Estoy seguro de que te sentirás mejor pronto."
+        }
+      ]
+    },
+    "lesson-29": {
+      "setting": "En un acogedor café en el barrio de Camden, dos amigos charlan sobre sus planes para el día.",
+      "lines": [
+        {
+          "role": "native_f",
+          "tl": "Hi! Lovely day, isn't it?",
+          "es": "¡Hola! Día encantador, ¿verdad?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Yes, but you know, it's not always easy to enjoy it.",
+          "es": "Sí, pero, ya sabes, no siempre es fácil disfrutarlo."
+        },
+        {
+          "role": "native_f",
+          "tl": "Because it's raining, we should stay inside.",
+          "es": "Porque está lloviendo, deberíamos quedarnos dentro."
+        },
+        {
+          "role": "native_m",
+          "tl": "Also, it's quite cold today.",
+          "es": "Además, hace bastante frío hoy."
+        },
+        {
+          "role": "native_f",
+          "tl": "Then, we can go for a walk later.",
+          "es": "Entonces, podemos ir a dar un paseo más tarde."
+        },
+        {
+          "role": "native_m",
+          "tl": "So, what do you think?",
+          "es": "Entonces, ¿qué piensas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "If you want, we can stay here.",
+          "es": "Si quieres, podemos quedarnos aquí."
+        }
+      ]
+    },
+    "lesson-30": {
+      "setting": "Estás en Londres, paseando por Camden, y empieza a llover.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Do you wanna visit the British Museum?",
+          "es": "¿Quieres visitar el Museo Británico?"
+        },
+        {
+          "role": "native_f",
+          "tl": "I gotta go now.",
+          "es": "Tengo que irme ahora."
+        },
+        {
+          "role": "native_m",
+          "tl": "Have you been here before?",
+          "es": "¿Has estado aquí antes?"
+        },
+        {
+          "role": "native_f",
+          "tl": "No, I haven't been here.",
+          "es": "No, no he estado aquí."
+        },
+        {
+          "role": "native_m",
+          "tl": "It's gonna rain soon. Do you have an umbrella?",
+          "es": "Va a llover pronto. ¿Tienes un paraguas?"
+        },
+        {
+          "role": "native_f",
+          "tl": "Yes, I have one.",
+          "es": "Sí, tengo uno."
+        }
+      ]
+    }
+  }
+}

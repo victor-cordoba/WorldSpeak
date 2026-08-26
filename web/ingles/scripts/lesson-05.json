@@ -1,0 +1,2053 @@
+{
+  "title": "I'd like… I'm going to…",
+  "subtitle": "Aprende a expresar deseos y planes.",
+  "summary_es": "Expresar deseos y planes.",
+  "topics": [
+    "deseos",
+    "planes",
+    "cortesía",
+    "preguntas",
+    "respuestas"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi! What would you like to have?",
+      "I'd like a cup of tea, please.",
+      "And you? Do you want a sandwich?",
+      "Yes, I'd like that.",
+      "Great choice! Let's go to the park after."
+    ],
+    "es": [
+      "¡Hola! ¿Qué te gustaría tomar?",
+      "Quisiera una taza de té, por favor.",
+      "¿Y tú? ¿Quieres un bocadillo?",
+      "Sí, me gustaría eso.",
+      "¡Buena elección! Vamos al parque después."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "I'd like a cup of tea, please.",
+      "es": "Quisiera una taza de té, por favor."
+    },
+    {
+      "term": "I want a sandwich.",
+      "es": "Quiero un bocadillo."
+    },
+    {
+      "term": "Do you want to go to the park?",
+      "es": "¿Quieres ir al parque?"
+    },
+    {
+      "term": "I don't want to go out.",
+      "es": "No quiero salir."
+    },
+    {
+      "term": "I'm going to visit the museum.",
+      "es": "Voy a visitar el museo."
+    },
+    {
+      "term": "Let's go to the cinema!",
+      "es": "¡Vamos al cine!"
+    },
+    {
+      "term": "How do I get to the station?",
+      "es": "¿Cómo llego a la estación?"
+    },
+    {
+      "term": "Where can I buy a ticket?",
+      "es": "¿Dónde puedo comprar un billete?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 5. I'd like… I'm going to….",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café en Notting Hill. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hi! What would you like to have?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Qué te gustaría tomar?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "And you? Do you want a sandwich?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tú? ¿Quieres un bocadillo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I'd like that.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gustaría eso.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Great choice! Let's go to the park after.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buena elección! Vamos al parque después.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a expresar deseos y planes. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu afición?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi comida favorita es el pescado con patatas fritas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quisiera una taza de té, por favor». Literalmente, Me gustaría una taza de té, por favor.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ase",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "please",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "like a cup of tea please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea please",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'I'd like' para pedir cortésmente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quisiera una taza de té, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Quiero un bocadillo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dwich",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sandwich",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a sandwich",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "want a sandwich",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'I want' para expresar deseos directos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero un bocadillo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero un bocadillo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quieres ir al parque?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "park",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to the park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you want to go to the park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por deseos o planes.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quieres ir al parque?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quieres ir al parque?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No quiero salir». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ut",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "out",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go out",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "don't want to go out",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Negar deseos o planes.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero salir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No quiero salir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Quiero un bocadillo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Voy a visitar el museo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "museum",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "going to visit the museum",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'I'm going to' para planes futuros.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Voy a visitar el museo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Voy a visitar el museo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos al cine». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cinema",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "go to the cinema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sugiere actividades en grupo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos al cine»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos al cine».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No quiero salir».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo llego a la estación?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tion",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do I get to the station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pide direcciones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo llego a la estación?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo comprar un billete?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ket",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ticket",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a ticket",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "can I buy a ticket",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por ubicaciones.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo comprar un billete?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Vamos al cine».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usar 'I'd like' y 'I'm going to'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir algo de manera cortés, usa 'I'd like'. Para hablar de planes futuros, usa 'I'm going to'. Ambas formas son comunes y útiles en situaciones cotidianas.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I'd like that.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me gustaría eso.",
+      "item": "yes-id-like-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me gustaría eso».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I'd like that.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me gustaría eso.",
+      "item": "yes-id-like-that"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, thanks.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, gracias.",
+      "item": "no-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, gracias».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, thanks.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, gracias.",
+      "item": "no-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un café y quieres pedir un té.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres saber cómo llegar a la estación.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero un bocadillo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres ir al parque?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero salir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Voy a visitar el museo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos al cine».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu afición?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi comida favorita es el pescado con patatas fritas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Quiero un bocadillo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I want a sandwich.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero un bocadillo.",
+      "item": "i-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quieres ir al parque?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you want to go to the park?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Quieres ir al parque?",
+      "item": "do-you-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No quiero salir»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't want to go out.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No quiero salir.",
+      "item": "i-dont-want"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Voy a visitar el museo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm going to visit the museum.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Voy a visitar el museo.",
+      "item": "im-going-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos al cine».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Let's go to the cinema!",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¡Vamos al cine!",
+      "item": "lets-go"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo llego a la estación?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo comprar un billete?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hi! What would you like to have?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Qué te gustaría tomar?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "And you? Do you want a sandwich?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Y tú? ¿Quieres un bocadillo?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I'd like that.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me gustaría eso.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Great choice! Let's go to the park after.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buena elección! Vamos al parque después.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 18.4,
+    "chars": 6088,
+    "cues": 220,
+    "mode": "lesson",
+    "lesson": 5
+  }
+}

@@ -1,0 +1,1679 @@
+{
+  "title": "Où ? Qui ? Quoi ?",
+  "subtitle": "Aprender a preguntar sobre ubicaciones y personas",
+  "summary_es": "Practicar preguntas sobre ubicación y personas.",
+  "topics": [
+    "ubicación",
+    "identidad",
+    "distancia",
+    "residencia"
+  ],
+  "dialogue": {
+    "tl": [
+      "Salut ! Tu habites où ?",
+      "Salut ! J'habite à Lyon. Et toi ?",
+      "J'habite à Paris, près d'ici.",
+      "C'est près ou loin ?",
+      "Oui, c'est près."
+    ],
+    "es": [
+      "¡Hola! ¿Dónde vives?",
+      "¡Hola! Vivo en Lyon. ¿Y tú?",
+      "Vivo en París, cerca de aquí.",
+      "¿Está cerca o lejos?",
+      "Sí, está cerca."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Où est...?",
+      "es": "¿Dónde está...?"
+    },
+    {
+      "term": "C'est qui ?",
+      "es": "¿Quién es?"
+    },
+    {
+      "term": "C'est quoi ?",
+      "es": "¿Qué es?"
+    },
+    {
+      "term": "ici / là-bas",
+      "es": "aquí / allá"
+    },
+    {
+      "term": "Tu habites où ?",
+      "es": "¿Dónde vives?"
+    },
+    {
+      "term": "J'habite à...",
+      "es": "Vivo en..."
+    },
+    {
+      "term": "C'est près / loin.",
+      "es": "Está cerca / lejos."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 4. Où ? Qui ? Quoi ?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un café de Montmartre, dos amigos conversan sobre dónde vive cada uno. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu habites où ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde vives?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Salut ! J'habite à Lyon. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Vivo en Lyon. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à Paris, près d'ici.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en París, cerca de aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "C'est près ou loin ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está cerca o lejos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar sobre ubicaciones y personas Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está...?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "est",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ou-est"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ou-est"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar por la ubicación de algo o alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está...?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién es?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "qui",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar la identidad de alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué es?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "oi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "quoi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar sobre un objeto o situación",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué es?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«aquí / allá». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "là-bas",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar proximidad o lejanía",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «aquí / allá»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «aquí / allá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde vives?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "où",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "habites où",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para preguntar por el lugar de residencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vivo en». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar el lugar de residencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «aquí / allá».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está cerca / lejos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "loin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ loin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "près / loin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para describir la distancia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está cerca / lejos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Está cerca / lejos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No entiendo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je ne comprends pas.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No entiendo.",
+      "item": "je-ne-comprends-pas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntas con entonación.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, muchas preguntas se hacen simplemente con la entonación. Por ejemplo, 'Tu habites où ?' se entiende como una pregunta por el tono ascendente al final.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, está cerca.",
+      "item": "oui-cest-pres"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, está cerca».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, está cerca.",
+      "item": "oui-cest-pres"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, c'est loin.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, está lejos.",
+      "item": "non-cest-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, está lejos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non, c'est loin.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, está lejos.",
+      "item": "non-cest-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien dónde vive.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que vives en una ciudad específica.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «aquí / allá»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Está cerca / lejos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "salut"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ça va ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "ca-va"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je m'appelle...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "je-mappelle"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Merci !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "merci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde está...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Où est...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está...?",
+      "item": "ou-est"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est qui ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién es?",
+      "item": "cest-qui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Qué es?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est quoi ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué es?",
+      "item": "cest-quoi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «aquí / allá»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ici / là-bas",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "aquí / allá",
+      "item": "ici-la-bas"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu habites où ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "tu-habites-ou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en...",
+      "item": "jhabite-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Está cerca / lejos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est près / loin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está cerca / lejos.",
+      "item": "cest-pres-loin"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salut ! Tu habites où ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Dónde vives?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Salut ! J'habite à Lyon. Et toi ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Vivo en Lyon. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'habite à Paris, près d'ici.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Vivo en París, cerca de aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "C'est près ou loin ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Está cerca o lejos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est près.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, está cerca.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.7,
+    "chars": 3883,
+    "cues": 179,
+    "mode": "lesson",
+    "lesson": 4
+  }
+}

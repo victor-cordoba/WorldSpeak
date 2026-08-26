@@ -1,0 +1,2147 @@
+{
+  "title": "Bikes and Cars",
+  "subtitle": "Aprender a alquilar bicicletas y coches en el Reino Unido.",
+  "summary_es": "Alquilar bicis y coches en Gran Bretaña.",
+  "topics": [
+    "alquiler",
+    "seguridad",
+    "conducir",
+    "precios",
+    "ubicaciones"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi there! How can I help you today?",
+      "Where can I hire a bike?",
+      "You can hire one at the shop around the corner.",
+      "How much is it per day?",
+      "It's 10 pounds per day.",
+      "Do I need a helmet?",
+      "Yes, you need a helmet. Safety first!"
+    ],
+    "es": [
+      "¡Hola! ¿Cómo puedo ayudarte hoy?",
+      "¿Dónde puedo alquilar una bici?",
+      "Puedes alquilar una en la tienda a la vuelta de la esquina.",
+      "¿Cuánto cuesta al día?",
+      "Son 10 libras al día.",
+      "¿Necesito casco?",
+      "Sí, necesitas casco. ¡La seguridad es lo primero!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Where can I hire a bike?",
+      "es": "¿Dónde puedo alquilar una bici?"
+    },
+    {
+      "term": "How much is it per day?",
+      "es": "¿Cuánto cuesta al día?"
+    },
+    {
+      "term": "Do I need a helmet?",
+      "es": "¿Necesito casco?"
+    },
+    {
+      "term": "Where can I rent a car?",
+      "es": "¿Dónde puedo alquilar un coche?"
+    },
+    {
+      "term": "Drive on the left!",
+      "es": "¡Conduce por la izquierda!"
+    },
+    {
+      "term": "Where can I park?",
+      "es": "¿Dónde puedo aparcar?"
+    },
+    {
+      "term": "Petrol / diesel / the petrol station",
+      "es": "Gasolina / diésel / la gasolinera"
+    },
+    {
+      "term": "MOT / insurance",
+      "es": "ITV / seguro"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 16. Bikes and Cars.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un encantador pueblo de los Cotswolds, estás planeando un día de exploración en bici. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi there! How can I help you today?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo puedo ayudarte hoy?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can hire one at the shop around the corner.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Puedes alquilar una en la tienda a la vuelta de la esquina.",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's 10 pounds per day.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son 10 libras al día.",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Necesito casco?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, you need a helmet. Safety first!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, necesitas casco. ¡La seguridad es lo primero!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a alquilar bicicletas y coches en el Reino Unido. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo llego a la estación?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo comprar un billete?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona, disculpa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo ayudarte?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No pasa nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo alquilar una bici?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ke",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bike",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a bike",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "can I hire a bike",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'hire' para alquilar cosas pequeñas como bicis.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar una bici?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo alquilar una bici?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuánto cuesta al día?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "day",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "per day",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "it per day",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "much is it per day",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para preguntar precios de alquiler.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta al día?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Necesito casco?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "met",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "helmet",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a helmet",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I need a helmet",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre seguridad al alquilar una bici.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Necesito casco?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Necesito casco?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo alquilar un coche?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "car",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a car",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rent a car",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "can I rent a car",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'rent' para alquilar cosas grandes como coches.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar un coche?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo alquilar un coche?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Conduce por la izquierda». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "left",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "the left",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on the left",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Importante recordar al conducir en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Conduce por la izquierda»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Conduce por la izquierda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde puedo aparcar?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "park",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "can I park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común al conducir.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo aparcar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde puedo alquilar un coche?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Gasolina / diésel / la gasolinera». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tion",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Vocabulario útil para repostar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Gasolina / diésel / la gasolinera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Gasolina / diésel / la gasolinera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«ITV / seguro». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "surance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Términos importantes para el coche en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «ITV / seguro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «ITV / seguro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hermano y hermana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Brother and sister",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hermano y hermana",
+      "item": "brother-sister"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hire vs Rent.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En el Reino Unido, usamos 'hire' para alquileres de corto plazo o cosas pequeñas como bicicletas. 'Rent' se usa para alquileres de largo plazo o cosas grandes como coches o casas.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, you need a helmet.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, necesitas casco.",
+      "item": "yes-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, necesitas casco».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, you need a helmet.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, necesitas casco.",
+      "item": "yes-i-need-a-helmet"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, you don't need a helmet.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no necesitas casco.",
+      "item": "no-you-dont-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no necesitas casco».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, you don't need a helmet.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no necesitas casco.",
+      "item": "no-you-dont-need-a-helmet"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's 10 pounds per day.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Son 10 libras al día.",
+      "item": "its-10-pounds-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Son 10 libras al día».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "It's 10 pounds per day.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Son 10 libras al día.",
+      "item": "its-10-pounds-per-day"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "There's a petrol station nearby.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Hay una gasolinera cerca.",
+      "item": "theres-a-petrol-station-nearby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hay una gasolinera cerca».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "There's a petrol station nearby.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hay una gasolinera cerca.",
+      "item": "theres-a-petrol-station-nearby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pueblo británico y quieres alquilar una bici. Pregunta dónde hacerlo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cuánto cuesta alquilar una bici al día.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Averigua si necesitas casco para montar en bici.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una bici?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Necesito casco?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar un coche?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Conduce por la izquierda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Gasolina / diésel / la gasolinera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «ITV / seguro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo llego a la estación?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How do I get to the station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo llego a la estación?",
+      "item": "how-do-i-get-to"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo comprar un billete?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I buy a ticket?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo comprar un billete?",
+      "item": "where-can-i"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "how-much-is-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona, disculpa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sorry, excuse me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona, disculpa.",
+      "item": "sorry-excuse-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Puedo ayudarte?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Can I help you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo ayudarte?",
+      "item": "can-i-help-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No pasa nada».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "No worries.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No pasa nada.",
+      "item": "no-worries"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una bici?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": "where-can-i-hire-a-bike"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuánto cuesta al día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": "how-much-is-it-per-day"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Necesito casco?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Necesito casco?",
+      "item": "do-i-need-a-helmet"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde puedo alquilar un coche?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I rent a car?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar un coche?",
+      "item": "where-can-i-rent-a-car"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Conduce por la izquierda».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drive on the left!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Conduce por la izquierda!",
+      "item": "drive-on-the-left"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde puedo aparcar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where can I park?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde puedo aparcar?",
+      "item": "where-can-i-park"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Gasolina / diésel / la gasolinera».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Petrol / diesel / the petrol station",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Gasolina / diésel / la gasolinera",
+      "item": "petrol-diesel-petrol-station"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «ITV / seguro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "MOT / insurance",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "ITV / seguro",
+      "item": "mot-insurance"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi there! How can I help you today?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Cómo puedo ayudarte hoy?",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Where can I hire a bike?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde puedo alquilar una bici?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can hire one at the shop around the corner.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Puedes alquilar una en la tienda a la vuelta de la esquina.",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "How much is it per day?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuánto cuesta al día?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's 10 pounds per day.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Son 10 libras al día.",
+      "item": null
+    },
+    {
+      "role": "learner",
+      "lang": "tl",
+      "text": "Do I need a helmet?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Necesito casco?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, you need a helmet. Safety first!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, necesitas casco. ¡La seguridad es lo primero!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 19.0,
+    "chars": 6483,
+    "cues": 230,
+    "mode": "lesson",
+    "lesson": 16
+  }
+}

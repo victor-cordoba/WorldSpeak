@@ -1,0 +1,1779 @@
+{
+  "title": "Have you eaten?",
+  "subtitle": "Aprende a hablar sobre comida y a invitar en inglés.",
+  "summary_es": "Una frase",
+  "topics": [
+    "comida",
+    "cortesia",
+    "preguntar",
+    "modal verbs",
+    "adjectives"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi! Have you eaten?",
+      "No, I'm hungry. Shall we get something to eat?",
+      "Sure! What do you fancy?",
+      "I fancy a curry.",
+      "Perfect, it's on me."
+    ],
+    "es": [
+      "¡Hola! ¿Has comido?",
+      "No, tengo hambre. ¿Vamos a comer algo?",
+      "¡Claro! ¿Qué te apetece?",
+      "Me apetece un curry.",
+      "Perfecto, invito yo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Have you eaten?",
+      "es": "¿Has comido?"
+    },
+    {
+      "term": "I'm hungry.",
+      "es": "Tengo hambre."
+    },
+    {
+      "term": "I'm thirsty.",
+      "es": "Tengo sed."
+    },
+    {
+      "term": "Shall we get something to eat?",
+      "es": "¿Vamos a comer algo?"
+    },
+    {
+      "term": "What do you fancy?",
+      "es": "¿Qué te apetece?"
+    },
+    {
+      "term": "I fancy a curry.",
+      "es": "Me apetece un curry."
+    },
+    {
+      "term": "It's on me.",
+      "es": "Invito yo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 13. Have you eaten?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pub de Londres, dos amigos conversan sobre qué comer. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi! Have you eaten?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Has comido?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I'm hungry. Shall we get something to eat?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, tengo hambre. ¿Vamos a comer algo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure! What do you fancy?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Qué te apetece?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me apetece un curry.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfect, it's on me.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, invito yo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a hablar sobre comida y a invitar en inglés. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas español?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Has comido?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ten",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "aten",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "eaten",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you eaten",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para iniciar una conversación sobre comida.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Has comido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo hambre». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hungry",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-hungry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-hungry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión común para indicar que quieres comer.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo hambre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo sed». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "thirsty",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión común para indicar que quieres beber.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo sed»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Vamos a comer algo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "at",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "eat",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to eat",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "we get something to eat",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma cortés de sugerir salir a comer.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer algo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Vamos a comer algo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué te apetece?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fancy",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you fancy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do you fancy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber las preferencias de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué te apetece?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué te apetece?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me apetece un curry». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "curry",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a curry",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fancy a curry",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión común para indicar preferencia por un tipo de comida.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me apetece un curry»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me apetece un curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Vamos a comer algo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Invito yo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "its-on-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on me",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-on-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "its-on-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Frase utilizada para ofrecer pagar la cuenta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Invito yo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Tienes familia aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'fancy' y 'shall we'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés británico, 'fancy' se usa para expresar deseos o preferencias, mientras que 'shall we' es una forma educada de sugerir una acción conjunta.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, tengo hambre.",
+      "item": "yes-im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, tengo hambre».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I'm hungry.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, tengo hambre.",
+      "item": "yes-im-hungry"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I'm not hungry.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no tengo hambre.",
+      "item": "no-im-not-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no tengo hambre».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I'm not hungry.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no tengo hambre.",
+      "item": "no-im-not-hungry"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I fancy that.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me apetece eso.",
+      "item": "yes-i-fancy-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me apetece eso».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I fancy that.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, me apetece eso.",
+      "item": "yes-i-fancy-that"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en un pub y quieres saber si tu amigo ha comido.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer algo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué te apetece?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me apetece un curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Cheers!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Gracias!",
+      "item": "cheers"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas español?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un café, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A coffee, please.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "a-coffee-please"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Have you eaten?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Has comido?",
+      "item": "have-you-eaten"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo hambre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm hungry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo hambre.",
+      "item": "im-hungry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm thirsty.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo sed.",
+      "item": "im-thirsty"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Vamos a comer algo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Shall we get something to eat?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Vamos a comer algo?",
+      "item": "shall-we-get-something-to-eat"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué te apetece?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you fancy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te apetece?",
+      "item": "what-do-you-fancy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me apetece un curry».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me apetece un curry.",
+      "item": "i-fancy-a-curry"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Invito yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "It's on me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Invito yo.",
+      "item": "its-on-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi! Have you eaten?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Has comido?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I'm hungry. Shall we get something to eat?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, tengo hambre. ¿Vamos a comer algo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure! What do you fancy?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! ¿Qué te apetece?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I fancy a curry.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me apetece un curry.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Perfect, it's on me.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Perfecto, invito yo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.2,
+    "chars": 4505,
+    "cues": 190,
+    "mode": "lesson",
+    "lesson": 13
+  }
+}

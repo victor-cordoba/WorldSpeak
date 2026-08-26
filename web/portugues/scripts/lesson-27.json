@@ -1,0 +1,1678 @@
+{
+  "title": "Festa e noite",
+  "subtitle": "Aprenderás a preguntar por fiestas y a socializar en un bar.",
+  "summary_es": "Una noche en Lisboa.",
+  "topics": [
+    "fiesta",
+    "bar",
+    "socializar",
+    "imperativo",
+    "interrogativo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Onde há festa hoje?",
+      "Vamos ao Bairro Alto!",
+      "Uma rodada, por favor.",
+      "Saúde!",
+      "Está cheio aqui.",
+      "Onde há um bar com terraço?"
+    ],
+    "es": [
+      "¿Dónde hay fiesta hoy?",
+      "¡Vamos al Bairro Alto!",
+      "Una ronda, por favor.",
+      "¡Salud!",
+      "Está lleno aquí.",
+      "¿Dónde hay un bar con terraza?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Vamos ao Bairro Alto!",
+      "es": "¡Vamos al Bairro Alto!"
+    },
+    {
+      "term": "Uma rodada, por favor.",
+      "es": "Una ronda, por favor."
+    },
+    {
+      "term": "Saúde!",
+      "es": "¡Salud!"
+    },
+    {
+      "term": "Está cheio.",
+      "es": "Está lleno."
+    },
+    {
+      "term": "Onde há um bar com terraço?",
+      "es": "¿Dónde hay un bar con terraza?"
+    },
+    {
+      "term": "Bora à festa!",
+      "es": "¡Vamos a la fiesta!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 27. Festa e noite.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un bar en Lisboa, un grupo de amigos decide qué hacer en la noche. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há festa hoje?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde hay fiesta hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una ronda, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Salud!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio aqui.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está lleno aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar por fiestas y a socializar en un bar. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde hay fiesta hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há fiesta hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde hay fiesta hoy?",
+      "item": "onde-ha-fiesta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay música en vivo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há música ao vivo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay música en vivo?",
+      "item": "musica-ao-vivo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una caña bien fría»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial bem gelada.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña bien fría.",
+      "item": "imperial-gelada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una caña, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos al Bairro Alto». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Alto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bairro Alto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ao Bairro Alto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una invitación a ir a un lugar popular de fiesta en Lisboa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos al Bairro Alto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos al Bairro Alto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Una ronda, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favor",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rodada por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada por favor",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pidiendo una ronda de bebidas en un bar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una ronda, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una ronda, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Salud». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "úde",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión común al brindar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Salud»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Salud».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está lleno». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "io",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cheio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para describir un lugar con mucha gente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está lleno»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Está lleno».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Una ronda, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde hay un bar con terraza?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ço",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "raço",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "terraço",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "há um bar com terraço",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por un lugar específico para disfrutar al aire libre.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde hay un bar con terraza?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde hay un bar con terraza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Eso es portugués de la calle: fixe es guay y bora es vamos. Con amigos, siempre; con un señor mayor, mejor não.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos a la fiesta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bora-festa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "festa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bora-festa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "à festa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bora-festa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bora-festa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión para animar a ir a una fiesta.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la fiesta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos a la fiesta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Está lleno».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se va a la playa?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Como se vai para a praia?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se va a la playa?",
+      "item": "como-vai-praia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Imperativos y exclamaciones.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El imperativo se usa para dar órdenes o hacer sugerencias. Las exclamaciones como 'Saúde!' son comunes en brindis.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, bora!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, ¡vamos!",
+      "item": "sim-bora"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, ¡vamos».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, bora!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, ¡vamos!",
+      "item": "sim-bora"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, hoje não.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, hoy no.",
+      "item": "nao-hoje-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, hoy no».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, hoje não.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, hoy no.",
+      "item": "nao-hoje-nao"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres invitar a tus amigos a ir al Bairro Alto.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pides una ronda de bebidas para todos.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Vamos al Bairro Alto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una ronda, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Salud».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está lleno»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde hay un bar con terraza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos a la fiesta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde hay fiesta hoy?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há fiesta hoje?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde hay fiesta hoy?",
+      "item": "onde-ha-fiesta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Hay música en vivo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Há música ao vivo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hay música en vivo?",
+      "item": "musica-ao-vivo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Una caña bien fría»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial bem gelada.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña bien fría.",
+      "item": "imperial-gelada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una caña, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma imperial, por favor.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Una caña, por favor.",
+      "item": "uma-imperial-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La cuenta, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A conta, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La cuenta, por favor.",
+      "item": "a-conta-por-favor"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Puedo acampar aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Posso acampar aqui?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedo acampar aquí?",
+      "item": "posso-acampar-aqui"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanto custa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "quanto-custa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Vamos al Bairro Alto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": "vamos-bairro-alto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Una ronda, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Salud».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Salud!",
+      "item": "saude-brinde"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está lleno»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está lleno.",
+      "item": "esta-cheio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde hay un bar con terraza?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": "bar-com-terraco"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos a la fiesta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde há festa hoje?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde hay fiesta hoy?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Vamos ao Bairro Alto!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Vamos al Bairro Alto!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Una ronda, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saúde!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Salud!",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está cheio aqui.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Está lleno aquí.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Onde há um bar com terraço?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde hay un bar con terraza?",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.6,
+    "chars": 4494,
+    "cues": 179,
+    "mode": "lesson",
+    "lesson": 27
+  }
+}

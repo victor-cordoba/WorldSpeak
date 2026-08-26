@@ -1,0 +1,1635 @@
+{
+  "title": "Conversación en la boulangerie",
+  "subtitle": "Aprenderás a pedir en una boulangerie y usar frases de cortesía.",
+  "summary_es": "Una conversación completa en una boulangerie.",
+  "topics": [
+    "cortesía",
+    "compras",
+    "saludo",
+    "despedida",
+    "pago"
+  ],
+  "dialogue": {
+    "tl": [
+      "Bonjour, Monsieur. Que puis-je pour vous ?",
+      "Bonjour, Madame. Un croissant, s'il vous plaît.",
+      "Bien sûr. C'est tout ?",
+      "Oui, c'est tout. Merci.",
+      "Pas de souci. Ça fait deux euros.",
+      "Je paie par carte.",
+      "D'accord. Bonne journée !"
+    ],
+    "es": [
+      "Buenos días, señor. ¿Qué puedo hacer por usted?",
+      "Buenos días, señora. Un croissant, por favor.",
+      "Por supuesto. ¿Es todo?",
+      "Sí, eso es todo. Gracias.",
+      "No hay problema. Son dos euros.",
+      "Pago con tarjeta.",
+      "De acuerdo. ¡Buen día!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Excusez-moi.",
+      "es": "Perdone."
+    },
+    {
+      "term": "Pardon.",
+      "es": "Perdón."
+    },
+    {
+      "term": "Un instant.",
+      "es": "Un momento."
+    },
+    {
+      "term": "Comment on dit… en français ?",
+      "es": "¿Cómo se dice… en francés?"
+    },
+    {
+      "term": "Pas de souci.",
+      "es": "No hay problema."
+    },
+    {
+      "term": "Allez !",
+      "es": "¡Vamos!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 8. Conversación en la boulangerie.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Te encuentras en una boulangerie en París, listo para practicar tu francés. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur. Que puis-je pour vous ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señor. ¿Qué puedo hacer por usted?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Madame. Un croissant, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señora. Un croissant, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bien sûr. C'est tout ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Por supuesto. ¿Es todo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est tout. Merci.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, eso es todo. Gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pas de souci. Ça fait deux euros.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No hay problema. Son dos euros.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je paie par carte.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Pago con tarjeta.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "D'accord. Bonne journée !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo. ¡Buen día!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a pedir en una boulangerie y usar frases de cortesía. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un croissant, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un croissant, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un croissant, por favor.",
+      "item": "un-croissant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Pago con tarjeta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je paie par carte.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago con tarjeta.",
+      "item": "je-paie-par-carte"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso es todo, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est tout, merci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es todo, gracias.",
+      "item": "cest-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Perdone». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "-moi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sez-moi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cusez-moi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para llamar la atención de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdone»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Perdón». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "don",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pardon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pardon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Se usa para disculparse o al pedir paso.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Perdón»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Perdón».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Un momento». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "stant",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-instant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "instant",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "un-instant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "un-instant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para pedir que esperen un momento.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un momento»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo se dice… en francés?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "is",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "çais",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "français",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "on dit… en français",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar cómo se dice algo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en francés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cómo se dice… en francés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Perdón».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No hay problema». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "uci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "souci",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "de souci",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión para tranquilizar a alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No hay problema»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Vamos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lez",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "allez"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "allez"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para animar o dar prisa.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo se dice… en francés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu peux répéter ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Puedes repetir?",
+      "item": "tu-peux-repeter"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'tu' y 'vous'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En francés, 'tu' se usa con amigos y personas jóvenes, mientras que 'vous' es más formal y se usa con desconocidos o personas mayores. En una boulangerie, es común usar 'vous' como señal de respeto.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Buenos días, señor.",
+      "item": "bonjour-monsieur"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Madame.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Buenos días, señora.",
+      "item": "bonjour-madame"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Buenos días, señor.",
+      "item": "bonjour-monsieur"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Buenos días, señor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Buenos días, señor.",
+      "item": "bonjour-monsieur"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Madame.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Buenos días, señora.",
+      "item": "bonjour-madame"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Buenos días, señora».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Madame.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Buenos días, señora.",
+      "item": "bonjour-madame"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una boulangerie y quieres pedir un croissant. ¿Cómo lo harías?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un croissant, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un croissant, por favor.",
+      "item": "un-croissant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Perdón».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en francés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Hola!",
+      "item": "bonjour"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un croissant, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un croissant, s'il vous plaît.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Un croissant, por favor.",
+      "item": "un-croissant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est combien ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta?",
+      "item": "cest-combien"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Pago con tarjeta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je paie par carte.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pago con tarjeta.",
+      "item": "je-paie-par-carte"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Eso es todo, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "C'est tout, merci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Eso es todo, gracias.",
+      "item": "cest-tout"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo se va a...?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on va à...?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo se va a...?",
+      "item": "comment-on-va-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Quiero»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je veux...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero...",
+      "item": "je-veux"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Excusez-moi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdone.",
+      "item": "excusez-moi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Perdón».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pardon.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdón.",
+      "item": "pardon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Un momento».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Un instant.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un momento.",
+      "item": "un-instant"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en francés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Vamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Allez !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos!",
+      "item": "allez"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bonjour, Monsieur. Que puis-je pour vous ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señor. ¿Qué puedo hacer por usted?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bonjour, Madame. Un croissant, s'il vous plaît.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, señora. Un croissant, por favor.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bien sûr. C'est tout ?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Por supuesto. ¿Es todo?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Oui, c'est tout. Merci.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, eso es todo. Gracias.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pas de souci. Ça fait deux euros.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No hay problema. Son dos euros.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Je paie par carte.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Pago con tarjeta.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "D'accord. Bonne journée !",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo. ¡Buen día!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Allez, à bientôt !",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.8,
+    "chars": 4148,
+    "cues": 174,
+    "mode": "lesson",
+    "lesson": 8
+  }
+}

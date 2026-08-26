@@ -1,0 +1,1558 @@
+{
+  "title": "What do you do?",
+  "subtitle": "Aprender a preguntar y responder sobre el trabajo",
+  "summary_es": "Una frase",
+  "topics": [
+    "trabajo",
+    "present simple",
+    "questions",
+    "professions"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, nice to meet you.",
+      "Nice to meet you too. What do you do?",
+      "I'm a teacher. And you?",
+      "I work in marketing.",
+      "That's nice. Do you like it?",
+      "Yes, I love it. What does your partner do?",
+      "My partner is a doctor."
+    ],
+    "es": [
+      "Hola, encantado de conocerte.",
+      "Encantada de conocerte también. ¿A qué te dedicas?",
+      "Soy profesor. ¿Y tú?",
+      "Trabajo en marketing.",
+      "Eso es agradable. ¿Te gusta?",
+      "Sí, me encanta. ¿A qué se dedica tu pareja?",
+      "Mi pareja es médico."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "What do you do?",
+      "es": "¿A qué te dedicas?"
+    },
+    {
+      "term": "I work from home.",
+      "es": "Trabajo desde casa."
+    },
+    {
+      "term": "I'm retired.",
+      "es": "Estoy jubilado."
+    },
+    {
+      "term": "What does your partner do?",
+      "es": "¿A qué se dedica tu pareja?"
+    },
+    {
+      "term": "I'm a teacher.",
+      "es": "Soy profesor."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 12. What do you do?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un acogedor pub de Camden, dos personas se conocen por primera vez. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, nice to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, encantado de conocerte.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nice to meet you too. What do you do?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantada de conocerte también. ¿A qué te dedicas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy profesor. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I work in marketing.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Trabajo en marketing.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice. Do you like it?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Eso es agradable. ¿Te gusta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I love it. What does your partner do?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me encanta. ¿A qué se dedica tu pareja?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My partner is a doctor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi pareja es médico.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre el trabajo Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Solo yo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Solo yo.",
+      "item": "just-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No lo sé»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A qué te dedicas?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do you do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para conocer a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué te dedicas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo desde casa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "me",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "home",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "from home",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "work from home",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Situación laboral común",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo desde casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo desde casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy jubilado». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "red",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-retired"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tired",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-retired"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "retired",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-retired"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-retired"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responder sobre estado laboral",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy jubilado»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy jubilado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A qué se dedica tu pareja?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "partner do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "your partner do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "does your partner do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la pareja",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué se dedica tu pareja?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A qué se dedica tu pareja?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Trabajo desde casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy profesor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "her",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "acher",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "teacher",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a teacher",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responder sobre la profesión",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy profesor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy profesor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you speak Spanish?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "do-you-speak-spanish"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntas y respuestas sobre el trabajo.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés, para preguntar sobre el trabajo de alguien, usamos 'What do you do?'. Se responde con 'I'm a...' seguido de la profesión. También podemos decir 'I work in...' para indicar el sector.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy profesor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I study biology.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estudio biología.",
+      "item": "i-study"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estudio biología».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I study biology.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estudio biología.",
+      "item": "i-study"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I work in marketing.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Trabajo en marketing.",
+      "item": "i-work-in"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo en marketing».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I work in marketing.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo en marketing.",
+      "item": "i-work-in"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My partner is a doctor.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Mi pareja es médico.",
+      "item": "my-partner-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi pareja es médico».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My partner is a doctor.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi pareja es médico.",
+      "item": "my-partner-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien en qué trabaja.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo desde casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy jubilado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué se dedica tu pareja?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy profesor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where are you from?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "where-are-you-from"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy de España, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm from Spain, from Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy de España, de Madrid.",
+      "item": "im-from-spain"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you have family here?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Tienes familia aquí?",
+      "item": "do-you-have-family"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How old are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "how-old-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Solo yo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Just me.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Solo yo.",
+      "item": "just-me"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quisiera una taza de té, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'd like a cup of tea, please.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Quisiera una taza de té, por favor.",
+      "item": "id-like"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No lo sé»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I don't know.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No lo sé.",
+      "item": "i-dont-know"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿A qué te dedicas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What do you do?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A qué te dedicas?",
+      "item": "what-do-you-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo desde casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I work from home.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo desde casa.",
+      "item": "i-work-from-home"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy jubilado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm retired.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy jubilado.",
+      "item": "im-retired"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A qué se dedica tu pareja?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What does your partner do?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿A qué se dedica tu pareja?",
+      "item": "what-does-your-partner-do"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy profesor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy profesor.",
+      "item": "im-a"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, nice to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, encantado de conocerte.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nice to meet you too. What do you do?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantada de conocerte también. ¿A qué te dedicas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm a teacher. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy profesor. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I work in marketing.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Trabajo en marketing.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "That's nice. Do you like it?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Eso es agradable. ¿Te gusta?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I love it. What does your partner do?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me encanta. ¿A qué se dedica tu pareja?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My partner is a doctor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi pareja es médico.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.6,
+    "chars": 4216,
+    "cues": 166,
+    "mode": "lesson",
+    "lesson": 12
+  }
+}

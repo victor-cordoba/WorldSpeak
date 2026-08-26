@@ -1,0 +1,1586 @@
+{
+  "title": "Prazer, até amanhã",
+  "subtitle": "Aprender a despedirse y mantener el contacto",
+  "summary_es": "Despedidas y contacto en portugués.",
+  "topics": [
+    "despedidas",
+    "contacto",
+    "imperativo",
+    "cortesia",
+    "social"
+  ],
+  "dialogue": {
+    "tl": [
+      "Foi um prazer surfar contigo hoje.",
+      "Sim, foi fixe! Vamos surfar amanhã?",
+      "Claro! Até amanhã então.",
+      "Dá-me o teu número, assim combinamos melhor.",
+      "Boa ideia! Manda mensagem mais tarde."
+    ],
+    "es": [
+      "Ha sido un placer surfear contigo hoy.",
+      "¡Sí, ha sido genial! ¿Vamos a surfear mañana?",
+      "¡Claro! Hasta mañana entonces.",
+      "Dame tu número, así lo organizamos mejor.",
+      "¡Buena idea! Manda un mensaje más tarde."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Foi um prazer.",
+      "es": "Ha sido un placer."
+    },
+    {
+      "term": "Falamos.",
+      "es": "Hablamos."
+    },
+    {
+      "term": "Até amanhã.",
+      "es": "Hasta mañana."
+    },
+    {
+      "term": "És fixe!",
+      "es": "¡Eres genial!"
+    },
+    {
+      "term": "Dá-me o teu número.",
+      "es": "Dame tu número."
+    },
+    {
+      "term": "Manda mensagem.",
+      "es": "Manda un mensaje."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 14. Prazer, até amanhã.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una playa de Ericeira, después de una sesión de surf, dos amigos se despiden. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer surfar contigo hoje.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ha sido un placer surfear contigo hoy.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, foi fixe! Vamos surfar amanhã?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Sí, ha sido genial! ¿Vamos a surfear mañana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Claro! Até amanhã então.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! Hasta mañana entonces.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dá-me o teu número, assim combinamos melhor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Dame tu número, así lo organizamos mejor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Boa ideia! Manda mensagem mais tarde.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buena idea! Manda un mensaje más tarde.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a despedirse y mantener el contacto Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy español, de Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Ha sido un placer». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "prazer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "um prazer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Despedida educada después de una conversación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ha sido un placer»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ha sido un placer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hablamos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mos",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "falamos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lamos",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "falamos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "falamos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Forma de despedida indicando que se mantendrá el contacto.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hablamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hablamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Hasta mañana». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "manhã",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "amanhã",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Despedida para verse al día siguiente.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hasta mañana»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hasta mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Eres genial». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "xe",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "es-fixe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fixe",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "es-fixe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "es-fixe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Elogio informal y amistoso.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Eres genial».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hablamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Dame tu número». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ro",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mero",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "número",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "o teu número",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pidiendo el número de teléfono de manera informal.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Dame tu número»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Dame tu número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Manda un mensaje». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gem",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sagem",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mensagem",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sugerencia para mantenerse en contacto.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Manda un mensaje»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Manda un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Eres genial».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Está abierto ahora?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Está aberto agora?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Está abierto ahora?",
+      "item": "esta-aberto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Imperativo informal.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El imperativo en portugués se usa para dar órdenes o sugerencias. En el registro informal, se utiliza la forma del presente del indicativo pero con algunas diferencias. Por ejemplo, 'dá-me' en lugar de 'dás-me'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, até amanhã!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, ¡hasta mañana!",
+      "item": "sim-ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, ¡hasta mañana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, até amanhã!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, ¡hasta mañana!",
+      "item": "sim-ate-amanha"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não posso amanhã.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no puedo mañana.",
+      "item": "nao-posso-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no puedo mañana».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não posso amanhã.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no puedo mañana.",
+      "item": "nao-posso-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en la playa y quieres despedirte hasta mañana.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres pedir el número de teléfono de un amigo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ha sido un placer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hablamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hasta mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Dame tu número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Manda un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De dónde eres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy español, de Madrid»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde se surfea bien aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde é que se surfa bem aqui?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde se surfea bien aquí?",
+      "item": "onde-surfar-bem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Ha sido un placer».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ha sido un placer.",
+      "item": "foi-um-prazer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Hablamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falamos.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hablamos.",
+      "item": "falamos"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hasta mañana».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Até amanhã.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hasta mañana.",
+      "item": "ate-amanha"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Eres genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "És fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Eres genial!",
+      "item": "es-fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Dame tu número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dá-me o teu número.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame tu número.",
+      "item": "da-me-teu-numero"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Manda un mensaje».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Manda mensagem.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Manda un mensaje.",
+      "item": "manda-mensagem"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Foi um prazer surfar contigo hoje.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ha sido un placer surfear contigo hoy.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, foi fixe! Vamos surfar amanhã?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Sí, ha sido genial! ¿Vamos a surfear mañana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Claro! Até amanhã então.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! Hasta mañana entonces.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dá-me o teu número, assim combinamos melhor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Dame tu número, así lo organizamos mejor.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Boa ideia! Manda mensagem mais tarde.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Buena idea! Manda un mensaje más tarde.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.5,
+    "chars": 4110,
+    "cues": 169,
+    "mode": "lesson",
+    "lesson": 14
+  }
+}

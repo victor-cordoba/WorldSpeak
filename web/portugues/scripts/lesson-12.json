@@ -1,0 +1,1594 @@
+{
+  "title": "O que fazes?",
+  "subtitle": "Aprender a preguntar y responder sobre ocupaciones y actividades.",
+  "summary_es": "Preguntar y responder sobre qué haces.",
+  "topics": [
+    "preguntar",
+    "trabajo",
+    "moverse",
+    "presentarse"
+  ],
+  "dialogue": {
+    "tl": [
+      "Olá! O que fazes aqui?",
+      "Olá! Ando a viajar e a surfar.",
+      "Fixe! Sou surfista também.",
+      "Trabalho remoto, por isso posso viajar.",
+      "Que bom! Eu estudo e surfo nos fins de semana."
+    ],
+    "es": [
+      "¡Hola! ¿Qué haces aquí?",
+      "¡Hola! Estoy viajando y surfeando.",
+      "¡Genial! Yo también soy surfista.",
+      "Trabajo remoto, por eso puedo viajar.",
+      "¡Qué bien! Yo estudio y surfeo los fines de semana."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "O que fazes?",
+      "es": "¿Qué haces?"
+    },
+    {
+      "term": "Sou...",
+      "es": "Soy..."
+    },
+    {
+      "term": "Estudo",
+      "es": "Estudio"
+    },
+    {
+      "term": "Trabalho em...",
+      "es": "Trabajo en..."
+    },
+    {
+      "term": "Trabalho remoto",
+      "es": "Trabajo remoto"
+    },
+    {
+      "term": "Ando a viajar",
+      "es": "Estoy viajando"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 12. O que fazes?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una playa de Ericeira, dos jóvenes se conocen mientras descansan después de surfear. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! O que fazes aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Qué haces aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Olá! Ando a viajar e a surfar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Estoy viajando y surfeando.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe! Sou surfista também.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! Yo también soy surfista.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Trabalho remoto, por isso posso viajar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Trabajo remoto, por eso puedo viajar.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que bom! Eu estudo e surfo nos fins de semana.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Qué bien! Yo estudio y surfeo los fines de semana.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre ocupaciones y actividades. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Allí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial!",
+      "item": "fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué haces?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "zes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fazes",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "que fazes",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta común para conocer a alguien",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué haces?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Soy». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para decir tu profesión o actividad",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estudio». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "do",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estudo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tudo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estudo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "estudo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar que eres estudiante",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estudio»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo en». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "em",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para decir dónde trabajas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Trabajo remoto». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "moto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "remoto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar que trabajas desde casa",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo remoto»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Trabajo remoto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy viajando». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "jar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ajar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "viajar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar que estás de viaje",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy viajando»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy viajando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Trabajo en».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Hablas español?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Falas espanhol?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas español?",
+      "item": "falas-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'fazer' y 'andar a'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En portugués, 'fazer' se usa para preguntar sobre ocupaciones. 'Andar a' indica una acción continua, como 'andar a viajar'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estudo.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estudio.",
+      "item": "sim-estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estudio».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sim, estudo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, estudio.",
+      "item": "sim-estudo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não trabalho.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no trabajo.",
+      "item": "nao-trabalho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no trabajo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Não, não trabalho.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no trabajo.",
+      "item": "nao-trabalho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien qué hace aquí.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que trabajas en remoto.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Trabajo remoto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy viajando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De dónde eres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "De onde és?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De dónde eres?",
+      "item": "de-onde-es"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Soy español, de Madrid».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou espanhol, de Madrid.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Soy español, de Madrid.",
+      "item": "sou-espanhol"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vine para surfear»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Vim para surfar.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vine para surfear.",
+      "item": "vim-para-surfar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Portugal».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gosto de Portugal.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Portugal.",
+      "item": "gosto-de-portugal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prazer em conhecer-te!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado de conocerte!",
+      "item": "prazer-conhecer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Allí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ali",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Allí",
+      "item": "ali"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Genial»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Genial!",
+      "item": "fixe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "O que fazes?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué haces?",
+      "item": "o-que-fazes"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Soy».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy...",
+      "item": "sou"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estudio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Estudo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estudio",
+      "item": "estudo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Trabajo en»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho em...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo en...",
+      "item": "trabalho-em"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Trabajo remoto».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Trabalho remoto",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Trabajo remoto",
+      "item": "trabalho-remoto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy viajando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ando a viajar",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy viajando",
+      "item": "ando-a-viajar"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Olá! O que fazes aqui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! ¿Qué haces aquí?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Olá! Ando a viajar e a surfar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Hola! Estoy viajando y surfeando.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Fixe! Sou surfista também.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Genial! Yo también soy surfista.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Trabalho remoto, por isso posso viajar.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Trabajo remoto, por eso puedo viajar.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Que bom! Eu estudo e surfo nos fins de semana.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Qué bien! Yo estudio y surfeo los fines de semana.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Bora, até já!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.0,
+    "chars": 3667,
+    "cues": 170,
+    "mode": "lesson",
+    "lesson": 12
+  }
+}

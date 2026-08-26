@@ -1,0 +1,1494 @@
+{
+  "title": "Conversaciones en el pub",
+  "subtitle": "Aprender a preguntar y responder sobre gustos personales",
+  "summary_es": "Una lección sobre cómo preguntar y responder sobre gustos.",
+  "topics": [
+    "preguntar",
+    "comida",
+    "social",
+    "gustos",
+    "aficiones"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, what's your name?",
+      "I'm Emma. Nice to meet you.",
+      "Nice to meet you too. What's your favourite food?",
+      "My favourite food is fish and chips. And you?",
+      "Me too. Do you like football?",
+      "I love football."
+    ],
+    "es": [
+      "Hola, ¿cómo te llamas?",
+      "Soy Emma. Encantada de conocerte.",
+      "Encantado de conocerte también. ¿Cuál es tu comida favorita?",
+      "Mi comida favorita es el pescado con patatas fritas. ¿Y tú?",
+      "Yo también. ¿Te gusta el fútbol?",
+      "Me encanta el fútbol."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "What's your favourite food?",
+      "es": "¿Cuál es tu comida favorita?"
+    },
+    {
+      "term": "Do you like football?",
+      "es": "¿Te gusta el fútbol?"
+    },
+    {
+      "term": "And you?",
+      "es": "¿Y tú?"
+    },
+    {
+      "term": "What's your hobby?",
+      "es": "¿Cuál es tu afición?"
+    },
+    {
+      "term": "My favourite food is fish and chips.",
+      "es": "Mi comida favorita es el pescado con patatas fritas."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 3. Conversaciones en el pub.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En un pub de Londres, dos personas se conocen mejor mientras disfrutan de una pinta. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, what's your name?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm Emma. Nice to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy Emma. Encantada de conocerte.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you too. What's your favourite food?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantado de conocerte también. ¿Cuál es tu comida favorita?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Me too. Do you like football?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también. ¿Te gusta el fútbol?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I love football.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me encanta el fútbol.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre gustos personales Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es tu comida favorita?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "od",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "food",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favourite food",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "your favourite food",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "útil para iniciar una conversación sobre gustos personales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu comida favorita?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gusta el fútbol?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ball",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "otball",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "football",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you like football",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta común en el Reino Unido sobre deportes",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta el fútbol?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta el fútbol?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Y tú?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "and-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "and-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "útil para devolver la pregunta a la otra persona",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es tu afición?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hobby",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "your hobby",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta para conocer intereses personales",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu afición?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuál es tu afición?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te gusta el fútbol?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi comida favorita es el pescado con patatas fritas». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chips",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "fish and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "favourite food is fish and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "una respuesta típica sobre gustos culinarios británicos",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Mi comida favorita es el pescado con patatas fritas»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Mi comida favorita es el pescado con patatas fritas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hola».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Sin artículo en posesivos.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En inglés, no usamos artículos como 'the' o 'a' antes de los posesivos. Decimos 'my car', no 'the my car'. Esto hace que las frases sean más directas.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My hobby is painting.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Mi afición es la pintura.",
+      "item": "my-hobby-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi comida favorita es el pescado con patatas fritas».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I love football.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Me encanta el fútbol.",
+      "item": "i-love-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me encanta el fútbol».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I love football.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me encanta el fútbol.",
+      "item": "i-love-football"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Me too.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Yo también.",
+      "item": "me-too"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Yo también».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Me too.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Yo también.",
+      "item": "me-too"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My hobby is painting.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Mi afición es la pintura.",
+      "item": "my-hobby-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Mi afición es la pintura».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My hobby is painting.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Mi afición es la pintura.",
+      "item": "my-hobby-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien cuál es su comida favorita.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde diciendo que tu comida favorita es el pescado con patatas fritas.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta el fútbol?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu afición?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi comida favorita es el pescado con patatas fritas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy bien, gracias»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I'm good, thanks.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy bien, gracias.",
+      "item": "im-good-thanks"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo te llamas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your name?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "whats-your-name"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu comida favorita?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your favourite food?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es tu comida favorita?",
+      "item": "whats-your-favourite-food"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta el fútbol?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you like football?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta el fútbol?",
+      "item": "do-you-like-football"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Y tú?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es tu afición?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What's your hobby?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu afición?",
+      "item": "whats-your-hobby"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Mi comida favorita es el pescado con patatas fritas».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
+      "item": "my-favourite-food-is"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, what's your name?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿cómo te llamas?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I'm Emma. Nice to meet you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy Emma. Encantada de conocerte.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you too. What's your favourite food?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Encantado de conocerte también. ¿Cuál es tu comida favorita?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "My favourite food is fish and chips. And you?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Mi comida favorita es el pescado con patatas fritas. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Me too. Do you like football?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también. ¿Te gusta el fútbol?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "I love football.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me encanta el fútbol.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.0,
+    "chars": 4619,
+    "cues": 159,
+    "mode": "lesson",
+    "lesson": 3
+  }
+}

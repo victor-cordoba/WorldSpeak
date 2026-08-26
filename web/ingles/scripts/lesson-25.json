@@ -1,0 +1,1648 @@
+{
+  "title": "Praying together",
+  "subtitle": "Aprender a hablar sobre la fe y la oración.",
+  "summary_es": "Una lección sobre la fe en el Reino Unido.",
+  "topics": [
+    "fe",
+    "oración",
+    "iglesia",
+    "creencias"
+  ],
+  "dialogue": {
+    "tl": [
+      "Hi, did you enjoy the service?",
+      "Yes, it was lovely. Would you like to pray together?",
+      "Sure, let's say the Lord's Prayer.",
+      "Do you believe in God?",
+      "Yes, I believe. God bless you."
+    ],
+    "es": [
+      "Hola, ¿disfrutaste del servicio?",
+      "Sí, fue encantador. ¿Te gustaría rezar juntos?",
+      "Claro, recitemos el Padrenuestro.",
+      "¿Crees en Dios?",
+      "Sí, creo. Que Dios te bendiga."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Would you like to pray?",
+      "es": "¿Te gustaría rezar?"
+    },
+    {
+      "term": "The Lord's Prayer",
+      "es": "El Padrenuestro"
+    },
+    {
+      "term": "Mass / church service",
+      "es": "Misa / servicio religioso"
+    },
+    {
+      "term": "God bless you.",
+      "es": "Que Dios te bendiga."
+    },
+    {
+      "term": "Westminster / Canterbury",
+      "es": "Westminster / Canterbury"
+    },
+    {
+      "term": "Do you believe in God?",
+      "es": "¿Crees en Dios?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 25. Praying together.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una iglesia en Londres, dos personas conversan después de un servicio religioso. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, did you enjoy the service?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿disfrutaste del servicio?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it was lovely. Would you like to pray together?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, fue encantador. ¿Te gustaría rezar juntos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure, let's say the Lord's Prayer.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, recitemos el Padrenuestro.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Crees en Dios?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, I believe. God bless you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, creo. Que Dios te bendiga.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a hablar sobre la fe y la oración. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí / No»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes / No.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí / No.",
+      "item": "yes-no"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué te trae por aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te gustaría rezar?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pray",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to pray",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "like to pray",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you like to pray",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una forma cortés de invitar a alguien a unirse en oración.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te gustaría rezar?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gustaría rezar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El Padrenuestro». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "yer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Prayer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Una oración cristiana tradicional.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El Padrenuestro»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El Padrenuestro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Misa / servicio religioso». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ce",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vice",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "service",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Eventos religiosos comunes en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Misa / servicio religioso»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Misa / servicio religioso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Que Dios te bendiga». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bless you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión de buenos deseos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Que Dios te bendiga»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Que Dios te bendiga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El Padrenuestro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Westminster / Canterbury». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bury",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "terbury",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Canterbury",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "/ Canterbury",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lugares icónicos de fe en el Reino Unido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Westminster / Canterbury»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Westminster / Canterbury».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Crees en Dios?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "in God",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "believe in God",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "you believe in God",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la fe personal.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Crees en Dios?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Crees en Dios?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Que Dios te bendiga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Tú puedes hacerlo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "You can do it!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Tú puedes hacerlo!",
+      "item": "you-can-do-it"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hablar sobre la fe.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En el Reino Unido, hablar sobre la fe puede ser un tema personal. Es importante ser respetuoso y usar un lenguaje cortés. Preguntas como 'Do you believe in God?' deben hacerse con sensibilidad.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I believe.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, creo.",
+      "item": "yes-i-believe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, creo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, I believe.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Sí, creo.",
+      "item": "yes-i-believe"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't believe.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no creo.",
+      "item": "no-i-dont-believe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no creo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "No, I don't believe.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No, no creo.",
+      "item": "no-i-dont-believe"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una iglesia y quieres invitar a alguien a rezar contigo. ¿Qué dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gustaría rezar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El Padrenuestro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Misa / servicio religioso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Que Dios te bendiga»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Westminster / Canterbury».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Crees en Dios?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola",
+      "item": "hi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "How are you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "how-are-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí / No»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes / No.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí / No.",
+      "item": "yes-no"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Thank you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "thank-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Encantado de conocerte»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nice to meet you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Encantado de conocerte.",
+      "item": "nice-to-meet-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué te trae por aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "What brings you here?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué te trae por aquí?",
+      "item": "what-brings-you-here"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Y tú?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "And you?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Y tú?",
+      "item": "and-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te gustaría rezar?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Would you like to pray?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te gustaría rezar?",
+      "item": "would-you-like-to-pray"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El Padrenuestro».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "The Lord's Prayer",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El Padrenuestro",
+      "item": "the-lords-prayer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Misa / servicio religioso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mass / church service",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Misa / servicio religioso",
+      "item": "mass-church-service"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Que Dios te bendiga»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "God bless you.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que Dios te bendiga.",
+      "item": "god-bless-you"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Westminster / Canterbury».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Westminster / Canterbury",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Westminster / Canterbury",
+      "item": "westminster-canterbury"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Crees en Dios?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Crees en Dios?",
+      "item": "do-you-believe-in-god"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hi, did you enjoy the service?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿disfrutaste del servicio?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Yes, it was lovely. Would you like to pray together?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, fue encantador. ¿Te gustaría rezar juntos?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sure, let's say the Lord's Prayer.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Claro, recitemos el Padrenuestro.",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Do you believe in God?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Crees en Dios?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Yes, I believe. God bless you.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, creo. Que Dios te bendiga.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Cheers, see you!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 13.8,
+    "chars": 4575,
+    "cues": 176,
+    "mode": "lesson",
+    "lesson": 25
+  }
+}

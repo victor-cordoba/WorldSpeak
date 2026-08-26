@@ -1,0 +1,1715 @@
+{
+  "title": "Dal dottore e in farmacia",
+  "subtitle": "Aprende a expresar malestares y buscar ayuda médica.",
+  "summary_es": "Una lección sobre salud y emergencias médicas.",
+  "topics": [
+    "salud",
+    "emergencias",
+    "lugares",
+    "verbos"
+  ],
+  "dialogue": {
+    "tl": [
+      "Buongiorno, come posso aiutarla?",
+      "Ho mal di testa e ho bisogno di una ricetta.",
+      "Capisco, dov'è il pronto soccorso più vicino?",
+      "Sto meglio, grazie. Dov'è la farmacia più vicina?",
+      "La farmacia è qui vicino, a destra."
+    ],
+    "es": [
+      "Buenos días, ¿cómo puedo ayudarle?",
+      "Tengo dolor de cabeza y necesito una receta.",
+      "Entiendo, ¿dónde está urgencias más cercana?",
+      "Estoy mejor, gracias. ¿Dónde está la farmacia más cercana?",
+      "La farmacia está aquí cerca, a la derecha."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Ho mal di testa.",
+      "es": "Tengo dolor de cabeza."
+    },
+    {
+      "term": "Ho mal di pancia.",
+      "es": "Tengo dolor de barriga."
+    },
+    {
+      "term": "Ho la febbre.",
+      "es": "Tengo fiebre."
+    },
+    {
+      "term": "Dov'è la farmacia?",
+      "es": "¿Dónde está la farmacia?"
+    },
+    {
+      "term": "Ho bisogno di una ricetta.",
+      "es": "Necesito una receta."
+    },
+    {
+      "term": "Dov'è il pronto soccorso?",
+      "es": "¿Dónde está urgencias?"
+    },
+    {
+      "term": "Sto meglio.",
+      "es": "Estoy mejor."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 28. Dal dottore e in farmacia.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una farmacia en Roma, un cliente busca ayuda para un malestar. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno, come posso aiutarla?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, ¿cómo puedo ayudarle?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho mal di testa e ho bisogno di una ricetta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo dolor de cabeza y necesito una receta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Capisco, dov'è il pronto soccorso più vicino?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Entiendo, ¿dónde está urgencias más cercana?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sto meglio, grazie. Dov'è la farmacia più vicina?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy mejor, gracias. ¿Dónde está la farmacia más cercana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La farmacia è qui vicino, a destra.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La farmacia está aquí cerca, a la derecha.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a expresar malestares y buscar ayuda médica. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona / Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El aperitivo está listo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'aperitivo è pronto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo está listo.",
+      "item": "l-aperitivo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo dolor de cabeza». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "testa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "di testa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mal di testa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "frase común para expresar un malestar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo dolor de cabeza»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo dolor de cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo dolor de barriga». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pancia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "di pancia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mal di pancia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "frase común para expresar un malestar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo dolor de barriga»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo dolor de barriga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo fiebre». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-febbre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "febbre",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-febbre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la febbre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-febbre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-febbre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar que se tiene fiebre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo fiebre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo fiebre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está la farmacia?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "macia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "farmacia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la farmacia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta útil para encontrar una farmacia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la farmacia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está la farmacia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo dolor de barriga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Necesito una receta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cetta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ricetta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bisogno di una ricetta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para solicitar una receta médica",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Necesito una receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Necesito una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde está urgencias?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "so",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "corso",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "soccorso",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "il pronto soccorso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta para encontrar atención médica urgente",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está urgencias?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde está la farmacia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy mejor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "meglio",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "para indicar mejora en la salud",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mejor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy mejor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Así está bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Basta così, grazie.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Así está bien, gracias.",
+      "item": "basta-cosi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresiones de salud.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, para expresar un malestar, se usa 'ho' seguido del malestar. Por ejemplo, 'ho mal di testa' para 'tengo dolor de cabeza'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Se necesita un médico».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Serve un medico!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Se necesita un médico!",
+      "item": "serve-un-medico"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Tienes fiebre y necesitas una receta. ¿Cómo lo dices?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo dolor de cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo dolor de barriga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo fiebre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la farmacia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy mejor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy mal»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto male.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mal.",
+      "item": "sto-male"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Perdona / Perdone».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scusa / Scusi",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Perdona / Perdone",
+      "item": "scusa-scusi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove sei?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde estás?",
+      "item": "dove-sei"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Eres feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sei felice?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Eres feliz?",
+      "item": "sei-felice"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El aperitivo está listo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "L'aperitivo è pronto.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El aperitivo está listo.",
+      "item": "l-aperitivo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo dolor de cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di testa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de cabeza.",
+      "item": "ho-mal-di-testa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo dolor de barriga».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho mal di pancia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo dolor de barriga.",
+      "item": "ho-mal-di-pancia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo fiebre».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho la febbre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo fiebre.",
+      "item": "la-febbre"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la farmacia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è la farmacia?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde está la farmacia?",
+      "item": "la-farmacia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Necesito una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho bisogno di una ricetta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Necesito una receta.",
+      "item": "una-ricetta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde está urgencias?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dov'è il pronto soccorso?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está urgencias?",
+      "item": "il-pronto-soccorso"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Estoy mejor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sto meglio.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy mejor.",
+      "item": "sto-meglio"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buongiorno, come posso aiutarla?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buenos días, ¿cómo puedo ayudarle?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho mal di testa e ho bisogno di una ricetta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo dolor de cabeza y necesito una receta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Capisco, dov'è il pronto soccorso più vicino?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Entiendo, ¿dónde está urgencias más cercana?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sto meglio, grazie. Dov'è la farmacia più vicina?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy mejor, gracias. ¿Dónde está la farmacia más cercana?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "La farmacia è qui vicino, a destra.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "La farmacia está aquí cerca, a la derecha.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ci vediamo!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.0,
+    "chars": 4653,
+    "cues": 183,
+    "mode": "lesson",
+    "lesson": 28
+  }
+}
