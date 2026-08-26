@@ -69,7 +69,7 @@ def main():
         def as_wav(path):
             if path not in wav_cache:
                 out = tmp / (path.stem + ".wav")
-                subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(path), "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(out)], check=True)
+                subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(path), "-af", "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.06", "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(out)], check=True)  # recorta el silencio de ENTRADA del clip (deja 60 ms); el final no se toca
                 wav_cache[path] = out
             return wav_cache[path]
 
