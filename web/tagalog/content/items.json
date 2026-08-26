@@ -1731,6 +1731,118 @@
         "vida"
       ],
       "lesson": 16
+    },
+    {
+      "id": "inaalagaan-ka-ba-nila",
+      "tl": "Inaalagaan ka ba nila?",
+      "es": "¿Te cuidan?",
+      "lit": "Cuidan de ti?",
+      "note": "Pregunta con tacto sobre el bienestar del niño.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta",
+        "-in",
+        "foco-objeto"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "sinasaktan-ka-ba",
+      "tl": "Sinasaktan ka ba?",
+      "es": "¿Te hacen daño?",
+      "lit": "Hacen daño a ti?",
+      "note": "Pregunta delicada sobre si el niño sufre maltrato.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta",
+        "-in",
+        "foco-objeto"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "pinapalo-ka-ba",
+      "tl": "Pinapalo ka ba?",
+      "es": "¿Te pegan?",
+      "lit": "Te pegan?",
+      "note": "Pregunta sobre si el niño recibe castigos físicos.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta",
+        "-in",
+        "foco-objeto"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "okay-ka-lang-ba",
+      "tl": "Okay ka lang ba?",
+      "es": "¿Estás bien?",
+      "lit": "¿Estás solo bien?",
+      "note": "Pregunta general sobre el estado del niño.",
+      "pill": "ninos",
+      "tags": [
+        "pregunta",
+        "estado"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "huwag-kang-matakot",
+      "tl": "Huwag kang matakot.",
+      "es": "No tengas miedo.",
+      "lit": "No tú miedo.",
+      "note": "Frase de consuelo para tranquilizar al niño.",
+      "pill": "ninos",
+      "tags": [
+        "imperativo",
+        "negación"
+      ],
+      "lesson": 17
+    },
+    {
+      "id": "opo-inaalagaan-ako-answer",
+      "tl": "Opo, inaalagaan ako.",
+      "es": "Sí, me cuidan.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre el cuidado recibido.",
+      "pill": "ninos",
+      "tags": [
+        "respuesta",
+        "-in",
+        "foco-objeto"
+      ],
+      "answer": true,
+      "lesson": 17
+    },
+    {
+      "id": "hindi-sinasaktan-ako-answer",
+      "tl": "Hindi, sinasaktan ako.",
+      "es": "No, me hacen daño.",
+      "lit": "",
+      "note": "Respuesta negativa indicando maltrato.",
+      "pill": "ninos",
+      "tags": [
+        "respuesta",
+        "-in",
+        "foco-objeto"
+      ],
+      "answer": true,
+      "lesson": 17
+    },
+    {
+      "id": "opo-okay-lang-ako-answer",
+      "tl": "Opo, okay lang ako.",
+      "es": "Sí, estoy bien.",
+      "lit": "",
+      "note": "Respuesta afirmativa sobre el estado del niño.",
+      "pill": "ninos",
+      "tags": [
+        "respuesta",
+        "estado"
+      ],
+      "answer": true,
+      "lesson": 17
     }
   ]
 }

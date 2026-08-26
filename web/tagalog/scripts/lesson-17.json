@@ -1,0 +1,1938 @@
+{
+  "title": "¿Te cuidan?",
+  "subtitle": "Aprender a preguntar por el bienestar de los niños.",
+  "summary_es": "Una lección para interactuar con niños en la calle con tacto.",
+  "topics": [
+    "preguntar",
+    "ninos",
+    "cuidado",
+    "estado",
+    "foco-objeto"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta kayo?",
+      "Okay lang po.",
+      "Inaalagaan ka ba nila?",
+      "Opo, inaalagaan ako.",
+      "Huwag kang matakot.",
+      "Opo, okay lang ako."
+    ],
+    "es": [
+      "¿Cómo estáis?",
+      "Bien, gracias.",
+      "¿Te cuidan?",
+      "Sí, me cuidan.",
+      "No tengas miedo.",
+      "Sí, estoy bien."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Inaalagaan ka ba nila?",
+      "es": "¿Te cuidan?"
+    },
+    {
+      "term": "Sinasaktan ka ba?",
+      "es": "¿Te hacen daño?"
+    },
+    {
+      "term": "Pinapalo ka ba?",
+      "es": "¿Te pegan?"
+    },
+    {
+      "term": "Okay ka lang ba?",
+      "es": "¿Estás bien?"
+    },
+    {
+      "term": "Huwag kang matakot.",
+      "es": "No tengas miedo."
+    },
+    {
+      "term": "Opo, inaalagaan ako.",
+      "es": "Sí, me cuidan."
+    },
+    {
+      "term": "Hindi, sinasaktan ako.",
+      "es": "No, me hacen daño."
+    },
+    {
+      "term": "Opo, okay lang ako.",
+      "es": "Sí, estoy bien."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 17. ¿Te cuidan?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle concurrida de Tondo, un voluntario se acerca a un grupo de niños jugando. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta kayo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estáis?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Okay lang po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te cuidan?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me cuidan.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No tengas miedo.",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estoy bien.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar por el bienestar de los niños. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, sin más. / Tirando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Okay lang.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, sin más. / Tirando.",
+      "item": "okay-lang"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí (con respeto)»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí (con respeto).",
+      "item": "opo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "hindi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ven aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te cuidan?». Literalmente, Cuidan de ti?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "la",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "nila",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ba nila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka ba nila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta con tacto sobre el bienestar del niño.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te cuidan?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te cuidan?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te hacen daño?». Literalmente, Hacen daño a ti?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta delicada sobre si el niño sufre maltrato.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te hacen daño?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te hacen daño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Te pegan?». Literalmente, Te pegan?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pinapalo ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre si el niño recibe castigos físicos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te pegan?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te pegan?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás bien?». Literalmente, ¿Estás solo bien?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lang ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka lang ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta general sobre el estado del niño.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás bien?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te hacen daño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No tengas miedo». Literalmente, No tú miedo.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kot",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "takot",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "matakot",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kang matakot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Frase de consuelo para tranquilizar al niño.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No tengas miedo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No tengas miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me cuidan». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "inaalagaan ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo inaalagaan ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta afirmativa sobre el cuidado recibido.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, me cuidan»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sí, me cuidan».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Estás bien?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, me hacen daño». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "sinasaktan ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi sinasaktan ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta negativa indicando maltrato.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, me hacen daño»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No, me hacen daño».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy bien». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lang ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "okay lang ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo okay lang ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta afirmativa sobre el estado del niño.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, estoy bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sí, estoy bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Sí, me cuidan».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El sufijo -in en foco objeto.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El sufijo -in se usa para indicar que el foco de la acción recae sobre el objeto. En preguntas como 'Inaalagaan ka ba nila?', el objeto 'ka' (tú) es quien recibe la acción de cuidar.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, me cuidan».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, me hacen daño».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a un niño si está bien.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a un niño si le cuidan.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te cuidan?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te hacen daño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te pegan?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás bien?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No tengas miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sí, me cuidan».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No, me hacen daño».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, estoy bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, sin más. / Tirando».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Okay lang.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, sin más. / Tirando.",
+      "item": "okay-lang"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí (con respeto)»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí (con respeto).",
+      "item": "opo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "hindi"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ven aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Te cuidan?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te cuidan?",
+      "item": "inaalagaan-ka-ba-nila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te hacen daño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sinasaktan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te hacen daño?",
+      "item": "sinasaktan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te pegan?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pinapalo ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te pegan?",
+      "item": "pinapalo-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás bien?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Okay ka lang ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás bien?",
+      "item": "okay-ka-lang-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No tengas miedo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No tengas miedo.",
+      "item": "huwag-kang-matakot"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sí, me cuidan».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, me cuidan.",
+      "item": "opo-inaalagaan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No, me hacen daño».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, sinasaktan ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, me hacen daño.",
+      "item": "hindi-sinasaktan-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, estoy bien»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy bien.",
+      "item": "opo-okay-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta kayo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estáis?",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Okay lang po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inaalagaan ka ba nila?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Te cuidan?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, inaalagaan ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me cuidan.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Huwag kang matakot.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No tengas miedo.",
+      "item": null
+    },
+    {
+      "role": "kid_f",
+      "lang": "tl",
+      "text": "Opo, okay lang ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, estoy bien.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 15.4,
+    "chars": 4929,
+    "cues": 207,
+    "mode": "lesson",
+    "lesson": 17
+  }
+}

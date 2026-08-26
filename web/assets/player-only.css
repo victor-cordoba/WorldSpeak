@@ -27,3 +27,7 @@ body.player-only.has-live-bg { background: transparent !important; }
 @media (max-width: 760px) { .player-only .now-copy h2 { font-size: 14px; } }
 /* modo foco (mientras suena): no oscurecer nada */
 .player-only .transcript-panel.is-focus-mode, .player-only.transcript-focus-mode .mini-card { opacity: 1; }
+/* el texto ya no es un modal: sin velo ni bloqueo de scroll */
+body.player-only.transcript-visible { overflow: auto !important; position: static !important; }
+body.player-only.transcript-visible::before { display: none !important; }
+.player-only.transcript-visible .shell, .player-only.transcript-focus-mode .shell { filter: none !important; opacity: 1 !important; }
