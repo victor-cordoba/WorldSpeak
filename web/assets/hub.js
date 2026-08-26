@@ -93,7 +93,7 @@ function renderCourses() {
     const pct = progress && course.tracks ? Math.min(100, Math.round((progress.doneCount / course.tracks) * 100)) : 0;
     const started = progress && (progress.doneCount || progress.totalSeconds || progress.lastTrack);
     const meta = !isLive ? 'En preparación' : started ? `${progress.doneCount} de ${course.tracks} lecciones · ${formatStudyTime(progress.totalSeconds)}` : `${course.tracks} lecciones · ${course.hours} h de audio`;
-    const cta = !isLive ? 'Pronto' : started ? 'Continuar' : 'Empezar';
+    const cta = !isLive ? 'Pronto' : (started || session?.token) ? 'Continuar' : 'Empezar';
     card.innerHTML = `
       <div class="course-band"><span class="course-flag">${flag(course.language?.flag)}</span></div>
       <div class="course-body">
