@@ -4,27 +4,13 @@
   "output_format": "mp3_44100_128",
   "roles": {
     "narrator": {
-      "provider": "elevenlabs",
-      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
-      "name": "Pablo Marshal (ElevenLabs, castellano)",
-      "language_code": "es",
-      "voice_settings": {
-        "stability": 0.5,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+      "name": "Narrador Terror (Fish, castellano)",
+      "voice_settings": {},
       "tempo": 1.28,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
-        "name": "Narrador Terror (Fish)",
-        "voice_settings": {},
-        "tempo": 1.28
-      },
-      "clean": false,
-      "model_id": "eleven_multilingual_v2"
+      "clean": false
     },
     "native_m": {
       "provider": "elevenlabs",
@@ -110,6 +96,7 @@
   "_alternativas": {
     "narrador_es_elevenlabs": "OhisAd2u8Q6qSA4xXAAT (Pablo Marshal): elegido por Victor, requiere mas credito de ElevenLabs",
     "native_m_josh": "oqlKKpA3VREaqVHQKHNn (Josh - Natural Narrator, algo de eco)",
-    "narrador_candidatos": "Salva hyKxCTlAqtnW188CgltM · Gabriel Blanco Deep LQDLKBDLh2L4weLEgCIE · Jose Bionada 8HZqgqbee8zgakPIPwm5 · Juan Gabriel 1npscUJu0UbVeHp4b0zt · Enrique Garcia KbHzTDrKkWZhO8WaGUeG · Pablo Marshal OhisAd2u8Q6qSA4xXAAT (muestras en PRUEBAS-VOZ/voces-narrador)"
+    "narrador_candidatos": "Salva hyKxCTlAqtnW188CgltM · Gabriel Blanco Deep LQDLKBDLh2L4weLEgCIE · Jose Bionada 8HZqgqbee8zgakPIPwm5 · Juan Gabriel 1npscUJu0UbVeHp4b0zt · Enrique Garcia KbHzTDrKkWZhO8WaGUeG · Pablo Marshal OhisAd2u8Q6qSA4xXAAT (muestras en PRUEBAS-VOZ/voces-narrador)",
+    "narrador_elevenlabs_pendiente": "Cuando se renueve el credito: elegir peninsular entre Salva hyKxCTlAqtnW188CgltM, Gabriel Blanco Deep LQDLKBDLh2L4weLEgCIE, Jose Bionada 8HZqgqbee8zgakPIPwm5, Juan Gabriel 1npscUJu0UbVeHp4b0zt, Enrique Garcia KbHzTDrKkWZhO8WaGUeG (muestras en PRUEBAS-VOZ/voces-narrador-v2)"
   }
 }
