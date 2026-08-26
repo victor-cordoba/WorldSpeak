@@ -509,7 +509,8 @@ function updateAccountUi() {
   accountNameLabel.textContent = accountUser?.name || '';
   accountLabel.textContent = accountUser ? accountUser.name : 'Entrar';
   accountMeta.textContent = accountUser ? 'Progreso sincronizado' : 'Guardar progreso';
-  accountInitial.textContent = accountUser?.name?.trim()?.[0]?.toUpperCase() || '?';
+  const initial = accountUser?.name?.trim()?.[0]?.toUpperCase();
+  if (initial) { accountInitial.textContent = initial; } else { accountInitial.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="#fff" aria-hidden="true"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 2c-4.4 0-8 2.3-8 5.2V21h16v-1.8c0-2.9-3.6-5.2-8-5.2z"/></svg>'; }
 }
 
 function setAccountStatus(message = '', type = '') {
@@ -711,8 +712,7 @@ function renderMiniCard(track) {
   if (!card) return;
   const entry = transcriptIndex.get(track.id) || {};
   const topics = (entry.topics || []).slice(0, 6).map((t) => `<span>${t}</span>`).join('');
-  card.innerHTML = `<span class="lesson-pill">${lessonLabel(track)}</span><h2>${displayTitle(track)}</h2><p>${entry.summary || displaySubtitle(track) || ''}</p><div class="mini-topics">${topics}</div><button type="button" class="mini-read" id="miniRead">📖 Leer el texto mientras escuchas</button>`;
-  card.querySelector('#miniRead').addEventListener('click', () => { transcriptOpen = true; renderTranscript(track); });
+  card.innerHTML = `<span class="lesson-pill">${lessonLabel(track)}</span><h2>${displayTitle(track)}</h2><p>${entry.summary || displaySubtitle(track) || ''}</p><div class="mini-topics">${topics}</div>`;
 }
 
 function safePlay() {

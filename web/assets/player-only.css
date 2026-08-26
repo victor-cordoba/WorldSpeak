@@ -1,36 +1,29 @@
-/* Modo solo-reproductor (cursos propios): sin hero ni lista. Barra fija + texto sincronizado, como siempre. */
+/* Modo reproductor (cursos propios): tarjeta de la lección arriba y el texto en tiempo real justo debajo. */
 .player-only { font-family: Inter, system-ui, sans-serif; }
-.player-only .hero, .player-only .dictionary-access, .player-only .tools, .player-only .site-footer, .player-only #lessonList { display: none !important; }
+.player-only .hero, .player-only .dictionary-access, .player-only .tools, .player-only .site-footer, .player-only #lessonList, .player-only .transcript-close, .player-only #transcriptToggle, .player-only .transcript-kicker, .player-only #transcriptTitle, .player-only #transcriptSummary, .player-only #topicList, .player-only .transcript-header { display: none !important; }
 .player-only h1, .player-only h2, .player-only h3 { font-family: "Plus Jakarta Sans", Inter, sans-serif; letter-spacing: -0.02em; }
-.player-only .shell { padding-top: 10px; }
-.player-only .study-topbar { margin-bottom: 18px; }
-.player-only .hub-link-mark { font-size: 22px; padding-bottom: 3px; }
-/* Fondo de la página cuando solo hay barra: una pista de qué hacer */
-.player-only .shell::after { content: "Dale al play. El texto se abre solo y sigue el audio."; display: block; margin: 40px auto 0; max-width: 32ch; text-align: center; color: var(--muted); font-size: 15px; }
-.player-only.transcript-focus-mode .shell::after, .player-only .shell.has-transcript::after { display: none; }
-
-/* tarjeta de la lección cuando el texto está cerrado */
-.mini-card { display: grid; gap: 12px; margin: 6px 0 24px; padding: 24px 22px; border-radius: 24px; background: #fff; border: 1px solid var(--line); }
-.ws-transcript-open .mini-card { display: none; }
-.player-only .shell::after { display: none; }
-.lesson-pill { display: inline-block; width: max-content; padding: 6px 12px; border-radius: 999px; background: var(--blue); color: #fff; font-family: "Plus Jakarta Sans", Inter, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 0.02em; }
-.mini-card h2 { margin: 0; font-size: 28px; line-height: 1.1; }
-.mini-card p { margin: 0; color: var(--muted); line-height: 1.5; }
-.mini-topics { display: flex; flex-wrap: wrap; gap: 6px; }
-.mini-topics span { padding: 5px 10px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); font-size: 12px; font-weight: 700; }
-.mini-read { margin-top: 6px; padding: 14px 18px; border: 0; border-radius: 16px; background: var(--gold); color: var(--ink); font-family: "Plus Jakarta Sans", Inter, sans-serif; font-weight: 800; font-size: 16px; cursor: pointer; box-shadow: 0 4px 0 #d9b000; }
-.mini-read:active { transform: translateY(4px); box-shadow: none; }
-.player-only #transcriptTitle { display: grid; gap: 8px; font-size: 24px; }
-.player-only #transcriptTitle .lesson-name { display: block; }
-
-body.player-only.has-live-bg { background: transparent !important; }
-.has-live-bg .mini-card { background: rgba(255,255,255,0.82); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
-/* barra superior en modo reproductor: solo Ruta + cuenta (Continuar sobra aquí) */
-.player-only .study-topbar, .player-only .study-topbar.has-continue { grid-template-columns: auto 1fr; }
+.player-only .shell { padding-top: 10px; padding-bottom: calc(var(--player-stack-offset, 150px) + 24px); }
+.player-only .study-topbar, .player-only .study-topbar.has-continue { grid-template-columns: auto 1fr; margin-bottom: 14px; }
 .player-only #continueButton { display: none !important; }
 .player-only .account-toggle { width: auto; justify-self: end; }
+.player-only .hub-link em { display: none; } .player-only .hub-link-mark { font-size: 22px; padding-bottom: 3px; }
 @media (max-width: 760px) { .player-only .account-toggle span:last-child { display: none; } .player-only .account-toggle { padding-right: 8px; } .player-only .hub-link span:last-child { display: grid; } }
-
+/* tarjeta de la lección */
+.mini-card { display: grid; gap: 10px; margin: 0 0 14px; padding: 22px 20px; border-radius: 24px; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); border: 1px solid var(--line); }
+.lesson-pill { display: inline-block; width: max-content; padding: 6px 12px; border-radius: 999px; background: var(--blue); color: #fff; font-family: "Plus Jakarta Sans", Inter, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 0.02em; }
+.mini-card h2 { margin: 0; font-size: 26px; line-height: 1.1; }
+.mini-card p { margin: 0; color: var(--muted); line-height: 1.5; font-size: 15px; }
+.mini-topics { display: flex; flex-wrap: wrap; gap: 6px; }
+.mini-topics span { padding: 5px 10px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); font-size: 12px; font-weight: 700; }
+/* el texto: en flujo, debajo de la tarjeta, sin modal */
+.player-only .transcript-panel { position: static !important; transform: none !important; width: auto !important; max-width: none !important; height: auto !important; max-height: none !important; margin: 0 !important; padding: 18px 16px !important; border-radius: 24px; border: 1px solid var(--line); background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); box-shadow: none; overflow: visible; }
+.player-only .transcript-panel[hidden] { display: none !important; }
+.player-only.transcript-visible .shell::after { display: none; }
+body.player-only.has-live-bg { background: transparent !important; }
+/* barra del reproductor: título en dos líneas */
 .player-only .now-copy h2 { font-size: 15px; line-height: 1.2; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .player-only .player-panel { grid-template-columns: minmax(150px, 1fr) auto minmax(0, 1.1fr) auto; }
+.player-only .player-text-toggle { display: none !important; }
 @media (max-width: 760px) { .player-only .now-copy h2 { font-size: 14px; } }
+/* modo foco (mientras suena): no oscurecer nada */
+.player-only .transcript-panel.is-focus-mode, .player-only.transcript-focus-mode .mini-card { opacity: 1; }

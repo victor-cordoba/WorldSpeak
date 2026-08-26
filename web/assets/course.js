@@ -47,7 +47,7 @@ function renderRoute() {
       el.dataset.num = String(l.lesson);
       if (live) el.href = `./player.html?track=${l.id}`;
       const hasItems = items.some((i) => i.lesson === l.lesson);
-      el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-actions">${hasItems ? `<button class="stop-practice" type="button" title="Práctica rápida de esta lección" aria-label="Práctica rápida" data-practice="${l.lesson}">⚡</button>` : ''}<span class="stop-cta ${live ? 'stop-play' : ''}" aria-label="${isDone ? 'Repetir' : 'Escuchar'}">${live ? '<svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>' : '🔒'}</span></span>`;
+      el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-actions"><span class="stop-cta ${live ? 'stop-play' : ''}" aria-label="${isDone ? 'Repetir' : 'Escuchar'}">${live ? '<svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>' : '🔒'}</span></span>`;
       el.querySelector('[data-practice]')?.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); practiceLesson(l.lesson); });
       wrap.appendChild(el);
     });
@@ -153,6 +153,7 @@ function practiceLesson(lessonNumber) {
   chosen.clear(); pool.forEach((i) => chosen.add(i.pill));
   renderCustom();
   showTab('medida');
+  document.querySelector('[data-medida="repaso"]')?.click();
   runQuiz(pool, Math.min(pool.length, 12));
 }
 function startQuiz() {
@@ -193,6 +194,10 @@ function renderDialogues() {
     wrap.appendChild(d);
   });
 }
+document.querySelectorAll('[data-medida]').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('[data-medida]').forEach((x) => x.classList.toggle('is-active', x === b));
+  document.querySelectorAll('[data-medida-panel]').forEach((p) => { p.hidden = p.dataset.medidaPanel !== b.dataset.medida; });
+}));
 $('#customStart').addEventListener('click', startQuiz);
 $('#quizReveal').addEventListener('click', reveal);
 $('#quizHard').addEventListener('click', () => judge(true));

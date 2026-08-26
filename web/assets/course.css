@@ -257,3 +257,10 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .dlg-play { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font-style: normal; font-size: 12px; color: var(--blue); opacity: 0.7; }
 .dlg-line.is-playing .dlg-play, .card-play.is-playing { color: var(--red); opacity: 1; }
 .card-play:not([disabled]) { background: var(--gold); box-shadow: 0 3px 0 var(--gold-deep); opacity: 1; }
+
+.seg { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin: 6px 0 14px; border-radius: 16px; background: rgba(0,0,0,0.06); }
+.seg-btn { padding: 10px; border: 0; border-radius: 12px; background: transparent; font-family: var(--display); font-weight: 700; font-size: 15px; color: var(--muted); }
+.seg-btn.is-active { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.seg-help { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.voices-link { display: grid; gap: 2px; margin: 28px 0 8px; padding: 16px 18px; border-radius: 20px; background: rgba(255,255,255,0.8); border: 1px dashed var(--line); text-decoration: none; color: var(--ink); font-family: var(--display); font-weight: 800; }
+.voices-link span { font-family: var(--body); font-weight: 500; font-size: 13px; color: var(--muted); }

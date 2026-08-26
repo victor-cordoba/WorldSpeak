@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow">
+  <title>Casting de voces · WorldSpeak</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="../assets/course.css?v=20260826-21"><link rel="stylesheet" href="../assets/bg.css?v=20260826-21">
+  <style>
+    .vc-group { margin: 24px 0; } .vc-group h2 { font-size: 22px; margin-bottom: 4px; } .vc-group p.txt { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+    .vc { display: grid; grid-template-columns: 48px 1fr auto; gap: 12px; align-items: center; padding: 12px 14px; margin: 8px 0; border-radius: 18px; background: rgba(255,255,255,0.82); border: 1px solid var(--line); }
+    .vc.is-playing { border-color: var(--blue); }
+    .vc-play { width: 48px; height: 48px; border-radius: 50%; border: 0; background: var(--blue); color: #fff; font-size: 18px; box-shadow: 0 4px 0 var(--blue-deep); }
+    .vc-play:active { transform: translateY(4px); box-shadow: none; }
+    .vc strong { display: block; font-family: var(--display); font-size: 16px; } .vc em { font-style: normal; font-size: 12px; color: var(--muted); }
+    .vc-tag { padding: 5px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+    .vc-tag.fish { background: #e6f6ec; color: #0d7a43; } .vc-tag.elevenlabs { background: var(--gold-soft); color: #7a5b00; }
+    .vc-pick { margin-top: 8px; font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header class="top"><a class="top-back" href="./" aria-label="Volver">‹</a><div class="top-title"><div><strong>Casting de voces</strong><em>Elige quién narra y quién habla</em></div></div><div></div></header>
+  <main class="app">
+    <div class="section-head"><h2>Misma frase, distintas voces</h2><p>Escucha y dime cuáles te gustan: un narrador en español, un hombre y una mujer en Tagalog. El número entre paréntesis es cuánta gente usa esa voz.</p></div>
+    <div id="groups"></div>
+  </main>
+  <script>
+  (async () => {
+    const m = await fetch('./voces/manifest.json?v=' + Date.now()).then(r => r.json());
+    const groups = [['narrador-es', 'Narrador en español', m.es], ['tagalog', 'Voces en Tagalog', m.tl]];
+    let current = null;
+    const wrap = document.querySelector('#groups');
+    groups.forEach(([g, title, text]) => {
+      const sec = document.createElement('section'); sec.className = 'vc-group';
+      sec.innerHTML = `<h2>${title}</h2><p class="txt">«${text}»</p>`;
+      m.voices.filter(v => v.group === g).forEach(v => {
+        const row = document.createElement('div'); row.className = 'vc';
+        row.innerHTML = `<button class="vc-play" type="button" aria-label="Escuchar">▶</button><div><strong>${v.name}</strong><em>${v.gender ? v.gender + ' · ' : ''}${v.uses ? '(' + v.uses.toLocaleString('es-ES') + ')' : ''} · id ${v.id.slice(0, 8)}</em></div><span class="vc-tag ${v.provider}">${v.provider}</span>`;
+        const btn = row.querySelector('button'); const audio = new Audio('./' + v.file);
+        btn.addEventListener('click', () => { if (current && current !== audio) { current.pause(); document.querySelectorAll('.vc').forEach(x => x.classList.remove('is-playing')); } current = audio; if (audio.paused) { audio.currentTime = 0; audio.play(); row.classList.add('is-playing'); btn.textContent = '❚❚'; } else { audio.pause(); row.classList.remove('is-playing'); btn.textContent = '▶'; } });
+        audio.addEventListener('ended', () => { row.classList.remove('is-playing'); btn.textContent = '▶'; });
+        sec.appendChild(row);
+      });
+      wrap.appendChild(sec);
+    });
+  })();
+  </script>
+  <script src="../assets/bg.js?v=20260826-21"></script>
+</body>
+</html>

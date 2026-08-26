@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="WorldSpeak">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
-  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=20260826-19">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=20260826-22">
   <link rel="icon" type="image/png" sizes="192x192" href="../assets/icon-192.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WorldSpeak">
@@ -35,8 +35,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="../assets/course.css?v=20260826-19">
-  <link rel="stylesheet" href="../assets/bg.css?v=20260826-19">
+  <link rel="stylesheet" href="../assets/course.css?v=20260826-22">
+  <link rel="stylesheet" href="../assets/bg.css?v=20260826-22">
 </head>
 <body>
   <header class="top">
@@ -61,6 +61,7 @@
         <div class="hero-actions"><a id="nextLink" class="btn btn-gold btn-big" href="./player.html">▶ Empezar</a><button id="nextPractice" class="btn btn-ghost-light" type="button">⚡ Práctica rápida</button></div>
       </div>
       <div id="route" class="route" aria-label="Ruta de lecciones"></div>
+      <a class="voices-link" href="./voces.html">🎙️ Casting de voces <span>Elige quién narra y quién habla Tagalog</span></a>
     </section>
 
     <!-- FRASES -->
@@ -88,8 +89,13 @@
     <section id="tab-medida" class="tab" aria-labelledby="nav-medida" hidden>
       <div class="section-head">
         <h2>A medida</h2>
-        <p>Elige temas y repasa: ves el español, lo dices en voz alta en Tagalog, compruebas.</p>
+        <p>Repasa frases o practica conversaciones.</p>
       </div>
+      <div class="seg" role="tablist" aria-label="Modo">
+        <button type="button" class="seg-btn is-active" data-medida="repaso" role="tab">🎯 Repaso</button>
+        <button type="button" class="seg-btn" data-medida="dialogos" role="tab">💬 Diálogos</button>
+      </div>
+      <div data-medida-panel="repaso">
       <div id="customPills" class="pill-bar pill-bar-wrap" aria-label="Temas a repasar"></div>
       <div class="custom-row">
         <label>Frases <select id="customCount"><option>10</option><option selected>20</option><option>40</option></select></label>
@@ -110,14 +116,16 @@
           </div>
         </div>
       </div>
-      <div class="section-head section-head-sub"><h3>Diálogos</h3><p>Las conversaciones de cada lección, para leerlas en voz alta y repetirlas.</p></div>
-      <div id="dialogueList" class="dialogue-list"></div>
-
       <div id="quizDone" class="quiz-done" hidden>
         <p class="quiz-done-big">🎉</p>
         <h3>¡Repaso hecho!</h3>
         <p id="quizSummary"></p>
         <button id="quizAgain" class="btn btn-blue" type="button">Otro repaso</button>
+      </div>
+      </div>
+      <div data-medida-panel="dialogos" hidden>
+        <p class="seg-help">Las conversaciones de cada lección. Toca una línea para oírla y ver la traducción.</p>
+        <div id="dialogueList" class="dialogue-list"></div>
       </div>
     </section>
   </main>
@@ -129,8 +137,8 @@
     <button id="nav-medida" class="nav-btn" data-tab="medida" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2.05V5a1 1 0 1 1-2 0V2.05A10 10 0 0 0 2.05 11H5a1 1 0 1 1 0 2H2.05A10 10 0 0 0 11 21.95V19a1 1 0 1 1 2 0v2.95A10 10 0 0 0 21.95 13H19a1 1 0 1 1 0-2h2.95A10 10 0 0 0 13 2.05zM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/></svg><span>A medida</span></button>
   </nav>
 
-  <script src="../assets/course.js?v=20260826-19"></script>
-  <script src="../assets/track.js?v=20260826-19" data-api="../api/track.php" data-course="tagalog" defer></script>
-  <script src="../assets/bg.js?v=20260826-19"></script>
+  <script src="../assets/course.js?v=20260826-22"></script>
+  <script src="../assets/track.js?v=20260826-22" data-api="../api/track.php" data-course="tagalog" defer></script>
+  <script src="../assets/bg.js?v=20260826-22"></script>
 </body>
 </html>
