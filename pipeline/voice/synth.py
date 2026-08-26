@@ -61,7 +61,7 @@ def tts(api_key, voice_cfg, model_id, output_format, text, out_path):
         apply_tempo(out_path, voice_cfg.get("tempo"), voice_cfg.get("clean", False))
         return
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_cfg['voice_id']}?output_format={output_format}"
-    body = {"text": text, "model_id": model_id, "voice_settings": voice_cfg["voice_settings"]}
+    body = {"text": text, "model_id": voice_cfg.get("model_id", model_id), "voice_settings": voice_cfg["voice_settings"]}
     if voice_cfg.get("language_code"):
         body["language_code"] = voice_cfg["language_code"]
     request = urllib.request.Request(url, data=json.dumps(body).encode(), headers={"xi-api-key": api_key, "Content-Type": "application/json"}, method="POST")
@@ -106,7 +106,7 @@ def main():
         voice = voices["roles"].get(role) or voices["roles"]["narrator"]
         if voice.get("provider", "elevenlabs") == "elevenlabs" and "elevenlabs" in EXHAUSTED and voice.get("fallback"):
             voice = voice["fallback"]
-        model = voice.get("model", voices["model_id"]) if voice.get("provider") == "fish" else voices["model_id"]
+        model = voice.get("model", voices["model_id"]) if voice.get("provider") == "fish" else voice.get("model_id", voices["model_id"])
         spoken = enhance_text(voice, cue)
         key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), spoken, voice.get("tempo", 1), "clean2" if voice.get("clean") else "raw")
         cue[args.clip_key] = f"_clips/{key}.mp3"
