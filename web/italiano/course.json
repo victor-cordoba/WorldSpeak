@@ -23,5 +23,26 @@
       "badge": "Lección"
     }
   },
-  "tracks": []
+  "tracks": [],
+  "method_config": {
+    "closing": "Ci vediamo!",
+    "first_time_notes": [
+      {
+        "triggers": [
+          " Lei",
+          " lei "
+        ],
+        "text": "Un apunte: en Italia se tutea mucho, pero con mayores, en tiendas y con desconocidos formales se usa Lei, con el verbo en tercera persona. Si dudas, empieza con Lei y deja que te digan dammi del tu."
+      },
+      {
+        "triggers": [
+          "daje",
+          "annamo",
+          "mo'",
+          "ao "
+        ],
+        "text": "Eso es romanesco: lo que oyes en la calle de Roma. Úsalo con amigos, nunca en una oficina."
+      }
+    ]
+  }
 }

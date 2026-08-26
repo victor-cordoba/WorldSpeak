@@ -354,5 +354,22 @@
     }
   ],
   "narratorLabel": "Narrador",
-  "groupSegments": false
+  "groupSegments": false,
+  "method_config": {
+    "closing": "Ingat ka!",
+    "first_time_notes": [
+      {
+        "triggers": [
+          " po"
+        ],
+        "text": "Un apunte antes de seguir. Vas a oír mucho la palabra po. Po es la palabra del respeto: se añade al final de casi cualquier frase cuando hablas con adultos o con mayores. Salamat po. Kumusta po. Con niños no hace falta. Es la manera más fácil de sonar educado en Tagalog."
+      },
+      {
+        "triggers": [
+          " tayo"
+        ],
+        "text": "Fíjate: tayo es nosotros contigo incluido. Si dicen tayo, te están invitando."
+      }
+    ]
+  }
 }

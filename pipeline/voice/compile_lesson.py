@@ -92,8 +92,12 @@ def cue(role, text, kind, pause, lang=None, translation="", item=None):
 
 
 class Compiler:
-    def __init__(self, items, scenes, minutes, mode, seed=7, lang_code="tl"):
+    def __init__(self, items, scenes, minutes, mode, seed=7, lang_code="tl", method=None):
         self.lang_code = lang_code
+        # Ajustes por idioma (course.json -> "method"): notas que se explican la primera vez que aparece un
+        # disparador (p. ej. "po" en Tagalog, "Lei" en italiano), despedida, y textos fijos del narrador.
+        self.method = method or {}
+        self.notes_done = set()
         self.items = {i["id"]: i for i in items}
         self.scenes = scenes
         self.minutes = minutes
@@ -149,9 +153,13 @@ class Compiler:
     def teach(self, item, reps=2):
         note = item.get("note", "")
         var_tl = (item.get("variant") or {}).get("tl", "")
-        if self.lang_code == "tl" and not self.po_explained and (" po" in f" {item['tl'].lower()}" or " po" in f" {note.lower()}" or " po" in f" {var_tl.lower()}"):
-            self.po_explained = True
-            self.n("Un apunte antes de seguir. Vas a oír mucho la palabra po. Po es la palabra del respeto: se añade al final de casi cualquier frase cuando hablas con adultos o con mayores. Salamat po. Kumusta po. Con niños no hace falta. Es la manera más fácil de sonar educado en Tagalog.", 0.6, "explanation")
+        haystack = f" {item['tl']} {note} {var_tl} ".lower()
+        for k, fn in enumerate(self.method.get("first_time_notes", [])):
+            if k in self.notes_done:
+                continue
+            if any(f" {t.lower()}" in haystack or f"{t.lower()} " in haystack for t in fn.get("triggers", [])):
+                self.notes_done.add(k)
+                self.n(fn["text"], 0.6, "explanation")
         lit = item.get("lit", "")
         parts = [q(item["es"]) + "."]
         if lit:
@@ -203,7 +211,7 @@ class Compiler:
     def outro(self, scene):
         self.n("Escucha la conversación completa una vez más. Ahora la entiendes entera.", 0.6)
         self.dialogue(scene)
-        self.n("Hasta la próxima lección. " + ("Amping!" if self.lang_code == "ceb" else "Ingat ka!" if self.lang_code == "tl" else "¡Hasta pronto!"), 0.3)
+        self.n("Hasta la próxima lección. " + self.method.get("closing", "¡Hasta pronto!"), 0.3)
 
     # --- compilar
     def lesson(self, recipe):
@@ -274,7 +282,7 @@ def main():
     items = load_json(content / "items.json")["items"]
     scenes = load_json(content / "scenes.json")["scenes"]
     course_meta = load_json(cdir / "course.json", {})
-    comp = Compiler(items, scenes, args.minutes, args.mode, lang_code=course_meta.get("language", {}).get("code", "tl"))
+    comp = Compiler(items, scenes, args.minutes, args.mode, lang_code=course_meta.get("language", {}).get("code", "tl"), method=course_meta.get("method_config", {}))
 
     if args.lesson and args.mode == "lesson":
         recipe = load_json(content / "recipes" / f"lesson-{args.lesson:02d}.json")

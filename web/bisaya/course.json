@@ -23,5 +23,24 @@
       "badge": "Lección"
     }
   },
-  "tracks": []
+  "tracks": [],
+  "method_config": {
+    "closing": "Amping!",
+    "first_time_notes": [
+      {
+        "triggers": [
+          " kita",
+          " ta "
+        ],
+        "text": "Un apunte: en Bisaya no existe po. El respeto va con Kuya, Ate, Manong, Manang, Sir o Ma'am, y con el tono. Y kita es nosotros contigo: si dicen kita o ta, te incluyen."
+      },
+      {
+        "triggers": [
+          " dili",
+          " wala"
+        ],
+        "text": "Dos formas de decir no: dili niega lo que se hace o lo que se es, y wala dice que no hay o no se tiene."
+      }
+    ]
+  }
 }

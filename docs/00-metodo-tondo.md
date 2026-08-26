@@ -124,7 +124,44 @@ Un curso nuevo = un `curriculum.json`, un `context` (quién lo va a usar y dónd
 
 ---
 
-## 9 · LO QUE NO ES
+## 9 · LO QUE ES IGUAL EN TODOS LOS IDIOMAS (y lo que cambia)
+
+**Igual**: el compilador, las plantillas del narrador, la estructura de la lección, las
+pausas, las reglas de speakers, las 13 tablas, la app (Ruta/Frases/Tablas/A medida),
+el lint de contenido y la producción.
+
+**Cambia, y solo en `course.json`**:
+
+```json
+"language": { "code": "ceb", "name": "Bisaya", "flag": "ph" },
+"context": "para quién, dónde, situaciones, registro, gramática de uso",
+"method_config": {
+  "closing": "Amping!",
+  "first_time_notes": [ { "triggers": [" kita", " ta "], "text": "…lo que el narrador explica la primera vez…" } ]
+}
+```
+
+- `first_time_notes`: cosas que hay que explicar **la primera vez que aparecen** (el `po`
+  del Tagalog, el `Lei` italiano, el `kita` del Bisaya), no al final en una tabla.
+- `closing`: la despedida del narrador.
+- El `context` es lo único que lee el redactor: si está bien escrito, las 30 lecciones
+  salen situadas (Tondo, Cebú y Bohol, Roma) sin tocar nada más.
+
+Un idioma nuevo: `scripts/new-course.sh <id> "<Nombre>" <código> <bandera> "<subtítulo>"`
+y después el checklist del doc 15.
+
+## 10 · LO QUE HEMOS APRENDIDO (resumen del doc 15)
+
+1. **El narrador nunca dice el idioma objetivo.** Las variantes son del nativo (`variant`).
+2. **Explica al aparecer**, no al final: `first_time_notes`.
+3. **Enseñar ≠ entender**: las respuestas (`answer`) van al bloque de entender.
+4. **Un profesor nativo por curso** y dos personajes por diálogo.
+5. **Mide sobre WAV** y despliega texto y audio juntos.
+6. **No limpies el audio**: elige voces limpias de origen.
+7. Narrador en `multilingual_v2` con `language_code` del narrador; nativos en `v3`.
+8. **Escucha la L01 entera** antes de producir las 30.
+
+## 11 · LO QUE NO ES
 
 - No es una app de gamificación: la racha y los porcentajes están, pero lo que cuenta es hablar.
 - No es un curso "de turista": las frases sirven para **quedarte**, no para pasar.
