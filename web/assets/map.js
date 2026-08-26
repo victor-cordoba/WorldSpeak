@@ -7,9 +7,9 @@
     ['kapampangan', '#b3c9ff', 'Kapampangan · Pangasinán', 'Llanura central de Luzón'],
     ['bicolano', '#5b8dff', 'Bicolano', 'Península de Bicol'],
     ['hiligaynon', '#0d9f6e', 'Hiligaynon · Ilonggo', 'Panay, Negros Occidental, Iloilo'],
-    ['waray', '#f28c28', 'Waray', 'Samar, norte y este de Leyte'],
+    ['waray', '#f28c28', 'Waray', 'Samar, norte y este de Leyte (el oeste y sur de Leyte hablan cebuano)'],
     ['moro', '#d6336c', 'Maguindanao · Maranao · Tausug', 'Suroeste de Mindanao, Sulu'],
-    ['chavacano', '#7048e8', 'Chavacano', 'Zamboanga (criollo del español)'],
+    ['chavacano', '#7048e8', 'Chavacano', 'Zamboanga City (criollo del español; el resto de la península, cebuano)'],
   ];
   const course = document.currentScript?.dataset.course || '';
   const highlight = course === 'bisaya' ? 'cebuano' : course.startsWith('tagalog') ? 'tagalog' : '';
@@ -21,12 +21,12 @@
       <h2>¿Dónde se habla?</h2><p>Las lenguas de Filipinas por islas. ${highlight ? 'Resaltado el idioma de este curso.' : ''}</p>
       <div class="phm-map">${svg}</div>
       <ul class="phm-legend">${LANGS.map(([id, c, n, d]) => `<li class="${id === highlight ? 'is-hl' : ''}"><i style="background:${c}"></i><b>${n}</b><span>${d}</span></li>`).join('')}</ul>
-      <p class="phm-note">Toca una zona para ver su lengua. Filipinas tiene más de 170 lenguas; aquí, las principales.</p></div>`;
+      <p class="phm-note">Toca una región para ver su lengua principal. Filipinas tiene más de 170 lenguas; aquí, las mayoritarias por región.</p></div>`;
     document.body.appendChild(m); document.body.style.overflow = 'hidden';
     const colors = Object.fromEntries(LANGS.map(([id, c]) => [id, c]));
     m.querySelectorAll('[data-lang]').forEach((el) => {
       const id = el.dataset.lang; el.style.fill = colors[id]; if (highlight && id !== highlight) el.style.opacity = '0.45';
-      el.addEventListener('click', () => { const L = LANGS.find((x) => x[0] === id); m.querySelector('.phm-note').innerHTML = `<b>${L[2]}</b> · ${L[3]}`; });
+      el.addEventListener('click', () => { const L = LANGS.find((x) => x[0] === id); m.querySelector('.phm-note').innerHTML = `<b>${el.dataset.region || ''}</b> → ${L[2]} · ${L[3]}`; });
     });
     const close = () => { m.remove(); document.body.style.overflow = ''; };
     m.querySelector('.phm-close').addEventListener('click', close);
