@@ -159,8 +159,8 @@ class Compiler:
         self.say(item)
         for step in backward_build(item["tl"]):
             self.cues.append(cue(self.voice(item), step, "phrase", P["syllable"] if " " not in step else P["short"], translation="", item=item["id"]))
-        for _ in range(reps):
-            self.say(item)
+        for k in range(reps):
+            self.say(item, pause=1.2 if (k == reps - 1 and note and self.mode == "lesson") else None)
         if note and self.mode == "lesson":
             self.n(note, 0.5, "explanation")
         self.prompt(item, 0)
@@ -174,7 +174,7 @@ class Compiler:
             item = self.items[iid]
             self.say(item, pause=P["listen"], kind="phrase", role="native_f")
             self.n(q(item["es"]) + ".", 0.5, "explanation")
-            self.say(item, pause=P["short"], kind="phrase", role="native_f")
+            self.say(item, pause=1.2, kind="phrase", role="native_f")
 
     def grammar(self, pill):
         self.n(pill["title"] + ".", 0.4, "explanation")
