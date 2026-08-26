@@ -1,0 +1,1956 @@
+{
+  "title": "Preguntar y responder sobre la edad",
+  "subtitle": "Aprender a preguntar y responder cuántos años tiene alguien.",
+  "summary_es": "Aprender a preguntar la edad y responder.",
+  "topics": [
+    "edad",
+    "familia",
+    "pregunta",
+    "respuesta",
+    "ninos"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta ka?",
+      "Mabuti naman po.",
+      "Ilang taon ka na?",
+      "Sampung taon na ako.",
+      "Ilang taon na si Kuya mo?",
+      "Dalawampung taon na si Kuya."
+    ],
+    "es": [
+      "¿Cómo estás?",
+      "Bien, gracias.",
+      "¿Cuántos años tienes?",
+      "Tengo diez años.",
+      "¿Cuántos años tiene tu hermano mayor?",
+      "El hermano mayor tiene veinte años."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Ilang taon ka na?",
+      "es": "¿Cuántos años tienes?"
+    },
+    {
+      "term": "Sampung taon na ako.",
+      "es": "Tengo diez años."
+    },
+    {
+      "term": "Bata pa siya.",
+      "es": "Es todavía joven."
+    },
+    {
+      "term": "Matanda na.",
+      "es": "Ya es mayor."
+    },
+    {
+      "term": "Ilang taon na si Kuya?",
+      "es": "¿Cuántos años tiene el hermano mayor?"
+    },
+    {
+      "term": "Dalawampung taon na si Kuya.",
+      "es": "El hermano mayor tiene veinte años."
+    },
+    {
+      "term": "Ilang taon na si Ate?",
+      "es": "¿Cuántos años tiene la hermana mayor?"
+    },
+    {
+      "term": "Labing-walong taon na si Ate.",
+      "es": "La hermana mayor tiene dieciocho años."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 11. Preguntar y responder sobre la edad.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle de Tondo, un niño se encuentra con un voluntario extranjero. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mabuti naman po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo diez años.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos años tiene tu hermano mayor?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder cuántos años tiene alguien. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos sois en la familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilan kayo sa pamilya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois en la familia?",
+      "item": "ilan-kayo-sa-pamilya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Madre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanay",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Madre",
+      "item": "nanay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tienes?». Literalmente, ¿Cuántos años ya tú?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka na",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "taon ka na",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para conocer la edad de alguien.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo diez años». Literalmente, Diez años ya yo.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "taon na ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta común de un niño sobre su edad.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo diez años»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo diez años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Es todavía joven». Literalmente, Joven aún él/ella.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "siya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "pa siya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para describir a alguien joven.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Es todavía joven»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Es todavía joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Ya es mayor». Literalmente, Mayor ya.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "matanda-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Matanda na",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "matanda-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para describir a alguien mayor.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ya es mayor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ya es mayor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Tengo diez años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tiene el hermano mayor?». Literalmente, ¿Cuántos años ya hermano mayor?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kuya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si Kuya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "taon na si Kuya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la edad de un hermano mayor.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tiene el hermano mayor?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tiene el hermano mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El hermano mayor tiene veinte años». Literalmente, Veinte años ya hermano mayor.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kuya",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "si Kuya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "taon na si Kuya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta sobre la edad del hermano mayor.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El hermano mayor tiene veinte años»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El hermano mayor tiene veinte años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Ya es mayor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuántos años tiene la hermana mayor?». Literalmente, ¿Cuántos años ya hermana mayor?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ate",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "si Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "taon na si Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sobre la edad de una hermana mayor.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tiene la hermana mayor?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuántos años tiene la hermana mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La hermana mayor tiene dieciocho años». Literalmente, Dieciocho años ya hermana mayor.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "te",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ate",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "taon na si Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta sobre la edad de la hermana mayor.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La hermana mayor tiene dieciocho años»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «La hermana mayor tiene dieciocho años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «El hermano mayor tiene veinte años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'na' para indicar tiempo transcurrido.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Tagalog, 'na' se utiliza para indicar que algo ya ha ocurrido o que una condición ya se ha cumplido. Por ejemplo, 'Sampung taon na ako' significa 'Ya tengo diez años'. Es una manera de expresar que se ha alcanzado una cierta edad.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo diez años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El hermano mayor tiene veinte años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«La hermana mayor tiene dieciocho años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a un niño cuántos años tiene.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que tienes diez años.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo diez años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Es todavía joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ya es mayor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tiene el hermano mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El hermano mayor tiene veinte años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos años tiene la hermana mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La hermana mayor tiene dieciocho años»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos sois en la familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilan kayo sa pamilya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois en la familia?",
+      "item": "ilan-kayo-sa-pamilya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Madre»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanay",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Madre",
+      "item": "nanay"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Tengo diez años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo diez años.",
+      "item": "sampung-taon-na-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Es todavía joven».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Bata pa siya.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Es todavía joven.",
+      "item": "bata-pa-siya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ya es mayor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Matanda na.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya es mayor.",
+      "item": "matanda-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tiene el hermano mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene el hermano mayor?",
+      "item": "ilang-taon-na-si-kuya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El hermano mayor tiene veinte años».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": "kuya-ay-dalawampung-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos años tiene la hermana mayor?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon na si Ate?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tiene la hermana mayor?",
+      "item": "ilang-taon-na-si-ate"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «La hermana mayor tiene dieciocho años»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Labing-walong taon na si Ate.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "La hermana mayor tiene dieciocho años.",
+      "item": "ate-ay-labing-walong-taon"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mabuti naman po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sampung taon na ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Tengo diez años.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon na si Kuya mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos años tiene tu hermano mayor?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Dalawampung taon na si Kuya.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El hermano mayor tiene veinte años.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 17.3,
+    "chars": 5935,
+    "cues": 209,
+    "mode": "lesson",
+    "lesson": 11
+  }
+}
