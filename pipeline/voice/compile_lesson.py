@@ -100,6 +100,7 @@ class Compiler:
         self.rng = random.Random(seed)
         self.cues = []
         self.native = "native_f"
+        self.po_explained = False
 
     # --- helpers
     def n(self, text, pause=P["explain"], kind="instruction"):
@@ -146,6 +147,9 @@ class Compiler:
 
     def teach(self, item, reps=2):
         note = item.get("note", "")
+        if not self.po_explained and (" po" in f" {item['tl'].lower()}" or " po" in f" {note.lower()}"):
+            self.po_explained = True
+            self.n("Un apunte antes de seguir. Vas a oír mucho la palabra po. Po es la palabra del respeto: se añade al final de casi cualquier frase cuando hablas con adultos o con mayores. Salamat po. Kumusta po. Con niños no hace falta. Es la manera más fácil de sonar educado en Tagalog.", 0.6, "explanation")
         lit = item.get("lit", "")
         parts = [q(item["es"]) + "."]
         if lit:
