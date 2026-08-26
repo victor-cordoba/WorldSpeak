@@ -71,7 +71,8 @@ def main():
     parser.add_argument("--clip-key", default="clip", help="clave donde guardar la ruta del clip en cada cue")
     args = parser.parse_args()
 
-    voices = load_json(HERE / (args.voices or "voices.json"))
+    import os
+    voices = load_json(HERE / (args.voices or os.environ.get("WS_VOICES") or "voices.json"))
     cdir = course_dir(args.course)
     script = load_json(cdir / "scripts" / f"lesson-{args.lesson:02d}.json")
     if not script:

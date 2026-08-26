@@ -1,0 +1,994 @@
+{
+  "_doc": "Tablas de Bisaya (cebuano) con lo que cambia respecto al Tagalog.",
+  "tables": [
+    {
+      "id": "pronombres",
+      "title": "Pronombres",
+      "kicker": "Casi como en Tagalog",
+      "intro": "Tres formas por pronombre. Las de posesivo tienen versión larga (nako) y corta (ko).",
+      "columns": [
+        "Español",
+        "Sujeto",
+        "Posesivo / agente",
+        "A mí, en mi"
+      ],
+      "rows": [
+        [
+          "yo",
+          "ako / ko",
+          "nako / ko · akong",
+          "kanako / nako"
+        ],
+        [
+          "tú",
+          "ikaw / ka",
+          "nimo / mo · imong",
+          "kanimo / nimo"
+        ],
+        [
+          "él / ella",
+          "siya",
+          "niya · iyang",
+          "kaniya / niya"
+        ],
+        [
+          "nosotros sin ti",
+          "kami / mi",
+          "namo · among",
+          "kanamo"
+        ],
+        [
+          "nosotros contigo",
+          "kita / ta",
+          "nato · atong",
+          "kanato"
+        ],
+        [
+          "vosotros",
+          "kamo / mo",
+          "ninyo · inyong",
+          "kaninyo"
+        ],
+        [
+          "ellos",
+          "sila",
+          "nila · ilang",
+          "kanila"
+        ]
+      ],
+      "notes": [
+        "akong balay = mi casa (akong delante) · balay nako = mi casa (nako detrás). Las dos valen.",
+        "kita = nosotros contigo: Kaon ta! (¡comamos!). kami = sin ti.",
+        "En Bisaya no existe po/opo: el respeto va con Kuya / Ate / Manong / Manang, Sir / Ma'am y el tono."
+      ]
+    },
+    {
+      "id": "particulas",
+      "title": "Partículas",
+      "kicker": "Las piezas del puzle",
+      "intro": "",
+      "columns": [
+        "Partícula",
+        "Qué hace",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "ang",
+          "sujeto / el, la",
+          "Unsa ang imong ngalan?"
+        ],
+        [
+          "og (ug)",
+          "objeto indefinido / y",
+          "Gusto ko og kape · ikaw ug ako"
+        ],
+        [
+          "sa",
+          "en / a / de",
+          "Moadto ko sa Carbon"
+        ],
+        [
+          "mga",
+          "plural",
+          "mga bata"
+        ],
+        [
+          "ba",
+          "pregunta sí/no",
+          "Taga-Cebu ka ba?"
+        ],
+        [
+          "si",
+          "delante de nombres",
+          "Ako si Javier"
+        ],
+        [
+          "na",
+          "ya",
+          "Nikaon na ko"
+        ],
+        [
+          "pa",
+          "todavía",
+          "Wala pa"
+        ],
+        [
+          "naa / aduna",
+          "hay / tener",
+          "Naa koy anak"
+        ],
+        [
+          "wala",
+          "no hay / no tener",
+          "Walay kwarta"
+        ],
+        [
+          "dili",
+          "no (verbos y adjetivos)",
+          "Dili ko gusto"
+        ],
+        [
+          "ra / lang",
+          "solo",
+          "Gamay ra"
+        ],
+        [
+          "-ng / nga",
+          "enlace",
+          "maayong buntag · usa ka kape"
+        ]
+      ],
+      "notes": [
+        "dili niega (no quiero, no es); wala niega existencia o pasado (no hay, no lo hice).",
+        "Naa koy = naa ko og: tengo. Naa ko sa balay = estoy en casa."
+      ]
+    },
+    {
+      "id": "preguntas",
+      "title": "Preguntar",
+      "kicker": "Las palabras y las recetas",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Bisaya",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "¿Qué?",
+          "Unsa?",
+          "Unsa ni? · Unsa imong ngalan?"
+        ],
+        [
+          "¿Quién?",
+          "Kinsa?",
+          "Kinsa siya?"
+        ],
+        [
+          "¿Dónde? (con verbo)",
+          "Asa?",
+          "Asa ka nagpuyo?"
+        ],
+        [
+          "¿Dónde está? (sin verbo)",
+          "Hain?",
+          "Hain ka?"
+        ],
+        [
+          "¿Cuándo?",
+          "Kanus-a?",
+          "Kanus-a ka moadto?"
+        ],
+        [
+          "¿Por qué?",
+          "Ngano?",
+          "Ngano man?"
+        ],
+        [
+          "¿Cómo?",
+          "Giunsa? / Unsaon?",
+          "Unsaon pag-adto sa…?"
+        ],
+        [
+          "¿Cuántos?",
+          "Pila?",
+          "Pila mo sa pamilya?"
+        ],
+        [
+          "¿Cuánto cuesta?",
+          "Tagpila?",
+          "Tagpila ni?"
+        ],
+        [
+          "¿De dónde?",
+          "Taga-asa?",
+          "Taga-asa ka?"
+        ]
+      ],
+      "notes": [
+        "Receta sí/no: frase + ba. Gigutom ka ba?",
+        "Receta ¿qué es X?: Unsa + (ang) + imong + cosa. Unsa imong trabaho?",
+        "Receta con verbo: interrogativa + ka + verbo. Asa ka matulog?"
+      ]
+    },
+    {
+      "id": "respuestas",
+      "title": "Lo que te van a contestar",
+      "kicker": "Entrena el oído",
+      "intro": "",
+      "columns": [
+        "Bisaya",
+        "Español",
+        "Nota"
+      ],
+      "rows": [
+        [
+          "Oo",
+          "Sí",
+          ""
+        ],
+        [
+          "Dili",
+          "No",
+          ""
+        ],
+        [
+          "Wala",
+          "No hay / no",
+          ""
+        ],
+        [
+          "Gamay ra",
+          "Solo un poco",
+          ""
+        ],
+        [
+          "Wala ko kasabot",
+          "No entiendo",
+          ""
+        ],
+        [
+          "Wala ko kabalo",
+          "No lo sé",
+          ""
+        ],
+        [
+          "Sige",
+          "Vale",
+          "del español"
+        ],
+        [
+          "Duol ra / Layo",
+          "Aquí cerca / lejos",
+          ""
+        ],
+        [
+          "OK ra",
+          "Bien, sin más",
+          ""
+        ],
+        [
+          "Maayo man / Maayo ra",
+          "Bien",
+          ""
+        ],
+        [
+          "Siguro",
+          "Quizás",
+          "falso amigo"
+        ],
+        [
+          "Unya",
+          "Más tarde",
+          ""
+        ],
+        [
+          "Wala pa",
+          "Todavía no",
+          ""
+        ],
+        [
+          "Dili ko gusto",
+          "No quiero",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "verbos",
+      "title": "Verbos",
+      "kicker": "mo- · ni- · nag-",
+      "intro": "Raíz → pasado (ni-/mi-) → presente (nag-/naga-) → futuro y orden (mo-/mu-).",
+      "columns": [
+        "Raíz",
+        "Español",
+        "Pasado",
+        "Presente",
+        "Futuro / ¡hazlo!"
+      ],
+      "rows": [
+        [
+          "kaon",
+          "comer",
+          "nikaon",
+          "nagkaon",
+          "mokaon · Kaon!"
+        ],
+        [
+          "inom",
+          "beber",
+          "niinom",
+          "nag-inom",
+          "moinom · Inom!"
+        ],
+        [
+          "adto",
+          "ir",
+          "niadto",
+          "nag-adto",
+          "moadto · Adto!"
+        ],
+        [
+          "uli",
+          "ir a casa",
+          "niuli",
+          "nag-uli",
+          "mouli · Uli na!"
+        ],
+        [
+          "tulog",
+          "dormir",
+          "natulog",
+          "natulog / nagkatulog",
+          "matulog · Tulog na!"
+        ],
+        [
+          "kanta",
+          "cantar",
+          "nikanta",
+          "nagkanta",
+          "mokanta · Kanta!"
+        ],
+        [
+          "trabaho",
+          "trabajar",
+          "nagtrabaho",
+          "nagtrabaho",
+          "magtrabaho"
+        ],
+        [
+          "eskwela",
+          "estudiar",
+          "nag-eskwela",
+          "nag-eskwela",
+          "mag-eskwela"
+        ],
+        [
+          "ampo",
+          "rezar",
+          "nag-ampo",
+          "nag-ampo",
+          "mag-ampo · Mag-ampo ta!"
+        ],
+        [
+          "dula",
+          "jugar",
+          "nagdula",
+          "nagdula",
+          "magdula"
+        ],
+        [
+          "tabang",
+          "ayudar",
+          "nitabang",
+          "nagtabang",
+          "motabang · Tabang!"
+        ],
+        [
+          "palit",
+          "comprar",
+          "nipalit",
+          "nagpalit",
+          "mopalit"
+        ]
+      ],
+      "notes": [
+        "Gusto ko og + cosa · Gusto kong mo- + verbo. Con gusto no conjugas.",
+        "Foco en el objeto con gi-: Gikaon nako = me lo comí · Gihigugma tika = te quiero."
+      ]
+    },
+    {
+      "id": "conectores",
+      "title": "Conectores y «estar»",
+      "kicker": "El pegamento",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Bisaya",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "y",
+          "ug",
+          "kan-on ug sud-an"
+        ],
+        [
+          "o",
+          "o",
+          "Kape o tubig?"
+        ],
+        [
+          "pero",
+          "pero",
+          "Gusto ko, pero walay kwarta"
+        ],
+        [
+          "porque",
+          "kay",
+          "Ngano? — Kay gigutom ko"
+        ],
+        [
+          "también",
+          "pud / sad",
+          "Ako pud!"
+        ],
+        [
+          "luego",
+          "dayon / unya",
+          "Dayon, niuli mi"
+        ],
+        [
+          "por eso",
+          "mao nga",
+          "Nag-ulan, mao nga naa ko sa balay"
+        ],
+        [
+          "si",
+          "kung / kon",
+          "Kung gusto nimo"
+        ],
+        [
+          "solo",
+          "ra / lang",
+          "Usa ra"
+        ],
+        [
+          "quizás",
+          "siguro",
+          "Siguro ugma"
+        ],
+        [
+          "estoy en…",
+          "naa sa",
+          "Naa ko sa balay"
+        ],
+        [
+          "¿dónde está…?",
+          "hain / asa",
+          "Hain ka?"
+        ],
+        [
+          "aquí / allí",
+          "diri / didto",
+          "Naa ko diri"
+        ],
+        [
+          "no está",
+          "wala",
+          "Wala siya diri"
+        ]
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "Familia",
+      "kicker": "pamilya",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Bisaya"
+      ],
+      "rows": [
+        [
+          "madre",
+          "inahan / mama / nanay"
+        ],
+        [
+          "padre",
+          "amahan / papa / tatay"
+        ],
+        [
+          "hijo/a",
+          "anak"
+        ],
+        [
+          "hermano/a",
+          "igsoon"
+        ],
+        [
+          "hermano mayor",
+          "kuya / manong"
+        ],
+        [
+          "hermana mayor",
+          "ate / manang"
+        ],
+        [
+          "niño / niña",
+          "bata · dong / day (cariñoso)"
+        ],
+        [
+          "abuelo / abuela",
+          "lolo / lola"
+        ],
+        [
+          "esposo/a",
+          "bana / asawa"
+        ],
+        [
+          "tío / tía",
+          "tiyo / tiya · uncle / auntie"
+        ],
+        [
+          "primo/a",
+          "ig-agaw"
+        ],
+        [
+          "amigo/a",
+          "higala · bai (colega)"
+        ],
+        [
+          "familia",
+          "pamilya"
+        ]
+      ],
+      "notes": [
+        "dong (de Dodong) y day (de Inday): así se llama con cariño a un niño o una niña en Cebú."
+      ]
+    },
+    {
+      "id": "numeros",
+      "title": "Números y dinero",
+      "kicker": "Mercado y tindahan",
+      "intro": "",
+      "columns": [
+        "Número",
+        "Bisaya",
+        "Para precios (español)"
+      ],
+      "rows": [
+        [
+          "1",
+          "usa",
+          "uno"
+        ],
+        [
+          "2",
+          "duha",
+          "dos"
+        ],
+        [
+          "3",
+          "tulo",
+          "tres"
+        ],
+        [
+          "4",
+          "upat",
+          "kwatro"
+        ],
+        [
+          "5",
+          "lima",
+          "singko"
+        ],
+        [
+          "6",
+          "unom",
+          "seis"
+        ],
+        [
+          "7",
+          "pito",
+          "siyete"
+        ],
+        [
+          "8",
+          "walo",
+          "otso"
+        ],
+        [
+          "9",
+          "siyam",
+          "nuwebe"
+        ],
+        [
+          "10",
+          "napulo",
+          "diyes"
+        ],
+        [
+          "20",
+          "kawhaan",
+          "bente"
+        ],
+        [
+          "50",
+          "kalim-an",
+          "singkwenta"
+        ],
+        [
+          "100",
+          "usa ka gatos",
+          "syento"
+        ],
+        [
+          "1000",
+          "usa ka libo",
+          "mil"
+        ]
+      ],
+      "notes": [
+        "Tagpila ni? · Mahal! · Barato · Usa ka kape palihug · Pahatag og tubig · kwarta = dinero"
+      ]
+    },
+    {
+      "id": "direcciones",
+      "title": "Direcciones",
+      "kicker": "Jeepney y habal-habal",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Bisaya"
+      ],
+      "rows": [
+        [
+          "aquí / ahí / allí",
+          "diri / diha / didto"
+        ],
+        [
+          "derecha / izquierda",
+          "tuo / wala"
+        ],
+        [
+          "recto",
+          "diretso"
+        ],
+        [
+          "esquina",
+          "kanto"
+        ],
+        [
+          "cerca / lejos",
+          "duol / layo"
+        ],
+        [
+          "calle",
+          "dalan / kalye"
+        ],
+        [
+          "casa",
+          "balay"
+        ],
+        [
+          "iglesia",
+          "simbahan"
+        ],
+        [
+          "mercado",
+          "merkado / Carbon"
+        ],
+        [
+          "escuela",
+          "eskwelahan"
+        ],
+        [
+          "¿Cómo voy a…?",
+          "Unsaon pag-adto sa…?"
+        ],
+        [
+          "Quiero ir a…",
+          "Gusto kong moadto sa…"
+        ],
+        [
+          "¿Está lejos?",
+          "Layo ba?"
+        ],
+        [
+          "¡Pare!",
+          "Para! / Lugar lang!"
+        ]
+      ]
+    },
+    {
+      "id": "tiempo",
+      "title": "Tiempo",
+      "kicker": "Hoy, mañana, la hora",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Bisaya"
+      ],
+      "rows": [
+        [
+          "hoy / ahora",
+          "karon"
+        ],
+        [
+          "mañana",
+          "ugma"
+        ],
+        [
+          "ayer",
+          "gahapon"
+        ],
+        [
+          "más tarde",
+          "unya"
+        ],
+        [
+          "esta noche",
+          "karong gabii"
+        ],
+        [
+          "mañana (parte del día)",
+          "buntag"
+        ],
+        [
+          "mediodía",
+          "udto"
+        ],
+        [
+          "tarde",
+          "hapon"
+        ],
+        [
+          "noche",
+          "gabii"
+        ],
+        [
+          "¿Qué hora es?",
+          "Unsa nang orasa?"
+        ],
+        [
+          "las dos",
+          "alas dos"
+        ],
+        [
+          "lunes a sábado",
+          "Lunes, Martes, Miyerkules, Huwebes, Biyernes, Sabado"
+        ],
+        [
+          "domingo / semana",
+          "Dominggo / semana"
+        ]
+      ]
+    },
+    {
+      "id": "prestamos",
+      "title": "Ya sabes cientos de palabras",
+      "kicker": "Aún más préstamos del español",
+      "intro": "",
+      "columns": [
+        "Bisaya",
+        "Español",
+        "Ojo"
+      ],
+      "rows": [
+        [
+          "kumusta",
+          "cómo está",
+          ""
+        ],
+        [
+          "gusto",
+          "gusto = querer",
+          ""
+        ],
+        [
+          "siguro",
+          "seguro",
+          "= quizás"
+        ],
+        [
+          "kwarta",
+          "cuarta",
+          "= dinero"
+        ],
+        [
+          "tindahan",
+          "tienda",
+          ""
+        ],
+        [
+          "trabaho",
+          "trabajo",
+          ""
+        ],
+        [
+          "byahe",
+          "viaje",
+          ""
+        ],
+        [
+          "mesa / silya / plato / kutsara",
+          "mesa / silla / plato / cuchara",
+          ""
+        ],
+        [
+          "kwarto",
+          "cuarto",
+          "= habitación"
+        ],
+        [
+          "sapatos",
+          "zapatos",
+          ""
+        ],
+        [
+          "eskwela",
+          "escuela",
+          ""
+        ],
+        [
+          "libro / papel / lapis",
+          "libro / papel / lápiz",
+          ""
+        ],
+        [
+          "pero / o / kay",
+          "pero / o / porque(que)",
+          ""
+        ],
+        [
+          "pasaylo",
+          "perdón",
+          "de 'pasar'?"
+        ],
+        [
+          "puwede",
+          "puede",
+          "= se puede"
+        ],
+        [
+          "merkado",
+          "mercado",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "sentimientos",
+      "title": "Sentimientos y estados",
+      "kicker": "Cómo está su corazón",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Bisaya",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "feliz",
+          "malipayon",
+          "Malipayon ka?"
+        ],
+        [
+          "triste",
+          "magul-anon",
+          "Magul-anon ka?"
+        ],
+        [
+          "hambriento",
+          "gigutom",
+          "Gigutom ka?"
+        ],
+        [
+          "sediento",
+          "giuhaw",
+          "Giuhaw ka?"
+        ],
+        [
+          "cansado",
+          "gikapoy",
+          "Gikapoy ka?"
+        ],
+        [
+          "asustado",
+          "nahadlok",
+          "Nahadlok ka?"
+        ],
+        [
+          "enfadado",
+          "nasuko",
+          "Nasuko ka?"
+        ],
+        [
+          "enfermo",
+          "naa'y sakit",
+          "Naa kay sakit?"
+        ],
+        [
+          "bien, sin más",
+          "OK ra",
+          "OK ra ka?"
+        ],
+        [
+          "te quiero",
+          "gihigugma tika",
+          ""
+        ],
+        [
+          "sueño",
+          "pangandoy / damgo",
+          "Unsa imong pangandoy?"
+        ]
+      ]
+    },
+    {
+      "id": "chuleta",
+      "title": "Chuleta de oro",
+      "kicker": "Tus 10 frases de Cebú",
+      "intro": "",
+      "columns": [
+        "#",
+        "Bisaya",
+        "Español"
+      ],
+      "rows": [
+        [
+          "1",
+          "Kumusta!",
+          "Hola"
+        ],
+        [
+          "2",
+          "Ako si ___",
+          "Soy ___"
+        ],
+        [
+          "3",
+          "Unsa imong ngalan?",
+          "¿Cómo te llamas?"
+        ],
+        [
+          "4",
+          "Asa ka nagpuyo?",
+          "¿Dónde vives?"
+        ],
+        [
+          "5",
+          "Naa kay pamilya?",
+          "¿Tienes familia?"
+        ],
+        [
+          "6",
+          "Unsa imong trabaho?",
+          "¿De qué trabajas?"
+        ],
+        [
+          "7",
+          "Pila imong edad?",
+          "¿Cuántos años tienes?"
+        ],
+        [
+          "8",
+          "Nikaon na ka?",
+          "¿Ya has comido?"
+        ],
+        [
+          "9",
+          "Tagpila ni?",
+          "¿Cuánto cuesta?"
+        ],
+        [
+          "10",
+          "Daghang salamat! Amping!",
+          "¡Muchas gracias! ¡Cuídate!"
+        ]
+      ]
+    }
+  ]
+}

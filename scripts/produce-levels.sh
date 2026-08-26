@@ -3,7 +3,7 @@
 # Uso: scripts/produce-levels.sh tagalog 9 30   (deja log en ../PRUEBAS-VOZ/produce.log)
 set -u
 export PATH=/opt/homebrew/bin:$PATH
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"; COURSE="$1"; FROM="$2"; TO="$3"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"; COURSE="$1"; FROM="$2"; TO="$3"; export WS_VOICES="${4:-voices.json}"
 cd "$ROOT/pipeline/voice"
 for n in $(seq "$FROM" "$TO"); do
   echo "=========== L$n $(date +%H:%M) ==========="

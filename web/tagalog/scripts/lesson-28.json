@@ -1,0 +1,1594 @@
+{
+  "title": "Visita al Médico",
+  "subtitle": "Aprenderás a preguntar y responder sobre la salud.",
+  "summary_es": "Una visita a un enfermo en una clínica.",
+  "topics": [
+    "salud",
+    "pregunta",
+    "respuesta",
+    "cortesía"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta po? May sakit ka ba?",
+      "Opo, masakit ang ulo ko.",
+      "Naku, magpagaling ka. May gamot ka na ba?",
+      "Wala pa po. Kailangan ko ng reseta.",
+      "Sige po, tatawagin ko ang doktor."
+    ],
+    "es": [
+      "¿Cómo está? ¿Está enfermo?",
+      "Sí, me duele la cabeza.",
+      "Oh, que te mejores. ¿Tienes medicina ya?",
+      "Aún no. Necesito una receta.",
+      "De acuerdo, llamaré al doctor."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "May sakit ka ba?",
+      "es": "¿Estás enfermo?"
+    },
+    {
+      "term": "Masakit ang ulo ko.",
+      "es": "Me duele la cabeza."
+    },
+    {
+      "term": "Gamot",
+      "es": "Medicina"
+    },
+    {
+      "term": "Reseta",
+      "es": "Receta"
+    },
+    {
+      "term": "Magpagaling ka.",
+      "es": "Que te mejores."
+    },
+    {
+      "term": "Doktor po.",
+      "es": "Doctor, por favor."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 28. Visita al Médico.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5d76f3c9de0f2446.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una pequeña clínica en Tondo, un voluntario español está visitando a un paciente local. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ce2a3e68d8b17099.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta po? May sakit ka ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo está? ¿Está enfermo?",
+      "item": null,
+      "clip": "_clips/b00989dde0a35ad9.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, masakit ang ulo ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me duele la cabeza.",
+      "item": null,
+      "clip": "_clips/388afe50513434e3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naku, magpagaling ka. May gamot ka na ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Oh, que te mejores. ¿Tienes medicina ya?",
+      "item": null,
+      "clip": "_clips/92fd6c77f7720af4.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala pa po. Kailangan ko ng reseta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Aún no. Necesito una receta.",
+      "item": null,
+      "clip": "_clips/f1d4900db5005326.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sige po, tatawagin ko ang doktor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo, llamaré al doctor.",
+      "item": null,
+      "clip": "_clips/b86bfec373e43296.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprenderás a preguntar y responder sobre la salud. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4243437cb1984607.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4a6ef62bee13b4d9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/846ca7260ebd8bea.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka",
+      "clip": "_clips/2fef1303ebb2ea5e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3758c6dbf6e396a9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salamat po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "salamat-po",
+      "clip": "_clips/3fb685ae3513d18e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí (con respeto)»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a23197bc6d2e5695.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí (con respeto).",
+      "item": "opo",
+      "clip": "_clips/c5c2884a173a432e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/828f67e9e1305f26.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "hindi",
+      "clip": "_clips/03314f2278ec0939.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás enfermo?». Literalmente, ¿Tienes enfermedad?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/fd61637a578e649b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/10cb882ce946f7db.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/11957a2a442561af.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sakit ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/4ccbdaac575f3d63.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/11c4db9ffcab6c7d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta cortés para saber si alguien está enfermo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a738b734cff14c5d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás enfermo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/645222f51bfcd8e7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás enfermo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5f815f9e03e3c8fb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me duele la cabeza». Literalmente, Dolor la cabeza mía.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/12fa0580bfe59ad4.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/8ed9bcd5ca0a8ee4.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ulo ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/58a055f607326544.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ang ulo ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/f5ff85bdcb1774ad.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/6928dfcd300b23da.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para expresar dolor en una parte del cuerpo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5f5a7683cd5db0d3.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me duele la cabeza»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/06bff061acc6ef5e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9578d271c8ea69d3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Medicina». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ed097be3d875a2e0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mot",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gamot",
+      "clip": "_clips/c732b440e2ac529c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Palabra para referirse a cualquier tipo de medicina.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9815de04d18425c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Medicina»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5c997992cb47c5ee.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Medicina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f3bc303cbca997a3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Receta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/34450620b53bfa23.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "reseta",
+      "clip": "_clips/69bfcbbfc175cf77.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "reseta",
+      "clip": "_clips/16abee0196abd2a3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Documento necesario para obtener ciertas medicinas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a90d38a46891cc20.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2b576e984b17d563.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/93be24946cb32d13.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ee41e520142f0031.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/70119125ddf91428.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Que te mejores». Literalmente, Mejórate tú.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/b9d327a19d453e26.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "magpagaling-ka",
+      "clip": "_clips/884f1810e5f30151.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "magpagaling-ka",
+      "clip": "_clips/1eba992b4016c1cd.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Deseo de recuperación para alguien enfermo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d260d3bf8a37514a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Que te mejores»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/77e61c3c9dbb1300.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Que te mejores».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cdb456d4af95f9a5.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Doctor, por favor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8f6621c2f022abd9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "po",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doktor-po",
+      "clip": "_clips/d78abd9a26742ff2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doktor-po",
+      "clip": "_clips/0a4edcc2b6c8ca66.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Llamar al doctor con respeto.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d17f63571b432df4.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Doctor, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f02f1dc99d66a18b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Doctor, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/055617757e2153ba.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ee41e520142f0031.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/59a52450579103e2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usar 'po' para cortesía.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3863544e14ea8591.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Filipinas, es común usar 'po' para mostrar respeto, especialmente hacia los mayores o en situaciones formales. Se coloca al final de las frases o preguntas.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/dc7564acffaec7f8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magandang umaga po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Buenos días.",
+      "item": "magandang-umaga",
+      "clip": "_clips/cd1b7c93d07e5965.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salamat po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "salamat-po",
+      "clip": "_clips/3fb685ae3513d18e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/79ad3cb5a06c5073.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, may sakit ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy enfermo.",
+      "item": "opo-may-sakit-ako-answer",
+      "clip": "_clips/d14516867f8f53db.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy enfermo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2c5e524e59624487.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, may sakit ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy enfermo.",
+      "item": "opo-may-sakit-ako-answer",
+      "clip": "_clips/d14516867f8f53db.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, wala akong sakit.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no estoy enfermo.",
+      "item": "hindi-wala-akong-sakit-answer",
+      "clip": "_clips/7d4891b2724ee6c3.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no estoy enfermo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/dc1f8b53f020171f.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi, wala akong sakit.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no estoy enfermo.",
+      "item": "hindi-wala-akong-sakit-answer",
+      "clip": "_clips/7d4891b2724ee6c3.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7f05c247228f82db.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien si está enfermo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/227b8c022925cd2a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que te duele la cabeza.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3f9af4d941b8d0d1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/22b68384d04fe91c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás enfermo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0430f68bb3c4209f.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9578d271c8ea69d3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Medicina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f41ed4e42a89ba8a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2b576e984b17d563.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Que te mejores».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8279b2698f8d985a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Doctor, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/055617757e2153ba.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e575ccccef923d6e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/30607f52be45bf7d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/26cc4712fe77c68f.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka",
+      "clip": "_clips/2fef1303ebb2ea5e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d52c872ac849e714.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salamat po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "salamat-po",
+      "clip": "_clips/3fb685ae3513d18e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí (con respeto)»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/968bbef9f536ec02.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí (con respeto).",
+      "item": "opo",
+      "clip": "_clips/c5c2884a173a432e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/93ed07353864976d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No.",
+      "item": "hindi",
+      "clip": "_clips/03314f2278ec0939.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8a4a48dee7058175.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás enfermo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5eb62d6c5c5a0b49.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sakit ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás enfermo?",
+      "item": "may-sakit-ka-ba",
+      "clip": "_clips/0337feca7e2c8ae9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9471f8f8912eb407.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masakit ang ulo ko.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "masakit-ang-ulo-ko",
+      "clip": "_clips/2042adaedc06732a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Medicina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5a8dea048f8b8faf.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gamot",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "gamot",
+      "clip": "_clips/35b95b7a5215911a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/80258179a7d12ee5.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta",
+      "clip": "_clips/6300931108f8e57c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Que te mejores».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f1ecb723c55dbcee.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magpagaling ka.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Que te mejores.",
+      "item": "magpagaling-ka",
+      "clip": "_clips/84bf5aba4b9e33c0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Doctor, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/91c242f275dbdc52.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Doktor po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Doctor, por favor.",
+      "item": "doktor-po",
+      "clip": "_clips/21e759051dd25043.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/89a04d784117690f.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta po? May sakit ka ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo está? ¿Está enfermo?",
+      "item": null,
+      "clip": "_clips/b00989dde0a35ad9.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, masakit ang ulo ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, me duele la cabeza.",
+      "item": null,
+      "clip": "_clips/388afe50513434e3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naku, magpagaling ka. May gamot ka na ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Oh, que te mejores. ¿Tienes medicina ya?",
+      "item": null,
+      "clip": "_clips/92fd6c77f7720af4.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala pa po. Kailangan ko ng reseta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Aún no. Necesito una receta.",
+      "item": null,
+      "clip": "_clips/f1d4900db5005326.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sige po, tatawagin ko ang doktor.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo, llamaré al doctor.",
+      "item": null,
+      "clip": "_clips/b86bfec373e43296.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/de61793c403d9ec1.mp3"
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.3,
+    "chars": 3615,
+    "cues": 153,
+    "mode": "lesson",
+    "lesson": 28
+  }
+}

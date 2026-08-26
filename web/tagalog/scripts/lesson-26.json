@@ -1,0 +1,2095 @@
+{
+  "title": "Karinderya",
+  "subtitle": "Aprende a preguntar por el menú del día y pedir comida.",
+  "summary_es": "Cómo preguntar por el menú y pedir comida en una karinderya.",
+  "topics": [
+    "comida",
+    "cortesía",
+    "preguntar",
+    "pedir",
+    "karinderya"
+  ],
+  "dialogue": {
+    "tl": [
+      "Magandang tanghali po.",
+      "Ano po ang ulam ngayon?",
+      "May sisig, pancit, at adobo po.",
+      "Masarap po ang adobo.",
+      "Pahingi po ng kanin.",
+      "Sige po, isang kanin."
+    ],
+    "es": [
+      "Buen mediodía.",
+      "¿Cuál es el plato del día?",
+      "Hay sisig, pancit y adobo.",
+      "El adobo está delicioso.",
+      "Deme arroz, por favor.",
+      "De acuerdo, un arroz."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Ano po ang ulam ngayon?",
+      "es": "¿Cuál es el plato del día?"
+    },
+    {
+      "term": "Sisig",
+      "es": "Sisig"
+    },
+    {
+      "term": "Pancit",
+      "es": "Pancit"
+    },
+    {
+      "term": "Adobo",
+      "es": "Adobo"
+    },
+    {
+      "term": "Kanin",
+      "es": "Arroz"
+    },
+    {
+      "term": "Inumin",
+      "es": "Bebida"
+    },
+    {
+      "term": "Pahingi po ng kanin.",
+      "es": "Deme arroz, por favor."
+    },
+    {
+      "term": "Masarap!",
+      "es": "¡Delicioso!"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 26. Karinderya.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ae2c2d53916ae29f.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una karinderya en Tondo, un voluntario español pregunta por el menú del día. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f8d9e6765f2d2443.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Magandang tanghali po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buen mediodía.",
+      "item": null,
+      "clip": "_clips/dede9ef27583aca4.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": null,
+      "clip": "_clips/4f6332ebe9b43c85.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sisig, pancit, at adobo po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hay sisig, pancit y adobo.",
+      "item": null,
+      "clip": "_clips/88d81eac1a5dfb10.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Masarap po ang adobo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El adobo está delicioso.",
+      "item": null,
+      "clip": "_clips/30ed21aa9b502966.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Deme arroz, por favor.",
+      "item": null,
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sige po, isang kanin.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo, un arroz.",
+      "item": null,
+      "clip": "_clips/d90003d8ef3a3c67.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprende a preguntar por el menú del día y pedir comida. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e02b6ae9f506a67b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4a6ef62bee13b4d9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/364225fdefd25b8c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magkano po ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta esto?",
+      "item": "magkano-po-ito",
+      "clip": "_clips/2b11a840551f5b9b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9fa18f0ad74c9807.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Isang kape nga po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "isang-kape-nga-po",
+      "clip": "_clips/2c543726a80f4b98.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Deme agua, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6e927632dead2695.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng tubig.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme agua, por favor.",
+      "item": "pahingi-po-ng",
+      "clip": "_clips/d4ba320e7a021776.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quiero agua».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6c94c08302f3861d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto ko ng tubig.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng",
+      "clip": "_clips/126ad50db9fa0ab0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Ya has comido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/78c3350a17338b87.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/ba6a780568435721.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cuál es el plato del día?». Literalmente, ¿Qué plato hoy?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/146fc6c3b2b0d0cd.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "yon",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/53d9be6b41639c2d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ngayon",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/4d1754206a68e1fb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ulam ngayon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/3508629d800d96d3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "po ang ulam ngayon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/71237c707603c474.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/a86d8c0e20683d98.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'po' para mostrar respeto al preguntar.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/10166979241f054a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuál es el plato del día?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3ba029acb010d808.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Cuál es el plato del día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/579c37b70d2aac47.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sisig». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e45f76031537b4ac.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sig",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sisig",
+      "clip": "_clips/17e433ec9f371347.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un plato popular filipino hecho de carne de cerdo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d2dffdb1580a9ed5.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sisig»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ddae95a2e46bd8a3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sisig».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e9bf30d44ff78843.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Pancit». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2bbe61db9281d9a6.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "cit",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pancit",
+      "clip": "_clips/5052296a401911fc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Fideos salteados, un plato típico filipino.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1eb5af8df09bddd1.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Pancit»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/158713eaeb1f2fdc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Pancit».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4ed2e976f048f30d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Adobo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3cc74e9074e6c692.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "adobo",
+      "clip": "_clips/d29bd167e618db04.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dobo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "adobo",
+      "clip": "_clips/77daeb53f8c59f57.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un plato filipino de carne marinada y guisada.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/305f5d20ab77970f.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Adobo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/33ca25b3e22918a3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Adobo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/546ef7d227b9fc74.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ee41e520142f0031.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Sisig».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8be1c1604e8a61c7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Arroz». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/57d9c4c50edbc5c8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kanin",
+      "clip": "_clips/3bff20676321e50e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Arroz cocido, básico en la comida filipina.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d21838cccb421895.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Arroz»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c3cfac722aa578c9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Arroz».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/afdf92fe893085f9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Bebida». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/82ae96219ccdc4cb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "min",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "inumin",
+      "clip": "_clips/88843257aaa542bb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "numin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "inumin",
+      "clip": "_clips/5a3ce3895a7deef6.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Palabra general para bebidas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/fc2f12b92bf8cd39.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Bebida»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5ca5edd5d483b5bc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bebida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ebcc57995f8c9f3e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ee41e520142f0031.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Adobo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/912dddd4068bf960.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Deme arroz, por favor». Literalmente, Dar por favor arroz.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/67af2daa399ca5e7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/3bff20676321e50e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kanin",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/c963056a218d572e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ng kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/ba8a586fcdd65242.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "po ng kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/2d471ae87e97326d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/5d76d7efec0f0b59.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Usa 'po' para cortesía al pedir.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/03d93b5347477b27.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Deme arroz, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/304337435f340753.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Deme arroz, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/60a6db84e8837511.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Delicioso». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/46aebb565b9f67dd.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "rap",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "masarap",
+      "clip": "_clips/589e85dae31f677b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sarap",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "masarap",
+      "clip": "_clips/7815cb885a10cdf4.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "masarap",
+      "clip": "_clips/40faabafb120de31.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Expresión común para decir que algo está sabroso.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/46142c4c04a2377c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Delicioso»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e2c7124d96a24695.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Delicioso».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e2703af5415c7685.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ee41e520142f0031.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Bebida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e4f6fca56d237426.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'po' para cortesía.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/bf32361d2e1da8b0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Tagalog, el uso de 'po' y 'opo' es una manera de mostrar respeto y cortesía, especialmente al dirigirse a personas mayores o en situaciones formales. Se coloca después de preguntas o peticiones.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3b1fbeb4479a754e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/79ad3cb5a06c5073.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/588c60b7f9072870.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sisig».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1da12bbe00813b04.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/588c60b7f9072870.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/492fd4cfb76c3e3d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Pancit».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c28eb17215b8b4f1.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/492fd4cfb76c3e3d.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/b6cf766baa89ad2a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Adobo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9d50b49c4a4bd39f.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/b6cf766baa89ad2a.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/f0abc0ea14ea967e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Arroz».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/bb1b1e8a63cd0930.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/f0abc0ea14ea967e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7f05c247228f82db.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una karinderya y quieres saber qué platos tienen hoy.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/aff9fd145b3b26b9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Quieres pedir arroz en la karinderya.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/db1a5325c1471905.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/22b68384d04fe91c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es el plato del día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a755f82eb93ad4be.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sisig».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e9bf30d44ff78843.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Pancit».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e6047c2fec07ab96.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Adobo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/33ca25b3e22918a3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Arroz».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c70915d957861b06.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bebida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ebcc57995f8c9f3e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Deme arroz, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/74cb48febe24b736.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Delicioso»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e2c7124d96a24695.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e575ccccef923d6e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/30607f52be45bf7d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a35edb6a54d6a9c4.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magkano po ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta esto?",
+      "item": "magkano-po-ito",
+      "clip": "_clips/2b11a840551f5b9b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Un café, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f2415a6f07c0b615.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Isang kape nga po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un café, por favor.",
+      "item": "isang-kape-nga-po",
+      "clip": "_clips/2c543726a80f4b98.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Deme agua, por favor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1122934831e3cdc7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng tubig.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme agua, por favor.",
+      "item": "pahingi-po-ng",
+      "clip": "_clips/d4ba320e7a021776.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Quiero agua».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0856030de7c523b8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gusto ko ng tubig.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Quiero agua.",
+      "item": "gusto-ko-ng",
+      "clip": "_clips/126ad50db9fa0ab0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Ya has comido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/378c2ab3c3fa0a86.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/ba6a780568435721.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8a4a48dee7058175.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es el plato del día?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c377b185058b82ec.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": "ano-po-ang-ulam-ngayon",
+      "clip": "_clips/00760e9e9d358a89.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sisig».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/24e24b1a88da3588.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sisig",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sisig",
+      "item": "sisig",
+      "clip": "_clips/6b74899fb810e509.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Pancit».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/41b014ef44fd19a2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pancit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Pancit",
+      "item": "pancit",
+      "clip": "_clips/6bc913e3e164dc31.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Adobo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/79961dac717f8b14.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Adobo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Adobo",
+      "item": "adobo",
+      "clip": "_clips/9cc37c58f746f705.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Arroz».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2a798181ad25a0b2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Arroz",
+      "item": "kanin",
+      "clip": "_clips/206f856ce6f32002.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Bebida».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8fb2969829cb2060.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Inumin",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bebida",
+      "item": "inumin",
+      "clip": "_clips/ec6b101226912b1e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Deme arroz, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7b023149d4a1026d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Deme arroz, por favor.",
+      "item": "pahingi-po-ng-kanin",
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Delicioso»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7ff88dabc4f162b7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Masarap!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Delicioso!",
+      "item": "masarap",
+      "clip": "_clips/4c65c734a420c34d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/89a04d784117690f.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Magandang tanghali po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Buen mediodía.",
+      "item": null,
+      "clip": "_clips/dede9ef27583aca4.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ano po ang ulam ngayon?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuál es el plato del día?",
+      "item": null,
+      "clip": "_clips/4f6332ebe9b43c85.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May sisig, pancit, at adobo po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hay sisig, pancit y adobo.",
+      "item": null,
+      "clip": "_clips/88d81eac1a5dfb10.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Masarap po ang adobo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "El adobo está delicioso.",
+      "item": null,
+      "clip": "_clips/30ed21aa9b502966.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pahingi po ng kanin.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Deme arroz, por favor.",
+      "item": null,
+      "clip": "_clips/e672e43fb73e3626.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sige po, isang kanin.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "De acuerdo, un arroz.",
+      "item": null,
+      "clip": "_clips/d90003d8ef3a3c67.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/de61793c403d9ec1.mp3"
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 14.1,
+    "chars": 4183,
+    "cues": 202,
+    "mode": "lesson",
+    "lesson": 26
+  }
+}

@@ -14,11 +14,11 @@ import re
 
 from common import course_dir, http_json, load_json, read_key, save_json
 
-SYSTEM = """Eres profesor nativo de Tagalog (Filipinas, registro de Manila/Tondo) y diseñador de cursos
+SYSTEM = """Eres profesor nativo de {LANG} (Filipinas) y diseñador de cursos
 por audio para hispanohablantes. Escribes contenido para una lección del método Pimsleur.
 Devuelve SOLO JSON válido con esta forma exacta:
 {
- "items": [ {"id": "kebab-unico", "tl": "frase en Tagalog natural, con puntuación", "es": "español de España natural",
+ "items": [ {"id": "kebab-unico", "tl": "frase en {LANG} natural, con puntuación", "es": "español de España natural",
              "lit": "traducción literal corta o vacío", "note": "una frase útil del narrador (uso, cortesía po, matiz)",
              "pill": "una de: preguntar, entender, presentarse, cortesia, moverse, mercado, ninos, corazon, familia, casa, trabajo, comida, tiempo, fe, salud, social, peligro",
              "tags": ["etiquetas de gramática"], "answer": false } ],
@@ -29,7 +29,7 @@ Devuelve SOLO JSON válido con esta forma exacta:
              "grammar_pill": {"title": "...", "text": "explicación de 2-4 frases, hablada, clara", "examples": ["2 ids"]},
              "guided": [ {"prompt": "situación en español para que el alumno produzca", "item": "id"} ] } }
 Reglas: 6-8 ítems nuevos + 2-4 respuestas (answer=true). Los ids nuevos no pueden coincidir con los existentes.
-Tagalog correcto y natural; con niños, registro cariñoso (anak, iho/iha) y preguntas con tacto. Diálogo de 5-8 líneas
+{LANG} correcto y natural; con niños, registro cariñoso (anak, iho/iha) y preguntas con tacto. Diálogo de 5-8 líneas
 usando SOLO ítems de la lección y de anteriores. Nada en inglés."""
 
 
@@ -51,9 +51,10 @@ def main():
     course = load_json(cdir / "course.json")
     user = json.dumps({"lesson": a.lesson, "level": level, "title": lesson["title"], "key_items_es_or_tl": lesson["items"], "grammar_focus": lesson["grammar"],
                        "course_context": course.get("context", ""), "existing_items": existing}, ensure_ascii=False)
+    system = SYSTEM.replace("{LANG}", course.get("language", {}).get("name", "Tagalog"))
     print(f"redactando L{a.lesson} · {lesson['title']}", flush=True)
     r = http_json("https://api.openai.com/v1/chat/completions", {"model": a.model, "temperature": 0.4, "response_format": {"type": "json_object"}, "max_tokens": 6000,
-                  "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]}, {"Authorization": f"Bearer {read_key('openai')}"})
+                  "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}, {"Authorization": f"Bearer {read_key('openai')}"})
     out = json.loads(r["choices"][0]["message"]["content"])
     ids = {i["id"] for i in items["items"]}
     new = []
