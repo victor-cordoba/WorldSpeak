@@ -1,105 +1,47 @@
 {
-  "_doc": "Bisaya: mismas voces del casting, sin language_code (eleven_v3 detecta el cebuano).",
+  "_doc": "Bisaya: L01-L22 con ElevenLabs (Pablo Marshal/Nobita/Grandma Sela); desde L23 con Fish para reservar credito. Regenerar con ElevenLabs cuando se renueve el plan.",
   "model_id": "eleven_v3",
   "output_format": "mp3_44100_128",
   "roles": {
     "narrator": {
-      "provider": "elevenlabs",
-      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
-      "name": "Pablo Marshal (ElevenLabs, castellano)",
-      "voice_settings": {
-        "stability": 0.5,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "tempo": 1.28,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
-        "name": "Narrador Terror (Fish)",
-        "voice_settings": {},
-        "tempo": 1.28
-      },
-      "language_code": "es",
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+      "name": "Narrador Terror (Fish, castellano)",
+      "voice_settings": {},
       "clean": false,
-      "model_id": "eleven_multilingual_v2"
+      "tempo": 1.28
     },
     "native_m": {
-      "provider": "elevenlabs",
-      "voice_id": "Mq7TZ9YGS3JSRUgqdpeh",
-      "name": "Nobita (ElevenLabs)",
-      "voice_settings": {
-        "stability": 0.6,
-        "similarity_boost": 0.85,
-        "style": 0.1,
-        "use_speaker_boost": true
-      },
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "701712d9d2194ebd8c0ea782907ceb38",
-        "name": "MTRCB Tagalog (Fish)",
-        "voice_settings": {}
-      },
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "701712d9d2194ebd8c0ea782907ceb38",
+      "name": "MTRCB Tagalog (Fish)",
+      "voice_settings": {},
       "clean": false
     },
     "native_f": {
-      "provider": "elevenlabs",
-      "voice_id": "S0erf8BY5pzZPCxzCfku",
-      "name": "Grandma Sela Tanda (ElevenLabs)",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "9f941329424241178c7dc0ad6c3b9318",
-        "name": "GMA Sponsor Bumper Announcer (Fish)",
-        "voice_settings": {}
-      },
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "9f941329424241178c7dc0ad6c3b9318",
+      "name": "GMA Sponsor Bumper (Fish)",
+      "voice_settings": {},
       "clean": false
     },
     "kid_m": {
-      "provider": "elevenlabs",
-      "voice_id": "FSuckdZNjSzYsEkK5aKN",
-      "name": "Donnel (ElevenLabs)",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "701712d9d2194ebd8c0ea782907ceb38",
-        "name": "MTRCB Tagalog (Fish)",
-        "voice_settings": {}
-      },
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "701712d9d2194ebd8c0ea782907ceb38",
+      "name": "MTRCB Tagalog (Fish)",
+      "voice_settings": {},
       "clean": false
     },
     "kid_f": {
-      "provider": "elevenlabs",
-      "voice_id": "0OteN0TNg6Kyaflk2DY8",
-      "name": "Bea (ElevenLabs)",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "9f941329424241178c7dc0ad6c3b9318",
-        "name": "GMA Sponsor Bumper Announcer (Fish)",
-        "voice_settings": {}
-      },
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "9f941329424241178c7dc0ad6c3b9318",
+      "name": "GMA Sponsor Bumper (Fish)",
+      "voice_settings": {},
       "clean": false
     }
   },

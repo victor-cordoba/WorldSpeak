@@ -1,0 +1,1653 @@
+{
+  "title": "Visita a un enfermo",
+  "subtitle": "Aprender a preguntar sobre la salud y expresar buenos deseos.",
+  "summary_es": "Una visita al hospital para ver a un amigo enfermo.",
+  "topics": [
+    "salud",
+    "hospital",
+    "enfermedad",
+    "medicina",
+    "receta"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta ka?",
+      "Naa ko sa hospital. Sakit akong ulo.",
+      "Naa kay reseta gikan sa doktor?",
+      "Oo, ang doktor naghatag og reseta.",
+      "Naa kay tambal?",
+      "Oo, naa ko'y tambal.",
+      "Maayo unta ka."
+    ],
+    "es": [
+      "¿Cómo estás?",
+      "Estoy en el hospital. Me duele la cabeza.",
+      "¿Tienes receta del doctor?",
+      "Sí, el doctor dio una receta.",
+      "¿Tienes medicina?",
+      "Sí, tengo medicina.",
+      "Espero que te mejores."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Naa kay sakit?",
+      "es": "¿Tienes alguna enfermedad?"
+    },
+    {
+      "term": "Sakit akong ulo.",
+      "es": "Me duele la cabeza."
+    },
+    {
+      "term": "Tambal",
+      "es": "Medicina"
+    },
+    {
+      "term": "Reseta",
+      "es": "Receta"
+    },
+    {
+      "term": "Naa ko sa hospital.",
+      "es": "Estoy en el hospital."
+    },
+    {
+      "term": "Ang doktor naghatag og reseta.",
+      "es": "El doctor dio una receta."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 28. Visita a un enfermo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En el hospital de Cebu City, visitando a un amigo enfermo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa ko sa hospital. Sakit akong ulo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy en el hospital. Me duele la cabeza.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay reseta gikan sa doktor?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes receta del doctor?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oo, ang doktor naghatag og reseta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, el doctor dio una receta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay tambal?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes medicina?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oo, naa ko'y tambal.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo medicina.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Maayo unta ka.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Espero que te mejores.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar sobre la salud y expresar buenos deseos. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Maayo ra.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien.",
+      "item": "maayo-ra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está en Cebú»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está en Cebú.",
+      "item": "naa-sa-cebu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy en Cebú».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en Cebú.",
+      "item": "naa-ko-sa-cebu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De qué trabajas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Unsa imong trabaho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "unsa-imong-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu sueño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Unsa imong pangandoy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "unsa-imong-pangandoy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A quién?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kang kinsa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes alguna enfermedad?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kit",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sakit",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kay sakit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta para saber si alguien está enfermo",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes alguna enfermedad?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes alguna enfermedad?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me duele la cabeza». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ulo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "akong ulo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "expresión común para describir dolor",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me duele la cabeza»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Medicina». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "bal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tambal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "tambal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "palabra para referirse a medicinas en general",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Medicina»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Medicina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Receta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "documento del doctor para obtener medicinas",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy en el hospital». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tal",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pital",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hospital",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko sa hospital",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "indica ubicación en el hospital",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy en el hospital»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy en el hospital».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«El doctor dio una receta». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "seta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "reseta",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "doktor naghatag og reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "acción del doctor al dar una receta",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El doctor dio una receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El doctor dio una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Te han hecho daño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gisakitan ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te han hecho daño?",
+      "item": "gisakitan-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'naa' para ubicación y posesión.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Bisaya, 'naa' se utiliza para indicar tanto la ubicación como la posesión. Por ejemplo, 'Naa ko sa hospital' indica que estás en el hospital, mientras que 'Naa kay tambal?' pregunta si tienes medicina.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay tambal?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes medicina?",
+      "item": "naa-kay-tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Maayo unta ka.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Espero que te mejores.",
+      "item": "maayo-unta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Espero que te mejores».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Maayo unta ka.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Espero que te mejores.",
+      "item": "maayo-unta-ka"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa kay tambal?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Tienes medicina?",
+      "item": "naa-kay-tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes medicina?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa kay tambal?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Tienes medicina?",
+      "item": "naa-kay-tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás visitando a un amigo en el hospital. Pregunta si tiene medicina.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay tambal?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes medicina?",
+      "item": "naa-kay-tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes alguna enfermedad?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Medicina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy en el hospital».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El doctor dio una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Maayo ra.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien.",
+      "item": "maayo-ra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Está en Cebú»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Está en Cebú.",
+      "item": "naa-sa-cebu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy en Cebú».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa Cebu.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en Cebú.",
+      "item": "naa-ko-sa-cebu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De qué trabajas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Unsa imong trabaho?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "unsa-imong-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuál es tu sueño?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Unsa imong pangandoy?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuál es tu sueño?",
+      "item": "unsa-imong-pangandoy"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A quién?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kang kinsa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes alguna enfermedad?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay sakit?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes alguna enfermedad?",
+      "item": "naa-kay-sakit"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me duele la cabeza».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sakit akong ulo.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele la cabeza.",
+      "item": "sakit-akong"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Medicina».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tambal",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Medicina",
+      "item": "tambal"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Receta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Reseta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Receta",
+      "item": "reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy en el hospital».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa ko sa hospital.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy en el hospital.",
+      "item": "naa-ko-sa-hospital"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «El doctor dio una receta».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ang doktor naghatag og reseta.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "El doctor dio una receta.",
+      "item": "doktor-naghatag-reseta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Naa ko sa hospital. Sakit akong ulo.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy en el hospital. Me duele la cabeza.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay reseta gikan sa doktor?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes receta del doctor?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oo, ang doktor naghatag og reseta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, el doctor dio una receta.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Naa kay tambal?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes medicina?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Oo, naa ko'y tambal.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, tengo medicina.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Maayo unta ka.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Espero que te mejores.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Amping!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.9,
+    "chars": 4214,
+    "cues": 176,
+    "mode": "lesson",
+    "lesson": 28
+  }
+}
