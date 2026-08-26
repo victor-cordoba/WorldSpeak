@@ -31,3 +31,5 @@ body.player-only.has-live-bg { background: transparent !important; }
 body.player-only.transcript-visible { overflow: auto !important; position: static !important; }
 body.player-only.transcript-visible::before { display: none !important; }
 .player-only.transcript-visible .shell, .player-only.transcript-focus-mode .shell { filter: none !important; opacity: 1 !important; }
+.player-only .hub-link { padding: 7px 22px 7px 8px; gap: 12px; }
+.player-only .hub-link strong { text-transform: uppercase; letter-spacing: 0.06em; font-size: 12px; }
