@@ -12,7 +12,7 @@ Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versi�
 - **Dominio propio `worldspeak.es`** (Hostinger): todo desplegado ahí (código, datos, audio y la base de usuarios). Espejo temporal en `victorcordoba.com/worldspeak` hasta que el DNS resuelva; después redirecciones 301 desde ahí y desde `misioncebu.org/tagalog`.
 - **MySQL en producción** (`u819150567_worldspeak`): esquema autocreado, 8 usuarios y progreso migrados desde SQLite con `migrate_sqlite_to_mysql.php`.
 - **Analítica propia** sin cookies de terceros: `api/track.php` + tabla `ws_events` (visitas, play, fin de lección, marcar hecha, leer texto, repasos, login) y panel `api/stats.php?key=…`.
-- **Nivel 1 completo con Fish Audio (L01–L08)** y producción en marcha de L09–L30 con `scripts/produce-levels.sh` (GPT redacta ítems/escena/receta desde el currículo → compilador → Fish → montaje).
+- **Curso de Tagalog completo: 30 lecciones (~7.0 h)** con ElevenLabs Creator (Pablo Marshal narrador, Mark y Grandma Sela Tanda en Tagalog) y respaldo Fish; L09–L30 redactadas por GPT desde el currículo (pendientes de revisión humana) con `scripts/produce-levels.sh` (GPT redacta ítems/escena/receta desde el currículo → compilador → Fish → montaje).
 - **Fondo vivo**: manchas de color de la bandera, desenfocadas, que derivan y se desplazan con el scroll; superficies con efecto cristal.
 - Reproductor del curso propio: tarjeta de la lección al cerrar el texto, cabecera con píldora «Lección 02», reanudación robusta tras bloquear el iPhone (`safePlay`: recarga y sigue en el mismo segundo).
 - Ruta: botón ▶ en cada parada, bus dentro de la línea, práctica rápida por lección preseleccionando sus temas; A medida con **Diálogos** (líneas tocables con traducción).
@@ -38,6 +38,8 @@ Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versi�
 - Carpeta de iCloud renombrada a `09 - ESTUDIOS/WorldSpeak/` (el repo es `WorldSpeak/WorldSpeak/`).
 
 - **Nivel 1 completo (L01–L08) generado con Fish Audio** y publicado en la Ruta. Fish pasa a ser el proveedor por defecto; la L01 de ElevenLabs queda como pista de comparación. Escenas y recetas L04–L08. Compilador calibrado a 15 min reales.
+
+- **Bisaya (cebuano)**: plan de estudios (`docs/12-plan-bisaya.md`) con islas, diferencias con el Tagalog y currículo de 30 lecciones; curso `web/bisaya/` con 13 tablas y producción de audio encolada.
 
 ### Corregido
 - `safeJson` devolvía `null` para `"null"` y tumbaba el render del curso.
