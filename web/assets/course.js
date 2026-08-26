@@ -65,9 +65,11 @@ function renderRoute() {
   const target = (last && !done.has(last.id) && last) || next || curriculum.lessons[0];
   const resume = last && target === last && p.lastPlayed.position > 20;
   const mm = (sec) => `${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, '0')}`;
-  $('#nextEyebrow').textContent = resume ? 'Sigues donde lo dejaste' : 'Tu próxima parada';
+  $('#nextEyebrow').textContent = `LECCIÓN ${target.lesson}`;
   $('#nextTitle').textContent = target.title;
-  $('#nextMeta').textContent = resume ? `Lección ${target.lesson} · en el minuto ${mm(p.lastPlayed.position)}` : `Lección ${target.lesson} · Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
+  const pct = resume && p.lastPlayed.duration ? Math.min(99, Math.round((p.lastPlayed.position / p.lastPlayed.duration) * 100)) : 0;
+  $('#nextMetaText').innerHTML = resume ? `<span class="hero-progress"><i style="width:${pct}%"></i></span> vas por el minuto ${mm(p.lastPlayed.position)}` : `Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
+  const pm = $('#practiceMeta'); if (pm) pm.textContent = `Frases de la lección ${target.lesson}: ${target.title}`;
   $('#nextLink').href = hasAudio.has(target.id) ? `./player.html?track=${target.id}` : '#frases';
   $('#nextLink').textContent = resume ? '▶ Continuar' : hasAudio.has(target.id) ? '▶ Empezar' : '💬 Ver las frases';
   if (!hasAudio.has(target.id)) $('#nextLink').addEventListener('click', (e) => { e.preventDefault(); showTab('frases'); });

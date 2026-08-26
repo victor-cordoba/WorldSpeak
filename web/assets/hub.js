@@ -98,7 +98,6 @@ function renderCourses() {
       <div class="course-band"><span class="course-flag">${flag(course.language?.flag)}</span></div>
       <div class="course-body">
         <div class="course-head"><h3>${course.title}</h3><span class="course-chip">${course.subtitle || ''}</span></div>
-        <p>${course.description || ''}</p>
         <div class="course-foot">
           ${isLive ? ring(pct) : '<span class="ring ring-soon">…</span>'}
           <span class="course-meta">${meta}</span>

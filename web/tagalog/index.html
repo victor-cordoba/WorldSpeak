@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="WorldSpeak">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
-  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=20260826-22">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=20260826-26">
   <link rel="icon" type="image/png" sizes="192x192" href="../assets/icon-192.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WorldSpeak">
@@ -35,8 +35,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="../assets/course.css?v=20260826-22">
-  <link rel="stylesheet" href="../assets/bg.css?v=20260826-22">
+  <link rel="stylesheet" href="../assets/course.css?v=20260826-26">
+  <link rel="stylesheet" href="../assets/bg.css?v=20260826-26">
 </head>
 <body>
   <header class="top">
@@ -55,11 +55,11 @@
     <!-- RUTA -->
     <section id="tab-ruta" class="tab is-active" aria-labelledby="nav-ruta">
       <div class="hero-card">
-        <p class="eyebrow" id="nextEyebrow">Tu próxima parada</p>
+        <p id="nextMeta" class="hero-where"><span id="nextEyebrow" class="hero-where-pill">LECCIÓN 1</span><span id="nextMetaText"></span></p>
         <h1 id="nextTitle">Hola, ¿cómo estás?</h1>
-        <p id="nextMeta" class="hero-meta">Lección 1 · Nivel 1 · 15 min</p>
-        <div class="hero-actions"><a id="nextLink" class="btn btn-gold btn-big" href="./player.html">▶ Empezar</a><button id="nextPractice" class="btn btn-ghost-light" type="button">⚡ Práctica rápida</button></div>
+        <div class="hero-actions"><a id="nextLink" class="btn btn-gold btn-big" href="./player.html">▶ Empezar</a></div>
       </div>
+      <button id="nextPractice" class="practice-bar" type="button"><span class="practice-icon">⚡</span><span><strong>Práctica rápida</strong><em id="practiceMeta">Repasa las frases de la lección en la que vas</em></span><span class="practice-go">›</span></button>
       <div id="route" class="route" aria-label="Ruta de lecciones"></div>
       <a class="voices-link" href="./voces.html">🎙️ Casting de voces <span>Elige quién narra y quién habla Tagalog</span></a>
     </section>
@@ -137,8 +137,8 @@
     <button id="nav-medida" class="nav-btn" data-tab="medida" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2.05V5a1 1 0 1 1-2 0V2.05A10 10 0 0 0 2.05 11H5a1 1 0 1 1 0 2H2.05A10 10 0 0 0 11 21.95V19a1 1 0 1 1 2 0v2.95A10 10 0 0 0 21.95 13H19a1 1 0 1 1 0-2h2.95A10 10 0 0 0 13 2.05zM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/></svg><span>A medida</span></button>
   </nav>
 
-  <script src="../assets/course.js?v=20260826-22"></script>
-  <script src="../assets/track.js?v=20260826-22" data-api="../api/track.php" data-course="tagalog" defer></script>
-  <script src="../assets/bg.js?v=20260826-22"></script>
+  <script src="../assets/course.js?v=20260826-26"></script>
+  <script src="../assets/track.js?v=20260826-26" data-api="../api/track.php" data-course="tagalog" defer></script>
+  <script src="../assets/bg.js?v=20260826-26"></script>
 </body>
 </html>
