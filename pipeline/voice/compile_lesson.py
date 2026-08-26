@@ -163,6 +163,11 @@ class Compiler:
             self.say(item, pause=1.2 if (k == reps - 1 and note and self.mode == "lesson") else None)
         if note and self.mode == "lesson":
             self.n(note, 0.5, "explanation")
+        var = item.get("variant")
+        if var and self.mode == "lesson":
+            self.n(f"Y {var['es']}, escucha:", 0.3, "explanation")
+            self.cues.append(cue(self.voice(item), var["tl"], "phrase", P["short"], translation=var["es"], item=item["id"]))
+            self.n("Pero hoy practicamos la primera forma.", 0.4, "explanation") if "respeto" in var["es"] else None
         self.prompt(item, 0)
         self.prompt(item, 2)
 

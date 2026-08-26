@@ -6,12 +6,16 @@
       "tl": "Kumusta?",
       "es": "Hola, ¿qué tal?",
       "lit": "del español 'cómo está'",
-      "note": "Sirve de hola y de cómo estás a la vez. Con adultos, añade po: Kumusta po?",
+      "note": "Sirve de hola y de cómo estás a la vez.",
       "pill": "presentarse",
       "tags": [
         "saludo"
       ],
-      "lesson": 1
+      "lesson": 1,
+      "variant": {
+        "tl": "Kumusta po?",
+        "es": "con adultos, añadiendo po"
+      }
     },
     {
       "id": "kumusta-ka",
@@ -132,42 +136,54 @@
       "tl": "Ako si Juan.",
       "es": "Soy Juan.",
       "lit": "",
-      "note": "También oirás: Juan ang pangalan ko (Juan es mi nombre).",
+      "note": "Así se presenta alguien. También puede decir que Juan es su nombre.",
       "pill": "entender",
       "tags": [],
       "lesson": 1,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Juan ang pangalan ko.",
+        "es": "Juan es mi nombre"
+      }
     },
     {
       "id": "salamat-po",
       "tl": "Salamat po.",
       "es": "Gracias.",
       "lit": "",
-      "note": "Maraming salamat po = muchas gracias.",
+      "note": "Para dar las gracias con respeto.",
       "pill": "cortesia",
       "tags": [
         "po"
       ],
-      "lesson": 1
+      "lesson": 1,
+      "variant": {
+        "tl": "Maraming salamat po.",
+        "es": "muchas gracias"
+      }
     },
     {
       "id": "ingat-ka",
       "tl": "Ingat ka!",
       "es": "¡Cuídate! (adiós)",
       "lit": "cuidado tú",
-      "note": "La despedida más usada. Con respeto: Ingat po kayo.",
+      "note": "La despedida más usada, literalmente cuídate.",
       "pill": "cortesia",
       "tags": [
         "saludo"
       ],
-      "lesson": 1
+      "lesson": 1,
+      "variant": {
+        "tl": "Ingat po kayo.",
+        "es": "con respeto, a un adulto"
+      }
     },
     {
       "id": "marunong-tagalog",
       "tl": "Marunong ka bang mag-Tagalog?",
       "es": "¿Sabes hablar Tagalog?",
       "lit": "sabes tú-[ba] hablar-Tagalog",
-      "note": "marunong = saber hacer algo. ba convierte la frase en pregunta y se pega a ka: bang.",
+      "note": "Marunong es saber hacer algo. La partícula de pregunta se pega a ka y suena bang.",
       "pill": "preguntar",
       "tags": [
         "particula-ba",
@@ -205,11 +221,15 @@
       "tl": "Oo.",
       "es": "Sí.",
       "lit": "",
-      "note": "Con respeto, a un adulto: Opo.",
+      "note": "Sí.",
       "pill": "entender",
       "tags": [],
       "lesson": 2,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Opo.",
+        "es": "con respeto, a un adulto"
+      }
     },
     {
       "id": "opo",
@@ -228,11 +248,15 @@
       "tl": "Hindi.",
       "es": "No.",
       "lit": "",
-      "note": "Con respeto: Hindi po. También es el 'no' que niega verbos: Hindi ko alam.",
+      "note": "No. También niega verbos, como en no lo sé.",
       "pill": "entender",
       "tags": [],
       "lesson": 2,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Hindi po.",
+        "es": "con respeto"
+      }
     },
     {
       "id": "hindi-marunong",
@@ -250,7 +274,7 @@
       "tl": "Naiintindihan mo ba?",
       "es": "¿Me entiendes?",
       "lit": "entendido-por-ti [ba]",
-      "note": "Respuesta: Oo / Hindi / Konti lang.",
+      "note": "Te contestarán sí, no, o solo un poco.",
       "pill": "preguntar",
       "tags": [
         "particula-ba"
@@ -371,13 +395,17 @@
       "tl": "Ako rin.",
       "es": "Yo también.",
       "lit": "yo también",
-      "note": "rin tras vocal, din tras consonante: Ikaw din = tú también.",
+      "note": "Rin va tras vocal y din tras consonante. Significan lo mismo.",
       "pill": "entender",
       "tags": [
         "conector"
       ],
       "lesson": 3,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Ikaw din.",
+        "es": "tú también"
+      }
     },
     {
       "id": "gutom-ako",
@@ -396,12 +424,16 @@
       "tl": "Saan?",
       "es": "¿Dónde?",
       "lit": "",
-      "note": "Con verbo: Saan ka nakatira? Sin verbo se usa nasaan (más adelante).",
+      "note": "Se usa cuando hay verbo. Sin verbo se usa otra palabra que verás más adelante.",
       "pill": "preguntar",
       "tags": [
         "interrogativo"
       ],
-      "lesson": 4
+      "lesson": 4,
+      "variant": {
+        "tl": "Saan ka nakatira?",
+        "es": "¿dónde vives?"
+      }
     },
     {
       "id": "sino",
@@ -503,13 +535,17 @@
       "tl": "Malapit lang.",
       "es": "Aquí cerca.",
       "lit": "cerca solo",
-      "note": "Respuesta típica a ¿dónde está tu casa? Lo contrario: Malayo = lejos.",
+      "note": "Respuesta típica a dónde está tu casa. Lo contrario es lejos.",
       "pill": "entender",
       "tags": [
         "lang"
       ],
       "lesson": 4,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Malayo.",
+        "es": "lejos"
+      }
     },
     {
       "id": "gusto-ko-ng",
@@ -528,13 +564,17 @@
       "tl": "Gusto mo ba?",
       "es": "¿Quieres?",
       "lit": "gusto tu [ba]",
-      "note": "Gusto mo ba ng kape? ¿quieres café? Respuesta: Oo / Hindi / Ayaw ko.",
+      "note": "Para ofrecer algo. Te contestarán sí, no, o no quiero.",
       "pill": "preguntar",
       "tags": [
         "gusto",
         "particula-ba"
       ],
-      "lesson": 5
+      "lesson": 5,
+      "variant": {
+        "tl": "Gusto mo ba ng kape?",
+        "es": "¿quieres café?"
+      }
     },
     {
       "id": "ayaw-ko",
@@ -568,12 +608,16 @@
       "tl": "Paano pumunta sa Tondo?",
       "es": "¿Cómo se va a Tondo?",
       "lit": "cómo ir a Tondo",
-      "note": "Paano = cómo. Con respeto: Paano po pumunta sa…?",
+      "note": "Paano significa cómo.",
       "pill": "moverse",
       "tags": [
         "interrogativo"
       ],
-      "lesson": 5
+      "lesson": 5,
+      "variant": {
+        "tl": "Paano po pumunta sa Tondo?",
+        "es": "con respeto"
+      }
     },
     {
       "id": "malayo-ba",
@@ -617,12 +661,16 @@
       "tl": "Para po!",
       "es": "¡Pare aquí! (en el jeepney)",
       "lit": "del español 'para'",
-      "note": "Se grita para bajarse del jeepney. Sa Divisoria po! = ¡a Divisoria!",
+      "note": "Se grita para bajarse del jeepney.",
       "pill": "moverse",
       "tags": [
         "prestamo-es"
       ],
-      "lesson": 5
+      "lesson": 5,
+      "variant": {
+        "tl": "Sa Divisoria po!",
+        "es": "¡a Divisoria!, para decirle a dónde vas"
+      }
     },
     {
       "id": "magkano-po-ito",
@@ -699,12 +747,16 @@
       "tl": "Isang kape nga po.",
       "es": "Un café, por favor.",
       "lit": "un café [nga] po",
-      "note": "La fórmula educada de pedir: número-ng + cosa + nga po. Dalawang beer nga po = dos cervezas.",
+      "note": "La fórmula educada de pedir: el número con su enlace, la cosa, y nga po.",
       "pill": "mercado",
       "tags": [
         "enlace-ng"
       ],
-      "lesson": 6
+      "lesson": 6,
+      "variant": {
+        "tl": "Dalawang beer nga po.",
+        "es": "dos cervezas, por favor"
+      }
     },
     {
       "id": "pahingi-po-ng",
@@ -721,13 +773,17 @@
       "tl": "Wala.",
       "es": "No hay. / No tengo.",
       "lit": "",
-      "note": "Walang pera = no hay dinero. Lo contrario: Meron / May.",
+      "note": "No hay, o no tengo. Lo contrario es meron.",
       "pill": "entender",
       "tags": [
         "particula-wala"
       ],
       "lesson": 6,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Walang pera.",
+        "es": "no hay dinero"
+      }
     },
     {
       "id": "kailan",
@@ -758,12 +814,16 @@
       "tl": "Ilan?",
       "es": "¿Cuántos?",
       "lit": "",
-      "note": "Ilan kayo? ¿cuántos sois? Ilan ang anak mo? ¿cuántos hijos tienes?",
+      "note": "Cuántos, para contar cosas o personas.",
       "pill": "preguntar",
       "tags": [
         "interrogativo"
       ],
-      "lesson": 7
+      "lesson": 7,
+      "variant": {
+        "tl": "Ilan ang anak mo?",
+        "es": "¿cuántos hijos tienes?"
+      }
     },
     {
       "id": "kasi-gutom-ako",
@@ -824,7 +884,7 @@
       "tl": "Ilan kayo?",
       "es": "¿Cuántos sois?",
       "lit": "cuántos vosotros",
-      "note": "kayo = vosotros / usted.",
+      "note": "Kayo es vosotros, y también usted.",
       "pill": "familia",
       "tags": [
         "interrogativo",
@@ -837,37 +897,49 @@
       "tl": "kami / tayo",
       "es": "nosotros (sin ti) / nosotros (contigo)",
       "lit": "",
-      "note": "kami = venimos de España (tú no). tayo = tú incluido: Kain tayo! ¡comamos juntos!",
+      "note": "Kami es nosotros sin ti. Tayo es nosotros contigo.",
       "pill": "preguntar",
       "tags": [
         "pronombre"
       ],
-      "lesson": 8
+      "lesson": 8,
+      "variant": {
+        "tl": "Kain tayo!",
+        "es": "¡comamos juntos!"
+      }
     },
     {
       "id": "kayo-sila",
       "tl": "kayo / sila",
       "es": "vosotros, usted / ellos",
       "lit": "",
-      "note": "kayo también es 'usted' con respeto: Kumusta po kayo?",
+      "note": "Kayo también es usted, con respeto.",
       "pill": "preguntar",
       "tags": [
         "pronombre"
       ],
-      "lesson": 8
+      "lesson": 8,
+      "variant": {
+        "tl": "Kumusta po kayo?",
+        "es": "¿cómo está usted?"
+      }
     },
     {
       "id": "sige",
       "tl": "Sige.",
       "es": "Vale. / De acuerdo. / Venga.",
       "lit": "del español 'sigue'",
-      "note": "Sige po = vale. Sige, salamat = venga, gracias. Lo oirás cien veces al día.",
+      "note": "Vale, venga. Lo oirás cien veces al día.",
       "pill": "entender",
       "tags": [
         "prestamo-es"
       ],
       "lesson": 8,
-      "answer": true
+      "answer": true,
+      "variant": {
+        "tl": "Sige po.",
+        "es": "vale, con respeto"
+      }
     },
     {
       "id": "tara",
@@ -1351,7 +1423,7 @@
       "tl": "Kumain na po ako.",
       "es": "Ya he comido.",
       "lit": "",
-      "note": "Respuesta con respeto usando 'po'.",
+      "note": "Respuesta con respeto, con po.",
       "pill": "cortesia",
       "tags": [
         "perfecto",
@@ -2056,7 +2128,7 @@
       "tl": "Gusto mo bang kumain?",
       "es": "¿Quieres comer?",
       "lit": "",
-      "note": "Usa 'bang' para preguntar si alguien quiere hacer algo.",
+      "note": "Bang es ba pegado a mo, para preguntar si alguien quiere hacer algo.",
       "pill": "comida",
       "tags": [
         "pregunta",
@@ -2095,7 +2167,7 @@
       "tl": "Tubig po.",
       "es": "Agua, por favor.",
       "lit": "",
-      "note": "Añade 'po' para cortesía.",
+      "note": "Con po, para pedir con cortesía.",
       "pill": "comida",
       "tags": [
         "cortesía"
@@ -2107,7 +2179,7 @@
       "tl": "Kanin po.",
       "es": "Arroz, por favor.",
       "lit": "",
-      "note": "Usa 'po' para ser cortés.",
+      "note": "Con po, para pedir con cortesía.",
       "pill": "comida",
       "tags": [
         "cortesía"
@@ -2569,7 +2641,7 @@
       "tl": "Gusto mo bang magdasal?",
       "es": "¿Quieres rezar?",
       "lit": "¿Quieres rezar?",
-      "note": "Usa 'po' para mayor respeto: Gusto mo bang magdasal po?",
+      "note": "Para invitar a rezar juntos.",
       "pill": "fe",
       "tags": [
         "pregunta"
@@ -2667,7 +2739,7 @@
       "tl": "Ano po ang ulam ngayon?",
       "es": "¿Cuál es el plato del día?",
       "lit": "¿Qué plato hoy?",
-      "note": "Usa 'po' para mostrar respeto al preguntar.",
+      "note": "Con po, al preguntar con respeto en la karinderya.",
       "pill": "comida",
       "tags": [
         "interrogativo",
@@ -2744,7 +2816,7 @@
       "tl": "Pahingi po ng kanin.",
       "es": "Deme arroz, por favor.",
       "lit": "Dar por favor arroz.",
-      "note": "Usa 'po' para cortesía al pedir.",
+      "note": "Pahingi es dame o póngame. Con po, cortés.",
       "pill": "comida",
       "tags": [
         "imperativo",
