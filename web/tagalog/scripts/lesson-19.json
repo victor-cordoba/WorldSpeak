@@ -1,0 +1,1244 @@
+{
+  "title": "¿Pides dinero?",
+  "subtitle": "Aprender a preguntar con tacto a un niño en la calle.",
+  "summary_es": "Aprender a interactuar con niños en la calle de manera respetuosa.",
+  "topics": [
+    "preguntar",
+    "ninos",
+    "cortesia",
+    "social"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta? Anong ginagawa mo dito?",
+      "Namamalimos po.",
+      "Sino ang kasama mo?",
+      "Opo, wala akong kasama.",
+      "Ingat ka!"
+    ],
+    "es": [
+      "Hola, ¿qué haces aquí?",
+      "Estoy pidiendo limosna.",
+      "¿Quién está contigo?",
+      "Sí, no tengo compañía.",
+      "¡Cuídate!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Namamalimos ka ba?",
+      "es": "¿Estás pidiendo limosna?"
+    },
+    {
+      "term": "Nanghihingi ka ba ng pera?",
+      "es": "¿Estás pidiendo dinero?"
+    },
+    {
+      "term": "Kanino?",
+      "es": "¿A quién?"
+    },
+    {
+      "term": "Sino ang kasama mo?",
+      "es": "¿Quién está contigo?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 19. ¿Pides dinero?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle concurrida de Tondo, un voluntario se acerca a un niño que parece estar pidiendo dinero. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta? Anong ginagawa mo dito?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué haces aquí?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Namamalimos po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy pidiendo limosna.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién está contigo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, wala akong kasama.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, no tengo compañía.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ingat ka!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Cuídate!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar con tacto a un niño en la calle. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde duermes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka natutulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "saan-ka-natutulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás pidiendo limosna?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Namamalimos ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta con tacto a un niño en la calle.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás pidiendo limosna?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás pidiendo limosna?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás pidiendo dinero?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ra",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pera",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ng pera",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka ba ng pera",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra forma de preguntar si está pidiendo dinero.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás pidiendo dinero?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás pidiendo dinero?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿A quién?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "no",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kanino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "nino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kanino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanino",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kanino"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar a quién está pidiendo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿A quién?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿A quién?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Quién está contigo?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "kasama mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ang kasama mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para preguntar si el niño está acompañado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién está contigo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Quién está contigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Estás pidiendo dinero?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'sino' y 'kanino'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Tagalog, 'sino' se usa para preguntar por una persona, mientras que 'kanino' se refiere a la posesión o relación con alguien. Es importante usarlos correctamente para evitar malentendidos.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, wala akong pera.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, no tengo dinero.",
+      "item": "opo-wala-akong-pera-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, no tengo dinero».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, wala akong pera.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, no tengo dinero.",
+      "item": "opo-wala-akong-pera-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, solo estoy aquí.",
+      "item": "opo-nandito-lang-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, solo estoy aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, solo estoy aquí.",
+      "item": "opo-nandito-lang-ako-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, wala akong kasama.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, no tengo compañía.",
+      "item": "opo-wala-akong-kasama-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, no tengo compañía».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, wala akong kasama.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, no tengo compañía.",
+      "item": "opo-wala-akong-kasama-answer"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, nag-iisa ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, estoy solo.",
+      "item": "opo-nag-iisa-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, estoy solo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nag-iisa ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, estoy solo.",
+      "item": "opo-nag-iisa-ako-answer"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ves a un niño solo en la calle y quieres saber si está pidiendo dinero.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntas a un niño si está solo o acompañado.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás pidiendo limosna?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás pidiendo dinero?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿A quién?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién está contigo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde duermes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka natutulog?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde duermes?",
+      "item": "saan-ka-natutulog"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Estás pidiendo limosna?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Namamalimos ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás pidiendo limosna?",
+      "item": "namamalimos-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás pidiendo dinero?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nanghihingi ka ba ng pera?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nanghihingi-ka-ba-ng-pera"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿A quién?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kanino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kanino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Quién está contigo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién está contigo?",
+      "item": "sino-ang-kasama-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta? Anong ginagawa mo dito?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué haces aquí?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Namamalimos po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy pidiendo limosna.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino ang kasama mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Quién está contigo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, wala akong kasama.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, no tengo compañía.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ingat ka!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Cuídate!",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 10.3,
+    "chars": 3504,
+    "cues": 132,
+    "mode": "lesson",
+    "lesson": 19
+  }
+}
