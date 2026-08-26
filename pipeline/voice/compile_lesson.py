@@ -198,13 +198,20 @@ class Compiler:
     def lesson(self, recipe):
         scene = self.scenes[recipe["scene"]]
         teach = recipe["teach"]
-        prev = recipe.get("recall_prev", [])
+        prev = list(recipe.get("recall_prev", []))
+        # Recuerdo sorpresa (Pimsleur): dos ítems de lecciones ANTERIORES a la previa, elegidos con semilla fija
+        older = [i["id"] for i in self.items.values() if isinstance(i.get("lesson"), int) and i["lesson"] <= recipe["lesson"] - 2 and not i.get("answer")]
+        if older:
+            rng = random.Random(1000 + recipe["lesson"])
+            for iid in rng.sample(older, min(2, len(older))):
+                if iid not in prev and iid not in teach:
+                    prev.append(iid)
         # escala por duración: 15 min = referencia
         scale = self.minutes / 10   # calibrado con audio real: 10 min por unidad de escala
         reps = 2 if scale >= 1 else 1
         self.intro(scene, recipe)
         self.explain(recipe)
-        self.recall(prev[: max(2, int(4 * scale))])
+        self.recall(prev[: max(3, int(5 * scale))])
         taught = []
         for k, iid in enumerate(teach):
             self.teach(self.items[iid], reps=reps)
@@ -214,6 +221,10 @@ class Compiler:
                 back = taught[-3]
                 self.n("Un momento. Volvamos atrás.", 0.4)
                 self.prompt(self.items[back], 3)
+        if older:
+            surprise = random.Random(2000 + recipe["lesson"]).choice(older)
+            self.n("Pregunta sorpresa, de una lección anterior.", 0.4)
+            self.prompt(self.items[surprise], 3)
         if recipe.get("grammar_pill"):
             self.grammar(recipe["grammar_pill"])
         self.listen(recipe.get("listen", []))

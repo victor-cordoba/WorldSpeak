@@ -13,10 +13,20 @@ Tagalog, aunque el Tagalog (como *Filipino*) sea la lengua oficial.
 
 Se habla en:
 
-- **Cebú** (toda la isla y Cebu City, la segunda ciudad del país): aquí está la misión.
-- **Bohol** (con su variante *Boholano*), **Siquijor**, **Negros Oriental** (Dumaguete).
-- **Leyte** (la mitad oeste y el sur; en el norte se habla *Waray*) y **Biliran**.
-- **Mindanao**: Davao, Cagayan de Oro, Bukidnon, Misamis, Surigao, Zamboanga del Norte, Cotabato… es la lengua franca de casi todo el norte y el este de Mindanao.
+**Visayas centrales y orientales**
+- **Cebú** entera (Cebu City, Mandaue, Lapu-Lapu, Talisay, Danao, Toledo, Bantayan, Camotes): aquí está la misión.
+- **Bohol** (variante *Boholano*), **Siquijor**, **Negros Oriental** (Dumaguete; en Negros Occidental se habla *Hiligaynon*, pero el sur y la zona de Kabankalan mezclan).
+- **Leyte**: la mitad **oeste y el sur** (Ormoc, Baybay, Hilongos, Maasin y toda **Southern Leyte**). En el **norte y este de Leyte** (Tacloban) y en **Samar** se habla **Waray**, no cebuano. **Biliran** es mixta (cebuano en el sur y oeste, waray en el norte).
+- **Masbate** (sur): cebuano junto al masbateño.
+
+**Mindanao** (es la lengua mayoritaria de la isla, ~2 de cada 3 mindanaenses)
+- Norte: Misamis Oriental y Occidental (Cagayan de Oro), Camiguin, Bukidnon, Lanao del Norte (Iligan).
+- Este: Surigao del Norte y del Sur, Agusan del Norte y del Sur (Butuan), Dinagat, Siargao.
+- Sur y centro: Davao (todas sus provincias), Cotabato, Sultan Kudarat, Sarangani, General Santos.
+- Oeste: Zamboanga del Norte y del Sur (Dipolog, Pagadian); en Zamboanga City conviven con el *Chavacano*.
+- **No** es la lengua de los pueblos moro (Maguindanao, Maranao, Tausug en Sulu) ni de los lumad, aunque muchos lo hablan como segunda lengua.
+
+**Mapa**: en la app, botón «¿Dónde se habla?» (Tagalog y Bisaya) con las lenguas de Filipinas por islas.
 
 Ojo con la palabra: "Bisaya" también nombra al grupo de lenguas visayas
 (cebuano, hiligaynon/ilonggo, waray…). En Cebú, "Bisaya" = cebuano.

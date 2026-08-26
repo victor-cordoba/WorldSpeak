@@ -1,0 +1,501 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Kit de conversación",
+      "icon": "❓",
+      "desc": "Preguntar, entender, pedir"
+    },
+    {
+      "id": 2,
+      "title": "Conocer a una persona",
+      "icon": "🏠",
+      "desc": "De dónde eres, familia, trabajo"
+    },
+    {
+      "id": 3,
+      "title": "La ciudad como un local",
+      "icon": "🛵",
+      "desc": "Bar, mercado, bus, arte, trattoria"
+    },
+    {
+      "id": 4,
+      "title": "Il cuore",
+      "icon": "❤️",
+      "desc": "Qué te gusta, sueños, fe"
+    },
+    {
+      "id": 5,
+      "title": "Giorno per giorno",
+      "icon": "🍝",
+      "desc": "Aperitivo, calcio, salud, verbos"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "level": 1,
+      "title": "Ciao, come stai? Come ti chiami?",
+      "items": [
+        "Ciao / Buongiorno / Buonasera",
+        "Come stai? / Tutto bene",
+        "Mi chiamo…",
+        "Come ti chiami?",
+        "Piacere",
+        "Grazie / Prego",
+        "Ci vediamo"
+      ],
+      "grammar": "tu / Lei: cuándo tutear"
+    },
+    {
+      "id": "lesson-02-main",
+      "lesson": 2,
+      "level": 1,
+      "title": "Parli spagnolo?",
+      "items": [
+        "Parli spagnolo/inglese?",
+        "Un po'",
+        "Non capisco",
+        "Puoi ripetere?",
+        "Sì / No",
+        "Non lo so",
+        "Va bene"
+      ],
+      "grammar": "negación con *non*"
+    },
+    {
+      "id": "lesson-03-main",
+      "lesson": 3,
+      "level": 1,
+      "title": "Io, tu, il mio, il tuo",
+      "items": [
+        "io",
+        "tu",
+        "lui/lei",
+        "noi",
+        "voi",
+        "loro",
+        "il mio / il tuo",
+        "casa mia"
+      ],
+      "grammar": "artículos il/la/i/le"
+    },
+    {
+      "id": "lesson-04-main",
+      "lesson": 4,
+      "level": 1,
+      "title": "Dove? Chi? Cosa?",
+      "items": [
+        "Dov'è…?",
+        "Chi è?",
+        "Cos'è questo?",
+        "qui / lì",
+        "Dove abiti?",
+        "Abito a…",
+        "È vicino / lontano"
+      ],
+      "grammar": "*c'è / ci sono* (y el romano *ce sta*)"
+    },
+    {
+      "id": "lesson-05-main",
+      "lesson": 5,
+      "level": 1,
+      "title": "Vorrei… Vado a…",
+      "items": [
+        "Vorrei…",
+        "Voglio…",
+        "Vuoi?",
+        "Non voglio",
+        "Vado a…",
+        "Andiamo!",
+        "Come si arriva a…?",
+        "A destra / a sinistra / dritto"
+      ],
+      "grammar": "*volere* + *andare*"
+    },
+    {
+      "id": "lesson-06-main",
+      "lesson": 6,
+      "level": 1,
+      "title": "Quanto costa? Un caffè, per favore",
+      "items": [
+        "Quanto costa?",
+        "Quant'è?",
+        "Un caffè / un cappuccino / una birra / un gelato",
+        "per favore",
+        "Il conto",
+        "Lo scontrino",
+        "números 1–20",
+        "prezzi"
+      ],
+      "grammar": "pedir en la barra vs sentado"
+    },
+    {
+      "id": "lesson-07-main",
+      "lesson": 7,
+      "level": 1,
+      "title": "Quando? Perché? Quanti? A che ora?",
+      "items": [
+        "Quando?",
+        "Perché? / Perché…",
+        "Quanti/e?",
+        "oggi / domani / ieri / stasera / dopo",
+        "A che ora…?",
+        "È aperto? / È chiuso",
+        "Chiude alle…"
+      ],
+      "grammar": "horas y días"
+    },
+    {
+      "id": "lesson-08-main",
+      "lesson": 8,
+      "level": 1,
+      "title": "Repaso: la tua prima chiacchierata",
+      "items": [
+        "Scusa / Scusi",
+        "Permesso",
+        "Un attimo",
+        "Daje!",
+        "Come si dice… in italiano?",
+        "Non c'è problema",
+        "la conversación completa en un bar"
+      ],
+      "grammar": "registro romano: *daje, ao, mo'*"
+    },
+    {
+      "id": "lesson-09-main",
+      "lesson": 9,
+      "level": 2,
+      "title": "Di dove sei?",
+      "items": [
+        "Di dove sei?",
+        "Sono spagnolo/a",
+        "di Madrid",
+        "Da quanto tempo sei a Roma?",
+        "Da una settimana",
+        "Mi piace Roma"
+      ],
+      "grammar": "*piacere*"
+    },
+    {
+      "id": "lesson-10-main",
+      "lesson": 10,
+      "level": 2,
+      "title": "La famiglia",
+      "items": [
+        "Hai famiglia?",
+        "madre / padre / fratello / sorella / figli",
+        "Quanti siete?",
+        "nonna",
+        "moglie / marito"
+      ],
+      "grammar": "*avere*"
+    },
+    {
+      "id": "lesson-11-main",
+      "lesson": 11,
+      "level": 2,
+      "title": "Quanti anni hai?",
+      "items": [
+        "Quanti anni hai?",
+        "Ho … anni",
+        "Sei giovane / grande",
+        "Quando sei nato?"
+      ],
+      "grammar": "números hasta 100"
+    },
+    {
+      "id": "lesson-12-main",
+      "lesson": 12,
+      "level": 2,
+      "title": "Che lavoro fai?",
+      "items": [
+        "Che lavoro fai?",
+        "Faccio il / la…",
+        "Studio",
+        "Lavoro in…",
+        "Sono in pensione"
+      ],
+      "grammar": "*fare*"
+    },
+    {
+      "id": "lesson-13-main",
+      "lesson": 13,
+      "level": 2,
+      "title": "Hai già mangiato?",
+      "items": [
+        "Hai mangiato?",
+        "Ho fame / sete",
+        "Andiamo a mangiare?",
+        "Che ti va?",
+        "Mi va una pizza",
+        "Offro io"
+      ],
+      "grammar": "*passato prossimo* con avere"
+    },
+    {
+      "id": "lesson-14-main",
+      "lesson": 14,
+      "level": 2,
+      "title": "Piacere, ci vediamo",
+      "items": [
+        "È stato un piacere",
+        "Ci sentiamo",
+        "Ci vediamo domani",
+        "Sei simpatico/a",
+        "Dammi il numero",
+        "Scrivimi"
+      ],
+      "grammar": "*tu* imperativo"
+    },
+    {
+      "id": "lesson-15-main",
+      "lesson": 15,
+      "level": 3,
+      "title": "Il bar: come un romano",
+      "items": [
+        "Un caffè al banco",
+        "Un cornetto",
+        "Macchiato caldo/freddo",
+        "Il cappuccino solo la mattina",
+        "Pago alla cassa",
+        "Quanto le devo?"
+      ],
+      "grammar": "costumbres del bar"
+    },
+    {
+      "id": "lesson-16-main",
+      "lesson": 16,
+      "level": 3,
+      "title": "Il mercato e il quartiere",
+      "items": [
+        "Al mercato",
+        "un etto di…",
+        "mezzo chilo",
+        "Quanto viene?",
+        "È fresco?",
+        "Mi dia…",
+        "Basta così",
+        "il quartiere"
+      ],
+      "grammar": "*dare* + cantidades"
+    },
+    {
+      "id": "lesson-17-main",
+      "lesson": 17,
+      "level": 3,
+      "title": "Muoversi: bus, metro, a piedi",
+      "items": [
+        "Che linea prendo per…?",
+        "La fermata",
+        "Il biglietto",
+        "Timbrare",
+        "Scendo alla prossima",
+        "Quanto ci vuole?",
+        "Ci vado a piedi"
+      ],
+      "grammar": "preposiciones *a / in / per*"
+    },
+    {
+      "id": "lesson-18-main",
+      "lesson": 18,
+      "level": 3,
+      "title": "È aperto? Orari e chiusure",
+      "items": [
+        "È aperto la domenica?",
+        "Chiude per pranzo",
+        "Orario continuato",
+        "La pausa",
+        "Ferragosto",
+        "Prenotare"
+      ],
+      "grammar": "horarios y reserva"
+    },
+    {
+      "id": "lesson-19-main",
+      "lesson": 19,
+      "level": 3,
+      "title": "Arte e chiese",
+      "items": [
+        "Dov'è il Caravaggio?",
+        "La chiesa è aperta?",
+        "Il biglietto ridotto",
+        "L'affresco",
+        "Il cortile",
+        "Si può entrare?",
+        "È gratis la prima domenica"
+      ],
+      "grammar": "*si può*"
+    },
+    {
+      "id": "lesson-20-main",
+      "lesson": 20,
+      "level": 3,
+      "title": "Mangiare come un romano",
+      "items": [
+        "Supplì",
+        "Carbonara / Amatriciana / Cacio e pepe",
+        "Pizza al taglio",
+        "La carbonara non si fa con la panna",
+        "Un quartino",
+        "Il dolce",
+        "Il conto per favore"
+      ],
+      "grammar": "pedir en trattoria, coperto"
+    },
+    {
+      "id": "lesson-21-main",
+      "lesson": 21,
+      "level": 4,
+      "title": "Sei felice?",
+      "items": [
+        "Sei felice? / triste?",
+        "Perché?",
+        "Sono stanco",
+        "Ho paura",
+        "Tutto a posto",
+        "Mi manca casa"
+      ],
+      "grammar": "sentimientos"
+    },
+    {
+      "id": "lesson-22-main",
+      "lesson": 22,
+      "level": 4,
+      "title": "Cosa ti piace?",
+      "items": [
+        "Ti piace…?",
+        "Mi piace / Mi piacciono",
+        "Amo…",
+        "Odio…",
+        "La musica",
+        "Il calcio",
+        "Roma o Lazio?",
+        "Che squadra tifi?"
+      ],
+      "grammar": "*piacere* con plurales"
+    },
+    {
+      "id": "lesson-23-main",
+      "lesson": 23,
+      "level": 4,
+      "title": "Sogni",
+      "items": [
+        "Cosa vuoi fare da grande?",
+        "Il mio sogno è…",
+        "Vorrei vivere a Roma",
+        "Un giorno…",
+        "Ce la fai"
+      ],
+      "grammar": "*condizionale* básico"
+    },
+    {
+      "id": "lesson-24-main",
+      "lesson": 24,
+      "level": 4,
+      "title": "Attenzione!",
+      "items": [
+        "Attenzione!",
+        "Aiuto!",
+        "Non è sicuro",
+        "Occhio al portafoglio",
+        "Chiama la polizia",
+        "Sto male",
+        "Serve un medico"
+      ],
+      "grammar": "imperativos de urgencia"
+    },
+    {
+      "id": "lesson-25-main",
+      "lesson": 25,
+      "level": 4,
+      "title": "Preghiamo insieme",
+      "items": [
+        "Vuoi pregare?",
+        "Il Padre Nostro (línea a línea)",
+        "La messa",
+        "Il Vaticano",
+        "Dio ti benedica",
+        "San Pietro"
+      ],
+      "grammar": "fe en Roma"
+    },
+    {
+      "id": "lesson-26-main",
+      "lesson": 26,
+      "level": 5,
+      "title": "Aperitivo e sera",
+      "items": [
+        "L'aperitivo",
+        "Lo spritz",
+        "Che famo stasera?",
+        "Usciamo?",
+        "Fa caldo",
+        "Il ponentino",
+        "Andiamo a Trastevere"
+      ],
+      "grammar": "proponer planes"
+    },
+    {
+      "id": "lesson-27-main",
+      "lesson": 27,
+      "level": 5,
+      "title": "Il calcio e la domenica",
+      "items": [
+        "La partita",
+        "Chi gioca?",
+        "Ha segnato",
+        "Forza Roma / Lazio",
+        "Il derby",
+        "Lo stadio",
+        "La domenica in famiglia"
+      ],
+      "grammar": "hablar de deporte"
+    },
+    {
+      "id": "lesson-28-main",
+      "lesson": 28,
+      "level": 5,
+      "title": "Dal dottore e in farmacia",
+      "items": [
+        "Ho mal di testa / di pancia",
+        "La febbre",
+        "La farmacia",
+        "Una ricetta",
+        "Il pronto soccorso",
+        "Sto meglio"
+      ],
+      "grammar": "salud"
+    },
+    {
+      "id": "lesson-29-main",
+      "lesson": 29,
+      "level": 5,
+      "title": "Connettere frasi",
+      "items": [
+        "ma",
+        "perché",
+        "anche",
+        "poi",
+        "quindi",
+        "se",
+        "solo",
+        "magari"
+      ],
+      "grammar": "conectores y muletillas"
+    },
+    {
+      "id": "lesson-30-main",
+      "lesson": 30,
+      "level": 5,
+      "title": "I verbi: il motore",
+      "items": [
+        "essere / avere / andare / fare / volere / potere / dire",
+        "presente y passato prossimo",
+        "*annamo / famo / dimme* (romano)"
+      ],
+      "grammar": "sistema verbal"
+    }
+  ]
+}

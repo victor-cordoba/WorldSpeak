@@ -35,9 +35,13 @@ function renderRoute() {
   const route = $('#route'); route.innerHTML = '';
   let next = null;
   curriculum.levels.forEach((level) => {
-    const wrap = document.createElement('div'); wrap.className = 'level';
-    wrap.innerHTML = `<div class="level-head"><span class="level-icon">${level.icon}</span><div><h2>Nivel ${level.id} · ${level.title}</h2><p>${level.desc}</p></div></div>`;
-    curriculum.lessons.filter((l) => l.level === level.id).forEach((l) => {
+    const wrap = document.createElement('section'); wrap.className = 'level'; wrap.dataset.level = String(level.id);
+    const lessonsIn = curriculum.lessons.filter((l) => l.level === level.id);
+    const doneIn = lessonsIn.filter((l) => done.has(l.id)).length;
+    const pctIn = Math.round((doneIn / lessonsIn.length) * 100);
+    wrap.innerHTML = `<header class="level-head"><span class="level-icon">${level.icon}</span><div class="level-copy"><span class="level-kicker">Nivel ${level.id}</span><h2>${level.title}</h2><p>${level.desc}</p></div><span class="level-progress"><b>${doneIn}</b>/${lessonsIn.length}</span></header><div class="level-stops" style="--fill:${pctIn}%"></div>`;
+    const stopsWrap = wrap.querySelector('.level-stops');
+    lessonsIn.forEach((l) => {
       const isDone = done.has(l.id);
       const live = hasAudio.has(l.id);
       const isNext = !next && !isDone && live;
@@ -48,8 +52,7 @@ function renderRoute() {
       if (live) el.href = `./player.html?track=${l.id}`;
       const hasItems = items.some((i) => i.lesson === l.lesson);
       el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-actions"><span class="stop-cta ${live ? 'stop-play' : ''}" aria-label="${isDone ? 'Repetir' : 'Escuchar'}">${live ? '<svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>' : '🔒'}</span></span>`;
-      el.querySelector('[data-practice]')?.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); practiceLesson(l.lesson); });
-      wrap.appendChild(el);
+      stopsWrap.appendChild(el);
     });
     route.appendChild(wrap);
   });
@@ -68,8 +71,8 @@ function renderRoute() {
   $('#nextEyebrow').textContent = `LECCIÓN ${target.lesson}`;
   $('#nextTitle').textContent = target.title;
   const pct = resume && p.lastPlayed.duration ? Math.min(99, Math.round((p.lastPlayed.position / p.lastPlayed.duration) * 100)) : 0;
-  $('#nextMetaText').innerHTML = resume ? `<span class="hero-progress"><i style="width:${pct}%"></i></span> vas por el minuto ${mm(p.lastPlayed.position)}` : `Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
-  const pm = $('#practiceMeta'); if (pm) pm.textContent = `Frases de la lección ${target.lesson}: ${target.title}`;
+  $('#nextMetaText').innerHTML = resume ? `<span class="hero-progress"><i style="width:${pct}%"></i></span> ${mm(p.lastPlayed.position)}` : `Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
+  const pm = $('#practiceMeta'); if (pm) pm.textContent = `Lección ${target.lesson}`;
   $('#nextLink').href = hasAudio.has(target.id) ? `./player.html?track=${target.id}` : '#frases';
   $('#nextLink').textContent = resume ? '▶ Continuar' : hasAudio.has(target.id) ? '▶ Empezar' : '💬 Ver las frases';
   if (!hasAudio.has(target.id)) $('#nextLink').addEventListener('click', (e) => { e.preventDefault(); showTab('frases'); });

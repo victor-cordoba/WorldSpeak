@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 660" class="ph-map" role="img" aria-label="Mapa de lenguas de Filipinas">
+  <defs><filter id="sh"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0a2f9e" flood-opacity="0.18"/></filter></defs>
+  <g filter="url(#sh)" stroke="#fff" stroke-width="2" stroke-linejoin="round">
+    <!-- LUZÓN norte: Ilocano -->
+    <path data-lang="ilocano" d="M150 22 L200 18 L236 40 L242 90 L226 130 L184 138 L150 120 L138 70 Z"/>
+    <!-- LUZÓN centro: Kapampangan / Pangasinan -->
+    <path data-lang="kapampangan" d="M150 120 L184 138 L226 130 L232 168 L196 182 L156 176 L140 150 Z"/>
+    <!-- LUZÓN Manila y sur: Tagalog -->
+    <path data-lang="tagalog" d="M156 176 L196 182 L232 168 L262 190 L286 226 L268 256 L232 258 L206 280 L176 266 L150 240 L140 206 Z"/>
+    <!-- Bicol -->
+    <path data-lang="bicolano" d="M262 190 L300 176 L338 210 L356 250 L336 274 L306 262 L286 236 Z"/>
+    <!-- Mindoro (Tagalog) -->
+    <path data-lang="tagalog" d="M150 292 L186 284 L200 318 L176 346 L146 330 Z"/>
+    <!-- Palawan (Tagalog/Cuyonon) -->
+    <path data-lang="tagalog" d="M40 420 L60 380 L126 326 L140 336 L86 400 L54 448 Z"/>
+    <!-- Masbate (Bisaya/masbateño) -->
+    <path data-lang="cebuano" d="M220 300 L262 292 L272 320 L240 332 L214 322 Z"/>
+    <!-- Panay: Hiligaynon -->
+    <path data-lang="hiligaynon" d="M150 366 L198 356 L212 392 L186 426 L154 414 L140 388 Z"/>
+    <!-- Negros: oeste Hiligaynon, este Cebuano -->
+    <path data-lang="hiligaynon" d="M204 396 L226 386 L236 440 L222 486 L200 470 Z"/>
+    <path data-lang="cebuano" d="M226 386 L244 380 L252 440 L238 490 L222 486 L236 440 Z"/>
+    <!-- Cebú -->
+    <path data-lang="cebuano" d="M262 366 L274 362 L284 420 L278 468 L266 470 L258 420 Z"/>
+    <!-- Bohol -->
+    <path data-lang="cebuano" d="M292 440 L330 434 L340 458 L316 474 L290 466 Z"/>
+    <!-- Siquijor -->
+    <circle data-lang="cebuano" cx="262" cy="492" r="7"/>
+    <!-- Samar: Waray -->
+    <path data-lang="waray" d="M326 300 L372 292 L388 336 L372 384 L340 388 L322 348 Z"/>
+    <!-- Leyte: norte/este Waray, oeste/sur Cebuano -->
+    <path data-lang="waray" d="M322 348 L340 388 L348 420 L332 434 L318 404 L308 372 Z"/>
+    <path data-lang="cebuano" d="M308 372 L318 404 L332 434 L338 470 L322 486 L302 456 L296 412 Z"/>
+    <!-- Biliran (mixta, cebuano) -->
+    <circle data-lang="cebuano" cx="318" cy="364" r="6"/>
+    <!-- MINDANAO: norte/este/sur Cebuano; suroeste Moro; Zamboanga Chavacano -->
+    <path data-lang="cebuano" d="M250 520 L300 500 L350 496 L392 520 L404 566 L384 606 L340 620 L300 612 L276 590 L262 560 Z"/>
+    <path data-lang="moro" d="M262 560 L276 590 L300 612 L280 636 L236 630 L212 606 L224 576 Z"/>
+    <path data-lang="chavacano" d="M186 560 L224 576 L212 606 L176 604 L160 584 Z"/>
+    <!-- Sulu: Tausug (moro) -->
+    <path data-lang="moro" d="M92 606 L130 596 L160 610 L140 628 L104 626 Z"/>
+    <path data-lang="moro" d="M40 626 L72 618 L84 636 L54 644 Z"/>
+  </g>
+  <!-- Manila -->
+  <g transform="translate(176 214)"><circle r="9" fill="#111318"/><circle r="4" fill="#fff"/><text x="14" y="5" font-family="Inter, system-ui" font-size="13" font-weight="700" fill="#111318">Manila</text></g>
+  <!-- etiquetas de islas -->
+  <g font-family="Inter, system-ui" font-size="12" font-weight="600" fill="#1c2130">
+    <text x="196" y="80">Luzón</text><text x="150" y="322">Mindoro</text><text x="46" y="376">Palawan</text><text x="150" y="398">Panay</text>
+    <text x="196" y="470" transform="rotate(-70 205 470)">Negros</text><text x="248" y="358">Cebú</text><text x="296" y="490">Bohol</text>
+    <text x="340" y="292">Samar</text><text x="286" y="420" transform="rotate(-60 292 420)">Leyte</text><text x="300" y="560">Mindanao</text><text x="90" y="600">Sulu</text><text x="214" y="286">Masbate</text>
+  </g>
+</svg>

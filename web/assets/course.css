@@ -278,3 +278,55 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .practice-go { font-size: 24px; color: var(--muted); }
 .stop.is-next::after { font-size: 30px; left: -44px; top: -22px; }
 @media (max-width: 480px) { .stop.is-next::after { font-size: 26px; left: -38px; top: -20px; } }
+
+/* ===== v28 · Ruta rediseñada: un card por nivel, camino sólido con progreso ===== */
+.hero-actions { margin-top: 18px; }
+.practice-bar { grid-template-columns: auto 1fr auto auto; margin: 12px 0 18px; padding: 12px 14px; }
+.practice-bar strong { font-size: 16px; }
+.practice-pill { font-style: normal; font-size: 12px; font-weight: 700; color: var(--blue); background: var(--blue-soft); padding: 4px 10px; border-radius: 999px; }
+.route { padding-left: 0; margin-top: 6px; display: grid; gap: 18px; }
+.route::before { display: none; }
+.level { position: relative; padding: 0; border-radius: 26px; background: rgba(255,255,255,0.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid var(--line); overflow: hidden; --lvl: #1e5eff; --lvl-soft: #e6eeff; }
+.level[data-level="1"] { --lvl: #1e5eff; --lvl-soft: #e6eeff; } .level[data-level="2"] { --lvl: #0d9f6e; --lvl-soft: #e3f7ee; } .level[data-level="3"] { --lvl: #f28c28; --lvl-soft: #fff0e0; } .level[data-level="4"] { --lvl: #d6336c; --lvl-soft: #ffe6ef; } .level[data-level="5"] { --lvl: #7048e8; --lvl-soft: #efe9ff; }
+.level-head { position: relative; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 14px; margin: 0; padding: 18px 18px 16px; background: linear-gradient(135deg, var(--lvl) 0%, color-mix(in srgb, var(--lvl) 70%, #000) 100%); color: #fff; }
+.level-head::after { content: ""; position: absolute; right: -30px; top: -40px; width: 140px; height: 140px; border-radius: 50%; background: rgba(255,255,255,0.12); }
+.level-head .level-icon { position: static; width: 52px; height: 52px; border-radius: 16px; background: rgba(255,255,255,0.22); font-size: 26px; }
+.level-copy { display: grid; gap: 2px; min-width: 0; }
+.level-kicker { font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
+.level-head h2 { font-size: 20px; color: #fff; line-height: 1.1; }
+.level-head p { color: rgba(255,255,255,0.8); font-size: 13px; }
+.level-progress { position: relative; z-index: 1; padding: 8px 12px; border-radius: 999px; background: rgba(255,255,255,0.2); font-family: var(--display); font-weight: 700; font-size: 13px; }
+.level-progress b { font-size: 18px; }
+.level-stops { position: relative; padding: 16px 14px 14px 62px; display: grid; gap: 10px; }
+.level-stops::before { content: ""; position: absolute; left: 33px; top: 30px; bottom: 30px; width: 6px; border-radius: 6px; background: var(--line); }
+.level-stops::after { content: ""; position: absolute; left: 33px; top: 30px; width: 6px; height: calc((100% - 60px) * var(--fill, 0%) / 100%); border-radius: 6px; background: var(--lvl); transition: height 0.6s ease; }
+.level-stops .stop { margin: 0; padding: 12px 12px 12px 14px; border-radius: 18px; background: #fff; border: 1px solid var(--line); }
+.level-stops .stop::before { left: -46px; width: 36px; height: 36px; border-width: 3px; font-size: 14px; z-index: 1; }
+.level-stops .stop.is-done::before { background: var(--lvl); border-color: var(--lvl); }
+.level-stops .stop.is-done .stop-cta.stop-play { background: var(--lvl); }
+.level-stops .stop.is-next { background: var(--lvl-soft); border-color: var(--lvl); box-shadow: none; }
+.level-stops .stop.is-next::before { background: #fff; border-color: var(--lvl); color: var(--lvl); animation: ring 1.6s ease-out infinite; }
+@keyframes ring { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--lvl) 45%, transparent); } 100% { box-shadow: 0 0 0 12px transparent; } }
+.level-stops .stop.is-next .stop-cta.stop-play { background: var(--lvl); }
+.level-stops .stop.is-next::after { left: -50px; top: -16px; font-size: 22px; }
+.level-stops .stop.is-soon { opacity: 0.6; }
+.level-stops .stop.is-soon::before { background: #f3f5f9; }
+.level-stops .stop strong { font-size: 16px; }
+.level-stops .stop em { font-size: 12px; }
+.stop-cta.stop-play { width: 40px; height: 40px; }
+.stop-cta.stop-play svg { width: 18px; height: 18px; }
+@media (max-width: 480px) { .level-stops { padding-left: 56px; } .level-stops::before, .level-stops::after { left: 29px; } .level-stops .stop::before { left: -42px; width: 32px; height: 32px; } .level-stops .stop.is-next::after { left: -46px; } .level-head h2 { font-size: 18px; } }
+/* mapa de lenguas */
+.map-link { display: inline-flex; align-items: center; gap: 8px; margin: 4px 0 8px; padding: 10px 14px; border-radius: 14px; border: 1px solid var(--line); background: rgba(255,255,255,0.8); font: inherit; font-weight: 700; color: var(--ink); }
+.phm { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; background: rgba(10, 20, 50, 0.55); backdrop-filter: blur(8px); }
+.phm-panel { position: relative; width: min(560px, 100%); max-height: 92vh; overflow: auto; padding: 22px 20px; border-radius: 26px; background: #fff; }
+.phm-close { position: absolute; right: 14px; top: 12px; width: 36px; height: 36px; border-radius: 50%; border: 0; background: var(--bg); font-size: 22px; }
+.phm-panel h2 { font-size: 24px; margin-bottom: 4px; } .phm-panel p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.phm-map svg { width: 100%; height: auto; }
+.phm-map [data-lang] { cursor: pointer; transition: opacity 0.2s ease; } .phm-map [data-lang]:hover { opacity: 1 !important; }
+.phm-legend { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
+.phm-legend li { display: grid; grid-template-columns: 16px 1fr; gap: 4px 10px; align-items: center; padding: 6px 8px; border-radius: 10px; }
+.phm-legend li.is-hl { background: var(--gold-soft); }
+.phm-legend i { width: 16px; height: 16px; border-radius: 5px; }
+.phm-legend b { font-size: 14px; } .phm-legend span { grid-column: 2; font-size: 12px; color: var(--muted); }
+.phm-note { margin-top: 12px !important; font-size: 13px !important; }

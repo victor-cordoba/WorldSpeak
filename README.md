@@ -14,6 +14,7 @@
   <a href="https://victorcordoba.com/worldspeak/about/">Sobre WorldSpeak</a> ·
   <a href="https://victorcordoba.com/worldspeak/tagalog/">Tagalog para Tondo</a> ·
   <a href="https://victorcordoba.com/worldspeak/tagalog-pimsleur/">Tagalog Pimsleur</a> ·
+  <a href="docs/00-metodo-tondo.md">El Método Tondo</a> ·
   <a href="docs/10-plan-tagalog-propio.md">Plan del curso propio</a> ·
   <a href="CHANGELOG.md">Changelog</a>
 </p>
@@ -128,7 +129,8 @@ Claves en `~/.config/victor/openai_api_key` y `~/.config/victor/elevenlabs_api_k
 
 | Documento | De qué va |
 |---|---|
-| [08 · WorldSpeak](docs/08-worldspeak.md) | **Empieza aquí.** Hub, cursos, player genérico, API v2, migración |
+| [00 · El Método Tondo](docs/00-metodo-tondo.md) | **El método**: principios, la lección minuto a minuto, repetición, speakers, tablas, práctica |
+| [08 · WorldSpeak](docs/08-worldspeak.md) | **Empieza aquí** para el código. Hub, cursos, player genérico, API v2, migración |
 | [09 · Pipeline de voz](docs/09-pipeline-voz.md) | Cómo se genera una lección Pimsleur con ElevenLabs |
 | [01 · Arquitectura](docs/01-arquitectura.md) | La base: las dos mitades del sistema |
 | [02 · Pipeline de datos](docs/02-pipeline-datos.md) | Whisper, enriquecido, diccionario |
