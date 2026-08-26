@@ -164,3 +164,22 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .stop-practice:active { transform: translateY(3px); box-shadow: none; }
 .eyebrow { color: var(--gold); }
 .stop em { letter-spacing: 0; }
+
+/* pase de estilo v6: menos sombra, más espacio, radios coherentes */
+.hero-card { box-shadow: none; border-radius: 28px; padding: 28px 26px 30px; }
+.hero-card::after { display: none; }
+.hero-card h1 { letter-spacing: -0.035em; }
+.stop, .card-face, .tbl, .quiz, .quiz-done, .pill, .top-back, .stat, .search-row input, .stop-practice { box-shadow: none; }
+.stop.is-next { box-shadow: none; border-width: 2px; }
+.card-face { box-shadow: none; }
+.card-back { box-shadow: none; }
+.pill.is-active { box-shadow: none; }
+.btn-ghost { box-shadow: none; }
+.btn-gold { box-shadow: 0 4px 0 var(--gold-deep); }
+.btn-blue, .btn-red { box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25); }
+.section-head h2 { font-size: 32px; letter-spacing: -0.035em; }
+.section-head { margin: 10px 0 20px; }
+.eyebrow { font-size: 12px; letter-spacing: 0.08em; }
+.level-head { margin: 34px 0 14px; }
+.app { padding: 20px 24px 32px; }
+.top { border-bottom: 1px solid #e3e8f0; }

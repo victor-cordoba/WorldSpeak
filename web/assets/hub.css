@@ -60,3 +60,20 @@ a.course:hover .course-cta i { transform: translateX(3px); }
 .legacy-copy em { font-style: normal; font-size: 13px; color: var(--muted); }
 .legacy-copy small { font-size: 12px; font-weight: 600; color: var(--blue); }
 .legacy-cta { padding: 8px 12px; border-radius: 10px; border: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 13px; color: var(--ink); white-space: nowrap; }
+
+/* pase de estilo v6: superficies planas, jerarquía por espacio y borde, un solo acento */
+.course, .legacy-row, .hub-stats2 div { box-shadow: none; border: 1px solid #e3e8f0; }
+a.course:hover, a.course:focus-visible { transform: none; border-color: var(--blue); box-shadow: none; }
+.course-band::after { display: none; }
+.course-band { height: 84px; background: linear-gradient(120deg, #0a2f9e, #1e5eff); }
+.course-flag { box-shadow: none; border: 1px solid #e3e8f0; }
+.course-cta { border-radius: 14px; background: var(--gold); color: var(--ink); }
+.course.has-progress .course-cta { background: var(--gold); }
+.course.is-soon .course-cta { background: #eef1f6; color: var(--muted); }
+.hub-logo { box-shadow: none; }
+.hub-brand h1 { letter-spacing: -0.045em; }
+.section-title h2 { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.section-title p { font-family: var(--display); font-weight: 800; font-size: 28px; letter-spacing: -0.03em; color: var(--ink); margin-top: 4px; }
+.hub-body .account-toggle { box-shadow: none; border: 1px solid #e3e8f0; }
+.hub-body .shell { max-width: 1140px; padding: 24px; }
+.legacy { margin-top: 64px; padding-top: 32px; }

@@ -68,5 +68,17 @@
       "name": "Cebuano",
       "elevenlabs": null
     }
+  },
+  "_fish_candidates": {
+    "_doc": "Voces de Fish Audio (biblioteca, NO clones de famosos) para probar cuando haya crédito de API. Para usar una: copiar a roles con provider:'fish'.",
+    "native_calm": "92c6c4e5e8fa499e801b99eb7cd5c5b9",
+    "native_young": "0663e31efd9c4fd08d7178d1fbe03988",
+    "native_energetic": "a3df75244b0e43b0a2344a0fecee8a57",
+    "ejemplo_rol": {
+      "provider": "fish",
+      "voice_id": "92c6c4e5e8fa499e801b99eb7cd5c5b9",
+      "model": "s1",
+      "name": "Calm Filipino Voice (Fish)"
+    }
   }
 }
