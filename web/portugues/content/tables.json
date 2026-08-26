@@ -1,1 +1,865 @@
-{"tables": []}
+{
+  "tables": [
+    {
+      "id": "pronombres",
+      "title": "Pronombres",
+      "kicker": "tu, você, o senhor",
+      "intro": "Portugal usa tu con confianza; você es más frío que en Brasil; con mayores, o senhor / a senhora.",
+      "columns": [
+        "Español",
+        "Sujeto",
+        "Objeto",
+        "Posesivo"
+      ],
+      "rows": [
+        [
+          "yo",
+          "eu",
+          "me",
+          "o meu / a minha"
+        ],
+        [
+          "tú",
+          "tu",
+          "te",
+          "o teu / a tua"
+        ],
+        [
+          "usted",
+          "você / o senhor, a senhora",
+          "o, a / lhe",
+          "o seu / a sua"
+        ],
+        [
+          "él / ella",
+          "ele / ela",
+          "o, a / lhe",
+          "o seu, o dele / a dela"
+        ],
+        [
+          "nosotros",
+          "nós",
+          "nos",
+          "o nosso / a nossa"
+        ],
+        [
+          "vosotros / ustedes",
+          "vocês",
+          "vos",
+          "o vosso / a vossa"
+        ],
+        [
+          "ellos",
+          "eles / elas",
+          "os, as / lhes",
+          "o deles / a delas"
+        ]
+      ],
+      "notes": [
+        "El posesivo lleva artículo: a minha casa, o teu carro.",
+        "'A gente' = nosotros, muy hablado: a gente vai à praia."
+      ]
+    },
+    {
+      "id": "articulos",
+      "title": "Artículos y contracciones",
+      "kicker": "o, a, os, as",
+      "intro": "",
+      "columns": [
+        "",
+        "Singular",
+        "Plural",
+        "Con preposición"
+      ],
+      "rows": [
+        [
+          "masc.",
+          "o",
+          "os",
+          "do (de+o), no (em+o), ao (a+o), pelo"
+        ],
+        [
+          "fem.",
+          "a",
+          "as",
+          "da, na, à, pela"
+        ],
+        [
+          "un / una",
+          "um / uma",
+          "uns / umas",
+          "num, numa, dum, duma"
+        ]
+      ],
+      "notes": [
+        "Vou à praia · Estou no café · Venho do Porto."
+      ]
+    },
+    {
+      "id": "preguntas",
+      "title": "Preguntar",
+      "kicker": "Las palabras y las recetas",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Portugués",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "¿Qué?",
+          "O quê? / Que…?",
+          "O que é isto?"
+        ],
+        [
+          "¿Quién?",
+          "Quem?",
+          "Quem é?"
+        ],
+        [
+          "¿Dónde?",
+          "Onde?",
+          "Onde é a praia?"
+        ],
+        [
+          "¿Cuándo?",
+          "Quando?",
+          "Quando abre?"
+        ],
+        [
+          "¿Por qué?",
+          "Porquê? / Porque…?",
+          "Porque não?"
+        ],
+        [
+          "¿Cómo?",
+          "Como?",
+          "Como se vai para Peniche?"
+        ],
+        [
+          "¿Cuánto?",
+          "Quanto? / Quantos?",
+          "Quanto custa? · Quantos anos tens?"
+        ],
+        [
+          "¿A qué hora?",
+          "A que horas?",
+          "A que horas está melhor o mar?"
+        ],
+        [
+          "¿De dónde?",
+          "De onde?",
+          "De onde és?"
+        ],
+        [
+          "¿Dónde puedo…?",
+          "Onde posso…?",
+          "Onde posso alugar uma prancha?"
+        ]
+      ],
+      "notes": [
+        "Sí/no: solo entonación. Falas espanhol? · Pode-se acampar aqui?",
+        "Porquê (solo) lleva acento; porque … (seguido) no."
+      ]
+    },
+    {
+      "id": "respuestas",
+      "title": "Lo que te van a contestar",
+      "kicker": "Entrena el oído",
+      "intro": "",
+      "columns": [
+        "Portugués",
+        "Español",
+        "Nota"
+      ],
+      "rows": [
+        [
+          "Sim / Não",
+          "Sí / No",
+          ""
+        ],
+        [
+          "Claro!",
+          "¡Claro!",
+          ""
+        ],
+        [
+          "Já está",
+          "Ya está / hecho",
+          ""
+        ],
+        [
+          "Pois",
+          "Ya, claro",
+          "muletilla portuguesa"
+        ],
+        [
+          "Pronto",
+          "Bueno, vale, listo",
+          "muletilla"
+        ],
+        [
+          "Se calhar",
+          "A lo mejor",
+          ""
+        ],
+        [
+          "Não sei",
+          "No sé",
+          ""
+        ],
+        [
+          "Está bem / Fixe",
+          "Vale / Guay",
+          ""
+        ],
+        [
+          "Está fechado / aberto",
+          "Está cerrado / abierto",
+          ""
+        ],
+        [
+          "Sempre em frente",
+          "Todo recto",
+          ""
+        ],
+        [
+          "Bora!",
+          "¡Vamos!",
+          ""
+        ],
+        [
+          "Até já",
+          "Hasta ahora",
+          ""
+        ],
+        [
+          "O mar está bom hoje",
+          "El mar está bueno hoy",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "verbos",
+      "title": "Verbos",
+      "kicker": "Los que lo mueven todo",
+      "intro": "Presente y pretérito perfecto (comi, fui).",
+      "columns": [
+        "Infinitivo",
+        "Español",
+        "eu",
+        "tu",
+        "ele",
+        "nós",
+        "pretérito (eu)"
+      ],
+      "rows": [
+        [
+          "ser",
+          "ser",
+          "sou",
+          "és",
+          "é",
+          "somos",
+          "fui"
+        ],
+        [
+          "estar",
+          "estar",
+          "estou",
+          "estás",
+          "está",
+          "estamos",
+          "estive"
+        ],
+        [
+          "ter",
+          "tener",
+          "tenho",
+          "tens",
+          "tem",
+          "temos",
+          "tive"
+        ],
+        [
+          "ir",
+          "ir",
+          "vou",
+          "vais",
+          "vai",
+          "vamos",
+          "fui"
+        ],
+        [
+          "fazer",
+          "hacer",
+          "faço",
+          "fazes",
+          "faz",
+          "fazemos",
+          "fiz"
+        ],
+        [
+          "querer",
+          "querer",
+          "quero",
+          "queres",
+          "quer",
+          "queremos",
+          "quis"
+        ],
+        [
+          "poder",
+          "poder",
+          "posso",
+          "podes",
+          "pode",
+          "podemos",
+          "pude"
+        ],
+        [
+          "surfar",
+          "surfear",
+          "surfo",
+          "surfas",
+          "surfa",
+          "surfamos",
+          "surfei"
+        ],
+        [
+          "alugar",
+          "alquilar",
+          "alugo",
+          "alugas",
+          "aluga",
+          "alugamos",
+          "aluguei"
+        ]
+      ],
+      "notes": [
+        "Queria = quisiera, la forma educada.",
+        "Andar a + infinitivo = estar haciendo: ando a aprender português."
+      ]
+    },
+    {
+      "id": "conectores",
+      "title": "Conectores y muletillas",
+      "kicker": "Sonar de Portugal",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Portugués",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "y",
+          "e",
+          "pão e vinho"
+        ],
+        [
+          "o",
+          "ou",
+          "café ou chá?"
+        ],
+        [
+          "pero",
+          "mas",
+          "Bonito, mas caro"
+        ],
+        [
+          "porque",
+          "porque",
+          "Porque tenho fome"
+        ],
+        [
+          "también",
+          "também",
+          "Eu também"
+        ],
+        [
+          "luego",
+          "depois",
+          "Depois vamos"
+        ],
+        [
+          "entonces",
+          "então",
+          "Então, bora?"
+        ],
+        [
+          "si",
+          "se",
+          "Se quiseres"
+        ],
+        [
+          "solo",
+          "só",
+          "Só um"
+        ],
+        [
+          "a lo mejor",
+          "se calhar",
+          "Se calhar amanhã"
+        ],
+        [
+          "ya / claro",
+          "pois",
+          "Pois é"
+        ],
+        [
+          "bueno / listo",
+          "pronto",
+          "Pronto, já está"
+        ]
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "Familia y gente",
+      "kicker": "família",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Portugués"
+      ],
+      "rows": [
+        [
+          "madre / padre",
+          "mãe / pai"
+        ],
+        [
+          "hijo / hija",
+          "filho / filha"
+        ],
+        [
+          "hermano / hermana",
+          "irmão / irmã"
+        ],
+        [
+          "abuelo / abuela",
+          "avô / avó"
+        ],
+        [
+          "marido / mujer",
+          "marido / mulher"
+        ],
+        [
+          "novio / novia",
+          "namorado / namorada"
+        ],
+        [
+          "tío / tía",
+          "tio / tia"
+        ],
+        [
+          "primo",
+          "primo / prima"
+        ],
+        [
+          "amigo",
+          "amigo / amiga"
+        ],
+        [
+          "chico / chica",
+          "rapaz / rapariga"
+        ],
+        [
+          "señor / señora",
+          "senhor / senhora"
+        ]
+      ]
+    },
+    {
+      "id": "numeros",
+      "title": "Números, precios y horas",
+      "kicker": "Na tasca",
+      "intro": "",
+      "columns": [
+        "",
+        "Portugués"
+      ],
+      "rows": [
+        [
+          "1–10",
+          "um, dois, três, quatro, cinco, seis, sete, oito, nove, dez"
+        ],
+        [
+          "11–20",
+          "onze, doze, treze, catorze, quinze, dezasseis, dezassete, dezoito, dezanove, vinte"
+        ],
+        [
+          "30, 40, 50, 100",
+          "trinta, quarenta, cinquenta, cem"
+        ],
+        [
+          "1,50 €",
+          "um euro e cinquenta"
+        ],
+        [
+          "¿Cuánto es?",
+          "Quanto é? / Quanto custa?"
+        ],
+        [
+          "La cuenta",
+          "A conta, se faz favor"
+        ],
+        [
+          "¿Qué hora es?",
+          "Que horas são?"
+        ],
+        [
+          "Son las tres y media",
+          "São três e meia"
+        ],
+        [
+          "A las ocho",
+          "Às oito"
+        ],
+        [
+          "¿Cuánto por día?",
+          "Quanto é por dia?"
+        ]
+      ]
+    },
+    {
+      "id": "surf",
+      "title": "Surf y furgoneta",
+      "kicker": "Surf e glória",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Portugués"
+      ],
+      "rows": [
+        [
+          "¿Dónde se surfea bien?",
+          "Onde se surfa bem por aqui?"
+        ],
+        [
+          "¿Cómo está el mar hoy?",
+          "Como está o mar hoje?"
+        ],
+        [
+          "¿Hay olas?",
+          "Há ondas?"
+        ],
+        [
+          "marea alta / baja",
+          "maré alta / maré baixa"
+        ],
+        [
+          "viento offshore / onshore",
+          "vento offshore / onshore"
+        ],
+        [
+          "tabla / neopreno / invento / parafina",
+          "prancha / fato / leash / parafina"
+        ],
+        [
+          "¿Dónde puedo alquilar una tabla?",
+          "Onde posso alugar uma prancha?"
+        ],
+        [
+          "clase para principiantes",
+          "aula para principiantes"
+        ],
+        [
+          "¿Dónde puedo aparcar la furgo?",
+          "Onde posso estacionar a carrinha?"
+        ],
+        [
+          "¿Se puede acampar aquí?",
+          "Pode-se acampar aqui?"
+        ],
+        [
+          "camping",
+          "parque de campismo"
+        ],
+        [
+          "vaciar aguas / llenar agua",
+          "despejar as águas / encher água"
+        ],
+        [
+          "ducha / baño",
+          "duche / casa de banho"
+        ],
+        [
+          "¿Es seguro dormir aquí?",
+          "É seguro dormir aqui?"
+        ],
+        [
+          "gasolinera / gasóleo",
+          "bomba de gasolina / gasóleo"
+        ],
+        [
+          "pinchazo / mecánico",
+          "furo / mecânico"
+        ],
+        [
+          "corrientes / socorrista",
+          "correntes / nadador-salvador"
+        ]
+      ]
+    },
+    {
+      "id": "horarios",
+      "title": "Horarios y sitios abiertos",
+      "kicker": "Está aberto?",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Portugués"
+      ],
+      "rows": [
+        [
+          "¿Está abierto?",
+          "Está aberto?"
+        ],
+        [
+          "¿A qué hora abre / cierra?",
+          "A que horas abre / fecha?"
+        ],
+        [
+          "Cerrado los lunes",
+          "Fechado à segunda"
+        ],
+        [
+          "Feriado",
+          "Feriado"
+        ],
+        [
+          "¿Puedo reservar?",
+          "Posso reservar?"
+        ],
+        [
+          "Hoy / mañana / esta noche",
+          "hoje / amanhã / logo à noite"
+        ],
+        [
+          "Ahora / luego",
+          "agora / depois, logo"
+        ],
+        [
+          "Lunes a domingo",
+          "segunda, terça, quarta, quinta, sexta, sábado, domingo"
+        ]
+      ]
+    },
+    {
+      "id": "prestamos",
+      "title": "Falsos amigos",
+      "kicker": "Cuidado",
+      "intro": "",
+      "columns": [
+        "Portugués",
+        "Parece",
+        "Significa"
+      ],
+      "rows": [
+        [
+          "esquisito",
+          "exquisito",
+          "raro"
+        ],
+        [
+          "embaraçada",
+          "embarazada",
+          "avergonzada"
+        ],
+        [
+          "borracha",
+          "borracha",
+          "goma"
+        ],
+        [
+          "propina",
+          "propina",
+          "matrícula (universidad)"
+        ],
+        [
+          "polvo",
+          "polvo",
+          "pulpo"
+        ],
+        [
+          "apelido",
+          "apellido",
+          "apodo (apellido = sobrenome)"
+        ],
+        [
+          "ligar",
+          "ligar",
+          "llamar por teléfono"
+        ],
+        [
+          "engraçado",
+          "engrasado",
+          "gracioso"
+        ],
+        [
+          "cena",
+          "cena",
+          "escena"
+        ],
+        [
+          "copo",
+          "copo",
+          "vaso"
+        ],
+        [
+          "pasta",
+          "pasta",
+          "carpeta"
+        ],
+        [
+          "tirar",
+          "tirar",
+          "sacar, quitar"
+        ],
+        [
+          "logo",
+          "luego",
+          "pronto / enseguida"
+        ]
+      ]
+    },
+    {
+      "id": "sentimientos",
+      "title": "Sentimientos y gustos",
+      "kicker": "O coração",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Portugués",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "feliz",
+          "feliz / contente",
+          "Estás feliz?"
+        ],
+        [
+          "triste",
+          "triste",
+          "Estás triste?"
+        ],
+        [
+          "cansado",
+          "cansado / partido",
+          "Estou partido"
+        ],
+        [
+          "tengo hambre / sed",
+          "tenho fome / sede",
+          ""
+        ],
+        [
+          "tengo miedo",
+          "tenho medo",
+          ""
+        ],
+        [
+          "me gusta",
+          "gosto de",
+          "Gosto de Portugal"
+        ],
+        [
+          "te quiero",
+          "gosto de ti / amo-te",
+          ""
+        ],
+        [
+          "echo de menos",
+          "tenho saudades de",
+          "Tenho saudades de casa"
+        ],
+        [
+          "sueño",
+          "sonho",
+          "O meu sonho é…"
+        ],
+        [
+          "me encanta",
+          "adoro",
+          "Adoro esta onda"
+        ]
+      ]
+    },
+    {
+      "id": "chuleta",
+      "title": "Chuleta de oro",
+      "kicker": "Tus 12 frases de surf y gloria",
+      "intro": "",
+      "columns": [
+        "#",
+        "Portugués",
+        "Español"
+      ],
+      "rows": [
+        [
+          "1",
+          "Olá, tudo bem?",
+          "Hola, ¿qué tal?"
+        ],
+        [
+          "2",
+          "Chamo-me ___. E tu?",
+          "Me llamo ___. ¿Y tú?"
+        ],
+        [
+          "3",
+          "Onde se surfa bem por aqui?",
+          "¿Dónde se surfea bien por aquí?"
+        ],
+        [
+          "4",
+          "Onde posso alugar uma prancha?",
+          "¿Dónde puedo alquilar una tabla?"
+        ],
+        [
+          "5",
+          "Pode-se acampar aqui?",
+          "¿Se puede acampar aquí?"
+        ],
+        [
+          "6",
+          "Uma imperial, por favor.",
+          "Una caña, por favor."
+        ],
+        [
+          "7",
+          "Quanto custa?",
+          "¿Cuánto cuesta?"
+        ],
+        [
+          "8",
+          "Onde há festa hoje?",
+          "¿Dónde hay fiesta hoy?"
+        ],
+        [
+          "9",
+          "Está aberto?",
+          "¿Está abierto?"
+        ],
+        [
+          "10",
+          "A conta, se faz favor.",
+          "La cuenta, por favor."
+        ],
+        [
+          "11",
+          "Bora!",
+          "¡Vamos!"
+        ],
+        [
+          "12",
+          "Obrigado / Obrigada!",
+          "¡Gracias!"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,1 +1,870 @@
-{"tables": []}
+{
+  "tables": [
+    {
+      "id": "pronombres",
+      "title": "Pronoms",
+      "kicker": "je, tu, on, vous",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Sujeto",
+        "Objeto",
+        "Posesivo"
+      ],
+      "rows": [
+        [
+          "yo",
+          "je",
+          "me / moi",
+          "mon / ma / mes"
+        ],
+        [
+          "tú",
+          "tu",
+          "te / toi",
+          "ton / ta / tes"
+        ],
+        [
+          "él / ella",
+          "il / elle",
+          "le / la · lui",
+          "son / sa / ses"
+        ],
+        [
+          "nosotros",
+          "nous / on",
+          "nous",
+          "notre / nos"
+        ],
+        [
+          "vosotros / usted",
+          "vous",
+          "vous",
+          "votre / vos"
+        ],
+        [
+          "ellos",
+          "ils / elles",
+          "les / leur",
+          "leur / leurs"
+        ]
+      ],
+      "notes": [
+        "On = nosotros en el habla: on y va. Vous = usted y vosotros.",
+        "Chez moi = en mi casa. Chez le médecin = en el médico."
+      ]
+    },
+    {
+      "id": "articulos",
+      "title": "Articles et contractions",
+      "kicker": "le, la, les",
+      "intro": "",
+      "columns": [
+        "",
+        "Singular",
+        "Plural",
+        "Con à / de"
+      ],
+      "rows": [
+        [
+          "masc.",
+          "le / l'",
+          "les",
+          "au (à+le), du (de+le)"
+        ],
+        [
+          "fem.",
+          "la / l'",
+          "les",
+          "à la, de la"
+        ],
+        [
+          "un / una",
+          "un / une",
+          "des",
+          "aux, des"
+        ],
+        [
+          "partitivo",
+          "du / de la / des",
+          "—",
+          "du pain, de la bière"
+        ]
+      ],
+      "notes": [
+        "Je voudrais du pain · Un verre de vin · Au marché · Aux Halles."
+      ]
+    },
+    {
+      "id": "preguntas",
+      "title": "Demander",
+      "kicker": "Las palabras y las recetas",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Francés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "¿Qué?",
+          "Quoi ? / Qu'est-ce que…?",
+          "C'est quoi ?"
+        ],
+        [
+          "¿Quién?",
+          "Qui ?",
+          "C'est qui ?"
+        ],
+        [
+          "¿Dónde?",
+          "Où ?",
+          "C'est où ? / Où est…?"
+        ],
+        [
+          "¿Cuándo?",
+          "Quand ?",
+          "Ça ouvre quand ?"
+        ],
+        [
+          "¿Por qué?",
+          "Pourquoi ?",
+          "Pourquoi pas ?"
+        ],
+        [
+          "¿Cómo?",
+          "Comment ?",
+          "Comment on va à Montmartre ?"
+        ],
+        [
+          "¿Cuánto?",
+          "Combien ?",
+          "C'est combien ? · Vous êtes combien ?"
+        ],
+        [
+          "¿A qué hora?",
+          "À quelle heure ?",
+          "Ça ferme à quelle heure ?"
+        ],
+        [
+          "¿De dónde?",
+          "D'où ?",
+          "Tu viens d'où ?"
+        ],
+        [
+          "¿Dónde puedo…?",
+          "Où est-ce que je peux…?",
+          "Où est-ce que je peux louer un vélo ?"
+        ]
+      ],
+      "notes": [
+        "Hablado: la pregunta va al final con entonación: Tu habites où ? Tu viens d'où ?",
+        "Est-ce que… convierte en pregunta sin invertir: Est-ce que c'est ouvert ?"
+      ]
+    },
+    {
+      "id": "respuestas",
+      "title": "Ce qu'on va te répondre",
+      "kicker": "Entrena el oído",
+      "intro": "",
+      "columns": [
+        "Francés",
+        "Español",
+        "Nota"
+      ],
+      "rows": [
+        [
+          "Oui / Non / Ouais",
+          "Sí / No / Sí (hablado)",
+          ""
+        ],
+        [
+          "Bien sûr",
+          "Claro",
+          ""
+        ],
+        [
+          "Ça marche",
+          "Vale, hecho",
+          "muy usado"
+        ],
+        [
+          "Pas de souci",
+          "Sin problema",
+          ""
+        ],
+        [
+          "Je sais pas",
+          "No sé",
+          "sin ne, hablado"
+        ],
+        [
+          "Bof",
+          "Meh",
+          "gesto incluido"
+        ],
+        [
+          "Peut-être",
+          "Quizá",
+          ""
+        ],
+        [
+          "C'est fermé / ouvert",
+          "Está cerrado / abierto",
+          ""
+        ],
+        [
+          "Tout droit",
+          "Todo recto",
+          ""
+        ],
+        [
+          "Ça sera tout ?",
+          "¿Algo más?",
+          "boulangerie"
+        ],
+        [
+          "Bonne journée !",
+          "¡Buen día!",
+          "al salir"
+        ],
+        [
+          "À plus !",
+          "¡Hasta luego!",
+          ""
+        ],
+        [
+          "Voilà",
+          "Aquí tiene / eso es",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "verbos",
+      "title": "Verbes",
+      "kicker": "Le moteur",
+      "intro": "Présent et passé composé (j'ai / je suis + participe).",
+      "columns": [
+        "Infinitivo",
+        "Español",
+        "je",
+        "tu",
+        "il / on",
+        "nous / vous",
+        "passé composé"
+      ],
+      "rows": [
+        [
+          "être",
+          "ser / estar",
+          "suis",
+          "es",
+          "est",
+          "sommes / êtes",
+          "j'ai été"
+        ],
+        [
+          "avoir",
+          "tener",
+          "ai",
+          "as",
+          "a",
+          "avons / avez",
+          "j'ai eu"
+        ],
+        [
+          "aller",
+          "ir",
+          "vais",
+          "vas",
+          "va",
+          "allons / allez",
+          "je suis allé(e)"
+        ],
+        [
+          "faire",
+          "hacer",
+          "fais",
+          "fais",
+          "fait",
+          "faisons / faites",
+          "j'ai fait"
+        ],
+        [
+          "vouloir",
+          "querer",
+          "veux",
+          "veux",
+          "veut",
+          "voulons / voulez",
+          "j'ai voulu"
+        ],
+        [
+          "pouvoir",
+          "poder",
+          "peux",
+          "peux",
+          "peut",
+          "pouvons / pouvez",
+          "j'ai pu"
+        ],
+        [
+          "prendre",
+          "coger / tomar",
+          "prends",
+          "prends",
+          "prend",
+          "prenons / prenez",
+          "j'ai pris"
+        ],
+        [
+          "louer",
+          "alquilar",
+          "loue",
+          "loues",
+          "loue",
+          "louons / louez",
+          "j'ai loué"
+        ],
+        [
+          "manger",
+          "comer",
+          "mange",
+          "manges",
+          "mange",
+          "mangeons / mangez",
+          "j'ai mangé"
+        ]
+      ],
+      "notes": [
+        "Je voudrais = quisiera. J'aimerais = me gustaría.",
+        "Aller y venir en el passé composé van con être: je suis allé(e)."
+      ]
+    },
+    {
+      "id": "conectores",
+      "title": "Connecteurs et tics de langage",
+      "kicker": "Sonner français",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Francés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "y",
+          "et",
+          "pain et fromage"
+        ],
+        [
+          "o",
+          "ou",
+          "café ou thé ?"
+        ],
+        [
+          "pero",
+          "mais",
+          "Joli, mais cher"
+        ],
+        [
+          "porque",
+          "parce que",
+          "Parce que j'ai faim"
+        ],
+        [
+          "también",
+          "aussi",
+          "Moi aussi"
+        ],
+        [
+          "luego",
+          "puis / ensuite / après",
+          "Après, on y va"
+        ],
+        [
+          "así que",
+          "donc / du coup",
+          "Du coup, on sort ?"
+        ],
+        [
+          "si",
+          "si",
+          "Si tu veux"
+        ],
+        [
+          "solo",
+          "juste / seulement",
+          "Juste un"
+        ],
+        [
+          "quizá",
+          "peut-être",
+          "Peut-être demain"
+        ],
+        [
+          "bueno…",
+          "bon… / ben…",
+          "Bon, on y va"
+        ],
+        [
+          "¿no?",
+          "hein ? / non ?",
+          "C'est bon, non ?"
+        ],
+        [
+          "o sea",
+          "enfin / quoi",
+          "C'est bien, quoi"
+        ]
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "Famille et gens",
+      "kicker": "famille",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Francés"
+      ],
+      "rows": [
+        [
+          "madre / padre",
+          "mère, maman / père, papa"
+        ],
+        [
+          "hijo / hija",
+          "fils / fille"
+        ],
+        [
+          "hermano / hermana",
+          "frère / sœur"
+        ],
+        [
+          "abuelo / abuela",
+          "papi, grand-père / mamie, grand-mère"
+        ],
+        [
+          "marido / mujer",
+          "mari / femme"
+        ],
+        [
+          "novio / novia",
+          "copain / copine · mec / meuf (hablado)"
+        ],
+        [
+          "tío / tía",
+          "oncle / tante"
+        ],
+        [
+          "primo",
+          "cousin / cousine"
+        ],
+        [
+          "amigo / colega",
+          "ami / pote"
+        ],
+        [
+          "chico / chica",
+          "garçon, gars / fille, nana"
+        ],
+        [
+          "señor / señora",
+          "monsieur / madame"
+        ]
+      ]
+    },
+    {
+      "id": "numeros",
+      "title": "Nombres, prix et heures",
+      "kicker": "Au comptoir",
+      "intro": "",
+      "columns": [
+        "",
+        "Francés"
+      ],
+      "rows": [
+        [
+          "1–10",
+          "un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix"
+        ],
+        [
+          "11–20",
+          "onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt"
+        ],
+        [
+          "30, 40, 50, 70, 80, 90, 100",
+          "trente, quarante, cinquante, soixante-dix, quatre-vingts, quatre-vingt-dix, cent"
+        ],
+        [
+          "1,50 €",
+          "un euro cinquante"
+        ],
+        [
+          "¿Cuánto es?",
+          "C'est combien ? / Ça fait combien ?"
+        ],
+        [
+          "La cuenta",
+          "L'addition, s'il vous plaît"
+        ],
+        [
+          "¿Qué hora es?",
+          "Il est quelle heure ?"
+        ],
+        [
+          "Las tres y media",
+          "Trois heures et demie"
+        ],
+        [
+          "A las ocho",
+          "À huit heures"
+        ],
+        [
+          "¿Cuánto por día?",
+          "C'est combien la journée ?"
+        ]
+      ],
+      "notes": [
+        "Los números 70, 80 y 90 son el susto: soixante-dix (60+10), quatre-vingts (4×20), quatre-vingt-dix (4×20+10)."
+      ]
+    },
+    {
+      "id": "moverse",
+      "title": "Vélo, voiture, métro",
+      "kicker": "Se déplacer",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Francés"
+      ],
+      "rows": [
+        [
+          "¿Dónde puedo alquilar una bici?",
+          "Où est-ce que je peux louer un vélo ?"
+        ],
+        [
+          "Vélib' (bicis públicas de París)",
+          "un Vélib'"
+        ],
+        [
+          "¿Cuánto es la jornada?",
+          "C'est combien la journée ?"
+        ],
+        [
+          "Alquilar un coche",
+          "Louer une voiture"
+        ],
+        [
+          "¿Dónde puedo aparcar?",
+          "Où est-ce que je peux me garer ?"
+        ],
+        [
+          "Gasolina / gasolinera",
+          "Essence / station-service"
+        ],
+        [
+          "Peaje / autopista",
+          "Péage / autoroute"
+        ],
+        [
+          "¿Qué línea para…?",
+          "Quelle ligne pour…?"
+        ],
+        [
+          "Un billete / pase Navigo",
+          "Un ticket / un pass Navigo"
+        ],
+        [
+          "Ida y vuelta",
+          "Un aller-retour"
+        ],
+        [
+          "¿Es directo?",
+          "C'est direct ?"
+        ],
+        [
+          "¿Está lejos? Cerca",
+          "C'est loin ? À côté"
+        ],
+        [
+          "Voy andando",
+          "J'y vais à pied"
+        ]
+      ]
+    },
+    {
+      "id": "horarios",
+      "title": "Horaires",
+      "kicker": "C'est ouvert ?",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Francés"
+      ],
+      "rows": [
+        [
+          "¿Está abierto?",
+          "C'est ouvert ?"
+        ],
+        [
+          "¿A qué hora abre / cierra?",
+          "Ça ouvre / ferme à quelle heure ?"
+        ],
+        [
+          "Cerrado los lunes",
+          "Fermé le lundi"
+        ],
+        [
+          "Pausa del mediodía",
+          "La pause déjeuner"
+        ],
+        [
+          "Festivo",
+          "Jour férié"
+        ],
+        [
+          "¿Puedo reservar?",
+          "Je peux réserver ?"
+        ],
+        [
+          "Cerrado por vacaciones",
+          "Fermé pour congés"
+        ],
+        [
+          "Hoy / mañana / esta noche",
+          "aujourd'hui / demain / ce soir"
+        ],
+        [
+          "Ahora / luego",
+          "maintenant / après, plus tard"
+        ],
+        [
+          "Lunes a domingo",
+          "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche"
+        ]
+      ]
+    },
+    {
+      "id": "prestamos",
+      "title": "Faux amis",
+      "kicker": "Cuidado",
+      "intro": "",
+      "columns": [
+        "Francés",
+        "Parece",
+        "Significa"
+      ],
+      "rows": [
+        [
+          "attendre",
+          "atender",
+          "esperar"
+        ],
+        [
+          "entendre",
+          "entender",
+          "oír"
+        ],
+        [
+          "constipé",
+          "constipado",
+          "estreñido"
+        ],
+        [
+          "enfermer",
+          "enfermar",
+          "encerrar"
+        ],
+        [
+          "gâteau",
+          "gato",
+          "pastel"
+        ],
+        [
+          "large",
+          "largo",
+          "ancho"
+        ],
+        [
+          "long",
+          "—",
+          "largo"
+        ],
+        [
+          "sol",
+          "sol",
+          "suelo"
+        ],
+        [
+          "salir",
+          "salir",
+          "ensuciar"
+        ],
+        [
+          "nombre",
+          "nombre",
+          "número"
+        ],
+        [
+          "demander",
+          "demandar",
+          "pedir, preguntar"
+        ],
+        [
+          "rester",
+          "restar",
+          "quedarse"
+        ],
+        [
+          "sable",
+          "sable",
+          "arena"
+        ],
+        [
+          "quitter",
+          "quitar",
+          "dejar, irse"
+        ]
+      ]
+    },
+    {
+      "id": "sentimientos",
+      "title": "Sentiments",
+      "kicker": "Le cœur",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Francés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "feliz",
+          "heureux / content",
+          "Tu es heureux ?"
+        ],
+        [
+          "triste",
+          "triste",
+          "Tu es triste ?"
+        ],
+        [
+          "cansado",
+          "fatigué / crevé",
+          "Je suis crevé"
+        ],
+        [
+          "tengo hambre / sed",
+          "j'ai faim / soif",
+          ""
+        ],
+        [
+          "tengo miedo",
+          "j'ai peur",
+          ""
+        ],
+        [
+          "me gusta",
+          "j'aime bien",
+          "J'aime bien Paris"
+        ],
+        [
+          "te quiero",
+          "je t'aime",
+          ""
+        ],
+        [
+          "echo de menos",
+          "… me manque",
+          "Ma famille me manque"
+        ],
+        [
+          "sueño",
+          "rêve",
+          "Mon rêve, c'est…"
+        ],
+        [
+          "me encanta",
+          "j'adore",
+          "J'adore les croissants"
+        ]
+      ]
+    },
+    {
+      "id": "chuleta",
+      "title": "Chuleta de oro",
+      "kicker": "Tes 12 phrases",
+      "intro": "",
+      "columns": [
+        "#",
+        "Francés",
+        "Español"
+      ],
+      "rows": [
+        [
+          "1",
+          "Bonjour ! Ça va ?",
+          "¡Hola! ¿Qué tal?"
+        ],
+        [
+          "2",
+          "Je m'appelle ___. Et toi ?",
+          "Me llamo ___. ¿Y tú?"
+        ],
+        [
+          "3",
+          "Un café, s'il vous plaît.",
+          "Un café, por favor."
+        ],
+        [
+          "4",
+          "C'est combien ?",
+          "¿Cuánto es?"
+        ],
+        [
+          "5",
+          "C'est où ?",
+          "¿Dónde está?"
+        ],
+        [
+          "6",
+          "C'est ouvert ?",
+          "¿Está abierto?"
+        ],
+        [
+          "7",
+          "Où est-ce que je peux louer un vélo ?",
+          "¿Dónde puedo alquilar una bici?"
+        ],
+        [
+          "8",
+          "Je voudrais…",
+          "Quisiera…"
+        ],
+        [
+          "9",
+          "L'addition, s'il vous plaît.",
+          "La cuenta, por favor."
+        ],
+        [
+          "10",
+          "Une baguette, bien cuite.",
+          "Una baguette, bien hecha."
+        ],
+        [
+          "11",
+          "Ça marche !",
+          "¡Vale!"
+        ],
+        [
+          "12",
+          "À plus !",
+          "¡Hasta luego!"
+        ]
+      ]
+    }
+  ]
+}

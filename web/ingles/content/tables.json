@@ -1,1 +1,829 @@
-{"tables": []}
+{
+  "tables": [
+    {
+      "id": "pronombres",
+      "title": "Pronouns",
+      "kicker": "I, you, my, your",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Sujeto",
+        "Objeto",
+        "Posesivo"
+      ],
+      "rows": [
+        [
+          "yo",
+          "I",
+          "me",
+          "my / mine"
+        ],
+        [
+          "tú / usted",
+          "you",
+          "you",
+          "your / yours"
+        ],
+        [
+          "él / ella",
+          "he / she",
+          "him / her",
+          "his / her"
+        ],
+        [
+          "nosotros",
+          "we",
+          "us",
+          "our / ours"
+        ],
+        [
+          "vosotros",
+          "you",
+          "you",
+          "your"
+        ],
+        [
+          "ellos",
+          "they",
+          "them",
+          "their / theirs"
+        ]
+      ],
+      "notes": [
+        "You vale para tú, usted, vosotros y ustedes. El respeto va en el tono y en please / sorry / would you."
+      ]
+    },
+    {
+      "id": "articulos",
+      "title": "Articles and there is",
+      "kicker": "a, an, the",
+      "intro": "",
+      "columns": [
+        "",
+        "Inglés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "un / una",
+          "a / an (ante vocal)",
+          "a pint, an apple"
+        ],
+        [
+          "el / la / los / las",
+          "the",
+          "the pub, the bikes"
+        ],
+        [
+          "hay",
+          "there is / there are",
+          "There's a pub round the corner"
+        ],
+        [
+          "¿hay?",
+          "Is there / Are there?",
+          "Is there a bike hire nearby?"
+        ]
+      ]
+    },
+    {
+      "id": "preguntas",
+      "title": "Asking",
+      "kicker": "Las palabras y las recetas",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Inglés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "¿Qué?",
+          "What?",
+          "What's this?"
+        ],
+        [
+          "¿Quién?",
+          "Who?",
+          "Who's that?"
+        ],
+        [
+          "¿Dónde?",
+          "Where?",
+          "Where's the station?"
+        ],
+        [
+          "¿Cuándo?",
+          "When?",
+          "When does it open?"
+        ],
+        [
+          "¿Por qué?",
+          "Why?",
+          "Why not?"
+        ],
+        [
+          "¿Cómo?",
+          "How?",
+          "How do I get to Camden?"
+        ],
+        [
+          "¿Cuánto?",
+          "How much? / How many?",
+          "How much is it? · How many of you?"
+        ],
+        [
+          "¿A qué hora?",
+          "What time?",
+          "What time does it close?"
+        ],
+        [
+          "¿De dónde?",
+          "Where … from?",
+          "Where are you from?"
+        ],
+        [
+          "¿Dónde puedo…?",
+          "Where can I…?",
+          "Where can I hire a bike?"
+        ]
+      ],
+      "notes": [
+        "Sí/no con do/does o el verbo be: Do you speak Spanish? · Is it open?",
+        "Could you…? y Would you mind…? son las formas educadas de pedir."
+      ]
+    },
+    {
+      "id": "respuestas",
+      "title": "What you'll hear",
+      "kicker": "Entrena el oído",
+      "intro": "",
+      "columns": [
+        "Inglés",
+        "Español",
+        "Nota"
+      ],
+      "rows": [
+        [
+          "Yeah / Nah",
+          "Sí / No",
+          "hablado"
+        ],
+        [
+          "Sure / Of course",
+          "Claro",
+          ""
+        ],
+        [
+          "Cheers / Ta",
+          "Gracias",
+          "muy británico"
+        ],
+        [
+          "No worries",
+          "Sin problema",
+          ""
+        ],
+        [
+          "Not bad / Can't complain",
+          "Bien, tirando",
+          "understatement"
+        ],
+        [
+          "Lovely / Brilliant",
+          "Genial",
+          ""
+        ],
+        [
+          "I'm afraid not",
+          "Me temo que no",
+          "educado"
+        ],
+        [
+          "Just there / Round the corner",
+          "Ahí mismo / a la vuelta",
+          ""
+        ],
+        [
+          "It's closed, I'm afraid",
+          "Está cerrado",
+          ""
+        ],
+        [
+          "Same again?",
+          "¿Otra ronda?",
+          "pub"
+        ],
+        [
+          "Mind the gap",
+          "Cuidado con el hueco",
+          "metro"
+        ],
+        [
+          "You alright?",
+          "¿Qué tal?",
+          "saludo, no pregunta"
+        ]
+      ]
+    },
+    {
+      "id": "verbos",
+      "title": "Verbs",
+      "kicker": "The engine",
+      "intro": "Presente, pasado y present perfect.",
+      "columns": [
+        "Verbo",
+        "Español",
+        "Presente (I / he)",
+        "Pasado",
+        "Present perfect"
+      ],
+      "rows": [
+        [
+          "be",
+          "ser / estar",
+          "am / is",
+          "was",
+          "have been"
+        ],
+        [
+          "have",
+          "tener",
+          "have / has",
+          "had",
+          "have had"
+        ],
+        [
+          "go",
+          "ir",
+          "go / goes",
+          "went",
+          "have gone / been"
+        ],
+        [
+          "do",
+          "hacer",
+          "do / does",
+          "did",
+          "have done"
+        ],
+        [
+          "want",
+          "querer",
+          "want / wants",
+          "wanted",
+          "have wanted"
+        ],
+        [
+          "can",
+          "poder",
+          "can",
+          "could",
+          "—"
+        ],
+        [
+          "get",
+          "conseguir, llegar, ponerse",
+          "get / gets",
+          "got",
+          "have got"
+        ],
+        [
+          "hire",
+          "alquilar (bici, coche)",
+          "hire / hires",
+          "hired",
+          "have hired"
+        ],
+        [
+          "fancy",
+          "apetecer",
+          "fancy / fancies",
+          "fancied",
+          "—"
+        ]
+      ],
+      "notes": [
+        "I'd like = quisiera. I'd love to = me encantaría.",
+        "Have you eaten? · How long have you been here? → present perfect, muy usado en UK."
+      ]
+    },
+    {
+      "id": "conectores",
+      "title": "Linking words and fillers",
+      "kicker": "Sounding British",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Inglés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "y",
+          "and",
+          "fish and chips"
+        ],
+        [
+          "o",
+          "or",
+          "tea or coffee?"
+        ],
+        [
+          "pero",
+          "but",
+          "Nice, but pricey"
+        ],
+        [
+          "porque",
+          "because ('cause)",
+          "Because I'm hungry"
+        ],
+        [
+          "también",
+          "also / too / as well",
+          "Me too"
+        ],
+        [
+          "luego",
+          "then",
+          "Then we'll go"
+        ],
+        [
+          "así que",
+          "so",
+          "So, shall we?"
+        ],
+        [
+          "si",
+          "if",
+          "If you like"
+        ],
+        [
+          "solo",
+          "just",
+          "Just one"
+        ],
+        [
+          "quizá",
+          "maybe",
+          "Maybe tomorrow"
+        ],
+        [
+          "bueno…",
+          "well…",
+          "Well, not bad"
+        ],
+        [
+          "ya sabes",
+          "you know",
+          "It's, you know, fine"
+        ],
+        [
+          "bastante",
+          "quite / pretty",
+          "Quite nice"
+        ]
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "Family and people",
+      "kicker": "family",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Inglés"
+      ],
+      "rows": [
+        [
+          "madre / padre",
+          "mum / dad"
+        ],
+        [
+          "hijo / hija",
+          "son / daughter"
+        ],
+        [
+          "hermano / hermana",
+          "brother / sister"
+        ],
+        [
+          "abuelo / abuela",
+          "grandad / grandma (nan)"
+        ],
+        [
+          "marido / mujer",
+          "husband / wife"
+        ],
+        [
+          "novio / novia",
+          "boyfriend / girlfriend · partner"
+        ],
+        [
+          "tío / tía",
+          "uncle / auntie"
+        ],
+        [
+          "primo",
+          "cousin"
+        ],
+        [
+          "amigo / colega",
+          "friend / mate"
+        ],
+        [
+          "chico / chica",
+          "lad / lass (norte), guy / girl"
+        ],
+        [
+          "señor / señora",
+          "sir / madam"
+        ]
+      ]
+    },
+    {
+      "id": "numeros",
+      "title": "Numbers, prices and time",
+      "kicker": "At the bar",
+      "intro": "",
+      "columns": [
+        "",
+        "Inglés"
+      ],
+      "rows": [
+        [
+          "1–10",
+          "one, two, three, four, five, six, seven, eight, nine, ten"
+        ],
+        [
+          "11–20",
+          "eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty"
+        ],
+        [
+          "30, 40, 50, 100",
+          "thirty, forty, fifty, a hundred"
+        ],
+        [
+          "£1.50",
+          "one pound fifty · a quid (una libra)"
+        ],
+        [
+          "¿Cuánto es?",
+          "How much is it?"
+        ],
+        [
+          "La cuenta",
+          "Can I get the bill? · Can I pay?"
+        ],
+        [
+          "¿Qué hora es?",
+          "What time is it? / What's the time?"
+        ],
+        [
+          "Las tres y media",
+          "Half three / half past three"
+        ],
+        [
+          "Las ocho menos cuarto",
+          "Quarter to eight"
+        ],
+        [
+          "¿Cuánto por día?",
+          "How much per day?"
+        ]
+      ]
+    },
+    {
+      "id": "moverse",
+      "title": "Bikes, cars and the tube",
+      "kicker": "Getting around",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Inglés"
+      ],
+      "rows": [
+        [
+          "¿Dónde puedo alquilar una bici?",
+          "Where can I hire a bike?"
+        ],
+        [
+          "¿Cuánto es por día / hora?",
+          "How much is it per day / per hour?"
+        ],
+        [
+          "¿Hace falta casco?",
+          "Do I need a helmet?"
+        ],
+        [
+          "Alquilar un coche",
+          "Rent a car / hire a car"
+        ],
+        [
+          "Se conduce por la izquierda",
+          "They drive on the left"
+        ],
+        [
+          "¿Dónde puedo aparcar?",
+          "Where can I park?"
+        ],
+        [
+          "Gasolina / gasolinera",
+          "Petrol / petrol station"
+        ],
+        [
+          "Multa / peaje",
+          "Fine / toll"
+        ],
+        [
+          "¿Qué línea cojo para…?",
+          "Which line do I take for…?"
+        ],
+        [
+          "Tarjeta Oyster / contactless",
+          "Oyster card / contactless"
+        ],
+        [
+          "Billete de ida y vuelta",
+          "Return ticket"
+        ],
+        [
+          "¿Está lejos? Cerca",
+          "Is it far? Nearby"
+        ],
+        [
+          "Voy andando",
+          "I'll walk"
+        ]
+      ]
+    },
+    {
+      "id": "horarios",
+      "title": "Opening hours",
+      "kicker": "Is it open?",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Inglés"
+      ],
+      "rows": [
+        [
+          "¿Está abierto?",
+          "Is it open?"
+        ],
+        [
+          "¿A qué hora abre / cierra?",
+          "What time does it open / close?"
+        ],
+        [
+          "Cerrado los lunes",
+          "Closed on Mondays"
+        ],
+        [
+          "Festivo",
+          "Bank holiday"
+        ],
+        [
+          "¿Puedo reservar?",
+          "Can I book a table?"
+        ],
+        [
+          "Última ronda",
+          "Last orders"
+        ],
+        [
+          "Hoy / mañana / esta noche",
+          "today / tomorrow / tonight"
+        ],
+        [
+          "Ahora / luego",
+          "now / later"
+        ],
+        [
+          "Lunes a domingo",
+          "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+        ]
+      ]
+    },
+    {
+      "id": "prestamos",
+      "title": "British, not American",
+      "kicker": "Y falsos amigos",
+      "intro": "",
+      "columns": [
+        "Británico",
+        "Americano / parece",
+        "Significa"
+      ],
+      "rows": [
+        [
+          "flat",
+          "apartment",
+          "piso"
+        ],
+        [
+          "lift",
+          "elevator",
+          "ascensor"
+        ],
+        [
+          "queue",
+          "line",
+          "cola"
+        ],
+        [
+          "holiday",
+          "vacation",
+          "vacaciones"
+        ],
+        [
+          "petrol",
+          "gas",
+          "gasolina"
+        ],
+        [
+          "bin",
+          "trash can",
+          "papelera"
+        ],
+        [
+          "chips / crisps",
+          "fries / chips",
+          "patatas fritas / de bolsa"
+        ],
+        [
+          "lorry",
+          "truck",
+          "camión"
+        ],
+        [
+          "mobile",
+          "cell phone",
+          "móvil"
+        ],
+        [
+          "actually",
+          "actualmente",
+          "en realidad"
+        ],
+        [
+          "library",
+          "librería",
+          "biblioteca"
+        ],
+        [
+          "constipated",
+          "constipado",
+          "estreñido"
+        ],
+        [
+          "embarrassed",
+          "embarazada",
+          "avergonzado"
+        ],
+        [
+          "sensible",
+          "sensible",
+          "sensato"
+        ]
+      ]
+    },
+    {
+      "id": "sentimientos",
+      "title": "Feelings",
+      "kicker": "The heart",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Inglés",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "feliz",
+          "happy",
+          "Are you happy?"
+        ],
+        [
+          "triste",
+          "sad",
+          "Are you sad?"
+        ],
+        [
+          "cansado",
+          "tired / knackered",
+          "I'm knackered"
+        ],
+        [
+          "tengo hambre / sed",
+          "I'm hungry / thirsty",
+          ""
+        ],
+        [
+          "tengo miedo",
+          "I'm scared",
+          ""
+        ],
+        [
+          "me gusta",
+          "I like",
+          "I like it here"
+        ],
+        [
+          "te quiero",
+          "I love you",
+          ""
+        ],
+        [
+          "echo de menos",
+          "I miss",
+          "I miss home"
+        ],
+        [
+          "sueño",
+          "dream",
+          "My dream is to…"
+        ],
+        [
+          "me encanta",
+          "I love",
+          "I love a Sunday roast"
+        ]
+      ]
+    },
+    {
+      "id": "chuleta",
+      "title": "Chuleta de oro",
+      "kicker": "Your 12 British lines",
+      "intro": "",
+      "columns": [
+        "#",
+        "Inglés",
+        "Español"
+      ],
+      "rows": [
+        [
+          "1",
+          "Hi, you alright?",
+          "Hola, ¿qué tal?"
+        ],
+        [
+          "2",
+          "I'm ___. And you?",
+          "Soy ___. ¿Y tú?"
+        ],
+        [
+          "3",
+          "A pint, please.",
+          "Una pinta, por favor."
+        ],
+        [
+          "4",
+          "How much is it?",
+          "¿Cuánto es?"
+        ],
+        [
+          "5",
+          "Where's…?",
+          "¿Dónde está…?"
+        ],
+        [
+          "6",
+          "Is it open?",
+          "¿Está abierto?"
+        ],
+        [
+          "7",
+          "Where can I hire a bike?",
+          "¿Dónde puedo alquilar una bici?"
+        ],
+        [
+          "8",
+          "I'd like…",
+          "Quisiera…"
+        ],
+        [
+          "9",
+          "Can I get the bill?",
+          "¿Me cobras?"
+        ],
+        [
+          "10",
+          "Lovely day, isn't it?",
+          "Buen día, ¿eh?"
+        ],
+        [
+          "11",
+          "Cheers!",
+          "¡Gracias! / ¡Salud!"
+        ],
+        [
+          "12",
+          "See you!",
+          "¡Nos vemos!"
+        ]
+      ]
+    }
+  ]
+}
