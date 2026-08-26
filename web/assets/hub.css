@@ -102,3 +102,7 @@ a.course:hover, a.course:focus-visible { transform: none; border-color: var(--bl
 .has-live-bg .course, .has-live-bg .legacy-row, .has-live-bg .hub-stats2 div, .has-live-bg .account-toggle { background: rgba(255,255,255,0.78); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 
 .account-icon .account-initial svg { width: 22px; height: 22px; fill: #fff; }
+/* bandera grande, sin caja: es el icono del idioma */
+.course-flag { width: auto; height: auto; background: transparent !important; border: 0 !important; box-shadow: none !important; border-radius: 0; font-size: 72px; line-height: 1; left: 18px; bottom: -22px; filter: drop-shadow(0 8px 14px rgba(20, 34, 62, 0.25)); }
+.course-body { padding-top: 40px; }
+.legacy-flag { background: transparent; font-size: 34px; width: auto; height: auto; }
