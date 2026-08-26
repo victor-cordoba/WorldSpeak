@@ -1,0 +1,25 @@
+{
+  "id": "lesson-01",
+  "lesson": 1,
+  "title": "Hola, ¿cómo estás? ¿Cómo te llamas?",
+  "subtitle": "Saludar según la hora, decir tu nombre y preguntar el suyo.",
+  "summary_es": "Aprendes a saludar (Kumusta, Magandang umaga), a decir cómo estás, a presentarte con Ako si y a preguntar el nombre con Anong pangalan mo.",
+  "topics": ["Saludos", "Presentarse", "Preguntar el nombre", "Cortesía po", "Despedirse"],
+  "scene": "lesson-01",
+  "teach": ["kumusta", "kumusta-ka", "magandang-umaga", "ako-si", "anong-pangalan-mo", "salamat-po", "ingat-ka"],
+  "listen": ["mabuti-naman", "okay-lang", "ako-si-juan-answer"],
+  "recall_prev": [],
+  "grammar_pill": {
+    "title": "po, la palabra del respeto",
+    "text": "Añade po a casi cualquier frase con adultos o mayores. Kumusta po. Salamat po. Con niños no hace falta. Y anong es la contracción de ano ang: qué es. Anong pangalan mo, literalmente, qué es el nombre tuyo.",
+    "examples": ["salamat-po", "anong-pangalan-mo"]
+  },
+  "guided": [
+    { "prompt": "Es por la mañana. Saluda con respeto.", "item": "magandang-umaga" },
+    { "prompt": "Pregúntale cómo está.", "item": "kumusta-ka" },
+    { "prompt": "Te contesta que bien. Ahora di quién eres.", "item": "ako-si" },
+    { "prompt": "Pregúntale cómo se llama.", "item": "anong-pangalan-mo" },
+    { "prompt": "Dale las gracias.", "item": "salamat-po" },
+    { "prompt": "Despídete.", "item": "ingat-ka" }
+  ]
+}

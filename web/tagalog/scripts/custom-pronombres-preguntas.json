@@ -1,0 +1,363 @@
+{
+  "title": "Repaso a medida",
+  "subtitle": "8 frases, 5 minutos",
+  "summary_es": "Repaso por anticipación.",
+  "topics": [
+    "Repaso"
+  ],
+  "dialogue": {
+    "tl": [],
+    "es": []
+  },
+  "vocabulary": [
+    {
+      "term": "ako",
+      "es": "yo"
+    },
+    {
+      "term": "ikaw / ka",
+      "es": "tú"
+    },
+    {
+      "term": "ko",
+      "es": "mi / yo (agente)"
+    },
+    {
+      "term": "mo",
+      "es": "tu / tú (agente)"
+    },
+    {
+      "term": "Saan?",
+      "es": "¿Dónde?"
+    },
+    {
+      "term": "Sino?",
+      "es": "¿Quién?"
+    },
+    {
+      "term": "Ano?",
+      "es": "¿Qué? / ¿Cuál?"
+    },
+    {
+      "term": "Magkano po ito?",
+      "es": "¿Cuánto cuesta esto?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso a medida. Solo preguntas. Piensa, di la frase en voz alta, y comprueba.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué? / ¿Cuál?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuánto cuesta esto?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Magkano po ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta esto?",
+      "item": "magkano-po-ito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «mi / yo (agente)».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "mi / yo (agente)",
+      "item": "ko"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «yo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "yo",
+      "item": "ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «tu / tú (agente)».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "tu / tú (agente)",
+      "item": "mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «tú».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ikaw / ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "tú",
+      "item": "ikaw-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «mi / yo (agente)».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "mi / yo (agente)",
+      "item": "ko"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Quién?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sino?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién?",
+      "item": "sino"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuánto cuesta esto?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Magkano po ito?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuánto cuesta esto?",
+      "item": "magkano-po-ito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «tú».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ikaw / ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "tú",
+      "item": "ikaw-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué? / ¿Cuál?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ano?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Qué? / ¿Cuál?",
+      "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «yo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "yo",
+      "item": "ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «tu / tú (agente)»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "tu / tú (agente)",
+      "item": "mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Muy bien. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 5,
+    "minutes_estimated": 2.4,
+    "chars": 551,
+    "cues": 34,
+    "mode": "review",
+    "lesson": null
+  }
+}

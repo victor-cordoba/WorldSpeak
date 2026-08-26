@@ -1,0 +1,34 @@
+{
+  "_doc": "Diálogos de cada lección. lines: role native_m|native_f, tl, es. setting: lo que dice el narrador para situar.",
+  "scenes": {
+    "lesson-01": {
+      "setting": "Estás en una calle de Tondo, a media mañana. Una mujer te saluda desde su puesto de la sari-sari.",
+      "lines": [
+        { "role": "native_f", "tl": "Magandang umaga po! Kumusta?", "es": "¡Buenos días! ¿Qué tal?" },
+        { "role": "native_m", "tl": "Mabuti naman po, salamat. Ako si Víctor.", "es": "Bien, gracias. Soy Víctor." },
+        { "role": "native_f", "tl": "Ako si Ana. Anong pangalan mo?", "es": "Yo soy Ana. ¿Cómo te llamas?" },
+        { "role": "native_m", "tl": "Víctor. Salamat po, Ana. Ingat ka!", "es": "Víctor. Gracias, Ana. ¡Cuídate!" }
+      ]
+    },
+    "lesson-02": {
+      "setting": "Un chico se te acerca en la parroquia. Quiere saber si le entiendes.",
+      "lines": [
+        { "role": "native_m", "tl": "Kumusta po? Marunong ka bang mag-Tagalog?", "es": "¿Qué tal? ¿Sabes hablar Tagalog?" },
+        { "role": "native_f", "tl": "Konti lang. Marunong ka bang mag-Ingles?", "es": "Solo un poco. ¿Sabes hablar inglés?" },
+        { "role": "native_m", "tl": "Hindi po. Hindi ako marunong.", "es": "No. No sé." },
+        { "role": "native_f", "tl": "Sige. Ulitin mo po? Naiintindihan mo ba?", "es": "Vale. ¿Repites, por favor? ¿Me entiendes?" },
+        { "role": "native_m", "tl": "Opo! Konti lang.", "es": "¡Sí! Un poco." }
+      ]
+    },
+    "lesson-03": {
+      "setting": "Sentado con un amigo nuevo en un banco. Habláis de vosotros.",
+      "lines": [
+        { "role": "native_f", "tl": "Ako si Marites. Ikaw?", "es": "Yo soy Marites. ¿Y tú?" },
+        { "role": "native_m", "tl": "Ako si Víctor. Gutom ako!", "es": "Yo soy Víctor. ¡Tengo hambre!" },
+        { "role": "native_f", "tl": "Ako rin! Malapit lang ang bahay ko.", "es": "¡Yo también! Mi casa está aquí cerca." },
+        { "role": "native_m", "tl": "Sino siya?", "es": "¿Quién es ella?" },
+        { "role": "native_f", "tl": "Kaibigan ko. Ikaw din, kaibigan ko na!", "es": "Mi amiga. ¡Tú también, ya eres mi amigo!" }
+      ]
+    }
+  }
+}

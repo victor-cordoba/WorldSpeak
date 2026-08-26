@@ -4,6 +4,17 @@ Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster)
 
 ---
 
+## [Sin publicar] — 2026-08-26 · Tagalog propio: sistema de aprendizaje modular
+
+### Añadido
+- **Plan maestro** `docs/10-plan-tagalog-propio.md`: Nivel 1 = kit de conversación (pronombres, preguntas, entender respuestas, gusto, ba), luego conocer a la persona, niños en la calle, el corazón, día a día. 15 min por lección con modos de 5 y 30.
+- **Contenido modular** en `web/tagalog/content/`: `items.json` (77 ítems Nivel 1), `tables.json` (13 tablas), `pills.json`, `scenes.json`, `recipes/`.
+- **`compile_lesson.py`**: compilador determinista receta → cues. Narrador por plantillas, construcción hacia atrás por sílabas, repaso espaciado, bloque «entender», modo repaso y modo a medida. Sin LLM por lección.
+- `generate_lesson.py` usa el compilador cuando existe receta (y GPT solo si no).
+- L01–L03 compiladas y listas para ElevenLabs (pendiente de revisión humana antes de grabar).
+
+---
+
 ## [20260826-1] — 2026-08-26 · WorldSpeak
 
 La app de Tagalog se convierte en **WorldSpeak**, una plataforma multi-idioma

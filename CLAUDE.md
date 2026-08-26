@@ -68,6 +68,15 @@ Sin `config.php` la API usa SQLite en `web/api/.private/worldspeak.sqlite`
 (así está hoy en producción). Para pasar a MySQL: crear la BD en hPanel y
 `config.php` a partir de `config.example.php`; el esquema se crea solo.
 
+## AL TOCAR CONTENIDO DEL TAGALOG PROPIO
+
+Todo sale de `web/tagalog/content/`: `items.json` (la unidad de todo: audio,
+tablas, frases, lecciones), `scenes.json`, `recipes/`, `tables.json`, `pills.json`.
+El plan y el currículo están en `docs/10-plan-tagalog-propio.md`: léelo antes de
+añadir ítems o lecciones. Ítems nuevos → siempre con `es`, `lit`, `note`, `pill`,
+`lesson`. Los ítems que son respuestas a entender llevan `"answer": true`.
+Niveles 3 y 4 (niños, corazón) se revisan con Víctor antes de grabar.
+
 ## AL GENERAR LECCIONES (ElevenLabs)
 
 ```bash
@@ -77,7 +86,7 @@ python3 generate_lesson.py --course tagalog --lesson 2 --minutes 25 --theme "...
 python3 generate_lesson.py --course tagalog --lesson 2 --minutes 25 --theme "..."             # genera
 ```
 
-Orden: `write_script.py` (GPT escribe el guion Pimsleur) → `synth.py` (ElevenLabs,
+Orden: `compile_lesson.py` (receta de `content/recipes/` → cues, determinista; `write_script.py` con GPT solo si no hay receta) → `synth.py` (ElevenLabs,
 cachea cada clip por hash) → `assemble.py` (ffmpeg + escribe transcripts con
 tiempos EXACTOS, sin Whisper) → `build_dictionary.py`. Siempre `--dry-run`
 primero: el plan actual de ElevenLabs tiene 10.000 caracteres/mes y una lección

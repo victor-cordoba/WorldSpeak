@@ -20,13 +20,17 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--course", required=True)
     parser.add_argument("--lesson", type=int, required=True)
-    parser.add_argument("--minutes", type=int, default=25)
+    parser.add_argument("--minutes", type=int, default=15)
     parser.add_argument("--theme", default="")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force-script", action="store_true")
     args = parser.parse_args()
     base = ["--course", args.course, "--lesson", str(args.lesson)]
-    run("write_script.py", *base, "--minutes", str(args.minutes), "--theme", args.theme, *(["--force"] if args.force_script else []))
+    recipe = HERE.parents[1] / "web" / args.course / "content" / "recipes" / f"lesson-{args.lesson:02d}.json"
+    if recipe.exists():
+        run("compile_lesson.py", *base, "--minutes", str(args.minutes))   # determinista, por plantillas
+    else:
+        run("write_script.py", *base, "--minutes", str(args.minutes), "--theme", args.theme, *(["--force"] if args.force_script else []))
     run("synth.py", *base, *(["--dry-run"] if args.dry_run else []))
     if args.dry_run:
         return
