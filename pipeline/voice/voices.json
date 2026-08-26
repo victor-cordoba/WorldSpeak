@@ -1,15 +1,28 @@
 {
-  "_doc": "Voces elegidas en el casting (26/08). Los roles con fallback saltan a Fish cuando ElevenLabs agota crédito (HTTP 401/402/429).",
+  "_doc": "ElevenLabs (Creator) para todos los roles; Fish solo como respaldo automático. Respaldo completo en voices-fish.json.",
   "model_id": "eleven_v3",
   "output_format": "mp3_44100_128",
   "roles": {
     "narrator": {
-      "provider": "fish",
-      "model": "s2.1-pro-free",
-      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
-      "name": "Narrador Terror (Fish, castellano)",
-      "voice_settings": {},
-      "tempo": 1.06
+      "provider": "elevenlabs",
+      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
+      "name": "Pablo Marshal (ElevenLabs, castellano)",
+      "language_code": "es",
+      "voice_settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.85,
+        "style": 0.25,
+        "use_speaker_boost": true
+      },
+      "tempo": 1.06,
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+        "name": "Narrador Terror (Fish)",
+        "voice_settings": {},
+        "tempo": 1.06
+      }
     },
     "native_m": {
       "provider": "elevenlabs",

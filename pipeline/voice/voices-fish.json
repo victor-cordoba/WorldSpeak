@@ -3,10 +3,41 @@
   "model_id": "s2.1-pro-free",
   "output_format": "mp3",
   "roles": {
-    "narrator": { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "35199d5438854f5d9157c500479ab684", "name": "Narrador v2 (ES, Fish)", "voice_settings": {} },
-    "native_m": { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "92c6c4e5e8fa499e801b99eb7cd5c5b9", "name": "Calm Filipino Voice (Fish)", "voice_settings": {} },
-    "native_f": { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "0663e31efd9c4fd08d7178d1fbe03988", "name": "Young Filipino Speaker (Fish)", "voice_settings": {} },
-    "kid_f":    { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "0663e31efd9c4fd08d7178d1fbe03988", "name": "Young Filipino Speaker (Fish)", "voice_settings": {} },
-    "kid_m":    { "provider": "fish", "model": "s2.1-pro-free", "voice_id": "a3df75244b0e43b0a2344a0fecee8a57", "name": "Energetic Filipino Speaker (Fish)", "voice_settings": {} }
+    "narrator": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+      "name": "Narrador Terror (Fish, castellano)",
+      "voice_settings": {},
+      "tempo": 1.06
+    },
+    "native_m": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "701712d9d2194ebd8c0ea782907ceb38",
+      "name": "MTRCB Tagalog (Fish)",
+      "voice_settings": {}
+    },
+    "native_f": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "9f941329424241178c7dc0ad6c3b9318",
+      "name": "GMA Sponsor Bumper (Fish)",
+      "voice_settings": {}
+    },
+    "kid_m": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "701712d9d2194ebd8c0ea782907ceb38",
+      "name": "MTRCB Tagalog (Fish)",
+      "voice_settings": {}
+    },
+    "kid_f": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "9f941329424241178c7dc0ad6c3b9318",
+      "name": "GMA Sponsor Bumper (Fish)",
+      "voice_settings": {}
+    }
   }
 }
