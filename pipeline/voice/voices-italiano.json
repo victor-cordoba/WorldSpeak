@@ -1,114 +1,55 @@
 {
-  "_doc": "Italiano: narrador Pablo Marshal (multilingual_v2, es); nativos romanos de la biblioteca (Valerio y Nora, acento romanesco). Alternativas: Marcello, Elettra.",
+  "_doc": "Italiano: todo con Fish Audio s2.1-pro-free (gratis). Narrador Terror x1.28 (castellano), Narratore Calmo (hombre), Voce Giovanile Italiana (mujer). Cuando haya crédito ElevenLabs: Valerio/Nora/Pablo Marshal (ids en _alternativas).",
   "model_id": "eleven_v3",
   "output_format": "mp3_44100_128",
   "roles": {
     "narrator": {
-      "provider": "elevenlabs",
-      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
-      "name": "Pablo Marshal (ElevenLabs, castellano)",
-      "language_code": "es",
-      "voice_settings": {
-        "stability": 0.5,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+      "name": "Narrador Terror (Fish)",
+      "voice_settings": {},
       "tempo": 1.28,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
-        "name": "Narrador Terror (Fish)",
-        "voice_settings": {},
-        "tempo": 1.28
-      },
-      "clean": false,
-      "model_id": "eleven_multilingual_v2"
+      "clean": false
     },
     "native_m": {
-      "provider": "elevenlabs",
-      "voice_id": "f8NAZK1ciwrVujah7clz",
-      "name": "Valerio – Warm Italian Storyteller (romanesco)",
-      "language_code": "it",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "clean": false,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "130bd00e5d89470bb0352d20b8c4bf8b",
-        "name": "Narratore Calmo (Fish)",
-        "voice_settings": {}
-      }
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "130bd00e5d89470bb0352d20b8c4bf8b",
+      "name": "Narratore Calmo (Fish)",
+      "voice_settings": {},
+      "clean": false
     },
     "native_f": {
-      "provider": "elevenlabs",
-      "voice_id": "zFA34HbdHBvF8WhlSusK",
-      "name": "Nora – Bright Italian Female Narrator (romanesco)",
-      "language_code": "it",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "clean": false,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "1fc7298d92b94174a1dac8c714be9ecc",
-        "name": "Voce Giovanile Italiana (Fish)",
-        "voice_settings": {}
-      }
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "1fc7298d92b94174a1dac8c714be9ecc",
+      "name": "Voce Giovanile Italiana (Fish)",
+      "voice_settings": {},
+      "clean": false
     },
     "kid_m": {
-      "provider": "elevenlabs",
-      "voice_id": "DTGwzA4YLrWB1FAT6Uas",
-      "name": "Lorenzo – Youthful",
-      "language_code": "it",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "clean": false,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "3ad879ce502844e2bd60ac67895e1064",
-        "name": "Giovane Voce Italiana (Fish)",
-        "voice_settings": {}
-      }
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "3ad879ce502844e2bd60ac67895e1064",
+      "name": "Giovane Voce Italiana (Fish)",
+      "voice_settings": {},
+      "clean": false
     },
     "kid_f": {
-      "provider": "elevenlabs",
-      "voice_id": "kavPiGHUq62Aokyp5Tui",
-      "name": "Daniela – Young",
-      "language_code": "it",
-      "voice_settings": {
-        "stability": 0.55,
-        "similarity_boost": 0.85,
-        "style": 0.2,
-        "use_speaker_boost": true
-      },
-      "clean": false,
-      "fallback": {
-        "provider": "fish",
-        "model": "s2.1-pro-free",
-        "voice_id": "1fc7298d92b94174a1dac8c714be9ecc",
-        "name": "Voce Giovanile Italiana (Fish)",
-        "voice_settings": {}
-      }
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "1fc7298d92b94174a1dac8c714be9ecc",
+      "name": "Voce Giovanile Italiana (Fish)",
+      "voice_settings": {},
+      "clean": false
     }
   },
   "_alternativas": {
     "native_m": "ts9siqBZkKbGEMralWeB Marcello",
-    "native_f": "G0q9AYE8QsarSbMtaIEu Elettra"
+    "native_f": "G0q9AYE8QsarSbMtaIEu Elettra",
+    "elevenlabs_native_m": "f8NAZK1ciwrVujah7clz Valerio",
+    "elevenlabs_native_f": "zFA34HbdHBvF8WhlSusK Nora",
+    "elevenlabs_narrator": "OhisAd2u8Q6qSA4xXAAT Pablo Marshal"
   }
 }
