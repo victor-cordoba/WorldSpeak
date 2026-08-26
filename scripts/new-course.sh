@@ -10,13 +10,15 @@ for f in index.html player.html manifest.webmanifest .htaccess favicon.svg socia
 cp "$ROOT/web/tagalog/content/pills.json" "$D/content/pills.json"
 python3 - "$ID" "$NAME" "$CODE" "$FLAG" "$SUB" "$D" <<'PY'
 import json,sys,re
-ID,NAME,CODE,FLAG,SUB,D=sys.argv[1:7]
+ID,NAME,CODE,FLAG,SUB,D=sys.argv[1:7]; FLAG_CODE=FLAG
 for f in ['index.html','player.html','manifest.webmanifest']:
     s=open(f'{D}/{f}').read()
     s=s.replace('Tagalog para Tondo · WorldSpeak',f'{NAME} · WorldSpeak').replace('Escuchar · Tagalog · WorldSpeak',f'Escuchar · {NAME} · WorldSpeak').replace('Tagalog · WorldSpeak',f'{NAME} · WorldSpeak')
     s=s.replace('worldspeak.es/tagalog/',f'worldspeak.es/{ID}/').replace('data-course="tagalog"',f'data-course="{ID}"')
     s=s.replace('<strong id="courseTitle">Tagalog</strong><em id="courseSub">para Tondo · WorldSpeak</em>',f'<strong id="courseTitle">{NAME}</strong><em id="courseSub">{SUB} · WorldSpeak</em>')
     s=s.replace('"short_name": "Tagalog"',f'"short_name": "{NAME}"').replace("Buscar en Tagalog o español…",f"Buscar en {NAME} o español…").replace("en voz alta en Tagalog",f"en voz alta en {NAME}")
+    FLAG={'ph':'🇵🇭','it':'🇮🇹','pt':'🇵🇹','gb':'🇬🇧','fr':'🇫🇷','es':'🇪🇸','de':'🇩🇪'}
+    s=s.replace('<span class="top-flag" aria-hidden="true">🇵🇭</span>',f'<span class="top-flag" aria-hidden="true">{FLAG.get(FLAG_CODE,"🌍")}</span>').replace('<h3>Tagalog</h3>',f'<h3>{NAME}</h3>').replace('<span class="legend-pill legend-tl">Tagalog</span>',f'<span class="legend-pill legend-tl">{NAME}</span>').replace('<h1>¡APRENDE TAGALOG!</h1>',f'<h1>¡APRENDE {NAME.upper()}!</h1>')
     s=re.sub(r'<button class="map-link"[^\n]*\n','',s)
     s=re.sub(r'<a class="voices-link"[^\n]*\n','',s)
     open(f'{D}/{f}','w').write(s)
