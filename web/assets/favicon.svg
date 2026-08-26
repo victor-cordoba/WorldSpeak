@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="WorldSpeak">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1a56d8"/><stop offset="1" stop-color="#0038a8"/>
-    </linearGradient>
-    <clipPath id="globe"><circle cx="232" cy="268" r="150"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e5eff"/><stop offset="1" stop-color="#0a2f9e"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fb4ff"/><stop offset="1" stop-color="#4f86f7"/></linearGradient>
+    <radialGradient id="shine" cx="0.35" cy="0.3" r="0.7"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="0.6" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <clipPath id="g"><circle cx="236" cy="252" r="128"/></clipPath>
   </defs>
-  <!-- bocadillo -->
-  <path d="M96 80h320a56 56 0 0 1 56 56v256a56 56 0 0 1-56 56H214l-86 60 12-60H96a56 56 0 0 1-56-56V136a56 56 0 0 1 56-56z" fill="url(#sky)"/>
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+  <!-- rayos del sol, sutiles -->
+  <g stroke="#fcd116" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round">
+    <line x1="236" y1="60" x2="236" y2="92"/><line x1="236" y1="412" x2="236" y2="444"/>
+    <line x1="44" y1="252" x2="76" y2="252"/><line x1="396" y1="252" x2="428" y2="252"/>
+    <line x1="100" y1="116" x2="123" y2="139"/><line x1="349" y1="365" x2="372" y2="388"/>
+    <line x1="372" y1="116" x2="349" y2="139"/><line x1="123" y1="365" x2="100" y2="388"/>
+  </g>
   <!-- globo -->
-  <circle cx="232" cy="268" r="150" fill="#e6eeff"/>
-  <g clip-path="url(#globe)" fill="#0038a8" opacity="0.92">
-    <!-- continentes estilizados: Asia / Filipinas al centro -->
-    <path d="M110 190c30-30 70-40 110-30 25 6 40 22 60 18 22-4 35-30 60-20v40c-20 10-35 30-60 35-28 6-45-10-70-4-30 8-40 40-70 45-22 4-40-10-45-30-5-22 4-42 15-54z"/>
-    <path d="M300 290c18-8 40-4 52 12 10 14 6 34-6 46-14 14-40 12-54-2-14-14-12-46 8-56z"/>
-    <path d="M150 330c22-6 44 4 54 22 8 16 2 36-12 46-18 12-42 8-54-8-12-18-8-52 12-60z"/>
-    <circle cx="350" cy="230" r="9"/><circle cx="366" cy="252" r="7"/><circle cx="340" cy="262" r="6"/>
+  <circle cx="236" cy="252" r="128" fill="url(#sea)"/>
+  <g clip-path="url(#g)" fill="#0b2f8f">
+    <!-- América -->
+    <path d="M108 160c22-14 48-10 62 8 10 14 4 30 14 42 12 14 6 34-6 48-16 18-30 36-32 60-2 18-18 24-30 12-12-12-6-30-10-46-6-24-24-40-20-66 2-24 8-46 22-58z"/>
+    <!-- Europa + África -->
+    <path d="M214 156c18-10 40-8 56 4 8 6 12 18 24 18 10 0 16 10 10 20-8 12-24 10-30 24-6 14 4 28-2 44-8 22-30 30-38 54-6 18-26 20-34 4-10-20 2-40-4-60-4-16-22-26-20-46 2-22 20-50 38-62z"/>
+    <!-- Asia + Filipinas -->
+    <path d="M300 168c26-14 60-8 76 14 12 16 6 40 14 58 6 14-6 26-20 26-16 0-24 14-40 12-16-2-22-18-34-16-16 2-24-12-18-26 6-14 0-30 6-44 4-10 8-18 16-24z"/>
+    <circle cx="352" cy="286" r="7"/><circle cx="366" cy="304" r="6"/><circle cx="344" cy="306" r="5"/><circle cx="330" cy="326" r="5"/>
   </g>
-  <!-- meridianos suaves -->
-  <g fill="none" stroke="#0038a8" stroke-opacity="0.25" stroke-width="6" clip-path="url(#globe)">
-    <ellipse cx="232" cy="268" rx="70" ry="150"/><ellipse cx="232" cy="268" rx="130" ry="150"/>
-    <line x1="82" y1="268" x2="382" y2="268"/>
-  </g>
-  <!-- sol de la bandera -->
-  <g transform="translate(372 178)">
-    <circle r="46" fill="#fcd116"/>
-    <g fill="#fcd116">
-      <path d="M-6-76h12l-6 22z"/><path d="M-6 76h12l-6-22z"/><path d="M-76-6v12l22-6z"/><path d="M76-6v12l-22-6z"/>
-      <path d="M-58-50l8-8 12 20z" /><path d="M50-58l8 8-20 12z"/><path d="M58 50l-8 8-12-20z"/><path d="M-50 58l-8-8 20-12z"/>
-    </g>
-    <circle r="30" fill="#ce1126" opacity="0.95"/>
-    <circle r="12" fill="#fcd116"/>
+  <circle cx="236" cy="252" r="128" fill="url(#shine)"/>
+  <circle cx="236" cy="252" r="128" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="6"/>
+  <!-- bocadillo de voz -->
+  <g transform="translate(300 300)">
+    <path d="M28 0h96a40 40 0 0 1 40 40v48a40 40 0 0 1-40 40H64l-30 28 6-28h-12A40 40 0 0 1-12 88V40A40 40 0 0 1 28 0z" fill="#fcd116"/>
+    <circle cx="40" cy="64" r="10" fill="#0a2f9e"/><circle cx="76" cy="64" r="10" fill="#0a2f9e"/><circle cx="112" cy="64" r="10" fill="#0a2f9e"/>
   </g>
 </svg>

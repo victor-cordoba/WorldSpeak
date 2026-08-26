@@ -234,14 +234,18 @@ nota del ítem desplegable por segmento.
 ### Fase B · Revisión humana y voces
 - [ ] Víctor revisa `items.json` con alguien de la misión (Tagalog, registro, tacto).
 - [ ] Fijar voces (¿un tercer nativo joven para las escenas con niños?).
-- [ ] Subir plan de ElevenLabs. Generar L01–L08.
+- [ ] Decidir proveedor: probar Fish Audio en Tagalog (doc 11). Generar L01–L08.
 - [ ] Textos del censo y notas de Visaya → ítems y escenas nuevas.
 
 ### Fase C · App del curso (diseño Duolingo) — en marcha 2026-08-26
 - [x] `web/tagalog/index.html` + `assets/course.js` + `assets/course.css`: pestañas Ruta (jeepney por niveles, próxima parada, racha), Frases (tarjetas voltables por pill, búsqueda), Tablas (13 tablas desplegables), A medida (repaso por anticipación en el navegador: español → dilo → comprueba → «me costó / la sabía», guarda las difíciles).
 - [x] El reproductor pasa a `player.html` y acepta `?track=` para enlazar desde la Ruta.
 - [x] `content/curriculum.json` (30 lecciones, 5 niveles) generado desde este plan.
-- [x] Logo SVG de WorldSpeak (globo + bocadillo + sol de la bandera) como favicon y en el hub.
+- [x] Logo SVG v2, icono de app cuadrado (globo con continentes, bocadillo, rayos del sol) como favicon y en el hub.
+- [x] Tipografía Plus Jakarta Sans + Inter en hub y curso; hub con tarjetas nuevas, anillo de progreso y sección «Cursos originales» para el Pimsleur (legacy).
+- [x] Modo solo-reproductor (`player.html` + `player-only.css`): Ruta → Empezar → barra + guía + texto sincronizado, sin hero ni lista, con «‹ Ruta».
+- [x] «Continuar» tipo Netflix en la Ruta (último punto y minuto), botón ⚡ Práctica rápida por lección, guía «Tagalog para Tondo» descargable en Tablas.
+- [x] Voces jóvenes añadidas: Bea (niña) y Donnel (chico), roles `kid_f` / `kid_m`.
 - [ ] Botón ▶ en cada tarjeta cuando existan los clips (manifest `_clips` → ítem).
 - [ ] Repetir frase y nota por segmento en el player.
 - [ ] PDF de las tablas con estilo propio (hoy: hoja de impresión del navegador).

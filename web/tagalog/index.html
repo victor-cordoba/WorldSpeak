@@ -6,12 +6,12 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <meta name="theme-color" content="#0038a8">
   <title>Tagalog · WorldSpeak</title>
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260826-2">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260826-6">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="../assets/course.css?v=20260826-3">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../assets/course.css?v=20260826-6">
 </head>
 <body>
   <header class="top">
@@ -30,10 +30,10 @@
     <!-- RUTA -->
     <section id="tab-ruta" class="tab is-active" aria-labelledby="nav-ruta">
       <div class="hero-card">
-        <p class="eyebrow">Tu próxima parada</p>
+        <p class="eyebrow" id="nextEyebrow">Tu próxima parada</p>
         <h1 id="nextTitle">Hola, ¿cómo estás?</h1>
         <p id="nextMeta" class="hero-meta">Lección 1 · Nivel 1 · 15 min</p>
-        <a id="nextLink" class="btn btn-gold btn-big" href="./player.html">▶ Empezar</a>
+        <div class="hero-actions"><a id="nextLink" class="btn btn-gold btn-big" href="./player.html">▶ Empezar</a><button id="nextPractice" class="btn btn-ghost-light" type="button">⚡ Práctica rápida</button></div>
       </div>
       <div id="route" class="route" aria-label="Ruta de lecciones"></div>
     </section>
@@ -54,7 +54,7 @@
       <div class="section-head">
         <h2>Tablas</h2>
         <p>La gramática en 13 tablas. Para mirar rápido antes de hablar.</p>
-        <button id="printTables" class="btn btn-ghost" type="button">Descargar PDF</button>
+        <div class="btn-row"><a class="btn btn-blue" href="./docs/tagalog-para-tondo.pdf" download>📄 Guía «Tagalog para Tondo» (PDF)</a><button id="printTables" class="btn btn-ghost" type="button">Imprimir las tablas</button></div>
       </div>
       <div id="tables" class="tables"></div>
     </section>
@@ -102,6 +102,6 @@
     <button id="nav-medida" class="nav-btn" data-tab="medida" type="button"><span>🎯</span>A medida</button>
   </nav>
 
-  <script src="../assets/course.js?v=20260826-3"></script>
+  <script src="../assets/course.js?v=20260826-6"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@ const apiEndpoint = './api/index.php';
 const sessionKey = 'ws:session';
 
 const courseList = document.querySelector('#courseList');
+const legacyList = document.querySelector('#legacyList');
 const hubCourses = document.querySelector('#hubCourses');
 const hubDone = document.querySelector('#hubDone');
 const hubTime = document.querySelector('#hubTime');
@@ -75,37 +76,49 @@ function flag(code) {
   return flags[code] || '🌍';
 }
 
+function ring(pct) {
+  const r = 22, c = 2 * Math.PI * r;
+  return `<svg class="ring" viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="${r}"/><circle class="ring-fg" cx="28" cy="28" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - pct / 100)}"/><text x="28" y="32" text-anchor="middle">${pct}%</text></svg>`;
+}
 function renderCourses() {
-  courseList.innerHTML = '';
-  let totalDone = 0;
-  let totalSeconds = 0;
-  let active = 0;
+  courseList.innerHTML = ''; legacyList.innerHTML = '';
+  let totalDone = 0, totalSeconds = 0, active = 0;
   courses.forEach((course) => {
+    if (course.legacy) { renderLegacy(course); const pr = progressFor(course.id); if (pr) { totalDone += pr.doneCount; totalSeconds += pr.totalSeconds; if (pr.doneCount || pr.totalSeconds) active += 1; } return; }
     const progress = progressFor(course.id);
     const isLive = course.status === 'live';
     const card = document.createElement(isLive ? 'a' : 'article');
-    card.className = `course-card ${isLive ? '' : 'is-soon'} ${progress?.doneCount ? 'has-progress' : ''}`;
+    card.className = `course ${isLive ? '' : 'is-soon'} ${progress?.doneCount || progress?.totalSeconds ? 'has-progress' : ''}`;
     if (isLive) card.href = course.path;
     const pct = progress && course.tracks ? Math.min(100, Math.round((progress.doneCount / course.tracks) * 100)) : 0;
-    const meta = progress
-      ? `${progress.doneCount} de ${course.tracks} hechas · ${formatStudyTime(progress.totalSeconds)}`
-      : (isLive ? `${course.tracks} audios · ${course.hours} h` : 'Próximamente');
+    const started = progress && (progress.doneCount || progress.totalSeconds || progress.lastTrack);
+    const meta = !isLive ? 'En preparación' : started ? `${progress.doneCount} de ${course.tracks} lecciones · ${formatStudyTime(progress.totalSeconds)}` : `${course.tracks} lecciones · ${course.hours} h de audio`;
+    const cta = !isLive ? 'Pronto' : started ? 'Continuar' : 'Empezar';
     card.innerHTML = `
-      <span class="course-flag" aria-hidden="true">${flag(course.language?.flag)}</span>
-      <span class="course-copy">
-        <strong>${course.title}</strong>
-        <em>${course.subtitle || ''}</em>
+      <div class="course-band"><span class="course-flag">${flag(course.language?.flag)}</span></div>
+      <div class="course-body">
+        <div class="course-head"><h3>${course.title}</h3><span class="course-chip">${course.subtitle || ''}</span></div>
         <p>${course.description || ''}</p>
-        <span class="course-meta">${meta}</span>
-        <span class="course-bar" aria-hidden="true"><span style="width:${pct}%"></span></span>
-      </span>
-      <span class="course-cta" aria-hidden="true">${isLive ? (progress?.lastTrack ? 'Continuar' : 'Empezar') : 'Pronto'}</span>`;
+        <div class="course-foot">
+          ${isLive ? ring(pct) : '<span class="ring ring-soon">…</span>'}
+          <span class="course-meta">${meta}</span>
+          <span class="course-cta">${cta} <i>→</i></span>
+        </div>
+      </div>`;
     courseList.appendChild(card);
     if (progress) { totalDone += progress.doneCount; totalSeconds += progress.totalSeconds; if (progress.doneCount || progress.totalSeconds) active += 1; }
   });
   hubCourses.textContent = String(active);
   hubDone.textContent = String(totalDone);
   hubTime.textContent = formatStudyTime(totalSeconds);
+}
+
+function renderLegacy(course) {
+  const progress = progressFor(course.id);
+  const started = progress && (progress.doneCount || progress.totalSeconds || progress.lastTrack);
+  const row = document.createElement('a'); row.className = 'legacy-row'; row.href = course.path;
+  row.innerHTML = `<span class="legacy-flag">${flag(course.language?.flag)}</span><span class="legacy-copy"><strong>${course.title}</strong><em>${course.subtitle}</em>${started ? `<small>${progress.doneCount} de ${course.tracks} · ${formatStudyTime(progress.totalSeconds)}</small>` : ''}</span><span class="legacy-cta">${started ? 'Continuar' : 'Abrir'} →</span>`;
+  legacyList.appendChild(row);
 }
 
 function updateAccountUi() {

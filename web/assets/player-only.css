@@ -1,0 +1,10 @@
+/* Modo solo-reproductor (cursos propios): sin hero ni lista. Barra fija + texto sincronizado, como siempre. */
+.player-only { font-family: Inter, system-ui, sans-serif; }
+.player-only .hero, .player-only .dictionary-access, .player-only .tools, .player-only .site-footer, .player-only #lessonList { display: none !important; }
+.player-only h1, .player-only h2, .player-only h3 { font-family: "Plus Jakarta Sans", Inter, sans-serif; letter-spacing: -0.02em; }
+.player-only .shell { padding-top: 10px; }
+.player-only .study-topbar { margin-bottom: 18px; }
+.player-only .hub-link-mark { font-size: 22px; padding-bottom: 3px; }
+/* Fondo de la página cuando solo hay barra: una pista de qué hacer */
+.player-only .shell::after { content: "Dale al play. El texto se abre solo y sigue el audio."; display: block; margin: 40px auto 0; max-width: 32ch; text-align: center; color: var(--muted); font-size: 15px; }
+.player-only.transcript-focus-mode .shell::after, .player-only .shell.has-transcript::after { display: none; }

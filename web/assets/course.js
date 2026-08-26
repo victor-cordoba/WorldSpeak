@@ -46,17 +46,25 @@ function renderRoute() {
       el.className = `stop ${isDone ? 'is-done' : ''} ${isNext ? 'is-next' : ''} ${!live ? 'is-soon' : ''}`;
       el.dataset.num = String(l.lesson);
       if (live) el.href = `./player.html?track=${l.id}`;
-      el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-cta">${isDone ? 'Repetir' : isNext ? 'Empezar' : live ? 'Escuchar' : 'Pronto'}</span>`;
+      const hasItems = items.some((i) => i.lesson === l.lesson);
+      el.innerHTML = `<div><strong>${l.title}</strong><em>${l.items.slice(0, 3).join(' · ')}</em></div><span class="stop-actions">${hasItems ? `<button class="stop-practice" type="button" title="Práctica rápida de esta lección" aria-label="Práctica rápida" data-practice="${l.lesson}">⚡</button>` : ''}<span class="stop-cta">${isDone ? 'Repetir' : isNext ? 'Empezar' : live ? 'Escuchar' : 'Pronto'}</span></span>`;
+      el.querySelector('[data-practice]')?.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); practiceLesson(l.lesson); });
       wrap.appendChild(el);
     });
     route.appendChild(wrap);
   });
-  const target = next || curriculum.lessons[0];
+  // Netflix: si hay un último punto, se continúa ahí
+  const last = p.lastPlayed && curriculum.lessons.find((l) => l.id === p.lastPlayed.id);
+  const target = (last && !done.has(last.id) && last) || next || curriculum.lessons[0];
+  const resume = last && target === last && p.lastPlayed.position > 20;
+  const mm = (sec) => `${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, '0')}`;
+  $('#nextEyebrow').textContent = resume ? 'Sigues donde lo dejaste' : 'Tu próxima parada';
   $('#nextTitle').textContent = target.title;
-  $('#nextMeta').textContent = `Lección ${target.lesson} · Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
+  $('#nextMeta').textContent = resume ? `Lección ${target.lesson} · en el minuto ${mm(p.lastPlayed.position)}` : `Lección ${target.lesson} · Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
   $('#nextLink').href = hasAudio.has(target.id) ? `./player.html?track=${target.id}` : '#frases';
-  $('#nextLink').textContent = hasAudio.has(target.id) ? '▶ Empezar' : '💬 Ver las frases';
+  $('#nextLink').textContent = resume ? '▶ Continuar' : hasAudio.has(target.id) ? '▶ Empezar' : '💬 Ver las frases';
   if (!hasAudio.has(target.id)) $('#nextLink').addEventListener('click', (e) => { e.preventDefault(); showTab('frases'); });
+  $('#nextPractice').onclick = () => practiceLesson(target.lesson);
   $('#statDone').textContent = String(done.size);
   $('#statStreak').textContent = String(streak());
 }
@@ -116,11 +124,19 @@ let deck = [], pos = 0, hard = [];
 function renderCustom() {
   renderPills($('#customPills'), (id, b) => { chosen.has(id) ? chosen.delete(id) : chosen.add(id); b.classList.toggle('is-active', chosen.has(id)); }, true, chosen);
 }
+function practiceLesson(lessonNumber) {
+  const pool = items.filter((i) => i.lesson === lessonNumber);
+  if (!pool.length) { showTab('frases'); return; }
+  showTab('medida');
+  runQuiz(pool, Math.min(pool.length, 12));
+}
 function startQuiz() {
   const pool = items.filter((i) => chosen.has(i.pill));
   if (!pool.length) { alert('Elige al menos un tema.'); return; }
-  const n = Number($('#customCount').value);
-  deck = pool.sort(() => Math.random() - 0.5).slice(0, n); pos = 0; hard = [];
+  runQuiz(pool, Number($('#customCount').value));
+}
+function runQuiz(pool, n) {
+  deck = [...pool].sort(() => Math.random() - 0.5).slice(0, n); pos = 0; hard = [];
   $('#quiz').hidden = false; $('#quizDone').hidden = true; showCard();
   $('#quiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }

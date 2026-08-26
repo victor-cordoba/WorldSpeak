@@ -16,6 +16,9 @@ Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster)
 - **Logo** SVG de WorldSpeak (globo, bocadillo y sol de la bandera): favicon en todo el sitio, hero del hub y cabecera del README con botón «Probar la app».
 - El reproductor del curso propio vive en `player.html` y acepta `?track=`.
 
+- **Rediseño**: logo v2 tipo icono de app, Plus Jakarta Sans + Inter, hub con tarjetas nuevas (banda, bandera, anillo de progreso) y «Cursos originales» abajo para el Pimsleur. En el curso: «Continuar» tipo Netflix, ⚡ práctica rápida por lección, modo solo-reproductor al pulsar Empezar, guía PDF descargable.
+- Voces jóvenes filipinas (Bea, Donnel) en `voices.json`. Comparativa de proveedores de voz en `docs/11-voces-proveedores.md` (Fish Audio: 15 $/M, clonado con 5 s, Tagalog sí).
+
 ### Corregido
 - `safeJson` devolvía `null` para `"null"` y tumbaba el render del curso.
 

@@ -1704,9 +1704,16 @@ updatePinDots();
 setPlayerVisible(false);
 selectTrack(currentId, false, {
   showPlayer: Boolean(urlTrack),
+  openTranscript: Boolean(urlTrack) && document.body.classList.contains('player-only'),
   openTranscript: false,
   rememberSelection: false,
   persistPrevious: false
 });
-loadTranscriptIndex();
+loadTranscriptIndex().then(() => {
+  if (urlTrack && document.body.classList.contains('player-only')) {
+    transcriptOpen = true;
+    renderTranscript(tracks[currentIndex()]);
+    document.querySelector('.shell')?.classList.add('has-transcript');
+  }
+});
 restoreAccountSession();

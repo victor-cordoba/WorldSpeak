@@ -11,9 +11,12 @@
   <meta property="og:title" content="WorldSpeak">
   <meta property="og:description" content="Aprende idiomas escuchando y repitiendo, media hora al día.">
   <meta property="og:image" content="https://victorcordoba.com/worldspeak/tagalog-pimsleur/social-image.png">
-  <link rel="icon" href="./assets/favicon.svg?v=20260826-2" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/player.css?v=20260826-1">
-  <link rel="stylesheet" href="./assets/hub.css?v=20260826-1">
+  <link rel="icon" href="./assets/favicon.svg?v=20260826-6" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="./assets/player.css?v=20260826-6">
+  <link rel="stylesheet" href="./assets/hub.css?v=20260826-6">
 </head>
 <body class="hub-body">
   <main class="shell">
@@ -27,30 +30,29 @@
       </button>
     </header>
 
-    <section class="hero hub-hero">
-      <div>
-        <img class="hub-logo" src="./assets/logo.svg?v=20260826-2" alt="" width="96" height="96">
-        <p class="eyebrow">Escucha y repite</p>
-        <h1>WORLD<span>SPEAK</span></h1>
-        <div class="hero-message">
-          <p class="hero-pill">MEDIA HORA AL DÍA</p>
-          <p class="subhead">Un idioma nuevo de camino al trabajo. Audio, texto sincronizado, traducción y diccionario. Tu progreso te sigue de un dispositivo a otro.</p>
+    <section class="hub-hero2">
+      <div class="hub-brand">
+        <img class="hub-logo" src="./assets/logo.svg?v=20260826-6" alt="" width="72" height="72">
+        <div>
+          <h1>WorldSpeak</h1>
+          <p>Idiomas de oído. Media hora al día, de camino a donde vayas.</p>
         </div>
       </div>
-      <div class="hero-side">
-        <div class="stats hub-stats" aria-label="Tu progreso">
-          <span><strong id="hubCourses">0</strong> idiomas</span>
-          <span><strong id="hubDone">0</strong> hechas</span>
-          <span><strong id="hubTime">0 min</strong> escuchadas</span>
-        </div>
+      <div class="hub-stats2" aria-label="Tu progreso">
+        <div><b id="hubTime">0 min</b><span>escuchados</span></div>
+        <div><b id="hubDone">0</b><span>lecciones</span></div>
+        <div><b id="hubCourses">0</b><span>idiomas</span></div>
       </div>
     </section>
 
     <section aria-label="Idiomas">
-      <div class="section-title">
-        <h2>Idiomas</h2>
-      </div>
+      <div class="section-title"><h2>Tus idiomas</h2><p>Entra, dale al play y sigue donde lo dejaste.</p></div>
       <div id="courseList" class="course-list" aria-live="polite"></div>
+    </section>
+
+    <section class="legacy" aria-label="Cursos originales">
+      <div class="section-title"><h2>Cursos originales</h2><p>Los audios con los que empezó todo. Se conservan tal cual, con tu progreso.</p></div>
+      <div id="legacyList" class="legacy-list"></div>
     </section>
 
     <footer class="site-footer">
@@ -96,6 +98,6 @@
     </section>
   </div>
 
-  <script src="./assets/hub.js?v=20260826-1"></script>
+  <script src="./assets/hub.js?v=20260826-6"></script>
 </body>
 </html>
