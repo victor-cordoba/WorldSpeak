@@ -10,6 +10,7 @@ Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versi�
 
 ### Añadido
 - **Dominio propio `worldspeak.es`** (Hostinger): todo desplegado ahí (código, datos, audio y la base de usuarios). Espejo temporal en `victorcordoba.com/worldspeak` hasta que el DNS resuelva; después redirecciones 301 desde ahí y desde `misioncebu.org/tagalog`.
+- **MySQL en producción** (`u819150567_worldspeak`): esquema autocreado, 8 usuarios y progreso migrados desde SQLite con `migrate_sqlite_to_mysql.php`.
 - **Analítica propia** sin cookies de terceros: `api/track.php` + tabla `ws_events` (visitas, play, fin de lección, marcar hecha, leer texto, repasos, login) y panel `api/stats.php?key=…`.
 - **Nivel 1 completo con Fish Audio (L01–L08)** y producción en marcha de L09–L30 con `scripts/produce-levels.sh` (GPT redacta ítems/escena/receta desde el currículo → compilador → Fish → montaje).
 - **Fondo vivo**: manchas de color de la bandera, desenfocadas, que derivan y se desplazan con el scroll; superficies con efecto cristal.

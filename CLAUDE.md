@@ -9,7 +9,7 @@ Plataforma para aprender idiomas escuchando y repitiendo (método Pimsleur),
 con transcripción sincronizada, traducción al español y diccionario. Un hub
 con varios cursos y una cuenta única cuyo progreso viaja entre dispositivos.
 
-- Producción: `https://victorcordoba.com/worldspeak/` (Hostinger, alias SSH `PERSONAL_SERVER`)
+- Producción: `https://worldspeak.es/` (Hostinger, alias SSH `PERSONAL_SERVER`); espejo temporal en `victorcordoba.com/worldspeak`
 - Repo: `https://github.com/victor-cordoba/WorldSpeak` (remote por alias SSH `github-victor`)
 - Usuario objetivo: hispanohablante estudiando en el móvil, en el bus, para la misión en Filipinas.
 
@@ -64,9 +64,10 @@ CURSO (`ws_progress` PK user+course). El cliente fusiona (`mergeProgress()` en
 player.js), nunca pisa. El id de usuario es `sha256(nombre normalizado)`, igual
 que la v1: no lo cambies o los usuarios migrados pierden la cuenta.
 
-Sin `config.php` la API usa SQLite en `web/api/.private/worldspeak.sqlite`
-(así está hoy en producción). Para pasar a MySQL: crear la BD en hPanel y
-`config.php` a partir de `config.example.php`; el esquema se crea solo.
+Producción usa **MySQL** (Hostinger, `u819150567_worldspeak`) vía `config.php` en el
+servidor (nunca en git). Sin `config.php` la API cae a SQLite (desarrollo). El
+esquema se crea solo. `migrate_sqlite_to_mysql.php` copió los datos el 26/08/2026.
+El sitio vive en `worldspeak.es` (`~/domains/worldspeak.es/public_html/`).
 
 ## AL TOCAR CONTENIDO DEL TAGALOG PROPIO
 

@@ -1,0 +1,1718 @@
+{
+  "title": "¿De qué trabajas?",
+  "subtitle": "Aprender a preguntar y responder sobre ocupaciones.",
+  "summary_es": "Frases para hablar sobre el trabajo.",
+  "topics": [
+    "trabajo",
+    "pregunta",
+    "posesivo",
+    "negación",
+    "sustantivo"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta ka?",
+      "Mabuti naman. Anong trabaho mo?",
+      "Drayber ako. Ikaw?",
+      "Nagtitinda ako sa palengke.",
+      "May negosyo ka ba?",
+      "Walang negosyo, pero may sweldo naman."
+    ],
+    "es": [
+      "¿Cómo estás?",
+      "Bien, gracias. ¿De qué trabajas?",
+      "Soy conductor. ¿Y tú?",
+      "Soy vendedora en el mercado.",
+      "¿Tienes negocio?",
+      "No tengo negocio, pero tengo sueldo."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Anong trabaho mo?",
+      "es": "¿De qué trabajas?"
+    },
+    {
+      "term": "Drayber",
+      "es": "Conductor"
+    },
+    {
+      "term": "Nagtitinda",
+      "es": "Vendedor/a"
+    },
+    {
+      "term": "Walang trabaho",
+      "es": "Sin trabajo"
+    },
+    {
+      "term": "Negosyo",
+      "es": "Negocio"
+    },
+    {
+      "term": "Sweldo",
+      "es": "Sueldo"
+    },
+    {
+      "term": "May trabaho ka ba?",
+      "es": "¿Tienes trabajo?"
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 12. ¿De qué trabajas?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle de Tondo, un voluntario español charla con un residente local sobre su ocupación. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman. Anong trabaho mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias. ¿De qué trabajas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber ako. Ikaw?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy conductor. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda ako sa palengke.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy vendedora en el mercado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May negosyo ka ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes negocio?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang negosyo, pero may sweldo naman.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No tengo negocio, pero tengo sueldo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre ocupaciones. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois en la familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilan kayo sa pamilya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois en la familia?",
+      "item": "ilan-kayo-sa-pamilya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿De qué trabajas?». Literalmente, ¿Qué trabajo tuyo?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "trabaho mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong trabaho mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Útil para conocer a alguien y saber su ocupación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De qué trabajas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿De qué trabajas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Conductor». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ber",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "drayber"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "drayber"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Préstamo del inglés 'driver'.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Conductor»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Conductor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vendedor/a». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "da",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "tinda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "titinda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Persona que vende productos.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vendedor/a»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vendedor/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sin trabajo». Literalmente, No hay trabajo. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ho",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "baho",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "trabaho",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Para indicar desempleo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sin trabajo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sin trabajo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Conductor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Negocio». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "yo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "negosyo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "gosyo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "negosyo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "negosyo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Puede referirse a un negocio propio.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Negocio»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Negocio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sueldo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "do",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sweldo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "sweldo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Préstamo del español 'sueldo'.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sueldo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sueldo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Sin trabajo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes trabajo?». Literalmente, ¿Hay trabajo tú?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "trabaho ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May trabaho ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para saber si alguien está empleado.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes trabajo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes trabajo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Préstamos del español.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Tagalog, hay muchas palabras que son préstamos del español, como 'sweldo' para sueldo. Estas palabras mantienen un significado similar y son fáciles de reconocer para los hispanohablantes.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Conductor».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vendedor/a».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sin trabajo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Negocio».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta a alguien de qué trabaja.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que eres conductor.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De qué trabajas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Conductor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vendedor/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sin trabajo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Negocio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sueldo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Tienes trabajo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mabuti naman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos sois en la familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilan kayo sa pamilya?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos sois en la familia?",
+      "item": "ilan-kayo-sa-pamilya"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿De qué trabajas?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Conductor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Drayber",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Conductor",
+      "item": "drayber"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Vendedor/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nagtitinda",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vendedor/a",
+      "item": "nagtitinda"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sin trabajo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang trabaho",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sin trabajo",
+      "item": "walang-trabaho"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Negocio».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Negosyo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Negocio",
+      "item": "negosyo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sueldo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Sweldo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sueldo",
+      "item": "sweldo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Tienes trabajo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May trabaho ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes trabajo?",
+      "item": "may-trabaho-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman. Anong trabaho mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias. ¿De qué trabajas?",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Drayber ako. Ikaw?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy conductor. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nagtitinda ako sa palengke.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy vendedora en el mercado.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May negosyo ka ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Tienes negocio?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Walang negosyo, pero may sweldo naman.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No tengo negocio, pero tengo sueldo.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 12.7,
+    "chars": 3902,
+    "cues": 183,
+    "mode": "lesson",
+    "lesson": 12
+  }
+}
