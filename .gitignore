@@ -35,3 +35,8 @@ node_modules/
 *.log
 .idea/
 .vscode/
+
+# Datos de usuarios reales exportados del servidor (contienen hashes de PIN)
+_migracion/
+.private/
+elevenlabs_api_key
