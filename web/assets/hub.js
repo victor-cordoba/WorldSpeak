@@ -116,7 +116,7 @@ function renderLegacy(course) {
   const progress = progressFor(course.id);
   const started = progress && (progress.doneCount || progress.totalSeconds || progress.lastTrack);
   const row = document.createElement('a'); row.className = 'legacy-row'; row.href = course.path;
-  row.innerHTML = `<span class="legacy-flag">${flag(course.language?.flag)}</span><span class="legacy-copy"><strong>${course.title}</strong><em>${course.subtitle}</em>${started ? `<small>${progress.doneCount} de ${course.tracks} · ${formatStudyTime(progress.totalSeconds)}</small>` : ''}</span><span class="legacy-cta">${started ? 'Continuar' : 'Abrir'} →</span>`;
+  row.innerHTML = `<span class="legacy-flag">${flag(course.language?.flag)}</span><span class="legacy-copy"><strong>${course.title}</strong>${started ? `<small>${progress.doneCount} de ${course.tracks} · ${formatStudyTime(progress.totalSeconds)}</small>` : ''}</span><span class="legacy-cta">${started ? 'Continuar' : 'Abrir'} →</span>`;
   legacyList.appendChild(row);
 }
 

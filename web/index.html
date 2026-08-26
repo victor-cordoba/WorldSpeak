@@ -13,7 +13,7 @@
   <meta name="apple-mobile-web-app-title" content="WorldSpeak">
   <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg?v=20260826-27">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg?v=20260826-31">
   <link rel="icon" type="image/png" sizes="192x192" href="./assets/icon-192.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WorldSpeak">
@@ -50,7 +50,7 @@
             <span class="sr-only"><strong id="accountLabel">Entrar</strong><em id="accountMeta">Guardar progreso</em></span>
           </button>
         </div>
-        <p>Aprende hablando. Media hora al día, de camino a donde vayas.</p>
+        <p>Aprende hablando. Media hora al día, de camino a donde vayas. <a class="hub-about" href="./about/">¿Cómo funciona?</a></p>
       </div>
       <div class="hub-globe" data-globe aria-hidden="true"></div>
       <div class="hub-stats2" aria-label="Tu progreso">
@@ -66,12 +66,12 @@
     </section>
 
     <section class="legacy" aria-label="Cursos originales">
-      <div class="section-title"><h2>Método Pimsleur</h2><p>El curso original, con tu progreso.</p></div>
+      <div class="section-title"><h2>Método Pimsleur</h2><p>El curso original.</p></div>
       <div id="legacyList" class="legacy-list"></div>
     </section>
 
     <footer class="site-footer">
-      <p>Designed by <a href="https://victorcordoba.com/" target="_blank" rel="noopener">Víctor Córdoba</a> · <a href="https://github.com/victor-cordoba/WorldSpeak" target="_blank" rel="noopener">Código abierto</a></p>
+      <p><a href="./about/">Sobre WorldSpeak y el Método Tondo</a> · Designed by <a href="https://victorcordoba.com/" target="_blank" rel="noopener">Víctor Córdoba</a> · <a href="https://github.com/victor-cordoba/WorldSpeak" target="_blank" rel="noopener">Código abierto</a></p>
     </footer>
   </main>
 
@@ -114,7 +114,7 @@
   </div>
 
   <script>fetch("./assets/globe.svg").then(r=>r.text()).then(t=>{document.querySelectorAll("[data-globe]").forEach(e=>e.innerHTML=t)});</script>
-  <script src="./assets/hub.js?v=20260826-27"></script>
+  <script src="./assets/hub.js?v=20260826-32"></script>
   <script src="./assets/track.js?v=20260826-27" data-api="./api/track.php" data-course="" defer></script>
   <script src="./assets/bg.js?v=20260826-27"></script>
 </body>
