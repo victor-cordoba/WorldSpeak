@@ -29,7 +29,7 @@ def tts_fish(api_key, voice_cfg, text, out_path):
 EXHAUSTED = set()
 
 
-def apply_tempo(path, tempo, clean=True):
+def apply_tempo(path, tempo, clean=False):
     """Post-proceso: velocidad (atempo), limpieza (paso alto, reducción de ruido y eco, recorte de silencios) y normalización."""
     import subprocess, os
     filters = []
@@ -58,7 +58,7 @@ def enhance_text(voice_cfg, cue):
 def tts(api_key, voice_cfg, model_id, output_format, text, out_path):
     if voice_cfg.get("provider") == "fish":
         tts_fish(api_key, voice_cfg, text, out_path)
-        apply_tempo(out_path, voice_cfg.get("tempo"))
+        apply_tempo(out_path, voice_cfg.get("tempo"), voice_cfg.get("clean", False))
         return
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_cfg['voice_id']}?output_format={output_format}"
     body = {"text": text, "model_id": model_id, "voice_settings": voice_cfg["voice_settings"]}
@@ -76,7 +76,7 @@ def tts(api_key, voice_cfg, model_id, output_format, text, out_path):
                 time.sleep(3 * (attempt + 1))
                 continue
             raise RuntimeError(f"ElevenLabs HTTP {error.code}: {detail}") from error
-    apply_tempo(out_path, voice_cfg.get("tempo"))
+    apply_tempo(out_path, voice_cfg.get("tempo"), voice_cfg.get("clean", False))
 
 
 def main():
@@ -108,7 +108,7 @@ def main():
             voice = voice["fallback"]
         model = voice.get("model", voices["model_id"]) if voice.get("provider") == "fish" else voices["model_id"]
         spoken = enhance_text(voice, cue)
-        key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), spoken, voice.get("tempo", 1), "clean2")
+        key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), spoken, voice.get("tempo", 1), "clean2" if voice.get("clean") else "raw")
         cue[args.clip_key] = f"_clips/{key}.mp3"
         path = clips_dir / f"{key}.mp3"
         if path.exists() and path.stat().st_size > 1000:
