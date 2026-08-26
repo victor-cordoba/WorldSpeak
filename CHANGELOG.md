@@ -22,6 +22,11 @@ Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster)
 - Wordmark tipo píldora (bocadillo + WorldSpeak) en hub y README; menú inferior estilo iOS (cristal, iconos SVG, píldora flotante en escritorio, safe-area) y barra superior centrada; pase responsive para móviles estrechos.
 - Fish Audio integrado como proveedor (`voices-fish.json`, `s2.1-pro-free` gratis hasta el 31/08/2026); `synth.py --voices/--clip-key` y `assemble.py --out` para generar versiones alternativas sin tocar el curso.
 
+- **Lección 1 generada con los dos proveedores** y publicadas en la Ruta (sección «Pruebas de voz»): ElevenLabs `eleven_v3` (10,3 min, ~850 caracteres facturados) y Fish Audio `s2.1-pro-free` (10,0 min, 0 créditos). Copias en `../PRUEBAS-VOZ/`.
+- **Página About** (`/worldspeak/about/`): landing con globo SVG animado (rotación continua, parallax por cursor y scroll, chinchetas flotantes), contadores y reveals al hacer scroll; estilo editorial del brief (Plus Jakarta 800, sin sombras, un acento).
+- `assemble.py --track-id/--kind/--title-suffix` para publicar versiones alternativas de una lección.
+- Carpeta de iCloud renombrada a `09 - ESTUDIOS/WorldSpeak/` (el repo es `WorldSpeak/WorldSpeak/`).
+
 ### Corregido
 - `safeJson` devolvía `null` para `"null"` y tumbaba el render del curso.
 

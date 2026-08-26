@@ -727,6 +727,7 @@ function updateMediaSession(track) {
 function languageLabel(language) {
   return {
     tl: course.language?.name || 'Idioma',
+    en: course.narratorLabel || 'Inglés',
     en: 'Inglés',
     mixed: 'Mixto',
     other: 'Otro'

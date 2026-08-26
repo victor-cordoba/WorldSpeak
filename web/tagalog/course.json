@@ -1,6 +1,6 @@
 {
   "id": "tagalog",
-  "version": "20260826-6",
+  "version": "20260826-10",
   "title": "Tagalog · WorldSpeak",
   "shortTitle": "Tagalog",
   "language": {
@@ -29,9 +29,21 @@
       "title": "Lección 01",
       "file": "Lesson 01 Main.mp3",
       "copy": {
-        "title": "Saludando y presentándote",
-        "subtitle": "Aprende a saludar y presentarte en Tagalog"
+        "title": "Hola, ¿cómo estás? ¿Cómo te llamas? · voces ElevenLabs",
+        "subtitle": "Saludar según la hora, decir tu nombre y preguntar el suyo."
+      }
+    },
+    {
+      "id": "lesson-01-fish",
+      "lesson": 1,
+      "kind": "test",
+      "title": "Lección 01 · voces Fish Audio",
+      "file": "Lesson 01 Fish.mp3",
+      "copy": {
+        "title": "Hola, ¿cómo estás? ¿Cómo te llamas? · voces Fish Audio",
+        "subtitle": "Saludar según la hora, decir tu nombre y preguntar el suyo."
       }
     }
-  ]
+  ],
+  "narratorLabel": "Narrador"
 }

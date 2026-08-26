@@ -11,6 +11,7 @@
 </p>
 
 <p align="center">
+  <a href="https://victorcordoba.com/worldspeak/about/">Sobre WorldSpeak</a> ·
   <a href="https://victorcordoba.com/worldspeak/tagalog/">Tagalog para Tondo</a> ·
   <a href="https://victorcordoba.com/worldspeak/tagalog-pimsleur/">Tagalog Pimsleur</a> ·
   <a href="docs/10-plan-tagalog-propio.md">Plan del curso propio</a> ·

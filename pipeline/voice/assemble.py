@@ -24,6 +24,9 @@ def main():
     parser.add_argument("--intro-pause", type=float, default=0.8)
     parser.add_argument("--clip-key", default="clip")
     parser.add_argument("--out", default=None, help="ruta de salida alternativa; si se da, NO actualiza course.json ni transcripts")
+    parser.add_argument("--track-id", default=None, help="publicar bajo otro id de pista (p. ej. lesson-01-fish) con su propio MP3 y transcripts")
+    parser.add_argument("--title-suffix", default="", help="sufijo para el título de la pista alternativa")
+    parser.add_argument("--kind", default="main")
     args = parser.parse_args()
 
     cdir = course_dir(args.course)
@@ -34,10 +37,11 @@ def main():
     if len(cues) != len(script["cues"]):
         raise SystemExit(f"faltan clips: {len(script['cues']) - len(cues)}. Ejecuta synth.py")
 
-    track_id = f"lesson-{num}-main"
+    track_id = args.track_id or f"lesson-{num}-main"
+    kind = args.kind if args.track_id else "main"
     audio_dir = cdir / "audio"
     audio_dir.mkdir(exist_ok=True)
-    out_mp3 = Path(args.out) if args.out else audio_dir / f"Lesson {num} Main.mp3"
+    out_mp3 = Path(args.out) if args.out else audio_dir / (f"Lesson {num} {args.track_id.split('-')[-1].capitalize()}.mp3" if args.track_id else f"Lesson {num} Main.mp3")
 
     # timeline + lista de concat
     segments = []
@@ -93,7 +97,7 @@ def main():
     tdir = cdir / "transcripts"
     text = "\n".join(s["text"] for s in segments)
     save_json(tdir / "raw" / f"{track_id}.json", {
-        "id": track_id, "lesson": args.lesson, "kind": "main", "title": f"Lección {num}",
+        "id": track_id, "lesson": args.lesson, "kind": kind, "title": f"Lección {num}{args.title_suffix}",
         "model": "worldspeak-script", "segments": [{"start": s["start"], "end": s["end"], "text": s["text"]} for s in segments], "text": text, "partial": False,
     })
     # en el player, los segmentos del narrador (es) se pintan como "explicación"; los nativos como tl
@@ -102,7 +106,7 @@ def main():
         lang = "en" if s["language"] == "es" else "tl"   # el player usa 'en' para la voz del narrador y 'tl' para el idioma objetivo
         enriched_segments.append({**{k: s[k] for k in ("start", "end", "kind", "text", "translation_es", "note_es")}, "language": lang})
     save_json(tdir / "enriched" / f"{track_id}.json", {
-        "id": track_id, "title": f"Lección {num}",
+        "id": track_id, "title": f"Lección {num}{args.title_suffix}",
         "summary_es": script.get("summary_es", ""), "topics": script.get("topics", []),
         "dialogue": script.get("dialogue", {"tl": [], "es": []}),
         "segments": enriched_segments,
@@ -112,8 +116,8 @@ def main():
     # course.json: añadir/actualizar la pista
     course = load_json(cdir / "course.json", {})
     tracks = [tr for tr in course.get("tracks", []) if tr.get("id") != track_id]
-    tracks.append({"id": track_id, "lesson": args.lesson, "kind": "main", "title": f"Lección {num}", "file": out_mp3.name,
-                   "copy": {"title": script.get("title", f"Lección {num}"), "subtitle": script.get("subtitle", "")}})
+    tracks.append({"id": track_id, "lesson": args.lesson, "kind": kind, "title": f"Lección {num}{args.title_suffix}", "file": out_mp3.name,
+                   "copy": {"title": script.get("title", f"Lección {num}") + args.title_suffix, "subtitle": script.get("subtitle", "")}})
     tracks.sort(key=lambda tr: (tr.get("kind") != "main", tr.get("lesson", 0)))
     course["tracks"] = tracks
     save_json(cdir / "course.json", course)
@@ -121,7 +125,7 @@ def main():
     # index.json
     index = load_json(tdir / "index.json", {"tracks": []})
     rows = [r for r in index["tracks"] if r.get("id") != track_id]
-    rows.append({"id": track_id, "lesson": args.lesson, "readingNumber": None, "kind": "main", "title": f"Lección {num}", "subtitle": None,
+    rows.append({"id": track_id, "lesson": args.lesson, "readingNumber": None, "kind": kind, "title": f"Lección {num}{args.title_suffix}", "subtitle": None,
                  "raw": f"transcripts/raw/{track_id}.json", "enriched": f"transcripts/enriched/{track_id}.json",
                  "chars": len(text), "timed": True, "summary": script.get("summary_es", ""), "topics": script.get("topics", [])[:8],
                  "dialogueCount": len(script.get("dialogue", {}).get("tl", []))})

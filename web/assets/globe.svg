@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="ws-globe" aria-hidden="true">
+  <defs>
+    <clipPath id="ws-globe-clip"><circle cx="200" cy="200" r="180"/></clipPath>
+    <radialGradient id="ws-globe-shade" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="#5b8dff"/><stop offset="1" stop-color="#0a2f9e"/></radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="180" fill="url(#ws-globe-shade)"/>
+  <g clip-path="url(#ws-globe-clip)">
+    <g class="ws-globe-land" fill="#dfe8ff" fill-opacity="0.92">
+      <!-- dos copias del mapa para rotación continua -->
+      <g class="ws-globe-map">
+        <path d="M40 120c30-28 70-30 100-10 18 12 10 38 24 52 14 12 4 34-10 44-20 14-30 40-34 66-2 16-22 18-30 4-12-22 0-44-8-66-6-18-28-30-24-56 2-14 8-26 22-34z"/>
+        <path d="M190 110c26-12 58-6 76 14 8 10 26 12 30 26 4 14-12 22-20 34-10 16 0 36-12 50-14 16-36 10-44 28-8 18-32 14-36-4-6-22 8-40 0-62-6-14-24-24-20-44 2-20 12-36 26-42z"/>
+        <path d="M300 130c30-10 62 6 70 34 6 20-8 38 4 56 8 12-4 26-18 26-16 0-28 12-42 8-14-4-16-20-30-20-16 0-22-16-14-30 6-12 2-28 10-40 6-14 10-28 20-34z"/>
+        <circle cx="352" cy="262" r="6"/><circle cx="366" cy="278" r="5"/><circle cx="344" cy="284" r="4"/>
+      </g>
+      <g class="ws-globe-map" transform="translate(400 0)">
+        <path d="M40 120c30-28 70-30 100-10 18 12 10 38 24 52 14 12 4 34-10 44-20 14-30 40-34 66-2 16-22 18-30 4-12-22 0-44-8-66-6-18-28-30-24-56 2-14 8-26 22-34z"/>
+        <path d="M190 110c26-12 58-6 76 14 8 10 26 12 30 26 4 14-12 22-20 34-10 16 0 36-12 50-14 16-36 10-44 28-8 18-32 14-36-4-6-22 8-40 0-62-6-14-24-24-20-44 2-20 12-36 26-42z"/>
+        <path d="M300 130c30-10 62 6 70 34 6 20-8 38 4 56 8 12-4 26-18 26-16 0-28 12-42 8-14-4-16-20-30-20-16 0-22-16-14-30 6-12 2-28 10-40 6-14 10-28 20-34z"/>
+        <circle cx="352" cy="262" r="6"/><circle cx="366" cy="278" r="5"/><circle cx="344" cy="284" r="4"/>
+      </g>
+    </g>
+    <g fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="2">
+      <ellipse cx="200" cy="200" rx="60" ry="180"/><ellipse cx="200" cy="200" rx="130" ry="180"/>
+      <line x1="20" y1="200" x2="380" y2="200"/><line x1="40" y1="120" x2="360" y2="120"/><line x1="40" y1="280" x2="360" y2="280"/>
+    </g>
+  </g>
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="140" cy="120" r="70" fill="#fff" fill-opacity="0.12"/>
+</svg>

@@ -53,6 +53,13 @@ function renderRoute() {
     });
     route.appendChild(wrap);
   });
+  const tests = (course.tracks || []).filter((t) => t.kind === 'test');
+  if (tests.length) {
+    const wrap = document.createElement('div'); wrap.className = 'level';
+    wrap.innerHTML = `<div class="level-head"><span class="level-icon">🎙️</span><div><h2>Pruebas de voz</h2><p>Misma lección, distinto proveedor. Compara y elige.</p></div></div>`;
+    tests.forEach((t) => { const el = document.createElement('a'); el.className = 'stop'; el.dataset.num = '🎙'; el.href = `./player.html?track=${t.id}`; el.innerHTML = `<div><strong>${t.copy?.title || t.title}</strong><em>${t.copy?.subtitle || ''}</em></div><span class="stop-cta">Escuchar</span>`; wrap.appendChild(el); });
+    route.appendChild(wrap);
+  }
   // Netflix: si hay un último punto, se continúa ahí
   const last = p.lastPlayed && curriculum.lessons.find((l) => l.id === p.lastPlayed.id);
   const target = (last && !done.has(last.id) && last) || next || curriculum.lessons[0];
