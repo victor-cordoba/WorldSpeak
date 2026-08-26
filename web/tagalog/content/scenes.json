@@ -11,8 +11,8 @@
         },
         {
           "role": "native_m",
-          "tl": "Mabuti naman po, salamat. Ako si Víctor.",
-          "es": "Bien, gracias. Soy Víctor."
+          "tl": "Mabuti naman po, salamat. Ako si Javier.",
+          "es": "Bien, gracias. Soy Javier."
         },
         {
           "role": "native_f",
@@ -21,8 +21,8 @@
         },
         {
           "role": "native_m",
-          "tl": "Víctor. Salamat po, Ana. Ingat ka!",
-          "es": "Víctor. Gracias, Ana. ¡Cuídate!"
+          "tl": "Javier. Salamat po, Ana. Ingat ka!",
+          "es": "Javier. Gracias, Ana. ¡Cuídate!"
         }
       ]
     },
@@ -66,8 +66,8 @@
         },
         {
           "role": "native_m",
-          "tl": "Ako si Víctor. Gutom ako!",
-          "es": "Yo soy Víctor. ¡Tengo hambre!"
+          "tl": "Ako si Javier. Gutom ako!",
+          "es": "Yo soy Javier. ¡Tengo hambre!"
         },
         {
           "role": "native_f",
@@ -226,8 +226,8 @@
         },
         {
           "role": "native_m",
-          "tl": "Ako si Víctor. Taga-Espanya kami.",
-          "es": "Soy Víctor. Somos de España."
+          "tl": "Ako si Javier. Taga-Espanya kami.",
+          "es": "Soy Javier. Somos de España."
         },
         {
           "role": "native_f",
@@ -510,7 +510,7 @@
           "es": "¿Dónde dormís?"
         },
         {
-          "role": "kid_f",
+          "role": "native_m",
           "tl": "Sa kalye lang po.",
           "es": "Solo en la calle."
         },
@@ -550,7 +550,7 @@
           "es": "¿Te cuidan?"
         },
         {
-          "role": "kid_m",
+          "role": "native_m",
           "tl": "Opo, inaalagaan ako.",
           "es": "Sí, me cuidan."
         },
@@ -585,7 +585,7 @@
           "es": "¿Estudias?"
         },
         {
-          "role": "kid_f",
+          "role": "native_m",
           "tl": "Opo, nag-aaral ako.",
           "es": "Sí, estudio."
         },
@@ -595,7 +595,7 @@
           "es": "¿Dónde estudias?"
         },
         {
-          "role": "kid_f",
+          "role": "native_m",
           "tl": "Sa Tondo Elementary po.",
           "es": "En la primaria de Tondo."
         },
@@ -638,6 +638,121 @@
           "role": "native_m",
           "tl": "Ingat ka!",
           "es": "¡Cuídate!"
+        }
+      ]
+    },
+    "lesson-20": {
+      "setting": "En una calle de Tondo, un voluntario se encuentra con un grupo de niños que juegan cerca de un carrito de helados.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta kayo?",
+          "es": "¿Cómo estáis?"
+        },
+        {
+          "role": "kid_f",
+          "tl": "Mabuti po!",
+          "es": "¡Bien!"
+        },
+        {
+          "role": "kid_f",
+          "tl": "Gusto mo bang kumain?",
+          "es": "¿Quieres comer?"
+        },
+        {
+          "role": "native_m",
+          "tl": "Opo, gusto ko ng ice cream.",
+          "es": "Sí, quiero helado."
+        },
+        {
+          "role": "native_m",
+          "tl": "Sarap ng ice cream!",
+          "es": "¡Qué rico el helado!"
+        },
+        {
+          "role": "kid_f",
+          "tl": "Busog na ako.",
+          "es": "Ya estoy llena."
+        },
+        {
+          "role": "kid_f",
+          "tl": "Opo, busog na ako.",
+          "es": "Sí, ya estoy lleno."
+        }
+      ]
+    },
+    "lesson-21": {
+      "setting": "En una calle concurrida de Tondo, un voluntario español se encuentra con un niño local.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka?",
+          "es": "¿Cómo estás?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Okay lang.",
+          "es": "Bien, sin más."
+        },
+        {
+          "role": "native_m",
+          "tl": "Masaya ka ba?",
+          "es": "¿Estás feliz?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Opo, masaya ako.",
+          "es": "Sí, estoy feliz."
+        },
+        {
+          "role": "native_m",
+          "tl": "Bakit?",
+          "es": "¿Por qué?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Kasi nandito ka.",
+          "es": "Porque estás aquí."
+        }
+      ]
+    },
+    "lesson-22": {
+      "setting": "En un pequeño parque de Tondo, un voluntario habla con un niño sobre su familia.",
+      "lines": [
+        {
+          "role": "native_m",
+          "tl": "Kumusta ka, iho?",
+          "es": "¿Cómo estás, hijo?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Mabuti naman po.",
+          "es": "Bien, gracias."
+        },
+        {
+          "role": "native_m",
+          "tl": "Mahal ka ba ng nanay mo?",
+          "es": "¿Te quiere tu madre?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Opo, mahal ako ng nanay ko.",
+          "es": "Sí, mi madre me quiere."
+        },
+        {
+          "role": "native_m",
+          "tl": "Mabait ba sila sa iyo?",
+          "es": "¿Son amables contigo?"
+        },
+        {
+          "role": "kid_m",
+          "tl": "Opo, mabait sila sa akin.",
+          "es": "Sí, son amables conmigo."
+        },
+        {
+          "role": "native_m",
+          "tl": "Mahal kita, iho.",
+          "es": "Te quiero, hijo."
         }
       ]
     }

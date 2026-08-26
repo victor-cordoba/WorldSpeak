@@ -103,10 +103,10 @@
     },
     {
       "id": "ako-si",
-      "tl": "Ako si Víctor.",
-      "es": "Soy Víctor. / Me llamo Víctor.",
-      "lit": "yo [si] Víctor",
-      "note": "si va siempre delante de un nombre de persona. Cambia Víctor por tu nombre.",
+      "tl": "Ako si Javier.",
+      "es": "Soy Javier. / Me llamo Javier.",
+      "lit": "yo [si] Javier",
+      "note": "si va siempre delante de un nombre de persona. Cambia Javier por tu nombre.",
       "pill": "presentarse",
       "tags": [
         "pronombre",
@@ -287,7 +287,7 @@
       "tl": "ako",
       "es": "yo",
       "lit": "",
-      "note": "El sujeto. Ako si Víctor. Gutom ako = tengo hambre (hambriento yo).",
+      "note": "El sujeto. Ako si Javier. Gutom ako = tengo hambre (hambriento yo).",
       "pill": "preguntar",
       "tags": [
         "pronombre"
@@ -2050,6 +2050,316 @@
       ],
       "answer": true,
       "lesson": 19
+    },
+    {
+      "id": "gusto-mo-bang-kumain",
+      "tl": "Gusto mo bang kumain?",
+      "es": "¿Quieres comer?",
+      "lit": "",
+      "note": "Usa 'bang' para preguntar si alguien quiere hacer algo.",
+      "pill": "comida",
+      "tags": [
+        "pregunta",
+        "gusto"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "gusto-mo-ng-ice-cream",
+      "tl": "Gusto mo ng ice cream?",
+      "es": "¿Quieres helado?",
+      "lit": "",
+      "note": "Usa 'ng' para especificar lo que se desea.",
+      "pill": "comida",
+      "tags": [
+        "pregunta",
+        "gusto"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "busog-na-ako",
+      "tl": "Busog na ako.",
+      "es": "Ya estoy lleno.",
+      "lit": "",
+      "note": "Se usa para indicar que uno ya ha comido suficiente.",
+      "pill": "comida",
+      "tags": [
+        "estado",
+        "na"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "tubig-po",
+      "tl": "Tubig po.",
+      "es": "Agua, por favor.",
+      "lit": "",
+      "note": "Añade 'po' para cortesía.",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "kanin-po",
+      "tl": "Kanin po.",
+      "es": "Arroz, por favor.",
+      "lit": "",
+      "note": "Usa 'po' para ser cortés.",
+      "pill": "comida",
+      "tags": [
+        "cortesía"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "sarap-ng-ice-cream",
+      "tl": "Sarap ng ice cream!",
+      "es": "¡Qué rico el helado!",
+      "lit": "",
+      "note": "Expresión de disfrute al comer.",
+      "pill": "comida",
+      "tags": [
+        "exclamación"
+      ],
+      "lesson": 20
+    },
+    {
+      "id": "opo-gusto-ko-ng-ice-cream-answer",
+      "tl": "Opo, gusto ko ng ice cream.",
+      "es": "Sí, quiero helado.",
+      "lit": "",
+      "note": "Respuesta afirmativa con cortesía.",
+      "pill": "comida",
+      "tags": [
+        "respuesta",
+        "cortesía"
+      ],
+      "answer": true,
+      "lesson": 20
+    },
+    {
+      "id": "opo-busog-na-ako-answer",
+      "tl": "Opo, busog na ako.",
+      "es": "Sí, ya estoy lleno.",
+      "lit": "",
+      "note": "Respuesta afirmativa para indicar saciedad.",
+      "pill": "comida",
+      "tags": [
+        "respuesta",
+        "cortesía"
+      ],
+      "answer": true,
+      "lesson": 20
+    },
+    {
+      "id": "masaya-ka-ba",
+      "tl": "Masaya ka ba?",
+      "es": "¿Estás feliz?",
+      "lit": "",
+      "note": "Una forma amable de preguntar por el estado emocional de alguien.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "malungkot-ka-ba",
+      "tl": "Malungkot ka ba?",
+      "es": "¿Estás triste?",
+      "lit": "",
+      "note": "Pregunta directa sobre el estado emocional, útil para mostrar interés.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "bakit-2",
+      "tl": "Bakit?",
+      "es": "¿Por qué?",
+      "lit": "",
+      "note": "Útil para pedir una explicación o razón.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "takot-ka-ba",
+      "tl": "Takot ka ba?",
+      "es": "¿Tienes miedo?",
+      "lit": "",
+      "note": "Pregunta para entender si alguien está asustado.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "pagod-ka-ba",
+      "tl": "Pagod ka ba?",
+      "es": "¿Estás cansado?",
+      "lit": "",
+      "note": "Pregunta común para saber si alguien necesita descanso.",
+      "pill": "salud",
+      "tags": [
+        "pregunta"
+      ],
+      "lesson": 21
+    },
+    {
+      "id": "opo-masaya-ako-answer",
+      "tl": "Opo, masaya ako.",
+      "es": "Sí, estoy feliz.",
+      "lit": "",
+      "note": "Respuesta afirmativa con respeto.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 21
+    },
+    {
+      "id": "hindi-malungkot-ako-answer",
+      "tl": "Hindi, malungkot ako.",
+      "es": "No, estoy triste.",
+      "lit": "",
+      "note": "Respuesta negativa sobre el estado emocional.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 21
+    },
+    {
+      "id": "opo-takot-ako-answer",
+      "tl": "Opo, takot ako.",
+      "es": "Sí, tengo miedo.",
+      "lit": "",
+      "note": "Respuesta afirmativa con respeto.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta"
+      ],
+      "answer": true,
+      "lesson": 21
+    },
+    {
+      "id": "mahal-ka-ba-ng-nanay-mo",
+      "tl": "Mahal ka ba ng nanay mo?",
+      "es": "¿Te quiere tu madre?",
+      "lit": "Amado tú por madre tu",
+      "note": "Para preguntar por el cariño de la madre.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "ng-agente"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "mahal-mo-ba-sila",
+      "tl": "Mahal mo ba sila?",
+      "es": "¿Los quieres?",
+      "lit": "Amado tú ellos",
+      "note": "Para preguntar si siente cariño por otros.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "ng-agente"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "mahal-kita",
+      "tl": "Mahal kita.",
+      "es": "Te quiero.",
+      "lit": "Amado tú",
+      "note": "Expresión directa de cariño.",
+      "pill": "corazon",
+      "tags": [
+        "afirmación",
+        "ng-agente"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "mabait-ba-sila-sa-iyo",
+      "tl": "Mabait ba sila sa iyo?",
+      "es": "¿Son amables contigo?",
+      "lit": "Amable ellos a ti",
+      "note": "Para preguntar sobre el trato recibido.",
+      "pill": "corazon",
+      "tags": [
+        "pregunta",
+        "ng-agente"
+      ],
+      "lesson": 22
+    },
+    {
+      "id": "opo-mahal-ako-ng-nanay-ko-answer",
+      "tl": "Opo, mahal ako ng nanay ko.",
+      "es": "Sí, mi madre me quiere.",
+      "lit": "Sí, amado yo por madre mía",
+      "note": "Respuesta afirmativa sobre el cariño de la madre.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta",
+        "ng-agente"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "hindi-mahal-ako-ng-nanay-ko-answer",
+      "tl": "Hindi, mahal ako ng nanay ko.",
+      "es": "No, mi madre me quiere.",
+      "lit": "No, amado yo por madre mía",
+      "note": "Negación inicial seguida de afirmación.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta",
+        "ng-agente"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "opo-mabait-sila-sa-akin-answer",
+      "tl": "Opo, mabait sila sa akin.",
+      "es": "Sí, son amables conmigo.",
+      "lit": "Sí, amable ellos a mí",
+      "note": "Respuesta afirmativa sobre el trato recibido.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta",
+        "ng-agente"
+      ],
+      "answer": true,
+      "lesson": 22
+    },
+    {
+      "id": "hindi-mabait-sila-sa-akin-answer",
+      "tl": "Hindi, mabait sila sa akin.",
+      "es": "No, son amables conmigo.",
+      "lit": "No, amable ellos a mí",
+      "note": "Negación inicial seguida de afirmación.",
+      "pill": "corazon",
+      "tags": [
+        "respuesta",
+        "ng-agente"
+      ],
+      "answer": true,
+      "lesson": 22
     }
   ]
 }

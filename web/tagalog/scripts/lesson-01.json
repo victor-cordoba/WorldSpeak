@@ -12,15 +12,15 @@
   "dialogue": {
     "tl": [
       "Magandang umaga po! Kumusta?",
-      "Mabuti naman po, salamat. Ako si Víctor.",
+      "Mabuti naman po, salamat. Ako si Javier.",
       "Ako si Ana. Anong pangalan mo?",
-      "Víctor. Salamat po, Ana. Ingat ka!"
+      "Javier. Salamat po, Ana. Ingat ka!"
     ],
     "es": [
       "¡Buenos días! ¿Qué tal?",
-      "Bien, gracias. Soy Víctor.",
+      "Bien, gracias. Soy Javier.",
       "Yo soy Ana. ¿Cómo te llamas?",
-      "Víctor. Gracias, Ana. ¡Cuídate!"
+      "Javier. Gracias, Ana. ¡Cuídate!"
     ]
   },
   "vocabulary": [
@@ -37,8 +37,8 @@
       "es": "Buenos días."
     },
     {
-      "term": "Ako si Víctor.",
-      "es": "Soy Víctor. / Me llamo Víctor."
+      "term": "Ako si Javier.",
+      "es": "Soy Javier. / Me llamo Javier."
     },
     {
       "term": "Anong pangalan mo?",
@@ -61,8 +61,7 @@
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/adaedcb0fcea73fd.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -71,8 +70,7 @@
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/0e12a84541ebca1b.mp3"
+      "item": null
     },
     {
       "role": "native_f",
@@ -81,18 +79,16 @@
       "kind": "dialogue",
       "pause": 0.8,
       "translation_es": "¡Buenos días! ¿Qué tal?",
-      "item": null,
-      "clip": "_clips/a5eb5bcffc01d2c5.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mabuti naman po, salamat. Ako si Víctor.",
+      "text": "Mabuti naman po, salamat. Ako si Javier.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Bien, gracias. Soy Víctor.",
-      "item": null,
-      "clip": "_clips/d7e1c277a75437af.mp3"
+      "translation_es": "Bien, gracias. Soy Javier.",
+      "item": null
     },
     {
       "role": "native_f",
@@ -101,18 +97,16 @@
       "kind": "dialogue",
       "pause": 0.8,
       "translation_es": "Yo soy Ana. ¿Cómo te llamas?",
-      "item": null,
-      "clip": "_clips/a500a484e4909226.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Víctor. Salamat po, Ana. Ingat ka!",
+      "text": "Javier. Salamat po, Ana. Ingat ka!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Víctor. Gracias, Ana. ¡Cuídate!",
-      "item": null,
-      "clip": "_clips/bd7bb8e13af71298.mp3"
+      "translation_es": "Javier. Gracias, Ana. ¡Cuídate!",
+      "item": null
     },
     {
       "role": "narrator",
@@ -121,8 +115,7 @@
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/e85b156566b483c9.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -131,8 +124,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/4aed08bc8fb67385.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -141,8 +133,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/2193d69421b00fc7.mp3"
+      "item": "kumusta"
     },
     {
       "role": "native_m",
@@ -151,8 +142,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "kumusta",
-      "clip": "_clips/8b55f17e17b3ce40.mp3"
+      "item": "kumusta"
     },
     {
       "role": "native_m",
@@ -161,8 +151,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "kumusta",
-      "clip": "_clips/c40fad37e4b64c27.mp3"
+      "item": "kumusta"
     },
     {
       "role": "native_m",
@@ -171,18 +160,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "kumusta",
-      "clip": "_clips/d7e0d2b07274aaa6.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Kumusta?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/92075ac81d65163a.mp3"
+      "item": "kumusta"
     },
     {
       "role": "native_m",
@@ -191,8 +169,16 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/2193d69421b00fc7.mp3"
+      "item": "kumusta"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿qué tal?",
+      "item": "kumusta"
     },
     {
       "role": "narrator",
@@ -201,8 +187,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/45025153cf3b669d.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -211,18 +196,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2c8c47ba3bc14aec.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Kumusta?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/92075ac81d65163a.mp3"
+      "item": "kumusta"
     },
     {
       "role": "narrator",
@@ -231,8 +214,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/a52b9f26a448b652.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -241,8 +223,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/2193d69421b00fc7.mp3"
+      "item": "kumusta"
     },
     {
       "role": "narrator",
@@ -251,38 +232,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/e786151b62af903a.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Kumusta ka?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4afdbc7d8b3ad345.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "ka",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "kumusta-ka",
-      "clip": "_clips/06ae2577e4e0a939.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Kumusta ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "kumusta-ka",
-      "clip": "_clips/1551142f382b432d.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -291,18 +241,43 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4872a90dba0db094.mp3"
+      "item": "kumusta-ka"
     },
     {
-      "role": "native_f",
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "native_m",
       "lang": "tl",
       "text": "Kumusta ka?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4afdbc7d8b3ad345.mp3"
+      "item": "kumusta-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -311,8 +286,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/687cc6665d17bc1d.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -321,8 +295,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/297eeccc86885135.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -331,8 +304,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4872a90dba0db094.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -341,18 +313,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/aab36eb92547a565.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Kumusta ka?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4afdbc7d8b3ad345.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -361,8 +331,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/f9e44923832bc536.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -371,8 +340,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/e5dd240ff12c0af3.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "native_m",
@@ -381,8 +349,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "magandang-umaga",
-      "clip": "_clips/31e6ea16a50dab42.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "native_m",
@@ -391,8 +358,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "magandang-umaga",
-      "clip": "_clips/727c25663de876c8.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "native_m",
@@ -401,18 +367,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "magandang-umaga",
-      "clip": "_clips/a3800bd5bf3901f6.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Magandang umaga po.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/1a7d6f6b9712e82f.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "native_m",
@@ -421,8 +376,16 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/e5dd240ff12c0af3.mp3"
+      "item": "magandang-umaga"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Magandang umaga po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Buenos días.",
+      "item": "magandang-umaga"
     },
     {
       "role": "narrator",
@@ -431,8 +394,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/fef54caae52baae1.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -441,18 +403,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/86bf579c5890429a.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Magandang umaga po.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/1a7d6f6b9712e82f.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "narrator",
@@ -461,8 +421,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/78a94f900abab1a0.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -471,138 +430,133 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/e5dd240ff12c0af3.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Soy Víctor. / Me llamo Víctor». Literalmente, yo [si] Víctor. Escucha y repite.",
+      "text": "«Soy Javier. / Me llamo Javier». Literalmente, yo [si] Javier. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/adbae16e2df05482.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ako si Víctor.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/569cac88e0ccd692.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "tor",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ako-si",
-      "clip": "_clips/51ee6c612a31d01a.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Víctor",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ako-si",
-      "clip": "_clips/fb123a0c6ea83e16.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "si Víctor",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ako-si",
-      "clip": "_clips/1f7cf9bbf72d4ddd.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ako si Víctor",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ako-si",
-      "clip": "_clips/37bb4408f9c21101.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/1d848163a7baaa20.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "er",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ako-si"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vier",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ako-si"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Javier",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ako-si"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "si Javier",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/569cac88e0ccd692.mp3"
+      "translation_es": "",
+      "item": "ako-si"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ako si Javier",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ako-si"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ako si Javier.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ako si Javier.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "si va siempre delante de un nombre de persona. Cambia Víctor por tu nombre.",
+      "text": "si va siempre delante de un nombre de persona. Cambia Javier por tu nombre.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/1d6ccdbf06cc9441.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Soy Víctor. / Me llamo Víctor»?",
+      "text": "¿Cómo se dice «Soy Javier. / Me llamo Javier»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7fda7cb3bc4ef896.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/1d848163a7baaa20.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Soy Víctor. / Me llamo Víctor».",
+      "text": "Otra vez. «Soy Javier. / Me llamo Javier».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/0a7e2f34a3a9ad63.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/569cac88e0ccd692.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
@@ -611,8 +565,7 @@
       "kind": "instruction",
       "pause": 0.4,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/891d673d4b01804d.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -621,8 +574,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/34bceae942f9fcfd.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -631,8 +583,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4872a90dba0db094.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -641,48 +592,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/618849f17e070272.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Anong pangalan mo?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/65b37d2ab1cc7b29.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "mo",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/7854739fb5f85d2e.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "pangalan mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/bccca482e2aa3eae.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Anong pangalan mo",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/d1a2a6a9d846e04a.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -691,18 +601,52 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/31c8125ea89f5ce2.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
-      "role": "native_f",
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "anong-pangalan-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "pangalan mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-pangalan-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong pangalan mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-pangalan-mo"
+    },
+    {
+      "role": "native_m",
       "lang": "tl",
       "text": "Anong pangalan mo?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/65b37d2ab1cc7b29.mp3"
+      "item": "anong-pangalan-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong pangalan mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
@@ -711,8 +655,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/0e154e1b55b9ff99.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -721,8 +664,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/388ce6f21b4ba48b.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -731,8 +673,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/31c8125ea89f5ce2.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
@@ -741,18 +682,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/9c8739eb7fbd41ce.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Anong pangalan mo?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/65b37d2ab1cc7b29.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
@@ -761,8 +700,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/bb3c5ba3745a5e1f.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -771,8 +709,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/6504096b4c29c8a6.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "native_m",
@@ -781,8 +718,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "salamat-po",
-      "clip": "_clips/31e6ea16a50dab42.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "native_m",
@@ -791,18 +727,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "salamat-po",
-      "clip": "_clips/35dba5c8f76bca2c.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Salamat po.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/57bdf1bc35817705.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "native_m",
@@ -811,8 +736,16 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/6504096b4c29c8a6.mp3"
+      "item": "salamat-po"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salamat po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "salamat-po"
     },
     {
       "role": "narrator",
@@ -821,8 +754,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/28df8be8c99bb8f1.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -831,28 +763,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/718e3bfeb1679b27.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Salamat po.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/57bdf1bc35817705.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «Gracias».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/85cdc89435c2ad2b.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -861,8 +772,25 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/6504096b4c29c8a6.mp3"
+      "item": "salamat-po"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Salamat po.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Gracias.",
+      "item": "salamat-po"
     },
     {
       "role": "narrator",
@@ -871,28 +799,25 @@
       "kind": "instruction",
       "pause": 0.4,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/891d673d4b01804d.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «Soy Víctor. / Me llamo Víctor».",
+      "text": "Y ahora, «Soy Javier. / Me llamo Javier».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c9907bf869201e5b.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/569cac88e0ccd692.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
@@ -901,8 +826,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/f3cb1ec079db1d74.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -911,8 +835,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/2a406ebc1bdcfb58.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "native_m",
@@ -921,8 +844,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "ingat-ka",
-      "clip": "_clips/5c97cb40e5800abf.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "native_m",
@@ -931,18 +853,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "ingat-ka",
-      "clip": "_clips/c5791c1ce0882455.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ingat ka!",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/e9487de77e18f326.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "native_m",
@@ -951,8 +862,16 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/2a406ebc1bdcfb58.mp3"
+      "item": "ingat-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ingat ka!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Cuídate! (adiós)",
+      "item": "ingat-ka"
     },
     {
       "role": "narrator",
@@ -961,8 +880,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/8aa2bd7ee05d0ae9.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -971,18 +889,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/3d08b57afd81d1d5.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Ingat ka!",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/e9487de77e18f326.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "narrator",
@@ -991,8 +907,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/e5465d9329ca7340.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1001,8 +916,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/2a406ebc1bdcfb58.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "narrator",
@@ -1011,8 +925,7 @@
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/62ee76b273179d8a.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1021,18 +934,16 @@
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/5f3727eddab6792c.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Salamat po.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/57bdf1bc35817705.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "native_m",
@@ -1041,18 +952,16 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/31c8125ea89f5ce2.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/eebfa4371d7f5e82.mp3"
+      "item": null
     },
     {
       "role": "native_f",
@@ -1061,8 +970,7 @@
       "kind": "phrase",
       "pause": 2.0,
       "translation_es": "Bien, gracias.",
-      "item": "mabuti-naman",
-      "clip": "_clips/507cfe35f9656cbd.mp3"
+      "item": "mabuti-naman"
     },
     {
       "role": "narrator",
@@ -1071,18 +979,16 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/ba8fa614d5e9f9d1.mp3"
+      "item": null
     },
     {
-      "role": "native_m",
+      "role": "native_f",
       "lang": "tl",
       "text": "Mabuti naman.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Bien, gracias.",
-      "item": "mabuti-naman",
-      "clip": "_clips/5dac2d7d716d99a8.mp3"
+      "item": "mabuti-naman"
     },
     {
       "role": "native_f",
@@ -1091,8 +997,7 @@
       "kind": "phrase",
       "pause": 2.0,
       "translation_es": "Bien, sin más. / Tirando.",
-      "item": "okay-lang",
-      "clip": "_clips/1d8e1a6ffe6f14b7.mp3"
+      "item": "okay-lang"
     },
     {
       "role": "narrator",
@@ -1101,18 +1006,16 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/5bf9343e90c1334b.mp3"
+      "item": null
     },
     {
-      "role": "native_m",
+      "role": "native_f",
       "lang": "tl",
       "text": "Okay lang.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Bien, sin más. / Tirando.",
-      "item": "okay-lang",
-      "clip": "_clips/f049b3557b06158b.mp3"
+      "item": "okay-lang"
     },
     {
       "role": "native_f",
@@ -1121,8 +1024,7 @@
       "kind": "phrase",
       "pause": 2.0,
       "translation_es": "Soy Juan.",
-      "item": "ako-si-juan-answer",
-      "clip": "_clips/fa884280a6de85af.mp3"
+      "item": "ako-si-juan-answer"
     },
     {
       "role": "narrator",
@@ -1131,18 +1033,16 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/b78ad2c3db82b439.mp3"
+      "item": null
     },
     {
-      "role": "native_m",
+      "role": "native_f",
       "lang": "tl",
       "text": "Ako si Juan.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Soy Juan.",
-      "item": "ako-si-juan-answer",
-      "clip": "_clips/fd5f957c1513352c.mp3"
+      "item": "ako-si-juan-answer"
     },
     {
       "role": "narrator",
@@ -1151,8 +1051,7 @@
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/0946f49bee6ebd64.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1161,18 +1060,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c58d978de901f9ce.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Magandang umaga po.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/1a7d6f6b9712e82f.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "narrator",
@@ -1181,8 +1078,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/0a1501f5ae383ee7.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1191,8 +1087,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4872a90dba0db094.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -1201,18 +1096,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/4cb23e3e5759e5bf.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/569cac88e0ccd692.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
@@ -1221,8 +1114,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/3eb901d0b1788b17.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1231,8 +1123,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/31c8125ea89f5ce2.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
@@ -1241,18 +1132,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/831d8f151ab41f96.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Salamat po.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/57bdf1bc35817705.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "narrator",
@@ -1261,8 +1150,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/ebc96e1205786534.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1271,8 +1159,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/2a406ebc1bdcfb58.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "narrator",
@@ -1281,8 +1168,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/61acd3fbe207110d.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1291,18 +1177,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/a63ef247713da8af.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Kumusta?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/92075ac81d65163a.mp3"
+      "item": "kumusta"
     },
     {
       "role": "narrator",
@@ -1311,8 +1195,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/aab36eb92547a565.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1321,8 +1204,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4872a90dba0db094.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -1331,38 +1213,34 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c0f7164e286e457c.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Magandang umaga po.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/1a7d6f6b9712e82f.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Soy Víctor. / Me llamo Víctor»?",
+      "text": "¿Cómo se dice «Soy Javier. / Me llamo Javier»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7fda7cb3bc4ef896.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/1d848163a7baaa20.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
@@ -1371,18 +1249,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/516b0bab31877516.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Anong pangalan mo?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/65b37d2ab1cc7b29.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
@@ -1391,8 +1267,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/85cdc89435c2ad2b.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1401,8 +1276,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/6504096b4c29c8a6.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "narrator",
@@ -1411,18 +1285,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/5617c58252ff1c92.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Ingat ka!",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/e9487de77e18f326.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "narrator",
@@ -1431,8 +1303,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/32ae72c536f2c160.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1441,8 +1312,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/61acd3fbe207110d.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1451,8 +1321,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/a63ef247713da8af.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1461,8 +1330,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Hola, ¿qué tal?",
-      "item": "kumusta",
-      "clip": "_clips/2193d69421b00fc7.mp3"
+      "item": "kumusta"
     },
     {
       "role": "narrator",
@@ -1471,18 +1339,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/aab36eb92547a565.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Kumusta ka?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/4afdbc7d8b3ad345.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -1491,8 +1357,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c0f7164e286e457c.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1501,28 +1366,25 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Buenos días.",
-      "item": "magandang-umaga",
-      "clip": "_clips/e5dd240ff12c0af3.mp3"
+      "item": "magandang-umaga"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Soy Víctor. / Me llamo Víctor»?",
+      "text": "¿Cómo se dice «Soy Javier. / Me llamo Javier»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7fda7cb3bc4ef896.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Ako si Víctor.",
+      "text": "Ako si Javier.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Soy Víctor. / Me llamo Víctor.",
-      "item": "ako-si",
-      "clip": "_clips/569cac88e0ccd692.mp3"
+      "translation_es": "Soy Javier. / Me llamo Javier.",
+      "item": "ako-si"
     },
     {
       "role": "narrator",
@@ -1531,8 +1393,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/516b0bab31877516.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1541,8 +1402,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
-      "item": "anong-pangalan-mo",
-      "clip": "_clips/31c8125ea89f5ce2.mp3"
+      "item": "anong-pangalan-mo"
     },
     {
       "role": "narrator",
@@ -1551,18 +1411,16 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/85cdc89435c2ad2b.mp3"
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
       "text": "Salamat po.",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Gracias.",
-      "item": "salamat-po",
-      "clip": "_clips/57bdf1bc35817705.mp3"
+      "item": "salamat-po"
     },
     {
       "role": "narrator",
@@ -1571,8 +1429,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/5617c58252ff1c92.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1581,8 +1438,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¡Cuídate! (adiós)",
-      "item": "ingat-ka",
-      "clip": "_clips/2a406ebc1bdcfb58.mp3"
+      "item": "ingat-ka"
     },
     {
       "role": "narrator",
@@ -1591,8 +1447,7 @@
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/00616c75a72abe40.mp3"
+      "item": null
     },
     {
       "role": "native_f",
@@ -1601,18 +1456,16 @@
       "kind": "dialogue",
       "pause": 0.8,
       "translation_es": "¡Buenos días! ¿Qué tal?",
-      "item": null,
-      "clip": "_clips/a5eb5bcffc01d2c5.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mabuti naman po, salamat. Ako si Víctor.",
+      "text": "Mabuti naman po, salamat. Ako si Javier.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Bien, gracias. Soy Víctor.",
-      "item": null,
-      "clip": "_clips/d7e1c277a75437af.mp3"
+      "translation_es": "Bien, gracias. Soy Javier.",
+      "item": null
     },
     {
       "role": "native_f",
@@ -1621,18 +1474,16 @@
       "kind": "dialogue",
       "pause": 0.8,
       "translation_es": "Yo soy Ana. ¿Cómo te llamas?",
-      "item": null,
-      "clip": "_clips/a500a484e4909226.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Víctor. Salamat po, Ana. Ingat ka!",
+      "text": "Javier. Salamat po, Ana. Ingat ka!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Víctor. Gracias, Ana. ¡Cuídate!",
-      "item": null,
-      "clip": "_clips/bd7bb8e13af71298.mp3"
+      "translation_es": "Javier. Gracias, Ana. ¡Cuídate!",
+      "item": null
     },
     {
       "role": "narrator",
@@ -1641,16 +1492,15 @@
       "kind": "instruction",
       "pause": 0.3,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/a46705351c6d2752.mp3"
+      "item": null
     }
   ],
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 12.3,
-    "chars": 4155,
-    "cues": 159,
+    "minutes_estimated": 12.4,
+    "chars": 4172,
+    "cues": 160,
     "mode": "lesson",
     "lesson": 1
   }

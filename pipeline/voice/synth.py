@@ -26,9 +26,23 @@ def tts_fish(api_key, voice_cfg, text, out_path):
         raise RuntimeError(f"Fish Audio HTTP {error.code}: {error.read().decode('utf-8', 'replace')[:300]}") from error
 
 
+EXHAUSTED = set()
+
+
+def apply_tempo(path, tempo):
+    if not tempo or abs(float(tempo) - 1.0) < 0.01:
+        return
+    import subprocess, os
+    tmp = path.with_suffix(".tmp.mp3")
+    subprocess.run([os.environ.get("FFMPEG", "/opt/homebrew/bin/ffmpeg"), "-y", "-loglevel", "error", "-i", str(path), "-filter:a", f"atempo={float(tempo):.3f}", "-b:a", "128k", str(tmp)], check=True)
+    tmp.replace(path)
+
+
 def tts(api_key, voice_cfg, model_id, output_format, text, out_path):
     if voice_cfg.get("provider") == "fish":
-        return tts_fish(api_key, voice_cfg, text, out_path)
+        tts_fish(api_key, voice_cfg, text, out_path)
+        apply_tempo(out_path, voice_cfg.get("tempo"))
+        return
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_cfg['voice_id']}?output_format={output_format}"
     body = {"text": text, "model_id": model_id, "voice_settings": voice_cfg["voice_settings"]}
     if voice_cfg.get("language_code"):
@@ -45,6 +59,7 @@ def tts(api_key, voice_cfg, model_id, output_format, text, out_path):
                 time.sleep(3 * (attempt + 1))
                 continue
             raise RuntimeError(f"ElevenLabs HTTP {error.code}: {detail}") from error
+    apply_tempo(out_path, voice_cfg.get("tempo"))
 
 
 def main():
@@ -64,16 +79,17 @@ def main():
     clips_dir = cdir / "_clips"
     clips_dir.mkdir(exist_ok=True)
 
-    keys = {} if args.dry_run else {"elevenlabs": read_key("elevenlabs")}
-    if not args.dry_run and any(v.get("provider") == "fish" for v in voices["roles"].values()):
-        keys["fish"] = read_key("fishaudio")
+    keys = {} if args.dry_run else {"elevenlabs": read_key("elevenlabs"), "fish": read_key("fishaudio")}
     todo_chars = 0
     cached = 0
-    for cue in script["cues"]:
+    ordered = sorted(script["cues"], key=lambda c: 0 if c.get("role", "narrator") != "narrator" else 1)  # nativos primero: ElevenLabs hasta agotar
+    for cue in ordered:
         role = cue.get("role", "narrator")
         voice = voices["roles"].get(role) or voices["roles"]["narrator"]
+        if voice.get("provider", "elevenlabs") == "elevenlabs" and "elevenlabs" in EXHAUSTED and voice.get("fallback"):
+            voice = voice["fallback"]
         model = voice.get("model", voices["model_id"]) if voice.get("provider") == "fish" else voices["model_id"]
-        key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), cue["text"])
+        key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), cue["text"], voice.get("tempo", 1))
         cue[args.clip_key] = f"_clips/{key}.mp3"
         path = clips_dir / f"{key}.mp3"
         if path.exists() and path.stat().st_size > 1000:
@@ -82,8 +98,23 @@ def main():
         todo_chars += len(cue["text"])
         if args.dry_run:
             continue
-        print(f"  tts [{role}] {cue['text'][:60]}", flush=True)
-        tts(keys["fish" if voice.get("provider") == "fish" else "elevenlabs"], voice, voices["model_id"], voices["output_format"], cue["text"], path)
+        print(f"  tts [{role}/{voice.get('provider','elevenlabs')}] {cue['text'][:60]}", flush=True)
+        try:
+            tts(keys["fish" if voice.get("provider") == "fish" else "elevenlabs"], voice, voices["model_id"], voices["output_format"], cue["text"], path)
+        except RuntimeError as error:
+            msg = str(error)
+            if "ElevenLabs HTTP 40" in msg or "ElevenLabs HTTP 429" in msg or "quota" in msg.lower():
+                print("  ElevenLabs agotado: paso a Fish para este rol", flush=True)
+                EXHAUSTED.add("elevenlabs")
+                if not voice.get("fallback"):
+                    raise
+                voice = voice["fallback"]
+                key = digest(voice.get("provider"), voice["voice_id"], voice.get("model", ""), json.dumps(voice.get("voice_settings", {}), sort_keys=True), cue["text"])
+                cue[args.clip_key] = f"_clips/{key}.mp3"; path = clips_dir / f"{key}.mp3"
+                if not path.exists():
+                    tts(keys["fish"], voice, voices["model_id"], voices["output_format"], cue["text"], path)
+            else:
+                raise
         time.sleep(0.3)
 
     save_json(cdir / "scripts" / f"lesson-{args.lesson:02d}.json", script)

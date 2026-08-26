@@ -106,11 +106,12 @@ class Compiler:
         self.cues.append(cue("narrator", text, kind, pause))
 
     def voice(self, item):
+        # Regla fija: el "profesor" nativo (hombre) dice todas las frases que aprendes;
+        # la voz de mujer solo aparece en el bloque de entender y en el diálogo.
         v = item.get("speaker")
-        if v in ("native_m", "native_f"):
+        if v in ("native_m", "native_f", "kid_m", "kid_f"):
             return v
-        self.native = "native_m" if self.native == "native_f" else "native_f"
-        return self.native
+        return "native_m"
 
     def say(self, item, pause=None, kind="phrase", role=None):
         text = item["tl"]
@@ -153,7 +154,7 @@ class Compiler:
         self.n(" ".join(parts), 0.5)
         self.say(item)
         for step in backward_build(item["tl"]):
-            self.cues.append(cue(self.native, step, "phrase", P["syllable"] if " " not in step else P["short"], translation="", item=item["id"]))
+            self.cues.append(cue(self.voice(item), step, "phrase", P["syllable"] if " " not in step else P["short"], translation="", item=item["id"]))
         for _ in range(reps):
             self.say(item)
         if note and self.mode == "lesson":
@@ -164,12 +165,12 @@ class Compiler:
     def listen(self, ids):
         if not ids:
             return
-        self.n("Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.", 0.6)
+        self.n("Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.", 0.6)
         for iid in ids:
             item = self.items[iid]
-            self.say(item, pause=P["listen"], kind="phrase")
+            self.say(item, pause=P["listen"], kind="phrase", role="native_f")
             self.n(q(item["es"]) + ".", 0.5, "explanation")
-            self.say(item, pause=P["short"], kind="phrase")
+            self.say(item, pause=P["short"], kind="phrase", role="native_f")
 
     def grammar(self, pill):
         self.n(pill["title"] + ".", 0.4, "explanation")
