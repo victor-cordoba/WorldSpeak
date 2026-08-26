@@ -1,0 +1,619 @@
+{
+  "id": "tagalog-pimsleur",
+  "version": "20260826-1",
+  "title": "Tagalog · Pimsleur",
+  "shortTitle": "Tagalog",
+  "language": {
+    "code": "tl",
+    "name": "Tagalog",
+    "flag": "ph"
+  },
+  "method": "pimsleur",
+  "description": "Media hora al día. Escucha y repite.",
+  "tagline": "De camino al trabajo, en el bus, en el coche... Dale al play y practica.",
+  "audioBase": "./audio/",
+  "transcriptsBase": "./transcripts/",
+  "api": "../api/",
+  "kinds": {
+    "main": {
+      "label": "Lecciones",
+      "badge": "Lección"
+    },
+    "readings": {
+      "label": "Lecturas",
+      "badge": "Lectura"
+    }
+  },
+  "tracks": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "kind": "main",
+      "title": "Lección 01",
+      "file": "Lesson 01 Main.mp3",
+      "copy": {
+        "title": "Primer contacto",
+        "subtitle": "Saludar, preguntar si entiende inglés y decir que hablas un poco."
+      }
+    },
+    {
+      "id": "lesson-02-main",
+      "lesson": 2,
+      "kind": "main",
+      "title": "Lección 02",
+      "file": "Lesson 02 Main.mp3",
+      "copy": {
+        "title": "Entender Tagalog",
+        "subtitle": "Confirmar si entiende el idioma y responder con konti."
+      }
+    },
+    {
+      "id": "lesson-03-main",
+      "lesson": 3,
+      "kind": "main",
+      "title": "Lección 03",
+      "file": "Lesson 03 Main.mp3",
+      "copy": {
+        "title": "Saludar y responder",
+        "subtitle": "Preguntar cómo está y decir que entiendes solo un poco."
+      }
+    },
+    {
+      "id": "lesson-04-main",
+      "lesson": 4,
+      "kind": "main",
+      "title": "Lección 04",
+      "file": "Lesson 04 Main.mp3",
+      "copy": {
+        "title": "Nacionalidad y talento",
+        "subtitle": "Decir de dónde eres y pedir ayuda para ubicarte."
+      }
+    },
+    {
+      "id": "lesson-05-main",
+      "lesson": 5,
+      "kind": "main",
+      "title": "Lección 05",
+      "file": "Lesson 05 Main.mp3",
+      "copy": {
+        "title": "Pedir indicaciones",
+        "subtitle": "Preguntar por calles y decir a dónde quieres ir."
+      }
+    },
+    {
+      "id": "lesson-06-main",
+      "lesson": 6,
+      "kind": "main",
+      "title": "Lección 06",
+      "file": "Lesson 06 Main.mp3",
+      "copy": {
+        "title": "Querer comer",
+        "subtitle": "Proponer comer arroz y responder sí o no."
+      }
+    },
+    {
+      "id": "lesson-07-main",
+      "lesson": 7,
+      "kind": "main",
+      "title": "Lección 07",
+      "file": "Lesson 07 Main.mp3",
+      "copy": {
+        "title": "Plan para comer",
+        "subtitle": "Elegir dónde comer y qué quieres beber."
+      }
+    },
+    {
+      "id": "lesson-08-main",
+      "lesson": 8,
+      "kind": "main",
+      "title": "Lección 08",
+      "file": "Lesson 08 Main.mp3",
+      "copy": {
+        "title": "Pedir bebidas",
+        "subtitle": "Decir qué quieres tomar y rechazar opciones."
+      }
+    },
+    {
+      "id": "lesson-09-main",
+      "lesson": 9,
+      "kind": "main",
+      "title": "Lección 09",
+      "file": "Lesson 09 Main.mp3",
+      "copy": {
+        "title": "Qué hacemos hoy",
+        "subtitle": "Proponer planes, compañía y preguntar la hora."
+      }
+    },
+    {
+      "id": "lesson-10-main",
+      "lesson": 10,
+      "kind": "main",
+      "title": "Lección 10",
+      "file": "Lesson 10 Main.mp3",
+      "copy": {
+        "title": "Quedar más tarde",
+        "subtitle": "Acordar hora para comer usando mamaya na lang."
+      }
+    },
+    {
+      "id": "lesson-11-main",
+      "lesson": 11,
+      "kind": "main",
+      "title": "Lección 11",
+      "file": "Lesson 11 Main.mp3",
+      "copy": {
+        "title": "Hora y disponibilidad",
+        "subtitle": "Proponer horarios y decir que no puedes."
+      }
+    },
+    {
+      "id": "lesson-12-main",
+      "lesson": 12,
+      "kind": "main",
+      "title": "Lección 12",
+      "file": "Lesson 12 Main.mp3",
+      "copy": {
+        "title": "Saludo y cena",
+        "subtitle": "Preguntar cómo está y quedar para mañana por la noche."
+      }
+    },
+    {
+      "id": "lesson-13-main",
+      "lesson": 13,
+      "kind": "main",
+      "title": "Lección 13",
+      "file": "Lesson 13 Main.mp3",
+      "copy": {
+        "title": "Llamada y precios",
+        "subtitle": "Hacer planes por teléfono y preguntar cuánto cuesta."
+      }
+    },
+    {
+      "id": "lesson-14-main",
+      "lesson": 14,
+      "kind": "main",
+      "title": "Lección 14",
+      "file": "Lesson 14 Main.mp3",
+      "copy": {
+        "title": "Comprar periódico",
+        "subtitle": "Pedir algo, preguntar precio y hablar de dólares o pesos."
+      }
+    },
+    {
+      "id": "lesson-15-main",
+      "lesson": 15,
+      "kind": "main",
+      "title": "Lección 15",
+      "file": "Lesson 15 Main.mp3",
+      "copy": {
+        "title": "Comprar comida",
+        "subtitle": "Hablar del dinero disponible para arroz y café."
+      }
+    },
+    {
+      "id": "lesson-16-main",
+      "lesson": 16,
+      "kind": "main",
+      "title": "Lección 16",
+      "file": "Lesson 16 Main.mp3",
+      "copy": {
+        "title": "Para quién es",
+        "subtitle": "Preguntar destinatarios, paquetes y cantidades de dinero."
+      }
+    },
+    {
+      "id": "lesson-17-main",
+      "lesson": 17,
+      "kind": "main",
+      "title": "Lección 17",
+      "file": "Lesson 17 Main.mp3",
+      "copy": {
+        "title": "Ir de compras",
+        "subtitle": "Decir que quieres comprar y que te falta dinero."
+      }
+    },
+    {
+      "id": "lesson-18-main",
+      "lesson": 18,
+      "kind": "main",
+      "title": "Lección 18",
+      "file": "Lesson 18 Main.mp3",
+      "copy": {
+        "title": "Comprar un libro",
+        "subtitle": "Pedir dinero y hablar de precios."
+      }
+    },
+    {
+      "id": "lesson-19-main",
+      "lesson": 19,
+      "kind": "main",
+      "title": "Lección 19",
+      "file": "Lesson 19 Main.mp3",
+      "copy": {
+        "title": "Pedir en un bar",
+        "subtitle": "Pedir cerveza, café y solicitar que repitan."
+      }
+    },
+    {
+      "id": "lesson-20-main",
+      "lesson": 20,
+      "kind": "main",
+      "title": "Lección 20",
+      "file": "Lesson 20 Main.mp3",
+      "copy": {
+        "title": "Presentaciones",
+        "subtitle": "Recibir a alguien y preguntar por la familia."
+      }
+    },
+    {
+      "id": "lesson-21-main",
+      "lesson": 21,
+      "kind": "main",
+      "title": "Lección 21",
+      "file": "Lesson 21 Main.mp3",
+      "copy": {
+        "title": "Hijos y edades",
+        "subtitle": "Decir si tienes hijos y cuántos años tienen."
+      }
+    },
+    {
+      "id": "lesson-22-main",
+      "lesson": 22,
+      "kind": "main",
+      "title": "Lección 22",
+      "file": "Lesson 22 Main.mp3",
+      "copy": {
+        "title": "Familia con cortesía",
+        "subtitle": "Usar po y opo hablando de hijos y familia."
+      }
+    },
+    {
+      "id": "lesson-23-main",
+      "lesson": 23,
+      "kind": "main",
+      "title": "Lección 23",
+      "file": "Lesson 23 Main.mp3",
+      "copy": {
+        "title": "Familia y viaje",
+        "subtitle": "Preguntar cuántos son y preparar indicaciones."
+      }
+    },
+    {
+      "id": "lesson-24-main",
+      "lesson": 24,
+      "kind": "main",
+      "title": "Lección 24",
+      "file": "Lesson 24 Main.mp3",
+      "copy": {
+        "title": "Gasolina y coche",
+        "subtitle": "Preguntar precios, litros y si tienen coche."
+      }
+    },
+    {
+      "id": "lesson-25-main",
+      "lesson": 25,
+      "kind": "main",
+      "title": "Lección 25",
+      "file": "Lesson 25 Main.mp3",
+      "copy": {
+        "title": "Direcciones a Manila",
+        "subtitle": "Girar izquierda, derecha, seguir recto y hablar de distancia."
+      }
+    },
+    {
+      "id": "lesson-26-main",
+      "lesson": 26,
+      "kind": "main",
+      "title": "Lección 26",
+      "file": "Lesson 26 Main.mp3",
+      "copy": {
+        "title": "Compras de noche",
+        "subtitle": "Preguntar si puedes ir a Manila y explicar por qué."
+      }
+    },
+    {
+      "id": "lesson-27-main",
+      "lesson": 27,
+      "kind": "main",
+      "title": "Lección 27",
+      "file": "Lesson 27 Main.mp3",
+      "copy": {
+        "title": "Planes a Tagaytay",
+        "subtitle": "Hablar de ir, acompañar y comprar cosas."
+      }
+    },
+    {
+      "id": "lesson-28-main",
+      "lesson": 28,
+      "kind": "main",
+      "title": "Lección 28",
+      "file": "Lesson 28 Main.mp3",
+      "copy": {
+        "title": "Salir de viaje",
+        "subtitle": "Ir a Banawe, viajar juntos y decir cuánto te quedas."
+      }
+    },
+    {
+      "id": "lesson-29-main",
+      "lesson": 29,
+      "kind": "main",
+      "title": "Lección 29",
+      "file": "Lesson 29 Main.mp3",
+      "copy": {
+        "title": "Qué significa",
+        "subtitle": "Preguntar cómo está y aclarar el significado de una frase."
+      }
+    },
+    {
+      "id": "lesson-30-main",
+      "lesson": 30,
+      "kind": "main",
+      "title": "Lección 30",
+      "file": "Lesson 30 Main.mp3",
+      "copy": {
+        "title": "Tiempo de estancia",
+        "subtitle": "Decir cuánto llevas aquí y cuánto tiempo te quedas."
+      }
+    },
+    {
+      "id": "lesson-01-readings",
+      "lesson": 11,
+      "readingNumber": 1,
+      "kind": "readings",
+      "title": "Lectura 01",
+      "subtitle": "Para después de la lección 11",
+      "file": "Lesson 01 Readings.mp3",
+      "copy": {
+        "title": "Ortografía y sonido",
+        "subtitle": "Fijar pronunciación con la escritura del Tagalog."
+      }
+    },
+    {
+      "id": "lesson-02-readings",
+      "lesson": 12,
+      "readingNumber": 2,
+      "kind": "readings",
+      "title": "Lectura 02",
+      "subtitle": "Para después de la lección 12",
+      "file": "Lesson 02 Readings.mp3",
+      "copy": {
+        "title": "Vocales básicas",
+        "subtitle": "Leer saludos y preguntas con vocales claras."
+      }
+    },
+    {
+      "id": "lesson-03-readings",
+      "lesson": 13,
+      "readingNumber": 3,
+      "kind": "readings",
+      "title": "Lectura 03",
+      "subtitle": "Para después de la lección 13",
+      "file": "Lesson 03 Readings.mp3",
+      "copy": {
+        "title": "E e I",
+        "subtitle": "Distinguir vocales y primeras combinaciones."
+      }
+    },
+    {
+      "id": "lesson-04-readings",
+      "lesson": 14,
+      "readingNumber": 4,
+      "kind": "readings",
+      "title": "Lectura 04",
+      "subtitle": "Para después de la lección 14",
+      "file": "Lesson 04 Readings.mp3",
+      "copy": {
+        "title": "Vocales juntas",
+        "subtitle": "Practicar vocales adyacentes y acentos."
+      }
+    },
+    {
+      "id": "lesson-05-readings",
+      "lesson": 15,
+      "readingNumber": 5,
+      "kind": "readings",
+      "title": "Lectura 05",
+      "subtitle": "Para después de la lección 15",
+      "file": "Lesson 05 Readings.mp3",
+      "copy": {
+        "title": "Sonido NG",
+        "subtitle": "Leer combinaciones con ng y pausas."
+      }
+    },
+    {
+      "id": "lesson-06-readings",
+      "lesson": 16,
+      "readingNumber": 6,
+      "kind": "readings",
+      "title": "Lectura 06",
+      "subtitle": "Para después de la lección 16",
+      "file": "Lesson 06 Readings.mp3",
+      "copy": {
+        "title": "Acento grave",
+        "subtitle": "Entender marcas de acento y paradas glotales."
+      }
+    },
+    {
+      "id": "lesson-07-readings",
+      "lesson": 17,
+      "readingNumber": 7,
+      "kind": "readings",
+      "title": "Lectura 07",
+      "subtitle": "Para después de la lección 17",
+      "file": "Lesson 07 Readings.mp3",
+      "copy": {
+        "title": "Acento circunflejo",
+        "subtitle": "Pronunciar cierres glotales al final."
+      }
+    },
+    {
+      "id": "lesson-08-readings",
+      "lesson": 18,
+      "readingNumber": 8,
+      "kind": "readings",
+      "title": "Lectura 08",
+      "subtitle": "Para después de la lección 18",
+      "file": "Lesson 08 Readings.mp3",
+      "copy": {
+        "title": "Números y contracciones",
+        "subtitle": "Leer números y frases cortas."
+      }
+    },
+    {
+      "id": "lesson-09-readings",
+      "lesson": 19,
+      "readingNumber": 9,
+      "kind": "readings",
+      "title": "Lectura 09",
+      "subtitle": "Para después de la lección 19",
+      "file": "Lesson 09 Readings.mp3",
+      "copy": {
+        "title": "Ritmo de frases",
+        "subtitle": "Practicar sonidos repetidos y descripciones."
+      }
+    },
+    {
+      "id": "lesson-10-readings",
+      "lesson": 20,
+      "readingNumber": 10,
+      "kind": "readings",
+      "title": "Lectura 10",
+      "subtitle": "Para después de la lección 20",
+      "file": "Lesson 10 Readings.mp3",
+      "copy": {
+        "title": "Sin marcas de acento",
+        "subtitle": "Leer frases cotidianas completas."
+      }
+    },
+    {
+      "id": "lesson-11-readings",
+      "lesson": 21,
+      "readingNumber": 11,
+      "kind": "readings",
+      "title": "Lectura 11",
+      "subtitle": "Para después de la lección 21",
+      "file": "Lesson 11 Readings.mp3",
+      "copy": {
+        "title": "Frases de duración",
+        "subtitle": "Practicar tagal, galing y expresiones de tiempo."
+      }
+    },
+    {
+      "id": "lesson-12-readings",
+      "lesson": 22,
+      "readingNumber": 12,
+      "kind": "readings",
+      "title": "Lectura 12",
+      "subtitle": "Para después de la lección 22",
+      "file": "Lesson 12 Readings.mp3",
+      "copy": {
+        "title": "Café y respuestas",
+        "subtitle": "Leer deseos, negaciones y preguntas comunes."
+      }
+    },
+    {
+      "id": "lesson-13-readings",
+      "lesson": 23,
+      "readingNumber": 13,
+      "kind": "readings",
+      "title": "Lectura 13",
+      "subtitle": "Para después de la lección 23",
+      "file": "Lesson 13 Readings.mp3",
+      "copy": {
+        "title": "Lejos y más tarde",
+        "subtitle": "Entrenar acento en frases completas."
+      }
+    },
+    {
+      "id": "lesson-14-readings",
+      "lesson": 24,
+      "readingNumber": 14,
+      "kind": "readings",
+      "title": "Lectura 14",
+      "subtitle": "Para después de la lección 24",
+      "file": "Lesson 14 Readings.mp3",
+      "copy": {
+        "title": "Formal e informal",
+        "subtitle": "Contrastar pronunciación cuidada y conversacional."
+      }
+    },
+    {
+      "id": "lesson-15-readings",
+      "lesson": 25,
+      "readingNumber": 15,
+      "kind": "readings",
+      "title": "Lectura 15",
+      "subtitle": "Para después de la lección 25",
+      "file": "Lesson 15 Readings.mp3",
+      "copy": {
+        "title": "Combinaciones SIY/DIY",
+        "subtitle": "Suavizar combinaciones frecuentes."
+      }
+    },
+    {
+      "id": "lesson-16-readings",
+      "lesson": 26,
+      "readingNumber": 16,
+      "kind": "readings",
+      "title": "Lectura 16",
+      "subtitle": "Para después de la lección 26",
+      "file": "Lesson 16 Readings.mp3",
+      "copy": {
+        "title": "U y números",
+        "subtitle": "Leer palabras cortas, números y vocal U."
+      }
+    },
+    {
+      "id": "lesson-17-readings",
+      "lesson": 27,
+      "readingNumber": 17,
+      "kind": "readings",
+      "title": "Lectura 17",
+      "subtitle": "Para después de la lección 27",
+      "file": "Lesson 17 Readings.mp3",
+      "copy": {
+        "title": "Preguntar y escuchar",
+        "subtitle": "Frases útiles para pedir y atender."
+      }
+    },
+    {
+      "id": "lesson-18-readings",
+      "lesson": 28,
+      "readingNumber": 18,
+      "kind": "readings",
+      "title": "Lectura 18",
+      "subtitle": "Para después de la lección 28",
+      "file": "Lesson 18 Readings.mp3",
+      "copy": {
+        "title": "Negación y cantidad",
+        "subtitle": "Practicar hindi, konti y agradecimientos."
+      }
+    },
+    {
+      "id": "lesson-19-readings",
+      "lesson": 29,
+      "readingNumber": 19,
+      "kind": "readings",
+      "title": "Lectura 19",
+      "subtitle": "Para después de la lección 29",
+      "file": "Lesson 19 Readings.mp3",
+      "copy": {
+        "title": "Tagalog conversacional",
+        "subtitle": "Estructura de frases y pronunciación natural."
+      }
+    },
+    {
+      "id": "lesson-20-readings",
+      "lesson": 30,
+      "readingNumber": 20,
+      "kind": "readings",
+      "title": "Lectura 20",
+      "subtitle": "Para después de la lección 30",
+      "file": "Lesson 20 Readings.mp3",
+      "copy": {
+        "title": "Compras y horarios",
+        "subtitle": "Leer frases de compra, comida y preguntas."
+      }
+    }
+  ]
+}

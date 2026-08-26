@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="WorldSpeak. Aprende idiomas escuchando y repitiendo, media hora al día.">
+  <title>WorldSpeak</title>
+  <link rel="canonical" href="https://victorcordoba.com/worldspeak/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WorldSpeak">
+  <meta property="og:description" content="Aprende idiomas escuchando y repitiendo, media hora al día.">
+  <meta property="og:image" content="https://victorcordoba.com/worldspeak/tagalog-pimsleur/social-image.png">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/player.css?v=20260826-1">
+  <link rel="stylesheet" href="./assets/hub.css?v=20260826-1">
+</head>
+<body class="hub-body">
+  <main class="shell">
+    <header id="studyTopbar" class="study-topbar hub-topbar" aria-label="Cuenta">
+      <button id="accountToggle" class="account-toggle" type="button" aria-controls="accountModal" aria-expanded="false">
+        <span id="accountInitial" class="account-initial" aria-hidden="true">?</span>
+        <span>
+          <strong id="accountLabel">Entrar</strong>
+          <em id="accountMeta">Guardar progreso</em>
+        </span>
+      </button>
+    </header>
+
+    <section class="hero hub-hero">
+      <div>
+        <p class="eyebrow">Escucha y repite</p>
+        <h1>WORLD<span>SPEAK</span></h1>
+        <div class="hero-message">
+          <p class="hero-pill">MEDIA HORA AL DÍA</p>
+          <p class="subhead">Un idioma nuevo de camino al trabajo. Audio, texto sincronizado, traducción y diccionario. Tu progreso te sigue de un dispositivo a otro.</p>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="stats hub-stats" aria-label="Tu progreso">
+          <span><strong id="hubCourses">0</strong> idiomas</span>
+          <span><strong id="hubDone">0</strong> hechas</span>
+          <span><strong id="hubTime">0 min</strong> escuchadas</span>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Idiomas">
+      <div class="section-title">
+        <h2>Idiomas</h2>
+      </div>
+      <div id="courseList" class="course-list" aria-live="polite"></div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Designed by <a href="https://victorcordoba.com/" target="_blank" rel="noopener">Víctor Córdoba</a> · <a href="https://github.com/victor-cordoba/WorldSpeak" target="_blank" rel="noopener">Código abierto</a></p>
+    </footer>
+  </main>
+
+  <div id="accountModal" class="account-modal" role="dialog" aria-modal="true" aria-labelledby="accountTitle" hidden>
+    <button class="account-backdrop" type="button" data-account-close aria-label="Cerrar cuenta"></button>
+    <section class="account-panel">
+      <header class="account-header">
+        <div>
+          <p class="account-kicker">Progreso opcional</p>
+          <h2 id="accountTitle">Tu cuenta WorldSpeak</h2>
+        </div>
+        <button id="accountClose" class="account-close" type="button" aria-label="Cerrar cuenta">×</button>
+      </header>
+      <div id="accountLogged" class="account-logged" hidden>
+        <p>Sesión iniciada como <strong id="accountNameLabel"></strong>. La misma cuenta vale para todos los idiomas.</p>
+      </div>
+      <form id="accountForm" class="account-form">
+        <label>
+          <span>Nombre</span>
+          <input id="accountName" name="name" type="text" autocomplete="username" placeholder="Tu nombre" maxlength="80">
+        </label>
+        <label>
+          <span>PIN</span>
+          <div id="pinDots" class="pin-dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <input id="accountPin" class="pin-hidden-input" name="pin" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="current-password" aria-label="PIN de 4 números" minlength="4" maxlength="4">
+        </label>
+        <div id="pinPad" class="pin-pad" aria-label="Teclado PIN">
+          <button type="button" data-pin-key="1">1</button><button type="button" data-pin-key="2">2</button><button type="button" data-pin-key="3">3</button>
+          <button type="button" data-pin-key="4">4</button><button type="button" data-pin-key="5">5</button><button type="button" data-pin-key="6">6</button>
+          <button type="button" data-pin-key="7">7</button><button type="button" data-pin-key="8">8</button><button type="button" data-pin-key="9">9</button>
+          <button class="pin-pad-action" type="button" data-pin-clear>Limpiar</button><button type="button" data-pin-key="0">0</button><button class="pin-pad-action" type="button" data-pin-back>Borrar</button>
+        </div>
+        <button class="account-submit" type="submit">Entrar / crear</button>
+      </form>
+      <p id="accountStatus" class="account-status" role="status"></p>
+      <div class="account-actions">
+        <button id="accountLogout" class="account-ghost" type="button" hidden>Cerrar sesión</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="./assets/hub.js?v=20260826-1"></script>
+</body>
+</html>

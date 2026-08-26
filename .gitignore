@@ -40,3 +40,15 @@ node_modules/
 _migracion/
 .private/
 elevenlabs_api_key
+
+# ---------------------------------------------------------------
+# Cursos propios (WorldSpeak): los guiones y transcripciones son
+# nuestros y SÍ se versionan. El audio y los clips de ElevenLabs no
+# (pesan y se regeneran desde los guiones).
+# ---------------------------------------------------------------
+!web/tagalog/transcripts/
+!web/tagalog/transcripts/**
+!web/bisaya/transcripts/
+!web/bisaya/transcripts/**
+web/*/_clips/
+web/*/scripts/*.bak

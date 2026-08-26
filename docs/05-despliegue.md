@@ -1,5 +1,9 @@
 # 05 · Despliegue
 
+> **Actualizado 26/08/2026:** el sitio ya no está en Dinahosting. Vive en el
+> Hostinger personal (alias SSH `PERSONAL_SERVER`, `~/domains/victorcordoba.com/public_html/worldspeak/`)
+> y se despliega con `scripts/deploy.sh`. Lo de Dinahosting de abajo queda como histórico.
+
 No hay build. No hay CI. Desplegar es copiar archivos a un hosting compartido.
 
 ---

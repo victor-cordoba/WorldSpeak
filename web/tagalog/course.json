@@ -1,0 +1,37 @@
+{
+  "id": "tagalog",
+  "version": "20260826-1",
+  "title": "Tagalog · WorldSpeak",
+  "shortTitle": "Tagalog",
+  "language": {
+    "code": "tl",
+    "name": "Tagalog",
+    "flag": "ph"
+  },
+  "method": "pimsleur",
+  "description": "Curso propio. Escucha y repite.",
+  "tagline": "Diálogos pensados para la vida real en Tondo y Cebú. Voces nativas.",
+  "context": "Curso para voluntarios y misioneros españoles que van a Filipinas (Tondo, Manila, y Cebú). Situaciones reales: saludar en la calle, presentarse, preguntar por alguien, comprar en el mercado, indicaciones en jeepney, hablar con niños y familias, la parroquia. Registro cercano y respetuoso (po/opo).",
+  "audioBase": "./audio/",
+  "transcriptsBase": "./transcripts/",
+  "api": "../api/",
+  "kinds": {
+    "main": {
+      "label": "Lecciones",
+      "badge": "Lección"
+    }
+  },
+  "tracks": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "kind": "main",
+      "title": "Lección 01",
+      "file": "Lesson 01 Main.mp3",
+      "copy": {
+        "title": "Saludando y presentándote",
+        "subtitle": "Aprende a saludar y presentarte en Tagalog"
+      }
+    }
+  ]
+}

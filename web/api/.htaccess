@@ -1,0 +1,11 @@
+Options -Indexes
+DirectoryIndex index.php
+# Que PHP reciba la cabecera Authorization (LiteSpeed/Apache la eliminan a veces)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+<FilesMatch "^(config\.php|schema\..*\.sql|legacy-api-v1\.php|migrate.*\.php)$">
+  Require all denied
+</FilesMatch>

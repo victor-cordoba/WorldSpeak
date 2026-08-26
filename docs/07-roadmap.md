@@ -1,13 +1,22 @@
 # 07 · Roadmap
 
+## PRÓXIMO (tras WorldSpeak, 26/08/2026)
+
+1. **Escuchar la lección 1 de prueba** y ajustar voces, pausas y ritmo (doc 09).
+2. **Subir el plan de ElevenLabs** y producir las 30 lecciones del Tagalog propio.
+3. **Curso de Bisaya** con el mismo pipeline (solo `eleven_v3`, sin `language_code`).
+4. **MySQL en Hostinger**: crear la BD y `config.php` (hoy va con SQLite, funciona).
+5. Lecturas (`readings`) para los cursos propios: mismo pipeline con otro esqueleto.
+6. Email opcional en la cuenta para recuperar el PIN.
+
 Mejoras pendientes, ordenadas por lo que más aporta con menos esfuerzo.
 Nada de esto está hecho.
 
 ---
 
-## PRIMERO DE TODO: RECUPERAR `api.php`
+## ~~PRIMERO DE TODO: RECUPERAR `api.php`~~ HECHO el 26/08/2026
 
-**No es una mejora, es una deuda urgente.**
+Recuperado de Hostinger y sustituido por la API v2 (doc 08). Lo de abajo queda como histórico.
 
 `api.php` existe únicamente en el servidor de producción. No hay copia en
 local ni en el repositorio. Si el hosting se cae o alguien borra el archivo,

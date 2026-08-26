@@ -1,19 +1,58 @@
 # Changelog
 
-Todas las versiones desplegadas en `https://misioncebu.org/tagalog/`.
-
-Las versiones siguen el formato `AAAAMMDD-N` que se usa como cache buster en
-`index.html` y en la constante `assetVersion` de `app.js`.
-
-Este historial se reconstruyó en agosto de 2026 a partir de las marcas de
-tiempo de los archivos y del código desplegado, porque el proyecto no estuvo
-en git hasta entonces.
+Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster).
 
 ---
 
-## [Sin publicar] — 2026-08-26
+## [20260826-1] — 2026-08-26 · WorldSpeak
 
-Ordenar, documentar y abrir el código.
+La app de Tagalog se convierte en **WorldSpeak**, una plataforma multi-idioma
+en `https://victorcordoba.com/worldspeak/`.
+
+### Añadido
+- **Hub** en `/worldspeak/` con todos los cursos, progreso por curso y cuenta compartida.
+- **Reproductor genérico** (`assets/player.js` + `boot.js`): lee `course.json` y no
+  contiene nada específico de un idioma. Cada curso es una carpeta.
+- **API v2** (`api/index.php`, PDO): usuarios, sesiones y **progreso por curso**.
+  MySQL si existe `config.php`, SQLite si no. Esquema autocreado. Acción nueva
+  `overview` para el hub. Whitelist de acciones antes de autenticar.
+- **Migración** de los 8 usuarios de la v1 con su PIN (hash compatible) y su
+  progreso, ahora bajo el curso `tagalog-pimsleur` (`migrate_legacy_users.php`).
+- **Pipeline de voz** (`pipeline/voice/`): genera lecciones Pimsleur desde cero.
+  GPT escribe el guion con fases obligatorias (diálogo, construcción hacia atrás,
+  anticipación, repaso espaciado), ElevenLabs `eleven_v3` pone voz (narrador
+  español + nativos filipinos de la Voice Library), ffmpeg monta con pausas, y
+  la transcripción se escribe con tiempos exactos sin Whisper.
+- **Curso propio `tagalog`** con la lección 1 de prueba (5 min, 65 segmentos).
+- `courses.json`, `manifest.webmanifest` por curso, enlace al hub en cada curso.
+- `scripts/deploy.sh` (rsync a Hostinger).
+- Los scripts del pipeline aceptan `--course`.
+- Capturas nuevas del hub y del curso propio.
+
+### Cambiado
+- URLs: `misioncebu.org/tagalog/*` y `victorcordoba.com/tagalog/*` redirigen 301
+  (conservando la ruta) a `/worldspeak/tagalog-pimsleur/*`.
+- Claves de `localStorage` con prefijo `ws:<curso>:`; la sesión es `ws:session`,
+  común a todos los cursos.
+- Repositorio reorganizado: `web/`, `pipeline/`, `scripts/`, `docs/`.
+- El audio de Pimsleur se copió dentro del servidor (no volvió a subirse).
+
+### Verificado
+- ElevenLabs: Tagalog/Filipino en `eleven_v3` y `multilingual_v2` con 30 voces
+  nativas en biblioteca; **Cebuano solo en `eleven_v3`** y sin voces etiquetadas,
+  pero las voces filipinas lo pronuncian bien en prueba.
+
+### Conocido
+- ElevenLabs está en plan de pago por uso con 10.000 caracteres/mes: una
+  lección de 25 min gasta ~9.000. Hay que subir de plan para producir en serie.
+- La API va con SQLite; pasar a MySQL es crear la BD en hPanel y `config.php`.
+- `api/legacy-api-v1.php` se conserva como referencia y no se sirve.
+
+---
+
+## [Repositorio] — 2026-08-26
+
+Ordenar, documentar y abrir el código (antes de WorldSpeak, mismo día).
 
 ### Añadido
 - Repositorio git inicializado y publicado en GitHub como open source (MIT).
@@ -37,9 +76,7 @@ Ordenar, documentar y abrir el código.
   una carpeta que ya no existía. Ahora apunta a `../AUDIOS/PIMSLEUR tagalog`.
 
 ### Conocido
-- **`api.php` no está en el repositorio.** Solo existe en el servidor de
-  producción y el acceso SSH está caído. Es la prioridad número uno del
-  roadmap.
+- `api.php` se recuperó del servidor (Hostinger) el mismo día: `web/api/legacy-api-v1.php`.
 - 332 MB de MP3 troceados (caché del pipeline) quedan en
   `_archivo/web-backup-2026-06-22/transcripts/chunks/`. Se pueden borrar sin
   perder nada, pero no se ha hecho sin confirmación.

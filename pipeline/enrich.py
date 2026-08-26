@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 import argparse
+import sys as _sys
+if "--course" in _sys.argv:
+    import os as _os
+    _os.environ["WS_COURSE"] = _sys.argv[_sys.argv.index("--course") + 1]
 import json
 import sys
 import urllib.error
@@ -7,7 +11,8 @@ import urllib.request
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1]
+import os
+ROOT = Path(__file__).resolve().parents[1] / "web" / os.environ.get("WS_COURSE", "tagalog-pimsleur")
 TRANSCRIPTS_DIR = ROOT / "transcripts"
 RAW_DIR = TRANSCRIPTS_DIR / "raw"
 ENRICHED_DIR = TRANSCRIPTS_DIR / "enriched"
@@ -271,6 +276,7 @@ def enrich(api_key, raw_path, model, force=False, batch_size=30):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--course", default="tagalog-pimsleur")
     parser.add_argument("--key-file", default="~/.config/victor/openai_api_key")
     parser.add_argument("--model", default="gpt-4o-mini")
     parser.add_argument("--track")

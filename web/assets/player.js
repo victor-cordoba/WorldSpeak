@@ -1,234 +1,17 @@
-const audioBase = './audio/';
-const assetVersion = '20260701-4';
-const tracks = [];
-
-for (let lesson = 1; lesson <= 30; lesson += 1) {
-  const num = String(lesson).padStart(2, '0');
-  tracks.push({
-    id: `lesson-${num}-main`,
-    lesson,
-    kind: 'main',
-    title: `Lección ${num}`,
-    file: `Lesson ${num} Main.mp3`
-  });
+// WorldSpeak · reproductor genérico de cursos.
+// Lee la configuración del curso de window.WORLDSPEAK_COURSE (cargado por boot.js
+// desde ./course.json) y no contiene nada específico de un idioma.
+const course = window.WORLDSPEAK_COURSE;
+if (!course || !Array.isArray(course.tracks)) {
+  throw new Error('WorldSpeak: falta window.WORLDSPEAK_COURSE (course.json)');
 }
-
-for (let reading = 1; reading <= 20; reading += 1) {
-  const num = String(reading).padStart(2, '0');
-  const pairedLesson = reading + 10;
-  tracks.push({
-    id: `lesson-${num}-readings`,
-    lesson: pairedLesson,
-    readingNumber: reading,
-    kind: 'readings',
-    title: `Lectura ${num}`,
-    subtitle: `Para después de la lección ${String(pairedLesson).padStart(2, '0')}`,
-    file: `Lesson ${num} Readings.mp3`
-  });
-}
-
-const trackCopy = {
-  'lesson-01-main': {
-    title: 'Primer contacto',
-    subtitle: 'Saludar, preguntar si entiende inglés y decir que hablas un poco.'
-  },
-  'lesson-02-main': {
-    title: 'Entender Tagalog',
-    subtitle: 'Confirmar si entiende el idioma y responder con konti.'
-  },
-  'lesson-03-main': {
-    title: 'Saludar y responder',
-    subtitle: 'Preguntar cómo está y decir que entiendes solo un poco.'
-  },
-  'lesson-04-main': {
-    title: 'Nacionalidad y talento',
-    subtitle: 'Decir de dónde eres y pedir ayuda para ubicarte.'
-  },
-  'lesson-05-main': {
-    title: 'Pedir indicaciones',
-    subtitle: 'Preguntar por calles y decir a dónde quieres ir.'
-  },
-  'lesson-06-main': {
-    title: 'Querer comer',
-    subtitle: 'Proponer comer arroz y responder sí o no.'
-  },
-  'lesson-07-main': {
-    title: 'Plan para comer',
-    subtitle: 'Elegir dónde comer y qué quieres beber.'
-  },
-  'lesson-08-main': {
-    title: 'Pedir bebidas',
-    subtitle: 'Decir qué quieres tomar y rechazar opciones.'
-  },
-  'lesson-09-main': {
-    title: 'Qué hacemos hoy',
-    subtitle: 'Proponer planes, compañía y preguntar la hora.'
-  },
-  'lesson-10-main': {
-    title: 'Quedar más tarde',
-    subtitle: 'Acordar hora para comer usando mamaya na lang.'
-  },
-  'lesson-11-main': {
-    title: 'Hora y disponibilidad',
-    subtitle: 'Proponer horarios y decir que no puedes.'
-  },
-  'lesson-12-main': {
-    title: 'Saludo y cena',
-    subtitle: 'Preguntar cómo está y quedar para mañana por la noche.'
-  },
-  'lesson-13-main': {
-    title: 'Llamada y precios',
-    subtitle: 'Hacer planes por teléfono y preguntar cuánto cuesta.'
-  },
-  'lesson-14-main': {
-    title: 'Comprar periódico',
-    subtitle: 'Pedir algo, preguntar precio y hablar de dólares o pesos.'
-  },
-  'lesson-15-main': {
-    title: 'Comprar comida',
-    subtitle: 'Hablar del dinero disponible para arroz y café.'
-  },
-  'lesson-16-main': {
-    title: 'Para quién es',
-    subtitle: 'Preguntar destinatarios, paquetes y cantidades de dinero.'
-  },
-  'lesson-17-main': {
-    title: 'Ir de compras',
-    subtitle: 'Decir que quieres comprar y que te falta dinero.'
-  },
-  'lesson-18-main': {
-    title: 'Comprar un libro',
-    subtitle: 'Pedir dinero y hablar de precios.'
-  },
-  'lesson-19-main': {
-    title: 'Pedir en un bar',
-    subtitle: 'Pedir cerveza, café y solicitar que repitan.'
-  },
-  'lesson-20-main': {
-    title: 'Presentaciones',
-    subtitle: 'Recibir a alguien y preguntar por la familia.'
-  },
-  'lesson-21-main': {
-    title: 'Hijos y edades',
-    subtitle: 'Decir si tienes hijos y cuántos años tienen.'
-  },
-  'lesson-22-main': {
-    title: 'Familia con cortesía',
-    subtitle: 'Usar po y opo hablando de hijos y familia.'
-  },
-  'lesson-23-main': {
-    title: 'Familia y viaje',
-    subtitle: 'Preguntar cuántos son y preparar indicaciones.'
-  },
-  'lesson-24-main': {
-    title: 'Gasolina y coche',
-    subtitle: 'Preguntar precios, litros y si tienen coche.'
-  },
-  'lesson-25-main': {
-    title: 'Direcciones a Manila',
-    subtitle: 'Girar izquierda, derecha, seguir recto y hablar de distancia.'
-  },
-  'lesson-26-main': {
-    title: 'Compras de noche',
-    subtitle: 'Preguntar si puedes ir a Manila y explicar por qué.'
-  },
-  'lesson-27-main': {
-    title: 'Planes a Tagaytay',
-    subtitle: 'Hablar de ir, acompañar y comprar cosas.'
-  },
-  'lesson-28-main': {
-    title: 'Salir de viaje',
-    subtitle: 'Ir a Banawe, viajar juntos y decir cuánto te quedas.'
-  },
-  'lesson-29-main': {
-    title: 'Qué significa',
-    subtitle: 'Preguntar cómo está y aclarar el significado de una frase.'
-  },
-  'lesson-30-main': {
-    title: 'Tiempo de estancia',
-    subtitle: 'Decir cuánto llevas aquí y cuánto tiempo te quedas.'
-  },
-  'lesson-01-readings': {
-    title: 'Ortografía y sonido',
-    subtitle: 'Fijar pronunciación con la escritura del Tagalog.'
-  },
-  'lesson-02-readings': {
-    title: 'Vocales básicas',
-    subtitle: 'Leer saludos y preguntas con vocales claras.'
-  },
-  'lesson-03-readings': {
-    title: 'E e I',
-    subtitle: 'Distinguir vocales y primeras combinaciones.'
-  },
-  'lesson-04-readings': {
-    title: 'Vocales juntas',
-    subtitle: 'Practicar vocales adyacentes y acentos.'
-  },
-  'lesson-05-readings': {
-    title: 'Sonido NG',
-    subtitle: 'Leer combinaciones con ng y pausas.'
-  },
-  'lesson-06-readings': {
-    title: 'Acento grave',
-    subtitle: 'Entender marcas de acento y paradas glotales.'
-  },
-  'lesson-07-readings': {
-    title: 'Acento circunflejo',
-    subtitle: 'Pronunciar cierres glotales al final.'
-  },
-  'lesson-08-readings': {
-    title: 'Números y contracciones',
-    subtitle: 'Leer números y frases cortas.'
-  },
-  'lesson-09-readings': {
-    title: 'Ritmo de frases',
-    subtitle: 'Practicar sonidos repetidos y descripciones.'
-  },
-  'lesson-10-readings': {
-    title: 'Sin marcas de acento',
-    subtitle: 'Leer frases cotidianas completas.'
-  },
-  'lesson-11-readings': {
-    title: 'Frases de duración',
-    subtitle: 'Practicar tagal, galing y expresiones de tiempo.'
-  },
-  'lesson-12-readings': {
-    title: 'Café y respuestas',
-    subtitle: 'Leer deseos, negaciones y preguntas comunes.'
-  },
-  'lesson-13-readings': {
-    title: 'Lejos y más tarde',
-    subtitle: 'Entrenar acento en frases completas.'
-  },
-  'lesson-14-readings': {
-    title: 'Formal e informal',
-    subtitle: 'Contrastar pronunciación cuidada y conversacional.'
-  },
-  'lesson-15-readings': {
-    title: 'Combinaciones SIY/DIY',
-    subtitle: 'Suavizar combinaciones frecuentes.'
-  },
-  'lesson-16-readings': {
-    title: 'U y números',
-    subtitle: 'Leer palabras cortas, números y vocal U.'
-  },
-  'lesson-17-readings': {
-    title: 'Preguntar y escuchar',
-    subtitle: 'Frases útiles para pedir y atender.'
-  },
-  'lesson-18-readings': {
-    title: 'Negación y cantidad',
-    subtitle: 'Practicar hindi, konti y agradecimientos.'
-  },
-  'lesson-19-readings': {
-    title: 'Tagalog conversacional',
-    subtitle: 'Estructura de frases y pronunciación natural.'
-  },
-  'lesson-20-readings': {
-    title: 'Compras y horarios',
-    subtitle: 'Leer frases de compra, comida y preguntas.'
-  }
-};
+const courseId = course.id;
+const audioBase = course.audioBase || './audio/';
+const transcriptsBase = course.transcriptsBase || './transcripts/';
+const assetVersion = course.version || '0';
+const tracks = course.tracks.map((track) => ({ ...track }));
+const trackCopy = Object.fromEntries(tracks.filter((track) => track.copy).map((track) => [track.id, track.copy]));
+const kindLabels = course.kinds || {};
 
 const icons = {
   play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.4v13.2L18.5 12 8 5.4Z" fill="currentColor"/></svg>',
@@ -307,9 +90,9 @@ const accountLast = document.querySelector('#accountLast');
 const accountContinue = document.querySelector('#accountContinue');
 const accountLogout = document.querySelector('#accountLogout');
 
-const progressStorageKey = 'tagalog-progress-v1';
-const accountStorageKey = 'tagalog-account-session-v1';
-const apiEndpoint = './api.php';
+const progressStorageKey = `ws:${courseId}:progress`;
+const accountStorageKey = 'ws:session';
+const apiEndpoint = (course.api || '../api/') + 'index.php';
 let progressState = loadProgressState();
 let accountSession = loadAccountSession();
 let accountUser = accountSession?.user || null;
@@ -317,16 +100,16 @@ let pendingSeekTime = null;
 let saveTimer = null;
 let lastListeningTick = null;
 let suppressNextMetadataPersist = false;
-let currentId = progressState.currentId || localStorage.getItem('tagalog-current') || tracks[0].id;
+let currentId = progressState.currentId || localStorage.getItem(`ws:${courseId}:current`) || tracks[0].id;
 let filter = 'all';
 let transcriptIndex = new Map();
 let transcriptOpen = false;
-let showTranslations = localStorage.getItem('tagalog-show-translations') !== '0';
+let showTranslations = localStorage.getItem('ws:show-translations') !== '0';
 let playerVisible = false;
 let dictionaryLoaded = false;
 let dictionaryEntries = [];
 const transcriptCache = new Map();
-const done = new Set(progressState.done?.length ? progressState.done : JSON.parse(localStorage.getItem('tagalog-done') || '[]'));
+const done = new Set(progressState.done?.length ? progressState.done : JSON.parse(localStorage.getItem(`ws:${courseId}:done`) || '[]'));
 
 function srcFor(track) {
   return audioBase + encodeURIComponent(track.file);
@@ -468,11 +251,11 @@ function normalizeProgressState(value = {}) {
 function loadProgressState() {
   const saved = safeJsonParse(localStorage.getItem(progressStorageKey) || 'null', null);
   const state = normalizeProgressState(saved);
-  const legacyDone = safeJsonParse(localStorage.getItem('tagalog-done') || '[]', []);
+  const legacyDone = safeJsonParse(localStorage.getItem(`ws:${courseId}:done`) || '[]', []);
   if (!state.done.length && Array.isArray(legacyDone) && legacyDone.length) {
     state.done = legacyDone.filter(Boolean);
   }
-  const legacyCurrent = localStorage.getItem('tagalog-current');
+  const legacyCurrent = localStorage.getItem(`ws:${courseId}:current`);
   if (!saved && legacyCurrent && tracks.some((track) => track.id === legacyCurrent)) {
     state.currentId = legacyCurrent;
   }
@@ -531,8 +314,8 @@ function saveProgressLocal() {
   progressState.currentId = currentId;
   progressState.updatedAt = new Date().toISOString();
   localStorage.setItem(progressStorageKey, JSON.stringify(progressState));
-  localStorage.setItem('tagalog-current', currentId);
-  localStorage.setItem('tagalog-done', JSON.stringify([...done]));
+  localStorage.setItem(`ws:${courseId}:current`, currentId);
+  localStorage.setItem(`ws:${courseId}:done`, JSON.stringify([...done]));
 }
 
 function accountHeaders() {
@@ -548,7 +331,7 @@ async function accountRequest(action, payload = {}) {
     method: 'POST',
     headers: accountHeaders(),
     credentials: 'same-origin',
-    body: JSON.stringify({ action, ...payload })
+    body: JSON.stringify({ action, course: courseId, ...payload })
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok || !data.ok) {
@@ -838,7 +621,7 @@ function updateCurrentSegment() {
 }
 
 function saveDone() {
-  localStorage.setItem('tagalog-done', JSON.stringify([...done]));
+  localStorage.setItem(`ws:${courseId}:done`, JSON.stringify([...done]));
   saveProgressLocal();
   updateStats();
   updateAccountUi();
@@ -926,7 +709,7 @@ function updateMediaSession(track) {
     if ('MediaMetadata' in window) {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: track.title,
-        artist: 'Aprende Tagalog',
+        artist: course.title || 'WorldSpeak',
         album: track.kind === 'main' ? 'Audio principal' : 'Lecturas'
       });
     }
@@ -942,7 +725,7 @@ function updateMediaSession(track) {
 
 function languageLabel(language) {
   return {
-    tl: 'Tagalog',
+    tl: course.language?.name || 'Idioma',
     en: 'Inglés',
     mixed: 'Mixto',
     other: 'Otro'
@@ -1196,7 +979,7 @@ async function renderTranscript(track) {
 
   try {
     if (!transcriptCache.has(track.id)) {
-      const response = await fetch(`${entry.enriched}?v=${assetVersion}`, { cache: 'no-store' });
+      const response = await fetch(`${transcriptsBase}${String(entry.enriched).replace(/^transcripts\//, '')}?v=${assetVersion}`, { cache: 'no-store' });
       if (!response.ok) {
         throw new Error(`Transcript HTTP ${response.status}`);
       }
@@ -1231,7 +1014,7 @@ async function renderTranscript(track) {
 
 async function loadTranscriptIndex() {
   try {
-    const response = await fetch(`./transcripts/index.json?v=${assetVersion}`, { cache: 'no-store' });
+    const response = await fetch(`${transcriptsBase}index.json?v=${assetVersion}`, { cache: 'no-store' });
     if (!response.ok) {
       return;
     }
@@ -1277,10 +1060,10 @@ function createDictionaryCard(entry) {
   card.className = `dictionary-card dictionary-${entry.type || 'entry'}`;
 
   const tagalog = document.createElement('h3');
-  tagalog.textContent = entry.tagalog || '';
+  tagalog.textContent = entry.term || entry.tagalog || '';
 
   const spanish = document.createElement('p');
-  spanish.textContent = entry.spanish || '';
+  spanish.textContent = entry.translation || entry.spanish || '';
 
   const meta = document.createElement('div');
   meta.className = 'dictionary-meta';
@@ -1331,7 +1114,7 @@ function renderDictionary() {
   const q = normalizeText(dictionarySearch.value.trim());
   const matches = dictionaryEntries.filter((entry) => {
     const haystack = normalizeText(
-      `${entry.tagalog || ''} ${entry.spanish || ''} ${entry.topic || ''} ${(entry.sources || []).join(' ')} ${dictionaryTypeLabel(entry.type)}`
+      `${entry.term || entry.tagalog || ''} ${entry.translation || entry.spanish || ''} ${entry.topic || ''} ${(entry.sources || []).join(' ')} ${dictionaryTypeLabel(entry.type)}`
     );
     return !q || haystack.includes(q);
   });
@@ -1374,7 +1157,7 @@ async function loadDictionary() {
   dictionaryStats.textContent = '';
 
   try {
-    const response = await fetch(`./transcripts/dictionary.json?v=${assetVersion}`, { cache: 'no-store' });
+    const response = await fetch(`${transcriptsBase}dictionary.json?v=${assetVersion}`, { cache: 'no-store' });
     if (!response.ok) {
       throw new Error(`Dictionary HTTP ${response.status}`);
     }
@@ -1413,7 +1196,7 @@ function selectTrack(id, autoplay = true, options = {}) {
   }
   const track = tracks.find((item) => item.id === id) || tracks[0];
   currentId = track.id;
-  localStorage.setItem('tagalog-current', currentId);
+  localStorage.setItem(`ws:${courseId}:current`, currentId);
   if (showPlayer) {
     setPlayerVisible(true);
   }
@@ -1755,7 +1538,7 @@ progress.addEventListener('input', () => {
 
 speed.addEventListener('change', () => {
   player.playbackRate = Number(speed.value);
-  localStorage.setItem('tagalog-speed', speed.value);
+  localStorage.setItem('ws:speed', speed.value);
 });
 
 transcriptToggle.addEventListener('click', () => {
@@ -1772,7 +1555,7 @@ transcriptClose.addEventListener('click', () => {
 
 translationToggle.addEventListener('click', () => {
   showTranslations = !showTranslations;
-  localStorage.setItem('tagalog-show-translations', showTranslations ? '1' : '0');
+  localStorage.setItem('ws:show-translations', showTranslations ? '1' : '0');
   setTranslationState();
 });
 
@@ -1899,7 +1682,7 @@ chips.forEach((chip) => {
   });
 });
 
-speed.value = localStorage.getItem('tagalog-speed') || '1';
+speed.value = localStorage.getItem('ws:speed') || '1';
 iconButton(prevTrack, 'previous', 'Anterior');
 iconButton(nextTrack, 'next', 'Siguiente');
 iconButton(dictionaryClose, 'close', 'Cerrar diccionario');

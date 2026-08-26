@@ -1,96 +1,99 @@
 # CLAUDE.md
 
-Contexto para Claude Code al trabajar en este repositorio.
+Contexto para Claude Code al trabajar en WorldSpeak. Este archivo se publica en
+el repositorio a propósito: es documentación viva del proyecto.
 
 ## QUÉ ES
 
-Reproductor web de un curso de Tagalog en audio, con transcripción
-sincronizada, traducción al español y diccionario. En producción en
-`https://misioncebu.org/tagalog/`. Usuario objetivo: **una persona
-hispanohablante estudiando Tagalog en el bus, en el móvil**.
+Plataforma para aprender idiomas escuchando y repitiendo (método Pimsleur),
+con transcripción sincronizada, traducción al español y diccionario. Un hub
+con varios cursos y una cuenta única cuyo progreso viaja entre dispositivos.
+
+- Producción: `https://victorcordoba.com/worldspeak/` (Hostinger, alias SSH `PERSONAL_SERVER`)
+- Repo: `https://github.com/victor-cordoba/WorldSpeak` (remote por alias SSH `github-victor`)
+- Usuario objetivo: hispanohablante estudiando en el móvil, en el bus, para la misión en Filipinas.
+
+## MAPA
+
+```
+web/                      ← lo que se despliega, tal cual, a /worldspeak
+  index.html courses.json ← hub (assets/hub.js + hub.css)
+  assets/player.js        ← reproductor GENÉRICO: no sabe de ningún idioma
+  assets/boot.js          ← lee ./course.json y lanza el player
+  api/index.php           ← backend v2 (PDO; MySQL si hay config.php, si no SQLite)
+  <curso>/                ← una carpeta por curso = una URL /worldspeak/<curso>/
+     index.html course.json transcripts/ audio/ scripts/ _clips/
+pipeline/                 ← transcribe.py enrich.py build_dictionary.py (--course)
+pipeline/voice/           ← generador de lecciones con ElevenLabs (método Pimsleur)
+scripts/deploy.sh         ← rsync a producción
+docs/                     ← empieza por 08-worldspeak.md
+```
 
 ## REGLAS DURAS
 
-- **Cero dependencias en el frontend.** No hay build, no hay `package.json`,
-  no hay React, no hay bundler. HTML + CSS + JS vanilla. **No propongas
-  añadir un framework ni un paso de build.** Se despliega copiando archivos
-  y esa es una decisión deliberada, no una limitación.
-- **Nada de audio ni transcripciones en git.** El audio es material de
-  Pimsleur con copyright y las transcripciones son obra derivada. Están en
-  `.gitignore`. Si algo genera datos nuevos bajo `transcripts/`, comprueba
-  que sigue ignorado antes de commitear.
-- **La API key de OpenAI nunca va en el repo.** Se lee de
-  `~/.config/victor/openai_api_key`. Los scripts validan el formato antes de
-  usarla.
-- **El sitio es privado.** `noindex, nofollow, noarchive` en el `<meta>` y en
-  `.htaccess`. No lo quites.
-- **Interfaz en español, código en inglés.** Todos los textos que ve el
-  usuario van en español de España. Nombres de variables y funciones en
-  inglés.
+- **Cero dependencias y cero build en el frontend.** HTML + CSS + JS vanilla.
+  No propongas React, bundlers ni npm. Se despliega copiando archivos.
+- **El player es genérico.** Nada específico de un idioma en `assets/`. Todo lo
+  particular de un curso vive en su `course.json` y su `index.html`.
+- **Claves fuera del repo, siempre.** `~/.config/victor/openai_api_key` y
+  `~/.config/victor/elevenlabs_api_key`. `web/api/config.php` está ignorado.
+  Si ves una clave en un diff, para y avisa.
+- **Contenido con copyright fuera de git.** `tagalog-pimsleur/audio` y sus
+  `transcripts/` son obra derivada de Pimsleur: ignorados. Los cursos PROPIOS
+  (`tagalog/`, `bisaya/`) sí versionan guiones y transcripciones; el audio y
+  `_clips/` no (se regeneran).
+- **No clonar voces de personas reales sin su consentimiento.** Se usan voces
+  de la Voice Library de ElevenLabs o Voice Design. Ver `pipeline/voice/voices.json`.
+- **Sitio privado:** `noindex, nofollow, noarchive` en meta y `.htaccess`.
+- **Interfaz en español de España, código en inglés.**
 
 ## AL TOCAR EL FRONTEND
 
-`index.html`, `app.js` y `styles.css` llevan un query param de versión para
-romper la caché:
+Cache busting en tres sitios: `?v=` de CSS y boot.js en cada `index.html`, y
+`"version"` en cada `course.json` (es lo que cachebustea player.js y los JSON
+de transcripts). Formato `AAAAMMDD-N`. Si no lo subes, nadie ve el cambio.
 
-```html
-<link rel="stylesheet" href="./styles.css?v=20260701-4">
-<script src="./app.js?v=20260701-4"></script>
-```
-
-Y `app.js` tiene la constante `assetVersion` en la línea 2, que se usa para
-cachebustear los JSON de `transcripts/`.
-
-**Si cambias `app.js`, `styles.css` o cualquier JSON de datos, sube la
-versión en los TRES sitios.** Formato `AAAAMMDD-N`. Si no lo haces, los
-usuarios siguen viendo la versión vieja y parece que el cambio no funciona.
-
-`styles.css` empieza con un bloque `:root` de variables. Usa esos tokens
-(`--blue`, `--red`, `--gold` son los colores de la bandera filipina), no
-metas colores a pelo.
-
-Solo hay dos breakpoints: `min-width: 761px` y `max-width: 760px`.
-
-## AL TOCAR EL PIPELINE
-
-Los tres scripts de `scripts/` son secuenciales y **cachean en disco por
-archivo**. Están escritos así a propósito: procesar las 50 pistas cuesta
-dinero en llamadas a la API, y una caída a mitad no debe obligar a repetir
-todo. Nunca borres el caché ni fuerces recálculo sin `--force` explícito.
-
-Orden obligatorio: `transcribe_tagalog.py` -> `enrich_transcripts.py` ->
-`build_dictionary.py`. Cada uno lee la salida del anterior.
-
-`transcribe_tagalog.py` y `enrich_transcripts.py` usan `urllib` de la
-librería estándar, no `requests`. Mantenlo así: los scripts corren sin
-instalar nada.
+Tokens de color en `:root` de `assets/player.css` (bandera filipina). Dos
+breakpoints: 761px. `hub.css` reutiliza esos tokens.
 
 ## AL TOCAR LA API
 
-`api.php` acepta POST con `{"action": ...}`. Acciones: `login`, `logout`,
-`me`, `save`. Autenticación por `Authorization: Bearer <token>`.
+`POST web/api/index.php` con `{ action, course, ... }` y `Authorization: Bearer`.
+Acciones: `login`, `me`, `save`, `overview`, `logout`. Progreso guardado POR
+CURSO (`ws_progress` PK user+course). El cliente fusiona (`mergeProgress()` en
+player.js), nunca pisa. El id de usuario es `sha256(nombre normalizado)`, igual
+que la v1: no lo cambies o los usuarios migrados pierden la cuenta.
 
-La sincronización de progreso **fusiona, no pisa** (`mergeProgress()` en
-`app.js`). Si tocas el formato de `progressState`, actualiza
-`normalizeProgressState()` para que las sesiones viejas sigan cargando.
+Sin `config.php` la API usa SQLite en `web/api/.private/worldspeak.sqlite`
+(así está hoy en producción). Para pasar a MySQL: crear la BD en hPanel y
+`config.php` a partir de `config.example.php`; el esquema se crea solo.
+
+## AL GENERAR LECCIONES (ElevenLabs)
+
+```bash
+export PATH=/opt/homebrew/bin:$PATH     # ffmpeg
+cd pipeline/voice
+python3 generate_lesson.py --course tagalog --lesson 2 --minutes 25 --theme "..." --dry-run   # cuenta caracteres
+python3 generate_lesson.py --course tagalog --lesson 2 --minutes 25 --theme "..."             # genera
+```
+
+Orden: `write_script.py` (GPT escribe el guion Pimsleur) → `synth.py` (ElevenLabs,
+cachea cada clip por hash) → `assemble.py` (ffmpeg + escribe transcripts con
+tiempos EXACTOS, sin Whisper) → `build_dictionary.py`. Siempre `--dry-run`
+primero: el plan actual de ElevenLabs tiene 10.000 caracteres/mes y una lección
+de 25 min gasta ~9.000. Relanzar nunca regenera clips ya en caché.
 
 ## COMANDOS
 
 ```bash
-python3 -m http.server 8000          # servir en local
-python3 scripts/transcribe_tagalog.py --track lesson-01-main   # una sola pista
-python3 scripts/build_dictionary.py  # regenerar diccionario (rápido, sin API)
+python3 -m http.server 8000 -d web           # local (sin API; para API hace falta php)
+scripts/deploy.sh                            # código + transcripts
+rsync -az web/tagalog/audio/ PERSONAL_SERVER:~/domains/victorcordoba.com/public_html/worldspeak/tagalog/audio/
+python3 pipeline/build_dictionary.py --course tagalog-pimsleur
 ```
 
-## DESPLIEGUE
+## AL TERMINAR UNA TAREA
 
-Servidor Dinahosting por SSH, alias `DINAHOSTING_mision_cebu`. Se sube con
-rsync excluyendo `transcripts/enriched_batches/` y `transcripts/chunks/`.
-Ver `docs/05-despliegue.md`.
-
-## GIT
-
-Este repo usa el GitHub **personal** de Víctor (`victor-cordoba`), no el de
-Fundación Hakuna. El remote va por el alias SSH `github-victor`, no por
-`github.com`. Si el remote apunta a `git@github.com:...` está mal y hará
-push con la identidad equivocada.
+Actualiza `CHANGELOG.md` (sección `[Sin publicar]`) y, si cambia algo de
+arquitectura, el doc correspondiente en `docs/`. Commit en español, cuerpo
+explicando el porqué. Push a `origin main`.

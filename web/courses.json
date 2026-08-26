@@ -1,0 +1,53 @@
+{
+  "version": "20260826-1",
+  "courses": [
+    {
+      "id": "tagalog-pimsleur",
+      "title": "Tagalog",
+      "subtitle": "Método Pimsleur · 30 lecciones + 20 lecturas",
+      "language": {
+        "code": "tl",
+        "name": "Tagalog",
+        "country": "Filipinas",
+        "flag": "ph"
+      },
+      "description": "Media hora al día. Escucha y repite. Transcripción sincronizada, traducción al español y diccionario.",
+      "tracks": 50,
+      "hours": 25,
+      "status": "live",
+      "path": "./tagalog-pimsleur/"
+    },
+    {
+      "id": "tagalog",
+      "title": "Tagalog propio",
+      "subtitle": "Método Pimsleur · voces nativas · LECCIÓN DE PRUEBA",
+      "language": {
+        "code": "tl",
+        "name": "Tagalog",
+        "country": "Filipinas",
+        "flag": "ph"
+      },
+      "description": "Curso propio de WorldSpeak, con diálogos para la misión en Tondo y Cebú. Primera lección de prueba (5 min) para ajustar voces y ritmo.",
+      "tracks": 1,
+      "hours": 0,
+      "status": "live",
+      "path": "./tagalog/"
+    },
+    {
+      "id": "bisaya",
+      "title": "Bisaya",
+      "subtitle": "Cebuano · en preparación",
+      "language": {
+        "code": "ceb",
+        "name": "Cebuano",
+        "country": "Filipinas (Cebú)",
+        "flag": "ph"
+      },
+      "description": "El idioma de Cebú. Mismo método, mismas voces.",
+      "tracks": 0,
+      "hours": 0,
+      "status": "soon",
+      "path": "./bisaya/"
+    }
+  ]
+}

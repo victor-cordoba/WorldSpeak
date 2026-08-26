@@ -3,11 +3,10 @@
 Todo el backend es **un archivo**: `api.php`. Es lo único dinámico del
 sistema. Todo lo demás son archivos estáticos.
 
-> **Nota:** `api.php` vive solo en el servidor de producción. En el momento
-> de escribir esta documentación el acceso SSH estaba caído, así que este
-> documento describe **el contrato** tal y como lo consume `app.js`,
-> verificado contra el endpoint en producción. Cuando se recupere el acceso,
-> hay que copiar el archivo real al repositorio.
+> **Nota (26/08/2026):** este documento describe la **v1** (`web/api/legacy-api-v1.php`,
+> recuperada del servidor). La v2 multi-curso está en `web/api/index.php` y se
+> documenta en [08 · WorldSpeak](08-worldspeak.md). El modelo de PIN y la fusión
+> de progreso siguen siendo exactamente estos.
 
 ---
 

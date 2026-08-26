@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 import argparse
+import sys as _sys
+if "--course" in _sys.argv:
+    import os as _os
+    _os.environ["WS_COURSE"] = _sys.argv[_sys.argv.index("--course") + 1]
 import json
 import subprocess
 import sys
@@ -10,7 +14,8 @@ import uuid
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1]
+import os
+ROOT = Path(__file__).resolve().parents[1] / "web" / os.environ.get("WS_COURSE", "tagalog-pimsleur")
 AUDIO_DIR = ROOT / "audio"
 OUT_DIR = ROOT / "transcripts"
 RAW_DIR = OUT_DIR / "raw"
@@ -280,6 +285,7 @@ def transcribe_track(api_key, track, args):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--course", default="tagalog-pimsleur")
     parser.add_argument("--key-file", default="~/.config/victor/openai_api_key")
     parser.add_argument("--model", default="whisper-1")
     parser.add_argument("--timestamps", action=argparse.BooleanOptionalAction, default=True)

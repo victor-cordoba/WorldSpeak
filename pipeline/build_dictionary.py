@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 import json
+import os
+import sys
+if "--course" in sys.argv:
+    os.environ["WS_COURSE"] = sys.argv[sys.argv.index("--course") + 1]
 import re
 from collections import OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1]
+import os
+ROOT = Path(__file__).resolve().parents[1] / "web" / os.environ.get("WS_COURSE", "tagalog-pimsleur")
 TRANSCRIPTS = ROOT / "transcripts"
 ENRICHED = TRANSCRIPTS / "enriched"
 INDEX = TRANSCRIPTS / "index.json"

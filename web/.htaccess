@@ -1,0 +1,11 @@
+Options -Indexes
+DirectoryIndex index.html index.php
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>
+
+# Archivos del repositorio que no deben servirse
+<FilesMatch "^(\.gitignore|\.htaccess|.*\.md|.*\.sql|config\.php)$">
+  Require all denied
+</FilesMatch>

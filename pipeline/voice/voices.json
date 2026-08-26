@@ -1,0 +1,29 @@
+{
+  "_doc": "Voces de ElevenLabs por rol. Todas son de la Voice Library (cedidas por sus dueños), añadidas a la cuenta con POST /v1/voices/add. Modelo eleven_v3 en todas.",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "roles": {
+    "narrator": {
+      "voice_id": "4R9s73RrCF4wi6GqmzrT",
+      "name": "Gabriel Blanco (narrador, español peninsular)",
+      "language_code": "es",
+      "voice_settings": { "stability": 0.55, "similarity_boost": 0.85, "style": 0.2, "use_speaker_boost": true }
+    },
+    "native_m": {
+      "voice_id": "u1CVBnSUn9JiL8ssgd2v",
+      "name": "Juanito (filipino, hombre)",
+      "language_code": "fil",
+      "voice_settings": { "stability": 0.6, "similarity_boost": 0.85, "style": 0.15, "use_speaker_boost": true }
+    },
+    "native_f": {
+      "voice_id": "6LXO12QQcaZd6xGp9UIZ",
+      "name": "Cielle (filipina, mujer)",
+      "language_code": "fil",
+      "voice_settings": { "stability": 0.6, "similarity_boost": 0.85, "style": 0.15, "use_speaker_boost": true }
+    }
+  },
+  "languages": {
+    "tl":  { "name": "Tagalog", "elevenlabs": "fil" },
+    "ceb": { "name": "Cebuano", "elevenlabs": null }
+  }
+}
