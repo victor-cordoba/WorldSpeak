@@ -1,167 +1,160 @@
 {
-  "title": "¿Estás feliz?",
-  "subtitle": "Aprender a preguntar y expresar sentimientos",
+  "title": "¿Te quieren?",
+  "subtitle": "Expresar y preguntar por el cariño y el estado emocional",
   "summary_es": "Una frase",
   "topics": [
-    "sentimientos",
-    "preguntas",
-    "respuestas",
-    "emociones"
+    "familia",
+    "corazon",
+    "pregunta",
+    "entender"
   ],
   "dialogue": {
     "tl": [
-      "Malipayon ka?",
-      "Oo, nalipay ko.",
-      "Ngano man?",
-      "Kay maayo ang panahon.",
-      "Magul-anon ka?",
-      "Dili, OK ra.",
-      "Nahadlok ka?",
-      "Dili, gikapoy lang ko."
+      "Kumusta ka, dong?",
+      "Maayo ra.",
+      "Gihigugma ka sa imong mama?",
+      "Oo, gihigugma ko niya.",
+      "Buotan ba sila nimo?",
+      "Oo, buotan sila.",
+      "Nalipay ko nga nagkaila ta.",
+      "Ako pud, nalipay ko."
     ],
     "es": [
-      "¿Estás feliz?",
-      "Sí, estoy feliz.",
-      "¿Por qué?",
-      "Porque el tiempo está bien.",
-      "¿Estás triste?",
-      "No, está bien.",
-      "¿Tienes miedo?",
-      "No, solo estoy cansado."
+      "¿Cómo estás, niño?",
+      "Bien.",
+      "¿Te quiere tu mamá?",
+      "Sí, me quiere.",
+      "¿Son buenos contigo?",
+      "Sí, son buenos.",
+      "Me alegra que nos hayamos conocido.",
+      "Yo también, estoy feliz."
     ]
   },
   "vocabulary": [
     {
-      "term": "Malipayon ka?",
-      "es": "¿Estás feliz?"
+      "term": "Gihigugma ka sa imong mama?",
+      "es": "¿Te quiere tu mamá?"
     },
     {
-      "term": "Magul-anon ka?",
-      "es": "¿Estás triste?"
+      "term": "Gihigugma nimo sila?",
+      "es": "¿Los quieres?"
     },
     {
-      "term": "Ngano man?",
-      "es": "¿Por qué?"
+      "term": "Gihigugma tika",
+      "es": "Te quiero"
     },
     {
-      "term": "Nahadlok ka?",
-      "es": "¿Tienes miedo?"
+      "term": "Buotan ba sila nimo?",
+      "es": "¿Son buenos contigo?"
     },
     {
       "term": "Nagdamgo ka?",
       "es": "¿Estás soñando?"
+    },
+    {
+      "term": "Malipayon ka?",
+      "es": "¿Estás feliz?"
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 21. ¿Estás feliz?.",
+      "text": "Lección 22. ¿Te quieren?.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/b8efb5b2e72a9180.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En un parque de Cebu City, un grupo de amigos conversa sobre cómo se sienten. Escucha la conversación.",
+      "text": "En un barrio de Cebú, un voluntario habla con un niño en la calle. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/dde3a4d1b061f977.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Malipayon ka?",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "¿Estás feliz?",
-      "item": null,
-      "clip": "_clips/2bd3f634ac2be8ae.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Oo, nalipay ko.",
+      "text": "Kumusta ka, dong?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, estoy feliz.",
-      "item": null,
-      "clip": "_clips/98d3c334d4452905.mp3"
+      "translation_es": "¿Cómo estás, niño?",
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Ngano man?",
+      "text": "Maayo ra.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Por qué?",
-      "item": null,
-      "clip": "_clips/beed5f769476c296.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Kay maayo ang panahon.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Porque el tiempo está bien.",
-      "item": null,
-      "clip": "_clips/868ad2dcff633f92.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Magul-anon ka?",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "¿Estás triste?",
-      "item": null,
-      "clip": "_clips/65c29d2c83f9a4f6.mp3"
+      "translation_es": "Bien.",
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dili, OK ra.",
+      "text": "Gihigugma ka sa imong mama?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No, está bien.",
-      "item": null,
-      "clip": "_clips/bb35033c2bc2c861.mp3"
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Nahadlok ka?",
+      "text": "Oo, gihigugma ko niya.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Tienes miedo?",
-      "item": null,
-      "clip": "_clips/569cfdd19c0a61ad.mp3"
+      "translation_es": "Sí, me quiere.",
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dili, gikapoy lang ko.",
+      "text": "Buotan ba sila nimo?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No, solo estoy cansado.",
-      "item": null,
-      "clip": "_clips/d0f1abd14865fa1b.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Oo, buotan sila.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, son buenos.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nalipay ko nga nagkaila ta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me alegra que nos hayamos conocido.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Ako pud, nalipay ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también, estoy feliz.",
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprender a preguntar y expresar sentimientos Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Expresar y preguntar por el cariño y el estado emocional Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2fd3ffed5d0e10b8.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -170,8 +163,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2ba7d7346ccc7e9e.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -180,8 +172,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/8624839263c27ab7.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -190,8 +181,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/a8ccd62864d777e0.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -200,8 +190,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2abbfccb1abc1f58.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -210,128 +199,358 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Bien.",
-      "item": "maayo-ra",
-      "clip": "_clips/9fabf5bb13bd7a26.mp3"
+      "item": "maayo-ra"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Entiendes?»?",
+      "text": "¿Cómo se dice «Me alegra que nos hayamos conocido»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/48da05b429564404.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nakasabot ka?",
+      "text": "Nalipay ko nga nagkaila ta.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Entiendes?",
-      "item": "nakasabot-ka",
-      "clip": "_clips/7afbe6f22b17cb9b.mp3"
+      "pause": 3.5,
+      "translation_es": "Me alegra que nos hayamos conocido.",
+      "item": "nalipay-ko-nagkaila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No entiendo».",
+      "text": "Di: «Sí / No».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/4f7958ae27f46cd9.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala ko kasabot.",
+      "text": "Oo / Dili",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No entiendo.",
-      "item": "wala-ko-kasabot",
-      "clip": "_clips/678205ea99a85a72.mp3"
+      "translation_es": "Sí / No",
+      "item": "oo-dili"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "text": "¿Cómo se dice «¡Cuídate»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7da0dfee245e2d66.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Unsa imong ngalan?",
+      "text": "Amping!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "unsa-imong-ngalan",
-      "clip": "_clips/f358a341a4404bf9.mp3"
+      "translation_es": "¡Cuídate!",
+      "item": "amping"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Está en Talisay».",
+      "text": "Di: «¿Dónde estás ahora?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/cd1511ebc3762498.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa sa Talisay.",
+      "text": "Asa ka karun?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Está en Talisay.",
-      "item": "naa-sa-talisay",
-      "clip": "_clips/42f72991ffba5088.mp3"
+      "translation_es": "¿Dónde estás ahora?",
+      "item": "asa-ka-karun"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes buen sueldo?»?",
+      "text": "¿Cómo se dice «Tengo hijos»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/bac9b47e139204c0.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dako imong sweldo?",
+      "text": "Naa koy anak.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes buen sueldo?",
-      "item": "dako-imong-sweldo",
-      "clip": "_clips/b26ee5e201552248.mp3"
+      "translation_es": "Tengo hijos.",
+      "item": "naa-koy-anak"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Estás feliz?». Escucha y repite.",
+      "text": "«¿Te quiere tu mamá?». Literalmente, ¿Eres querido por tu mamá?. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/1f60ce81684ec51f.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma ka sa imong mama?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mama",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "imong mama",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "translation_es": "",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka sa imong mama",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma ka sa imong mama",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma ka sa imong mama?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma ka sa imong mama?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por el cariño de la madre",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Te quiere tu mamá?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma ka sa imong mama?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te quiere tu mamá?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma ka sa imong mama?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Los quieres?». Literalmente, ¿Tú los amas?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma nimo sila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "la",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sila",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "nimo sila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma nimo sila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma nimo sila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma nimo sila?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar si alguien quiere a otros",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Los quieres?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma nimo sila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Los quieres?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma nimo sila?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Te quiero». Literalmente, Te amo. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma tika",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "native_m",
@@ -340,418 +559,214 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "malipayon-ka",
-      "clip": "_clips/14d063966dde3fd5.mp3"
+      "item": "gihigugma-tika"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka",
+      "text": "tika",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gihigugma-tika"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "malipayon-ka",
-      "clip": "_clips/232c45fc118f7346.mp3"
+      "item": "gihigugma-tika"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta sobre el estado emocional",
+      "text": "Expresar amor o cariño",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/dd5a5e78f0c1cebc.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Estás feliz?»?",
+      "text": "¿Cómo se dice «Te quiero»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/73969b5270cefed4.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Estás feliz?».",
+      "text": "Otra vez. «Te quiero».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c315d3da55905b78.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Estás triste?». Escucha y repite.",
+      "text": "«¿Son buenos contigo?». Literalmente, ¿Son amables contigo?. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2dfdf05156033cf3.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Buotan ba sila nimo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ka",
+      "text": "mo",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "magul-anon-ka",
-      "clip": "_clips/14d063966dde3fd5.mp3"
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka",
+      "text": "nimo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "buotan-ba-sila-nimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sila nimo",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "magul-anon-ka",
-      "clip": "_clips/f547daffaad15619.mp3"
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "ba sila nimo",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Buotan ba sila nimo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "buotan-ba-sila-nimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buotan ba sila nimo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buotan ba sila nimo?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta sobre el estado emocional",
+      "text": "Preguntar si alguien es amable",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/dd5a5e78f0c1cebc.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Estás triste?»?",
+      "text": "¿Cómo se dice «¿Son buenos contigo?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2352cc2376c02899.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Buotan ba sila nimo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Estás triste?».",
+      "text": "Otra vez. «¿Son buenos contigo?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/00c3f1bf5ea6ee33.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Buotan ba sila nimo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«¿Por qué?». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/74c1ef901f49b65d.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ngano man?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "man",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ngano-man",
-      "clip": "_clips/faf1befacf7e85ff.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ngano man",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ngano-man",
-      "clip": "_clips/74b7a57045e12f3a.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ngano man?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ngano man?",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "para preguntar la razón de algo",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/289e98ace8779fe7.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Por qué?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/23e5dbdabb834594.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ngano man?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Por qué?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/53377c917b0e7931.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ngano man?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«¿Tienes miedo?». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/65d8690e577546c5.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Nahadlok ka?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ka",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "nahadlok-ka",
-      "clip": "_clips/14d063966dde3fd5.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Nahadlok ka",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "nahadlok-ka",
-      "clip": "_clips/8437114bd1034278.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Nahadlok ka?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Nahadlok ka?",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "pregunta sobre el estado emocional",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/dd5a5e78f0c1cebc.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes miedo?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/570857338dd18922.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Nahadlok ka?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Tienes miedo?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/10c5cfa5b8c74a56.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Nahadlok ka?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "narrator",
@@ -760,28 +775,25 @@
       "kind": "instruction",
       "pause": 0.4,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/be9a10e2ba9013fd.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Estás triste?».",
+      "text": "Y ahora, «¿Los quieres?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/ca7d6d4dbe79efec.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Gihigugma nimo sila?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
     },
     {
       "role": "narrator",
@@ -790,8 +802,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/1c939366115b32fd.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -800,8 +811,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
     },
     {
       "role": "native_m",
@@ -810,8 +820,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/14d063966dde3fd5.mp3"
+      "item": "nagdamgo-ka"
     },
     {
       "role": "native_m",
@@ -820,8 +829,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/e6d509d81b333ae8.mp3"
+      "item": "nagdamgo-ka"
     },
     {
       "role": "native_m",
@@ -830,8 +838,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
     },
     {
       "role": "native_m",
@@ -840,8 +847,7 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
     },
     {
       "role": "narrator",
@@ -850,8 +856,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/30dad46348d0de79.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -860,8 +865,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/bb9c53ccf0983285.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -870,8 +874,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
     },
     {
       "role": "narrator",
@@ -880,8 +883,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/63c97f6179e554dd.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -890,8 +892,133 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás feliz?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta sobre el estado emocional",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás feliz?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Son buenos contigo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Buotan ba sila nimo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "narrator",
@@ -900,68 +1027,61 @@
       "kind": "instruction",
       "pause": 0.4,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/295882ca43b46238.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Tienes familia?».",
+      "text": "Y ahora, «¿Ya has comido?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c508d138c5659511.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay pamilya?",
+      "text": "Nikaon na ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes familia?",
-      "item": "naa-kay-pamilya",
-      "clip": "_clips/26136fb8993b76b2.mp3"
+      "translation_es": "¿Ya has comido?",
+      "item": "nikaon-na-ka"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Preguntar y expresar sentimientos.",
+      "text": "Uso del prefijo 'gi-'.",
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/9bc919479df6f633.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En Bisaya, preguntar sobre los sentimientos se hace con preguntas directas como 'Malipayon ka?' (¿Estás feliz?) o 'Magul-anon ka?' (¿Estás triste?). Las respuestas pueden ser afirmativas o negativas, como 'Oo, nalipay ko.' (Sí, estoy feliz) o 'Dili, gikapoy lang ko.' (No, solo estoy cansado).",
+      "text": "El prefijo 'gi-' se usa para formar frases donde el sujeto es el receptor de la acción. Por ejemplo, 'Gihigugma ka sa imong mama?' significa '¿Te quiere tu mamá?', donde tú eres el receptor del cariño.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/1e4e135d0ef41e68.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma ka sa imong mama?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Gihigugma nimo sila?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
     },
     {
       "role": "narrator",
@@ -970,68 +1090,34 @@
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7d5aa14df50cd375.mp3"
+      "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "OK ra.",
+      "text": "Nagdamgo ka?",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Está bien.",
-      "item": "ok-ra",
-      "clip": "_clips/abd725b95e6d852e.mp3"
+      "translation_es": "¿Estás soñando?",
+      "item": "nagdamgo-ka"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Está bien».",
+      "text": "«¿Estás soñando?».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c858dace7475dbf1.mp3"
+      "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "OK ra.",
+      "text": "Nagdamgo ka?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Está bien.",
-      "item": "ok-ra",
-      "clip": "_clips/abd725b95e6d852e.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gikapoy ko.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Estoy cansado.",
-      "item": "gikapoy-ko",
-      "clip": "_clips/54112b1123d80224.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Estoy cansado».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/2f017964081f3291.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Gikapoy ko.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Estoy cansado.",
-      "item": "gikapoy-ko",
-      "clip": "_clips/54112b1123d80224.mp3"
+      "translation_es": "¿Estás soñando?",
+      "item": "nagdamgo-ka"
     },
     {
       "role": "native_f",
@@ -1040,8 +1126,7 @@
       "kind": "phrase",
       "pause": 2.0,
       "translation_es": "Estoy feliz.",
-      "item": "nalipay-ko",
-      "clip": "_clips/800b1bac4db283a2.mp3"
+      "item": "nalipay-ko"
     },
     {
       "role": "narrator",
@@ -1050,8 +1135,7 @@
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/baea557b2c4bab55.mp3"
+      "item": null
     },
     {
       "role": "native_f",
@@ -1060,8 +1144,61 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "Estoy feliz.",
-      "item": "nalipay-ko",
-      "clip": "_clips/800b1bac4db283a2.mp3"
+      "item": "nalipay-ko"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "OK ra.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Está bien.",
+      "item": "ok-ra"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Está bien».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "OK ra.",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Está bien.",
+      "item": "ok-ra"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás feliz?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
     },
     {
       "role": "narrator",
@@ -1070,48 +1207,43 @@
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/b47ecfe71030e820.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale a un amigo si está feliz.",
+      "text": "Pregunta a un niño si su mamá lo quiere.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/63f1ba0955424795.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma ka sa imong mama?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Responde que estás cansado.",
+      "text": "Expresa que quieres a alguien.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/eba1001ab2e0ab47.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Gikapoy ko.",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Estoy cansado.",
-      "item": "gikapoy-ko",
-      "clip": "_clips/9589ed6e963b797b.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "narrator",
@@ -1120,88 +1252,79 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c1930716c94dd87e.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Estás feliz?».",
+      "text": "Di: «¿Te quiere tu mamá?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/b5b4781f39864d4e.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma ka sa imong mama?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Estás triste?».",
+      "text": "Otra vez. «¿Los quieres?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/00c3f1bf5ea6ee33.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Gihigugma nimo sila?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Por qué?».",
+      "text": "Y ahora, «Te quiero».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/59a014ae4ad6158f.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ngano man?",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes miedo?»?",
+      "text": "¿Cómo se dice «¿Son buenos contigo?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/570857338dd18922.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nahadlok ka?",
+      "text": "Buotan ba sila nimo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "narrator",
@@ -1210,8 +1333,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/413c3f04e427f314.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1220,8 +1342,25 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
     },
     {
       "role": "narrator",
@@ -1230,8 +1369,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/f5ee5dd97c439f7a.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1240,8 +1378,7 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/94c5aac323518ddf.mp3"
+      "item": null
     },
     {
       "role": "narrator",
@@ -1250,8 +1387,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/8624839263c27ab7.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1260,8 +1396,7 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/a8ccd62864d777e0.mp3"
+      "item": "kumusta-ka"
     },
     {
       "role": "narrator",
@@ -1270,8 +1405,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/2abbfccb1abc1f58.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1280,108 +1414,97 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "Bien.",
-      "item": "maayo-ra",
-      "clip": "_clips/9fabf5bb13bd7a26.mp3"
+      "item": "maayo-ra"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Entiendes?»?",
+      "text": "¿Cómo se dice «Me alegra que nos hayamos conocido»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/48da05b429564404.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nakasabot ka?",
+      "text": "Nalipay ko nga nagkaila ta.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Entiendes?",
-      "item": "nakasabot-ka",
-      "clip": "_clips/7afbe6f22b17cb9b.mp3"
+      "pause": 3.5,
+      "translation_es": "Me alegra que nos hayamos conocido.",
+      "item": "nalipay-ko-nagkaila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No entiendo».",
+      "text": "Di: «Sí / No».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/4f7958ae27f46cd9.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala ko kasabot.",
+      "text": "Oo / Dili",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No entiendo.",
-      "item": "wala-ko-kasabot",
-      "clip": "_clips/678205ea99a85a72.mp3"
+      "translation_es": "Sí / No",
+      "item": "oo-dili"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "text": "¿Cómo se dice «¡Cuídate»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7da0dfee245e2d66.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Unsa imong ngalan?",
+      "text": "Amping!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "unsa-imong-ngalan",
-      "clip": "_clips/f358a341a4404bf9.mp3"
+      "translation_es": "¡Cuídate!",
+      "item": "amping"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Está en Talisay».",
+      "text": "Di: «¿Dónde estás ahora?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/cd1511ebc3762498.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa sa Talisay.",
+      "text": "Asa ka karun?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Está en Talisay.",
-      "item": "naa-sa-talisay",
-      "clip": "_clips/42f72991ffba5088.mp3"
+      "translation_es": "¿Dónde estás ahora?",
+      "item": "asa-ka-karun"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes buen sueldo?»?",
+      "text": "¿Cómo se dice «Tengo hijos»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/bac9b47e139204c0.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dako imong sweldo?",
+      "text": "Naa koy anak.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes buen sueldo?",
-      "item": "dako-imong-sweldo",
-      "clip": "_clips/b26ee5e201552248.mp3"
+      "translation_es": "Tengo hijos.",
+      "item": "naa-koy-anak"
     },
     {
       "role": "narrator",
@@ -1390,88 +1513,79 @@
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/c1930716c94dd87e.mp3"
+      "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Estás feliz?».",
+      "text": "Di: «¿Te quiere tu mamá?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/b5b4781f39864d4e.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Malipayon ka?",
+      "text": "Gihigugma ka sa imong mama?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Estás feliz?",
-      "item": "malipayon-ka",
-      "clip": "_clips/2db336ac6711e6b9.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": "gihigugma-ka-sa-imong-mama"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Estás triste?».",
+      "text": "Otra vez. «¿Los quieres?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/00c3f1bf5ea6ee33.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Magul-anon ka?",
+      "text": "Gihigugma nimo sila?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás triste?",
-      "item": "magul-anon-ka",
-      "clip": "_clips/beda8fca35a55998.mp3"
+      "translation_es": "¿Los quieres?",
+      "item": "gihigugma-nimo-sila"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Por qué?».",
+      "text": "Y ahora, «Te quiero».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/59a014ae4ad6158f.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ngano man?",
+      "text": "Gihigugma tika",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Por qué?",
-      "item": "ngano-man",
-      "clip": "_clips/85fa14f2cae12836.mp3"
+      "translation_es": "Te quiero",
+      "item": "gihigugma-tika"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes miedo?»?",
+      "text": "¿Cómo se dice «¿Son buenos contigo?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/570857338dd18922.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nahadlok ka?",
+      "text": "Buotan ba sila nimo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes miedo?",
-      "item": "nahadlok-ka",
-      "clip": "_clips/27859de5a2a2abb4.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": "buotan-ba-sila-nimo"
     },
     {
       "role": "narrator",
@@ -1480,8 +1594,7 @@
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/413c3f04e427f314.mp3"
+      "item": null
     },
     {
       "role": "native_m",
@@ -1490,8 +1603,25 @@
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Estás soñando?",
-      "item": "nagdamgo-ka",
-      "clip": "_clips/4ed9e5ecb5cf36f7.mp3"
+      "item": "nagdamgo-ka"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás feliz?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Malipayon ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás feliz?",
+      "item": "malipayon-ka"
     },
     {
       "role": "narrator",
@@ -1500,88 +1630,79 @@
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/456dc485f2d2d824.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Malipayon ka?",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "¿Estás feliz?",
-      "item": null,
-      "clip": "_clips/2bd3f634ac2be8ae.mp3"
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Oo, nalipay ko.",
+      "text": "Kumusta ka, dong?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, estoy feliz.",
-      "item": null,
-      "clip": "_clips/98d3c334d4452905.mp3"
+      "translation_es": "¿Cómo estás, niño?",
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Ngano man?",
+      "text": "Maayo ra.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Por qué?",
-      "item": null,
-      "clip": "_clips/beed5f769476c296.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Kay maayo ang panahon.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Porque el tiempo está bien.",
-      "item": null,
-      "clip": "_clips/868ad2dcff633f92.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Magul-anon ka?",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "¿Estás triste?",
-      "item": null,
-      "clip": "_clips/65c29d2c83f9a4f6.mp3"
+      "translation_es": "Bien.",
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dili, OK ra.",
+      "text": "Gihigugma ka sa imong mama?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No, está bien.",
-      "item": null,
-      "clip": "_clips/bb35033c2bc2c861.mp3"
+      "translation_es": "¿Te quiere tu mamá?",
+      "item": null
     },
     {
-      "role": "native_f",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Nahadlok ka?",
+      "text": "Oo, gihigugma ko niya.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Tienes miedo?",
-      "item": null,
-      "clip": "_clips/569cfdd19c0a61ad.mp3"
+      "translation_es": "Sí, me quiere.",
+      "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dili, gikapoy lang ko.",
+      "text": "Buotan ba sila nimo?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No, solo estoy cansado.",
-      "item": null,
-      "clip": "_clips/d0f1abd14865fa1b.mp3"
+      "translation_es": "¿Son buenos contigo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Oo, buotan sila.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, son buenos.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nalipay ko nga nagkaila ta.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Me alegra que nos hayamos conocido.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Ako pud, nalipay ko.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Yo también, estoy feliz.",
+      "item": null
     },
     {
       "role": "narrator",
@@ -1590,17 +1711,16 @@
       "kind": "instruction",
       "pause": 0.3,
       "translation_es": "",
-      "item": null,
-      "clip": "_clips/7ef62e3dd16c3c52.mp3"
+      "item": null
     }
   ],
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 10.9,
-    "chars": 3492,
-    "cues": 154,
+    "minutes_estimated": 13.6,
+    "chars": 4407,
+    "cues": 184,
     "mode": "lesson",
-    "lesson": 21
+    "lesson": 22
   }
 }
