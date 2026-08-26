@@ -4,13 +4,31 @@
   "output_format": "mp3_44100_128",
   "roles": {
     "narrator": {
-      "provider": "fish",
-      "model": "s2.1-pro-free",
-      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
-      "name": "Narrador Terror (Fish)",
-      "voice_settings": {},
-      "tempo": 1.28,
-      "clean": false
+      "provider": "elevenlabs",
+      "model_id": "eleven_v3",
+      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
+      "name": "Pablo Marshal (ElevenLabs v3, castellano)",
+      "language_code": "es",
+      "voice_settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.85,
+        "style": 0.3,
+        "use_speaker_boost": true
+      },
+      "tempo": 1.22,
+      "clean": false,
+      "tags": {
+        "*": "[speaking Spanish]"
+      },
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+        "name": "Narrador Terror (Fish)",
+        "voice_settings": {},
+        "tempo": 1.15,
+        "clean": false
+      }
     },
     "native_m": {
       "provider": "fish",
