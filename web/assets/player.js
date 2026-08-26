@@ -702,12 +702,16 @@ function setMediaSessionHandler(action, handler) {
   }
 }
 
+function lessonLabel(track) {
+  return String(track.title || '').replace(/\b0(\d)\b/, '$1').toUpperCase();
+}
+
 function renderMiniCard(track) {
   const card = document.querySelector('#miniCard');
   if (!card) return;
   const entry = transcriptIndex.get(track.id) || {};
   const topics = (entry.topics || []).slice(0, 6).map((t) => `<span>${t}</span>`).join('');
-  card.innerHTML = `<span class="lesson-pill">${track.title}</span><h2>${displayTitle(track)}</h2><p>${entry.summary || displaySubtitle(track) || ''}</p><div class="mini-topics">${topics}</div><button type="button" class="mini-read" id="miniRead">📖 Leer el texto mientras escuchas</button>`;
+  card.innerHTML = `<span class="lesson-pill">${lessonLabel(track)}</span><h2>${displayTitle(track)}</h2><p>${entry.summary || displaySubtitle(track) || ''}</p><div class="mini-topics">${topics}</div><button type="button" class="mini-read" id="miniRead">📖 Leer el texto mientras escuchas</button>`;
   card.querySelector('#miniRead').addEventListener('click', () => { transcriptOpen = true; renderTranscript(track); });
 }
 
@@ -865,6 +869,9 @@ function guideText(parts) {
 }
 
 function groupTranscriptSegments(segments = []) {
+  if (course.groupSegments === false) {
+    return segments.map((segment) => ({ ...segment }));
+  }
   const grouped = [];
   let guideRun = [];
 
@@ -1018,7 +1025,7 @@ async function renderTranscript(track) {
     const segments = groupTranscriptSegments(data.segments || []);
     const summary = usefulSummary(data.summary_es);
     if (document.body.classList.contains('player-only')) {
-      transcriptTitle.innerHTML = `<span class="lesson-pill">${track.title}</span><span class="lesson-name">${displayTitle(track)}</span>`;
+      transcriptTitle.innerHTML = `<span class="lesson-pill">${lessonLabel(track)}</span><span class="lesson-name">${displayTitle(track)}</span>`;
     } else {
       transcriptTitle.textContent = fullTrackLabel(track);
     }

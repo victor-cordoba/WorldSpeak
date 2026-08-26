@@ -55,8 +55,8 @@ def main():
             if seconds <= 0:
                 return None
             if seconds not in silence_cache:
-                path = tmp / f"sil-{seconds}.mp3"
-                subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(seconds), "-b:a", "64k", str(path)], check=True)
+                path = tmp / f"sil-{seconds}.wav"
+                subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(seconds), "-c:a", "pcm_s16le", str(path)], check=True)
                 silence_cache[seconds] = path
             return silence_cache[seconds]
 
@@ -64,8 +64,17 @@ def main():
         first = silence(args.intro_pause)
         if first:
             entries.append(first)
+        wav_cache = {}
+
+        def as_wav(path):
+            if path not in wav_cache:
+                out = tmp / (path.stem + ".wav")
+                subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(path), "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(out)], check=True)
+                wav_cache[path] = out
+            return wav_cache[path]
+
         for cue in cues:
-            clip = cdir / cue[ck]
+            clip = as_wav(cdir / cue[ck])
             dur = duration_of(clip)
             segments.append({
                 "start": round(t, 3), "end": round(t + dur, 3),
@@ -86,7 +95,7 @@ def main():
 
         concat = tmp / "list.txt"
         concat.write_text("".join(f"file '{p.as_posix()}'\n" for p in entries))
-        subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(concat), "-ac", "1", "-ar", "44100", "-b:a", "96k", str(out_mp3)], check=True)
+        subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(concat), "-ac", "1", "-ar", "44100", "-codec:a", "libmp3lame", "-b:a", "96k", str(out_mp3)], check=True)
 
     total = duration_of(out_mp3)
     print(f"{out_mp3.name}: {total/60:.1f} min, {len(segments)} segmentos")

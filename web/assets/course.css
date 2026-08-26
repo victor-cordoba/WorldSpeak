@@ -250,3 +250,5 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .has-live-bg .stop, .has-live-bg .card-face, .has-live-bg .tbl, .has-live-bg .quiz, .has-live-bg .quiz-done, .has-live-bg .dlg, .has-live-bg .pill, .has-live-bg .search-row input { background: rgba(255,255,255,0.8); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 .has-live-bg .card-back { background: rgba(230,238,255,0.9); }
 .has-live-bg .top { background: rgba(246,248,254,0.7); }
+
+.has-live-bg .pill.is-active { background: var(--blue) !important; color: #fff; border-color: var(--blue); }

@@ -30,3 +30,7 @@ body.player-only.has-live-bg { background: transparent !important; }
 .player-only #continueButton { display: none !important; }
 .player-only .account-toggle { width: auto; justify-self: end; }
 @media (max-width: 760px) { .player-only .account-toggle span:last-child { display: none; } .player-only .account-toggle { padding-right: 8px; } .player-only .hub-link span:last-child { display: grid; } }
+
+.player-only .now-copy h2 { font-size: 15px; line-height: 1.2; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.player-only .player-panel { grid-template-columns: minmax(150px, 1fr) auto minmax(0, 1.1fr) auto; }
+@media (max-width: 760px) { .player-only .now-copy h2 { font-size: 14px; } }

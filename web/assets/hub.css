@@ -100,3 +100,5 @@ a.course:hover, a.course:focus-visible { transform: none; border-color: var(--bl
 @media (prefers-reduced-motion: reduce) { .ws-globe-map { animation: none; } }
 
 .has-live-bg .course, .has-live-bg .legacy-row, .has-live-bg .hub-stats2 div, .has-live-bg .account-toggle { background: rgba(255,255,255,0.78); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+
+.account-icon .account-initial svg { width: 22px; height: 22px; fill: #fff; }

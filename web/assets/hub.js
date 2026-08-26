@@ -123,7 +123,7 @@ function renderLegacy(course) {
 
 function updateAccountUi() {
   const name = session?.user?.name || '';
-  accountInitial.textContent = name ? name.slice(0, 1).toUpperCase() : '?';
+  if (name) { accountInitial.textContent = name.slice(0, 1).toUpperCase(); } else { accountInitial.innerHTML = '<svg viewBox="0 0 24 24"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 2c-4.4 0-8 2.3-8 5.2V21h16v-1.8c0-2.9-3.6-5.2-8-5.2z"/></svg>'; }
   accountLabel.textContent = name || 'Entrar';
   accountMeta.textContent = name ? 'Progreso sincronizado' : 'Guardar progreso';
   accountLogged.hidden = !name;

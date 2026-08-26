@@ -1,0 +1,1654 @@
+{
+  "title": "¿Ya has comido?",
+  "subtitle": "Aprender a preguntar y responder sobre si alguien ha comido.",
+  "summary_es": "Cómo preguntar si alguien ha comido y responder.",
+  "topics": [
+    "cortesia",
+    "pregunta",
+    "estado",
+    "perfecto"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta ka, iho?",
+      "Mabuti naman po.",
+      "Kumain ka na ba?",
+      "Hindi pa po.",
+      "Kain tayo!"
+    ],
+    "es": [
+      "¿Cómo estás, hijo?",
+      "Bien, gracias.",
+      "¿Ya has comido?",
+      "Todavía no.",
+      "¡Comamos!"
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Kumain ka na ba?",
+      "es": "¿Ya has comido?"
+    },
+    {
+      "term": "Kumain na po ako.",
+      "es": "Ya he comido."
+    },
+    {
+      "term": "Hindi pa.",
+      "es": "Todavía no."
+    },
+    {
+      "term": "Kain tayo!",
+      "es": "¡Comamos!"
+    },
+    {
+      "term": "Gutom ka ba?",
+      "es": "¿Tienes hambre?"
+    },
+    {
+      "term": "Uhaw.",
+      "es": "Sed."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 13. ¿Ya has comido?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/e4c23b05e3a596f7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle de Tondo, un niño se encuentra con un adulto conocido. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/d7a22739e738bec8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka, iho?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás, hijo?",
+      "item": null,
+      "clip": "_clips/b402bb8d32ebc563.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mabuti naman po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias.",
+      "item": null,
+      "clip": "_clips/6589e50610a089c0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Ya has comido?",
+      "item": null,
+      "clip": "_clips/d52edaf3c6aef723.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Hindi pa po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Todavía no.",
+      "item": null,
+      "clip": "_clips/7c57aff96ea28e51.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Comamos!",
+      "item": null,
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar y responder sobre si alguien ha comido. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2063aea140368430.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9867a9a018b6a42b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/297eeccc86885135.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka",
+      "clip": "_clips/4872a90dba0db094.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9c04964650a7fff2.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mabuti naman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman",
+      "clip": "_clips/507cfe35f9656cbd.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1ea5b00d0552ccb6.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba",
+      "clip": "_clips/5db90e5ceff4fbca.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/98e0f0321aca2014.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na",
+      "clip": "_clips/ce40efc6c9f68672.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De qué trabajas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/fa47d3b4293e5623.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo",
+      "clip": "_clips/1b7c960476198a63.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Ya has comido?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1b6dddb5abf242c9.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a7c4246e344cecdb.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a0689a211c4ab22e.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "na ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/fe2abbd4b3ec3e7f.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ka na ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/b2b37020d531e91c.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/aa33822b53da0d60.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/d52edaf3c6aef723.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a7c4246e344cecdb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta común para saber si alguien ha comido, muestra preocupación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/877441bb2e9d496b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Ya has comido?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/27fe8ffe3fb25e9b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/d52edaf3c6aef723.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Ya has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/12b1f4f10f36b26d.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a7c4246e344cecdb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Ya he comido». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/be2e29bf239aea03.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a20d798498a2538c.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/2d1e1f0d977c1d6d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/22e0e1e752239626.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "po ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a59014f4323d0afc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "na po ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/20d2fb107bfafb82.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/d0c98f1d5d204810.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/47a264756b6f64a7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a20d798498a2538c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta con respeto usando 'po'.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cc6a2b7137c40f33.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ya he comido»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1e8d99079c7604ac.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/47a264756b6f64a7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ya he comido».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/073ef60cd4eb2477.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a20d798498a2538c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Todavía no». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a8b0ae5539e06531.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/80c17bb19fa1aac6.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "pa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "hindi-pa",
+      "clip": "_clips/c799964ff485086a.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi pa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "hindi-pa",
+      "clip": "_clips/24d7c59fdb9aebf7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/28d192ba610c1a19.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/80c17bb19fa1aac6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta breve para indicar que no se ha hecho algo aún.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3d9129db4f758895.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Todavía no»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/74aad379bd813096.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/28d192ba610c1a19.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Todavía no».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/bb221f01b98856c1.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/80c17bb19fa1aac6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡Comamos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2e36fafd1489c7b7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "yo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kain-tayo",
+      "clip": "_clips/2c923081ec08c2d5.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "tayo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "kain-tayo",
+      "clip": "_clips/50577074245ecea3.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kain-tayo",
+      "clip": "_clips/21db7fb694ddefe3.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/6efd8f18483d22af.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Invitación a comer juntos, muestra camaradería.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5c27101c809ab21b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Comamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/706c142a3e38214a.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/6efd8f18483d22af.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Comamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/42847e67c0fe1f67.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/891d673d4b01804d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Ya he comido».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/85cd0e085a20ce79.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/47a264756b6f64a7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Tienes hambre?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f4c92a29076f8968.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/3130517a92bcf2fa.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/5603a06c2abb62cc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/cacc0558e4fcc1fa.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gutom ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/80ba78fac672be79.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/fd2703ab1a6a1dfb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/3130517a92bcf2fa.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta para saber si alguien tiene hambre, muestra preocupación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/291c2579384e405e.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes hambre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/713b853996aa845a.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/fd2703ab1a6a1dfb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Tienes hambre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f61a21ec94510e20.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/3130517a92bcf2fa.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sed». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/17d1781b9edf1fd3.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/25ac01e5909ad1df.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "haw",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uhaw",
+      "clip": "_clips/0c7a581e4549a95d.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uhaw",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "uhaw",
+      "clip": "_clips/dee26b8990aa8bc7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/939ff50809ea6b11.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/25ac01e5909ad1df.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estado de tener sed, común en conversaciones sobre necesidades básicas.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/da7a33a8990a79bd.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sed»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2fb9cccaf78fe641.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/939ff50809ea6b11.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4400dd35408c380e.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/25ac01e5909ad1df.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/891d673d4b01804d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Comamos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1c653c5a04c584c0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de 'na' y 'pa'.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1087e5f619f77765.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En Tagalog, 'na' indica que algo ya ha ocurrido, mientras que 'pa' indica que algo no ha ocurrido aún. Se usan para expresar el estado de acciones en el tiempo.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/ea0d8e861ea8dcbf.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a7c4246e344cecdb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/28d192ba610c1a19.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/eebfa4371d7f5e82.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/47a264756b6f64a7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Ya he comido».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8167a27b22c3230e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a20d798498a2538c.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/80c17bb19fa1aac6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Todavía no».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6decd6ecae9894dc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/28d192ba610c1a19.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0946f49bee6ebd64.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien si ya ha comido.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3b864306c585b862.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a7c4246e344cecdb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que ya has comido.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cdeb4ca370263029.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a20d798498a2538c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/61acd3fbe207110d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Ya has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/177faec2428c0caf.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/a7c4246e344cecdb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ya he comido».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/073ef60cd4eb2477.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/a20d798498a2538c.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Todavía no».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4b448ae654fdda3b.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/80c17bb19fa1aac6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Comamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/706c142a3e38214a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes hambre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0a2fce00f8d3e815.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/fd2703ab1a6a1dfb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4400dd35408c380e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/939ff50809ea6b11.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/32ae72c536f2c160.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2e529c0cde2d1007.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/297eeccc86885135.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumusta ka?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo estás?",
+      "item": "kumusta-ka",
+      "clip": "_clips/4afdbc7d8b3ad345.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Bien, gracias».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9c04964650a7fff2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mabuti naman.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Bien, gracias.",
+      "item": "mabuti-naman",
+      "clip": "_clips/5dac2d7d716d99a8.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1ea5b00d0552ccb6.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba",
+      "clip": "_clips/284bed9558f3ae86.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Cuántos años tienes?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/98e0f0321aca2014.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na",
+      "clip": "_clips/e0f300d44fe2f1e2.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿De qué trabajas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/fa47d3b4293e5623.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong trabaho mo?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿De qué trabajas?",
+      "item": "anong-trabaho-mo",
+      "clip": "_clips/9087b641223d59bb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/61acd3fbe207110d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Ya has comido?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/177faec2428c0caf.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba",
+      "clip": "_clips/d52edaf3c6aef723.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ya he comido».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/073ef60cd4eb2477.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain na po ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ya he comido.",
+      "item": "kumain-na-po-ako",
+      "clip": "_clips/47a264756b6f64a7.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Todavía no».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4b448ae654fdda3b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Hindi pa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Todavía no.",
+      "item": "hindi-pa",
+      "clip": "_clips/28d192ba610c1a19.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Comamos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/706c142a3e38214a.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Comamos!",
+      "item": "kain-tayo",
+      "clip": "_clips/6efd8f18483d22af.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes hambre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0a2fce00f8d3e815.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Gutom ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes hambre?",
+      "item": "gutom-ka-ba",
+      "clip": "_clips/3130517a92bcf2fa.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sed».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/4400dd35408c380e.mp3"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Uhaw.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sed.",
+      "item": "uhaw",
+      "clip": "_clips/25ac01e5909ad1df.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/00616c75a72abe40.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta ka, iho?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cómo estás, hijo?",
+      "item": null,
+      "clip": "_clips/b402bb8d32ebc563.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Mabuti naman po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Bien, gracias.",
+      "item": null,
+      "clip": "_clips/6589e50610a089c0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Ya has comido?",
+      "item": null,
+      "clip": "_clips/d52edaf3c6aef723.mp3"
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Hindi pa po.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Todavía no.",
+      "item": null,
+      "clip": "_clips/7c57aff96ea28e51.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kain tayo!",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Comamos!",
+      "item": null,
+      "clip": "_clips/8ecbd128fe6432fb.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/a46705351c6d2752.mp3"
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 11.3,
+    "chars": 3432,
+    "cues": 159,
+    "mode": "lesson",
+    "lesson": 13
+  }
+}
