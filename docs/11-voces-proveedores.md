@@ -27,6 +27,20 @@ español + nativos (con la caché de clips, bastante menos). Coste estimado:
 | 1 curso (Tagalog) | 22 $/mes durante 2 meses | **~2 $** |
 | Tagalog + Bisaya | 44 $ | ~4 $ |
 
+## ACTUALIZACIÓN 26/08 (tarde): FISH ES GRATIS POR API HASTA EL 31/08/2026
+
+Con el modelo `s2.1-pro-free` (cabecera `model: s2.1-pro-free`) la API de Fish
+no consume saldo: uso ilimitado bajo política de uso justo, sin tarjeta.
+Probado con Tagalog (dos voces) y Cebuano: HTTP 200, clips en el Escritorio.
+Ojo: **el saldo de API es independiente de la suscripción web**; la
+suscripción no sirve para la API. Perfil listo en `pipeline/voice/voices-fish.json`.
+
+Generar la L01 con ambos proveedores para comparar:
+```bash
+python3 synth.py --course tagalog --lesson 1 --voices voices-fish.json --clip-key clip_fish
+python3 assemble.py --course tagalog --lesson 1 --clip-key clip_fish --out ~/Desktop/L01-fish.mp3
+```
+
 ## PLAN
 
 1. **Probar Fish Audio con Tagalog real**: misma frase que en ElevenLabs

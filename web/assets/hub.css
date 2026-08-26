@@ -77,3 +77,7 @@ a.course:hover, a.course:focus-visible { transform: none; border-color: var(--bl
 .hub-body .account-toggle { box-shadow: none; border: 1px solid #e3e8f0; }
 .hub-body .shell { max-width: 1140px; padding: 24px; }
 .legacy { margin-top: 64px; padding-top: 32px; }
+
+.hub-brand { display: grid; gap: 10px; }
+.hub-wordmark { width: 280px; max-width: 80vw; height: auto; }
+.hub-brand p { margin: 0; }

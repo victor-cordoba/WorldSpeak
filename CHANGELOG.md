@@ -19,6 +19,9 @@ Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster)
 - **Rediseño**: logo v2 tipo icono de app, Plus Jakarta Sans + Inter, hub con tarjetas nuevas (banda, bandera, anillo de progreso) y «Cursos originales» abajo para el Pimsleur. En el curso: «Continuar» tipo Netflix, ⚡ práctica rápida por lección, modo solo-reproductor al pulsar Empezar, guía PDF descargable.
 - Voces jóvenes filipinas (Bea, Donnel) en `voices.json`. Comparativa de proveedores de voz en `docs/11-voces-proveedores.md` (Fish Audio: 15 $/M, clonado con 5 s, Tagalog sí).
 
+- Wordmark tipo píldora (bocadillo + WorldSpeak) en hub y README; menú inferior estilo iOS (cristal, iconos SVG, píldora flotante en escritorio, safe-area) y barra superior centrada; pase responsive para móviles estrechos.
+- Fish Audio integrado como proveedor (`voices-fish.json`, `s2.1-pro-free` gratis hasta el 31/08/2026); `synth.py --voices/--clip-key` y `assemble.py --out` para generar versiones alternativas sin tocar el curso.
+
 ### Corregido
 - `safeJson` devolvía `null` para `"null"` y tumbaba el render del curso.
 

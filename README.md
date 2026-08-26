@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://victorcordoba.com/worldspeak/"><img src="screenshots/logo.svg" width="140" alt="WorldSpeak"></a>
+  <a href="https://victorcordoba.com/worldspeak/"><img src="screenshots/wordmark.svg" width="320" alt="WorldSpeak"></a>
 </p>
 
 <h1 align="center">WorldSpeak</h1>

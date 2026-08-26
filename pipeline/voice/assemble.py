@@ -22,19 +22,22 @@ def main():
     parser.add_argument("--course", required=True)
     parser.add_argument("--lesson", type=int, required=True)
     parser.add_argument("--intro-pause", type=float, default=0.8)
+    parser.add_argument("--clip-key", default="clip")
+    parser.add_argument("--out", default=None, help="ruta de salida alternativa; si se da, NO actualiza course.json ni transcripts")
     args = parser.parse_args()
 
     cdir = course_dir(args.course)
     num = f"{args.lesson:02d}"
     script = load_json(cdir / "scripts" / f"lesson-{num}.json")
-    cues = [c for c in script["cues"] if c.get("clip") and (cdir / c["clip"]).exists()]
+    ck = args.clip_key
+    cues = [c for c in script["cues"] if c.get(ck) and (cdir / c[ck]).exists()]
     if len(cues) != len(script["cues"]):
         raise SystemExit(f"faltan clips: {len(script['cues']) - len(cues)}. Ejecuta synth.py")
 
     track_id = f"lesson-{num}-main"
     audio_dir = cdir / "audio"
     audio_dir.mkdir(exist_ok=True)
-    out_mp3 = audio_dir / f"Lesson {num} Main.mp3"
+    out_mp3 = Path(args.out) if args.out else audio_dir / f"Lesson {num} Main.mp3"
 
     # timeline + lista de concat
     segments = []
@@ -58,7 +61,7 @@ def main():
         if first:
             entries.append(first)
         for cue in cues:
-            clip = cdir / cue["clip"]
+            clip = cdir / cue[ck]
             dur = duration_of(clip)
             segments.append({
                 "start": round(t, 3), "end": round(t + dur, 3),
@@ -83,6 +86,8 @@ def main():
 
     total = duration_of(out_mp3)
     print(f"{out_mp3.name}: {total/60:.1f} min, {len(segments)} segmentos")
+    if args.out:
+        return
 
     # transcripciones (mismo formato que produce el pipeline de Whisper)
     tdir = cdir / "transcripts"

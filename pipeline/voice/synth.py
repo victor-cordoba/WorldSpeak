@@ -52,9 +52,11 @@ def main():
     parser.add_argument("--course", required=True)
     parser.add_argument("--lesson", type=int, required=True)
     parser.add_argument("--dry-run", action="store_true", help="solo cuenta caracteres, no llama a la API")
+    parser.add_argument("--voices", default=None, help="perfil de voces alternativo (p. ej. voices-fish.json)")
+    parser.add_argument("--clip-key", default="clip", help="clave donde guardar la ruta del clip en cada cue")
     args = parser.parse_args()
 
-    voices = load_json(HERE / "voices.json")
+    voices = load_json(HERE / (args.voices or "voices.json"))
     cdir = course_dir(args.course)
     script = load_json(cdir / "scripts" / f"lesson-{args.lesson:02d}.json")
     if not script:
@@ -72,7 +74,7 @@ def main():
         voice = voices["roles"].get(role) or voices["roles"]["narrator"]
         model = voice.get("model", voices["model_id"]) if voice.get("provider") == "fish" else voices["model_id"]
         key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), cue["text"])
-        cue["clip"] = f"_clips/{key}.mp3"
+        cue[args.clip_key] = f"_clips/{key}.mp3"
         path = clips_dir / f"{key}.mp3"
         if path.exists() and path.stat().st_size > 1000:
             cached += 1
