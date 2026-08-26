@@ -78,6 +78,12 @@ añadir ítems o lecciones. Ítems nuevos → siempre con `es`, `lit`, `note`, `
 `lesson`. Los ítems que son respuestas a entender llevan `"answer": true`.
 Niveles 3 y 4 (niños, corazón) se revisan con Víctor antes de grabar.
 
+## ANTES DE PRODUCIR UN IDIOMA
+
+Lee `docs/15-errores-y-aprendizajes.md` (checklist) y `docs/14-guiones-y-textos.md`
+(qué dice cada voz). El lint `pipeline/voice/lint_content.py --fix` corre solo en
+`produce-levels.sh`; pásalo a mano tras editar contenido.
+
 ## AL GENERAR LECCIONES (ElevenLabs)
 
 ```bash

@@ -139,6 +139,8 @@ Claves en `~/.config/victor/openai_api_key` y `~/.config/victor/elevenlabs_api_k
 | [05 · Despliegue](docs/05-despliegue.md) | Servidor y rsync |
 | [06 · Historia](docs/06-historia-del-proyecto.md) | Cómo se construyó |
 | [07 · Roadmap](docs/07-roadmap.md) | Qué falta |
+| [14 · Guiones y textos](docs/14-guiones-y-textos.md) | Qué dice cada voz y de dónde sale cada texto |
+| [15 · Errores y aprendizajes](docs/15-errores-y-aprendizajes.md) | Checklist reutilizable para cada idioma nuevo |
 | [CHANGELOG](CHANGELOG.md) | Qué se ha subido y cuándo |
 | [CLAUDE.md](CLAUDE.md) | Reglas para trabajar con Claude Code aquí |
 
