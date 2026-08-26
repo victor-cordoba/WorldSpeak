@@ -72,7 +72,7 @@ function progressFor(courseId) {
 }
 
 function flag(code) {
-  const flags = { ph: '🇵🇭', es: '🇪🇸', fr: '🇫🇷', it: '🇮🇹', de: '🇩🇪', pt: '🇧🇷', jp: '🇯🇵', kr: '🇰🇷', cn: '🇨🇳' };
+  const flags = { ph: '🇵🇭', es: '🇪🇸', fr: '🇫🇷', it: '🇮🇹', de: '🇩🇪', pt: '🇵🇹', gb: '🇬🇧', jp: '🇯🇵', kr: '🇰🇷', cn: '🇨🇳' };
   return flags[code] || '🌍';
 }
 
@@ -92,8 +92,8 @@ function renderCourses() {
     if (isLive) card.href = course.path;
     const pct = progress && course.tracks ? Math.min(100, Math.round((progress.doneCount / course.tracks) * 100)) : 0;
     const started = progress && (progress.doneCount || progress.totalSeconds || progress.lastTrack);
-    const meta = !isLive ? 'En preparación' : started ? `${progress.doneCount} de ${course.tracks} lecciones · ${formatStudyTime(progress.totalSeconds)}` : `${course.tracks} lecciones · ${course.hours} h de audio`;
-    const cta = !isLive ? 'Pronto' : (started || session?.token) ? 'Continuar' : 'Empezar';
+    const meta = !isLive ? '' : started ? `${progress.doneCount} de ${course.tracks} lecciones · ${formatStudyTime(progress.totalSeconds)}` : `${course.tracks} lecciones · ${course.hours} h de audio`;
+    const cta = !isLive ? 'Próximamente' : (started || session?.token) ? 'Continuar' : 'Empezar';
     card.innerHTML = `
       <div class="course-band"><span class="course-flag">${flag(course.language?.flag)}</span></div>
       <div class="course-body">

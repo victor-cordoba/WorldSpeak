@@ -1,0 +1,497 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Kit de conversación",
+      "icon": "❓",
+      "desc": "Preguntar, entender, pedir"
+    },
+    {
+      "id": 2,
+      "title": "Conocer a una persona",
+      "icon": "🏠",
+      "desc": "Where are you from, family, work"
+    },
+    {
+      "id": 3,
+      "title": "Como un británico",
+      "icon": "🇬🇧",
+      "desc": "Pub, bici, coche, campo, arte"
+    },
+    {
+      "id": 4,
+      "title": "El corazón",
+      "icon": "❤️",
+      "desc": "Feelings, dreams, faith"
+    },
+    {
+      "id": 5,
+      "title": "Día a día",
+      "icon": "☕",
+      "desc": "Food, weather, verbs"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "level": 1,
+      "title": "Hi, how are you? What's your name?",
+      "items": [
+        "Hi / Hello / Good morning",
+        "How are you? / I'm good, thanks",
+        "I'm…",
+        "What's your name?",
+        "Nice to meet you",
+        "Thank you / Cheers",
+        "See you"
+      ],
+      "grammar": "cheers = gracias y salud"
+    },
+    {
+      "id": "lesson-02-main",
+      "lesson": 2,
+      "level": 1,
+      "title": "Do you speak Spanish?",
+      "items": [
+        "Do you speak Spanish?",
+        "A little",
+        "I don't understand",
+        "Could you say that again?",
+        "Yes / No",
+        "I don't know",
+        "Alright / Fine"
+      ],
+      "grammar": "do para preguntar"
+    },
+    {
+      "id": "lesson-03-main",
+      "lesson": 3,
+      "level": 1,
+      "title": "I, you, my, your",
+      "items": [
+        "I, you, he/she, we, you, they",
+        "my / your",
+        "my place",
+        "And you?",
+        "Me too"
+      ],
+      "grammar": "sin artículo en posesivos"
+    },
+    {
+      "id": "lesson-04-main",
+      "lesson": 4,
+      "level": 1,
+      "title": "Where? Who? What?",
+      "items": [
+        "Where is…?",
+        "Who is that?",
+        "What's this?",
+        "here / there",
+        "Where do you live?",
+        "I live in…",
+        "It's near / far"
+      ],
+      "grammar": "where + do"
+    },
+    {
+      "id": "lesson-05-main",
+      "lesson": 5,
+      "level": 1,
+      "title": "I'd like… I'm going to…",
+      "items": [
+        "I'd like…",
+        "I want…",
+        "Do you want…?",
+        "I don't want",
+        "I'm going to…",
+        "Let's go!",
+        "How do I get to…?",
+        "Left / right / straight on",
+        "Where can I…?"
+      ],
+      "grammar": "I'd like = quisiera"
+    },
+    {
+      "id": "lesson-06-main",
+      "lesson": 6,
+      "level": 1,
+      "title": "How much is it? A pint, please",
+      "items": [
+        "How much is it?",
+        "A pint / a half / a coffee / a tea with milk",
+        "please",
+        "The bill / Can I pay?",
+        "Card or cash?",
+        "números 1–20",
+        "prices"
+      ],
+      "grammar": "pedir en la barra del pub"
+    },
+    {
+      "id": "lesson-07-main",
+      "lesson": 7,
+      "level": 1,
+      "title": "When? Why? How many? What time?",
+      "items": [
+        "When?",
+        "Why? / Because…",
+        "How many?",
+        "today / tomorrow / yesterday / tonight",
+        "What time…?",
+        "Is it open? / closed",
+        "It closes at…"
+      ],
+      "grammar": "la hora: half past, quarter to"
+    },
+    {
+      "id": "lesson-08-main",
+      "lesson": 8,
+      "level": 1,
+      "title": "Review: your first chat",
+      "items": [
+        "Sorry / Excuse me",
+        "Just a moment",
+        "How do you say… in English?",
+        "No worries",
+        "Brilliant / Lovely",
+        "conversación completa en un pub"
+      ],
+      "grammar": "sorry para todo"
+    },
+    {
+      "id": "lesson-09-main",
+      "lesson": 9,
+      "level": 2,
+      "title": "Where are you from?",
+      "items": [
+        "Where are you from?",
+        "I'm from Spain, from Madrid",
+        "How long have you been here?",
+        "A week",
+        "I like it here",
+        "What brings you here?"
+      ],
+      "grammar": "present perfect: have been"
+    },
+    {
+      "id": "lesson-10-main",
+      "lesson": 10,
+      "level": 2,
+      "title": "Family",
+      "items": [
+        "Do you have family?",
+        "mum / dad / brother / sister / kids",
+        "How many of you are there?",
+        "grandma / grandad",
+        "wife / husband",
+        "partner"
+      ],
+      "grammar": "have got"
+    },
+    {
+      "id": "lesson-11-main",
+      "lesson": 11,
+      "level": 2,
+      "title": "How old are you?",
+      "items": [
+        "How old are you?",
+        "I'm … (years old)",
+        "You're young",
+        "When were you born?"
+      ],
+      "grammar": "números hasta 100"
+    },
+    {
+      "id": "lesson-12-main",
+      "lesson": 12,
+      "level": 2,
+      "title": "What do you do?",
+      "items": [
+        "What do you do?",
+        "I'm a…",
+        "I study",
+        "I work in…",
+        "I work from home",
+        "I'm retired"
+      ],
+      "grammar": "what do you do = trabajo"
+    },
+    {
+      "id": "lesson-13-main",
+      "lesson": 13,
+      "level": 2,
+      "title": "Have you eaten?",
+      "items": [
+        "Have you eaten?",
+        "I'm hungry / thirsty",
+        "Shall we get something to eat?",
+        "What do you fancy?",
+        "I fancy a curry",
+        "It's on me"
+      ],
+      "grammar": "fancy · shall we"
+    },
+    {
+      "id": "lesson-14-main",
+      "lesson": 14,
+      "level": 2,
+      "title": "Nice to meet you, see you",
+      "items": [
+        "It was lovely to meet you",
+        "Keep in touch",
+        "See you tomorrow",
+        "You're lovely",
+        "Give me your number",
+        "Text me"
+      ],
+      "grammar": "imperativo"
+    },
+    {
+      "id": "lesson-15-main",
+      "lesson": 15,
+      "level": 3,
+      "title": "The pub, like a local",
+      "items": [
+        "A pint of bitter / lager / ale",
+        "Same again, please",
+        "Whose round is it?",
+        "It's my round",
+        "Last orders",
+        "Sunday roast",
+        "Pub quiz"
+      ],
+      "grammar": "cultura de pub"
+    },
+    {
+      "id": "lesson-16-main",
+      "lesson": 16,
+      "level": 3,
+      "title": "Bikes and cars",
+      "items": [
+        "Where can I hire a bike?",
+        "How much is it per day?",
+        "Do I need a helmet?",
+        "Where can I rent a car?",
+        "Drive on the left!",
+        "Where can I park?",
+        "Petrol / diesel / the petrol station",
+        "MOT / insurance"
+      ],
+      "grammar": "hire vs rent"
+    },
+    {
+      "id": "lesson-17-main",
+      "lesson": 17,
+      "level": 3,
+      "title": "Getting around: tube, bus, train",
+      "items": [
+        "Which line do I take for…?",
+        "Oyster / contactless",
+        "Mind the gap",
+        "Next stop",
+        "Return ticket, please",
+        "Is this seat taken?"
+      ],
+      "grammar": "preposiciones"
+    },
+    {
+      "id": "lesson-18-main",
+      "lesson": 18,
+      "level": 3,
+      "title": "Is it open? Opening hours",
+      "items": [
+        "Is it open on Sundays?",
+        "Bank holiday",
+        "It's closed for refurbishment",
+        "Can I book a table?",
+        "Opening hours",
+        "Half day closing"
+      ],
+      "grammar": "horarios"
+    },
+    {
+      "id": "lesson-19-main",
+      "lesson": 19,
+      "level": 3,
+      "title": "Art, museums and the countryside",
+      "items": [
+        "Is the museum free?",
+        "National Trust",
+        "The Tate / the British Museum",
+        "Can we go in?",
+        "A walk in the countryside",
+        "Public footpath",
+        "The pub at the end of the walk"
+      ],
+      "grammar": "can we"
+    },
+    {
+      "id": "lesson-20-main",
+      "lesson": 20,
+      "level": 3,
+      "title": "Eating like a Brit",
+      "items": [
+        "Fish and chips",
+        "Full English breakfast",
+        "A cuppa",
+        "Afternoon tea",
+        "Curry night",
+        "Chippy",
+        "Takeaway",
+        "Is it any good?"
+      ],
+      "grammar": "comida británica"
+    },
+    {
+      "id": "lesson-21-main",
+      "lesson": 21,
+      "level": 4,
+      "title": "Are you happy?",
+      "items": [
+        "Are you happy? / sad?",
+        "Why?",
+        "I'm knackered",
+        "I'm scared",
+        "I'm alright",
+        "I miss home"
+      ],
+      "grammar": "feelings, understatement"
+    },
+    {
+      "id": "lesson-22-main",
+      "lesson": 22,
+      "level": 4,
+      "title": "What do you like?",
+      "items": [
+        "Do you like…?",
+        "I love / I hate",
+        "What music do you listen to?",
+        "Which team do you support?",
+        "Football or rugby?",
+        "Cricket on a Sunday"
+      ],
+      "grammar": "like + -ing"
+    },
+    {
+      "id": "lesson-23-main",
+      "lesson": 23,
+      "level": 4,
+      "title": "Dreams",
+      "items": [
+        "What do you want to be?",
+        "My dream is to…",
+        "I'd love to live here",
+        "One day…",
+        "You can do it"
+      ],
+      "grammar": "would love to"
+    },
+    {
+      "id": "lesson-24-main",
+      "lesson": 24,
+      "level": 4,
+      "title": "Watch out!",
+      "items": [
+        "Watch out!",
+        "Help!",
+        "Call 999",
+        "I feel ill",
+        "I need a doctor",
+        "Where's A&E?",
+        "Mind the traffic"
+      ],
+      "grammar": "imperativos"
+    },
+    {
+      "id": "lesson-25-main",
+      "lesson": 25,
+      "level": 4,
+      "title": "Praying together",
+      "items": [
+        "Would you like to pray?",
+        "The Lord's Prayer (line by line)",
+        "Mass / church service",
+        "Westminster / Canterbury",
+        "God bless you"
+      ],
+      "grammar": "fe en UK"
+    },
+    {
+      "id": "lesson-26-main",
+      "lesson": 26,
+      "level": 5,
+      "title": "The weather and small talk",
+      "items": [
+        "Lovely day, isn't it?",
+        "It's chucking it down",
+        "Bit chilly",
+        "How's it going?",
+        "Not bad",
+        "Can't complain"
+      ],
+      "grammar": "question tags"
+    },
+    {
+      "id": "lesson-27-main",
+      "lesson": 27,
+      "level": 5,
+      "title": "Football and the weekend",
+      "items": [
+        "Who's playing?",
+        "Who scored?",
+        "The match is on at the pub",
+        "Come on!",
+        "Derby day",
+        "A day out"
+      ],
+      "grammar": "present continuous"
+    },
+    {
+      "id": "lesson-28-main",
+      "lesson": 28,
+      "level": 5,
+      "title": "At the doctor's and the chemist",
+      "items": [
+        "I've got a headache / a cold",
+        "Chemist / pharmacy",
+        "Prescription",
+        "GP",
+        "A&E",
+        "I'm feeling better"
+      ],
+      "grammar": "have got"
+    },
+    {
+      "id": "lesson-29-main",
+      "lesson": 29,
+      "level": 5,
+      "title": "Linking words",
+      "items": [
+        "but",
+        "because",
+        "also / as well",
+        "then",
+        "so",
+        "if",
+        "just",
+        "maybe",
+        "well…",
+        "you know"
+      ],
+      "grammar": "muletillas"
+    },
+    {
+      "id": "lesson-30-main",
+      "lesson": 30,
+      "level": 5,
+      "title": "Verbs: the engine",
+      "items": [
+        "be / have / go / do / want / can / get",
+        "present, past, present perfect",
+        "gonna / wanna (hablado)"
+      ],
+      "grammar": "sistema verbal"
+    }
+  ]
+}

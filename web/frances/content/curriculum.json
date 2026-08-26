@@ -1,0 +1,492 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Kit de conversación",
+      "icon": "❓",
+      "desc": "Demander, comprendre, commander"
+    },
+    {
+      "id": 2,
+      "title": "Conocer a una persona",
+      "icon": "🏠",
+      "desc": "D'où tu viens, famille, travail"
+    },
+    {
+      "id": 3,
+      "title": "Como un francés",
+      "icon": "🥖",
+      "desc": "Boulangerie, vélo, marché, musées"
+    },
+    {
+      "id": 4,
+      "title": "El corazón",
+      "icon": "❤️",
+      "desc": "Sentiments, rêves, foi"
+    },
+    {
+      "id": 5,
+      "title": "Día a día",
+      "icon": "🚲",
+      "desc": "Apéro, voiture, verbes"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "level": 1,
+      "title": "Salut, ça va ? Tu t'appelles comment ?",
+      "items": [
+        "Bonjour / Salut / Bonsoir",
+        "Ça va ? / Ça va bien",
+        "Je m'appelle…",
+        "Tu t'appelles comment ?",
+        "Enchanté(e)",
+        "Merci / De rien",
+        "À plus / À bientôt"
+      ],
+      "grammar": "bonjour obligatorio al entrar · tu / vous"
+    },
+    {
+      "id": "lesson-02-main",
+      "lesson": 2,
+      "level": 1,
+      "title": "Tu parles espagnol ?",
+      "items": [
+        "Tu parles espagnol / anglais ?",
+        "Un peu",
+        "Je ne comprends pas",
+        "Tu peux répéter ?",
+        "Oui / Non",
+        "Je ne sais pas",
+        "D'accord / Ça marche"
+      ],
+      "grammar": "ne … pas (y el pas solo del oral)"
+    },
+    {
+      "id": "lesson-03-main",
+      "lesson": 3,
+      "level": 1,
+      "title": "Je, tu, mon, ton",
+      "items": [
+        "je, tu, il/elle, nous, vous, ils",
+        "mon / ma / mes",
+        "chez moi",
+        "Et toi ?",
+        "Moi aussi"
+      ],
+      "grammar": "chez"
+    },
+    {
+      "id": "lesson-04-main",
+      "lesson": 4,
+      "level": 1,
+      "title": "Où ? Qui ? Quoi ?",
+      "items": [
+        "Où est…?",
+        "C'est qui ?",
+        "C'est quoi ?",
+        "ici / là-bas",
+        "Tu habites où ?",
+        "J'habite à…",
+        "C'est près / loin"
+      ],
+      "grammar": "pregunta con entonación"
+    },
+    {
+      "id": "lesson-05-main",
+      "lesson": 5,
+      "level": 1,
+      "title": "Je voudrais… Je vais à…",
+      "items": [
+        "Je voudrais…",
+        "Je veux…",
+        "Tu veux ?",
+        "Je ne veux pas",
+        "Je vais à…",
+        "On y va !",
+        "Comment on va à…?",
+        "À droite / à gauche / tout droit",
+        "Où est-ce que je peux…?"
+      ],
+      "grammar": "on = nosotros"
+    },
+    {
+      "id": "lesson-06-main",
+      "lesson": 6,
+      "level": 1,
+      "title": "C'est combien ? Un café, s'il vous plaît",
+      "items": [
+        "C'est combien ?",
+        "Un café / un demi / une pression / un croissant",
+        "s'il vous plaît",
+        "L'addition",
+        "Par carte",
+        "números 1–20",
+        "prix"
+      ],
+      "grammar": "pedir en la barra vs terrasse"
+    },
+    {
+      "id": "lesson-07-main",
+      "lesson": 7,
+      "level": 1,
+      "title": "Quand ? Pourquoi ? Combien ? À quelle heure ?",
+      "items": [
+        "Quand ?",
+        "Pourquoi ? / Parce que…",
+        "Combien ?",
+        "aujourd'hui / demain / hier / ce soir",
+        "À quelle heure…?",
+        "C'est ouvert ? / fermé",
+        "Ça ferme à…"
+      ],
+      "grammar": "horas"
+    },
+    {
+      "id": "lesson-08-main",
+      "lesson": 8,
+      "level": 1,
+      "title": "Révision : ta première conversation",
+      "items": [
+        "Pardon / Excusez-moi",
+        "Un instant",
+        "Comment on dit… en français ?",
+        "Pas de souci",
+        "Allez !",
+        "conversación completa en una boulangerie"
+      ],
+      "grammar": "tu / vous"
+    },
+    {
+      "id": "lesson-09-main",
+      "lesson": 9,
+      "level": 2,
+      "title": "Tu viens d'où ?",
+      "items": [
+        "Tu viens d'où ?",
+        "Je suis espagnol(e), de Madrid",
+        "Tu es là depuis combien de temps ?",
+        "Depuis une semaine",
+        "J'aime bien la France"
+      ],
+      "grammar": "depuis"
+    },
+    {
+      "id": "lesson-10-main",
+      "lesson": 10,
+      "level": 2,
+      "title": "La famille",
+      "items": [
+        "Tu as de la famille ?",
+        "mère / père / frère / sœur / enfants",
+        "Vous êtes combien ?",
+        "mamie / papi",
+        "femme / mari",
+        "copain / copine"
+      ],
+      "grammar": "avoir"
+    },
+    {
+      "id": "lesson-11-main",
+      "lesson": 11,
+      "level": 2,
+      "title": "Tu as quel âge ?",
+      "items": [
+        "Tu as quel âge ?",
+        "J'ai … ans",
+        "Tu es jeune",
+        "Tu es né(e) quand ?"
+      ],
+      "grammar": "números hasta 100 (quatre-vingts)"
+    },
+    {
+      "id": "lesson-12-main",
+      "lesson": 12,
+      "level": 2,
+      "title": "Tu fais quoi dans la vie ?",
+      "items": [
+        "Tu fais quoi dans la vie ?",
+        "Je suis…",
+        "Je fais des études",
+        "Je travaille dans…",
+        "Je suis en télétravail",
+        "Je suis à la retraite"
+      ],
+      "grammar": "faire"
+    },
+    {
+      "id": "lesson-13-main",
+      "lesson": 13,
+      "level": 2,
+      "title": "Tu as mangé ?",
+      "items": [
+        "Tu as mangé ?",
+        "J'ai faim / soif",
+        "On va manger ?",
+        "Tu as envie de quoi ?",
+        "J'ai envie d'un croque-monsieur",
+        "C'est moi qui invite"
+      ],
+      "grammar": "passé composé"
+    },
+    {
+      "id": "lesson-14-main",
+      "lesson": 14,
+      "level": 2,
+      "title": "Enchanté, à demain",
+      "items": [
+        "C'était un plaisir",
+        "On se tient au courant",
+        "À demain",
+        "Tu es sympa",
+        "Donne-moi ton numéro",
+        "Envoie-moi un message"
+      ],
+      "grammar": "imperativo"
+    },
+    {
+      "id": "lesson-15-main",
+      "lesson": 15,
+      "level": 3,
+      "title": "La boulangerie et le marché",
+      "items": [
+        "Une baguette, s'il vous plaît",
+        "Bien cuite / pas trop cuite",
+        "Un pain au chocolat (ou chocolatine)",
+        "Au marché",
+        "Un kilo de… / une barquette",
+        "C'est de saison ?",
+        "Ça sera tout"
+      ],
+      "grammar": "cultura de boulangerie"
+    },
+    {
+      "id": "lesson-16-main",
+      "lesson": 16,
+      "level": 3,
+      "title": "Vélo et voiture",
+      "items": [
+        "Où est-ce que je peux louer un vélo ?",
+        "Vélib'",
+        "C'est combien la journée ?",
+        "Louer une voiture",
+        "Où est-ce que je peux me garer ?",
+        "Essence / gasoil / la station",
+        "Le péage / l'autoroute"
+      ],
+      "grammar": "louer"
+    },
+    {
+      "id": "lesson-17-main",
+      "lesson": 17,
+      "level": 3,
+      "title": "Métro, bus, train",
+      "items": [
+        "Quelle ligne pour…?",
+        "Un ticket / un pass Navigo",
+        "Le prochain arrêt",
+        "Un aller-retour",
+        "Le TGV",
+        "C'est direct ?"
+      ],
+      "grammar": "preposiciones"
+    },
+    {
+      "id": "lesson-18-main",
+      "lesson": 18,
+      "level": 3,
+      "title": "C'est ouvert ? Les horaires",
+      "items": [
+        "C'est ouvert le dimanche ?",
+        "Fermé le lundi",
+        "La pause déjeuner",
+        "Jour férié",
+        "Je voudrais réserver",
+        "Fermé pour congés annuels"
+      ],
+      "grammar": "horarios"
+    },
+    {
+      "id": "lesson-19-main",
+      "lesson": 19,
+      "level": 3,
+      "title": "Art, musées et balades",
+      "items": [
+        "Le Louvre / Orsay / Pompidou",
+        "C'est gratuit le premier dimanche",
+        "On peut entrer ?",
+        "Une expo",
+        "Une balade en bord de Seine",
+        "Un château"
+      ],
+      "grammar": "on peut"
+    },
+    {
+      "id": "lesson-20-main",
+      "lesson": 20,
+      "level": 3,
+      "title": "Manger comme un Français",
+      "items": [
+        "Une entrée, un plat, un dessert",
+        "Le plat du jour",
+        "Un verre de rouge",
+        "Fromage ou dessert ?",
+        "L'apéro",
+        "Le pourboire",
+        "L'addition, s'il vous plaît"
+      ],
+      "grammar": "comer en Francia"
+    },
+    {
+      "id": "lesson-21-main",
+      "lesson": 21,
+      "level": 4,
+      "title": "Tu es heureux ?",
+      "items": [
+        "Tu es heureux / triste ?",
+        "Pourquoi ?",
+        "Je suis crevé(e)",
+        "J'ai peur",
+        "Ça va aller",
+        "Ma famille me manque"
+      ],
+      "grammar": "manquer"
+    },
+    {
+      "id": "lesson-22-main",
+      "lesson": 22,
+      "level": 4,
+      "title": "Tu aimes quoi ?",
+      "items": [
+        "Tu aimes…?",
+        "J'adore / Je déteste",
+        "Tu écoutes quoi comme musique ?",
+        "Tu es pour quelle équipe ?",
+        "Foot ou rugby ?",
+        "Le Tour de France"
+      ],
+      "grammar": "aimer + infinitivo"
+    },
+    {
+      "id": "lesson-23-main",
+      "lesson": 23,
+      "level": 4,
+      "title": "Les rêves",
+      "items": [
+        "Tu veux faire quoi plus tard ?",
+        "Mon rêve, c'est…",
+        "J'aimerais vivre ici",
+        "Un jour…",
+        "Tu vas y arriver"
+      ],
+      "grammar": "j'aimerais"
+    },
+    {
+      "id": "lesson-24-main",
+      "lesson": 24,
+      "level": 4,
+      "title": "Attention !",
+      "items": [
+        "Attention !",
+        "Au secours !",
+        "Appelle le 15 / le 112",
+        "Je me sens mal",
+        "J'ai besoin d'un médecin",
+        "Où sont les urgences ?"
+      ],
+      "grammar": "imperativos"
+    },
+    {
+      "id": "lesson-25-main",
+      "lesson": 25,
+      "level": 4,
+      "title": "Prier ensemble",
+      "items": [
+        "Tu veux prier ?",
+        "Le Notre Père (ligne par ligne)",
+        "La messe",
+        "Notre-Dame / Lourdes / Taizé",
+        "Que Dieu te bénisse"
+      ],
+      "grammar": "fe en Francia"
+    },
+    {
+      "id": "lesson-26-main",
+      "lesson": 26,
+      "level": 5,
+      "title": "L'apéro et le soir",
+      "items": [
+        "On prend l'apéro ?",
+        "Un kir / un pastis",
+        "On fait quoi ce soir ?",
+        "On sort ?",
+        "Il fait chaud",
+        "Une terrasse"
+      ],
+      "grammar": "proponer planes"
+    },
+    {
+      "id": "lesson-27-main",
+      "lesson": 27,
+      "level": 5,
+      "title": "Le foot, le vélo et le dimanche",
+      "items": [
+        "Qui joue ?",
+        "Qui a marqué ?",
+        "Allez les Bleus !",
+        "Le PSG / l'OM",
+        "Une sortie à vélo",
+        "Le dimanche en famille"
+      ],
+      "grammar": "hablar de deporte"
+    },
+    {
+      "id": "lesson-28-main",
+      "lesson": 28,
+      "level": 5,
+      "title": "Chez le médecin et à la pharmacie",
+      "items": [
+        "J'ai mal à la tête / au ventre",
+        "La pharmacie",
+        "Une ordonnance",
+        "Le médecin traitant",
+        "Les urgences",
+        "Je vais mieux"
+      ],
+      "grammar": "avoir mal à"
+    },
+    {
+      "id": "lesson-29-main",
+      "lesson": 29,
+      "level": 5,
+      "title": "Relier les phrases",
+      "items": [
+        "mais",
+        "parce que",
+        "aussi",
+        "puis / ensuite",
+        "donc",
+        "si",
+        "juste",
+        "peut-être",
+        "bon…",
+        "du coup"
+      ],
+      "grammar": "muletillas: du coup, bon"
+    },
+    {
+      "id": "lesson-30-main",
+      "lesson": 30,
+      "level": 5,
+      "title": "Les verbes : le moteur",
+      "items": [
+        "être / avoir / aller / faire / vouloir / pouvoir / prendre",
+        "présent et passé composé",
+        "on va, on fait"
+      ],
+      "grammar": "sistema verbal"
+    }
+  ]
+}

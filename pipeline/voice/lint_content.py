@@ -10,7 +10,7 @@ Uso: lint_content.py --course tagalog [--fix]
 import argparse, json, re
 from common import course_dir, load_json, save_json
 
-PILLS = {"preguntar","entender","presentarse","cortesia","moverse","mercado","ninos","corazon","familia","casa","trabajo","comida","tiempo","fe","salud","social","peligro","bar","horarios","arte","calcio","romano"}
+PILLS = {"surf","preguntar","entender","presentarse","cortesia","moverse","mercado","ninos","corazon","familia","casa","trabajo","comida","tiempo","fe","salud","social","peligro","bar","horarios","arte","calcio","romano"}
 ENGLISH = re.compile(r"\b(the|and|you|please|listen|repeat|hello|thank you|good morning|yes|no problem)\b", re.I)
 
 def main():

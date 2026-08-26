@@ -1,0 +1,58 @@
+{
+  "id": "ingles",
+  "version": "1",
+  "title": "Inglés · WorldSpeak",
+  "shortTitle": "Inglés",
+  "language": {
+    "code": "en",
+    "name": "Inglés",
+    "flag": "gb"
+  },
+  "method": "pimsleur",
+  "narratorLabel": "Narrador",
+  "groupSegments": false,
+  "description": "Como un británico. Escucha y repite.",
+  "tagline": "Como un británico",
+  "context": "Curso de INGLÉS BRITÁNICO (Reino Unido, no americano) para hispanohablantes. Objetivo: vivir Gran Bretaña como un local. Lugares: Londres (Camden, Shoreditch, Notting Hill, Greenwich), Oxford, Bath, Cotswolds, Lake District, Cornwall, Edimburgo. Situaciones: el pub (pint, round, last orders, Sunday roast, pub quiz), alquilar bici (hire a bike, Santander cycles) y coche (rent a car, drive on the left, MOT, petrol station), tube y bus (Oyster, contactless, mind the gap), horarios y bank holidays, museos gratis (British Museum, Tate, National Trust), paseos por el campo (public footpath), comida (fish and chips, full English, cuppa, afternoon tea, curry night, chippy), el tiempo como tema de conversación, fútbol y rugby, y conocer a la gente: de dónde son, qué hacen, cómo están, qué sueñan. Registro británico: sorry, cheers, lovely, brilliant, knackered, understatement (not bad, can't complain). Ortografía y léxico británicos (colour, lift, flat, queue, bin, holiday). Nada de americanismos (no 'gas station', 'apartment', 'vacation', 'awesome').",
+  "method_config": {
+    "closing": "Cheers, see you!",
+    "forbidden": [
+      "Tondo",
+      "Roma",
+      "gas station",
+      "apartment",
+      "vacation",
+      "awesome"
+    ],
+    "first_time_notes": [
+      {
+        "triggers": [
+          "cheers"
+        ],
+        "text": "Un apunte: cheers vale para dos cosas. Es gracias, informal, y es salud al brindar. Lo vas a oír cien veces al día."
+      },
+      {
+        "triggers": [
+          "sorry"
+        ],
+        "text": "Sorry es la palabra más británica que existe: se dice para pedir perdón, para pedir paso, para llamar la atención y hasta cuando el otro se ha chocado contigo. Úsala sin miedo."
+      },
+      {
+        "triggers": [
+          "pint"
+        ],
+        "text": "La cerveza se pide por pintas: a pint. Media es a half. Y si alguien dice it's my round, invita a toda la mesa: la ronda es sagrada."
+      }
+    ]
+  },
+  "audioBase": "./audio/",
+  "transcriptsBase": "./transcripts/",
+  "api": "../api/",
+  "kinds": {
+    "main": {
+      "label": "Lecciones",
+      "badge": "Lección"
+    }
+  },
+  "tracks": []
+}

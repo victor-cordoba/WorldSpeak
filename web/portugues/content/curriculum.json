@@ -1,0 +1,496 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Kit de conversación",
+      "icon": "❓",
+      "desc": "Preguntar, entender, pedir"
+    },
+    {
+      "id": 2,
+      "title": "Conocer a una persona",
+      "icon": "🏠",
+      "desc": "De dónde eres, qué haces, la familia"
+    },
+    {
+      "id": 3,
+      "title": "Surf y furgoneta",
+      "icon": "🏄",
+      "desc": "Spots, tabla, camper, camping"
+    },
+    {
+      "id": 4,
+      "title": "El corazón",
+      "icon": "❤️",
+      "desc": "Qué te mueve, sueños, fe"
+    },
+    {
+      "id": 5,
+      "title": "Día a día",
+      "icon": "🍻",
+      "desc": "Fiesta, comida, coche, verbos"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "level": 1,
+      "title": "Olá, tudo bem? Como te chamas?",
+      "items": [
+        "Olá / Bom dia / Boa tarde / Boa noite",
+        "Tudo bem? / Tudo bem",
+        "Chamo-me…",
+        "Como te chamas?",
+        "Prazer",
+        "Obrigado / Obrigada",
+        "Até logo / Até já"
+      ],
+      "grammar": "obrigado vs obrigada · tu vs você"
+    },
+    {
+      "id": "lesson-02-main",
+      "lesson": 2,
+      "level": 1,
+      "title": "Falas espanhol?",
+      "items": [
+        "Falas espanhol / inglês?",
+        "Um pouco",
+        "Não percebo",
+        "Podes repetir?",
+        "Sim / Não",
+        "Não sei",
+        "Está bem / Fixe"
+      ],
+      "grammar": "não + verbo · fixe"
+    },
+    {
+      "id": "lesson-03-main",
+      "lesson": 3,
+      "level": 1,
+      "title": "Eu, tu, o meu, o teu",
+      "items": [
+        "eu, tu, ele/ela, nós, vocês, eles",
+        "o meu / a minha",
+        "a minha casa",
+        "E tu?",
+        "Eu também"
+      ],
+      "grammar": "posesivo con artículo"
+    },
+    {
+      "id": "lesson-04-main",
+      "lesson": 4,
+      "level": 1,
+      "title": "Onde? Quem? O quê?",
+      "items": [
+        "Onde é…?",
+        "Quem é?",
+        "O que é isto?",
+        "aqui / ali",
+        "Onde moras?",
+        "Moro em…",
+        "É perto / longe"
+      ],
+      "grammar": "onde fica vs onde está"
+    },
+    {
+      "id": "lesson-05-main",
+      "lesson": 5,
+      "level": 1,
+      "title": "Quero… Vou a…",
+      "items": [
+        "Queria…",
+        "Quero…",
+        "Queres?",
+        "Não quero",
+        "Vou a…",
+        "Vamos!",
+        "Como se vai para…?",
+        "Direita / esquerda / em frente",
+        "Onde posso…?"
+      ],
+      "grammar": "querer + ir"
+    },
+    {
+      "id": "lesson-06-main",
+      "lesson": 6,
+      "level": 1,
+      "title": "Quanto custa? Uma imperial, por favor",
+      "items": [
+        "Quanto custa?",
+        "Quanto é?",
+        "Uma imperial / uma mini / um café / uma bica",
+        "por favor",
+        "A conta",
+        "números 1–20",
+        "preços"
+      ],
+      "grammar": "pedir cerveza en Portugal: imperial, mini, fino (Porto)"
+    },
+    {
+      "id": "lesson-07-main",
+      "lesson": 7,
+      "level": 1,
+      "title": "Quando? Porquê? Quantos? A que horas?",
+      "items": [
+        "Quando?",
+        "Porquê? / Porque…",
+        "Quantos?",
+        "hoje / amanhã / ontem / logo à noite",
+        "A que horas…?",
+        "Está aberto? / fechado",
+        "Fecha às…"
+      ],
+      "grammar": "horas"
+    },
+    {
+      "id": "lesson-08-main",
+      "lesson": 8,
+      "level": 1,
+      "title": "Repaso: a tua primeira conversa",
+      "items": [
+        "Desculpa / Desculpe",
+        "Com licença",
+        "Um momento",
+        "Como se diz… em português?",
+        "Não há problema",
+        "Bora!",
+        "conversación completa en un café"
+      ],
+      "grammar": "tu / você / o senhor"
+    },
+    {
+      "id": "lesson-09-main",
+      "lesson": 9,
+      "level": 2,
+      "title": "De onde és?",
+      "items": [
+        "De onde és?",
+        "Sou espanhol/a, de Madrid",
+        "Há quanto tempo estás em Portugal?",
+        "Há uma semana",
+        "Gosto de Portugal",
+        "Vim para surfar"
+      ],
+      "grammar": "gostar de"
+    },
+    {
+      "id": "lesson-10-main",
+      "lesson": 10,
+      "level": 2,
+      "title": "A família",
+      "items": [
+        "Tens família?",
+        "mãe / pai / irmão / irmã / filhos",
+        "Quantos são?",
+        "avó / avô",
+        "mulher / marido",
+        "namorado / namorada"
+      ],
+      "grammar": "ter"
+    },
+    {
+      "id": "lesson-11-main",
+      "lesson": 11,
+      "level": 2,
+      "title": "Quantos anos tens?",
+      "items": [
+        "Quantos anos tens?",
+        "Tenho … anos",
+        "És novo / velho",
+        "Quando nasceste?"
+      ],
+      "grammar": "números hasta 100"
+    },
+    {
+      "id": "lesson-12-main",
+      "lesson": 12,
+      "level": 2,
+      "title": "O que fazes?",
+      "items": [
+        "O que fazes?",
+        "Sou…",
+        "Estudo",
+        "Trabalho em…",
+        "Trabalho remoto",
+        "Ando a viajar"
+      ],
+      "grammar": "fazer · andar a"
+    },
+    {
+      "id": "lesson-13-main",
+      "lesson": 13,
+      "level": 2,
+      "title": "Já comeste?",
+      "items": [
+        "Já comeste?",
+        "Tenho fome / sede",
+        "Vamos comer?",
+        "O que te apetece?",
+        "Apetece-me uma francesinha",
+        "Pago eu"
+      ],
+      "grammar": "pretérito: comeste"
+    },
+    {
+      "id": "lesson-14-main",
+      "lesson": 14,
+      "level": 2,
+      "title": "Prazer, até amanhã",
+      "items": [
+        "Foi um prazer",
+        "Falamos",
+        "Até amanhã",
+        "És fixe",
+        "Dá-me o teu número",
+        "Manda mensagem"
+      ],
+      "grammar": "imperativo tu"
+    },
+    {
+      "id": "lesson-15-main",
+      "lesson": 15,
+      "level": 3,
+      "title": "Onde se surfa bem?",
+      "items": [
+        "Onde se surfa bem por aqui?",
+        "Como está o mar hoje?",
+        "Há ondas?",
+        "A que horas está melhor?",
+        "maré alta / baixa",
+        "O vento está offshore?",
+        "Ericeira / Peniche / Nazaré / Sagres"
+      ],
+      "grammar": "impersonal se"
+    },
+    {
+      "id": "lesson-16-main",
+      "lesson": 16,
+      "level": 3,
+      "title": "Alugar uma prancha",
+      "items": [
+        "Onde posso alugar uma prancha?",
+        "Uma prancha e um fato",
+        "Quanto é por dia / por hora?",
+        "Tens escola de surf?",
+        "Uma aula para principiantes",
+        "Sou intermédio",
+        "Tens leash / parafina?"
+      ],
+      "grammar": "alugar · ter"
+    },
+    {
+      "id": "lesson-17-main",
+      "lesson": 17,
+      "level": 3,
+      "title": "A carrinha e onde dormir",
+      "items": [
+        "Onde posso estacionar a carrinha?",
+        "Há um bom sítio para dormir com a carrinha?",
+        "Pode-se acampar aqui?",
+        "Há um parque de campismo perto?",
+        "Onde posso despejar / encher água?",
+        "É seguro dormir aqui?",
+        "Duche / casa de banho"
+      ],
+      "grammar": "pode-se · há"
+    },
+    {
+      "id": "lesson-18-main",
+      "lesson": 18,
+      "level": 3,
+      "title": "Praias e conselhos",
+      "items": [
+        "Qual é a melhor praia por aqui?",
+        "Tem nadador-salvador?",
+        "Há correntes?",
+        "Onde fica o spot secreto?",
+        "A praia é de areia ou rocha?",
+        "Onde há sombra / chuveiro?"
+      ],
+      "grammar": "comparativo: melhor"
+    },
+    {
+      "id": "lesson-19-main",
+      "lesson": 19,
+      "level": 3,
+      "title": "Combustível, avarias e estrada",
+      "items": [
+        "Onde há uma bomba de gasolina?",
+        "Gasóleo / gasolina",
+        "Cheio, por favor",
+        "Furou um pneu",
+        "Preciso de um mecânico",
+        "A carrinha não pega",
+        "Portagens / via verde"
+      ],
+      "grammar": "precisar de"
+    },
+    {
+      "id": "lesson-20-main",
+      "lesson": 20,
+      "level": 3,
+      "title": "Depois do surf",
+      "items": [
+        "Estou cansado / partido",
+        "Uma imperial bem gelada",
+        "Onde há fiesta hoje?",
+        "Há música ao vivo?",
+        "A que horas abre o bar?",
+        "Bora jantar"
+      ],
+      "grammar": "estar + adjetivo"
+    },
+    {
+      "id": "lesson-21-main",
+      "lesson": 21,
+      "level": 4,
+      "title": "Estás feliz?",
+      "items": [
+        "Estás feliz? / triste?",
+        "Porquê?",
+        "Estou cansado",
+        "Tenho medo",
+        "Está tudo bem",
+        "Tenho saudades"
+      ],
+      "grammar": "saudade"
+    },
+    {
+      "id": "lesson-22-main",
+      "lesson": 22,
+      "level": 4,
+      "title": "Do que gostas?",
+      "items": [
+        "Gostas de…?",
+        "Gosto / Adoro / Odeio",
+        "Qual é a tua onda favorita?",
+        "Que música ouves?",
+        "Benfica, Sporting ou Porto?"
+      ],
+      "grammar": "gostar de + infinitivo"
+    },
+    {
+      "id": "lesson-23-main",
+      "lesson": 23,
+      "level": 4,
+      "title": "Sonhos",
+      "items": [
+        "Qual é o teu sonho?",
+        "O meu sonho é…",
+        "Queria viver junto ao mar",
+        "Um dia…",
+        "Tu consegues"
+      ],
+      "grammar": "condicional: queria"
+    },
+    {
+      "id": "lesson-24-main",
+      "lesson": 24,
+      "level": 4,
+      "title": "Atenção!",
+      "items": [
+        "Atenção!",
+        "Socorro!",
+        "Cuidado com a corrente",
+        "Chama o 112",
+        "Estou mal",
+        "Preciso de um médico",
+        "Onde é o hospital?"
+      ],
+      "grammar": "imperativos"
+    },
+    {
+      "id": "lesson-25-main",
+      "lesson": 25,
+      "level": 4,
+      "title": "Rezar juntos",
+      "items": [
+        "Queres rezar?",
+        "O Pai Nosso (linha a linha)",
+        "A missa",
+        "Fátima",
+        "Deus te abençoe",
+        "A igreja"
+      ],
+      "grammar": "fe en Portugal"
+    },
+    {
+      "id": "lesson-26-main",
+      "lesson": 26,
+      "level": 5,
+      "title": "Comer como um português",
+      "items": [
+        "Bacalhau / sardinhas / francesinha / pastel de nata",
+        "Um prato do dia",
+        "Uma tosta mista",
+        "Bica / galão / meia de leite",
+        "O petisco",
+        "A conta, se faz favor"
+      ],
+      "grammar": "pedir en tasca"
+    },
+    {
+      "id": "lesson-27-main",
+      "lesson": 27,
+      "level": 5,
+      "title": "Festa e noite",
+      "items": [
+        "Onde há festa hoje?",
+        "Vamos ao Bairro Alto",
+        "Uma rodada",
+        "Saúde!",
+        "Está cheio",
+        "Onde há um bar com terraço?"
+      ],
+      "grammar": "planes"
+    },
+    {
+      "id": "lesson-28-main",
+      "lesson": 28,
+      "level": 5,
+      "title": "No médico e na farmácia",
+      "items": [
+        "Dói-me a cabeça / as costas",
+        "Cortei-me na prancha",
+        "Farmácia",
+        "Receita",
+        "Urgências",
+        "Estou melhor"
+      ],
+      "grammar": "doer"
+    },
+    {
+      "id": "lesson-29-main",
+      "lesson": 29,
+      "level": 5,
+      "title": "Ligar frases",
+      "items": [
+        "mas",
+        "porque",
+        "também",
+        "depois",
+        "então",
+        "se",
+        "só",
+        "se calhar",
+        "pois",
+        "pronto"
+      ],
+      "grammar": "muletillas: pois, pronto"
+    },
+    {
+      "id": "lesson-30-main",
+      "lesson": 30,
+      "level": 5,
+      "title": "Os verbos: o motor",
+      "items": [
+        "ser / estar / ter / ir / fazer / querer / poder",
+        "presente y pretérito",
+        "bora (vamos)"
+      ],
+      "grammar": "sistema verbal"
+    }
+  ]
+}

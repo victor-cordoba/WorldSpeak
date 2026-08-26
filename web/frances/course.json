@@ -1,0 +1,55 @@
+{
+  "id": "frances",
+  "version": "1",
+  "title": "Francés · WorldSpeak",
+  "shortTitle": "Francés",
+  "language": {
+    "code": "fr",
+    "name": "Francés",
+    "flag": "fr"
+  },
+  "method": "pimsleur",
+  "narratorLabel": "Narrador",
+  "groupSegments": false,
+  "description": "Como un francés. Escucha y repite.",
+  "tagline": "Como un francés",
+  "context": "Curso de FRANCÉS (Francia) para hispanohablantes. Objetivo: vivir Francia como un local. Lugares: París (Le Marais, Montmartre, Belleville, Canal Saint-Martin, la Seine), Lyon, Bordeaux, Bretagne, Normandie, los Alpes. Situaciones: la boulangerie (baguette bien cuite, pain au chocolat/chocolatine), el marché, alquilar bici (Vélib', louer un vélo) y coche (louer une voiture, péage, station-service, se garer), métro y TGV (Navigo, aller-retour), horarios y jours fériés, museos (Louvre, Orsay, Pompidou, gratuit le premier dimanche), balades y châteaux, comida (entrée-plat-dessert, plat du jour, fromage ou dessert, apéro, kir), fútbol y Tour de France, y conocer a la gente: de dónde vienen, qué hacen, cómo están, qué sueñan. Registro: bonjour obligatorio al entrar en cualquier sitio, tu con jóvenes y vous con desconocidos y mayores. Francés oral real: on en vez de nous, negación sin 'ne' en el habla (je sais pas), muletillas du coup, bon, ben, quoi, ça marche. Nada de francés de Quebec ni de Bélgica.",
+  "method_config": {
+    "closing": "Allez, à bientôt !",
+    "forbidden": [
+      "Tondo",
+      "Roma",
+      "Québec"
+    ],
+    "first_time_notes": [
+      {
+        "triggers": [
+          "bonjour"
+        ],
+        "text": "Un apunte importante: en Francia se dice bonjour al entrar en cualquier sitio, antes de nada. Sin bonjour, te atienden peor. Es la llave."
+      },
+      {
+        "triggers": [
+          "vous"
+        ],
+        "text": "Vous es usted, y también vosotros. Con desconocidos, mayores y en tiendas, vous. Con amigos y jóvenes, tu. Si dudas, vous."
+      },
+      {
+        "triggers": [
+          " on "
+        ],
+        "text": "Fíjate: los franceses casi nunca dicen nous. Dicen on: on y va, on fait quoi. Es nosotros, hablado."
+      }
+    ]
+  },
+  "audioBase": "./audio/",
+  "transcriptsBase": "./transcripts/",
+  "api": "../api/",
+  "kinds": {
+    "main": {
+      "label": "Lecciones",
+      "badge": "Lección"
+    }
+  },
+  "tracks": []
+}

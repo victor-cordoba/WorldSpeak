@@ -1,0 +1,58 @@
+{
+  "id": "portugues",
+  "version": "1",
+  "title": "Portugués · WorldSpeak",
+  "shortTitle": "Portugués",
+  "language": {
+    "code": "pt",
+    "name": "Portugués",
+    "flag": "pt"
+  },
+  "method": "pimsleur",
+  "narratorLabel": "Narrador",
+  "groupSegments": false,
+  "description": "Surf y gloria. Escucha y repite.",
+  "tagline": "Surf y gloria",
+  "context": "Curso de PORTUGUÉS EUROPEO (Portugal, no Brasil) para hispanohablantes que van a Portugal a hacer SURF y a vivir en FURGONETA (carrinha). Objetivo: surf y gloria, ser uno más en la costa. Lugares: Ericeira, Peniche (Baleal, Supertubos), Nazaré, Figueira da Foz, Sagres, Arrifana, Costa da Caparica, Porto y Lisboa. Situaciones: preguntar dónde se surfea bien y a qué hora (marés, vento offshore, ondas), alquilar tabla y neopreno (prancha, fato), escuela de surf, dónde aparcar y dormir con la furgoneta, si se puede acampar, campings (parque de campismo), vaciar aguas y llenar agua, duchas, gasolineras y averías, mejores playas, corrientes, pedir cervezas (imperial, mini, fino en el Porto), preguntar por fiesta y música en directo, comida (bacalhau, sardinhas, francesinha, pastel de nata, bica), y conocer a la gente: de dónde son, qué hacen, cómo están, qué sueñan. Registro: tu con jóvenes, você/o senhor con mayores. Muletillas: fixe, bora, pois, pronto, se calhar. Nada de portugués de Brasil (nada de 'você' informal, 'legal', 'a gente' como sujeto).",
+  "method_config": {
+    "closing": "Bora, até já!",
+    "forbidden": [
+      "Brasil",
+      "legal",
+      "Tondo",
+      "Roma"
+    ],
+    "first_time_notes": [
+      {
+        "triggers": [
+          "obrigad"
+        ],
+        "text": "Un apunte: en portugués das las gracias según quién eres tú. Si eres hombre, obrigado; si eres mujer, obrigada. Siempre."
+      },
+      {
+        "triggers": [
+          " fixe",
+          "bora"
+        ],
+        "text": "Eso es portugués de la calle: fixe es guay y bora es vamos. Con amigos, siempre; con un señor mayor, mejor não."
+      },
+      {
+        "triggers": [
+          "imperial",
+          " mini"
+        ],
+        "text": "La cerveza en Portugal: una imperial es una caña, una mini es un botellín. En el Porto, la caña es un fino. Pide así y nadie pensará que eres turista."
+      }
+    ]
+  },
+  "audioBase": "./audio/",
+  "transcriptsBase": "./transcripts/",
+  "api": "../api/",
+  "kinds": {
+    "main": {
+      "label": "Lecciones",
+      "badge": "Lección"
+    }
+  },
+  "tracks": []
+}

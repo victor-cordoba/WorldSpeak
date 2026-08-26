@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Inglés · WorldSpeak</title>
+  <meta name="description" content="30 lecciones de 15 minutos para hablar Tagalog desde el primer día: preguntar, entender, conocer a la gente de la calle. Ruta, frases, tablas y práctica.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://worldspeak.es/ingles/">
+  <meta name="theme-color" content="#0038a8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="WorldSpeak">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=20260826-31">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/icon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WorldSpeak">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:url" content="https://worldspeak.es/ingles/">
+  <meta property="og:title" content="Inglés · WorldSpeak">
+  <meta property="og:description" content="30 lecciones de 15 minutos para hablar Tagalog desde el primer día: preguntar, entender, conocer a la gente de la calle. Ruta, frases, tablas y práctica.">
+  <meta property="og:image" content="https://worldspeak.es/assets/social.png">
+  <meta property="og:image:secure_url" content="https://worldspeak.es/assets/social.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="WorldSpeak: aprende hablando">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Inglés · WorldSpeak">
+  <meta name="twitter:description" content="30 lecciones de 15 minutos para hablar Tagalog desde el primer día: preguntar, entender, conocer a la gente de la calle. Ruta, frases, tablas y práctica.">
+  <meta name="twitter:image" content="https://worldspeak.es/assets/social.png">
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../assets/course.css?v=20260826-34">
+  <link rel="stylesheet" href="../assets/bg.css?v=20260826-29">
+</head>
+<body>
+  <header class="top">
+    <a class="top-back" href="../" aria-label="Volver a WorldSpeak">‹</a>
+    <div class="top-title">
+      <span class="top-flag" aria-hidden="true">🇵🇭</span>
+      <div><strong id="courseTitle">Inglés</strong><em id="courseSub">Como un británico · WorldSpeak</em></div>
+    </div>
+    <div class="top-stats" aria-label="Tu progreso">
+      <span class="stat stat-streak" title="Días seguidos"><b id="statStreak">0</b>🔥</span>
+      <span class="stat stat-done" title="Lecciones hechas"><b id="statDone">0</b>✓</span>
+    </div>
+  </header>
+
+  <main id="app" class="app">
+    <!-- RUTA -->
+    <section id="tab-ruta" class="tab is-active" aria-labelledby="nav-ruta">
+      <div class="hero-card">
+        <p id="nextMeta" class="hero-where"><span id="nextEyebrow" class="hero-where-pill">LECCIÓN 1</span><span id="nextMetaText"></span></p>
+        <h1 id="nextTitle">Hola, ¿cómo estás?</h1>
+        <div class="hero-actions"><a id="nextLink" class="btn btn-gold btn-big" href="./player.html">▶ Empezar</a></div>
+      </div>
+      <button id="nextPractice" class="practice-bar" type="button"><span class="practice-icon">⚡</span><strong>Práctica rápida</strong><em id="practiceMeta" class="practice-pill"></em><span class="practice-go">›</span></button>
+      <div id="route" class="route" aria-label="Ruta de lecciones"></div>
+                </section>
+
+    <!-- FRASES -->
+    <section id="tab-frases" class="tab" aria-labelledby="nav-frases" hidden>
+      <div class="section-head">
+        <h2>Frases</h2>
+        <p>Toca una tarjeta para darle la vuelta. Elige un tema.</p>
+      </div>
+      <div class="search-row"><input id="phraseSearch" type="search" placeholder="Buscar en Inglés o español…" autocomplete="off"></div>
+      <div id="pillBar" class="pill-bar" role="tablist" aria-label="Temas"></div>
+      <div id="phraseGrid" class="phrase-grid" aria-live="polite"></div>
+    </section>
+
+    <!-- TABLAS -->
+    <section id="tab-tablas" class="tab" aria-labelledby="nav-tablas" hidden>
+      <div class="section-head">
+        <h2>Tablas</h2>
+        <p>La gramática en 13 tablas. Para mirar rápido antes de hablar.</p>
+        <div class="btn-row"><a class="btn btn-blue" href="./docs/tagalog-para-tondo.pdf" download>📄 Guía «Tagalog para Tondo» (PDF)</a><button id="printTables" class="btn btn-ghost" type="button">Imprimir las tablas</button></div>
+      </div>
+      <div id="tables" class="tables"></div>
+    </section>
+
+    <!-- A MEDIDA -->
+    <section id="tab-medida" class="tab" aria-labelledby="nav-medida" hidden>
+      <div class="section-head">
+        <h2>A medida</h2>
+        <p>Repasa frases o practica conversaciones.</p>
+      </div>
+      <div class="seg" role="tablist" aria-label="Modo">
+        <button type="button" class="seg-btn is-active" data-medida="repaso" role="tab">🎯 Repaso</button>
+        <button type="button" class="seg-btn" data-medida="dialogos" role="tab">💬 Diálogos</button>
+      </div>
+      <div data-medida-panel="repaso">
+      <div id="customPills" class="pill-bar pill-bar-wrap" aria-label="Temas a repasar"></div>
+      <div class="custom-row">
+        <label>Frases <select id="customCount"><option>10</option><option selected>20</option><option>40</option></select></label>
+        <button id="customStart" class="btn btn-blue" type="button">Empezar repaso</button>
+      </div>
+      <div id="quiz" class="quiz" hidden>
+        <div class="quiz-progress"><span id="quizBar"></span></div>
+        <p class="quiz-es" id="quizEs"></p>
+                <div class="quiz-answer" id="quizAnswer" hidden>
+          <p class="quiz-tl" id="quizTl"></p>
+          <p class="quiz-note" id="quizNote"></p>
+        </div>
+        <div class="quiz-actions">
+          <button id="quizReveal" class="btn btn-gold btn-big" type="button">Mostrar</button>
+          <div id="quizJudge" class="quiz-judge" hidden>
+            <button id="quizHard" class="btn btn-red" type="button">Me costó</button>
+            <button id="quizEasy" class="btn btn-blue" type="button">La sabía</button>
+          </div>
+        </div>
+      </div>
+      <div id="quizDone" class="quiz-done" hidden>
+        <p class="quiz-done-big">🎉</p>
+        <h3>¡Repaso hecho!</h3>
+        <p id="quizSummary"></p>
+        <button id="quizAgain" class="btn btn-blue" type="button">Otro repaso</button>
+      </div>
+      </div>
+      <div data-medida-panel="dialogos" hidden>
+        <p class="seg-help">Las conversaciones de cada lección. Toca una línea para oírla y ver la traducción.</p>
+        <div id="dialogueList" class="dialogue-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Secciones">
+    <button id="nav-ruta" class="nav-btn is-active" data-tab="ruta" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 16V7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v9a2 2 0 0 1-2 2v1.5a1.5 1.5 0 0 1-3 0V18H9v1.5a1.5 1.5 0 0 1-3 0V18a2 2 0 0 1-2-2zm3-9v5h10V7H7zm1 8.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5zm8 0a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5z"/></svg><span>Ruta</span></button>
+    <button id="nav-frases" class="nav-btn" data-tab="frases" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10a4 4 0 0 1 4 4v5a4 4 0 0 1-4 4h-5l-4.2 3.4A1 1 0 0 1 6 19.6V17a4 4 0 0 1-3-3.9V8a4 4 0 0 1 4-4zm1.5 6.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm3.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm3.5 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5z"/></svg><span>Frases</span></button>
+    <button id="nav-tablas" class="nav-btn" data-tab="tablas" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v3h14V6H5zm0 5v3h6v-3H5zm8 0v3h6v-3h-6zM5 16v2h6v-2H5zm8 0v2h6v-2h-6z"/></svg><span>Tablas</span></button>
+    <button id="nav-medida" class="nav-btn" data-tab="medida" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2.05V5a1 1 0 1 1-2 0V2.05A10 10 0 0 0 2.05 11H5a1 1 0 1 1 0 2H2.05A10 10 0 0 0 11 21.95V19a1 1 0 1 1 2 0v2.95A10 10 0 0 0 21.95 13H19a1 1 0 1 1 0-2h2.95A10 10 0 0 0 13 2.05zM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/></svg><span>A medida</span></button>
+  </nav>
+
+  <script src="../assets/course.js?v=20260826-29"></script>
+  <script src="../assets/track.js?v=20260826-29" data-api="../api/track.php" data-course="ingles" defer></script>
+  <script src="../assets/bg.js?v=20260826-29"></script>
+  <script src="../assets/map.js?v=20260826-30" data-course="ingles"></script>
+</body>
+</html>
