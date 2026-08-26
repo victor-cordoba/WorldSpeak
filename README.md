@@ -19,14 +19,24 @@
   <a href="CHANGELOG.md">Changelog</a>
 </p>
 
-Plataforma web para estudiar idiomas con el **método Pimsleur**: audio,
+<p align="center">
+  <img src="screenshots/movil/01-hub.png" width="180" alt="Hub">
+  <img src="screenshots/movil/02-ruta.png" width="180" alt="Ruta">
+  <img src="screenshots/movil/03-leccion.png" width="180" alt="Lección">
+  <img src="screenshots/movil/04-frases.png" width="180" alt="Frases">
+</p>
+<p align="center">
+  <img src="screenshots/movil/05-tablas.png" width="180" alt="Tablas">
+  <img src="screenshots/movil/06-a-medida.png" width="180" alt="A medida">
+  <img src="screenshots/movil/07-mapa.png" width="180" alt="Dónde se habla">
+</p>
+
+Plataforma web para estudiar idiomas con el **Método Tondo** (Pimsleur llevado al móvil): audio,
 transcripción sincronizada, traducción al español y diccionario. Un hub con
 varios cursos y **una sola cuenta** cuyo progreso te sigue del móvil al
 ordenador. Y un **sistema modular de contenido** que compila lecciones de
 5, 15 o 30 minutos a partir de frases reutilizables, con voces nativas de
 ElevenLabs.
-
-![Hub de WorldSpeak](screenshots/05-worldspeak-hub.jpg)
 
 ---
 
@@ -52,8 +62,6 @@ carpeta.
 **Una cuenta con nombre + PIN**, sin email ni registro, con progreso por curso
 sincronizado por fusión (nunca se pierde nada).
 
-![Curso propio de Tagalog, lección 1](screenshots/06-tagalog-propio-leccion01.jpg)
-
 ---
 
 ## CURSOS
@@ -61,8 +69,12 @@ sincronizado por fusión (nunca se pierde nada).
 | Curso | Ruta | Origen | Estado |
 |---|---|---|---|
 | Tagalog · Pimsleur | `/worldspeak/tagalog-pimsleur/` | Audio de Pimsleur (30 lecciones + 20 lecturas), transcrito | Completo |
-| Tagalog para Tondo | `/worldspeak/tagalog/` | Propio: app estilo Duolingo (Ruta, Frases, Tablas, A medida), contenido modular, voces ElevenLabs | Contenido Nivel 1 listo, audio en preparación |
-| Bisaya (Cebuano) | `/worldspeak/bisaya/` | Propio, generado con ElevenLabs | Planificado |
+| Tagalog para Tondo | `/tagalog/` | Propio: 30 lecciones, voces Fish/ElevenLabs, frases, tablas, práctica | Completo |
+| Bisaya para Cebú y Bohol | `/bisaya/` | Propio: 30 lecciones | Completo |
+| Italiano · Ser romano | `/italiano/` | Propio: 30 lecciones (Vespa, bar, arte, calcio) | Completo |
+| Portugués · Surf y gloria | `/portugues/` | Textos de 30 lecciones; L01 con voz | En preparación |
+| Inglés británico | `/ingles/` | Textos de 30 lecciones; L01 con voz | En preparación |
+| Francés | `/frances/` | Textos de 30 lecciones; L01 con voz | En preparación |
 
 ---
 
