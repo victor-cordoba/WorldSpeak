@@ -16,9 +16,6 @@ done
 python3 ../build_dictionary.py --course "$COURSE"
 python3 export_clips.py --course "$COURSE"
 cd "$ROOT" && scripts/deploy.sh | tail -1
-rsync -az --exclude 'clips/' --exclude 'voces/' --exclude '*/audio' --exclude '_clips/' --exclude '.private/' --exclude 'config.php' --exclude '*.md' web/ PERSONAL_SERVER:~/domains/victorcordoba.com/public_html/worldspeak/ 2>/dev/null
 rsync -az "web/$COURSE/audio/" --exclude '_prueba*' PERSONAL_SERVER:~/domains/worldspeak.es/public_html/$COURSE/audio/
-rsync -az "web/$COURSE/audio/" --exclude '_prueba*' PERSONAL_SERVER:~/domains/victorcordoba.com/public_html/worldspeak/$COURSE/audio/
 rsync -az "web/$COURSE/clips/" PERSONAL_SERVER:~/domains/worldspeak.es/public_html/$COURSE/clips/
-rsync -az "web/$COURSE/clips/" PERSONAL_SERVER:~/domains/victorcordoba.com/public_html/worldspeak/$COURSE/clips/
 echo "=========== FIN $(date +%H:%M) ==========="

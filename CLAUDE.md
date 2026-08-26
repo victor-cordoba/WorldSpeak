@@ -9,7 +9,7 @@ Plataforma para aprender idiomas escuchando y repitiendo (método Pimsleur),
 con transcripción sincronizada, traducción al español y diccionario. Un hub
 con varios cursos y una cuenta única cuyo progreso viaja entre dispositivos.
 
-- Producción: `https://worldspeak.es/` (Hostinger, alias SSH `PERSONAL_SERVER`); espejo temporal en `victorcordoba.com/worldspeak`
+- Producción: `https://worldspeak.es/` (Hostinger, alias SSH `PERSONAL_SERVER`)
 - Repo: `https://github.com/victor-cordoba/WorldSpeak` (remote por alias SSH `github-victor`)
 - Usuario objetivo: hispanohablante estudiando en el móvil, en el bus, para la misión en Filipinas.
 

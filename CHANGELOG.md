@@ -9,7 +9,7 @@ Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versi�
 ![Hub en móvil](screenshots/12-movil-hub.jpg) ![Ruta en móvil](screenshots/13-movil-ruta.jpg) ![Lección en móvil](screenshots/14-movil-leccion.jpg)
 
 ### Añadido
-- **Dominio propio `worldspeak.es`** (Hostinger): todo desplegado ahí (código, datos, audio y la base de usuarios). Espejo temporal en `victorcordoba.com/worldspeak` hasta que el DNS resuelva; después redirecciones 301 desde ahí y desde `misioncebu.org/tagalog`.
+- **Dominio propio `worldspeak.es`** (Hostinger): todo desplegado ahí (código, datos, audio y la base de usuarios). Redirecciones 301: `victorcordoba.com/worldspeak/*` → `worldspeak.es/*`; `victorcordoba.com/tagalog/*` y `misioncebu.org/tagalog/*` → `worldspeak.es/tagalog-pimsleur/*`.
 - **MySQL en producción** (`u819150567_worldspeak`): esquema autocreado, 8 usuarios y progreso migrados desde SQLite con `migrate_sqlite_to_mysql.php`.
 - **Analítica propia** sin cookies de terceros: `api/track.php` + tabla `ws_events` (visitas, play, fin de lección, marcar hecha, leer texto, repasos, login) y panel `api/stats.php?key=…`.
 - **Curso de Tagalog completo: 30 lecciones (~7.0 h)** con ElevenLabs Creator (Pablo Marshal narrador, Mark y Grandma Sela Tanda en Tagalog) y respaldo Fish; L09–L30 redactadas por GPT desde el currículo (pendientes de revisión humana) con `scripts/produce-levels.sh` (GPT redacta ítems/escena/receta desde el currículo → compilador → Fish → montaje).
@@ -49,7 +49,7 @@ Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versi�
 ## [20260826-1] — 2026-08-26 · WorldSpeak
 
 La app de Tagalog se convierte en **WorldSpeak**, una plataforma multi-idioma
-en `https://victorcordoba.com/worldspeak/`.
+en `https://worldspeak.es/`.
 
 ### Añadido
 - **Hub** en `/worldspeak/` con todos los cursos, progreso por curso y cuenta compartida.

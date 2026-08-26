@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://victorcordoba.com/worldspeak/"><img src="screenshots/wordmark.svg" width="320" alt="WorldSpeak"></a>
+  <a href="https://worldspeak.es/"><img src="screenshots/wordmark.svg" width="320" alt="WorldSpeak"></a>
 </p>
 
 <h1 align="center">WorldSpeak</h1>
@@ -7,13 +7,13 @@
 <p align="center"><strong>Aprende idiomas escuchando y repitiendo. Media hora al día.</strong></p>
 
 <p align="center">
-  <a href="https://victorcordoba.com/worldspeak/"><img src="https://img.shields.io/badge/%E2%96%B6%20Probar%20la%20app-victorcordoba.com%2Fworldspeak-0038a8?style=for-the-badge&labelColor=fcd116&color=0038a8" alt="Probar la app en victorcordoba.com/worldspeak"></a>
+  <a href="https://worldspeak.es/"><img src="https://img.shields.io/badge/%E2%96%B6%20Probar%20la%20app-worldspeak.es-0038a8?style=for-the-badge&labelColor=fcd116&color=0038a8" alt="Probar la app en worldspeak.es"></a>
 </p>
 
 <p align="center">
-  <a href="https://victorcordoba.com/worldspeak/about/">Sobre WorldSpeak</a> ·
-  <a href="https://victorcordoba.com/worldspeak/tagalog/">Tagalog para Tondo</a> ·
-  <a href="https://victorcordoba.com/worldspeak/tagalog-pimsleur/">Tagalog Pimsleur</a> ·
+  <a href="https://worldspeak.es/about/">Sobre WorldSpeak</a> ·
+  <a href="https://worldspeak.es/tagalog/">Tagalog para Tondo</a> ·
+  <a href="https://worldspeak.es/tagalog-pimsleur/">Tagalog Pimsleur</a> ·
   <a href="docs/00-metodo-tondo.md">El Método Tondo</a> ·
   <a href="docs/10-plan-tagalog-propio.md">Plan del curso propio</a> ·
   <a href="CHANGELOG.md">Changelog</a>

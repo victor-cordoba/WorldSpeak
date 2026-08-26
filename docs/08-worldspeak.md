@@ -7,10 +7,10 @@ que siguen siendo válidos para las piezas de base.
 ## URLS
 
 ```
-victorcordoba.com/worldspeak/                    hub
-victorcordoba.com/worldspeak/tagalog-pimsleur/   curso migrado (antes misioncebu.org/tagalog)
-victorcordoba.com/worldspeak/tagalog/            curso propio
-victorcordoba.com/worldspeak/api/index.php       backend único
+worldspeak.es/                    hub
+worldspeak.es/tagalog-pimsleur/   curso migrado (antes misioncebu.org/tagalog)
+worldspeak.es/tagalog/            curso propio
+worldspeak.es/api/index.php       backend único
 
 misioncebu.org/tagalog/*      301 -> /worldspeak/tagalog-pimsleur/*
 victorcordoba.com/tagalog/*   301 -> /worldspeak/tagalog-pimsleur/*
