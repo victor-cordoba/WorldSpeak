@@ -1,1 +1,902 @@
-{"tables": []}
+{
+  "_doc": "Tablas de italiano para hispanohablantes: lo que cambia y lo que engaña.",
+  "tables": [
+    {
+      "id": "pronombres",
+      "title": "Pronombres",
+      "kicker": "Sujeto, objeto, posesivo",
+      "intro": "El sujeto casi siempre se omite, como en español.",
+      "columns": [
+        "Español",
+        "Sujeto",
+        "Me/te… (objeto)",
+        "Posesivo"
+      ],
+      "rows": [
+        [
+          "yo",
+          "io",
+          "mi",
+          "il mio / la mia"
+        ],
+        [
+          "tú",
+          "tu",
+          "ti",
+          "il tuo / la tua"
+        ],
+        [
+          "él / ella / usted",
+          "lui / lei / Lei",
+          "lo / la · gli / le",
+          "il suo / la sua"
+        ],
+        [
+          "nosotros",
+          "noi",
+          "ci",
+          "il nostro / la nostra"
+        ],
+        [
+          "vosotros",
+          "voi",
+          "vi",
+          "il vostro / la vostra"
+        ],
+        [
+          "ellos",
+          "loro",
+          "li / le · gli",
+          "il loro / la loro"
+        ]
+      ],
+      "notes": [
+        "Lei (mayúscula) = usted; se conjuga en tercera persona: Lei parla spagnolo?",
+        "El posesivo lleva artículo: il mio libro, la tua casa. Excepción: familiares en singular: mia madre, tuo fratello."
+      ]
+    },
+    {
+      "id": "articulos",
+      "title": "Artículos",
+      "kicker": "il, lo, la, i, gli, le",
+      "intro": "",
+      "columns": [
+        "",
+        "Singular",
+        "Plural",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "masc. general",
+          "il",
+          "i",
+          "il caffè, i caffè"
+        ],
+        [
+          "masc. ante s+cons, z, gn, ps",
+          "lo",
+          "gli",
+          "lo spritz, gli spritz · lo zaino"
+        ],
+        [
+          "masc. ante vocal",
+          "l'",
+          "gli",
+          "l'amico, gli amici"
+        ],
+        [
+          "fem. general",
+          "la",
+          "le",
+          "la pizza, le pizze"
+        ],
+        [
+          "fem. ante vocal",
+          "l'",
+          "le",
+          "l'acqua, le acque"
+        ],
+        [
+          "un / una",
+          "un, uno / una, un'",
+          "—",
+          "un caffè, uno spritz, una birra, un'amica"
+        ]
+      ],
+      "notes": [
+        "Preposiciones articuladas: a + il = al, di + la = della, in + il = nel, su + la = sulla, da + i = dai. Al bar, della casa, nel centro."
+      ]
+    },
+    {
+      "id": "preguntas",
+      "title": "Preguntar",
+      "kicker": "Las palabras y las recetas",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Italiano",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "¿Qué?",
+          "Cosa? / Che?",
+          "Cos'è questo?"
+        ],
+        [
+          "¿Quién?",
+          "Chi?",
+          "Chi è?"
+        ],
+        [
+          "¿Dónde?",
+          "Dove?",
+          "Dov'è la fermata?"
+        ],
+        [
+          "¿Cuándo?",
+          "Quando?",
+          "Quando apre?"
+        ],
+        [
+          "¿Por qué?",
+          "Perché?",
+          "Perché no?"
+        ],
+        [
+          "¿Cómo?",
+          "Come?",
+          "Come si arriva a Trastevere?"
+        ],
+        [
+          "¿Cuánto?",
+          "Quanto? / Quanti?",
+          "Quanto costa? · Quanti anni hai?"
+        ],
+        [
+          "¿A qué hora?",
+          "A che ora?",
+          "A che ora chiude?"
+        ],
+        [
+          "¿De dónde?",
+          "Di dove?",
+          "Di dove sei?"
+        ],
+        [
+          "¿Dónde puedo…?",
+          "Dove posso…?",
+          "Dove posso noleggiare una Vespa?"
+        ]
+      ],
+      "notes": [
+        "Sí/no: misma frase con entonación: Parli spagnolo? · Hay un noleggio qui vicino? → C'è un noleggio qui vicino?",
+        "Perché sirve para preguntar y para responder: Perché? — Perché ho fame."
+      ]
+    },
+    {
+      "id": "respuestas",
+      "title": "Lo que te van a contestar",
+      "kicker": "Entrena el oído",
+      "intro": "",
+      "columns": [
+        "Italiano",
+        "Español",
+        "Nota"
+      ],
+      "rows": [
+        [
+          "Sì / No",
+          "Sí / No",
+          ""
+        ],
+        [
+          "Certo!",
+          "¡Claro!",
+          ""
+        ],
+        [
+          "Subito!",
+          "¡Enseguida!",
+          "en el bar"
+        ],
+        [
+          "Ecco / Eccolo",
+          "Aquí tiene / Aquí está",
+          ""
+        ],
+        [
+          "Boh",
+          "Ni idea",
+          "muy romano"
+        ],
+        [
+          "Magari",
+          "Ojalá / quizá",
+          ""
+        ],
+        [
+          "Non lo so",
+          "No lo sé",
+          ""
+        ],
+        [
+          "Va bene / Ok",
+          "Vale",
+          ""
+        ],
+        [
+          "È chiuso / È aperto",
+          "Está cerrado / abierto",
+          ""
+        ],
+        [
+          "Chiude alle otto",
+          "Cierra a las ocho",
+          ""
+        ],
+        [
+          "Sempre dritto",
+          "Todo recto",
+          ""
+        ],
+        [
+          "Ci vediamo",
+          "Nos vemos",
+          ""
+        ],
+        [
+          "Prego",
+          "De nada / adelante / ¿qué desea?",
+          "tres usos"
+        ],
+        [
+          "Daje!",
+          "¡Venga! / ¡Vamos!",
+          "romano"
+        ]
+      ]
+    },
+    {
+      "id": "verbos",
+      "title": "Verbos",
+      "kicker": "Los seis que lo mueven todo",
+      "intro": "Presente y passato prossimo (ho / sono + participio).",
+      "columns": [
+        "Infinitivo",
+        "Español",
+        "io",
+        "tu",
+        "lui/lei",
+        "noi",
+        "passato prossimo"
+      ],
+      "rows": [
+        [
+          "essere",
+          "ser / estar",
+          "sono",
+          "sei",
+          "è",
+          "siamo",
+          "sono stato/a"
+        ],
+        [
+          "avere",
+          "tener / haber",
+          "ho",
+          "hai",
+          "ha",
+          "abbiamo",
+          "ho avuto"
+        ],
+        [
+          "andare",
+          "ir",
+          "vado",
+          "vai",
+          "va",
+          "andiamo",
+          "sono andato/a"
+        ],
+        [
+          "fare",
+          "hacer",
+          "faccio",
+          "fai",
+          "fa",
+          "facciamo",
+          "ho fatto"
+        ],
+        [
+          "volere",
+          "querer",
+          "voglio",
+          "vuoi",
+          "vuole",
+          "vogliamo",
+          "ho voluto"
+        ],
+        [
+          "potere",
+          "poder",
+          "posso",
+          "puoi",
+          "può",
+          "possiamo",
+          "ho potuto"
+        ],
+        [
+          "prendere",
+          "coger / tomar",
+          "prendo",
+          "prendi",
+          "prende",
+          "prendiamo",
+          "ho preso"
+        ],
+        [
+          "dire",
+          "decir",
+          "dico",
+          "dici",
+          "dice",
+          "diciamo",
+          "ho detto"
+        ],
+        [
+          "noleggiare",
+          "alquilar (vehículo)",
+          "noleggio",
+          "noleggi",
+          "noleggia",
+          "noleggiamo",
+          "ho noleggiato"
+        ]
+      ],
+      "notes": [
+        "Vorrei = quisiera: la forma educada de pedir. Vorrei un caffè.",
+        "Romanesco: annamo (andiamo), famo (facciamo), dimme (dimmi), che famo? (¿qué hacemos?)."
+      ]
+    },
+    {
+      "id": "conectores",
+      "title": "Conectores y muletillas",
+      "kicker": "Sonar natural",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Italiano",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "y",
+          "e",
+          "pane e vino"
+        ],
+        [
+          "o",
+          "o",
+          "caffè o tè?"
+        ],
+        [
+          "pero",
+          "ma / però",
+          "Bello, ma caro"
+        ],
+        [
+          "porque",
+          "perché",
+          "Perché ho fame"
+        ],
+        [
+          "también",
+          "anche",
+          "Anch'io"
+        ],
+        [
+          "luego",
+          "poi / dopo",
+          "Poi andiamo"
+        ],
+        [
+          "entonces",
+          "allora / quindi",
+          "Allora, andiamo?"
+        ],
+        [
+          "si",
+          "se",
+          "Se vuoi"
+        ],
+        [
+          "solo",
+          "solo",
+          "Solo uno"
+        ],
+        [
+          "quizá",
+          "forse / magari",
+          "Forse domani"
+        ],
+        [
+          "en fin",
+          "insomma",
+          "Insomma, così così"
+        ],
+        [
+          "o sea",
+          "cioè",
+          "Cioè, non lo so"
+        ],
+        [
+          "venga / vamos",
+          "dai / daje (romano)",
+          "Dai, andiamo!"
+        ]
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "Familia y gente",
+      "kicker": "famiglia",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Italiano"
+      ],
+      "rows": [
+        [
+          "madre / padre",
+          "madre, mamma / padre, papà"
+        ],
+        [
+          "hijo / hija",
+          "figlio / figlia"
+        ],
+        [
+          "hermano / hermana",
+          "fratello / sorella"
+        ],
+        [
+          "abuelo / abuela",
+          "nonno / nonna"
+        ],
+        [
+          "marido / mujer",
+          "marito / moglie"
+        ],
+        [
+          "novio / novia",
+          "fidanzato / fidanzata · ragazzo / ragazza"
+        ],
+        [
+          "tío / tía",
+          "zio / zia"
+        ],
+        [
+          "primo",
+          "cugino / cugina"
+        ],
+        [
+          "amigo",
+          "amico / amica"
+        ],
+        [
+          "chico / chica",
+          "ragazzo / ragazza"
+        ],
+        [
+          "señor / señora",
+          "signore / signora"
+        ]
+      ]
+    },
+    {
+      "id": "numeros",
+      "title": "Números, precios y horas",
+      "kicker": "Al bar y al mercado",
+      "intro": "",
+      "columns": [
+        "",
+        "Italiano"
+      ],
+      "rows": [
+        [
+          "1–10",
+          "uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci"
+        ],
+        [
+          "11–20",
+          "undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti"
+        ],
+        [
+          "30, 40, 50, 100",
+          "trenta, quaranta, cinquanta, cento"
+        ],
+        [
+          "1,50 €",
+          "un euro e cinquanta"
+        ],
+        [
+          "¿Cuánto es?",
+          "Quant'è? / Quanto costa?"
+        ],
+        [
+          "La cuenta, por favor",
+          "Il conto, per favore"
+        ],
+        [
+          "¿Qué hora es?",
+          "Che ore sono?"
+        ],
+        [
+          "Son las tres y media",
+          "Sono le tre e mezza"
+        ],
+        [
+          "A las ocho",
+          "Alle otto"
+        ],
+        [
+          "¿Cuánto cuesta al día?",
+          "Quanto costa al giorno?"
+        ]
+      ],
+      "notes": [
+        "Los precios se dicen con e: due e cinquanta. El coperto es el cubierto que cobran en trattorias."
+      ]
+    },
+    {
+      "id": "moverse",
+      "title": "Moverse y alquilar",
+      "kicker": "Bus, metro, Vespa, coche",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Italiano"
+      ],
+      "rows": [
+        [
+          "¿Dónde puedo alquilar una Vespa?",
+          "Dove posso noleggiare una Vespa?"
+        ],
+        [
+          "¿Hay un alquiler de motos / coches cerca?",
+          "C'è un noleggio moto / auto qui vicino?"
+        ],
+        [
+          "Quisiera alquilar un coche por dos días",
+          "Vorrei noleggiare una macchina per due giorni"
+        ],
+        [
+          "¿Cuánto cuesta al día?",
+          "Quanto costa al giorno?"
+        ],
+        [
+          "¿Hace falta carnet?",
+          "Serve la patente?"
+        ],
+        [
+          "¿El casco está incluido?",
+          "Il casco è incluso?"
+        ],
+        [
+          "¿Dónde puedo aparcar?",
+          "Dove posso parcheggiare?"
+        ],
+        [
+          "Zona de tráfico limitado (multa)",
+          "ZTL: zona a traffico limitato"
+        ],
+        [
+          "Gasolina / gasolinera",
+          "benzina / benzinaio"
+        ],
+        [
+          "¿Qué línea cojo para…?",
+          "Che linea prendo per…?"
+        ],
+        [
+          "La parada / el billete / validar",
+          "la fermata / il biglietto / timbrare"
+        ],
+        [
+          "A la derecha / izquierda / recto",
+          "a destra / a sinistra / dritto"
+        ],
+        [
+          "¿Está lejos? Cerca",
+          "È lontano? Vicino"
+        ],
+        [
+          "Voy andando",
+          "Vado a piedi"
+        ]
+      ]
+    },
+    {
+      "id": "horarios",
+      "title": "Horarios y sitios abiertos",
+      "kicker": "¿Está abierto?",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Italiano"
+      ],
+      "rows": [
+        [
+          "¿Está abierto?",
+          "È aperto?"
+        ],
+        [
+          "¿A qué hora abre / cierra?",
+          "A che ora apre / chiude?"
+        ],
+        [
+          "Cierra a mediodía",
+          "Chiude per pranzo"
+        ],
+        [
+          "Horario continuo",
+          "Orario continuato"
+        ],
+        [
+          "Cerrado los lunes",
+          "Chiuso il lunedì"
+        ],
+        [
+          "Cerrado por vacaciones",
+          "Chiuso per ferie"
+        ],
+        [
+          "¿Puedo reservar?",
+          "Posso prenotare?"
+        ],
+        [
+          "Hoy / mañana / esta noche",
+          "oggi / domani / stasera"
+        ],
+        [
+          "Ahora / luego / más tarde",
+          "adesso (mo', romano) / poi / più tardi"
+        ],
+        [
+          "Lunes a domingo",
+          "lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica"
+        ]
+      ]
+    },
+    {
+      "id": "prestamos",
+      "title": "Falsos amigos y parecidos",
+      "kicker": "Cuidado con estos",
+      "intro": "El italiano se parece tanto que engaña.",
+      "columns": [
+        "Italiano",
+        "Parece",
+        "Significa"
+      ],
+      "rows": [
+        [
+          "burro",
+          "burro",
+          "mantequilla"
+        ],
+        [
+          "caldo",
+          "caldo",
+          "calor / caliente"
+        ],
+        [
+          "salire",
+          "salir",
+          "subir"
+        ],
+        [
+          "guardare",
+          "guardar",
+          "mirar"
+        ],
+        [
+          "largo",
+          "largo",
+          "ancho"
+        ],
+        [
+          "pronto",
+          "pronto",
+          "listo / ¡diga! (teléfono)"
+        ],
+        [
+          "camera",
+          "cámara",
+          "habitación"
+        ],
+        [
+          "gamba",
+          "gamba",
+          "pierna"
+        ],
+        [
+          "aceto",
+          "aceite",
+          "vinagre"
+        ],
+        [
+          "olio",
+          "—",
+          "aceite"
+        ],
+        [
+          "tovaglia",
+          "toalla",
+          "mantel"
+        ],
+        [
+          "esposto",
+          "esposo",
+          "expuesto"
+        ],
+        [
+          "subire",
+          "subir",
+          "sufrir"
+        ],
+        [
+          "sembrare",
+          "sembrar",
+          "parecer"
+        ],
+        [
+          "topo",
+          "topo",
+          "ratón"
+        ],
+        [
+          "nudo",
+          "nudo",
+          "desnudo"
+        ]
+      ]
+    },
+    {
+      "id": "sentimientos",
+      "title": "Sentimientos y gustos",
+      "kicker": "Il cuore",
+      "intro": "",
+      "columns": [
+        "Español",
+        "Italiano",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "feliz",
+          "felice / contento",
+          "Sei felice?"
+        ],
+        [
+          "triste",
+          "triste",
+          "Sei triste?"
+        ],
+        [
+          "cansado",
+          "stanco",
+          "Sono stanco"
+        ],
+        [
+          "tengo hambre / sed",
+          "ho fame / ho sete",
+          ""
+        ],
+        [
+          "tengo miedo",
+          "ho paura",
+          ""
+        ],
+        [
+          "me gusta",
+          "mi piace / mi piacciono",
+          "Mi piace Roma · Mi piacciono i supplì"
+        ],
+        [
+          "te quiero",
+          "ti voglio bene / ti amo",
+          "el primero, a amigos y familia"
+        ],
+        [
+          "echo de menos",
+          "mi manca",
+          "Mi manca casa"
+        ],
+        [
+          "sueño",
+          "sogno",
+          "Il mio sogno è…"
+        ],
+        [
+          "me encanta",
+          "adoro",
+          "Adoro la carbonara"
+        ]
+      ]
+    },
+    {
+      "id": "chuleta",
+      "title": "Chuleta de oro",
+      "kicker": "Tus 12 frases romanas",
+      "intro": "",
+      "columns": [
+        "#",
+        "Italiano",
+        "Español"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ciao! Come stai?",
+          "Hola, ¿cómo estás?"
+        ],
+        [
+          "2",
+          "Mi chiamo ___. E tu?",
+          "Me llamo ___. ¿Y tú?"
+        ],
+        [
+          "3",
+          "Un caffè, per favore.",
+          "Un café, por favor."
+        ],
+        [
+          "4",
+          "Quanto costa?",
+          "¿Cuánto cuesta?"
+        ],
+        [
+          "5",
+          "Dov'è…?",
+          "¿Dónde está…?"
+        ],
+        [
+          "6",
+          "È aperto?",
+          "¿Está abierto?"
+        ],
+        [
+          "7",
+          "Dove posso noleggiare una Vespa?",
+          "¿Dónde puedo alquilar una Vespa?"
+        ],
+        [
+          "8",
+          "Vorrei…",
+          "Quisiera…"
+        ],
+        [
+          "9",
+          "Il conto, per favore.",
+          "La cuenta, por favor."
+        ],
+        [
+          "10",
+          "Che famo stasera?",
+          "¿Qué hacemos esta noche? (romano)"
+        ],
+        [
+          "11",
+          "Daje!",
+          "¡Venga!"
+        ],
+        [
+          "12",
+          "Ci vediamo!",
+          "¡Nos vemos!"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "lesson-02",
+  "lesson": 2,
+  "title": "Parli spagnolo?",
+  "subtitle": "Aprender a preguntar si alguien habla español y entender respuestas básicas.",
+  "summary_es": "Preguntar si alguien habla español y responder.",
+  "topics": [
+    "preguntar",
+    "entender",
+    "negación",
+    "afirmación"
+  ],
+  "teach": [
+    "parli-spagnolo",
+    "puoi-ripetere",
+    "non-lo-so",
+    "va-bene",
+    "un-po"
+  ],
+  "listen": [
+    "un-po",
+    "non-capisco",
+    "si",
+    "no"
+  ],
+  "recall_prev": [
+    "buongiorno",
+    "come-ti-chiami",
+    "mi-chiamo",
+    "grazie",
+    "prego"
+  ],
+  "grammar_pill": {
+    "title": "Negación con 'non'",
+    "text": "En italiano, para negar una frase se usa 'non' antes del verbo. Es similar a 'no' en español, pero siempre precede al verbo.",
+    "examples": [
+      "non-capisco",
+      "non-lo-so"
+    ]
+  },
+  "guided": [
+    {
+      "prompt": "Pregúntale a alguien si habla español.",
+      "item": "parli-spagnolo"
+    },
+    {
+      "prompt": "Responde que entiendes un poco.",
+      "item": "un-po"
+    },
+    {
+      "prompt": "Indica que no entiendes.",
+      "item": "non-capisco"
+    }
+  ],
+  "scene": "lesson-02",
+  "_review": "redactado por GPT; pendiente de revisión humana"
+}

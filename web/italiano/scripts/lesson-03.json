@@ -1,59 +1,61 @@
 {
-  "title": "¿Te cuidan?",
-  "subtitle": "Aprender a preguntar por el bienestar de los niños.",
-  "summary_es": "Una lección para interactuar con niños en la calle con tacto.",
+  "title": "Presentarse y conocer a alguien",
+  "subtitle": "Aprenderás a preguntar y responder sobre la residencia y la edad.",
+  "summary_es": "Presentarte y conocer a alguien.",
   "topics": [
-    "preguntar",
-    "ninos",
-    "cuidado",
-    "estado",
-    "foco-objeto"
+    "presentarse",
+    "interrogativos",
+    "posesivos",
+    "verbo essere",
+    "verbo avere"
   ],
   "dialogue": {
     "tl": [
-      "Kumusta kayo?",
-      "Okay lang po.",
-      "Inaalagaan ka ba nila?",
-      "Opo, inaalagaan ako.",
-      "Huwag kang matakot.",
-      "Opo, okay lang ako."
+      "Ciao! Come ti chiami?",
+      "Mi chiamo Luca. E tu?",
+      "Sono Paolo. Sei di qui?",
+      "No, sono di Tondo. Vivo a Cebu.",
+      "Quanti anni hai?",
+      "Ho venti anni. E tu?",
+      "Ho dieci anni. Questa è casa mia."
     ],
     "es": [
-      "¿Cómo estáis?",
-      "Bien, gracias.",
-      "¿Te cuidan?",
-      "Sí, me cuidan.",
-      "No tengas miedo.",
-      "Sí, estoy bien."
+      "¡Hola! ¿Cómo te llamas?",
+      "Me llamo Luca. ¿Y tú?",
+      "Soy Paolo. ¿Eres de aquí?",
+      "No, soy de Tondo. Vivo en Cebú.",
+      "¿Cuántos años tienes?",
+      "Tengo veinte años. ¿Y tú?",
+      "Tengo diez años. Esta es mi casa."
     ]
   },
   "vocabulary": [
     {
-      "term": "Inaalagaan ka ba nila?",
-      "es": "¿Te cuidan?"
+      "term": "Dove vivi?",
+      "es": "¿Dónde vives?"
     },
     {
-      "term": "Sinasaktan ka ba?",
-      "es": "¿Te hacen daño?"
+      "term": "Quanti anni hai?",
+      "es": "¿Cuántos años tienes?"
     },
     {
-      "term": "Pinapalo ka ba?",
-      "es": "¿Te pegan?"
+      "term": "Questa è casa mia.",
+      "es": "Esta es mi casa."
     },
     {
-      "term": "Okay ka lang ba?",
-      "es": "¿Estás bien?"
+      "term": "Sei di qui?",
+      "es": "¿Eres de aquí?"
     },
     {
-      "term": "Huwag kang matakot.",
-      "es": "No tengas miedo."
+      "term": "Mi piacerebbe visitare.",
+      "es": "Me gustaría visitar."
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 17. ¿Te cuidan?.",
+      "text": "Lección 3. Presentarse y conocer a alguien.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
@@ -62,70 +64,79 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En una calle concurrida de Tondo, un voluntario se acerca a un grupo de niños jugando. Escucha la conversación.",
+      "text": "En una plaza de Cebú, un niño local se encuentra con un visitante. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "native_m",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Kumusta kayo?",
+      "text": "Ciao! Come ti chiami?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Cómo estáis?",
-      "item": null
-    },
-    {
-      "role": "kid_f",
-      "lang": "tl",
-      "text": "Okay lang po.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Bien, gracias.",
+      "translation_es": "¡Hola! ¿Cómo te llamas?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Mi chiamo Luca. E tu?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Te cuidan?",
+      "translation_es": "Me llamo Luca. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sono Paolo. Sei di qui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy Paolo. ¿Eres de aquí?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Opo, inaalagaan ako.",
+      "text": "No, sono di Tondo. Vivo a Cebu.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, me cuidan.",
+      "translation_es": "No, soy de Tondo. Vivo en Cebú.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos años tienes?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Ho venti anni. E tu?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No tengas miedo.",
+      "translation_es": "Tengo veinte años. ¿Y tú?",
       "item": null
     },
     {
-      "role": "kid_f",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Opo, okay lang ako.",
+      "text": "Ho dieci anni. Questa è casa mia.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, estoy bien.",
+      "translation_es": "Tengo diez años. Esta es mi casa.",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprender a preguntar por el bienestar de los niños. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Aprenderás a preguntar y responder sobre la residencia y la edad. Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -143,7 +154,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -152,16 +163,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Come ti chiami?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka"
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Bien, sin más. / Tirando».",
+      "text": "Di: «Me llamo María».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -170,16 +181,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay lang.",
+      "text": "Mi chiamo Maria.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Bien, sin más. / Tirando.",
-      "item": "okay-lang"
+      "translation_es": "Me llamo María.",
+      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Sí (con respeto)»?",
+      "text": "¿Cómo se dice «Encantado/a de conocerte»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -188,16 +199,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Opo.",
+      "text": "Piacere di conoscerti.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Sí (con respeto).",
-      "item": "opo"
+      "translation_es": "Encantado/a de conocerte.",
+      "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No».",
+      "text": "Di: «¿Hablas español?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -206,16 +217,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Hindi.",
+      "text": "Parli spagnolo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No.",
-      "item": "hindi"
+      "translation_es": "¿Hablas español?",
+      "item": "parli-spagnolo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Ven aquí»?",
+      "text": "¿Cómo se dice «Un poco»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -224,16 +235,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Halika dito.",
+      "text": "Un po'.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Ven aquí.",
-      "item": "halika-dito"
+      "translation_es": "Un poco.",
+      "item": "un-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Estoy en casa».",
+      "text": "Di: «¡Gracias».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -242,16 +253,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nasa bahay ako.",
+      "text": "Grazie!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Estoy en casa.",
-      "item": "nasa-bahay-ako"
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Ya has comido?»?",
+      "text": "¿Cómo se dice «Nos vemos mañana»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -260,16 +271,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumain ka na ba?",
+      "text": "Ci vediamo domani.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Ya has comido?",
-      "item": "kumain-ka-na-ba"
+      "translation_es": "Nos vemos mañana.",
+      "item": "ci-vediamo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Te cuidan?». Literalmente, Cuidan de ti?. Escucha y repite.",
+      "text": "«¿Dónde vives?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -278,79 +289,61 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "la",
+      "text": "vi",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "inaalagaan-ka-ba-nila"
+      "item": "dove-vivi"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "nila",
+      "text": "vivi",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "inaalagaan-ka-ba-nila"
+      "item": "dove-vivi"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ba nila",
+      "text": "Dove vivi",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "inaalagaan-ka-ba-nila"
+      "item": "dove-vivi"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ka ba nila",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "inaalagaan-ka-ba-nila"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregunta con tacto sobre el bienestar del niño.",
+      "text": "pregunta común para conocer a alguien",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -359,7 +352,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Te cuidan?»?",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -368,16 +361,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Te cuidan?».",
+      "text": "Otra vez. «¿Dónde vives?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -386,16 +379,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Te hacen daño?». Literalmente, Hacen daño a ti?. Escucha y repite.",
+      "text": "«¿Cuántos años tienes?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -404,61 +397,61 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ba",
+      "text": "hai",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "sinasaktan-ka-ba"
+      "item": "quanti-anni-hai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ka ba",
+      "text": "anni hai",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "sinasaktan-ka-ba"
+      "item": "quanti-anni-hai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba",
+      "text": "Quanti anni hai",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "sinasaktan-ka-ba"
+      "item": "quanti-anni-hai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregunta delicada sobre si el niño sufre maltrato.",
+      "text": "pregunta para conocer la edad",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -467,7 +460,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Te hacen daño?»?",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -476,16 +469,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Te hacen daño?».",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -494,16 +487,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Te pegan?». Literalmente, Te pegan?. Escucha y repite.",
+      "text": "«Esta es mi casa». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -512,61 +505,70 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ba",
+      "text": "mia",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "pinapalo-ka-ba"
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ka ba",
+      "text": "casa mia",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "pinapalo-ka-ba"
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba",
+      "text": "è casa mia",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "pinapalo-ka-ba"
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregunta sobre si el niño recibe castigos físicos.",
+      "text": "para mostrar o indicar propiedad",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -575,7 +577,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Te pegan?»?",
+      "text": "¿Cómo se dice «Esta es mi casa»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -584,16 +586,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Te pegan?».",
+      "text": "Otra vez. «Esta es mi casa».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -602,16 +604,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Estás bien?». Literalmente, ¿Estás solo bien?. Escucha y repite.",
+      "text": "«¿Eres de aquí?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -620,70 +622,61 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ba",
+      "text": "qui",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "okay-ka-lang-ba"
+      "item": "sei-di-qui"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "lang ba",
+      "text": "di qui",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "okay-ka-lang-ba"
+      "item": "sei-di-qui"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ka lang ba",
+      "text": "Sei di qui",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "okay-ka-lang-ba"
+      "item": "sei-di-qui"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregunta general sobre el estado del niño.",
+      "text": "pregunta para conocer origen",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -692,7 +685,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Estás bien?»?",
+      "text": "¿Cómo se dice «¿Eres de aquí?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -701,16 +694,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Estás bien?».",
+      "text": "Otra vez. «¿Eres de aquí?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -719,11 +712,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "narrator",
@@ -737,7 +730,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Te hacen daño?».",
+      "text": "Y ahora, «¿Cuántos años tienes?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -746,16 +739,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«No tengas miedo». Literalmente, No tú miedo.. Escucha y repite.",
+      "text": "«Me gustaría visitar». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -764,79 +757,79 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "pause": 3.5,
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kot",
+      "text": "re",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "huwag-kang-matakot"
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "takot",
+      "text": "tare",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "huwag-kang-matakot"
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "matakot",
+      "text": "sitare",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "huwag-kang-matakot"
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kang matakot",
+      "text": "piacerebbe visitare",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "huwag-kang-matakot"
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot",
+      "text": "Mi piacerebbe visitare",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "huwag-kang-matakot"
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "pause": 3.5,
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Frase de consuelo para tranquilizar al niño.",
+      "text": "expresión de deseo",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -845,7 +838,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «No tengas miedo»?",
+      "text": "¿Cómo se dice «Me gustaría visitar»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -854,16 +847,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "pause": 3.5,
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «No tengas miedo».",
+      "text": "Otra vez. «Me gustaría visitar».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -872,11 +865,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "pause": 3.5,
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "narrator",
@@ -890,7 +883,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Quién?».",
+      "text": "Y ahora, «¡Buenos días».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -899,16 +892,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sino?",
+      "text": "Buongiorno!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Quién?",
-      "item": "sino"
+      "translation_es": "¡Buenos días!",
+      "item": "buongiorno"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "El sufijo -in en foco objeto.",
+      "text": "Uso de 'essere' y 'avere'.",
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
@@ -917,7 +910,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "El sufijo -in se usa para indicar que el foco de la acción recae sobre el objeto. En preguntas como 'Inaalagaan ka ba nila?', el objeto 'ka' (tú) es quien recibe la acción de cuidar.",
+      "text": "En italiano, 'essere' se usa para indicar origen y estado, mientras que 'avere' se usa para la edad y posesiones.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
@@ -926,20 +919,20 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
@@ -953,16 +946,16 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Opo, inaalagaan ako.",
+      "text": "Vivo a Cebu.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Sí, me cuidan.",
-      "item": "opo-inaalagaan-ako-answer"
+      "translation_es": "Vivo en Cebú.",
+      "item": "vivo-a-cebu"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Sí, me cuidan».",
+      "text": "«Vivo en Cebú».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -971,25 +964,25 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Opo, inaalagaan ako.",
+      "text": "Vivo a Cebu.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Sí, me cuidan.",
-      "item": "opo-inaalagaan-ako-answer"
+      "translation_es": "Vivo en Cebú.",
+      "item": "vivo-a-cebu"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Hindi, sinasaktan ako.",
+      "text": "Ho venti anni.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "No, me hacen daño.",
-      "item": "hindi-sinasaktan-ako-answer"
+      "translation_es": "Tengo veinte años.",
+      "item": "ho-venti-anni"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«No, me hacen daño».",
+      "text": "«Tengo veinte años».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -998,25 +991,25 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Hindi, sinasaktan ako.",
+      "text": "Ho venti anni.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "No, me hacen daño.",
-      "item": "hindi-sinasaktan-ako-answer"
+      "translation_es": "Tengo veinte años.",
+      "item": "ho-venti-anni"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Opo, okay lang ako.",
+      "text": "Sono di Tondo.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Sí, estoy bien.",
-      "item": "opo-okay-lang-ako-answer"
+      "translation_es": "Soy de Tondo.",
+      "item": "sono-di-tondo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Sí, estoy bien».",
+      "text": "«Soy de Tondo».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -1025,11 +1018,11 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Opo, okay lang ako.",
+      "text": "Sono di Tondo.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Sí, estoy bien.",
-      "item": "opo-okay-lang-ako-answer"
+      "translation_es": "Soy de Tondo.",
+      "item": "sono-di-tondo"
     },
     {
       "role": "narrator",
@@ -1043,7 +1036,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale a un niño si está bien.",
+      "text": "Pregúntale a alguien dónde vive.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1052,16 +1045,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale a un niño si le cuidan.",
+      "text": "Responde que vives en Cebú.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1070,11 +1063,47 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Vivo a Cebu.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "Vivo en Cebú.",
+      "item": "vivo-a-cebu"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregúntale a alguien cuántos años tiene.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Responde que tienes veinte años.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ho venti anni.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo veinte años.",
+      "item": "ho-venti-anni"
     },
     {
       "role": "narrator",
@@ -1088,7 +1117,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Te cuidan?».",
+      "text": "Di: «¿Dónde vives?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1097,16 +1126,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Te hacen daño?».",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1115,16 +1144,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Te pegan?».",
+      "text": "Y ahora, «Esta es mi casa».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1133,16 +1162,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Estás bien?»?",
+      "text": "¿Cómo se dice «¿Eres de aquí?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1151,16 +1180,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No tengas miedo».",
+      "text": "Di: «Me gustaría visitar».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1169,11 +1198,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "pause": 3.5,
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "narrator",
@@ -1196,7 +1225,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1205,16 +1234,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Come ti chiami?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka"
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Bien, sin más. / Tirando».",
+      "text": "Di: «Me llamo María».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1223,16 +1252,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay lang.",
+      "text": "Mi chiamo Maria.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Bien, sin más. / Tirando.",
-      "item": "okay-lang"
+      "translation_es": "Me llamo María.",
+      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Sí (con respeto)»?",
+      "text": "¿Cómo se dice «Encantado/a de conocerte»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1241,16 +1270,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Opo.",
+      "text": "Piacere di conoscerti.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Sí (con respeto).",
-      "item": "opo"
+      "translation_es": "Encantado/a de conocerte.",
+      "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No».",
+      "text": "Di: «¿Hablas español?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1259,16 +1288,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Hindi.",
+      "text": "Parli spagnolo?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No.",
-      "item": "hindi"
+      "translation_es": "¿Hablas español?",
+      "item": "parli-spagnolo"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Ven aquí»?",
+      "text": "¿Cómo se dice «Un poco»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1277,16 +1306,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Halika dito.",
+      "text": "Un po'.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Ven aquí.",
-      "item": "halika-dito"
+      "translation_es": "Un poco.",
+      "item": "un-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Estoy en casa».",
+      "text": "Di: «¡Gracias».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1295,16 +1324,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nasa bahay ako.",
+      "text": "Grazie!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Estoy en casa.",
-      "item": "nasa-bahay-ako"
+      "translation_es": "¡Gracias!",
+      "item": "grazie"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Ya has comido?»?",
+      "text": "¿Cómo se dice «Nos vemos mañana»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1313,11 +1342,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumain ka na ba?",
+      "text": "Ci vediamo domani.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Ya has comido?",
-      "item": "kumain-ka-na-ba"
+      "translation_es": "Nos vemos mañana.",
+      "item": "ci-vediamo"
     },
     {
       "role": "narrator",
@@ -1331,7 +1360,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Te cuidan?».",
+      "text": "Di: «¿Dónde vives?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1340,16 +1369,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Dove vivi?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te cuidan?",
-      "item": "inaalagaan-ka-ba-nila"
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-vivi"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Te hacen daño?».",
+      "text": "Otra vez. «¿Cuántos años tienes?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1358,16 +1387,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sinasaktan ka ba?",
+      "text": "Quanti anni hai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te hacen daño?",
-      "item": "sinasaktan-ka-ba"
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "quanti-anni-hai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Te pegan?».",
+      "text": "Y ahora, «Esta es mi casa».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1376,16 +1405,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Pinapalo ka ba?",
+      "text": "Questa è casa mia.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Te pegan?",
-      "item": "pinapalo-ka-ba"
+      "translation_es": "Esta es mi casa.",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Estás bien?»?",
+      "text": "¿Cómo se dice «¿Eres de aquí?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1394,16 +1423,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Okay ka lang ba?",
+      "text": "Sei di qui?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Estás bien?",
-      "item": "okay-ka-lang-ba"
+      "translation_es": "¿Eres de aquí?",
+      "item": "sei-di-qui"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No tengas miedo».",
+      "text": "Di: «Me gustaría visitar».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1412,11 +1441,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Mi piacerebbe visitare.",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengas miedo.",
-      "item": "huwag-kang-matakot"
+      "pause": 3.5,
+      "translation_es": "Me gustaría visitar.",
+      "item": "mi-piacerebbe-visitare"
     },
     {
       "role": "narrator",
@@ -1428,63 +1457,72 @@
       "item": null
     },
     {
-      "role": "native_m",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Kumusta kayo?",
+      "text": "Ciao! Come ti chiami?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Cómo estáis?",
-      "item": null
-    },
-    {
-      "role": "kid_f",
-      "lang": "tl",
-      "text": "Okay lang po.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Bien, gracias.",
+      "translation_es": "¡Hola! ¿Cómo te llamas?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Inaalagaan ka ba nila?",
+      "text": "Mi chiamo Luca. E tu?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Te cuidan?",
+      "translation_es": "Me llamo Luca. ¿Y tú?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Sono Paolo. Sei di qui?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Soy Paolo. ¿Eres de aquí?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Opo, inaalagaan ako.",
+      "text": "No, sono di Tondo. Vivo a Cebu.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, me cuidan.",
+      "translation_es": "No, soy de Tondo. Vivo en Cebú.",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Quanti anni hai?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Cuántos años tienes?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Huwag kang matakot.",
+      "text": "Ho venti anni. E tu?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No tengas miedo.",
+      "translation_es": "Tengo veinte años. ¿Y tú?",
       "item": null
     },
     {
-      "role": "kid_f",
+      "role": "kid_m",
       "lang": "tl",
-      "text": "Opo, okay lang ako.",
+      "text": "Ho dieci anni. Questa è casa mia.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, estoy bien.",
+      "translation_es": "Tengo diez años. Esta es mi casa.",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Hasta la próxima lección. Ingat ka!",
+      "text": "Hasta la próxima lección. Ci vediamo!",
       "kind": "instruction",
       "pause": 0.3,
       "translation_es": "",
@@ -1494,10 +1532,10 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 11.9,
-    "chars": 3903,
-    "cues": 160,
+    "minutes_estimated": 12.0,
+    "chars": 3840,
+    "cues": 164,
     "mode": "lesson",
-    "lesson": 17
+    "lesson": 3
   }
 }
