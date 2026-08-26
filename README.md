@@ -1,14 +1,28 @@
-# WorldSpeak
+<p align="center">
+  <a href="https://victorcordoba.com/worldspeak/"><img src="screenshots/logo.svg" width="140" alt="WorldSpeak"></a>
+</p>
 
-> Aprende idiomas escuchando y repitiendo. Media hora al día.
+<h1 align="center">WorldSpeak</h1>
+
+<p align="center"><strong>Aprende idiomas escuchando y repitiendo. Media hora al día.</strong></p>
+
+<p align="center">
+  <a href="https://victorcordoba.com/worldspeak/"><img src="https://img.shields.io/badge/%E2%96%B6%20Probar%20la%20app-victorcordoba.com%2Fworldspeak-0038a8?style=for-the-badge&labelColor=fcd116&color=0038a8" alt="Probar la app en victorcordoba.com/worldspeak"></a>
+</p>
+
+<p align="center">
+  <a href="https://victorcordoba.com/worldspeak/tagalog/">Tagalog para Tondo</a> ·
+  <a href="https://victorcordoba.com/worldspeak/tagalog-pimsleur/">Tagalog Pimsleur</a> ·
+  <a href="docs/10-plan-tagalog-propio.md">Plan del curso propio</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
 
 Plataforma web para estudiar idiomas con el **método Pimsleur**: audio,
 transcripción sincronizada, traducción al español y diccionario. Un hub con
 varios cursos y **una sola cuenta** cuyo progreso te sigue del móvil al
-ordenador. Y un **pipeline que genera cursos nuevos** con guiones escritos por
-IA y voces nativas de ElevenLabs.
-
-En producción: **https://victorcordoba.com/worldspeak/**
+ordenador. Y un **sistema modular de contenido** que compila lecciones de
+5, 15 o 30 minutos a partir de frases reutilizables, con voces nativas de
+ElevenLabs.
 
 ![Hub de WorldSpeak](screenshots/05-worldspeak-hub.jpg)
 
@@ -45,7 +59,7 @@ sincronizado por fusión (nunca se pierde nada).
 | Curso | Ruta | Origen | Estado |
 |---|---|---|---|
 | Tagalog · Pimsleur | `/worldspeak/tagalog-pimsleur/` | Audio de Pimsleur (30 lecciones + 20 lecturas), transcrito | Completo |
-| Tagalog · WorldSpeak | `/worldspeak/tagalog/` | Propio, generado con ElevenLabs | Lección 1 de prueba |
+| Tagalog para Tondo | `/worldspeak/tagalog/` | Propio: app estilo Duolingo (Ruta, Frases, Tablas, A medida), contenido modular, voces ElevenLabs | Contenido Nivel 1 listo, audio en preparación |
 | Bisaya (Cebuano) | `/worldspeak/bisaya/` | Propio, generado con ElevenLabs | Planificado |
 
 ---

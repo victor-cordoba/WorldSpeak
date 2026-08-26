@@ -12,6 +12,12 @@ Todas las versiones desplegadas. Formato de versión `AAAAMMDD-N` (cache buster)
 - **`compile_lesson.py`**: compilador determinista receta → cues. Narrador por plantillas, construcción hacia atrás por sílabas, repaso espaciado, bloque «entender», modo repaso y modo a medida. Sin LLM por lección.
 - `generate_lesson.py` usa el compilador cuando existe receta (y GPT solo si no).
 - L01–L03 compiladas y listas para ElevenLabs (pendiente de revisión humana antes de grabar).
+- **App del curso propio** (`/worldspeak/tagalog/`) estilo Duolingo: Ruta de jeepney por niveles, Frases con tarjetas voltables por tema, 13 Tablas con «Descargar PDF», y **A medida**: repaso por anticipación en el navegador que ya funciona sin audio.
+- **Logo** SVG de WorldSpeak (globo, bocadillo y sol de la bandera): favicon en todo el sitio, hero del hub y cabecera del README con botón «Probar la app».
+- El reproductor del curso propio vive en `player.html` y acepta `?track=`.
+
+### Corregido
+- `safeJson` devolvía `null` para `"null"` y tumbaba el render del curso.
 
 ---
 

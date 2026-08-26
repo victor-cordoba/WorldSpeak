@@ -100,7 +100,8 @@ let pendingSeekTime = null;
 let saveTimer = null;
 let lastListeningTick = null;
 let suppressNextMetadataPersist = false;
-let currentId = progressState.currentId || localStorage.getItem(`ws:${courseId}:current`) || tracks[0].id;
+const urlTrack = new URLSearchParams(location.search).get('track');
+let currentId = (urlTrack && course.tracks.some((t) => t.id === urlTrack) ? urlTrack : null) || progressState.currentId || localStorage.getItem(`ws:${courseId}:current`) || tracks[0].id;
 let filter = 'all';
 let transcriptIndex = new Map();
 let transcriptOpen = false;
@@ -1702,7 +1703,7 @@ updateContinueUi();
 updatePinDots();
 setPlayerVisible(false);
 selectTrack(currentId, false, {
-  showPlayer: false,
+  showPlayer: Boolean(urlTrack),
   openTranscript: false,
   rememberSelection: false,
   persistPrevious: false

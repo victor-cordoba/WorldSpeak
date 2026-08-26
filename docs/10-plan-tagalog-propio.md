@@ -237,11 +237,16 @@ nota del ítem desplegable por segmento.
 - [ ] Subir plan de ElevenLabs. Generar L01–L08.
 - [ ] Textos del censo y notas de Visaya → ítems y escenas nuevas.
 
-### Fase C · App del curso (diseño Duolingo)
-- [ ] Ruta / Frases / Tablas. Tarjetas con audio (clips ya existen).
+### Fase C · App del curso (diseño Duolingo) — en marcha 2026-08-26
+- [x] `web/tagalog/index.html` + `assets/course.js` + `assets/course.css`: pestañas Ruta (jeepney por niveles, próxima parada, racha), Frases (tarjetas voltables por pill, búsqueda), Tablas (13 tablas desplegables), A medida (repaso por anticipación en el navegador: español → dilo → comprueba → «me costó / la sabía», guarda las difíciles).
+- [x] El reproductor pasa a `player.html` y acepta `?track=` para enlazar desde la Ruta.
+- [x] `content/curriculum.json` (30 lecciones, 5 niveles) generado desde este plan.
+- [x] Logo SVG de WorldSpeak (globo + bocadillo + sol de la bandera) como favicon y en el hub.
+- [ ] Botón ▶ en cada tarjeta cuando existan los clips (manifest `_clips` → ítem).
 - [ ] Repetir frase y nota por segmento en el player.
-- [ ] PDF de las tablas (HTML de impresión → PDF, mejor que el Scroll).
+- [ ] PDF de las tablas con estilo propio (hoy: hoja de impresión del navegador).
 - [ ] Modo oscuro.
+- [ ] La parada 1 de la Ruta enlaza al audio de PRUEBA generado con GPT (no al guion compilado). Se sustituye al grabar L01 de verdad.
 
 ### Fase D · A medida (gratis gracias a la caché)
 - [ ] Selector y secuenciador de clips en el navegador (Web Audio + MediaSession) con transcripción al vuelo.

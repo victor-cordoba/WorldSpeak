@@ -1,0 +1,475 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Kit de conversación",
+      "icon": "❓",
+      "desc": "Preguntar, entender, sobrevivir"
+    },
+    {
+      "id": 2,
+      "title": "Conocer a una persona",
+      "icon": "🏠",
+      "desc": "Dónde vive, su familia, su trabajo"
+    },
+    {
+      "id": 3,
+      "title": "Niños en la calle",
+      "icon": "🧒",
+      "desc": "Acercarte con tacto"
+    },
+    {
+      "id": 4,
+      "title": "El corazón",
+      "icon": "❤️",
+      "desc": "Cómo está, qué sueña"
+    },
+    {
+      "id": 5,
+      "title": "Día a día",
+      "icon": "🛒",
+      "desc": "Comer, moverse, visitar"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01-main",
+      "lesson": 1,
+      "level": 1,
+      "title": "Hola, ¿cómo estás? ¿Cómo te llamas?",
+      "items": [
+        "Kumusta (po)?",
+        "Mabuti naman",
+        "Magandang umaga/tanghali/hapon/gabi",
+        "Ako si…",
+        "Anong pangalan mo?",
+        "Salamat po"
+      ],
+      "grammar": "anong = ano ang · po"
+    },
+    {
+      "id": "lesson-02-main",
+      "lesson": 2,
+      "level": 1,
+      "title": "¿Hablas Tagalog?",
+      "items": [
+        "Marunong ka bang mag-Tagalog?",
+        "Konti lang",
+        "Marunong ka bang mag-Ingles?",
+        "Hindi",
+        "Oo/Opo",
+        "Naiintindihan mo ba?"
+      ],
+      "grammar": "ba = pregunta sí/no"
+    },
+    {
+      "id": "lesson-03-main",
+      "lesson": 3,
+      "level": 1,
+      "title": "Yo, tú, mi, tu",
+      "items": [
+        "ako",
+        "ikaw/ka",
+        "ko",
+        "mo",
+        "siya",
+        "bahay ko"
+      ],
+      "grammar": "ang vs ng · ka nunca al principio"
+    },
+    {
+      "id": "lesson-04-main",
+      "lesson": 4,
+      "level": 1,
+      "title": "¿Dónde? ¿Quién? ¿Qué?",
+      "items": [
+        "Saan?",
+        "Sino?",
+        "Ano?",
+        "Saan ka nakatira?",
+        "Sino siya?",
+        "Ano ito?"
+      ],
+      "grammar": "receta 3: interrogativa + ka + verbo"
+    },
+    {
+      "id": "lesson-05-main",
+      "lesson": 5,
+      "level": 1,
+      "title": "Quiero… Quiero ir a…",
+      "items": [
+        "Gusto ko ng…",
+        "Gusto mo ba?",
+        "Ayaw ko",
+        "Gusto kong pumunta sa…",
+        "Paano pumunta sa…?",
+        "Saan ang…?"
+      ],
+      "grammar": "gusto ko + ng / gusto kong + verbo"
+    },
+    {
+      "id": "lesson-06-main",
+      "lesson": 6,
+      "level": 1,
+      "title": "¿Cuánto cuesta?",
+      "items": [
+        "Magkano po ito?",
+        "Mahal!",
+        "Mura",
+        "números 1–10",
+        "bente/singkwenta/syento",
+        "Isang … nga po"
+      ],
+      "grammar": "números ES para precios"
+    },
+    {
+      "id": "lesson-07-main",
+      "lesson": 7,
+      "level": 1,
+      "title": "¿Cuándo? ¿Por qué? ¿Cuántos?",
+      "items": [
+        "Kailan?",
+        "Bakit?",
+        "Ilan?",
+        "Kasi…",
+        "Ngayon",
+        "Bukas"
+      ],
+      "grammar": "kasi · na/pa"
+    },
+    {
+      "id": "lesson-08-main",
+      "lesson": 8,
+      "level": 1,
+      "title": "Repaso: tu primera conversación",
+      "items": [
+        "nosotros/vosotros/ellos (kami/tayo/kayo/sila)",
+        "Sige",
+        "Tara",
+        "Sandali lang",
+        "Pasensya na po",
+        "Ano sa Tagalog ang…?"
+      ],
+      "grammar": "kami vs tayo"
+    },
+    {
+      "id": "lesson-09-main",
+      "lesson": 9,
+      "level": 2,
+      "title": "¿Dónde vives? ¿Dónde está tu casa?",
+      "items": [
+        "Saan ang bahay mo?",
+        "Nasaan ka?",
+        "Nasa bahay ako",
+        "Nandito/Nandoon",
+        "Wala siya dito"
+      ],
+      "grammar": "nasa/nasaan vs saan"
+    },
+    {
+      "id": "lesson-10-main",
+      "lesson": 10,
+      "level": 2,
+      "title": "La familia",
+      "items": [
+        "May pamilya ka ba?",
+        "Nanay",
+        "Tatay",
+        "Kapatid",
+        "Kuya/Ate",
+        "Ilan kayo sa pamilya?"
+      ],
+      "grammar": "may / wala"
+    },
+    {
+      "id": "lesson-11-main",
+      "lesson": 11,
+      "level": 2,
+      "title": "¿Cuántos años tienes?",
+      "items": [
+        "Ilang taon ka na?",
+        "…taon na ako",
+        "Bata pa siya",
+        "Matanda na"
+      ],
+      "grammar": "-ng de enlace"
+    },
+    {
+      "id": "lesson-12-main",
+      "lesson": 12,
+      "level": 2,
+      "title": "¿De qué trabajas?",
+      "items": [
+        "Anong trabaho mo?",
+        "Drayber",
+        "Nagtitinda",
+        "Walang trabaho",
+        "Negosyo",
+        "Sweldo"
+      ],
+      "grammar": "préstamos del español"
+    },
+    {
+      "id": "lesson-13-main",
+      "lesson": 13,
+      "level": 2,
+      "title": "¿Ya has comido?",
+      "items": [
+        "Kumain ka na ba?",
+        "Kumain na po ako",
+        "Hindi pa",
+        "Kain tayo!",
+        "Gutom ka ba?",
+        "Uhaw"
+      ],
+      "grammar": "na / pa"
+    },
+    {
+      "id": "lesson-14-main",
+      "lesson": 14,
+      "level": 2,
+      "title": "Un placer, nos vemos",
+      "items": [
+        "Ikinagagalak kitang makilala",
+        "Kumusta ka? Mabuti naman",
+        "Kita tayo bukas",
+        "Maganda/Pogi ka",
+        "Pre!",
+        "Kanta ka!"
+      ],
+      "grammar": "predicado primero"
+    },
+    {
+      "id": "lesson-15-main",
+      "lesson": 15,
+      "level": 3,
+      "title": "¿Qué haces aquí solo?",
+      "items": [
+        "Anong ginagawa mo dito?",
+        "Mag-isa ka ba?",
+        "Nasaan ang nanay at tatay mo?",
+        "Halika dito"
+      ],
+      "grammar": "verbo -um- presente"
+    },
+    {
+      "id": "lesson-16-main",
+      "lesson": 16,
+      "level": 3,
+      "title": "¿Dónde duermes?",
+      "items": [
+        "Saan ka natutulog?",
+        "Sa kalye",
+        "Sa bahay ng lola ko",
+        "Bakit hindi ka umuuwi?",
+        "Umuwi ka na"
+      ],
+      "grammar": "umuwi"
+    },
+    {
+      "id": "lesson-17-main",
+      "lesson": 17,
+      "level": 3,
+      "title": "¿Te cuidan?",
+      "items": [
+        "Inaalagaan ka ba nila?",
+        "Sinasaktan ka ba?",
+        "Pinapalo ka ba?",
+        "Okay ka lang ba?",
+        "Huwag kang matakot"
+      ],
+      "grammar": "-in (foco objeto)"
+    },
+    {
+      "id": "lesson-18-main",
+      "lesson": 18,
+      "level": 3,
+      "title": "Escuela y chinelas",
+      "items": [
+        "Nag-aaral ka ba?",
+        "Saan ka nag-aaral?",
+        "May tsinelas ka ba?",
+        "May pantalon ka ba?",
+        "Wala akong pera"
+      ],
+      "grammar": "mag-/nag-"
+    },
+    {
+      "id": "lesson-19-main",
+      "lesson": 19,
+      "level": 3,
+      "title": "¿Pides dinero?",
+      "items": [
+        "Namamalimos ka ba?",
+        "Nanghihingi ka ba ng pera?",
+        "Kanino?",
+        "Sino ang kasama mo?",
+        "Ingat ka"
+      ],
+      "grammar": "sino / kanino"
+    },
+    {
+      "id": "lesson-20-main",
+      "lesson": 20,
+      "level": 3,
+      "title": "Vamos a comer juntos",
+      "items": [
+        "Gusto mo bang kumain?",
+        "Kain tayo",
+        "Gusto mo ng ice cream?",
+        "Tubig",
+        "Kanin",
+        "Busog na"
+      ],
+      "grammar": "gusto"
+    },
+    {
+      "id": "lesson-21-main",
+      "lesson": 21,
+      "level": 4,
+      "title": "¿Estás feliz?",
+      "items": [
+        "Masaya ka ba?",
+        "Malungkot ka ba?",
+        "Bakit?",
+        "Okay lang",
+        "Takot ka ba?",
+        "Pagod"
+      ],
+      "grammar": "sentimientos"
+    },
+    {
+      "id": "lesson-22-main",
+      "lesson": 22,
+      "level": 4,
+      "title": "¿Te quieren?",
+      "items": [
+        "Mahal ka ba ng nanay mo?",
+        "Mahal mo ba sila?",
+        "Mahal kita",
+        "Mabait ba sila sa iyo?"
+      ],
+      "grammar": "ng agente"
+    },
+    {
+      "id": "lesson-23-main",
+      "lesson": 23,
+      "level": 4,
+      "title": "Sueños",
+      "items": [
+        "Ano ang pangarap mo?",
+        "Anong gusto mong maging paglaki mo?",
+        "Doktor",
+        "Guro",
+        "Pulis",
+        "Kaya mo iyan"
+      ],
+      "grammar": "maging"
+    },
+    {
+      "id": "lesson-24-main",
+      "lesson": 24,
+      "level": 4,
+      "title": "Drogas y peligro",
+      "items": [
+        "May droga ba dito?",
+        "Gumagamit ka ba?",
+        "Delikado",
+        "Ingat",
+        "Huwag",
+        "Tulong!"
+      ],
+      "grammar": "huwag"
+    },
+    {
+      "id": "lesson-25-main",
+      "lesson": 25,
+      "level": 4,
+      "title": "Rezamos juntos",
+      "items": [
+        "Gusto mo bang magdasal?",
+        "Magdasal tayo",
+        "Ama Namin línea a línea",
+        "Diyos",
+        "Simbahan",
+        "Misa"
+      ],
+      "grammar": "magdasal"
+    },
+    {
+      "id": "lesson-26-main",
+      "lesson": 26,
+      "level": 5,
+      "title": "Karinderya",
+      "items": [
+        "Ano po ang ulam ngayon?",
+        "Sisig",
+        "Pancit",
+        "Adobo",
+        "Kanin",
+        "Inumin"
+      ],
+      "grammar": "comida"
+    },
+    {
+      "id": "lesson-27-main",
+      "lesson": 27,
+      "level": 5,
+      "title": "Jeepney",
+      "items": [
+        "Sa Divisoria po!",
+        "Para po!",
+        "Bayad po",
+        "Kanto",
+        "Kalye",
+        "Simbahan"
+      ],
+      "grammar": "imperativos"
+    },
+    {
+      "id": "lesson-28-main",
+      "lesson": 28,
+      "level": 5,
+      "title": "Visita a un enfermo",
+      "items": [
+        "May sakit ka ba?",
+        "Masakit ang…",
+        "Gamot",
+        "Reseta",
+        "Doktor",
+        "Magpagaling ka"
+      ],
+      "grammar": "salud"
+    },
+    {
+      "id": "lesson-29-main",
+      "lesson": 29,
+      "level": 5,
+      "title": "Conectar frases",
+      "items": [
+        "pero",
+        "kasi",
+        "din/rin",
+        "tapos",
+        "kaya",
+        "kung"
+      ],
+      "grammar": "conectores"
+    },
+    {
+      "id": "lesson-30-main",
+      "lesson": 30,
+      "level": 5,
+      "title": "Verbos: el motor",
+      "items": [
+        "kain/kumain/kumakain/kakain",
+        "inom",
+        "punta",
+        "tulog",
+        "trabaho",
+        "aral"
+      ],
+      "grammar": "aspecto verbal"
+    }
+  ]
+}

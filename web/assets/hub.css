@@ -44,3 +44,5 @@ a.course-card:hover, a.course-card:focus-visible { transform: translateY(-2px); 
   .course-cta { grid-column: 2; justify-self: start; }
   .hub-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
+
+.hub-logo { display: block; width: 96px; height: 96px; margin: 0 0 14px; filter: drop-shadow(0 10px 20px rgba(0, 56, 168, 0.25)); }

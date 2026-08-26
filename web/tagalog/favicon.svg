@@ -1,12 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#fff"/>
-  <path d="M0 0h64v32H0z" fill="#0038a8"/>
-  <path d="M0 32h64v32H0z" fill="#ce1126"/>
-  <path d="M0 0l36 32L0 64z" fill="#fff"/>
-  <circle cx="14" cy="32" r="6.5" fill="#fcd116"/>
-  <g fill="#fcd116">
-    <path d="m9 10 1.2 3.7h3.9L11 16l1.2 3.7L9 17.4l-3.2 2.3L7 16l-3.1-2.3h3.9z"/>
-    <path d="m9 44 1.2 3.7h3.9L11 50l1.2 3.7L9 51.4l-3.2 2.3L7 50l-3.1-2.3h3.9z"/>
-    <path d="m28 28 1.2 3.7h3.9L30 34l1.2 3.7L28 35.4l-3.2 2.3L26 34l-3.1-2.3h3.9z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="WorldSpeak">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a56d8"/><stop offset="1" stop-color="#0038a8"/>
+    </linearGradient>
+    <clipPath id="globe"><circle cx="232" cy="268" r="150"/></clipPath>
+  </defs>
+  <!-- bocadillo -->
+  <path d="M96 80h320a56 56 0 0 1 56 56v256a56 56 0 0 1-56 56H214l-86 60 12-60H96a56 56 0 0 1-56-56V136a56 56 0 0 1 56-56z" fill="url(#sky)"/>
+  <!-- globo -->
+  <circle cx="232" cy="268" r="150" fill="#e6eeff"/>
+  <g clip-path="url(#globe)" fill="#0038a8" opacity="0.92">
+    <!-- continentes estilizados: Asia / Filipinas al centro -->
+    <path d="M110 190c30-30 70-40 110-30 25 6 40 22 60 18 22-4 35-30 60-20v40c-20 10-35 30-60 35-28 6-45-10-70-4-30 8-40 40-70 45-22 4-40-10-45-30-5-22 4-42 15-54z"/>
+    <path d="M300 290c18-8 40-4 52 12 10 14 6 34-6 46-14 14-40 12-54-2-14-14-12-46 8-56z"/>
+    <path d="M150 330c22-6 44 4 54 22 8 16 2 36-12 46-18 12-42 8-54-8-12-18-8-52 12-60z"/>
+    <circle cx="350" cy="230" r="9"/><circle cx="366" cy="252" r="7"/><circle cx="340" cy="262" r="6"/>
+  </g>
+  <!-- meridianos suaves -->
+  <g fill="none" stroke="#0038a8" stroke-opacity="0.25" stroke-width="6" clip-path="url(#globe)">
+    <ellipse cx="232" cy="268" rx="70" ry="150"/><ellipse cx="232" cy="268" rx="130" ry="150"/>
+    <line x1="82" y1="268" x2="382" y2="268"/>
+  </g>
+  <!-- sol de la bandera -->
+  <g transform="translate(372 178)">
+    <circle r="46" fill="#fcd116"/>
+    <g fill="#fcd116">
+      <path d="M-6-76h12l-6 22z"/><path d="M-6 76h12l-6-22z"/><path d="M-76-6v12l22-6z"/><path d="M76-6v12l-22-6z"/>
+      <path d="M-58-50l8-8 12 20z" /><path d="M50-58l8 8-20 12z"/><path d="M58 50l-8 8-12-20z"/><path d="M-50 58l-8-8 20-12z"/>
+    </g>
+    <circle r="30" fill="#ce1126" opacity="0.95"/>
+    <circle r="12" fill="#fcd116"/>
   </g>
 </svg>
