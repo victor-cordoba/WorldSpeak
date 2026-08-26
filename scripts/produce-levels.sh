@@ -8,6 +8,7 @@ cd "$ROOT/pipeline/voice"
 for n in $(seq "$FROM" "$TO"); do
   echo "=========== L$n $(date +%H:%M) ==========="
   python3 author_lesson.py --course "$COURSE" --lesson "$n" || { echo "L$n: redacción falló, reintento"; python3 author_lesson.py --course "$COURSE" --lesson "$n" --force || continue; }
+  python3 lint_content.py --course "$COURSE" --fix | tail -1
   python3 compile_lesson.py --course "$COURSE" --lesson "$n" --minutes 15 || continue
   python3 synth.py --course "$COURSE" --lesson "$n" 2>&1 | tail -1
   python3 assemble.py --course "$COURSE" --lesson "$n" | head -1

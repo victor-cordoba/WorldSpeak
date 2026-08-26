@@ -295,18 +295,36 @@
       "lang": "tl",
       "text": "Saan?",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "¿Dónde?",
       "item": "saan"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Con verbo: Saan ka nakatira? Sin verbo se usa nasaan (más adelante).",
+      "text": "Se usa cuando hay verbo. Sin verbo se usa otra palabra que verás más adelante.",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ¿dónde vives?, escucha:",
+      "kind": "explanation",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿dónde vives?",
+      "item": "saan"
     },
     {
       "role": "narrator",
@@ -394,7 +412,7 @@
       "lang": "tl",
       "text": "Sino?",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "¿Quién?",
       "item": "sino"
     },
@@ -493,7 +511,7 @@
       "lang": "tl",
       "text": "Ano?",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "¿Qué? / ¿Cuál?",
       "item": "ano"
     },
@@ -541,6 +559,15 @@
       "pause": 2.5,
       "translation_es": "¿Qué? / ¿Cuál?",
       "item": "ano"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un apunte antes de seguir. Vas a oír mucho la palabra po. Po es la palabra del respeto: se añade al final de casi cualquier frase cuando hablas con adultos o con mayores. Salamat po. Kumusta po. Con niños no hace falta. Es la manera más fácil de sonar educado en Tagalog.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
     },
     {
       "role": "narrator",
@@ -619,7 +646,7 @@
       "lang": "tl",
       "text": "Saan ka nakatira?",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "¿Dónde vives?",
       "item": "saan-ka-nakatira"
     },
@@ -853,7 +880,7 @@
       "lang": "tl",
       "text": "Ano ito?",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "¿Qué es esto?",
       "item": "ano-ito"
     },
@@ -1006,7 +1033,7 @@
       "lang": "tl",
       "text": "dito / diyan / doon",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "aquí / ahí / allí",
       "item": "dito-diyan-doon"
     },
@@ -1150,7 +1177,7 @@
       "lang": "tl",
       "text": "Nakatira ako sa Tondo.",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "Vivo en Tondo.",
       "item": "nakatira-ako-sa"
     },
@@ -1177,7 +1204,7 @@
       "lang": "tl",
       "text": "Kaibigan ko.",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "Mi amigo/a.",
       "item": "kaibigan-ko"
     },
@@ -1204,7 +1231,7 @@
       "lang": "tl",
       "text": "Malapit lang.",
       "kind": "phrase",
-      "pause": 2.5,
+      "pause": 1.2,
       "translation_es": "Aquí cerca.",
       "item": "malapit-lang"
     },
@@ -1752,9 +1779,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 13.5,
-    "chars": 4115,
-    "cues": 188,
+    "minutes_estimated": 13.9,
+    "chars": 4438,
+    "cues": 191,
     "mode": "lesson",
     "lesson": 4
   }

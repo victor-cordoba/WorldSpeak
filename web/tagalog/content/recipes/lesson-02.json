@@ -4,21 +4,62 @@
   "title": "¿Hablas Tagalog?",
   "subtitle": "Preguntar si saben Tagalog o inglés, decir que un poco, y entender sí, no y no sé.",
   "summary_es": "Aprendes la pregunta de sí o no con ba, a preguntar si alguien habla Tagalog o inglés, a decir konti lang y a entender oo, hindi, hindi ko alam.",
-  "topics": ["Preguntas con ba", "Marunong", "Konti lang", "Sí y no", "No lo sé"],
+  "topics": [
+    "Preguntas con ba",
+    "Marunong",
+    "Konti lang",
+    "Sí y no",
+    "No lo sé"
+  ],
   "scene": "lesson-02",
-  "teach": ["marunong-tagalog", "konti-lang", "marunong-ingles", "opo", "naiintindihan-mo-ba", "hindi-ko-alam", "ulitin-mo-po"],
-  "listen": ["oo", "hindi", "hindi-marunong", "konti-lang"],
-  "recall_prev": ["kumusta-ka", "ako-si", "anong-pangalan-mo", "salamat-po"],
+  "teach": [
+    "marunong-tagalog",
+    "marunong-ingles",
+    "opo",
+    "naiintindihan-mo-ba",
+    "ulitin-mo-po"
+  ],
+  "listen": [
+    "oo",
+    "hindi",
+    "hindi-marunong",
+    "konti-lang",
+    "hindi-ko-alam"
+  ],
+  "recall_prev": [
+    "kumusta-ka",
+    "ako-si",
+    "anong-pangalan-mo",
+    "salamat-po"
+  ],
   "grammar_pill": {
     "title": "ba convierte cualquier frase en pregunta",
     "text": "Coge una frase normal y mete ba después de la primera palabra o del pronombre. Marunong ka ba. Gutom ka ba. Taga-Maynila ka ba. Se responde con oo o hindi. Cuando ba va detrás de ka y sigue otra palabra, se pega: kang, bang.",
-    "examples": ["marunong-tagalog", "naiintindihan-mo-ba"]
+    "examples": [
+      "marunong-tagalog",
+      "naiintindihan-mo-ba"
+    ]
   },
   "guided": [
-    { "prompt": "Saluda y pregúntale si sabe hablar inglés.", "item": "marunong-ingles" },
-    { "prompt": "Te dice que no. Pregúntale si te entiende.", "item": "naiintindihan-mo-ba" },
-    { "prompt": "Te pregunta si hablas Tagalog. Di que solo un poco.", "item": "konti-lang" },
-    { "prompt": "No has entendido. Pídele que repita.", "item": "ulitin-mo-po" },
-    { "prompt": "Te pregunta algo que no sabes. Di que no lo sabes.", "item": "hindi-ko-alam" }
+    {
+      "prompt": "Saluda y pregúntale si sabe hablar inglés.",
+      "item": "marunong-ingles"
+    },
+    {
+      "prompt": "Te dice que no. Pregúntale si te entiende.",
+      "item": "naiintindihan-mo-ba"
+    },
+    {
+      "prompt": "Te pregunta si hablas Tagalog. Di que solo un poco.",
+      "item": "konti-lang"
+    },
+    {
+      "prompt": "No has entendido. Pídele que repita.",
+      "item": "ulitin-mo-po"
+    },
+    {
+      "prompt": "Te pregunta algo que no sabes. Di que no lo sabes.",
+      "item": "hindi-ko-alam"
+    }
   ]
 }
