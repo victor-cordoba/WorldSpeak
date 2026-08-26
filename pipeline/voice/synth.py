@@ -29,13 +29,30 @@ def tts_fish(api_key, voice_cfg, text, out_path):
 EXHAUSTED = set()
 
 
-def apply_tempo(path, tempo):
-    if not tempo or abs(float(tempo) - 1.0) < 0.01:
-        return
+def apply_tempo(path, tempo, clean=True):
+    """Post-proceso: velocidad (atempo), limpieza (paso alto, reducción de ruido y eco, recorte de silencios) y normalización."""
     import subprocess, os
+    filters = []
+    if tempo and abs(float(tempo) - 1.0) >= 0.01:
+        filters.append(f"atempo={float(tempo):.3f}")
+    if clean:
+        filters += ["highpass=f=90", "afftdn=nf=-28:nt=w", "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08:stop_periods=1:stop_threshold=-45dB:stop_silence=0.15", "loudnorm=I=-16:TP=-1.5:LRA=9"]
+    if not filters:
+        return
     tmp = path.with_suffix(".tmp.mp3")
-    subprocess.run([os.environ.get("FFMPEG", "/opt/homebrew/bin/ffmpeg"), "-y", "-loglevel", "error", "-i", str(path), "-filter:a", f"atempo={float(tempo):.3f}", "-b:a", "128k", str(tmp)], check=True)
+    subprocess.run([os.environ.get("FFMPEG", "/opt/homebrew/bin/ffmpeg"), "-y", "-loglevel", "error", "-i", str(path), "-af", ",".join(filters), "-ar", "44100", "-b:a", "128k", str(tmp)], check=True)
     tmp.replace(path)
+
+
+def enhance_text(voice_cfg, cue):
+    """Audio tags de eleven_v3 para que entone: idioma, tono según el tipo de cue."""
+    if voice_cfg.get("provider") == "fish" or not voice_cfg.get("tags"):
+        return cue["text"]
+    kind = cue.get("kind", "")
+    tone = {"prompt": "[curious]", "explanation": "[warm]", "instruction": "[cheerful]", "dialogue": "", "phrase": ""}.get(kind, "")
+    tags = voice_cfg["tags"].get(kind) or voice_cfg["tags"].get("*") or ""
+    prefix = " ".join(t for t in (tags, tone) if t)
+    return f"{prefix} {cue['text']}".strip()
 
 
 def tts(api_key, voice_cfg, model_id, output_format, text, out_path):
@@ -90,7 +107,8 @@ def main():
         if voice.get("provider", "elevenlabs") == "elevenlabs" and "elevenlabs" in EXHAUSTED and voice.get("fallback"):
             voice = voice["fallback"]
         model = voice.get("model", voices["model_id"]) if voice.get("provider") == "fish" else voices["model_id"]
-        key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), cue["text"], voice.get("tempo", 1))
+        spoken = enhance_text(voice, cue)
+        key = digest(voice.get("provider", "elevenlabs"), voice["voice_id"], model, json.dumps(voice.get("voice_settings", {}), sort_keys=True), spoken, voice.get("tempo", 1), "clean2")
         cue[args.clip_key] = f"_clips/{key}.mp3"
         path = clips_dir / f"{key}.mp3"
         if path.exists() and path.stat().st_size > 1000:
@@ -101,7 +119,7 @@ def main():
             continue
         print(f"  tts [{role}/{voice.get('provider','elevenlabs')}] {cue['text'][:60]}", flush=True)
         try:
-            tts(keys["fish" if voice.get("provider") == "fish" else "elevenlabs"], voice, voices["model_id"], voices["output_format"], cue["text"], path)
+            tts(keys["fish" if voice.get("provider") == "fish" else "elevenlabs"], voice, voices["model_id"], voices["output_format"], spoken, path)
         except RuntimeError as error:
             msg = str(error)
             if "ElevenLabs HTTP 40" in msg or "ElevenLabs HTTP 429" in msg or "quota" in msg.lower():

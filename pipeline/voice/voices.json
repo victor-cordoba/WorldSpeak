@@ -5,16 +5,16 @@
   "roles": {
     "narrator": {
       "provider": "elevenlabs",
-      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
-      "name": "Pablo Marshal (ElevenLabs, castellano)",
+      "voice_id": "hyKxCTlAqtnW188CgltM",
+      "name": "Salva - The Spanish Narrator (ElevenLabs, peninsular, grave)",
       "language_code": "es",
       "voice_settings": {
-        "stability": 0.5,
+        "stability": 0.45,
         "similarity_boost": 0.85,
-        "style": 0.25,
+        "style": 0.35,
         "use_speaker_boost": true
       },
-      "tempo": 1.28,
+      "tempo": 1.18,
       "fallback": {
         "provider": "fish",
         "model": "s2.1-pro-free",
@@ -22,6 +22,11 @@
         "name": "Narrador Terror (Fish)",
         "voice_settings": {},
         "tempo": 1.28
+      },
+      "tags": {
+        "*": "[speaking Spanish]",
+        "prompt": "[speaking Spanish]",
+        "explanation": "[speaking Spanish]"
       }
     },
     "native_m": {
@@ -103,6 +108,7 @@
   },
   "_alternativas": {
     "narrador_es_elevenlabs": "OhisAd2u8Q6qSA4xXAAT (Pablo Marshal): elegido por Victor, requiere mas credito de ElevenLabs",
-    "native_m_josh": "oqlKKpA3VREaqVHQKHNn (Josh - Natural Narrator, algo de eco)"
+    "native_m_josh": "oqlKKpA3VREaqVHQKHNn (Josh - Natural Narrator, algo de eco)",
+    "narrador_candidatos": "Salva hyKxCTlAqtnW188CgltM · Gabriel Blanco Deep LQDLKBDLh2L4weLEgCIE · Jose Bionada 8HZqgqbee8zgakPIPwm5 · Juan Gabriel 1npscUJu0UbVeHp4b0zt · Enrique Garcia KbHzTDrKkWZhO8WaGUeG · Pablo Marshal OhisAd2u8Q6qSA4xXAAT (muestras en PRUEBAS-VOZ/voces-narrador)"
   }
 }
