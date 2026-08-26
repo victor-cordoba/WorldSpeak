@@ -1,0 +1,84 @@
+{
+  "_doc": "ingles: voces provisionales de Fish (gratis). Candidatas alternativas en _candidatas.",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "roles": {
+    "narrator": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+      "name": "Narrador Terror (Fish, castellano)",
+      "voice_settings": {},
+      "tempo": 1.28,
+      "clean": false
+    },
+    "native_m": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "5e79e8f5d2b345f98baa8c83c947532d",
+      "name": "Paddington—British narrator, deep and wa (Fish)",
+      "voice_settings": {},
+      "clean": false
+    },
+    "native_f": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "82a3ef4504a6441e9a07acdaaf5349c1",
+      "name": "British female (Fish)",
+      "voice_settings": {},
+      "clean": false
+    },
+    "kid_m": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "5e79e8f5d2b345f98baa8c83c947532d",
+      "name": "Paddington—British narrator, deep and wa (Fish)",
+      "voice_settings": {},
+      "clean": false
+    },
+    "kid_f": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "82a3ef4504a6441e9a07acdaaf5349c1",
+      "name": "British female (Fish)",
+      "voice_settings": {},
+      "clean": false
+    }
+  },
+  "_candidatas": {
+    "m": [
+      [
+        "5e79e8f5d2b345f98baa8c83c947532d",
+        "Paddington—British narrator, deep and wa",
+        168821
+      ],
+      [
+        "e5f3047b09ab468da84ca21e3f511680",
+        "british male calm voice",
+        3588
+      ],
+      [
+        "55f0cafef00f4e16808bcd75c4b41a6f",
+        "Henry (British Narrator)",
+        2062
+      ]
+    ],
+    "f": [
+      [
+        "82a3ef4504a6441e9a07acdaaf5349c1",
+        "British female",
+        4169
+      ],
+      [
+        "32e344f53f114cfcbb7ed086f10f2403",
+        "british female",
+        3910
+      ],
+      [
+        "b85455e9d73e492d95c554176a8913df",
+        "British woman accent ",
+        3358
+      ]
+    ]
+  }
+}

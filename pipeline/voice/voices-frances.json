@@ -1,0 +1,84 @@
+{
+  "_doc": "frances: voces provisionales de Fish (gratis). Candidatas alternativas en _candidatas.",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "roles": {
+    "narrator": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "f9488c0dd5b84b748fd51c6deda08846",
+      "name": "Narrador Terror (Fish, castellano)",
+      "voice_settings": {},
+      "tempo": 1.28,
+      "clean": false
+    },
+    "native_m": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "50ea01180e4e4acb889032628eaf56e2",
+      "name": "Narrateur Français Dynamique (Fish)",
+      "voice_settings": {},
+      "clean": false
+    },
+    "native_f": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "0638c82cfa894e8fb71f42487f69e050",
+      "name": "Voix Narratrice Claire (Fish)",
+      "voice_settings": {},
+      "clean": false
+    },
+    "kid_m": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "50ea01180e4e4acb889032628eaf56e2",
+      "name": "Narrateur Français Dynamique (Fish)",
+      "voice_settings": {},
+      "clean": false
+    },
+    "kid_f": {
+      "provider": "fish",
+      "model": "s2.1-pro-free",
+      "voice_id": "0638c82cfa894e8fb71f42487f69e050",
+      "name": "Voix Narratrice Claire (Fish)",
+      "voice_settings": {},
+      "clean": false
+    }
+  },
+  "_candidatas": {
+    "m": [
+      [
+        "50ea01180e4e4acb889032628eaf56e2",
+        "Narrateur Français Dynamique",
+        1441
+      ],
+      [
+        "74c444d5b02e41369514d670e713ecc4",
+        "Narrateur Français Hunter X Hunter ",
+        731
+      ],
+      [
+        "31ab6897ac9d4ce5b9fdc68e28b8e49f",
+        "Homme Français ",
+        673
+      ]
+    ],
+    "f": [
+      [
+        "0638c82cfa894e8fb71f42487f69e050",
+        "Voix Narratrice Claire",
+        3259
+      ],
+      [
+        "6d5bf5601fcb46b0827f9166a0767169",
+        "Narratrice Mystérieuse",
+        505
+      ],
+      [
+        "aed163d854474040889df5acdcef95a7",
+        "Femme française 40ans",
+        504
+      ]
+    ]
+  }
+}
