@@ -39,7 +39,9 @@ function renderRoute() {
     const lessonsIn = curriculum.lessons.filter((l) => l.level === level.id);
     const doneIn = lessonsIn.filter((l) => done.has(l.id)).length;
     const pctIn = Math.round((doneIn / lessonsIn.length) * 100);
-    wrap.innerHTML = `<header class="level-head"><span class="level-icon">${level.icon}</span><div class="level-copy"><span class="level-kicker">Nivel ${level.id}</span><h2>${level.title}</h2><p>${level.desc}</p></div><span class="level-progress"><b>${doneIn}</b>/${lessonsIn.length}</span></header><div class="level-stops" style="--fill:${pctIn}%"></div>`;
+    const lastDoneIdx = lessonsIn.reduce((acc, l, idx) => (done.has(l.id) ? idx : acc), -1);
+    const fillPct = lastDoneIdx < 0 || lessonsIn.length < 2 ? 0 : Math.round((lastDoneIdx / (lessonsIn.length - 1)) * 100);
+    wrap.innerHTML = `<header class="level-head"><span class="level-icon">${level.icon}</span><div class="level-copy"><span class="level-kicker">Nivel ${level.id}</span><h2>${level.title}</h2><p>${level.desc}</p></div><span class="level-progress"><b>${doneIn}</b>/${lessonsIn.length}</span></header><div class="level-stops" style="--fill:${fillPct}%"></div>`;
     const stopsWrap = wrap.querySelector('.level-stops');
     lessonsIn.forEach((l) => {
       const isDone = done.has(l.id);

@@ -333,3 +333,9 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .phm-map svg { max-height: 62vh; }
 .phm-map [data-lang] { stroke: #fff; }
 .level-head .level-icon { background: rgba(255,255,255,0.92); }
+
+/* La línea de progreso pasa por debajo de los círculos (arreglo del círculo tapado al saltar lecciones) */
+.level-stops::before, .level-stops::after { z-index: 0; }
+.level-stops .stop { position: relative; z-index: 1; }
+.level-stops .stop::before { z-index: 2; background-clip: padding-box; }
+.level-stops .stop.is-next::before { background: #fff; }
