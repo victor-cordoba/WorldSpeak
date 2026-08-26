@@ -95,7 +95,7 @@ function renderCourses() {
     const meta = !isLive ? '' : started ? `${progress.doneCount} de ${course.tracks} lecciones · ${formatStudyTime(progress.totalSeconds)}` : `${course.tracks} lecciones · ${course.hours} h de audio`;
     const cta = !isLive ? 'Próximamente' : (started || session?.token) ? 'Continuar' : 'Empezar';
     card.innerHTML = `
-      <div class="course-band"><span class="course-flag">${flag(course.language?.flag)}</span></div>
+      <div class="course-band" ${course.image ? `style="background-image:url('${course.image}')"` : ''}><span class="course-flag">${flag(course.language?.flag)}</span></div>
       <div class="course-body">
         <div class="course-head"><h3>${course.title}</h3><span class="course-chip">${course.subtitle || ''}</span></div>
         <div class="course-foot">

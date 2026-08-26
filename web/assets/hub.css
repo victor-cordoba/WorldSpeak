@@ -113,3 +113,10 @@ a.course:hover, a.course:focus-visible { transform: none; border-color: var(--bl
   .hub-globe-bottom { display: block; width: 180px; height: 180px; margin: 28px auto 8px; }
   .hub-globe-bottom svg { width: 100%; height: 100%; filter: drop-shadow(0 16px 30px rgba(10, 47, 158, 0.28)); }
 }
+
+/* banners con foto */
+.course-band { height: 150px; background-size: cover; background-position: center; }
+.course-band::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,47,158,0) 40%, rgba(10,47,158,0.35) 100%); }
+.course.is-soon .course-band { filter: grayscale(0.15) brightness(0.95); opacity: 1; }
+.course-body { padding-top: 34px; }
+.hub-credits { max-width: 1140px; margin: 8px auto 0; padding: 0 24px; font-size: 11px; color: var(--muted); text-align: center; }

@@ -1,168 +1,167 @@
 {
-  "title": "Escuela y chinelas",
-  "subtitle": "Aprender a preguntar sobre la escuela y la vestimenta de los niños.",
-  "summary_es": "Preguntar a los niños sobre su escuela y su vestimenta.",
+  "title": "¿Pides dinero?",
+  "subtitle": "Aprender a preguntar a los niños sobre su situación",
+  "summary_es": "Aprender a interactuar con niños en la calle.",
   "topics": [
-    "preguntas",
-    "niños",
-    "escuela",
-    "vestimenta",
+    "preguntar",
+    "ninos",
+    "cortesia",
     "ubicación"
   ],
   "dialogue": {
     "tl": [
-      "Kumusta ka?",
-      "Maayo ra.",
-      "Nag-eskwela ka?",
-      "Oo, nag-eskwela ko.",
-      "Asa ka nag-eskwela?",
-      "Naa sa eskwelahan.",
-      "Naa kay tsinelas?",
-      "Wala koy kwarta."
+      "Kumusta ka, dong?",
+      "Maayo ra, kuya.",
+      "Nagpakilimos ka?",
+      "Oo, kuya. Nangayo ko og kwarta.",
+      "Kang kinsa ka nangayo?",
+      "Sa mga tawo diri sa Colon.",
+      "Amping, dong. Asa imong mama ug papa?",
+      "Naa sa balay, kuya."
     ],
     "es": [
-      "¿Cómo estás?",
-      "Bien.",
-      "¿Vas a la escuela?",
-      "Sí, voy a la escuela.",
-      "¿Dónde estudias?",
-      "Está en la escuela.",
-      "¿Tienes chinelas?",
-      "No tengo dinero."
+      "¿Cómo estás, niño?",
+      "Bien, hermano mayor.",
+      "¿Estás pidiendo dinero?",
+      "Sí, hermano mayor. Estoy pidiendo dinero.",
+      "¿A quién le pides?",
+      "A la gente aquí en Colon.",
+      "Cuídate, niño. ¿Dónde están tu mamá y tu papá?",
+      "Están en casa, hermano mayor."
     ]
   },
   "vocabulary": [
     {
-      "term": "Nag-eskwela ka?",
-      "es": "¿Vas a la escuela?"
+      "term": "Nagpakilimos ka?",
+      "es": "¿Estás pidiendo dinero?"
     },
     {
-      "term": "Asa ka nag-eskwela?",
-      "es": "¿Dónde estudias?"
+      "term": "Nangayo ka og kwarta?",
+      "es": "¿Pides dinero?"
     },
     {
-      "term": "Naa kay tsinelas?",
-      "es": "¿Tienes chinelas?"
+      "term": "Kang kinsa?",
+      "es": "¿A quién?"
     },
     {
-      "term": "Naa kay karsones?",
-      "es": "¿Tienes pantalones?"
+      "term": "Kinsa imong kauban?",
+      "es": "¿Con quién estás?"
     },
     {
-      "term": "Wala koy kwarta.",
-      "es": "No tengo dinero."
+      "term": "Amping, dong.",
+      "es": "Cuídate, niño."
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 18. Escuela y chinelas.",
+      "text": "Lección 19. ¿Pides dinero?.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/9425746f3ac8b1b8.mp3"
+      "clip": "_clips/770af20b2bc409f2.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En un barrio de Cebú, un voluntario se encuentra con un niño en la calle. Escucha la conversación.",
+      "text": "En una calle concurrida de Cebu City, un voluntario español se acerca a un grupo de niños que están pidiendo dinero. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/7acc022170a5a6c2.mp3"
+      "clip": "_clips/7851ea99c464b152.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Kumusta ka, dong?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Cómo estás?",
+      "translation_es": "¿Cómo estás, niño?",
       "item": null,
-      "clip": "_clips/a8ccd62864d777e0.mp3"
+      "clip": "_clips/5d1a0b2a70a80cf5.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Maayo ra.",
+      "text": "Maayo ra, kuya.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Bien.",
+      "translation_es": "Bien, hermano mayor.",
       "item": null,
-      "clip": "_clips/a25b2d64e5028e4a.mp3"
+      "clip": "_clips/ef01561b694fc817.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Vas a la escuela?",
+      "translation_es": "¿Estás pidiendo dinero?",
       "item": null,
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Oo, nag-eskwela ko.",
+      "text": "Oo, kuya. Nangayo ko og kwarta.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, voy a la escuela.",
+      "translation_es": "Sí, hermano mayor. Estoy pidiendo dinero.",
       "item": null,
-      "clip": "_clips/b470e7c5e8d690c0.mp3"
+      "clip": "_clips/a2a4049837415d11.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Kang kinsa ka nangayo?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Dónde estudias?",
+      "translation_es": "¿A quién le pides?",
       "item": null,
-      "clip": "_clips/69524854c8027c27.mp3"
+      "clip": "_clips/abacbec0b1ba5987.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Naa sa eskwelahan.",
+      "text": "Sa mga tawo diri sa Colon.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Está en la escuela.",
+      "translation_es": "A la gente aquí en Colon.",
       "item": null,
-      "clip": "_clips/77662aa7e1d9c666.mp3"
+      "clip": "_clips/9334c14857fa0fb6.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Amping, dong. Asa imong mama ug papa?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Tienes chinelas?",
+      "translation_es": "Cuídate, niño. ¿Dónde están tu mamá y tu papá?",
       "item": null,
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "clip": "_clips/5c49393d8e23a006.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Naa sa balay, kuya.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No tengo dinero.",
+      "translation_es": "Están en casa, hermano mayor.",
       "item": null,
-      "clip": "_clips/88fa06baa4906753.mp3"
+      "clip": "_clips/554e92918fa19d6d.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprender a preguntar sobre la escuela y la vestimenta de los niños. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Aprender a preguntar a los niños sobre su situación Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/78f8273cd209f792.mp3"
+      "clip": "_clips/8d81b94314893b2b.mp3"
     },
     {
       "role": "narrator",
@@ -177,162 +176,162 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "text": "¿Cómo se dice «¿Qué haces aquí, niño?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/8624839263c27ab7.mp3"
+      "clip": "_clips/b45a0ddedae60e6c.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Unsa imong gibuhat diri, dong?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/a8ccd62864d777e0.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí, niño?",
+      "item": "unsa-imong-gibuhat-diri-dong",
+      "clip": "_clips/871bf06eb70a0e8d.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Bien».",
+      "text": "Di: «¿Estás solo?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/2abbfccb1abc1f58.mp3"
+      "clip": "_clips/a5777b1bd4f54b75.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Maayo ra.",
+      "text": "Nag-inusara ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Bien.",
-      "item": "maayo-ra",
-      "clip": "_clips/9fabf5bb13bd7a26.mp3"
+      "translation_es": "¿Estás solo?",
+      "item": "nag-inusara-ka",
+      "clip": "_clips/c2025ea6a7f0b43c.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "text": "¿Cómo se dice «¿Dónde están tu mamá y tu papá?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/eedbf45358c9d519.mp3"
+      "clip": "_clips/363d17266afcd058.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay pamilya?",
+      "text": "Hain imong mama ug papa?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes familia?",
-      "item": "naa-kay-pamilya",
-      "clip": "_clips/26136fb8993b76b2.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu mamá y tu papá?",
+      "item": "hain-imong-mama-ug-papa",
+      "clip": "_clips/983dc3114697c8f2.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Tengo hijos».",
+      "text": "Di: «Estoy aquí».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/64607c8d82156170.mp3"
+      "clip": "_clips/faacf95c0990ff93.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa koy anak.",
+      "text": "Naa ko diri.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hijos.",
-      "item": "naa-koy-anak",
-      "clip": "_clips/6546dc162c16ea93.mp3"
+      "translation_es": "Estoy aquí.",
+      "item": "naa-ko-diri",
+      "clip": "_clips/c4d866ae242f11f4.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Dónde trabajas?»?",
+      "text": "¿Cómo se dice «No estoy acompañado»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/510cdeb9b31d5b03.mp3"
+      "clip": "_clips/5453ab02dcfa9426.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nagtrabaho?",
+      "text": "Wala ko kuyog.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde trabajas?",
-      "item": "asa-ka-nagtrabaho",
-      "clip": "_clips/bbc2afc851e9f0eb.mp3"
+      "translation_es": "No estoy acompañado.",
+      "item": "wala-ko-kuyog",
+      "clip": "_clips/2a7f4711acd5f434.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Está en Bohol».",
+      "text": "Di: «¡Cuídate».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/c24f3d2eb083dc1f.mp3"
+      "clip": "_clips/8b24dfd9af4cc938.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa sa Bohol.",
+      "text": "Amping!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Está en Bohol.",
-      "item": "naa-sa-bohol",
-      "clip": "_clips/8678091fe628b18b.mp3"
+      "translation_es": "¡Cuídate!",
+      "item": "amping",
+      "clip": "_clips/cda8223295a274ad.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Ven aquí»?",
+      "text": "¿Cómo se dice «¡Vamos, ven, rápido»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/14a4465115f478e8.mp3"
+      "clip": "_clips/5c71c632d0823cf1.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dali diri.",
+      "text": "Sige, tara, dali!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Ven aquí.",
-      "item": "dali-diri",
-      "clip": "_clips/e72175698f546bc2.mp3"
+      "translation_es": "¡Vamos, ven, rápido!",
+      "item": "sige-tara-dali",
+      "clip": "_clips/3a18da4851c6a570.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Vas a la escuela?». Escucha y repite.",
+      "text": "«¿Estás pidiendo dinero?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/3b22aa008cfcc441.mp3"
+      "clip": "_clips/e8672ad9ec7b5cb1.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "native_m",
@@ -341,508 +340,488 @@
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "nag-eskwela-ka",
+      "item": "nagpakilimos-ka",
       "clip": "_clips/14d063966dde3fd5.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka",
+      "text": "Nagpakilimos ka",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/cb4c84df8bcea871.mp3"
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/38bc86edb8df28b5.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta común para conocer a los niños",
+      "text": "pregunta sobre pedir dinero",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/6b741ebe5b51097d.mp3"
+      "clip": "_clips/5072a5b0f9adfeff.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Vas a la escuela?»?",
+      "text": "¿Cómo se dice «¿Estás pidiendo dinero?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/27d03a7514c9f983.mp3"
+      "clip": "_clips/571837fcb16e9995.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Vas a la escuela?».",
+      "text": "Otra vez. «¿Estás pidiendo dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/98e372f54a13c3d4.mp3"
+      "clip": "_clips/a3f8826fda42db2d.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Dónde estudias?». Escucha y repite.",
+      "text": "«¿Pides dinero?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/5473432a8db3ea71.mp3"
+      "clip": "_clips/d666edb399693d04.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "la",
+      "text": "ta",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/c0659db20498f34a.mp3"
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/8f827abc2da975ae.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kwela",
+      "text": "kwarta",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/094759d7a53634e3.mp3"
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/88d56daf3d0ea615.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "-eskwela",
+      "text": "og kwarta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/9cd492e07983275d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka og kwarta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/834cf02d2659f577.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nangayo ka og kwarta",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/e18757d7eecf0f59.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nangayo ka og kwarta?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/e99fa4d6ea71c131.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ka nag-eskwela",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/7002eddcaa35954e.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Asa ka nag-eskwela",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/b983b544b1754e1e.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta para conocer más sobre el niño",
+      "text": "pregunta directa sobre pedir dinero",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/fa776a858ba18dff.mp3"
+      "clip": "_clips/229aa307d7458a78.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Dónde estudias?»?",
+      "text": "¿Cómo se dice «¿Pides dinero?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/74394d79e4e982dc.mp3"
+      "clip": "_clips/959e73724d016e82.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Dónde estudias?».",
+      "text": "Otra vez. «¿Pides dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/088b6b7e3ddad8f6.mp3"
+      "clip": "_clips/0a9131882e60c7c2.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Tienes chinelas?». Escucha y repite.",
+      "text": "«¿A quién?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/d76cd68b5b57f94f.mp3"
+      "clip": "_clips/67d2fd964511ffd7.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "las",
+      "text": "sa",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/1b3c3ac41b4eb2f8.mp3"
+      "item": "kang-kinsa",
+      "clip": "_clips/df9467008e5d1647.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "nelas",
+      "text": "kinsa",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/0453136ccfc57d9a.mp3"
+      "item": "kang-kinsa",
+      "clip": "_clips/b5b94742e067532c.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "tsinelas",
+      "text": "Kang kinsa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "kang-kinsa",
+      "clip": "_clips/6df9f428ce5a55bb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kang kinsa?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/f3ac2681eb63a0c9.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "kay tsinelas",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/13428bc4113079be.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Naa kay tsinelas",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/2f66cf7996a6a364.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Naa kay tsinelas?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Naa kay tsinelas?",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta para saber si el niño tiene calzado",
+      "text": "pregunta sobre destinatario",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/b935358b6d737b4b.mp3"
+      "clip": "_clips/a2641212317ec7b7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes chinelas?»?",
+      "text": "¿Cómo se dice «¿A quién?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/3c30a306ea0ceaa2.mp3"
+      "clip": "_clips/6a19f39c24cf5272.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Tienes chinelas?».",
+      "text": "Otra vez. «¿A quién?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/74d873ba378b6d89.mp3"
+      "clip": "_clips/f1d5be5da76ce58a.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Tienes pantalones?». Escucha y repite.",
+      "text": "«¿Con quién estás?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/2546c705ab666f09.mp3"
+      "clip": "_clips/5292909b1ec88c22.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "nes",
+      "text": "ban",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/3d4cd68c0f3f6181.mp3"
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e751c731b60dda9c.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "sones",
+      "text": "uban",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/1c9fa626c567d183.mp3"
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/b1e3e690e381d0e5.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "karsones",
+      "text": "kauban",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/a23c9c0b4cb5516b.mp3"
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/de85928991ada496.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kay karsones",
+      "text": "imong kauban",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/24df503b54f32246.mp3"
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/7257d798246683cd.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones",
+      "text": "Kinsa imong kauban",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/4bc4864dc3c53a21.mp3"
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/b212f61f3f17d686.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta sobre la vestimenta del niño",
+      "text": "pregunta sobre compañía",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/9ce9696fa52c5f58.mp3"
+      "clip": "_clips/e57602899284d5d1.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes pantalones?»?",
+      "text": "¿Cómo se dice «¿Con quién estás?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/76a4ad49a596aec3.mp3"
+      "clip": "_clips/dad9e89ff2d1ee32.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Tienes pantalones?».",
+      "text": "Otra vez. «¿Con quién estás?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/13e4d75bbd1e8a69.mp3"
+      "clip": "_clips/cd3770c2945eb9c8.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "narrator",
@@ -857,162 +836,132 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Dónde estudias?».",
+      "text": "Y ahora, «¿Pides dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/38168eade980eb56.mp3"
+      "clip": "_clips/530c747623292efc.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Dos formas de decir no: dili niega lo que se hace o lo que se es, y wala dice que no hay o no se tiene.",
-      "kind": "explanation",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/8721faf51eb66001.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«No tengo dinero». Escucha y repite.",
+      "text": "«Cuídate, niño». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/5662a44d187dd867.mp3"
+      "clip": "_clips/cfc635689b60ef23.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Amping, dong.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ta",
+      "text": "dong",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/8f827abc2da975ae.mp3"
+      "item": "amping-dong",
+      "clip": "_clips/9aaa8321bed5b227.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "kwarta",
+      "text": "Amping dong",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "amping-dong",
+      "clip": "_clips/fc061b94a97fb95e.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amping, dong.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Amping, dong.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/88d56daf3d0ea615.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "koy kwarta",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/de884215160eeea2.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Wala koy kwarta",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/c7beccbd50d41c4d.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Wala koy kwarta.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Wala koy kwarta.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "frase común para expresar falta de dinero",
+      "text": "expresión cariñosa para niños",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/a5a2994345aa3532.mp3"
+      "clip": "_clips/2dc3a7dd1a682cee.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «No tengo dinero»?",
+      "text": "¿Cómo se dice «Cuídate, niño»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/bc8b7b514434c14b.mp3"
+      "clip": "_clips/c49498d75ffac054.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Amping, dong.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «No tengo dinero».",
+      "text": "Otra vez. «Cuídate, niño».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/edc18bf80d790e1a.mp3"
+      "clip": "_clips/5d69b8a1a22594c1.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Amping, dong.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
     },
     {
       "role": "narrator",
@@ -1027,62 +976,62 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Ya has comido?».",
+      "text": "Y ahora, «¿Qué hora es?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/557ac994ca27bcd0.mp3"
+      "clip": "_clips/f5338af413731ec3.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nikaon na ka?",
+      "text": "Unsa ang oras?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Ya has comido?",
-      "item": "nikaon-na-ka",
-      "clip": "_clips/2e2ffcd7c98afc8c.mp3"
+      "translation_es": "¿Qué hora es?",
+      "item": "unsa-ang-oras",
+      "clip": "_clips/46fccbaa9d2bd2fd.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Uso de 'nag-' para acciones continuas.",
+      "text": "Uso de 'kinsa' y 'kang kinsa'.",
       "kind": "explanation",
       "pause": 0.4,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/72dbe8e075ffc54d.mp3"
+      "clip": "_clips/1f56c4e33be8b180.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "El prefijo 'nag-' se usa para indicar que una acción está en curso o es habitual. Por ejemplo, 'nag-eskwela' significa 'está estudiando' o 'va a la escuela'.",
+      "text": "En Bisaya, 'kinsa' se usa para preguntar por alguien, mientras que 'kang kinsa' se usa para preguntar a quién pertenece algo o a quién se dirige una acción. Es importante para entender y ser claro en las conversaciones.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/f6abc2cba06cd67b.mp3"
+      "clip": "_clips/47033b32f0a936f9.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nagbaligya ko.",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Vendo.",
-      "item": "nagbaligya-ko",
-      "clip": "_clips/022faf8ddb0fb77e.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "narrator",
@@ -1097,122 +1046,92 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Naa sa Colon.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/748e281d711a74c5.mp3"
+      "translation_es": "Está en Colon.",
+      "item": "naa-sa-colon",
+      "clip": "_clips/a3dd62b9846b18d1.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«No tengo dinero».",
+      "text": "«Está en Colon».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/5d9961e3d4a9dd15.mp3"
+      "clip": "_clips/e22ae9442e529196.mp3"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Naa sa Colon.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/748e281d711a74c5.mp3"
+      "translation_es": "Está en Colon.",
+      "item": "naa-sa-colon",
+      "clip": "_clips/a3dd62b9846b18d1.mp3"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Naa sa eskwelahan.",
+      "text": "Naa sa Basílica.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Está en la escuela.",
-      "item": "naa-sa-eskwelahan",
-      "clip": "_clips/421f74a3ac676a24.mp3"
+      "translation_es": "Está en la Basílica.",
+      "item": "naa-sa-baslica",
+      "clip": "_clips/1298cee41dc3eb5c.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Está en la escuela».",
+      "text": "«Está en la Basílica».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/7ece1e19932e9abc.mp3"
+      "clip": "_clips/6335b135c9df42ee.mp3"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Naa sa eskwelahan.",
+      "text": "Naa sa Basílica.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Está en la escuela.",
-      "item": "naa-sa-eskwelahan",
-      "clip": "_clips/421f74a3ac676a24.mp3"
+      "translation_es": "Está en la Basílica.",
+      "item": "naa-sa-baslica",
+      "clip": "_clips/1298cee41dc3eb5c.mp3"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Naa sa balay.",
+      "text": "Naa sa merkado.",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Está en casa.",
-      "item": "naa-sa-balay",
-      "clip": "_clips/24ab0229750e0ecb.mp3"
+      "translation_es": "Está en el mercado.",
+      "item": "naa-sa-merkado",
+      "clip": "_clips/e1d38dbce04110a4.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Está en casa».",
+      "text": "«Está en el mercado».",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/3bcf3688bd66ef1a.mp3"
+      "clip": "_clips/446af5c3eb7093ac.mp3"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Naa sa balay.",
+      "text": "Naa sa merkado.",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Está en casa.",
-      "item": "naa-sa-balay",
-      "clip": "_clips/24ab0229750e0ecb.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Naa sa mama.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Está con mamá.",
-      "item": "naa-sa-mama",
-      "clip": "_clips/bd4e433199123ea4.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Está con mamá».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/f5741951f9bf3024.mp3"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Naa sa mama.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Está con mamá.",
-      "item": "naa-sa-mama",
-      "clip": "_clips/bd4e433199123ea4.mp3"
+      "translation_es": "Está en el mercado.",
+      "item": "naa-sa-merkado",
+      "clip": "_clips/e1d38dbce04110a4.mp3"
     },
     {
       "role": "narrator",
@@ -1227,42 +1146,42 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale a un niño si va a la escuela.",
+      "text": "Te encuentras con un niño en la calle y quieres saber si está pidiendo dinero.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/3837ecc93bdb31fa.mp3"
+      "clip": "_clips/97607d9e17eb5088.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregunta dónde estudia un niño.",
+      "text": "Preguntas a un niño con quién está.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/9ed41b47f2e94f59.mp3"
+      "clip": "_clips/b069faf1db7b96b3.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "narrator",
@@ -1277,102 +1196,102 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Vas a la escuela?».",
+      "text": "Di: «¿Estás pidiendo dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/3fb40a0402a0e476.mp3"
+      "clip": "_clips/411a2ba7547f9cc7.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Dónde estudias?».",
+      "text": "Otra vez. «¿Pides dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/088b6b7e3ddad8f6.mp3"
+      "clip": "_clips/0a9131882e60c7c2.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Tienes chinelas?».",
+      "text": "Y ahora, «¿A quién?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/226e3f2162ebb14d.mp3"
+      "clip": "_clips/9073de581ec773fd.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes pantalones?»?",
+      "text": "¿Cómo se dice «¿Con quién estás?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/76a4ad49a596aec3.mp3"
+      "clip": "_clips/dad9e89ff2d1ee32.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No tengo dinero».",
+      "text": "Di: «Cuídate, niño».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/8cadc04e7117ec94.mp3"
+      "clip": "_clips/3ef1952651d5bc60.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Amping, dong.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
     },
     {
       "role": "narrator",
@@ -1397,142 +1316,142 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Cómo estás?»?",
+      "text": "¿Cómo se dice «¿Qué haces aquí, niño?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/8624839263c27ab7.mp3"
+      "clip": "_clips/b45a0ddedae60e6c.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Unsa imong gibuhat diri, dong?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo estás?",
-      "item": "kumusta-ka",
-      "clip": "_clips/a8ccd62864d777e0.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí, niño?",
+      "item": "unsa-imong-gibuhat-diri-dong",
+      "clip": "_clips/871bf06eb70a0e8d.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Bien».",
+      "text": "Di: «¿Estás solo?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/2abbfccb1abc1f58.mp3"
+      "clip": "_clips/a5777b1bd4f54b75.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Maayo ra.",
+      "text": "Nag-inusara ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Bien.",
-      "item": "maayo-ra",
-      "clip": "_clips/9fabf5bb13bd7a26.mp3"
+      "translation_es": "¿Estás solo?",
+      "item": "nag-inusara-ka",
+      "clip": "_clips/c2025ea6a7f0b43c.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes familia?»?",
+      "text": "¿Cómo se dice «¿Dónde están tu mamá y tu papá?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/eedbf45358c9d519.mp3"
+      "clip": "_clips/363d17266afcd058.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay pamilya?",
+      "text": "Hain imong mama ug papa?",
       "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Tienes familia?",
-      "item": "naa-kay-pamilya",
-      "clip": "_clips/26136fb8993b76b2.mp3"
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu mamá y tu papá?",
+      "item": "hain-imong-mama-ug-papa",
+      "clip": "_clips/983dc3114697c8f2.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Tengo hijos».",
+      "text": "Di: «Estoy aquí».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/64607c8d82156170.mp3"
+      "clip": "_clips/faacf95c0990ff93.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa koy anak.",
+      "text": "Naa ko diri.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Tengo hijos.",
-      "item": "naa-koy-anak",
-      "clip": "_clips/6546dc162c16ea93.mp3"
+      "translation_es": "Estoy aquí.",
+      "item": "naa-ko-diri",
+      "clip": "_clips/c4d866ae242f11f4.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Dónde trabajas?»?",
+      "text": "¿Cómo se dice «No estoy acompañado»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/510cdeb9b31d5b03.mp3"
+      "clip": "_clips/5453ab02dcfa9426.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nagtrabaho?",
+      "text": "Wala ko kuyog.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde trabajas?",
-      "item": "asa-ka-nagtrabaho",
-      "clip": "_clips/bbc2afc851e9f0eb.mp3"
+      "translation_es": "No estoy acompañado.",
+      "item": "wala-ko-kuyog",
+      "clip": "_clips/2a7f4711acd5f434.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Está en Bohol».",
+      "text": "Di: «¡Cuídate».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/c24f3d2eb083dc1f.mp3"
+      "clip": "_clips/8b24dfd9af4cc938.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa sa Bohol.",
+      "text": "Amping!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Está en Bohol.",
-      "item": "naa-sa-bohol",
-      "clip": "_clips/8678091fe628b18b.mp3"
+      "translation_es": "¡Cuídate!",
+      "item": "amping",
+      "clip": "_clips/cda8223295a274ad.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Ven aquí»?",
+      "text": "¿Cómo se dice «¡Vamos, ven, rápido»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/14a4465115f478e8.mp3"
+      "clip": "_clips/5c71c632d0823cf1.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dali diri.",
+      "text": "Sige, tara, dali!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Ven aquí.",
-      "item": "dali-diri",
-      "clip": "_clips/e72175698f546bc2.mp3"
+      "translation_es": "¡Vamos, ven, rápido!",
+      "item": "sige-tara-dali",
+      "clip": "_clips/3a18da4851c6a570.mp3"
     },
     {
       "role": "narrator",
@@ -1547,102 +1466,102 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Vas a la escuela?».",
+      "text": "Di: «¿Estás pidiendo dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/3fb40a0402a0e476.mp3"
+      "clip": "_clips/411a2ba7547f9cc7.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Vas a la escuela?",
-      "item": "nag-eskwela-ka",
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "translation_es": "¿Estás pidiendo dinero?",
+      "item": "nagpakilimos-ka",
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Dónde estudias?».",
+      "text": "Otra vez. «¿Pides dinero?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/088b6b7e3ddad8f6.mp3"
+      "clip": "_clips/0a9131882e60c7c2.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Nangayo ka og kwarta?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Dónde estudias?",
-      "item": "asa-ka-nag-eskwela",
-      "clip": "_clips/69524854c8027c27.mp3"
+      "translation_es": "¿Pides dinero?",
+      "item": "nangayo-ka-og-kwarta",
+      "clip": "_clips/654963ef494f7cd7.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Tienes chinelas?».",
+      "text": "Y ahora, «¿A quién?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/226e3f2162ebb14d.mp3"
+      "clip": "_clips/9073de581ec773fd.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Kang kinsa?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes chinelas?",
-      "item": "naa-kay-tsinelas",
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "translation_es": "¿A quién?",
+      "item": "kang-kinsa",
+      "clip": "_clips/9567892c13b4358a.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Tienes pantalones?»?",
+      "text": "¿Cómo se dice «¿Con quién estás?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/76a4ad49a596aec3.mp3"
+      "clip": "_clips/dad9e89ff2d1ee32.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay karsones?",
+      "text": "Kinsa imong kauban?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Tienes pantalones?",
-      "item": "naa-kay-karsones",
-      "clip": "_clips/627b9a72facb5d2b.mp3"
+      "translation_es": "¿Con quién estás?",
+      "item": "kinsa-imong-kauban",
+      "clip": "_clips/e4f972fc17a010ec.mp3"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «No tengo dinero».",
+      "text": "Di: «Cuídate, niño».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/8cadc04e7117ec94.mp3"
+      "clip": "_clips/3ef1952651d5bc60.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Amping, dong.",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No tengo dinero.",
-      "item": "wala-koy-kwarta",
-      "clip": "_clips/15d178a4bd923dd4.mp3"
+      "translation_es": "Cuídate, niño.",
+      "item": "amping-dong",
+      "clip": "_clips/4f94914adc440cd0.mp3"
     },
     {
       "role": "narrator",
@@ -1657,82 +1576,82 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Kumusta ka?",
+      "text": "Kumusta ka, dong?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Cómo estás?",
+      "translation_es": "¿Cómo estás, niño?",
       "item": null,
-      "clip": "_clips/a8ccd62864d777e0.mp3"
+      "clip": "_clips/5d1a0b2a70a80cf5.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Maayo ra.",
+      "text": "Maayo ra, kuya.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Bien.",
+      "translation_es": "Bien, hermano mayor.",
       "item": null,
-      "clip": "_clips/a25b2d64e5028e4a.mp3"
+      "clip": "_clips/ef01561b694fc817.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Nag-eskwela ka?",
+      "text": "Nagpakilimos ka?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Vas a la escuela?",
+      "translation_es": "¿Estás pidiendo dinero?",
       "item": null,
-      "clip": "_clips/56a9f72cd48ac597.mp3"
+      "clip": "_clips/45ad06f90135decf.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Oo, nag-eskwela ko.",
+      "text": "Oo, kuya. Nangayo ko og kwarta.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Sí, voy a la escuela.",
+      "translation_es": "Sí, hermano mayor. Estoy pidiendo dinero.",
       "item": null,
-      "clip": "_clips/b470e7c5e8d690c0.mp3"
+      "clip": "_clips/a2a4049837415d11.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Asa ka nag-eskwela?",
+      "text": "Kang kinsa ka nangayo?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Dónde estudias?",
+      "translation_es": "¿A quién le pides?",
       "item": null,
-      "clip": "_clips/69524854c8027c27.mp3"
+      "clip": "_clips/abacbec0b1ba5987.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Naa sa eskwelahan.",
+      "text": "Sa mga tawo diri sa Colon.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Está en la escuela.",
+      "translation_es": "A la gente aquí en Colon.",
       "item": null,
-      "clip": "_clips/77662aa7e1d9c666.mp3"
+      "clip": "_clips/9334c14857fa0fb6.mp3"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Naa kay tsinelas?",
+      "text": "Amping, dong. Asa imong mama ug papa?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Tienes chinelas?",
+      "translation_es": "Cuídate, niño. ¿Dónde están tu mamá y tu papá?",
       "item": null,
-      "clip": "_clips/d96319e5532f0470.mp3"
+      "clip": "_clips/5c49393d8e23a006.mp3"
     },
     {
       "role": "kid_m",
       "lang": "tl",
-      "text": "Wala koy kwarta.",
+      "text": "Naa sa balay, kuya.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No tengo dinero.",
+      "translation_es": "Están en casa, hermano mayor.",
       "item": null,
-      "clip": "_clips/88fa06baa4906753.mp3"
+      "clip": "_clips/554e92918fa19d6d.mp3"
     },
     {
       "role": "narrator",
@@ -1748,10 +1667,10 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 12.1,
-    "chars": 3979,
-    "cues": 169,
+    "minutes_estimated": 12.0,
+    "chars": 4038,
+    "cues": 161,
     "mode": "lesson",
-    "lesson": 18
+    "lesson": 19
   }
 }
