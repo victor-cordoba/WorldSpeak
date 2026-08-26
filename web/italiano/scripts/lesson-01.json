@@ -1,67 +1,63 @@
 {
-  "title": "Presentarse en Italiano",
-  "subtitle": "Aprender a saludar y presentarse",
-  "summary_es": "Cómo saludar y presentarse en italiano.",
+  "title": "Presentarse y preguntar por el nombre",
+  "subtitle": "Aprender a saludar y presentarse en italiano",
+  "summary_es": "Aprenderás a presentarte y preguntar el nombre en italiano.",
   "topics": [
     "saludo",
-    "presentarse",
-    "cortesia",
+    "presentación",
+    "cortesía",
     "pregunta",
-    "respuesta"
+    "despedida"
   ],
   "dialogue": {
     "tl": [
-      "Buongiorno!",
-      "Buongiorno! Come ti chiami?",
-      "Mi chiamo Carlo. E tu?",
-      "Mi chiamo Maria. Piacere di conoscerti.",
-      "Piacere! Tutto bene?",
-      "Sì, grazie! E tu?",
-      "Tutto bene, grazie. Ci vediamo domani.",
-      "Ci vediamo, ciao!"
+      "Ciao, come stai?",
+      "Tutto bene, grazie. E tu?",
+      "Bene, grazie. Come ti chiami?",
+      "Mi chiamo Lucia. Piacere!",
+      "Piacere! Io sono Marco.",
+      "Ci vediamo!"
     ],
     "es": [
-      "¡Buenos días!",
-      "¡Buenos días! ¿Cómo te llamas?",
-      "Me llamo Carlo. ¿Y tú?",
-      "Me llamo María. Encantada de conocerte.",
-      "¡Encantado! ¿Todo bien?",
-      "¡Sí, gracias! ¿Y tú?",
-      "Todo bien, gracias. Nos vemos mañana.",
-      "Nos vemos, ¡chao!"
+      "Hola, ¿cómo estás?",
+      "Todo bien, gracias. ¿Y tú?",
+      "Bien, gracias. ¿Cómo te llamas?",
+      "Me llamo Lucía. ¡Encantada!",
+      "¡Encantado! Yo soy Marco.",
+      "¡Nos vemos!"
     ]
   },
   "vocabulary": [
     {
-      "term": "Buongiorno!",
-      "es": "¡Buenos días!"
+      "term": "Ciao, come stai?",
+      "es": "Hola, ¿cómo estás?"
+    },
+    {
+      "term": "Mi chiamo...",
+      "es": "Me llamo..."
     },
     {
       "term": "Come ti chiami?",
       "es": "¿Cómo te llamas?"
     },
     {
-      "term": "Piacere di conoscerti.",
-      "es": "Encantado/a de conocerte."
+      "term": "Piacere!",
+      "es": "¡Encantado/a!"
     },
     {
       "term": "Grazie!",
       "es": "¡Gracias!"
     },
     {
-      "term": "Ci vediamo domani.",
-      "es": "Nos vemos mañana."
-    },
-    {
-      "term": "Tutto bene?",
-      "es": "¿Todo bien?"
+      "term": "Ci vediamo!",
+      "es": "¡Nos vemos!"
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 1. Presentarse en Italiano.",
+      "text": "Lección 1. Presentarse y preguntar por el nombre.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
@@ -70,7 +66,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En un mercado animado de Cebú, donde los locales se saludan con familiaridad. Escucha la conversación.",
+      "text": "En una trattoria en Trastevere, un lugar perfecto para conocer a los romanos. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
@@ -79,79 +75,61 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Buenos días!",
+      "translation_es": "Hola, ¿cómo estás?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Buongiorno! Come ti chiami?",
+      "text": "Tutto bene, grazie. E tu?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Buenos días! ¿Cómo te llamas?",
+      "translation_es": "Todo bien, gracias. ¿Y tú?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mi chiamo Carlo. E tu?",
+      "text": "Bene, grazie. Come ti chiami?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Me llamo Carlo. ¿Y tú?",
+      "translation_es": "Bien, gracias. ¿Cómo te llamas?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Mi chiamo Maria. Piacere di conoscerti.",
+      "text": "Mi chiamo Lucia. Piacere!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Me llamo María. Encantada de conocerte.",
+      "translation_es": "Me llamo Lucía. ¡Encantada!",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Piacere! Tutto bene?",
+      "text": "Piacere! Io sono Marco.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Encantado! ¿Todo bien?",
+      "translation_es": "¡Encantado! Yo soy Marco.",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Sì, grazie! E tu?",
+      "text": "Ci vediamo!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Sí, gracias! ¿Y tú?",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene, grazie. Ci vediamo domani.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Todo bien, gracias. Nos vemos mañana.",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ci vediamo, ciao!",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Nos vemos, ¡chao!",
+      "translation_es": "¡Nos vemos!",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprender a saludar y presentarse Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Aprender a saludar y presentarse en italiano Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -160,7 +138,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¡Buenos días». Escucha y repite.",
+      "text": "«Hola, ¿cómo estás?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -169,79 +147,61 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "no",
+      "text": "stai",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "buongiorno"
+      "item": "ciao-come-stai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "orno",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "buongiorno"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ngiorno",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "buongiorno"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ongiorno",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "buongiorno"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Buongiorno",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "buongiorno"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "come stai",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "",
+      "item": "ciao-come-stai"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao come stai",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "saludo formal por la mañana",
+      "text": "saludo informal",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -250,7 +210,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¡Buenos días»?",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -259,16 +219,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¡Buenos días».",
+      "text": "Otra vez. «Hola, ¿cómo estás?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -277,16 +237,133 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«¿Cómo te llamas?». Literalmente, ¿Cómo te llamas?. Escucha y repite.",
+      "text": "«Me llamo». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "amo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "chiamo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "presentarse",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Me llamo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Cómo te llamas?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -367,7 +444,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta para conocer el nombre",
+      "text": "preguntar nombre",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -412,7 +489,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Encantado/a de conocerte». Literalmente, Placer de conocerte.. Escucha y repite.",
+      "text": "«¡Encantado/a». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -421,16 +498,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Piacere di conoscerti.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "ti",
+      "text": "re",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
@@ -439,7 +516,7 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "certi",
+      "text": "cere",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
@@ -448,7 +525,7 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "noscerti",
+      "text": "acere",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
@@ -457,43 +534,34 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "di conoscerti",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "piacere"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "piacere"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
-      "item": "piacere"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti.",
+      "text": "Piacere",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "",
+      "item": "piacere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "expresión de cortesía al conocer a alguien",
+      "text": "cortesía al conocer a alguien",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -502,7 +570,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Encantado/a de conocerte»?",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -511,16 +579,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Piacere di conoscerti.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Encantado/a de conocerte».",
+      "text": "Otra vez. «¡Encantado/a».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -529,11 +597,38 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Piacere di conoscerti.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
@@ -592,7 +687,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "expresión de agradecimiento",
+      "text": "agradecimiento",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -637,11 +732,326 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "«¡Nos vemos». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Nos vemos!",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "amo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "diamo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "vediamo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Nos vemos!",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡Nos vemos!",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "despedida informal",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Nos vemos»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Nos vemos!",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¡Nos vemos».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ci vediamo!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Nos vemos!",
+      "item": "ci-vediamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "Un momento. Volvamos atrás.",
       "kind": "instruction",
       "pause": 0.4,
       "translation_es": "",
       "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Piacere!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso del 'tu' en italiano.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, se usa 'tu' para dirigirse a amigos, familiares y personas de confianza. Con desconocidos o en situaciones formales, se utiliza 'Lei'.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¡De nada».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Prego!",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¡De nada!",
+      "item": "prego"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tutto bene?",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "¿Todo bien?",
+      "item": "tutto-bene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Todo bien?».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Tutto bene?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Todo bien?",
+      "item": "tutto-bene"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una trattoria y quieres saber cómo se llama la persona que acabas de conocer.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Come ti chiami?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "come-ti-chiami"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Hola, ¿cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
@@ -664,97 +1074,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Nos vemos mañana». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ni",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "mani",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "domani",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "vediamo domani",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "expresión para despedirse",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Nos vemos mañana»?",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -763,151 +1083,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ci vediamo domani.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
+      "translation_es": "¡Encantado/a!",
+      "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Nos vemos mañana».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«¿Todo bien?». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ne",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "bene",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "pregunta informal sobre el estado de alguien",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Todo bien?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Todo bien?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Un momento. Volvamos atrás.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «¡Gracias».",
+      "text": "Di: «¡Gracias».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -925,115 +1110,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Uso de 'tu' y 'Lei'.",
-      "kind": "explanation",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "En italiano, se usa 'tu' para dirigirse a amigos, familiares o personas de confianza, mientras que 'Lei' se utiliza en contextos más formales o con personas mayores. Es importante elegir el tratamiento adecuado según la situación.",
-      "kind": "explanation",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Come ti chiami?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "come-ti-chiami"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
-      "item": "piacere"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
-      "kind": "instruction",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Mi chiamo Maria.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Me llamo María.",
-      "item": "mi-chiamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Me llamo María».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Mi chiamo Maria.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Me llamo María.",
-      "item": "mi-chiamo"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Prego.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "De nada.",
-      "item": "prego"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«De nada».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Prego.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "De nada.",
-      "item": "prego"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
-      "kind": "instruction",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Estás en un mercado y quieres saber el nombre de alguien.",
+      "text": "Otra vez. «¡Nos vemos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1042,146 +1119,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Come ti chiami?",
+      "text": "Ci vediamo!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "come-ti-chiami"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Alguien te da las gracias y quieres responder.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Prego.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "De nada.",
-      "item": "prego"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Repaso final. Todo lo de hoy.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¡Buenos días».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Buongiorno!",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Cómo te llamas?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Come ti chiami?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cómo te llamas?",
-      "item": "come-ti-chiami"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «Encantado/a de conocerte».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
-      "item": "piacere"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¡Gracias»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Grazie!",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¡Gracias!",
-      "item": "grazie"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Nos vemos mañana».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
+      "translation_es": "¡Nos vemos!",
       "item": "ci-vediamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Todo bien?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
     },
     {
       "role": "narrator",
@@ -1204,7 +1146,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¡Buenos días».",
+      "text": "Di: «Hola, ¿cómo estás?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1213,16 +1155,34 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Cómo te llamas?».",
+      "text": "Otra vez. «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cómo te llamas?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1240,7 +1200,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «Encantado/a de conocerte».",
+      "text": "¿Cómo se dice «¡Encantado/a»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1249,16 +1209,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Piacere di conoscerti.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¡Gracias»?",
+      "text": "Di: «¡Gracias».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1276,7 +1236,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Nos vemos mañana».",
+      "text": "Otra vez. «¡Nos vemos».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1285,29 +1245,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ci vediamo domani.",
+      "text": "Ci vediamo!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
+      "translation_es": "¡Nos vemos!",
       "item": "ci-vediamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Todo bien?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Todo bien?",
-      "item": "tutto-bene"
     },
     {
       "role": "narrator",
@@ -1321,73 +1263,55 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Buenos días!",
+      "translation_es": "Hola, ¿cómo estás?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Buongiorno! Come ti chiami?",
+      "text": "Tutto bene, grazie. E tu?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Buenos días! ¿Cómo te llamas?",
+      "translation_es": "Todo bien, gracias. ¿Y tú?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mi chiamo Carlo. E tu?",
+      "text": "Bene, grazie. Come ti chiami?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Me llamo Carlo. ¿Y tú?",
+      "translation_es": "Bien, gracias. ¿Cómo te llamas?",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Mi chiamo Maria. Piacere di conoscerti.",
+      "text": "Mi chiamo Lucia. Piacere!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Me llamo María. Encantada de conocerte.",
+      "translation_es": "Me llamo Lucía. ¡Encantada!",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Piacere! Tutto bene?",
+      "text": "Piacere! Io sono Marco.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Encantado! ¿Todo bien?",
+      "translation_es": "¡Encantado! Yo soy Marco.",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Sì, grazie! E tu?",
+      "text": "Ci vediamo!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Sí, gracias! ¿Y tú?",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tutto bene, grazie. Ci vediamo domani.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Todo bien, gracias. Nos vemos mañana.",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ci vediamo, ciao!",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Nos vemos, ¡chao!",
+      "translation_es": "¡Nos vemos!",
       "item": null
     },
     {
@@ -1403,9 +1327,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 10.3,
-    "chars": 3522,
-    "cues": 149,
+    "minutes_estimated": 9.1,
+    "chars": 2911,
+    "cues": 141,
     "mode": "lesson",
     "lesson": 1
   }

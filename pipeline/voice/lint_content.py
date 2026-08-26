@@ -19,6 +19,7 @@ def main():
     course = load_json(cdir / "course.json", {}); lang = course.get("language", {}).get("name", "idioma")
     items = load_json(content / "items.json"); scenes = load_json(content / "scenes.json")["scenes"]
     problems = []; fixed = 0
+    forbidden = [w.lower() for w in course.get("method_config", {}).get("forbidden", [])]
     seen_tl = {}
     for it in items["items"]:
         iid = it.get("id", "?")
@@ -29,6 +30,9 @@ def main():
         if key in seen_tl and seen_tl[key] != iid: problems.append(f"item {iid}: duplicado de {seen_tl[key]} ('{it['tl']}')")
         seen_tl.setdefault(key, iid)
         if ENGLISH.search(it.get("tl", "")): problems.append(f"item {iid}: parece inglés en tl: '{it['tl']}'")
+        blob = f"{it.get('tl','')} {it.get('es','')} {it.get('note','')}".lower()
+        for w in forbidden:
+            if w in blob: problems.append(f"item {iid}: palabra prohibida en este curso: '{w}' ({it.get('tl')})")
         note = it.get("note", "")
         # nota con frase objetivo tras dos puntos: "…: Ingat po kayo." -> variant
         m = re.search(r"^(.*?)(?:[:：]|=)\s*([A-ZÑ][^.!?]{2,60}[.!?]?)\s*$", note)
@@ -47,6 +51,8 @@ def main():
             if l["role"] not in roles: roles.append(l["role"])
         if len(roles) > 2: problems.append(f"escena {sid}: {len(roles)} personajes ({roles})")
         if not sc.get("setting"): problems.append(f"escena {sid}: sin setting")
+        for w in forbidden:
+            if w in json.dumps(sc, ensure_ascii=False).lower(): problems.append(f"escena {sid}: palabra prohibida '{w}'")
     for rp in sorted((content / "recipes").glob("lesson-*.json")):
         r = load_json(rp)
         for k in ("teach", "listen", "recall_prev"):

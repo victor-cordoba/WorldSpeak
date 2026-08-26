@@ -2,19 +2,20 @@
   "id": "lesson-02",
   "lesson": 2,
   "title": "Parli spagnolo?",
-  "subtitle": "Aprender a preguntar si alguien habla español y entender respuestas básicas.",
-  "summary_es": "Preguntar si alguien habla español y responder.",
+  "subtitle": "Aprender a preguntar si alguien habla español o inglés.",
+  "summary_es": "Aprender a preguntar y entender en una conversación básica.",
   "topics": [
     "preguntar",
     "entender",
     "negación",
-    "afirmación"
+    "presente",
+    "interrogativo"
   ],
   "teach": [
     "parli-spagnolo",
+    "parli-inglese",
     "puoi-ripetere",
     "non-lo-so",
-    "va-bene",
     "un-po"
   ],
   "listen": [
@@ -24,15 +25,15 @@
     "no"
   ],
   "recall_prev": [
-    "buongiorno",
-    "come-ti-chiami",
+    "ciao-come-stai",
     "mi-chiamo",
+    "come-ti-chiami",
     "grazie",
     "prego"
   ],
   "grammar_pill": {
     "title": "Negación con 'non'",
-    "text": "En italiano, para negar una frase se usa 'non' antes del verbo. Es similar a 'no' en español, pero siempre precede al verbo.",
+    "text": "En italiano, para negar una afirmación se utiliza 'non' antes del verbo. Es sencillo y directo.",
     "examples": [
       "non-capisco",
       "non-lo-so"
@@ -40,16 +41,12 @@
   },
   "guided": [
     {
-      "prompt": "Pregúntale a alguien si habla español.",
-      "item": "parli-spagnolo"
+      "prompt": "Pregúntale a alguien si habla inglés.",
+      "item": "parli-inglese"
     },
     {
-      "prompt": "Responde que entiendes un poco.",
+      "prompt": "Responde que entiendes solo un poco.",
       "item": "un-po"
-    },
-    {
-      "prompt": "Indica que no entiendes.",
-      "item": "non-capisco"
     }
   ],
   "scene": "lesson-02",

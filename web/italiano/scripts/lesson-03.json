@@ -1,61 +1,58 @@
 {
-  "title": "Presentarse y conocer a alguien",
-  "subtitle": "Aprenderás a preguntar y responder sobre la residencia y la edad.",
-  "summary_es": "Presentarte y conocer a alguien.",
+  "title": "Conociendo a alguien",
+  "subtitle": "Aprender a preguntar y responder sobre uno mismo",
+  "summary_es": "Preguntar y responder sobre residencia y gustos",
   "topics": [
+    "preguntar",
     "presentarse",
-    "interrogativos",
-    "posesivos",
-    "verbo essere",
-    "verbo avere"
+    "casa",
+    "entender"
   ],
   "dialogue": {
     "tl": [
-      "Ciao! Come ti chiami?",
+      "Ciao, come ti chiami?",
       "Mi chiamo Luca. E tu?",
-      "Sono Paolo. Sei di qui?",
-      "No, sono di Tondo. Vivo a Cebu.",
-      "Quanti anni hai?",
-      "Ho venti anni. E tu?",
-      "Ho dieci anni. Questa è casa mia."
+      "Io sono Anna. Abiti a Roma?",
+      "Sì, abito a Roma. Questa è casa mia.",
+      "Ti piace Roma?",
+      "Mi piace molto!"
     ],
     "es": [
-      "¡Hola! ¿Cómo te llamas?",
+      "Hola, ¿cómo te llamas?",
       "Me llamo Luca. ¿Y tú?",
-      "Soy Paolo. ¿Eres de aquí?",
-      "No, soy de Tondo. Vivo en Cebú.",
-      "¿Cuántos años tienes?",
-      "Tengo veinte años. ¿Y tú?",
-      "Tengo diez años. Esta es mi casa."
+      "Yo soy Anna. ¿Vives en Roma?",
+      "Sí, vivo en Roma. Esta es mi casa.",
+      "¿Te gusta Roma?",
+      "¡Me gusta mucho!"
     ]
   },
   "vocabulary": [
     {
-      "term": "Dove vivi?",
+      "term": "Dove abiti?",
       "es": "¿Dónde vives?"
+    },
+    {
+      "term": "Questa è casa mia",
+      "es": "Esta es mi casa"
     },
     {
       "term": "Quanti anni hai?",
       "es": "¿Cuántos años tienes?"
     },
     {
-      "term": "Questa è casa mia.",
-      "es": "Esta es mi casa."
+      "term": "Ti piace Roma?",
+      "es": "¿Te gusta Roma?"
     },
     {
-      "term": "Sei di qui?",
-      "es": "¿Eres de aquí?"
-    },
-    {
-      "term": "Mi piacerebbe visitare.",
-      "es": "Me gustaría visitar."
+      "term": "Abito a Roma",
+      "es": "Vivo en Roma"
     }
   ],
   "cues": [
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 3. Presentarse y conocer a alguien.",
+      "text": "Lección 3. Conociendo a alguien.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
@@ -64,19 +61,19 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En una plaza de Cebú, un niño local se encuentra con un visitante. Escucha la conversación.",
+      "text": "En una trattoria en Trastevere, dos jóvenes se conocen. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
       "item": null
     },
     {
-      "role": "kid_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "Ciao! Come ti chiami?",
+      "text": "Ciao, come ti chiami?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Hola! ¿Cómo te llamas?",
+      "translation_es": "Hola, ¿cómo te llamas?",
       "item": null
     },
     {
@@ -89,54 +86,45 @@
       "item": null
     },
     {
-      "role": "kid_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "Sono Paolo. Sei di qui?",
+      "text": "Io sono Anna. Abiti a Roma?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Soy Paolo. ¿Eres de aquí?",
+      "translation_es": "Yo soy Anna. ¿Vives en Roma?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "No, sono di Tondo. Vivo a Cebu.",
+      "text": "Sì, abito a Roma. Questa è casa mia.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No, soy de Tondo. Vivo en Cebú.",
+      "translation_es": "Sí, vivo en Roma. Esta es mi casa.",
       "item": null
     },
     {
-      "role": "kid_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "Quanti anni hai?",
+      "text": "Ti piace Roma?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Cuántos años tienes?",
+      "translation_es": "¿Te gusta Roma?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ho venti anni. E tu?",
+      "text": "Mi piace molto!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Tengo veinte años. ¿Y tú?",
-      "item": null
-    },
-    {
-      "role": "kid_m",
-      "lang": "tl",
-      "text": "Ho dieci anni. Questa è casa mia.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Tengo diez años. Esta es mi casa.",
+      "translation_es": "¡Me gusta mucho!",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprenderás a preguntar y responder sobre la residencia y la edad. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Aprender a preguntar y responder sobre uno mismo Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -150,6 +138,42 @@
       "pause": 0.5,
       "translation_es": "",
       "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
@@ -172,7 +196,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Me llamo María».",
+      "text": "Di: «¡Encantado/a».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -181,70 +205,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mi chiamo Maria.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Me llamo María.",
-      "item": "mi-chiamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Encantado/a de conocerte»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Hablas español?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Parli spagnolo?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Hablas español?",
-      "item": "parli-spagnolo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Un poco»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Un po'.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Un poco.",
-      "item": "un-po"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¡Gracias».",
+      "text": "¿Cómo se dice «¡Gracias»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -262,25 +232,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Nos vemos mañana»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«¿Dónde vives?». Escucha y repite.",
+      "text": "«¿Dónde vives?». Literalmente, ¿Dónde habitas?. Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -289,56 +241,65 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi?",
+      "text": "Dove abiti?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "vi",
+      "text": "ti",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "vivi",
+      "text": "biti",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi",
+      "text": "abiti",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi?",
+      "text": "Dove abiti?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi?",
+      "text": "Dove abiti?",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "narrator",
@@ -361,11 +322,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi?",
+      "text": "Dove abiti?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "narrator",
@@ -379,11 +340,128 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi?",
+      "text": "Dove abiti?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Esta es mi casa». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "útil al mostrar tu hogar",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Esta es mi casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Esta es mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
     },
     {
       "role": "narrator",
@@ -451,7 +529,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "pregunta para conocer la edad",
+      "text": "pregunta común para conocer la edad",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -496,7 +574,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Esta es mi casa». Escucha y repite.",
+      "text": "«¿Te gusta Roma?». Escucha y repite.",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
@@ -505,70 +583,70 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Questa è casa mia.",
+      "text": "Ti piace Roma?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Esta es mi casa.",
-      "item": "questa-e-casa-mia"
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "mia",
+      "text": "ma",
       "kind": "phrase",
       "pause": 1.2,
       "translation_es": "",
-      "item": "questa-e-casa-mia"
+      "item": "ti-piace-roma"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "casa mia",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "questa-e-casa-mia"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "è casa mia",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "questa-e-casa-mia"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Questa è casa mia",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "questa-e-casa-mia"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Questa è casa mia.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Esta es mi casa.",
-      "item": "questa-e-casa-mia"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Questa è casa mia.",
+      "text": "Roma",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Esta es mi casa.",
-      "item": "questa-e-casa-mia"
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "piace Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "para mostrar o indicar propiedad",
+      "text": "pregunta sobre preferencias",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -577,7 +655,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «Esta es mi casa»?",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -586,11 +664,425 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Questa è casa mia.",
+      "text": "Ti piace Roma?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Esta es mi casa.",
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Te gusta Roma?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Esta es mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
       "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vivo en Roma». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "respuesta típica sobre lugar de residencia",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Vivo en Roma»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Vivo en Roma».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta sorpresa, de una lección anterior.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Hola, ¿cómo estás?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Uso de artículos y posesivos.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En italiano, los artículos definidos e indefinidos se usan para indicar posesión y definir sustantivos. 'Il mio' y 'la mia' son formas comunes para 'mi' en masculino y femenino.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Vivo en Roma».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Abito a Roma",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho venti anni",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Tengo veinte años",
+      "item": "ho-venti-anni"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Tengo veinte años».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ho venti anni",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Tengo veinte años",
+      "item": "ho-venti-anni"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mi piace molto",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Me gusta mucho",
+      "item": "mi-piace-molto"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Me gusta mucho».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mi piace molto",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "Me gusta mucho",
+      "item": "mi-piace-molto"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non mi piace",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No me gusta",
+      "item": "non-mi-piace"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No me gusta».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Non mi piace",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "No me gusta",
+      "item": "non-mi-piace"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Estás en una fiesta y quieres saber dónde vive alguien.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Alguien te pregunta si te gusta la ciudad donde vives.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ti piace Roma?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dove abiti?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "dove-abiti"
     },
     {
       "role": "narrator",
@@ -604,128 +1096,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Questa è casa mia.",
+      "text": "Questa è casa mia",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Esta es mi casa.",
+      "translation_es": "Esta es mi casa",
       "item": "questa-e-casa-mia"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«¿Eres de aquí?». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "qui",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "di qui",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "pregunta para conocer origen",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Eres de aquí?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Eres de aquí?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Un momento. Volvamos atrás.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
     },
     {
       "role": "narrator",
@@ -748,97 +1123,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "«Me gustaría visitar». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "re",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "tare",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "sitare",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "piacerebbe visitare",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi piacerebbe visitare",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "expresión de deseo",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Me gustaría visitar»?",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -847,16 +1132,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
+      "text": "Ti piace Roma?",
       "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «Me gustaría visitar».",
+      "text": "Di: «Vivo en Roma».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -865,344 +1150,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Pregunta sorpresa, de una lección anterior.",
-      "kind": "instruction",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «¡Buenos días».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Abito a Roma",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Uso de 'essere' y 'avere'.",
-      "kind": "explanation",
-      "pause": 0.4,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "En italiano, 'essere' se usa para indicar origen y estado, mientras que 'avere' se usa para la edad y posesiones.",
-      "kind": "explanation",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Quanti anni hai?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cuántos años tienes?",
-      "item": "quanti-anni-hai"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Ahora, a entender. Vas a oír respuestas típicas, con otra voz. Escucha, y piensa qué significan. Luego te lo digo.",
-      "kind": "instruction",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Vivo a Cebu.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Vivo en Cebú.",
-      "item": "vivo-a-cebu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Vivo en Cebú».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Vivo a Cebu.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Vivo en Cebú.",
-      "item": "vivo-a-cebu"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ho venti anni.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Tengo veinte años.",
-      "item": "ho-venti-anni"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Tengo veinte años».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Ho venti anni.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Tengo veinte años.",
-      "item": "ho-venti-anni"
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Sono di Tondo.",
-      "kind": "phrase",
-      "pause": 2.0,
-      "translation_es": "Soy de Tondo.",
-      "item": "sono-di-tondo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Soy de Tondo».",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
-      "text": "Sono di Tondo.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Soy de Tondo.",
-      "item": "sono-di-tondo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
-      "kind": "instruction",
-      "pause": 0.6,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Pregúntale a alguien dónde vive.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Dove vivi?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Responde que vives en Cebú.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Vivo a Cebu.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Vivo en Cebú.",
-      "item": "vivo-a-cebu"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Pregúntale a alguien cuántos años tiene.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Quanti anni hai?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cuántos años tienes?",
-      "item": "quanti-anni-hai"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Responde que tienes veinte años.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ho venti anni.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Tengo veinte años.",
-      "item": "ho-venti-anni"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Repaso final. Todo lo de hoy.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¿Dónde vives?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Dove vivi?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «¿Cuántos años tienes?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Quanti anni hai?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cuántos años tienes?",
-      "item": "quanti-anni-hai"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Y ahora, «Esta es mi casa».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Questa è casa mia.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Esta es mi casa.",
-      "item": "questa-e-casa-mia"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Eres de aquí?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Sei di qui?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Me gustaría visitar».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
     },
     {
       "role": "narrator",
@@ -1225,6 +1177,42 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ciao, come stai?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¿Cómo te llamas?»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1243,7 +1231,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «Me llamo María».",
+      "text": "Di: «¡Encantado/a».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1252,70 +1240,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Mi chiamo Maria.",
+      "text": "Piacere!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Me llamo María.",
-      "item": "mi-chiamo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Encantado/a de conocerte»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Piacere di conoscerti.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Encantado/a de conocerte.",
+      "translation_es": "¡Encantado/a!",
       "item": "piacere"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Hablas español?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Parli spagnolo?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Hablas español?",
-      "item": "parli-spagnolo"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Un poco»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Un po'.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Un poco.",
-      "item": "un-po"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¡Gracias».",
+      "text": "¿Cómo se dice «¡Gracias»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1329,24 +1263,6 @@
       "pause": 2.5,
       "translation_es": "¡Gracias!",
       "item": "grazie"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Nos vemos mañana»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Ci vediamo domani.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Nos vemos mañana.",
-      "item": "ci-vediamo"
     },
     {
       "role": "narrator",
@@ -1369,16 +1285,34 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Dove vivi?",
+      "text": "Dove abiti?",
       "kind": "phrase",
       "pause": 2.5,
       "translation_es": "¿Dónde vives?",
-      "item": "dove-vivi"
+      "item": "dove-abiti"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Cuántos años tienes?».",
+      "text": "Otra vez. «Esta es mi casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Questa è casa mia",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Esta es mi casa",
+      "item": "questa-e-casa-mia"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Cuántos años tienes?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1396,7 +1330,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «Esta es mi casa».",
+      "text": "¿Cómo se dice «¿Te gusta Roma?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1405,16 +1339,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Questa è casa mia.",
+      "text": "Ti piace Roma?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Esta es mi casa.",
-      "item": "questa-e-casa-mia"
+      "translation_es": "¿Te gusta Roma?",
+      "item": "ti-piace-roma"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¿Eres de aquí?»?",
+      "text": "Di: «Vivo en Roma».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1423,29 +1357,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Sei di qui?",
+      "text": "Abito a Roma",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Eres de aquí?",
-      "item": "sei-di-qui"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Me gustaría visitar».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi piacerebbe visitare.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Me gustaría visitar.",
-      "item": "mi-piacerebbe-visitare"
+      "translation_es": "Vivo en Roma",
+      "item": "abito-a-roma"
     },
     {
       "role": "narrator",
@@ -1457,12 +1373,12 @@
       "item": null
     },
     {
-      "role": "kid_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "Ciao! Come ti chiami?",
+      "text": "Ciao, come ti chiami?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¡Hola! ¿Cómo te llamas?",
+      "translation_es": "Hola, ¿cómo te llamas?",
       "item": null
     },
     {
@@ -1475,48 +1391,39 @@
       "item": null
     },
     {
-      "role": "kid_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "Sono Paolo. Sei di qui?",
+      "text": "Io sono Anna. Abiti a Roma?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Soy Paolo. ¿Eres de aquí?",
+      "translation_es": "Yo soy Anna. ¿Vives en Roma?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "No, sono di Tondo. Vivo a Cebu.",
+      "text": "Sì, abito a Roma. Questa è casa mia.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No, soy de Tondo. Vivo en Cebú.",
+      "translation_es": "Sí, vivo en Roma. Esta es mi casa.",
       "item": null
     },
     {
-      "role": "kid_m",
+      "role": "native_f",
       "lang": "tl",
-      "text": "Quanti anni hai?",
+      "text": "Ti piace Roma?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Cuántos años tienes?",
+      "translation_es": "¿Te gusta Roma?",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Ho venti anni. E tu?",
+      "text": "Mi piace molto!",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Tengo veinte años. ¿Y tú?",
-      "item": null
-    },
-    {
-      "role": "kid_m",
-      "lang": "tl",
-      "text": "Ho dieci anni. Questa è casa mia.",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "Tengo diez años. Esta es mi casa.",
+      "translation_es": "¡Me gusta mucho!",
       "item": null
     },
     {
@@ -1532,9 +1439,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 12.0,
-    "chars": 3840,
-    "cues": 164,
+    "minutes_estimated": 10.9,
+    "chars": 3546,
+    "cues": 154,
     "mode": "lesson",
     "lesson": 3
   }

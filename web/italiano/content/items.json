@@ -1,14 +1,27 @@
 {
   "items": [
     {
-      "id": "buongiorno",
-      "tl": "Buongiorno!",
-      "es": "¡Buenos días!",
+      "id": "ciao-come-stai",
+      "tl": "Ciao, come stai?",
+      "es": "Hola, ¿cómo estás?",
       "lit": "",
-      "note": "saludo formal por la mañana",
-      "pill": "cortesia",
+      "note": "saludo informal",
+      "pill": "preguntar",
       "tags": [
-        "saludo"
+        "saludo",
+        "informal"
+      ],
+      "lesson": 1
+    },
+    {
+      "id": "mi-chiamo",
+      "tl": "Mi chiamo...",
+      "es": "Me llamo...",
+      "lit": "",
+      "note": "presentarse",
+      "pill": "presentarse",
+      "tags": [
+        "presentación"
       ],
       "lesson": 1
     },
@@ -16,36 +29,25 @@
       "id": "come-ti-chiami",
       "tl": "Come ti chiami?",
       "es": "¿Cómo te llamas?",
-      "lit": "¿Cómo te llamas?",
-      "note": "pregunta para conocer el nombre",
-      "pill": "presentarse",
-      "tags": [
-        "pregunta"
-      ],
-      "lesson": 1
-    },
-    {
-      "id": "mi-chiamo",
-      "tl": "Mi chiamo Maria.",
-      "es": "Me llamo María.",
       "lit": "",
-      "note": "respuesta típica a 'Come ti chiami?'",
-      "pill": "presentarse",
+      "note": "preguntar nombre",
+      "pill": "preguntar",
       "tags": [
-        "respuesta"
+        "pregunta",
+        "nombre"
       ],
-      "answer": true,
       "lesson": 1
     },
     {
       "id": "piacere",
-      "tl": "Piacere di conoscerti.",
-      "es": "Encantado/a de conocerte.",
-      "lit": "Placer de conocerte.",
-      "note": "expresión de cortesía al conocer a alguien",
+      "tl": "Piacere!",
+      "es": "¡Encantado/a!",
+      "lit": "",
+      "note": "cortesía al conocer a alguien",
       "pill": "cortesia",
       "tags": [
-        "cortesia"
+        "cortesía",
+        "presentación"
       ],
       "lesson": 1
     },
@@ -54,7 +56,7 @@
       "tl": "Grazie!",
       "es": "¡Gracias!",
       "lit": "",
-      "note": "expresión de agradecimiento",
+      "note": "agradecimiento",
       "pill": "cortesia",
       "tags": [
         "agradecimiento"
@@ -63,26 +65,28 @@
     },
     {
       "id": "prego",
-      "tl": "Prego.",
-      "es": "De nada.",
+      "tl": "Prego!",
+      "es": "¡De nada!",
       "lit": "",
-      "note": "respuesta a 'Grazie'",
+      "note": "respuesta a gracias",
       "pill": "cortesia",
       "tags": [
-        "respuesta"
+        "respuesta",
+        "agradecimiento"
       ],
       "answer": true,
       "lesson": 1
     },
     {
       "id": "ci-vediamo",
-      "tl": "Ci vediamo domani.",
-      "es": "Nos vemos mañana.",
+      "tl": "Ci vediamo!",
+      "es": "¡Nos vemos!",
       "lit": "",
-      "note": "expresión para despedirse",
+      "note": "despedida informal",
       "pill": "cortesia",
       "tags": [
-        "despedida"
+        "despedida",
+        "informal"
       ],
       "lesson": 1
     },
@@ -91,11 +95,13 @@
       "tl": "Tutto bene?",
       "es": "¿Todo bien?",
       "lit": "",
-      "note": "pregunta informal sobre el estado de alguien",
+      "note": "pregunta informal sobre el estado",
       "pill": "preguntar",
       "tags": [
-        "pregunta"
+        "pregunta",
+        "estado"
       ],
+      "answer": true,
       "lesson": 1
     },
     {
@@ -103,7 +109,20 @@
       "tl": "Parli spagnolo?",
       "es": "¿Hablas español?",
       "lit": "",
-      "note": "Útil para saber si alguien entiende español",
+      "note": "pregunta básica para iniciar una conversación",
+      "pill": "preguntar",
+      "tags": [
+        "presente",
+        "interrogativo"
+      ],
+      "lesson": 2
+    },
+    {
+      "id": "parli-inglese",
+      "tl": "Parli inglese?",
+      "es": "¿Hablas inglés?",
+      "lit": "",
+      "note": "pregunta alternativa si no se habla español",
       "pill": "preguntar",
       "tags": [
         "presente",
@@ -113,10 +132,10 @@
     },
     {
       "id": "un-po",
-      "tl": "Un po'.",
-      "es": "Un poco.",
+      "tl": "Un po'",
+      "es": "Un poco",
       "lit": "",
-      "note": "Para indicar que se entiende un poco",
+      "note": "respuesta común cuando se entiende solo un poco",
       "pill": "entender",
       "tags": [
         "adverbio"
@@ -125,10 +144,10 @@
     },
     {
       "id": "non-capisco",
-      "tl": "Non capisco.",
-      "es": "No entiendo.",
+      "tl": "Non capisco",
+      "es": "No entiendo",
       "lit": "",
-      "note": "Para indicar que no se entiende algo",
+      "note": "para indicar que no se ha comprendido",
       "pill": "entender",
       "tags": [
         "negación",
@@ -142,7 +161,7 @@
       "tl": "Puoi ripetere?",
       "es": "¿Puedes repetir?",
       "lit": "",
-      "note": "Útil para pedir que repitan algo",
+      "note": "útil para pedir que se repita algo",
       "pill": "entender",
       "tags": [
         "presente",
@@ -152,10 +171,10 @@
     },
     {
       "id": "si",
-      "tl": "Sì.",
-      "es": "Sí.",
+      "tl": "Sì",
+      "es": "Sí",
       "lit": "",
-      "note": "Respuesta afirmativa",
+      "note": "respuesta afirmativa",
       "pill": "entender",
       "tags": [
         "afirmación"
@@ -165,10 +184,10 @@
     },
     {
       "id": "no",
-      "tl": "No.",
-      "es": "No.",
+      "tl": "No",
+      "es": "No",
       "lit": "",
-      "note": "Respuesta negativa",
+      "note": "respuesta negativa",
       "pill": "entender",
       "tags": [
         "negación"
@@ -178,10 +197,10 @@
     },
     {
       "id": "non-lo-so",
-      "tl": "Non lo so.",
-      "es": "No lo sé.",
+      "tl": "Non lo so",
+      "es": "No lo sé",
       "lit": "",
-      "note": "Para indicar desconocimiento",
+      "note": "cuando no se tiene la información",
       "pill": "entender",
       "tags": [
         "negación",
@@ -190,41 +209,39 @@
       "lesson": 2
     },
     {
-      "id": "va-bene",
-      "tl": "Va bene.",
-      "es": "Está bien.",
-      "lit": "",
-      "note": "Para aceptar o confirmar algo",
-      "pill": "entender",
-      "tags": [
-        "afirmación"
-      ],
-      "lesson": 2
-    },
-    {
-      "id": "dove-vivi",
-      "tl": "Dove vivi?",
+      "id": "dove-abiti",
+      "tl": "Dove abiti?",
       "es": "¿Dónde vives?",
-      "lit": "",
+      "lit": "¿Dónde habitas?",
       "note": "pregunta común para conocer a alguien",
-      "pill": "presentarse",
+      "pill": "preguntar",
       "tags": [
         "interrogativo"
       ],
       "lesson": 3
     },
     {
-      "id": "vivo-a-cebu",
-      "tl": "Vivo a Cebu.",
-      "es": "Vivo en Cebú.",
+      "id": "abito-a-roma",
+      "tl": "Abito a Roma",
+      "es": "Vivo en Roma",
       "lit": "",
-      "note": "respuesta para indicar lugar de residencia",
+      "note": "respuesta típica sobre lugar de residencia",
       "pill": "presentarse",
       "tags": [
-        "verbo",
-        "preposición"
+        "verbo"
       ],
-      "answer": true,
+      "lesson": 3
+    },
+    {
+      "id": "questa-e-casa-mia",
+      "tl": "Questa è casa mia",
+      "es": "Esta es mi casa",
+      "lit": "",
+      "note": "útil al mostrar tu hogar",
+      "pill": "casa",
+      "tags": [
+        "posesivo"
+      ],
       "lesson": 3
     },
     {
@@ -232,8 +249,8 @@
       "tl": "Quanti anni hai?",
       "es": "¿Cuántos años tienes?",
       "lit": "",
-      "note": "pregunta para conocer la edad",
-      "pill": "presentarse",
+      "note": "pregunta común para conocer la edad",
+      "pill": "preguntar",
       "tags": [
         "interrogativo"
       ],
@@ -241,10 +258,10 @@
     },
     {
       "id": "ho-venti-anni",
-      "tl": "Ho venti anni.",
-      "es": "Tengo veinte años.",
+      "tl": "Ho venti anni",
+      "es": "Tengo veinte años",
       "lit": "",
-      "note": "respuesta para indicar la edad",
+      "note": "respuesta típica sobre la edad",
       "pill": "presentarse",
       "tags": [
         "verbo"
@@ -253,54 +270,41 @@
       "lesson": 3
     },
     {
-      "id": "questa-e-casa-mia",
-      "tl": "Questa è casa mia.",
-      "es": "Esta es mi casa.",
+      "id": "ti-piace-roma",
+      "tl": "Ti piace Roma?",
+      "es": "¿Te gusta Roma?",
       "lit": "",
-      "note": "para mostrar o indicar propiedad",
-      "pill": "casa",
-      "tags": [
-        "demostrativo",
-        "posesivo"
-      ],
-      "lesson": 3
-    },
-    {
-      "id": "sei-di-qui",
-      "tl": "Sei di qui?",
-      "es": "¿Eres de aquí?",
-      "lit": "",
-      "note": "pregunta para conocer origen",
-      "pill": "presentarse",
+      "note": "pregunta sobre preferencias",
+      "pill": "preguntar",
       "tags": [
         "interrogativo"
       ],
       "lesson": 3
     },
     {
-      "id": "sono-di-tondo",
-      "tl": "Sono di Tondo.",
-      "es": "Soy de Tondo.",
+      "id": "mi-piace-molto",
+      "tl": "Mi piace molto",
+      "es": "Me gusta mucho",
       "lit": "",
-      "note": "respuesta para indicar origen",
-      "pill": "presentarse",
+      "note": "respuesta positiva sobre gustos",
+      "pill": "entender",
       "tags": [
-        "verbo",
-        "preposición"
+        "verbo"
       ],
       "answer": true,
       "lesson": 3
     },
     {
-      "id": "mi-piacerebbe-visitare",
-      "tl": "Mi piacerebbe visitare.",
-      "es": "Me gustaría visitar.",
+      "id": "non-mi-piace",
+      "tl": "Non mi piace",
+      "es": "No me gusta",
       "lit": "",
-      "note": "expresión de deseo",
-      "pill": "social",
+      "note": "respuesta negativa sobre gustos",
+      "pill": "entender",
       "tags": [
         "verbo"
       ],
+      "answer": true,
       "lesson": 3
     }
   ]

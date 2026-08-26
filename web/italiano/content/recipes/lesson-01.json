@@ -1,45 +1,41 @@
 {
   "id": "lesson-01",
   "lesson": 1,
-  "title": "Presentarse en Italiano",
-  "subtitle": "Aprender a saludar y presentarse",
-  "summary_es": "Cómo saludar y presentarse en italiano.",
+  "title": "Presentarse y preguntar por el nombre",
+  "subtitle": "Aprender a saludar y presentarse en italiano",
+  "summary_es": "Aprenderás a presentarte y preguntar el nombre en italiano.",
   "topics": [
     "saludo",
-    "presentarse",
-    "cortesia",
+    "presentación",
+    "cortesía",
     "pregunta",
-    "respuesta"
+    "despedida"
   ],
   "teach": [
-    "buongiorno",
+    "ciao-come-stai",
+    "mi-chiamo",
     "come-ti-chiami",
     "piacere",
     "grazie",
-    "ci-vediamo",
-    "tutto-bene"
+    "ci-vediamo"
   ],
   "listen": [
-    "mi-chiamo",
-    "prego"
+    "prego",
+    "tutto-bene"
   ],
   "recall_prev": [],
   "grammar_pill": {
-    "title": "Uso de 'tu' y 'Lei'",
-    "text": "En italiano, se usa 'tu' para dirigirse a amigos, familiares o personas de confianza, mientras que 'Lei' se utiliza en contextos más formales o con personas mayores. Es importante elegir el tratamiento adecuado según la situación.",
+    "title": "Uso del 'tu' en italiano",
+    "text": "En italiano, se usa 'tu' para dirigirse a amigos, familiares y personas de confianza. Con desconocidos o en situaciones formales, se utiliza 'Lei'.",
     "examples": [
-      "come-ti-chiami",
-      "piacere"
+      "ciao-come-stai",
+      "come-ti-chiami"
     ]
   },
   "guided": [
     {
-      "prompt": "Estás en un mercado y quieres saber el nombre de alguien.",
+      "prompt": "Estás en una trattoria y quieres saber cómo se llama la persona que acabas de conocer.",
       "item": "come-ti-chiami"
-    },
-    {
-      "prompt": "Alguien te da las gracias y quieres responder.",
-      "item": "prego"
     }
   ],
   "scene": "lesson-01",

@@ -1,59 +1,51 @@
 {
   "id": "lesson-03",
   "lesson": 3,
-  "title": "Presentarse y conocer a alguien",
-  "subtitle": "Aprenderás a preguntar y responder sobre la residencia y la edad.",
-  "summary_es": "Presentarte y conocer a alguien.",
+  "title": "Conociendo a alguien",
+  "subtitle": "Aprender a preguntar y responder sobre uno mismo",
+  "summary_es": "Preguntar y responder sobre residencia y gustos",
   "topics": [
+    "preguntar",
     "presentarse",
-    "interrogativos",
-    "posesivos",
-    "verbo essere",
-    "verbo avere"
+    "casa",
+    "entender"
   ],
   "teach": [
-    "dove-vivi",
-    "quanti-anni-hai",
+    "dove-abiti",
     "questa-e-casa-mia",
-    "sei-di-qui",
-    "mi-piacerebbe-visitare"
+    "quanti-anni-hai",
+    "ti-piace-roma",
+    "abito-a-roma"
   ],
   "listen": [
-    "vivo-a-cebu",
+    "abito-a-roma",
     "ho-venti-anni",
-    "sono-di-tondo"
+    "mi-piace-molto",
+    "non-mi-piace"
   ],
   "recall_prev": [
-    "come-ti-chiami",
+    "ciao-come-stai",
     "mi-chiamo",
+    "come-ti-chiami",
     "piacere",
-    "parli-spagnolo",
-    "un-po"
+    "grazie"
   ],
   "grammar_pill": {
-    "title": "Uso de 'essere' y 'avere'",
-    "text": "En italiano, 'essere' se usa para indicar origen y estado, mientras que 'avere' se usa para la edad y posesiones.",
+    "title": "Uso de artículos y posesivos",
+    "text": "En italiano, los artículos definidos e indefinidos se usan para indicar posesión y definir sustantivos. 'Il mio' y 'la mia' son formas comunes para 'mi' en masculino y femenino.",
     "examples": [
-      "sei-di-qui",
-      "quanti-anni-hai"
+      "questa-e-casa-mia",
+      "abito-a-roma"
     ]
   },
   "guided": [
     {
-      "prompt": "Pregúntale a alguien dónde vive.",
-      "item": "dove-vivi"
+      "prompt": "Estás en una fiesta y quieres saber dónde vive alguien.",
+      "item": "dove-abiti"
     },
     {
-      "prompt": "Responde que vives en Cebú.",
-      "item": "vivo-a-cebu"
-    },
-    {
-      "prompt": "Pregúntale a alguien cuántos años tiene.",
-      "item": "quanti-anni-hai"
-    },
-    {
-      "prompt": "Responde que tienes veinte años.",
-      "item": "ho-venti-anni"
+      "prompt": "Alguien te pregunta si te gusta la ciudad donde vives.",
+      "item": "ti-piace-roma"
     }
   ],
   "scene": "lesson-03",

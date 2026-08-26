@@ -1,29 +1,30 @@
 {
   "title": "Parli spagnolo?",
-  "subtitle": "Aprender a preguntar si alguien habla español y entender respuestas básicas.",
-  "summary_es": "Preguntar si alguien habla español y responder.",
+  "subtitle": "Aprender a preguntar si alguien habla español o inglés.",
+  "summary_es": "Aprender a preguntar y entender en una conversación básica.",
   "topics": [
     "preguntar",
     "entender",
     "negación",
-    "afirmación"
+    "presente",
+    "interrogativo"
   ],
   "dialogue": {
     "tl": [
-      "Buongiorno!",
       "Buongiorno! Parli spagnolo?",
       "Un po'.",
-      "Puoi ripetere?",
-      "Non capisco.",
-      "Va bene. Grazie!"
+      "Perfetto! Puoi ripetere il menu, per favore?",
+      "Certo! Allora, abbiamo pasta, pizza e insalate.",
+      "Grazie! Non capisco 'insalate'.",
+      "Insalate sono 'ensaladas'."
     ],
     "es": [
-      "¡Buenos días!",
       "¡Buenos días! ¿Hablas español?",
       "Un poco.",
-      "¿Puedes repetir?",
-      "No entiendo.",
-      "Está bien. ¡Gracias!"
+      "¡Perfecto! ¿Puedes repetir el menú, por favor?",
+      "¡Claro! Entonces, tenemos pasta, pizza y ensaladas.",
+      "¡Gracias! No entiendo 'ensaladas'.",
+      "Insalate son 'ensaladas'."
     ]
   },
   "vocabulary": [
@@ -32,20 +33,20 @@
       "es": "¿Hablas español?"
     },
     {
+      "term": "Parli inglese?",
+      "es": "¿Hablas inglés?"
+    },
+    {
       "term": "Puoi ripetere?",
       "es": "¿Puedes repetir?"
     },
     {
-      "term": "Non lo so.",
-      "es": "No lo sé."
+      "term": "Non lo so",
+      "es": "No lo sé"
     },
     {
-      "term": "Va bene.",
-      "es": "Está bien."
-    },
-    {
-      "term": "Un po'.",
-      "es": "Un poco."
+      "term": "Un po'",
+      "es": "Un poco"
     }
   ],
   "cues": [
@@ -61,7 +62,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En un mercado de Tondo, un turista intenta comunicarse con un vendedor local. Escucha la conversación.",
+      "text": "En una trattoria de Trastevere, un hispanohablante intenta comunicarse con el camarero. Escucha la conversación.",
       "kind": "instruction",
       "pause": 0.8,
       "translation_es": "",
@@ -70,15 +71,6 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "¡Buenos días!",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
       "text": "Buongiorno! Parli spagnolo?",
       "kind": "dialogue",
       "pause": 0.8,
@@ -86,7 +78,7 @@
       "item": null
     },
     {
-      "role": "native_m",
+      "role": "native_f",
       "lang": "tl",
       "text": "Un po'.",
       "kind": "dialogue",
@@ -95,36 +87,45 @@
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Puoi ripetere?",
+      "text": "Perfetto! Puoi ripetere il menu, per favore?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Puedes repetir?",
+      "translation_es": "¡Perfecto! ¿Puedes repetir el menú, por favor?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo! Allora, abbiamo pasta, pizza e insalate.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! Entonces, tenemos pasta, pizza y ensaladas.",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non capisco.",
+      "text": "Grazie! Non capisco 'insalate'.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No entiendo.",
+      "translation_es": "¡Gracias! No entiendo 'ensaladas'.",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Va bene. Grazie!",
+      "text": "Insalate sono 'ensaladas'.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Está bien. ¡Gracias!",
+      "translation_es": "Insalate son 'ensaladas'.",
       "item": null
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprender a preguntar si alguien habla español y entender respuestas básicas. Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Aprender a preguntar si alguien habla español o inglés. Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
@@ -142,7 +143,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¡Buenos días»?",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -151,16 +152,34 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Cómo te llamas?».",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -174,24 +193,6 @@
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
       "item": "come-ti-chiami"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Me llamo María»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi chiamo Maria.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Me llamo María.",
-      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
@@ -214,7 +215,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «De nada»?",
+      "text": "¿Cómo se dice «¡De nada»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -223,10 +224,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Prego.",
+      "text": "Prego!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "De nada.",
+      "translation_es": "¡De nada!",
       "item": "prego"
     },
     {
@@ -304,7 +305,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Útil para saber si alguien entiende español",
+      "text": "pregunta básica para iniciar una conversación",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -345,6 +346,123 @@
       "pause": 2.5,
       "translation_es": "¿Hablas español?",
       "item": "parli-spagnolo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Hablas inglés?». Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "se",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lese",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "inglese",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "pregunta alternativa si no se habla español",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Hablas inglés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Hablas inglés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
     },
     {
       "role": "narrator",
@@ -430,7 +548,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Útil para pedir que repitan algo",
+      "text": "útil para pedir que se repita algo",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -484,10 +602,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
     },
     {
@@ -520,25 +638,25 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Para indicar desconocimiento",
+      "text": "cuando no se tiene la información",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -556,10 +674,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
     },
     {
@@ -574,119 +692,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "«Está bien». Escucha y repite.",
-      "kind": "instruction",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "ne",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "va-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "bene",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "",
-      "item": "va-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "",
-      "item": "va-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 1.2,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Para aceptar o confirmar algo",
-      "kind": "explanation",
-      "pause": 0.5,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Está bien»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Otra vez. «Está bien».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
     },
     {
       "role": "narrator",
@@ -700,7 +710,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «¿Puedes repetir?».",
+      "text": "Y ahora, «¿Hablas inglés?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -709,11 +719,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Puoi ripetere?",
+      "text": "Parli inglese?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Puedes repetir?",
-      "item": "puoi-ripetere"
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
     },
     {
       "role": "narrator",
@@ -727,10 +737,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
@@ -754,25 +764,25 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Para indicar que se entiende un poco",
+      "text": "respuesta común cuando se entiende solo un poco",
       "kind": "explanation",
       "pause": 0.5,
       "translation_es": "",
@@ -790,10 +800,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
@@ -808,10 +818,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
@@ -826,7 +836,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "En italiano, para negar una frase se usa 'non' antes del verbo. Es similar a 'no' en español, pero siempre precede al verbo.",
+      "text": "En italiano, para negar una afirmación se utiliza 'non' antes del verbo. Es sencillo y directo.",
       "kind": "explanation",
       "pause": 0.6,
       "translation_es": "",
@@ -835,19 +845,19 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non capisco.",
+      "text": "Non capisco",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No entiendo.",
+      "translation_es": "No entiendo",
       "item": "non-capisco"
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
     },
     {
@@ -862,10 +872,10 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
@@ -880,19 +890,19 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Non capisco.",
+      "text": "Non capisco",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "No entiendo.",
+      "translation_es": "No entiendo",
       "item": "non-capisco"
     },
     {
@@ -907,19 +917,19 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Non capisco.",
+      "text": "Non capisco",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "No entiendo.",
+      "translation_es": "No entiendo",
       "item": "non-capisco"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Sì.",
+      "text": "Sì",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "Sí.",
+      "translation_es": "Sí",
       "item": "si"
     },
     {
@@ -934,19 +944,19 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Sì.",
+      "text": "Sì",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "Sí.",
+      "translation_es": "Sí",
       "item": "si"
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "No.",
+      "text": "No",
       "kind": "phrase",
       "pause": 2.0,
-      "translation_es": "No.",
+      "translation_es": "No",
       "item": "no"
     },
     {
@@ -961,10 +971,10 @@
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "No.",
+      "text": "No",
       "kind": "phrase",
       "pause": 1.2,
-      "translation_es": "No.",
+      "translation_es": "No",
       "item": "no"
     },
     {
@@ -979,7 +989,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Pregúntale a alguien si habla español.",
+      "text": "Pregúntale a alguien si habla inglés.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -988,16 +998,16 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Parli spagnolo?",
+      "text": "Parli inglese?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¿Hablas español?",
-      "item": "parli-spagnolo"
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Responde que entiendes un poco.",
+      "text": "Responde que entiendes solo un poco.",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1006,29 +1016,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Indica que no entiendes.",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Non capisco.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "No entiendo.",
-      "item": "non-capisco"
     },
     {
       "role": "narrator",
@@ -1060,7 +1052,25 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Puedes repetir?».",
+      "text": "Otra vez. «¿Hablas inglés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1078,7 +1088,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «No lo sé».",
+      "text": "¿Cómo se dice «No lo sé»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1087,29 +1097,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Está bien»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
     },
     {
       "role": "narrator",
@@ -1123,10 +1115,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
@@ -1150,7 +1142,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «¡Buenos días»?",
+      "text": "¿Cómo se dice «Hola, ¿cómo estás?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1159,16 +1151,34 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
+      "text": "Ciao, come stai?",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "¡Buenos días!",
-      "item": "buongiorno"
+      "translation_es": "Hola, ¿cómo estás?",
+      "item": "ciao-come-stai"
     },
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Di: «¿Cómo te llamas?».",
+      "text": "Di: «Me llamo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mi chiamo...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me llamo...",
+      "item": "mi-chiamo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1182,24 +1192,6 @@
       "pause": 2.5,
       "translation_es": "¿Cómo te llamas?",
       "item": "come-ti-chiami"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Me llamo María»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Mi chiamo Maria.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Me llamo María.",
-      "item": "mi-chiamo"
     },
     {
       "role": "narrator",
@@ -1222,7 +1214,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "¿Cómo se dice «De nada»?",
+      "text": "¿Cómo se dice «¡De nada»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1231,10 +1223,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Prego.",
+      "text": "Prego!",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "De nada.",
+      "translation_es": "¡De nada!",
       "item": "prego"
     },
     {
@@ -1267,7 +1259,25 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Otra vez. «¿Puedes repetir?».",
+      "text": "Otra vez. «¿Hablas inglés?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Parli inglese?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Hablas inglés?",
+      "item": "parli-inglese"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Puedes repetir?».",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1285,7 +1295,7 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Y ahora, «No lo sé».",
+      "text": "¿Cómo se dice «No lo sé»?",
       "kind": "prompt",
       "pause": 4.0,
       "translation_es": "",
@@ -1294,29 +1304,11 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non lo so.",
+      "text": "Non lo so",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "No lo sé.",
+      "translation_es": "No lo sé",
       "item": "non-lo-so"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Está bien»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Va bene.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Está bien.",
-      "item": "va-bene"
     },
     {
       "role": "narrator",
@@ -1330,10 +1322,10 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Un po'.",
+      "text": "Un po'",
       "kind": "phrase",
       "pause": 2.5,
-      "translation_es": "Un poco.",
+      "translation_es": "Un poco",
       "item": "un-po"
     },
     {
@@ -1348,15 +1340,6 @@
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Buongiorno!",
-      "kind": "dialogue",
-      "pause": 0.8,
-      "translation_es": "¡Buenos días!",
-      "item": null
-    },
-    {
-      "role": "native_f",
-      "lang": "tl",
       "text": "Buongiorno! Parli spagnolo?",
       "kind": "dialogue",
       "pause": 0.8,
@@ -1364,7 +1347,7 @@
       "item": null
     },
     {
-      "role": "native_m",
+      "role": "native_f",
       "lang": "tl",
       "text": "Un po'.",
       "kind": "dialogue",
@@ -1373,30 +1356,39 @@
       "item": null
     },
     {
-      "role": "native_f",
+      "role": "native_m",
       "lang": "tl",
-      "text": "Puoi ripetere?",
+      "text": "Perfetto! Puoi ripetere il menu, per favore?",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "¿Puedes repetir?",
+      "translation_es": "¡Perfecto! ¿Puedes repetir el menú, por favor?",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Certo! Allora, abbiamo pasta, pizza e insalate.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¡Claro! Entonces, tenemos pasta, pizza y ensaladas.",
       "item": null
     },
     {
       "role": "native_m",
       "lang": "tl",
-      "text": "Non capisco.",
+      "text": "Grazie! Non capisco 'insalate'.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "No entiendo.",
+      "translation_es": "¡Gracias! No entiendo 'ensaladas'.",
       "item": null
     },
     {
       "role": "native_f",
       "lang": "tl",
-      "text": "Va bene. Grazie!",
+      "text": "Insalate sono 'ensaladas'.",
       "kind": "dialogue",
       "pause": 0.8,
-      "translation_es": "Está bien. ¡Gracias!",
+      "translation_es": "Insalate son 'ensaladas'.",
       "item": null
     },
     {
@@ -1412,9 +1404,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 9.8,
-    "chars": 2950,
-    "cues": 151,
+    "minutes_estimated": 10.1,
+    "chars": 3164,
+    "cues": 150,
     "mode": "lesson",
     "lesson": 2
   }

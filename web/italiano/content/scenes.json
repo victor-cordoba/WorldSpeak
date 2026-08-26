@@ -1,92 +1,82 @@
 {
   "scenes": {
     "lesson-01": {
-      "setting": "En un mercado animado de Cebú, donde los locales se saludan con familiaridad.",
+      "setting": "En una trattoria en Trastevere, un lugar perfecto para conocer a los romanos.",
       "lines": [
         {
           "role": "native_m",
-          "tl": "Buongiorno!",
-          "es": "¡Buenos días!"
+          "tl": "Ciao, come stai?",
+          "es": "Hola, ¿cómo estás?"
         },
         {
           "role": "native_f",
-          "tl": "Buongiorno! Come ti chiami?",
-          "es": "¡Buenos días! ¿Cómo te llamas?"
+          "tl": "Tutto bene, grazie. E tu?",
+          "es": "Todo bien, gracias. ¿Y tú?"
         },
         {
           "role": "native_m",
-          "tl": "Mi chiamo Carlo. E tu?",
-          "es": "Me llamo Carlo. ¿Y tú?"
+          "tl": "Bene, grazie. Come ti chiami?",
+          "es": "Bien, gracias. ¿Cómo te llamas?"
         },
         {
           "role": "native_f",
-          "tl": "Mi chiamo Maria. Piacere di conoscerti.",
-          "es": "Me llamo María. Encantada de conocerte."
+          "tl": "Mi chiamo Lucia. Piacere!",
+          "es": "Me llamo Lucía. ¡Encantada!"
         },
         {
           "role": "native_m",
-          "tl": "Piacere! Tutto bene?",
-          "es": "¡Encantado! ¿Todo bien?"
+          "tl": "Piacere! Io sono Marco.",
+          "es": "¡Encantado! Yo soy Marco."
         },
         {
           "role": "native_f",
-          "tl": "Sì, grazie! E tu?",
-          "es": "¡Sí, gracias! ¿Y tú?"
-        },
-        {
-          "role": "native_m",
-          "tl": "Tutto bene, grazie. Ci vediamo domani.",
-          "es": "Todo bien, gracias. Nos vemos mañana."
-        },
-        {
-          "role": "native_f",
-          "tl": "Ci vediamo, ciao!",
-          "es": "Nos vemos, ¡chao!"
+          "tl": "Ci vediamo!",
+          "es": "¡Nos vemos!"
         }
       ]
     },
     "lesson-02": {
-      "setting": "En un mercado de Tondo, un turista intenta comunicarse con un vendedor local.",
+      "setting": "En una trattoria de Trastevere, un hispanohablante intenta comunicarse con el camarero.",
       "lines": [
         {
           "role": "native_m",
-          "tl": "Buongiorno!",
-          "es": "¡Buenos días!"
-        },
-        {
-          "role": "native_f",
           "tl": "Buongiorno! Parli spagnolo?",
           "es": "¡Buenos días! ¿Hablas español?"
         },
         {
-          "role": "native_m",
+          "role": "native_f",
           "tl": "Un po'.",
           "es": "Un poco."
         },
         {
+          "role": "native_m",
+          "tl": "Perfetto! Puoi ripetere il menu, per favore?",
+          "es": "¡Perfecto! ¿Puedes repetir el menú, por favor?"
+        },
+        {
           "role": "native_f",
-          "tl": "Puoi ripetere?",
-          "es": "¿Puedes repetir?"
+          "tl": "Certo! Allora, abbiamo pasta, pizza e insalate.",
+          "es": "¡Claro! Entonces, tenemos pasta, pizza y ensaladas."
         },
         {
           "role": "native_m",
-          "tl": "Non capisco.",
-          "es": "No entiendo."
+          "tl": "Grazie! Non capisco 'insalate'.",
+          "es": "¡Gracias! No entiendo 'ensaladas'."
         },
         {
           "role": "native_f",
-          "tl": "Va bene. Grazie!",
-          "es": "Está bien. ¡Gracias!"
+          "tl": "Insalate sono 'ensaladas'.",
+          "es": "Insalate son 'ensaladas'."
         }
       ]
     },
     "lesson-03": {
-      "setting": "En una plaza de Cebú, un niño local se encuentra con un visitante.",
+      "setting": "En una trattoria en Trastevere, dos jóvenes se conocen.",
       "lines": [
         {
-          "role": "kid_m",
-          "tl": "Ciao! Come ti chiami?",
-          "es": "¡Hola! ¿Cómo te llamas?"
+          "role": "native_f",
+          "tl": "Ciao, come ti chiami?",
+          "es": "Hola, ¿cómo te llamas?"
         },
         {
           "role": "native_m",
@@ -94,29 +84,24 @@
           "es": "Me llamo Luca. ¿Y tú?"
         },
         {
-          "role": "kid_m",
-          "tl": "Sono Paolo. Sei di qui?",
-          "es": "Soy Paolo. ¿Eres de aquí?"
+          "role": "native_f",
+          "tl": "Io sono Anna. Abiti a Roma?",
+          "es": "Yo soy Anna. ¿Vives en Roma?"
         },
         {
           "role": "native_m",
-          "tl": "No, sono di Tondo. Vivo a Cebu.",
-          "es": "No, soy de Tondo. Vivo en Cebú."
+          "tl": "Sì, abito a Roma. Questa è casa mia.",
+          "es": "Sí, vivo en Roma. Esta es mi casa."
         },
         {
-          "role": "kid_m",
-          "tl": "Quanti anni hai?",
-          "es": "¿Cuántos años tienes?"
+          "role": "native_f",
+          "tl": "Ti piace Roma?",
+          "es": "¿Te gusta Roma?"
         },
         {
           "role": "native_m",
-          "tl": "Ho venti anni. E tu?",
-          "es": "Tengo veinte años. ¿Y tú?"
-        },
-        {
-          "role": "kid_m",
-          "tl": "Ho dieci anni. Questa è casa mia.",
-          "es": "Tengo diez años. Esta es mi casa."
+          "tl": "Mi piace molto!",
+          "es": "¡Me gusta mucho!"
         }
       ]
     }

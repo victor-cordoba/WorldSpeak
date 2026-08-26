@@ -14,7 +14,7 @@ import re
 
 from common import course_dir, http_json, load_json, read_key, save_json
 
-SYSTEM = """Eres profesor nativo de {LANG} (Filipinas) y diseñador de cursos
+SYSTEM = """Eres profesor nativo de {LANG} y diseñador de cursos
 por audio para hispanohablantes. Escribes contenido para una lección del método Pimsleur.
 Devuelve SOLO JSON válido con esta forma exacta:
 {
@@ -22,14 +22,14 @@ Devuelve SOLO JSON válido con esta forma exacta:
              "lit": "traducción literal corta o vacío", "note": "una frase útil del narrador (uso, cortesía po, matiz)",
              "pill": "una de: preguntar, entender, presentarse, cortesia, moverse, mercado, ninos, corazon, familia, casa, trabajo, comida, tiempo, fe, salud, social, peligro",
              "tags": ["etiquetas de gramática"], "answer": false } ],
- "scene": { "setting": "una frase del narrador situando la escena en Tondo/Cebú", "lines": [ {"role": "native_m|native_f|kid_m|kid_f", "tl": "...", "es": "..."} ] },
+ "scene": { "setting": "una frase del narrador situando la escena en el lugar del curso (ver course_context)", "lines": [ {"role": "native_m|native_f|kid_m|kid_f", "tl": "...", "es": "..."} ] },
  "recipe": { "title": "...", "subtitle": "una frase con lo que se aprende", "summary_es": "una frase", "topics": ["4-6 etiquetas cortas"],
              "teach": ["ids de 6 a 8 ítems nuevos, en orden pedagógico"], "listen": ["ids de 2 a 4 respuestas típicas a entender (answer=true)"],
              "recall_prev": ["ids de 3 a 5 ítems de lecciones anteriores, de la lista dada"],
              "grammar_pill": {"title": "...", "text": "explicación de 2-4 frases, hablada, clara", "examples": ["2 ids"]},
              "guided": [ {"prompt": "situación en español para que el alumno produzca", "item": "id"} ] } }
 Reglas: 6-8 ítems nuevos + 2-4 respuestas (answer=true). Los ids nuevos no pueden coincidir con los existentes.
-{LANG} correcto y natural; con niños, registro cariñoso (anak, iho/iha) y preguntas con tacto. Diálogo de 5-8 líneas
+{LANG} correcto y natural, situado SOLO en los lugares del course_context (nunca en otros países). Con niños, registro cariñoso y preguntas con tacto. Diálogo de 5-8 líneas
 usando SOLO ítems de la lección y de anteriores. Nada en inglés."""
 
 
