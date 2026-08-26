@@ -4,7 +4,28 @@ Todas las versiones desplegadas en **https://worldspeak.es/**. Formato de versi�
 
 ---
 
-## [Sin publicar] — 2026-08-26 · Tagalog propio: sistema de aprendizaje modular
+## [Sin publicar] — 2026-08-27 · Tres idiomas con audio, mapa real, fotos, Método Tondo
+
+### Añadido
+- **Bisaya completo** (30 lecciones): L01–L27 con ElevenLabs (Pablo Marshal, Nobita, Grandma Sela), L28–L30 con Fish; contexto Cebú y Bohol, Santo Niño, Sinulog. Publicado en `/bisaya/`.
+- **Italiano completo** (30 lecciones) con Fish (Narrador Terror, Narratore Calmo ×1,12, Voce Giovanile Italiana); Vespa, moto y coche de alquiler; 13 tablas con falsos amigos y romanesco. Publicado en `/italiano/`.
+- **Tagalog**: narrador regenerado con Fish «Narrador Terror» (castellano) ×1,28; variantes de los ítems las dice el nativo; explicación de `po` al aparecer; pausas cortas antes del narrador; montaje sobre WAV con recorte del silencio inicial.
+- **Portugués (surf y furgoneta), Inglés británico y Francés**: currículos de 30 lecciones, contextos, notas de método, pills, 13 tablas y **textos redactados y compilados** (sin audio).
+- **Método Tondo** (`docs/00`), **doc 14** (qué dice cada voz), **doc 15** (errores y checklist), **doc 16** (PT/EN/FR), `scripts/new-course.sh`, `method_config` por curso (el compilador ya no tiene nada del Tagalog).
+- **Lint de contenido** automático antes de compilar (variantes, respuestas, duplicados, escenas, ids, palabras prohibidas por curso).
+- **Mapa real de Filipinas** por regiones con lenguas (GeoJSON → SVG) en «¿Dónde se habla?».
+- **Fotos** de cada país en los banners del hub (Wikimedia Commons, con atribución); favicon con el bocadillo del wordmark; icono de nivel sobre blanco; bandera grande sin caja.
+- Ruta rediseñada por niveles con camino de progreso; hero con píldora `LECCIÓN N` y barra; práctica rápida como fila; A medida con Repaso/Diálogos y audio; casting de voces por curso.
+- Dominio `worldspeak.es` con redirecciones desde `victorcordoba.com` y `misioncebu.org`; MySQL; analítica propia.
+
+### Pendiente
+- Casting y audio de Portugués, Inglés y Francés.
+- Regenerar narradores con ElevenLabs peninsular cuando se renueve el crédito (6/09): muestras en `PRUEBAS-VOZ/voces-narrador-v2/`.
+- Revisión humana de los textos generados (`_review`).
+
+---
+
+## [2026-08-26] · Tagalog propio: sistema de aprendizaje modular
 
 ![Hub en móvil](screenshots/12-movil-hub.jpg) ![Ruta en móvil](screenshots/13-movil-ruta.jpg) ![Lección en móvil](screenshots/14-movil-leccion.jpg)
 
