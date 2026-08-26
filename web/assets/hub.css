@@ -107,3 +107,9 @@ a.course:hover, a.course:focus-visible { transform: none; border-color: var(--bl
 .course-body { padding-top: 40px; }
 .legacy-flag { background: transparent; font-size: 34px; width: auto; height: auto; }
 .hub-about { color: var(--blue); font-weight: 600; text-decoration: none; border-bottom: 2px solid var(--gold); }
+
+.hub-globe-bottom { display: none; }
+@media (max-width: 760px) {
+  .hub-globe-bottom { display: block; width: 180px; height: 180px; margin: 28px auto 8px; }
+  .hub-globe-bottom svg { width: 100%; height: 100%; filter: drop-shadow(0 16px 30px rgba(10, 47, 158, 0.28)); }
+}
