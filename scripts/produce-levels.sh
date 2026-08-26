@@ -13,7 +13,10 @@ for n in $(seq "$FROM" "$TO"); do
   python3 assemble.py --course "$COURSE" --lesson "$n" | head -1
 done
 python3 ../build_dictionary.py --course "$COURSE"
+python3 export_clips.py --course "$COURSE"
 cd "$ROOT" && scripts/deploy.sh | tail -1
 rsync -az "web/$COURSE/audio/" --exclude '_prueba*' PERSONAL_SERVER:~/domains/worldspeak.es/public_html/$COURSE/audio/
 rsync -az "web/$COURSE/audio/" --exclude '_prueba*' PERSONAL_SERVER:~/domains/victorcordoba.com/public_html/worldspeak/$COURSE/audio/
+rsync -az "web/$COURSE/clips/" PERSONAL_SERVER:~/domains/worldspeak.es/public_html/$COURSE/clips/
+rsync -az "web/$COURSE/clips/" PERSONAL_SERVER:~/domains/victorcordoba.com/public_html/worldspeak/$COURSE/clips/
 echo "=========== FIN $(date +%H:%M) ==========="

@@ -100,10 +100,11 @@ function renderPhrases() {
     const pill = pills.find((p) => p.id === i.pill);
     const card = document.createElement('div'); card.className = 'card';
     card.innerHTML = `<div class="card-inner" role="button" tabindex="0" aria-label="${i.tl}. Toca para ver el español">
-      <div class="card-face card-front"><span class="card-tag">${pill ? pill.icon + ' ' + pill.title : ''}</span><strong>${i.tl}</strong>${i.lit ? `<span class="lit">${i.lit}</span>` : ''}<button class="card-play" type="button" aria-label="Escuchar" disabled title="Audio en preparación">▶</button></div>
+      <div class="card-face card-front"><span class="card-tag">${pill ? pill.icon + ' ' + pill.title : ''}</span><strong>${i.tl}</strong>${i.lit ? `<span class="lit">${i.lit}</span>` : ''}<button class="card-play" type="button" aria-label="Escuchar" ${audioMap[normText(i.tl)] ? '' : 'disabled title="Audio en preparación"'}>▶</button></div>
       <div class="card-face card-back"><span class="card-tag">L${i.lesson}</span><span class="es">${i.es}</span>${i.note ? `<span class="note">${i.note}</span>` : ''}</div></div>`;
     const inner = card.querySelector('.card-inner');
     const flip = (e) => { if (e.target.closest('.card-play')) return; card.classList.toggle('is-flipped'); };
+    card.querySelector('.card-play')?.addEventListener('click', (e) => { e.stopPropagation(); playClip(i.tl, e.currentTarget); });
     inner.addEventListener('click', flip);
     inner.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(e); } });
     grid.appendChild(card);
@@ -129,6 +130,20 @@ function renderTables() {
 const chosen = new Set(['preguntar', 'entender']);
 let deck = [], pos = 0, hard = [];
 let scenes = {};
+let audioMap = {};
+const normText = (t) => String(t || '').toLowerCase().replace(/[¿¡!?.,…]+/g, '').replace(/\s+/g, ' ').trim();
+let currentClip = null;
+function playClip(text, button) {
+  const src = audioMap[normText(text)];
+  if (!src) return false;
+  if (currentClip) { currentClip.pause(); }
+  currentClip = new Audio(`./${src}`);
+  button?.classList.add('is-playing');
+  currentClip.addEventListener('ended', () => button?.classList.remove('is-playing'));
+  currentClip.play().catch(() => button?.classList.remove('is-playing'));
+  window.wsTrack?.('clip', { extra: text.slice(0, 60) });
+  return true;
+}
 function renderCustom() {
   renderPills($('#customPills'), (id, b) => { chosen.has(id) ? chosen.delete(id) : chosen.add(id); b.classList.toggle('is-active', chosen.has(id)); }, true, chosen);
 }
@@ -156,7 +171,7 @@ function showCard() {
   $('#quizEs').textContent = i.es; $('#quizTl').textContent = i.tl; $('#quizNote').textContent = i.note || i.lit || '';
   $('#quizAnswer').hidden = true; $('#quizReveal').hidden = false; $('#quizJudge').hidden = true;
 }
-function reveal() { $('#quizAnswer').hidden = false; $('#quizReveal').hidden = true; $('#quizJudge').hidden = false; }
+function reveal() { $('#quizAnswer').hidden = false; $('#quizReveal').hidden = true; $('#quizJudge').hidden = false; playClip(deck[pos].tl, null); }
 function judge(wasHard) {
   if (wasHard) hard.push(deck[pos]);
   pos += 1;
@@ -172,9 +187,9 @@ function renderDialogues() {
     const lesson = curriculum.lessons.find((l) => l.id === `${id}-main`);
     const d = document.createElement('details'); d.className = 'dlg';
     d.innerHTML = `<summary><span class="lesson-pill">${lesson ? 'L' + lesson.lesson : id}</span><strong>${lesson ? lesson.title : id}</strong><em>${sc.setting}</em></summary>
-      <div class="dlg-lines">${sc.lines.map((l) => `<button type="button" class="dlg-line ${l.role === 'native_f' ? 'is-f' : 'is-m'}"><b>${l.tl}</b><span>${l.es}</span></button>`).join('')}</div>
+      <div class="dlg-lines">${(() => { const order = []; return sc.lines.map((l) => { if (!order.includes(l.role)) order.push(l.role); const side = order.indexOf(l.role) % 2 ? 'is-f' : 'is-m'; const has = audioMap[normText(l.tl)]; return `<button type="button" class="dlg-line ${side}" data-tl="${l.tl.replace(/"/g, '&quot;')}"><b>${l.tl}</b><span>${l.es}</span>${has ? '<i class="dlg-play" aria-hidden="true">▶</i>' : ''}</button>`; }).join(''); })()}</div>
       <p class="dlg-tip">Toca una línea para ver la traducción. Léela en voz alta antes de mirar.</p>`;
-    d.querySelectorAll('.dlg-line').forEach((b) => b.addEventListener('click', () => b.classList.toggle('is-open')));
+    d.querySelectorAll('.dlg-line').forEach((b) => b.addEventListener('click', () => { b.classList.toggle('is-open'); playClip(b.dataset.tl, b); }));
     wrap.appendChild(d);
   });
 }
@@ -192,6 +207,7 @@ document.addEventListener('keydown', (e) => { if ($('#quiz').hidden) return; if 
     const [it, pi, ta] = await Promise.all([getJson('./content/items.json'), getJson('./content/pills.json'), getJson('./content/tables.json')]);
     items = it.items; pills = pi.pills; tables = ta.tables;
     try { scenes = (await getJson('./content/scenes.json')).scenes || {}; } catch (_e) { scenes = {}; }
+    try { audioMap = await getJson('./content/audio-map.json'); } catch (_e) { audioMap = {}; }
   } catch (error) { $('#app').innerHTML = `<p class="empty">No se ha podido cargar el curso (${error.message}).</p>`; return; }
   $('#courseTitle').textContent = course.shortTitle || course.title;
   renderRoute();

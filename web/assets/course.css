@@ -252,3 +252,8 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .has-live-bg .top { background: rgba(246,248,254,0.7); }
 
 .has-live-bg .pill.is-active { background: var(--blue) !important; color: #fff; border-color: var(--blue); }
+
+.dlg-line { position: relative; padding-right: 40px; }
+.dlg-play { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font-style: normal; font-size: 12px; color: var(--blue); opacity: 0.7; }
+.dlg-line.is-playing .dlg-play, .card-play.is-playing { color: var(--red); opacity: 1; }
+.card-play:not([disabled]) { background: var(--gold); box-shadow: 0 3px 0 var(--gold-deep); opacity: 1; }

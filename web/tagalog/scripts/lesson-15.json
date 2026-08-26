@@ -1,0 +1,2012 @@
+{
+  "title": "¿Qué haces aquí solo?",
+  "subtitle": "Aprender a preguntar con tacto a un niño.",
+  "summary_es": "Preguntas y respuestas con niños en la calle.",
+  "topics": [
+    "preguntar",
+    "ninos",
+    "ubicación",
+    "estado",
+    "cortesia"
+  ],
+  "dialogue": {
+    "tl": [
+      "Kumusta? Anong ginagawa mo dito?",
+      "Nandito lang ako.",
+      "Mag-isa ka ba?",
+      "Opo, hindi po ako mag-isa.",
+      "Nasaan ang nanay at tatay mo?",
+      "Opo, nasa bahay sila.",
+      "Halika dito."
+    ],
+    "es": [
+      "Hola, ¿qué haces aquí?",
+      "Estoy solo aquí.",
+      "¿Estás solo?",
+      "No, no estoy solo.",
+      "¿Dónde están tu madre y tu padre?",
+      "Sí, están en casa.",
+      "Ven aquí."
+    ]
+  },
+  "vocabulary": [
+    {
+      "term": "Anong ginagawa mo dito?",
+      "es": "¿Qué haces aquí?"
+    },
+    {
+      "term": "Mag-isa ka ba?",
+      "es": "¿Estás solo?"
+    },
+    {
+      "term": "Nasaan ang nanay at tatay mo?",
+      "es": "¿Dónde están tu madre y tu padre?"
+    },
+    {
+      "term": "Halika dito.",
+      "es": "Ven aquí."
+    },
+    {
+      "term": "Nandito lang ako.",
+      "es": "Estoy solo aquí."
+    },
+    {
+      "term": "Wala silang dito.",
+      "es": "No están aquí."
+    },
+    {
+      "term": "Opo, nasa bahay sila.",
+      "es": "Sí, están en casa."
+    },
+    {
+      "term": "Opo, hindi po ako mag-isa.",
+      "es": "No, no estoy solo."
+    }
+  ],
+  "cues": [
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Lección 15. ¿Qué haces aquí solo?.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "En una calle concurrida de Tondo, un voluntario se acerca a un niño que parece estar solo. Escucha la conversación.",
+      "kind": "instruction",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta? Anong ginagawa mo dito?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué haces aquí?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy solo aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Estás solo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no estoy solo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, están en casa.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ven aquí.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Aprender a preguntar con tacto a un niño. Al terminar, esta conversación la vas a hacer tú.",
+      "kind": "explanation",
+      "pause": 0.8,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Antes de empezar, repasemos.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿qué tal?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿qué tal?",
+      "item": "kumusta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Qué haces aquí?». Literalmente, ¿Qué haciendo tú aquí?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "dito",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "mo dito",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ginagawa mo dito",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta amable para iniciar conversación con un niño.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Qué haces aquí?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Qué haces aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Estás solo?». Literalmente, Solo tú ¿verdad?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ba",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar con cuidado si un niño está solo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Estás solo?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás solo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«¿Dónde están tu madre y tu padre?». Literalmente, ¿Dónde madre y padre tu?. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "mo",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "tatay mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "at tatay mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "ang nanay at tatay mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Preguntar por los padres de un niño.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde están tu madre y tu padre?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Dónde están tu madre y tu padre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Ven aquí». Literalmente, Ven aquí.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "halika-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "dito",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "halika-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "halika-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Invitación gentil para acercarse.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ven aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Ven aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Estás solo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy solo aquí». Literalmente, Aquí solo yo.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ko",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "ako",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "lang ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nandito lang ako",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta típica de un niño indicando su ubicación.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Estoy solo aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Estoy solo aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No están aquí». Literalmente, No ellos aquí.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "to",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "dito",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "silang dito",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta del niño sobre la ausencia de sus padres.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No están aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No están aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Ven aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, están en casa». Literalmente, Sí, en casa ellos.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "la",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "sila",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "bahay sila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "nasa bahay sila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo nasa bahay sila",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta respetuosa sobre la ubicación de los padres.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Sí, están en casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «Sí, están en casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no estoy solo». Literalmente, Sí, no yo solo.. Escucha y repite.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "sa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "-isa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "mag-isa",
+      "kind": "phrase",
+      "pause": 1.2,
+      "translation_es": "",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "hindi po ako mag-isa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo hindi po ako mag-isa",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Respuesta respetuosa de un niño indicando que no está solo.",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no estoy solo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No, no estoy solo».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Un momento. Volvamos atrás.",
+      "kind": "instruction",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «No están aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Verbo -um- en presente.",
+      "kind": "explanation",
+      "pause": 0.4,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "El verbo -um- se usa para acciones en presente. Ejemplos: 'ginagawa' (haciendo), 'kumakain' (comiendo). Se coloca en medio del verbo raíz.",
+      "kind": "explanation",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumain ka na ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Ya has comido?",
+      "item": "kumain-ka-na-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ahora, a entender. Vas a oír respuestas típicas. Escucha, y piensa qué significan. Luego te lo digo.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Estoy solo aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No están aquí».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«Sí, están en casa».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 2.0,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "«No, no estoy solo».",
+      "kind": "explanation",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Conversación guiada. Yo te digo la situación, tú hablas, y luego lo oyes.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Ves a un niño solo en la calle, pregúntale qué hace allí.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta si el niño está solo.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Pregunta dónde están sus padres.",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás solo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde están tu madre y tu padre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ven aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy solo aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No están aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Sí, están en casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no estoy solo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Como hay tiempo, repasemos de nuevo lo anterior.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Hola, ¿qué tal?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Kumusta?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Hola, ¿qué tal?",
+      "item": "kumusta"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Saan?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde?",
+      "item": "saan"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde vives?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Saan ka nakatira?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "saan-ka-nakatira"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Tienes familia?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "May pamilya ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Tienes familia?",
+      "item": "may-pamilya-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Cuántos años tienes?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Ilang taon ka na?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Cuántos años tienes?",
+      "item": "ilang-taon-ka-na"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Repaso final. Todo lo de hoy.",
+      "kind": "instruction",
+      "pause": 0.5,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Qué haces aquí?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Anong ginagawa mo dito?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Qué haces aquí?",
+      "item": "anong-ginagawa-mo-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «¿Estás solo?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Estás solo?",
+      "item": "mag-isa-ka-ba"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «¿Dónde están tu madre y tu padre?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": "nasaan-ang-nanay-tatay-mo"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Ven aquí»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Ven aquí.",
+      "item": "halika-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Estoy solo aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Estoy solo aquí.",
+      "item": "nandito-lang-ako"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Otra vez. «No están aquí».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Wala silang dito.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No están aquí.",
+      "item": "wala-silang-dito"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Y ahora, «Sí, están en casa».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Sí, están en casa.",
+      "item": "opo-nasa-bahay-sila"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «No, no estoy solo»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_f",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "No, no estoy solo.",
+      "item": "opo-hindi-po-ako-mag-isa"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Escucha la conversación completa una vez más. Ahora la entiendes entera.",
+      "kind": "instruction",
+      "pause": 0.6,
+      "translation_es": "",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Kumusta? Anong ginagawa mo dito?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Hola, ¿qué haces aquí?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Nandito lang ako.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Estoy solo aquí.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Mag-isa ka ba?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Estás solo?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, hindi po ako mag-isa.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "No, no estoy solo.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Nasaan ang nanay at tatay mo?",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "¿Dónde están tu madre y tu padre?",
+      "item": null
+    },
+    {
+      "role": "kid_m",
+      "lang": "tl",
+      "text": "Opo, nasa bahay sila.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Sí, están en casa.",
+      "item": null
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Halika dito.",
+      "kind": "dialogue",
+      "pause": 0.8,
+      "translation_es": "Ven aquí.",
+      "item": null
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Hasta la próxima lección. Ingat ka!",
+      "kind": "instruction",
+      "pause": 0.3,
+      "translation_es": "",
+      "item": null
+    }
+  ],
+  "_meta": {
+    "compiler": "compile_lesson.py",
+    "minutes_target": 15,
+    "minutes_estimated": 16.9,
+    "chars": 5513,
+    "cues": 215,
+    "mode": "lesson",
+    "lesson": 15
+  }
+}
