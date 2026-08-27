@@ -95,9 +95,10 @@ NUM_ES = {1: "uno", 2: "dos", 3: "tres", 4: "cuatro", 5: "cinco", 6: "seis", 7: 
 
 
 def end_sentence(text):
-    """Cierra la frase con punto si el texto (dinámico) no trae puntuación final; si no, el narrador lo lee del tirón."""
+    """Cierra la frase con punto si el texto (dinámico) no trae puntuación final; si no, el narrador lo lee del tirón.
+    No duplica si ya acaba en . ! ? … : o en cita cerrada tras puntuación («¿Qué tal?»)."""
     text = text.strip()
-    return text if re.search(r"[.!?…]$", text) else text + "."
+    return text if re.search(r"([.!?…:]|[.!?…]\s*[»”)])$", text) else text + "."
 
 
 class Compiler:
@@ -118,7 +119,8 @@ class Compiler:
 
     # --- helpers
     def n(self, text, pause=P["explain"], kind="instruction"):
-        self.cues.append(cue("narrator", text, kind, pause))
+        # Todo texto del narrador termina en puntuación (mucho es dinámico: subtítulos, notas, pills).
+        self.cues.append(cue("narrator", end_sentence(text), kind, pause))
 
     def voice(self, item):
         # Regla fija: el "profesor" nativo (hombre) dice todas las frases que aprendes;
@@ -142,8 +144,8 @@ class Compiler:
     # --- bloques
     def intro(self, scene, recipe):
         num = NUM_ES.get(int(recipe["lesson"]), str(recipe["lesson"]))  # en letra: Fish lee mal "Lección 1."
-        self.n(f"Lección {num}. {re.sub(r'[.]+$', '', recipe['title'])}.", 0.6)
-        self.n(scene["setting"] + " Escucha la conversación.", 0.8)
+        self.n(f"Lección {num}. {end_sentence(re.sub(r'[.]+$', '', recipe['title']))}", 0.6)
+        self.n(end_sentence(scene["setting"]) + " Escucha la conversación.", 0.8)
         self.dialogue(scene)
 
     def dialogue(self, scene):
@@ -202,7 +204,7 @@ class Compiler:
             self.say(item, pause=1.2, kind="phrase", role="native_f")
 
     def grammar(self, pill):
-        self.n(pill["title"] + ".", 0.4, "explanation")
+        self.n(end_sentence(pill["title"]), 0.4, "explanation")
         self.n(pill["text"], 0.6, "explanation")
         for iid in pill.get("examples", []):
             self.say(self.items[iid], kind="phrase")
