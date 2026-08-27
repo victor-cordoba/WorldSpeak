@@ -5,7 +5,9 @@ const sessionKey = 'ws:session';
 let course = null, items = [], pills = [], tables = [], curriculum = null;
 
 function safeJson(v, f) { try { const r = JSON.parse(v); return r === null || r === undefined ? f : r; } catch (_e) { return f; } }
-async function getJson(path) { const r = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' }); if (!r.ok) throw new Error(path); return r.json(); }
+// Versión de datos: la del script (cambia con cada subida), no Date.now(), para que el navegador pueda cachear.
+const dataVersion = (document.currentScript?.src.match(/[?&]v=([^&]+)/) || [])[1] || String(Date.now());
+async function getJson(path) { const r = await fetch(`${path}?v=${dataVersion}`); if (!r.ok) throw new Error(path); return r.json(); }
 
 // ---------- progreso (misma clave que player.js) ----------
 function loadProgress() { return safeJson(localStorage.getItem(`ws:${course.id}:progress`), { done: [], totalSeconds: 0, lastPlayed: null }) || {}; }
@@ -215,14 +217,14 @@ document.addEventListener('keydown', (e) => { if ($('#quiz').hidden) return; if 
 // ---------- boot ----------
 (async () => {
   try {
+    // Todo en paralelo (una sola ida y vuelta) y la Ruta se pinta en cuanto llegan sus dos ficheros.
+    const rest = Promise.all([getJson('./content/items.json'), getJson('./content/pills.json'), getJson('./content/tables.json'), getJson('./content/scenes.json').catch(() => ({})), getJson('./content/audio-map.json').catch(() => ({}))]);
     [course, curriculum] = await Promise.all([getJson('./course.json'), getJson('./content/curriculum.json')]);
-    const [it, pi, ta] = await Promise.all([getJson('./content/items.json'), getJson('./content/pills.json'), getJson('./content/tables.json')]);
-    items = it.items; pills = pi.pills; tables = ta.tables;
-    try { scenes = (await getJson('./content/scenes.json')).scenes || {}; } catch (_e) { scenes = {}; }
-    try { audioMap = await getJson('./content/audio-map.json'); } catch (_e) { audioMap = {}; }
+    $('#courseTitle').textContent = course.shortTitle || course.title;
+    renderRoute();
+    const [it, pi, ta, sc, am] = await rest;
+    items = it.items; pills = pi.pills; tables = ta.tables; scenes = sc.scenes || {}; audioMap = am || {};
   } catch (error) { $('#app').innerHTML = `<p class="empty">No se ha podido cargar el curso (${error.message}).</p>`; return; }
-  $('#courseTitle').textContent = course.shortTitle || course.title;
-  renderRoute();
   renderPills($('#pillBar'), pickPill);
   renderPhrases();
   $('#phraseSearch').addEventListener('input', renderPhrases);
