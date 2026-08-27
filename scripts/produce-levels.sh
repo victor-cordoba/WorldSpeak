@@ -15,7 +15,7 @@ for n in $(seq "$FROM" "$TO"); do
 done
 python3 ../build_dictionary.py --course "$COURSE"
 python3 export_clips.py --course "$COURSE"
-cd "$ROOT" && scripts/deploy.sh | tail -1
+cd "$ROOT" && scripts/bump-version.sh "$COURSE" && scripts/deploy.sh | tail -1
 rsync -az "web/$COURSE/audio/" --exclude '_prueba*' PERSONAL_SERVER:~/domains/worldspeak.es/public_html/$COURSE/audio/
 rsync -az "web/$COURSE/clips/" PERSONAL_SERVER:~/domains/worldspeak.es/public_html/$COURSE/clips/
 echo "=========== FIN $(date +%H:%M) ==========="

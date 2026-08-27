@@ -153,6 +153,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Francia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8d904cdd9024c0eb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france",
+      "clip": "_clips/94339f4a347c65f4.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Francia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7ad38a74b4b8387d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france",
+      "clip": "_clips/797af1ab55ac541b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¿De dónde vienes?»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -249,46 +289,6 @@
       "translation_es": "No, no mucho.",
       "item": "non-pas-trop",
       "clip": "_clips/b884a20bd189aae5.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Eso es todo, gracias».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/2a13bfdd9ce1984a.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "C'est tout, merci.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Eso es todo, gracias.",
-      "item": "cest-tout",
-      "clip": "_clips/724be399288008e6.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Con tarjeta»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/fa4cef9d080232ed.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Par carte.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Con tarjeta.",
-      "item": "par-carte",
-      "clip": "_clips/e1076c09bdd4843d.mp3"
     },
     {
       "role": "narrator",
@@ -1283,6 +1283,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Te gusta Francia?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/8d904cdd9024c0eb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu aimes la France ?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Te gusta Francia?",
+      "item": "tu-aimes-la-france",
+      "clip": "_clips/94339f4a347c65f4.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me gusta Francia».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7ad38a74b4b8387d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'aime bien la France.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me gusta Francia.",
+      "item": "jaime-bien-la-france",
+      "clip": "_clips/797af1ab55ac541b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¿De dónde vienes?»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1614,9 +1654,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 11.9,
-    "chars": 4034,
-    "cues": 156,
+    "minutes_estimated": 12.3,
+    "chars": 4151,
+    "cues": 160,
     "mode": "lesson",
     "lesson": 10
   }

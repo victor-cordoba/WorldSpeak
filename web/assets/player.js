@@ -115,7 +115,8 @@ const transcriptCache = new Map();
 const done = new Set(progressState.done?.length ? progressState.done : JSON.parse(localStorage.getItem(`ws:${courseId}:done`) || '[]'));
 
 function srcFor(track) {
-  return audioBase + encodeURIComponent(track.file);
+  // ?v= con la versión del curso: la CDN cachea los MP3 y, si no, sirve audio viejo con texto nuevo
+  return `${audioBase}${encodeURIComponent(track.file)}?v=${assetVersion}`;
 }
 
 function copyFor(track) {
