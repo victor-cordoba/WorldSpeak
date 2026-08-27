@@ -153,6 +153,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en francés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6898cafeb8d6b734.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit",
+      "clip": "_clips/a05e0dc3b0f37315.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3a0f4b63b075cd89.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci",
+      "clip": "_clips/ccf102c986e16af9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -249,26 +289,6 @@
       "translation_es": "¡Encantado/a!",
       "item": "enchante",
       "clip": "_clips/0b4068d941da68df.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «De acuerdo».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/5bf1d6f58350cad3.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "D'accord.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "De acuerdo.",
-      "item": "daccord",
-      "clip": "_clips/6aedc91afd842218.mp3"
     },
     {
       "role": "narrator",
@@ -1313,6 +1333,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo se dice… en francés?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6898cafeb8d6b734.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Comment on dit… en français ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo se dice… en francés?",
+      "item": "comment-on-dit",
+      "clip": "_clips/a05e0dc3b0f37315.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «No hay problema».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/3a0f4b63b075cd89.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Pas de souci.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "No hay problema.",
+      "item": "pas-de-souci",
+      "clip": "_clips/ccf102c986e16af9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1624,9 +1684,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 12.6,
-    "chars": 4347,
-    "cues": 157,
+    "minutes_estimated": 13.2,
+    "chars": 4535,
+    "cues": 163,
     "mode": "lesson",
     "lesson": 9
   }
