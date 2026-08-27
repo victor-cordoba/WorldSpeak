@@ -66,12 +66,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 29. Relier les phrases.",
+      "text": "Lección veintinueve. Relier les phrases.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/368196434b416049.mp3"
+      "clip": "_clips/03f393176c9b88a5.mp3"
     },
     {
       "role": "narrator",
@@ -176,6 +176,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «El médico de cabecera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6c03598a2f81109b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant",
+      "clip": "_clips/ceaae3ca983535b0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me duele el estómago».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/66a86f6b07b71fa1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre",
+      "clip": "_clips/1c61c96ca1221527.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -272,46 +312,6 @@
       "translation_es": "¿Cómo te llamas?",
       "item": "tu-tappelles-comment",
       "clip": "_clips/4a12175f5846a361.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «El Padre Nuestro».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/fb857dd077067a9e.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Le Notre Père",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "El Padre Nuestro",
-      "item": "le-notre-pere",
-      "clip": "_clips/08a5d636ee430cf1.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «¿Has comido?»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/e3ce8669bc5f39fe.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Tu as mangé ?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Has comido?",
-      "item": "tu-as-mange",
-      "clip": "_clips/a8dcb94633e05eab.mp3"
     },
     {
       "role": "narrator",
@@ -1886,12 +1886,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «El médico de cabecera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/6c03598a2f81109b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Le médecin traitant",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "El médico de cabecera",
+      "item": "le-medecin-traitant",
+      "clip": "_clips/ceaae3ca983535b0.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Me duele el estómago».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/66a86f6b07b71fa1.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "J'ai mal au ventre.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Me duele el estómago.",
+      "item": "jai-mal-au-ventre",
+      "clip": "_clips/1c61c96ca1221527.mp3"
     },
     {
       "role": "narrator",
@@ -2297,9 +2337,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 16.3,
-    "chars": 5242,
-    "cues": 223,
+    "minutes_estimated": 16.8,
+    "chars": 5380,
+    "cues": 227,
     "mode": "lesson",
     "lesson": 29
   }

@@ -146,7 +146,7 @@ function playClip(text, button) {
   const src = audioMap[normText(text)];
   if (!src) return false;
   if (currentClip) { currentClip.pause(); }
-  currentClip = new Audio(`./${src}`);
+  currentClip = new Audio(`./${src}?v=${course.version || 0}`);
   button?.classList.add('is-playing');
   currentClip.addEventListener('ended', () => button?.classList.remove('is-playing'));
   currentClip.play().catch(() => button?.classList.remove('is-playing'));
