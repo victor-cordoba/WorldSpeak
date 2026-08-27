@@ -4,13 +4,31 @@
   "output_format": "mp3_44100_128",
   "roles": {
     "narrator": {
-      "provider": "fish",
-      "model": "s2.1-pro-free",
-      "voice_id": "85398a2a5ec24078aae24829fb03425d",
-      "name": "Narrador Nat Geo España (Fish, castellano)",
-      "voice_settings": {},
-      "tempo": 1.0,
-      "clean": false
+      "provider": "elevenlabs",
+      "model_id": "eleven_v3",
+      "voice_id": "OhisAd2u8Q6qSA4xXAAT",
+      "name": "Pablo Marshal (ElevenLabs v3, castellano)",
+      "language_code": "es",
+      "voice_settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.85,
+        "style": 0.3,
+        "use_speaker_boost": true
+      },
+      "tempo": 1.22,
+      "clean": false,
+      "tags": {
+        "*": "[speaking Spanish]"
+      },
+      "fallback": {
+        "provider": "fish",
+        "model": "s2.1-pro-free",
+        "voice_id": "85398a2a5ec24078aae24829fb03425d",
+        "name": "Narrador Nat Geo España (Fish, castellano) - suplencia",
+        "voice_settings": {},
+        "tempo": 1.0,
+        "clean": false
+      }
     },
     "native_m": {
       "provider": "fish",
