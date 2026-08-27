@@ -339,3 +339,8 @@ td.tl { font-family: var(--display); font-weight: 600; color: var(--blue); font-
 .level-stops .stop { position: relative; z-index: 1; }
 .level-stops .stop::before { z-index: 2; background-clip: padding-box; }
 .level-stops .stop.is-next::before { background: #fff; }
+/* Botón-icono (impresora en Tablas) */
+.btn-icon { display: inline-grid; place-items: center; width: 44px; height: 44px; padding: 0; border-radius: 14px; background: #fff; border: 2px solid var(--line); color: var(--muted); }
+.btn-icon svg { width: 22px; height: 22px; }
+.btn-icon:hover { color: var(--blue); border-color: var(--blue); }
+.btn-row { display: flex; gap: 10px; align-items: center; }
