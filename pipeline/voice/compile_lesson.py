@@ -229,7 +229,15 @@ class Compiler:
     def lesson(self, recipe):
         scene = self.scenes[recipe["scene"]]
         teach = recipe["teach"]
-        prev = list(recipe.get("recall_prev", []))
+        # Repaso inicial: primero lo de la lección ANTERIOR (lo más reciente), después algo más antiguo.
+        # Evita que los saludos de la lección 1 ("¿Cómo estás?") salgan siempre los primeros.
+        prev = [i for i in recipe.get("recall_prev", []) if i in self.items]
+        prev.sort(key=lambda i: -(self.items[i].get("lesson") or 0))
+        if recipe["lesson"] >= 4:
+            prev = [i for i in prev if (self.items[i].get("lesson") or 0) >= 2] + [i for i in prev if (self.items[i].get("lesson") or 0) < 2]
+        last = [i["id"] for i in self.items.values() if i.get("lesson") == recipe["lesson"] - 1 and not i.get("answer") and i["id"] not in prev]
+        if last:
+            prev = list(random.Random(3000 + recipe["lesson"]).sample(last, min(2, len(last)))) + prev
         # Recuerdo sorpresa (Pimsleur): dos ítems de lecciones ANTERIORES a la previa, elegidos con semilla fija
         older = [i["id"] for i in self.items.values() if isinstance(i.get("lesson"), int) and i["lesson"] <= recipe["lesson"] - 2 and not i.get("answer")]
         if older:

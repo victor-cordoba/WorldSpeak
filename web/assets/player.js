@@ -1010,11 +1010,19 @@ async function renderTranscript(track) {
 
   try {
     if (!transcriptCache.has(track.id)) {
-      const response = await fetch(`${transcriptsBase}${String(entry.enriched).replace(/^transcripts\//, '')}?v=${assetVersion}`, { cache: 'no-store' });
-      if (!response.ok) {
-        throw new Error(`Transcript HTTP ${response.status}`);
+      const url = `${transcriptsBase}${String(entry.enriched).replace(/^transcripts\//, '')}?v=${assetVersion}`;
+      let data = null;
+      for (let attempt = 0; attempt < 3 && !data; attempt += 1) {  // reintenta: en móvil a veces falla la primera petición
+        try {
+          const response = await fetch(url, { cache: attempt ? 'reload' : 'no-store' });
+          if (!response.ok) throw new Error(`Transcript HTTP ${response.status}`);
+          data = await response.json();
+        } catch (error) {
+          if (attempt === 2) throw error;
+          await new Promise((resolve) => setTimeout(resolve, 600 * (attempt + 1)));
+        }
       }
-      transcriptCache.set(track.id, await response.json());
+      transcriptCache.set(track.id, data);
     }
 
     if (currentId !== track.id) {
@@ -1042,8 +1050,9 @@ async function renderTranscript(track) {
   } catch (_error) {
     transcriptCount.textContent = '';
     transcriptCount.hidden = true;
-    transcriptSummary.textContent = 'No se ha podido cargar la transcripción.';
+    transcriptSummary.innerHTML = 'No se ha podido cargar el texto. <button type="button" class="transcript-retry">Reintentar</button>';
     transcriptSummary.hidden = false;
+    transcriptSummary.querySelector('.transcript-retry')?.addEventListener('click', () => { transcriptCache.delete(track.id); renderTranscript(track); });
   }
 }
 
