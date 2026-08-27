@@ -148,6 +148,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «En vuestra casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/af66bf5ce47cfdf7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous",
+      "clip": "_clips/8b627c7e9e6698e9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tu nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7701c900bbb4b6dc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom",
+      "clip": "_clips/dedd45df7e7b48a5.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -244,26 +284,6 @@
       "translation_es": "¿Cómo te llamas?",
       "item": "tu-tappelles-comment",
       "clip": "_clips/4a12175f5846a361.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¡Gracias».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/10349cb67fe6f5de.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Merci !",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¡Gracias!",
-      "item": "merci",
-      "clip": "_clips/b0f76023275a165b.mp3"
     },
     {
       "role": "narrator",
@@ -1508,6 +1528,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «En vuestra casa»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/af66bf5ce47cfdf7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Chez vous.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "En vuestra casa.",
+      "item": "chez-vous",
+      "clip": "_clips/8b627c7e9e6698e9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tu nombre es».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7701c900bbb4b6dc.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Ton nom est...",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tu nombre es...",
+      "item": "ton-nom",
+      "clip": "_clips/dedd45df7e7b48a5.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1849,9 +1909,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 12.8,
-    "chars": 3896,
-    "cues": 179,
+    "minutes_estimated": 13.3,
+    "chars": 4024,
+    "cues": 185,
     "mode": "lesson",
     "lesson": 4
   }

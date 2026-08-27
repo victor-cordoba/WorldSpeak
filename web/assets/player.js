@@ -100,7 +100,9 @@ let pendingSeekTime = null;
 let saveTimer = null;
 let lastListeningTick = null;
 let suppressNextMetadataPersist = false;
-const urlTrack = new URLSearchParams(location.search).get('track');
+const urlParams = new URLSearchParams(location.search);
+const urlTrack = urlParams.get('track');
+const urlTime = Math.max(0, Number(urlParams.get('t')) || 0);
 let currentId = (urlTrack && course.tracks.some((t) => t.id === urlTrack) ? urlTrack : null) || progressState.currentId || localStorage.getItem(`ws:${courseId}:current`) || tracks[0].id;
 let filter = 'all';
 let transcriptIndex = new Map();
@@ -397,7 +399,7 @@ function applyProgressState(nextState) {
       openTranscript: false,
       rememberSelection: false,
       persistPrevious: false,
-      position: Number(point?.position) || null
+      position: (urlTrack && urlTime > 0 && point?.id === urlTrack) ? urlTime : (Number(point?.position) || null)
     });
   }
   updateStats();
@@ -435,6 +437,9 @@ function applyPendingSeek() {
 
 function persistPlaybackProgress(options = {}) {
   const { sync = true } = options;
+  if (pendingSeekTime) {
+    return;  // aún no hemos saltado al minuto guardado: no machacar la posición con 0:00
+  }
   const track = trackById(currentId);
   const time = Math.max(0, Number(player.currentTime) || 0);
   const trackDuration = Number.isFinite(player.duration) && player.duration > 0
@@ -1553,6 +1558,11 @@ player.addEventListener('pause', () => {
   renderList();
 });
 
+player.addEventListener('canplay', applyPendingSeek);
+player.addEventListener('playing', () => {
+  // iOS a veces ignora currentTime puesto antes de reproducir: reintentar ya en marcha
+  if (pendingSeekTime) applyPendingSeek();
+});
 player.addEventListener('loadedmetadata', () => {
   applyPendingSeek();
   updateProgress();
@@ -1747,10 +1757,10 @@ updatePinDots();
 setPlayerVisible(false);
 selectTrack(currentId, false, {
   showPlayer: Boolean(urlTrack),
-  openTranscript: Boolean(urlTrack) && document.body.classList.contains('player-only'),
   openTranscript: false,
   rememberSelection: false,
-  persistPrevious: false
+  persistPrevious: false,
+  position: urlTrack && urlTime > 0 ? urlTime : null
 });
 loadTranscriptIndex().then(() => {
   if (urlTrack && document.body.classList.contains('player-only')) {

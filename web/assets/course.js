@@ -77,7 +77,7 @@ function renderRoute() {
   const pct = resume && p.lastPlayed.duration ? Math.min(99, Math.round((p.lastPlayed.position / p.lastPlayed.duration) * 100)) : 0;
   $('#nextMetaText').innerHTML = resume ? `<span class="hero-progress"><i style="width:${pct}%"></i></span> ${mm(p.lastPlayed.position)}` : `Nivel ${target.level} · 15 min${hasAudio.has(target.id) ? '' : ' · audio en preparación'}`;
   const pm = $('#practiceMeta'); if (pm) pm.textContent = `Lección ${target.lesson}`;
-  $('#nextLink').href = hasAudio.has(target.id) ? `./player.html?track=${target.id}` : '#frases';
+  $('#nextLink').href = hasAudio.has(target.id) ? `./player.html?track=${target.id}${resume ? `&t=${Math.floor(p.lastPlayed.position)}` : ''}` : '#frases';
   $('#nextLink').textContent = resume ? '▶ Continuar' : hasAudio.has(target.id) ? '▶ Empezar' : '💬 Ver las frases';
   if (!hasAudio.has(target.id)) $('#nextLink').addEventListener('click', (e) => { e.preventDefault(); showTab('frases'); });
   $('#nextPractice').onclick = () => practiceLesson(target.lesson);

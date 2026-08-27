@@ -153,6 +153,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/b9ea3084c4790f2d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment",
+      "clip": "_clips/4a12175f5846a361.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cce35f64e4f9daa7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante",
+      "clip": "_clips/0b4068d941da68df.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1233,6 +1273,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «¿Cómo te llamas?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/b9ea3084c4790f2d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Tu t'appelles comment ?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Cómo te llamas?",
+      "item": "tu-tappelles-comment",
+      "clip": "_clips/4a12175f5846a361.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¡Encantado/a».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/cce35f64e4f9daa7.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Enchanté(e) !",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Encantado/a!",
+      "item": "enchante",
+      "clip": "_clips/0b4068d941da68df.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «¡Hola»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -1524,9 +1604,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 10.1,
-    "chars": 3209,
-    "cues": 147,
+    "minutes_estimated": 10.8,
+    "chars": 3385,
+    "cues": 155,
     "mode": "lesson",
     "lesson": 2
   }
