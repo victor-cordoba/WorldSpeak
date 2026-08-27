@@ -91,6 +91,15 @@ def cue(role, text, kind, pause, lang=None, translation="", item=None):
     return {"role": role, "lang": lang or ("es" if role == "narrator" else "tl"), "text": text, "kind": kind, "pause": pause, "translation_es": translation, "item": item}
 
 
+NUM_ES = {1: "uno", 2: "dos", 3: "tres", 4: "cuatro", 5: "cinco", 6: "seis", 7: "siete", 8: "ocho", 9: "nueve", 10: "diez", 11: "once", 12: "doce", 13: "trece", 14: "catorce", 15: "quince", 16: "dieciséis", 17: "diecisiete", 18: "dieciocho", 19: "diecinueve", 20: "veinte", 21: "veintiuno", 22: "veintidós", 23: "veintitrés", 24: "veinticuatro", 25: "veinticinco", 26: "veintiséis", 27: "veintisiete", 28: "veintiocho", 29: "veintinueve", 30: "treinta"}
+
+
+def end_sentence(text):
+    """Cierra la frase con punto si el texto (dinámico) no trae puntuación final; si no, el narrador lo lee del tirón."""
+    text = text.strip()
+    return text if re.search(r"[.!?…]$", text) else text + "."
+
+
 class Compiler:
     def __init__(self, items, scenes, minutes, mode, seed=7, lang_code="tl", method=None):
         self.lang_code = lang_code
@@ -132,7 +141,8 @@ class Compiler:
 
     # --- bloques
     def intro(self, scene, recipe):
-        self.n(f"Lección {recipe['lesson']}. {re.sub(r'[.]+$', '', recipe['title'])}.", 0.6)
+        num = NUM_ES.get(int(recipe["lesson"]), str(recipe["lesson"]))  # en letra: Fish lee mal "Lección 1."
+        self.n(f"Lección {num}. {re.sub(r'[.]+$', '', recipe['title'])}.", 0.6)
         self.n(scene["setting"] + " Escucha la conversación.", 0.8)
         self.dialogue(scene)
 
@@ -141,7 +151,7 @@ class Compiler:
             self.cues.append(cue(line["role"], line["tl"], "dialogue", P["dialogue"], translation=line["es"]))
 
     def explain(self, recipe):
-        self.n(recipe["subtitle"] + " Al terminar, esta conversación la vas a hacer tú.", 0.8, "explanation")
+        self.n(end_sentence(recipe["subtitle"]) + " Al terminar, esta conversación la vas a hacer tú.", 0.8, "explanation")
 
     def recall(self, ids, label="Antes de empezar, repasemos."):
         if not ids:
