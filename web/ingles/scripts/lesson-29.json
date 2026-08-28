@@ -67,12 +67,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 29. Linking Words.",
+      "text": "Lección veintinueve. Linking Words.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/5e561c7a99685efb.mp3"
+      "clip": "_clips/fc3c61cf8385d292.mp3"
     },
     {
       "role": "narrator",
@@ -177,6 +177,46 @@
     {
       "role": "narrator",
       "lang": "es",
+      "text": "¿Cómo se dice «Tengo una cita con el médico de cabecera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c7450baaff1ae1b9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp",
+      "clip": "_clips/fdf974e8948ea44f.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo un resfriado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f46bd324f75f1c2d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold",
+      "clip": "_clips/5e3ad8b5b2d565b9.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
       "text": "¿Cómo se dice «Día encantador, ¿verdad?»?",
       "kind": "prompt",
       "pause": 4.0,
@@ -273,46 +313,6 @@
       "translation_es": "No está mal.",
       "item": "not-bad",
       "clip": "_clips/9d5165fe19996a7a.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Que Dios te bendiga».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/3a6c520c8af47553.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "God bless you.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Que Dios te bendiga.",
-      "item": "god-bless-you",
-      "clip": "_clips/269738ef967eb26e.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Invito yo»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/151146971f234053.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "It's on me.",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Invito yo.",
-      "item": "its-on-me",
-      "clip": "_clips/4a36c4e75bf188da.mp3"
     },
     {
       "role": "narrator",
@@ -1837,12 +1837,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Tengo una cita con el médico de cabecera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c7450baaff1ae1b9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I have an appointment with the GP.",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "Tengo una cita con el médico de cabecera.",
+      "item": "gp",
+      "clip": "_clips/fdf974e8948ea44f.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Tengo un resfriado».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/f46bd324f75f1c2d.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "I've got a cold.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Tengo un resfriado.",
+      "item": "ive-got-a-cold",
+      "clip": "_clips/5e3ad8b5b2d565b9.mp3"
     },
     {
       "role": "narrator",
@@ -2248,9 +2288,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 18.9,
-    "chars": 6670,
-    "cues": 218,
+    "minutes_estimated": 19.5,
+    "chars": 6867,
+    "cues": 222,
     "mode": "lesson",
     "lesson": 29
   }

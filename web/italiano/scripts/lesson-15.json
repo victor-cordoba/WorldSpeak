@@ -60,12 +60,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 15. Il bar: come un romano.",
+      "text": "Lección quince. Il bar: come un romano.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/003417c500342806.mp3"
+      "clip": "_clips/7c9ccc7f80acc567.mp3"
     },
     {
       "role": "narrator",
@@ -140,12 +140,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Aprende a pedir en el bar como un local Al terminar, esta conversación la vas a hacer tú.",
+      "text": "Aprende a pedir en el bar como un local. Al terminar, esta conversación la vas a hacer tú.",
       "kind": "explanation",
       "pause": 0.8,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/531a89552c6c9577.mp3"
+      "clip": "_clips/66fbe87447fa6db8.mp3"
     },
     {
       "role": "narrator",
@@ -156,6 +156,46 @@
       "translation_es": "",
       "item": null,
       "clip": "_clips/5e5594abf14e6357.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Escríbeme»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1182c20dc0e44b01.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scrivimi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escríbeme.",
+      "item": "scrivimi",
+      "clip": "_clips/87c527e7e016d25d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Dame el número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7204cdef87f277ae.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dammi il numero.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame el número.",
+      "item": "dammi-il-numero",
+      "clip": "_clips/eae331562be7de5e.mp3"
     },
     {
       "role": "narrator",
@@ -256,46 +296,6 @@
       "translation_es": "¡De nada!",
       "item": "prego",
       "clip": "_clips/a54bb82cc249f962.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Esta es mi casa».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/dff6b216a749f264.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Questa è casa mia",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Esta es mi casa",
-      "item": "questa-e-casa-mia",
-      "clip": "_clips/d1740685da0cd013.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Perdona / Perdone»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/8740c041b642aa7b.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Scusa / Scusi",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "Perdona / Perdone",
-      "item": "scusa-scusi",
-      "clip": "_clips/d4a8dbb4f8fceba7.mp3"
     },
     {
       "role": "narrator",
@@ -1620,12 +1620,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Escríbeme»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/1182c20dc0e44b01.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Scrivimi.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Escríbeme.",
+      "item": "scrivimi",
+      "clip": "_clips/87c527e7e016d25d.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Dame el número».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/7204cdef87f277ae.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Dammi il numero.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Dame el número.",
+      "item": "dammi-il-numero",
+      "clip": "_clips/eae331562be7de5e.mp3"
     },
     {
       "role": "narrator",
@@ -2001,9 +2041,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 16.1,
-    "chars": 5471,
-    "cues": 194,
+    "minutes_estimated": 16.4,
+    "chars": 5535,
+    "cues": 198,
     "mode": "lesson",
     "lesson": 15
   }

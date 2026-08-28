@@ -54,12 +54,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 28. At the Doctor's.",
+      "text": "Lección veintiocho. At the Doctor's.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/5823d04c56e91814.mp3"
+      "clip": "_clips/7ca717b968c0747d.mp3"
     },
     {
       "role": "narrator",
@@ -140,6 +140,46 @@
       "translation_es": "",
       "item": null,
       "clip": "_clips/5e5594abf14e6357.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día fuera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c32420a8d7466215.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A day out.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día fuera.",
+      "item": "a-day-out",
+      "clip": "_clips/c88d051d3d66989b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quién ha marcado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/72a23c9e32cb87eb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who scored?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "who-scored",
+      "clip": "_clips/181f481ba6afd33f.mp3"
     },
     {
       "role": "narrator",
@@ -240,46 +280,6 @@
       "translation_es": "No, no necesito un médico.",
       "item": "no-i-dont-need-a-doctor",
       "clip": "_clips/7f05a01efba86ad9.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «Vamos a la freiduría».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/30128bf0b8312181.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Let's go to the chippy.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Vamos a la freiduría.",
-      "item": "lets-go-to-the-chippy",
-      "clip": "_clips/5bac23a153138581.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «El Padrenuestro»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/9c1114ba98da609c.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "The Lord's Prayer",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "El Padrenuestro",
-      "item": "the-lords-prayer",
-      "clip": "_clips/f6066c720a2deb3c.mp3"
     },
     {
       "role": "narrator",
@@ -1464,12 +1464,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Un día fuera»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/c32420a8d7466215.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "A day out.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Un día fuera.",
+      "item": "a-day-out",
+      "clip": "_clips/c88d051d3d66989b.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Quién ha marcado?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/72a23c9e32cb87eb.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Who scored?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Quién ha marcado?",
+      "item": "who-scored",
+      "clip": "_clips/181f481ba6afd33f.mp3"
     },
     {
       "role": "narrator",
@@ -1815,9 +1855,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 14.4,
-    "chars": 5002,
-    "cues": 176,
+    "minutes_estimated": 14.7,
+    "chars": 5062,
+    "cues": 180,
     "mode": "lesson",
     "lesson": 28
   }

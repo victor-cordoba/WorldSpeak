@@ -6,3 +6,25 @@ DirectoryIndex index.html index.php
 <FilesMatch "^(\.gitignore|\.htaccess|.*\.md|.*\.sql|config\.php)$">
   Require all denied
 </FilesMatch>
+
+# Compresión (JSON de transcripciones, JS, CSS, SVG)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript application/x-javascript application/json image/svg+xml
+</IfModule>
+
+# Caché: los recursos van versionados con ?v=, así que pueden cachearse mucho tiempo.
+# Los JSON de curso cambian con cada regeneración y se piden con la versión nueva: 10 min de margen.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|svg|png|jpg|webp|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(mp3|m4a)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.json$">
+    Header set Cache-Control "public, max-age=600"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

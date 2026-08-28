@@ -59,12 +59,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 28. No médico e na farmácia.",
+      "text": "Lección veintiocho. No médico e na farmácia.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/677f7a15228dfedc.mp3"
+      "clip": "_clips/6cddd91c623cc1b6.mp3"
     },
     {
       "role": "narrator",
@@ -145,6 +145,46 @@
       "translation_es": "",
       "item": null,
       "clip": "_clips/5e5594abf14e6357.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la fiesta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/60b1b0cd5ee7bcac.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa",
+      "clip": "_clips/9fc7618ef9bdb71a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una ronda, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2cfc1802977f9e7b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada",
+      "clip": "_clips/d3bc62f762bc5f4f.mp3"
     },
     {
       "role": "narrator",
@@ -245,46 +285,6 @@
       "translation_es": "No, no estoy bien.",
       "item": "nao-estou-bem",
       "clip": "_clips/a60224ceb421591a.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¿Dónde hay fiesta hoy?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/0b9728c1108a339e.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Onde há fiesta hoje?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Dónde hay fiesta hoy?",
-      "item": "onde-ha-fiesta",
-      "clip": "_clips/df4e6adcd7755699.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Bacalao con nata, por favor»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/dd9b5ae925dba67e.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "Bacalhau com natas, por favor.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Bacalao con nata, por favor.",
-      "item": "bacalhau-com-natas",
-      "clip": "_clips/209a62fd76d66f0b.mp3"
     },
     {
       "role": "narrator",
@@ -1619,12 +1619,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¡Vamos a la fiesta»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/60b1b0cd5ee7bcac.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Bora à festa!",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¡Vamos a la fiesta!",
+      "item": "bora-festa",
+      "clip": "_clips/9fc7618ef9bdb71a.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «Una ronda, por favor».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/2cfc1802977f9e7b.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Uma rodada, por favor.",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Una ronda, por favor.",
+      "item": "uma-rodada",
+      "clip": "_clips/d3bc62f762bc5f4f.mp3"
     },
     {
       "role": "narrator",
@@ -1990,9 +2030,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 14.3,
-    "chars": 4683,
-    "cues": 193,
+    "minutes_estimated": 14.6,
+    "chars": 4763,
+    "cues": 197,
     "mode": "lesson",
     "lesson": 28
   }

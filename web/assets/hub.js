@@ -200,7 +200,7 @@ accountLogout.addEventListener('click', async () => {
 
 (async () => {
   try {
-    const response = await fetch('./courses.json?v=' + Date.now(), { cache: 'no-store' });
+    const response = await fetch('./courses.json?v=' + ((document.querySelector('script[src*="hub.js"]')?.src.match(/[?&]v=([^&]+)/) || [])[1] || Date.now()));
     courses = (await response.json()).courses || [];
   } catch (_error) {
     courses = [];

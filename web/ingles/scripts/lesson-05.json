@@ -63,12 +63,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 5. I'd like… I'm going to….",
+      "text": "Lección cinco. I'd like… I'm going to…",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/2f0c6cfacdfd3305.mp3"
+      "clip": "_clips/7a681a8dfc68677a.mp3"
     },
     {
       "role": "narrator",
@@ -149,6 +149,46 @@
       "translation_es": "",
       "item": null,
       "clip": "_clips/5e5594abf14e6357.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0196b22d1f4d64b2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube",
+      "clip": "_clips/dee915279c6ffb93.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/31101051a8901cd8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live",
+      "clip": "_clips/e992d9db29d15006.mp3"
     },
     {
       "role": "narrator",
@@ -249,46 +289,6 @@
       "translation_es": "¡Gracias!",
       "item": "cheers",
       "clip": "_clips/56223ac4a50efe38.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¿Cuál es tu afición?».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/d2919e86c3d61e48.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "What's your hobby?",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¿Cuál es tu afición?",
-      "item": "whats-your-hobby",
-      "clip": "_clips/d8e9b9dd15058d5b.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "¿Cómo se dice «Mi comida favorita es el pescado con patatas fritas»?",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/ce34d57fa7b3028f.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "My favourite food is fish and chips.",
-      "kind": "phrase",
-      "pause": 3.5,
-      "translation_es": "Mi comida favorita es el pescado con patatas fritas.",
-      "item": "my-favourite-food-is",
-      "clip": "_clips/843b6fcb6e844964.mp3"
     },
     {
       "role": "narrator",
@@ -1873,12 +1873,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «¿Dónde está la estación de metro?»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/0196b22d1f4d64b2.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where is the tube station?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde está la estación de metro?",
+      "item": "where-is-the-tube",
+      "clip": "_clips/dee915279c6ffb93.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde vives?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/31101051a8901cd8.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Where do you live?",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "¿Dónde vives?",
+      "item": "where-do-you-live",
+      "clip": "_clips/e992d9db29d15006.mp3"
     },
     {
       "role": "narrator",
@@ -2264,9 +2304,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 18.4,
-    "chars": 6088,
-    "cues": 220,
+    "minutes_estimated": 18.8,
+    "chars": 6171,
+    "cues": 224,
     "mode": "lesson",
     "lesson": 5
   }

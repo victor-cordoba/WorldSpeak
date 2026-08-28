@@ -55,12 +55,12 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "Lección 17. A carrinha e onde dormir.",
+      "text": "Lección diecisiete. A carrinha e onde dormir.",
       "kind": "instruction",
       "pause": 0.6,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/8c8ece0670c7abd7.mp3"
+      "clip": "_clips/bba7d838c1a04d73.mp3"
     },
     {
       "role": "narrator",
@@ -141,6 +141,46 @@
       "translation_es": "",
       "item": null,
       "clip": "_clips/5e5594abf14e6357.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy intermedio»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9b537fc40a09c06a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio",
+      "clip": "_clips/1c2b479cc43069b6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una tabla?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5b113071b1d37aa9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha",
+      "clip": "_clips/3fcece0f082cc835.mp3"
     },
     {
       "role": "narrator",
@@ -241,26 +281,6 @@
       "translation_es": "Eres mayor.",
       "item": "es-velho",
       "clip": "_clips/17b34f6e25f488e9.mp3"
-    },
-    {
-      "role": "narrator",
-      "lang": "es",
-      "text": "Di: «¡Eres genial».",
-      "kind": "prompt",
-      "pause": 4.0,
-      "translation_es": "",
-      "item": null,
-      "clip": "_clips/d1359ee2e51395ca.mp3"
-    },
-    {
-      "role": "native_m",
-      "lang": "tl",
-      "text": "És fixe!",
-      "kind": "phrase",
-      "pause": 2.5,
-      "translation_es": "¡Eres genial!",
-      "item": "es-fixe",
-      "clip": "_clips/c26f4c9b91977668.mp3"
     },
     {
       "role": "narrator",
@@ -1465,12 +1485,52 @@
     {
       "role": "narrator",
       "lang": "es",
-      "text": "",
+      "text": ".",
       "kind": "instruction",
       "pause": 0.5,
       "translation_es": "",
       "item": null,
-      "clip": "_clips/1aa912b7580094f8.mp3"
+      "clip": "_clips/0752a2f2e8a6d2ac.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "¿Cómo se dice «Soy intermedio»?",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/9b537fc40a09c06a.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Sou intermédio",
+      "kind": "phrase",
+      "pause": 2.5,
+      "translation_es": "Soy intermedio",
+      "item": "sou-intermedio",
+      "clip": "_clips/1c2b479cc43069b6.mp3"
+    },
+    {
+      "role": "narrator",
+      "lang": "es",
+      "text": "Di: «¿Dónde puedo alquilar una tabla?».",
+      "kind": "prompt",
+      "pause": 4.0,
+      "translation_es": "",
+      "item": null,
+      "clip": "_clips/5b113071b1d37aa9.mp3"
+    },
+    {
+      "role": "native_m",
+      "lang": "tl",
+      "text": "Onde posso alugar uma prancha?",
+      "kind": "phrase",
+      "pause": 3.5,
+      "translation_es": "¿Dónde puedo alquilar una tabla?",
+      "item": "onde-alugar-prancha",
+      "clip": "_clips/3fcece0f082cc835.mp3"
     },
     {
       "role": "narrator",
@@ -1796,9 +1856,9 @@
   "_meta": {
     "compiler": "compile_lesson.py",
     "minutes_target": 15,
-    "minutes_estimated": 15.5,
-    "chars": 5661,
-    "cues": 174,
+    "minutes_estimated": 16.2,
+    "chars": 5871,
+    "cues": 180,
     "mode": "lesson",
     "lesson": 17
   }
